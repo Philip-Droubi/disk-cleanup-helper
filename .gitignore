@@ -1,0 +1,53 @@
+# Disk Cleanup Helper: files that never go to the public repository.
+# A line starting with / matches from the repository root only.
+
+# Built exe and zip: people download them from GitHub Releases, not from the code
+/builds/
+/obj/
+*.exe
+*.zip
+
+# Private notes: plans and instructions for AI assistants
+/docs/plans/
+/ai/
+/.claude/
+
+# Code signing: certificate files and the file that holds the password
+/signing.txt
+*.pfx
+*.p12
+*.snk
+*.key
+*.pem
+
+# Source code: stays private until the app is open source (PUBLISH-PLAN.md, section 11).
+# Delete this block on that day.
+/src/
+/tools/
+/build.cmd
+/build.ps1
+/version.txt
+/signing.example.txt
+/release-notes.txt
+/docs/DEVELOPING.md
+
+# Website (Next.js, in website/): installed packages and build output
+/website/node_modules/
+/website/.next/
+/website/out/
+/website/next-env.d.ts
+*.tsbuildinfo
+.env*
+npm-debug.log*
+
+# Windows, editors and scratch files
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.tmp
+*.bak
+*.log
