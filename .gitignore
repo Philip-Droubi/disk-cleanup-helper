@@ -31,14 +31,9 @@
 /release-notes.txt
 /docs/DEVELOPING.md
 
-# Website (Next.js, in website/): installed packages and build output
-/website/node_modules/
-/website/.next/
-/website/out/
-/website/next-env.d.ts
-*.tsbuildinfo
-.env*
-npm-debug.log*
+# Website (Next.js, in website/): its code stays on this PC. Only the built pages go to GitHub, on the gh-pages
+# branch ("npm run deploy" in website/, which build.cmd -Publish also runs after a release)
+/website/
 
 # Windows, editors and scratch files
 Thumbs.db
@@ -51,3 +46,6 @@ desktop.ini
 *.tmp
 *.bak
 *.log
+
+# Design mock-ups made while planning (brainstorming companion)
+/.superpowers/
