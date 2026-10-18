@@ -8,11 +8,9 @@
 See what fills your disks, clean caches and leftovers, and check your disks' health.
 Nothing is deleted until you confirm.
 
-**[Download for Windows](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest)**
+**[Download for Windows](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest/download/DiskCleanupHelper.zip)**
 
-Free · One small file · 18 languages · Light and dark
-
-*The first release (1.0) is coming soon.*
+Free · One small file · 18 languages · Light and dark · [What's new](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest)
 
 </div>
 
