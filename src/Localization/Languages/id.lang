@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - id
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Bahasa Indonesia
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+id: Tidak dapat menjalankan {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+id: juga {0}
+en: GRAPHICS
+id: GRAFIS
+en: Wireless (Miracast)
+id: Nirkabel (Miracast)
+en: Built-in screen
+id: Layar bawaan
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+id: Driver ini dari {0}. Driver yang lebih baru dari pembuat PC atau pembuat chip dapat memperbaiki crash, layar biru, dan masalah tampilan.
+en: {0} × {1} at {2} Hz
+id: {0} × {1} pada {2} Hz
+en: Showing now
+id: Sedang ditampilkan
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+id: Windows melaporkan masalah pada perangkat ini (kode {0}). Instal ulang drivernya dari situs web pembuat PC atau pembuat chip.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+id: Belum ada driver grafis yang sesuai. Instal driver dari pembuat PC atau pembuat chip grafis agar gambar lebih tajam dan cepat.
+en: Screens
+id: Layar
+en: Made in
+id: Dibuat pada
+en: Connection
+id: Koneksi
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+id: Data kesehatan, suhu, dan SMART ada di tab Kesehatan disk dan Detail SMART.
+en: Storage
+id: Penyimpanan
+en: {0} inches
+id: {0} inci
+en: {0}  (main screen)
+id: {0}  (layar utama)
+en: Screen {0}
+id: Layar {0}
+en: Refresh rate
+id: Kecepatan refresh
+en: Resolution
+id: Resolusi
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+id: Memori hampir penuh saat ini ({0}% terpakai). Tutup program yang tidak Anda perlukan. PC yang kehabisan memori menjadi lambat dan bisa crash.
+en: Part number
+id: Nomor komponen
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+id: PC ini melaporkan ada slot memori kosong. Menambah keping memori dengan jenis yang sama ({0}) biasanya cara murah untuk membuatnya lebih cepat.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+id: {0} tergolong kecil untuk Windows 10 dan 11 saat ini. 8 GB atau lebih membuat perbedaan besar.
+en: Size
+id: Ukuran
+en: Memory promised to programs
+id: Memori yang dijanjikan ke program
+en: None. Programs can crash when the memory is full.
+id: Tidak ada. Program bisa crash saat memori penuh.
+en: Module {0}
+id: Modul {0}
+en: {0} GB of {1} GB  (memory plus page file)
+id: {0} GB dari {1} GB  (memori ditambah file halaman)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+id: PC ini melaporkan ada slot memori kosong. Menambah keping memori dengan jenis yang sama biasanya cara murah untuk membuatnya lebih cepat.
+en: 4 GB or more
+id: 4 GB atau lebih
+en: Graphics
+id: Grafis
+en: Driver
+id: =
+en: Graphics memory
+id: Memori grafis
+en: {0}% in use now
+id: {0}% terpakai sekarang
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+id: Kedua slot memori sudah terpakai. Untuk menambah memori, ganti keping memori dengan yang lebih besar ({0}). Total 16 GB adalah ukuran yang baik saat ini.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+id: Satu-satunya slot memori sudah terpakai. Untuk menambah memori, ganti keping memori dengan yang lebih besar ({0}). Total 16 GB adalah ukuran yang baik saat ini.
+en: MEMORY
+id: MEMORI
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+id: Semua {0} slot memori sudah terpakai. Untuk menambah memori, ganti keping memori dengan yang lebih besar ({1}). Total 16 GB adalah ukuran yang baik saat ini.
+en: Adapter
+id: Adaptor
+en: Network adapters
+id: Adaptor jaringan
+en: connected at {0}
+id: terhubung pada {0}
+en: turned off
+id: dinonaktifkan
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+id: Baterai hanya menampung {0}% dari kapasitasnya saat masih baru. Baterai baru memberi waktu jauh lebih lama tanpa pengisi daya.
+en: Lithium-ion
+id: Litium-ion
+en: Kind
+id: Jenis
+en: Nickel-metal hydride
+id: Nikel-metal hidrida
+en: Lithium-polymer
+id: Litium-polimer
+en: connected
+id: terhubung
+en: {0} minutes
+id: {0} menit
+en: {0}  ·  Windows reports a problem (code {1})
+id: {0}  ·  Windows melaporkan masalah (kode {1})
+en: {0} days
+id: {0} hari
+en: {0} hours
+id: {0} jam
+en: Built in
+id: Bawaan
+en: Sound
+id: Suara
+en: not connected
+id: tidak terhubung
+en: Through the screen (HDMI or DisplayPort)
+id: Melalui layar (HDMI atau DisplayPort)
+en: Added by a program
+id: Ditambahkan oleh program
+en: Battery
+id: Baterai
+en: All disks together
+id: Semua disk digabung
+en: plugged in, charging
+id: tersambung, mengisi daya
+en: on battery
+id: memakai baterai
+en: drive {0}
+id: =
+en: Storage class memory
+id: Memori kelas penyimpanan
+en: Hard disk
+id: =
+en: Disk {0}
+id: =
+en: SD card
+id: Kartu SD
+en: plugged in, full
+id: tersambung, penuh
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+id: {0}%  (menampung {1} Wh, saat baru {2} Wh)
+en: Battery health
+id: Kesehatan baterai
+en: Charge cycles
+id: Siklus pengisian
+en: Start the tool with admin rights to read it
+id: Jalankan alat ini dengan hak admin untuk membacanya
+en: {0} h {1} min  (Windows' estimate)
+id: {0} jam {1} menit  (perkiraan Windows)
+en: Charge now
+id: Isi baterai saat ini
+en: plugged in
+id: tersambung
+en: Time left
+id: Sisa waktu
+en: {0}%, {1}
+id: =
+en: , size set by hand
+id: , ukuran diatur manual
+en: Server
+id: =
+en: Desktop
+id: =
+en: Windows
+id: =
+en: Workstation
+id: =
+en: All-in-one
+id: =
+en: Laptop that folds into a tablet (2-in-1)
+id: Laptop yang bisa dilipat menjadi tablet (2-in-1)
+en: Laptop
+id: =
+en: Tablet
+id: =
+en: Tablet with a detachable keyboard (2-in-1)
+id: Tablet dengan keyboard yang bisa dilepas (2-in-1)
+en: Edition
+id: Edisi
+en: Last update installed
+id: Pembaruan terakhir diinstal
+en: Installed or last big update
+id: Diinstal atau pembaruan besar terakhir
+en: Running since
+id: Berjalan sejak
+en: {0}  ({1})
+id: =
+en: 32-bit
+id: =
+en: Build
+id: =
+en: Version
+id: Versi
+en: 64-bit
+id: =
+en: 64-bit, for ARM processors
+id: 64-bit, untuk prosesor ARM
+en: Computer name
+id: Nama komputer
+en: Type
+id: Tipe
+en: BIOS
+id: =
+en: Motherboard
+id: =
+en: Model
+id: =
+en: Read on {0}
+id: Dibaca pada {0}
+en: Device details
+id: Detail perangkat
+en: Maker
+id: Pembuat
+en: This PC
+id: PC ini
+en: Start-up mode
+id: Mode startup
+en: Not found, or turned off in the BIOS
+id: Tidak ditemukan, atau dinonaktifkan di BIOS
+en: Security chip (TPM)
+id: Chip keamanan (TPM)
+en: TPM {0}, turned off
+id: TPM {0}, dinonaktifkan
+en: TPM {0}, on
+id: TPM {0}, aktif
+en: Not available with Legacy BIOS
+id: Tidak tersedia dengan Legacy BIOS
+en: Secure Boot
+id: =
+en: Legacy BIOS
+id: =
+en: Off
+id: Nonaktif
+en: On
+id: Aktif
+en: Soldered on the board
+id: Disolder di papan
+en: SO-DIMM (laptop size)
+id: SO-DIMM (ukuran laptop)
+en: Installed
+id: Terpasang
+en: Memory (RAM)
+id: Memori (RAM)
+en: DIMM (desktop size)
+id: DIMM (ukuran desktop)
+en: Off in the BIOS
+id: Nonaktif di BIOS
+en: On in the BIOS
+id: Aktif di BIOS
+en: PROCESSOR
+id: PROSESOR
+en: Socket
+id: Soket
+en: {0}  ({1} GB usable by Windows)
+id: {0}  ({1} GB dapat digunakan Windows)
+en: {0}, {1}  ({2} in use, highest {3})
+id: {0}, {1}  ({2} terpakai, tertinggi {3})
+en: {0} of {1} used
+id: {0} dari {1} terpakai
+en: , size managed by Windows
+id: , ukuran dikelola Windows
+en: Page file
+id: File halaman
+en: Memory slots
+id: Slot memori
+en: {0} GB of {1} GB  ({2}%)
+id: {0} GB dari {1} GB  ({2}%)
+en: In use now
+id: Terpakai sekarang
+en: Module type
+id: Tipe modul
+en: Type and speed
+id: Tipe dan kecepatan
+en: WINDOWS
+id: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+id: Windows sudah berjalan selama {0} hari tanpa dimulai ulang. Mematikan PC tidak memulai ulang Windows sepenuhnya saat Mulai cepat aktif, jadi sesekali gunakan Mulai ulang: ini menyelesaikan pembaruan dan mengosongkan memori.
+en: Processor
+id: Prosesor
+en: build {0}
+id: =
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+id: Windows belum menginstal pembaruan sejak {0}. Buka Pengaturan > Windows Update dan periksa pembaruan: pembaruan menutup celah keamanan dan memperbaiki crash.
+en: Region format
+id: Format regional
+en: Display language
+id: Bahasa tampilan
+en: DirectX
+id: =
+en: Time zone
+id: Zona waktu
+en: Name
+id: Nama
+en: Busy right now
+id: Sibuk saat ini
+en: Cache
+id: =
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+id: Digunakan (oleh Hyper-V, WSL, Docker, atau fitur keamanan Windows)
+en: Virtualization
+id: Virtualisasi
+en: Base speed
+id: Kecepatan dasar
+en: Cores
+id: Inti
+en: Made by
+id: Dibuat oleh
+en: ({0} processors)
+id: ({0} prosesor)
+en: {0} cores, {1} threads
+id: {0} inti, {1} thread
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+id: (program tanpa nama)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+id: Khusus vendor
+en: {0} data errors were found on the SSD.
+id: Ditemukan {0} kesalahan data pada SSD.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+id: {0} sektor rusak telah diganti dengan sektor cadangan (dialokasikan ulang).
+en: The disk itself predicts that it will fail soon. Back up your files now.
+id: Disk ini sendiri memperkirakan akan segera rusak. Cadangkan file Anda sekarang.
+en: Failing
+id: Gagal
+en: OK (no limit)
+id: OK (tanpa batas)
+en: {0} sector reallocation events.
+id: {0} kejadian pengalokasian ulang sektor.
+en: The disk needed {0} retries to spin up.
+id: Disk memerlukan {0} kali percobaan ulang untuk mulai berputar.
+en: {0} internal data path errors.
+id: {0} kesalahan jalur data internal.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+id: Tercatat {0} kesalahan transfer antara disk dan PC. Biasanya ini berasal dari kabel yang longgar atau rusak dan tidak merusak disk.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+id: {0} sektor tidak stabil dan menunggu diperiksa (pending). Simpan cadangan file Anda dan pantau apakah angka ini bertambah.
+en: {0} sectors could not be read or fixed (uncorrectable).
+id: {0} sektor tidak dapat dibaca atau diperbaiki (uncorrectable).
+en: {0} read errors the disk could not correct.
+id: {0} kesalahan baca yang tidak dapat diperbaiki oleh disk.
+en: Warning flags set
+id: Tanda peringatan aktif
+en: Hot
+id: Panas
+en: Below threshold
+id: Di bawah ambang batas
+en: Windows reports a warning for this disk.
+id: Windows melaporkan peringatan untuk disk ini.
+en: Windows reports this disk as unhealthy.
+id: Windows melaporkan disk ini tidak sehat.
+en: OK
+id: =
+en: Near end of rated life
+id: Mendekati akhir masa pakai
+en: The SSD has switched to read-only mode to protect your data.
+id: SSD telah beralih ke mode hanya-baca untuk melindungi data Anda.
+en: The SSD reports that it has been too hot.
+id: SSD melaporkan bahwa suhunya pernah terlalu panas.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+id: Atribut SMART {0} berada di bawah batas amannya. Cadangkan file Anda sekarang.
+en: Watch
+id: Pantau
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+id: Ruang cadangan di bawah tingkat aman (tersisa {0}%). Cadangkan file Anda sekarang.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+id: SSD melaporkan bahwa keandalannya menurun. Cadangkan file Anda sekarang.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+id: Apa arti persentase kesehatan?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+id: Ini adalah perkiraan dari data pemantauan mandiri milik disk itu sendiri (SMART, atau log kesehatan pada SSD NVMe). 100% berarti tidak ditemukan masalah atau keausan. Angkanya disetel agar mendekati alat seperti Hard Disk Sentinel, tetapi setiap alat memakai rumusnya sendiri, jadi angkanya bisa sedikit berbeda.
+en: Why does the Windows folder look so big in Analyze disk?
+id: Mengapa folder Windows terlihat sangat besar di Analisis disk?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+id: Windows menyimpan beberapa file di dua tempat sekaligus, sehingga file tersebut terhitung dua kali saat ukuran dijumlahkan. Ukuran sebenarnya lebih kecil. Jangan pernah menghapus apa pun di folder Windows secara manual.
+en: My SSD shows less than 100% health. Should I worry?
+id: SSD saya menunjukkan kesehatan di bawah 100%. Apakah saya perlu khawatir?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+id: Itu adalah titik kecil yang tidak dapat dibaca disk dengan andal. Sektor yang dialokasikan ulang sudah diganti dengan sektor cadangan. Sektor pending sedang menunggu diperiksa. Beberapa sektor seperti ini umum pada disk lama. Jika angkanya terus bertambah, cadangkan file Anda dan pertimbangkan untuk mengganti disk.
+en: What temperature is normal for a disk?
+id: Berapa suhu yang normal untuk disk?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+id: SSD sedikit aus setiap kali menulis data, dan nilai kesehatan menunjukkan seberapa banyak masa pakai tulis yang ditetapkan sudah terpakai. Banyak SSD tetap bekerja baik jauh melewati batas yang ditetapkan. Simpan cadangan, dan rencanakan penggantian SSD saat kesehatannya rendah atau muncul masalah.
+en: What are pending and reallocated sectors?
+id: Apa itu sektor pending dan sektor yang dialokasikan ulang?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+id: Cache terisi lagi saat Anda memakai browser dan aplikasi, Windows mengunduh pembaruan baru, dan saat memori hampir habis Windows memperbesar file halamannya. Membersihkan lagi setiap beberapa minggu, mengaktifkan Storage Sense, dan menutup program yang tidak dipakai membuatnya tetap terkendali.
+en: Is it safe to clean what this app suggests?
+id: Apakah aman membersihkan yang disarankan aplikasi ini?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+id: Item di grup "Aman dibersihkan" adalah cache dan file sementara yang dibuat ulang sendiri oleh program. Item di "Keputusan Anda" menghapus sesuatu yang kecil, jadi baca dulu. Item bertanda "Hanya info" tidak pernah dihapus oleh aplikasi; aplikasi hanya menampilkannya dan membuka lokasinya.
+en: It never follows folder links into other folders.
+id: Aplikasi ini tidak pernah mengikuti tautan folder ke folder lain.
+en: Will cleaning my browser cache log me out of websites?
+id: Apakah membersihkan cache browser akan membuat saya keluar dari situs web?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+id: File yang sedang digunakan dilewati. Pembersihan file sementara menyimpan file dari satu hari terakhir. Dan pembersihan komponen Windows hanya bisa diukur saat berjalan. Log di bagian bawah menunjukkan dengan tepat apa yang dihapus.
+en: Why does my free space go down again after cleaning?
+id: Mengapa ruang kosong saya berkurang lagi setelah dibersihkan?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+id: Tidak. Pembersihan cache mempertahankan cookie, kata sandi tersimpan, bookmark, dan riwayat. Sangat jarang, situs mungkin meminta Anda masuk lagi, dan browser Anda mengisikan kata sandi yang tersimpan.
+en: Why did I get back less space than the size shown?
+id: Mengapa ruang yang kembali lebih sedikit daripada ukuran yang ditampilkan?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+id: Buka tab Detail perangkat. Tab ini menampilkan apa yang ditampilkan Alat Diagnostik DirectX (dxdiag) Windows, ditambah slot memori, file halaman, layar, dan kesehatan baterai. Klik "Salin semua" atau "Simpan sebagai file teks" untuk mengirim detailnya ke orang yang membantu Anda.
+en: Where are my history files saved?
+id: Di mana file riwayat saya disimpan?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+id: Hibernasi menyimpan file sebesar sebagian memori Anda agar PC bisa melanjutkan dari posisi terakhir. Penyimpanan Cadangan adalah sekitar 7 GB yang disisihkan Windows untuk pembaruan. CompactOS menyimpan file Windows dalam bentuk terkompresi. Masing-masing bisa mengosongkan beberapa GB, dan masing-masing bisa dikembalikan nanti.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+id: Di mana saya bisa melihat detail PC, seperti versi Windows, prosesor, memori, dan grafis?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+id: Di folder pengguna Anda: %LOCALAPPDATA%\DiskCleanupHelper. Folder ini berisi riwayat pembersihan, riwayat kesehatan dan suhu disk, serta hasil uji kecepatan. Buka dari tab Tentang dan Kesehatan disk.
+en: How do I uninstall it?
+id: Bagaimana cara mencopot pemasangannya?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+id: Pengaturan > Aplikasi > Disk Cleanup Helper > Copot pemasangan, atau tombol Copot pemasangan di tab Tentang. Jika Anda tidak pernah menginstalnya, cukup hapus file programnya.
+en: Does the app send any of my data anywhere?
+id: Apakah aplikasi ini mengirim data saya ke mana pun?
+en: What are hibernation, Reserved Storage and CompactOS?
+id: Apa itu hibernasi, Penyimpanan Cadangan, dan CompactOS?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+id: Hak admin diperlukan untuk membersihkan file sementara dan file pembaruan milik Windows serta untuk membaca data kesehatan disk. Jika Anda mengklik Tidak, aplikasi tetap berjalan, dan item yang memerlukan hak admin berwarna abu-abu.
+en: Why does Windows say "Windows protected your PC"?
+id: Mengapa Windows menampilkan "Windows melindungi PC Anda"?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+id: Hard disk biasanya bekerja pada 25 hingga 45 °C. SSD biasanya bekerja pada 30 hingga 60 °C, dan SSD NVMe bisa mencapai 70 °C saat beban berat. Suhu yang terus-menerus lebih tinggi memperpendek umur disk.
+en: Why does the app ask for admin rights?
+id: Mengapa aplikasi meminta hak admin?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+id: Windows menampilkan ini untuk program baru yang belum dikenalnya. Klik "Info selengkapnya", lalu "Tetap jalankan". Peringatan ini hilang selamanya setelah program ditandatangani dan dikenal oleh Microsoft.
+en: Does the speed test harm my disk?
+id: Apakah uji kecepatan merusak disk saya?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+id: Tidak. Uji ini menulis satu file uji sementara berukuran 512 MB hingga 1 GB, membacanya kembali, lalu menghapusnya. Itu lebih sedikit daripada pemakaian sehari-hari yang normal.
+en: Can I undo a cleanup?
+id: Bisakah saya membatalkan pembersihan?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+id: File yang dihapus oleh tab Bersihkan tidak masuk ke Keranjang Sampah, sehingga tidak dapat dipulihkan. File yang Anda pindahkan ke Keranjang Sampah dari tab Analisis disk dapat dipulihkan sampai Anda mengosongkan Keranjang Sampah. Pengaturan Windows dapat dikembalikan; lihat Panduan di tab Tentang.
+en: Tidy your Downloads folder
+id: Rapikan folder Unduhan
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+id: Penginstal dan unduhan lama menumpuk. Urutkan folder berdasarkan ukuran dan hapus yang tidak Anda perlukan lagi.
+en: Let cloud files stay in the cloud
+id: Biarkan file cloud tetap di cloud
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+id: Dengan OneDrive, klik kanan folder dan pilih "Kosongkan ruang". File tetap terlihat tetapi baru diunduh saat Anda membukanya.
+en: Close programs you are not using
+id: Tutup program yang tidak Anda gunakan
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+id: Memulai ulang mengosongkan memori, menyelesaikan pembaruan, dan membuat Windows mengecilkan file halamannya kembali ke normal.
+en: Turn off apps you do not need at startup
+id: Matikan aplikasi startup yang tidak Anda perlukan
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+id: Saat memori habis, Windows memperbesar file halamannya, yang memakai ruang disk dan bisa membuat program crash.
+en: Restart your PC now and then
+id: Mulai ulang PC Anda sesekali
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+id: Video, foto, dan unduhan lama bisa disimpan di drive lain, disk eksternal, atau penyimpanan cloud.
+en: Empty the Recycle Bin
+id: Kosongkan Keranjang Sampah
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+id: File yang Anda hapus masih memakai ruang sampai Keranjang Sampah dikosongkan. Periksa sesekali.
+en: Turn on Storage Sense
+id: Aktifkan Storage Sense
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+id: Windows dapat menghapus file sementara dan item lama di Keranjang Sampah dengan sendirinya. Pengaturan > Sistem > Penyimpanan > Storage Sense.
+en: Uninstall what you no longer use
+id: Copot pemasangan yang tidak Anda gunakan lagi
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+id: Saat drive Windows hampir penuh, Windows melambat dan pembaruan bisa gagal diinstal.
+en: Move big personal files
+id: Pindahkan file pribadi yang besar
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+id: Game dan program lama sering kali memakai ruang paling banyak. Pengaturan > Aplikasi, lalu urutkan daftar berdasarkan ukuran.
+en: Keep 10 to 15 percent free
+id: Sisakan 10 hingga 15 persen kosong
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+id: Folder seperti Windows, WinSxS, dan Installer merusak Windows jika dibersihkan secara manual. Gunakan tab Bersihkan sebagai gantinya.
+en: Nothing is deleted until you select it and confirm.
+id: Tidak ada yang dihapus sampai Anda memilihnya dan mengonfirmasi.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+id: Disk bisa rusak tanpa peringatan. Simpan salinan file penting di drive lain atau di cloud.
+en: Never delete Windows files by hand
+id: Jangan pernah menghapus file Windows secara manual
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+id: Item pembersihan hanya menyentuh cache, file sementara, dan file pembaruan lama. Dokumen, foto, musik, video, desktop, dan unduhan Anda tidak pernah dibersihkan secara otomatis.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+id: Aplikasi memperingatkan Anda jika memori PC hampir habis sebelum menghitung ukuran, memindai, atau membersihkan.
+en: Windows and program files are protected in the Analyze disk tab.
+id: File Windows dan file program dilindungi di tab Analisis disk.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+id: Item cache browser dan aplikasi tetap menyimpan kata sandi, bookmark, riwayat, dan login Anda.
+en: It asks you to close a browser or app before cleaning its cache.
+id: Aplikasi meminta Anda menutup browser atau aplikasi sebelum membersihkan cache-nya.
+en: Back up what matters
+id: Cadangkan yang penting
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+id: SSD tidak memerlukannya. "Optimalkan drive" di Windows mengetahui perbedaannya, jadi biarkan berjalan sesuai jadwal otomatisnya.
+en: Check disk health once a month
+id: Periksa kesehatan disk sebulan sekali
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+id: Makin sedikit aplikasi yang berjalan bersama Windows, makin cepat startup dan makin banyak memori kosong. Pengelola Tugas > Aplikasi startup.
+en: Do not defragment an SSD
+id: Jangan defragmentasi SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+id: Buka tab Kesehatan disk. Setiap kunjungan menyimpan satu pembacaan, sehingga grafik riwayat menunjukkan jika ada perubahan.
+en: Keep your PC cool
+id: Jaga PC Anda tetap dingin
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+id: Panas memperpendek umur disk. Hard disk sebaiknya tetap di bawah sekitar 50 °C dan SSD di bawah sekitar 70 °C. Jaga lubang ventilasi tetap bersih.
+en: Watch for growing bad sectors
+id: Waspadai sektor rusak yang bertambah
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+id: Beberapa sektor yang dialokasikan ulang atau pending itu umum. Jika jumlahnya terus bertambah, buat cadangan dan rencanakan penggantian disk.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+id: Penginstalan gagal:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+id: Hapus Disk Cleanup Helper dari PC ini?<br><br>Riwayat pembersihan Anda tetap ada di:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+id: Disk Cleanup Helper telah dihapus dari PC ini.
+en: Free up disk space safely
+id: Kosongkan ruang disk dengan aman
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+id: Tidak dapat menyalin program. Jika Disk Cleanup Helper yang terinstal sedang terbuka, tutup dulu lalu coba lagi.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+id: Disk Cleanup Helper telah diinstal.<br><br>Buka dari menu Mulai atau pintasan desktop bernama Disk Cleanup Helper.<br><br>Untuk menghapusnya nanti: Pengaturan > Aplikasi > Disk Cleanup Helper > Copot pemasangan.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+id: Ukuran yang ditampilkan adalah Keranjang Sampah di drive Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+id: Mengosongkan Keranjang Sampah di setiap drive. Apa pun di dalamnya tidak dapat dipulihkan lagi.
+en: $Recycle.Bin on every drive
+id: $Recycle.Bin di setiap drive
+en: Turn off hibernation
+id: Matikan hibernasi
+en: Sleep still works normally.
+id: Tidur tetap berfungsi normal.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+id: Menghapus file hibernasi, yang sering berukuran beberapa GB. Hibernasi dan Mulai cepat berhenti berfungsi, sehingga PC menyala beberapa detik lebih lambat.
+en: PC starts a few seconds slower
+id: PC menyala beberapa detik lebih lambat
+en: Files in it are gone for good
+id: File di dalamnya hilang selamanya
+en: Crash dump files
+id: File crash dump
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+id: Pengaturan dan proyek Anda tetap ada. IDE mengindeks ulang proyek saat Anda membukanya lagi. Tutup IDE JetBrains terlebih dahulu.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+id: Cache IntelliJ IDEA, PyCharm, WebStorm, Rider, dan IDE JetBrains lainnya.
+en: Only needed to investigate crashes
+id: Hanya diperlukan untuk menyelidiki crash
+en: Recycle Bin (all drives)
+id: Keranjang Sampah (semua drive)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+id: Simpan file ini jika seseorang sedang menyelidiki penyebab PC Anda crash. Jika tidak, file ini aman dihapus.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+id: File yang ditulis Windows setelah layar biru atau masalah driver grafis. MEMORY.DMP saja bisa berukuran beberapa GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+id: Untuk membatalkannya nanti, jalankan ini di Prompt Perintah administrator:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+id: Mematikannya mengembalikan ruang tersebut, tetapi jika disk Anda penuh, pembaruan Windows bisa gagal. Lakukan ini hanya jika Anda selalu menyisakan cukup ruang kosong.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+id: Windows menyisihkan sekitar 7 GB agar pembaruan selalu punya ruang untuk diinstal.
+en: already off
+id: sudah nonaktif
+en: about 2-4 GB
+id: sekitar 2-4 GB
+en: Windows setting (Reserved Storage)
+id: Pengaturan Windows (Penyimpanan Cadangan)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+id: Untuk membatalkannya nanti, jalankan ini di Prompt Perintah administrator:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+id: hiberfil.sys adalah file Windows tersembunyi. Tidak ada yang bisa dibuka.
+en: Updates may fail when the disk is full
+id: Pembaruan bisa gagal saat disk penuh
+en: Turn off Reserved Storage
+id: Matikan Penyimpanan Cadangan
+en: about 7 GB
+id: sekitar 7 GB
+en: IDE re-indexes your projects
+id: IDE mengindeks ulang proyek Anda
+en: Spotify cache and downloads
+id: Cache dan unduhan Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+id: state.vscdb di folder yang sama menyimpan obrolan, login, dan pengaturan Anda. Alat ini tidak pernah menyentuhnya.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+id: Data kerja agen AI Cursor. Mungkin berisi riwayat obrolan agen yang lama.
+en: Downloaded songs must be downloaded again
+id: Lagu yang diunduh harus diunduh lagi
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+id: Akun dan playlist Anda aman, tetapi lagu yang Anda unduh untuk didengarkan offline harus diunduh lagi.
+en: Spotify keeps played and downloaded music here.
+id: Spotify menyimpan musik yang diputar dan diunduh di sini.
+en: {0} and Data
+id: {0} dan Data
+en: May hold old agent chat history
+id: Mungkin berisi riwayat obrolan agen yang lama
+en: Cursor: AI agent snapshots
+id: Cursor: snapshot agen AI
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+id: Hanya folder yang tidak berubah selama 60 hari yang dihapus. File proyek Anda sendiri tidak pernah disentuh.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+id: Setiap folder menyimpan apa yang diingat VS Code tentang satu proyek: tab yang terbuka, tata letak, dan riwayat obrolan AI untuk proyek tersebut.
+en: Cannot undo older AI edits
+id: Tidak bisa membatalkan edit AI yang lama
+en: Cursor: AI agent data
+id: Cursor: data agen AI
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+id: Anda tidak dapat lagi mengembalikan perubahan AI yang lama. Cursor membuat salinan baru saat Anda memakai agen lagi.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+id: Salinan proyek Anda yang dipakai agen AI Cursor untuk membatalkan editannya.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+id: Build berikutnya memerlukan internet dan lebih lama karena Gradle mengunduhnya lagi. Tutup Android Studio dan IDE Java lainnya terlebih dahulu.
+en: Downloaded libraries and build files for Java and Android projects.
+id: Library dan file build yang diunduh untuk proyek Java dan Android.
+en: Next build downloads everything again
+id: Build berikutnya mengunduh semuanya lagi
+en: Maven repository
+id: Repositori Maven
+en: JetBrains IDE caches and logs
+id: Cache dan log IDE JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+id: Build berikutnya memerlukan internet dan lebih lama karena Maven mengunduhnya lagi. Library yang Anda instal sendiri dengan "mvn install" perlu diinstal lagi.
+en: Downloaded Java libraries.
+id: Library Java yang diunduh.
+en: Gradle caches
+id: Cache Gradle
+en: Adobe media cache (Premiere, After Effects)
+id: Cache media Adobe (Premiere, After Effects)
+en: Close Spotify first.
+id: Tutup Spotify terlebih dahulu.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+id: Tips: di pengaturan Spotify Anda juga bisa mengatur ukuran cache yang lebih kecil atau memindahkannya ke drive lain.
+en: Video previews are rebuilt
+id: Pratinjau video dibuat ulang
+en: Close Adobe apps first.
+id: Tutup aplikasi Adobe terlebih dahulu.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+id: Proyek dan video Anda tidak disentuh. Membuka proyek untuk pertama kalinya setelah itu lebih lambat karena pratinjau dibuat ulang.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+id: File pratinjau dan audio yang dibuat aplikasi video Adobe. Ukurannya bisa mencapai banyak GB.
+en: Compress Windows files (CompactOS)
+id: Kompres file Windows (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+id: Di hard disk yang lebih lambat, Docker berjalan lebih lambat.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+id: Untuk mengosongkan ruang di drive ini, pindahkan: Docker Desktop > Settings (ikon roda gigi) > Resources > Advanced > Disk image location > pilih folder di drive lain > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+id: Hati-hati dengan "docker volume prune" dan "docker system prune --volumes": perintah ini menghapus volume, yang mungkin berisi database.
+en: Linux (WSL) disks
+id: Disk Linux (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+id: Jika ada yang tidak Anda gunakan: Pengaturan > Aplikasi > temukan > Copot pemasangan. Itu menghapus semua yang ada di dalamnya.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+id: Setiap sistem Linux WSL (misalnya Ubuntu) menyimpan semua filenya dalam satu file disk.
+en: Disk files of your WSL Linux systems
+id: File disk sistem Linux WSL Anda
+en: Holds all Docker containers, images and volumes. Never delete this file.
+id: Berisi semua container, image, dan volume Docker. Jangan pernah menghapus file ini.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+id: Untuk mengosongkan ruang: "Buka lokasi" > pilih drive > Konfigurasikan > turunkan penggeser "Penggunaan Maks", atau klik Hapus untuk menghapus semuanya.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+id: Titik pemulihan memungkinkan Anda membatalkan perubahan sistem. Windows bisa memakai beberapa GB untuknya.
+en: System Properties > System Protection
+id: Properti Sistem > Perlindungan Sistem
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+id: Untuk menyimpan yang terbaru saja: Pembersihan Disk (cleanmgr) > Bersihkan file sistem > Opsi Lainnya > Pemulihan Sistem dan Salinan Bayangan > Bersihkan.
+en: Can be moved to another drive
+id: Bisa dipindahkan ke drive lain
+en: Docker disk (do not delete)
+id: Disk Docker (jangan dihapus)
+en: Keep at least one recent restore point if you can.
+id: Simpan setidaknya satu titik pemulihan terbaru jika memungkinkan.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+id: - pagefile.sys dan swapfile.sys: memori tambahan Windows di disk. Tanpa ruang yang cukup untuknya, program crash saat memori habis.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+id: pagefile.sys, swapfile.sys, folder Windows Installer dan WinSxS
+en: Never delete by hand
+id: Jangan pernah hapus secara manual
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+id: - Folder Windows Installer: hapus file hanya dengan item "File pembaruan lama", jangan pernah secara manual.
+en: ({0} files)
+id: ({0} file)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+id: - Folder aplikasi yang Anda gunakan, meskipun besar. Menghapusnya dapat merusak aplikasi atau menghilangkan data Anda.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+id: - Folder WinSxS: bersihkan hanya dengan item "Komponen Windows", jangan pernah secara manual.
+en: Leave these alone
+id: Jangan sentuh ini
+en: Your Downloads folder
+id: Folder Unduhan Anda
+en: If that command is not recognised, run  wsl --update  first.
+id: Jika perintah itu tidak dikenali, jalankan  wsl --update  terlebih dahulu.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+id: Untuk memindahkannya ke drive lain, di Prompt Perintah:  wsl --shutdown   lalu   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+id: File Anda sendiri: Anda yang memutuskan
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+id: Tips: tab Analisis disk mencantumkan file terbesar Anda di mana pun.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+id: Buka folder, urutkan berdasarkan ukuran (Tampilan > Detail, lalu klik kolom Ukuran), dan hapus yang tidak Anda perlukan lagi.
+en: Files you downloaded. This tool never deletes them here.
+id: File yang Anda unduh. Alat ini tidak pernah menghapusnya di sini.
+en: Keep at least the newest one
+id: Simpan setidaknya yang terbaru
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+id: Storage Sense adalah bawaan Windows. Fitur ini menghapus file sementara dan item lama di Keranjang Sampah secara otomatis, sehingga ruang tetap kosong.
+en: Settings > System > Storage
+id: Pengaturan > Sistem > Penyimpanan
+en: Cleans temp files automatically
+id: Membersihkan file sementara secara otomatis
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+id: "Buka lokasi" membuka pengaturan Storage Sense. Aktifkan di sana.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+id: Sisa dari peningkatan Windows. Memungkinkan Anda kembali ke versi sebelumnya untuk waktu terbatas, dan sering berukuran 10 hingga 30 GB.
+en: Remove with Windows' own tool
+id: Hapus dengan alat Windows sendiri
+en: Previous Windows installation
+id: Penginstalan Windows sebelumnya
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+id: Fitur milik Microsoft yang menyimpan file sistem Windows dalam bentuk terkompresi. Biasanya mengosongkan 2 hingga 4 GB.
+en: Windows system files on {0}
+id: File sistem Windows di {0}
+en: Built into Windows. Slight CPU cost
+id: Bawaan Windows. Sedikit beban CPU
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+id: Pada PC yang sangat lambat atau lama, ini bisa membuat Windows sedikit lebih lambat. Pada kebanyakan PC Anda tidak akan menyadarinya.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+id: Berjalan di jendelanya sendiri. Ini bisa memakan waktu 10 hingga 20 menit. Jangan tutup jendela itu.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+id: Untuk membatalkannya nanti, jalankan ini di Prompt Perintah administrator:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+id: Berjalan di jendelanya sendiri dan bisa memakan waktu 10 hingga 20 menit. Jika Windows sudah terkompresi, prosesnya cepat selesai.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+id: Program terbesar di {0} (perkiraan ukuran dari Windows sendiri; "?" = folder penginstalan tidak tercatat):
+en: Programs only come off by uninstalling them in Settings > Apps.
+id: Program hanya bisa dihapus dengan mencopot pemasangannya di Pengaturan > Aplikasi.
+en: "Open location" opens Apps & features.
+id: "Buka lokasi" membuka Aplikasi & fitur.
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+id: {0} program yang terinstal di drive lain tidak dicantumkan: menghapusnya tidak mengosongkan ruang di {1}.
+en: System Restore points
+id: Titik Pemulihan Sistem
+en: "{0}" is discontinued and no longer needed.
+id: "{0}" sudah dihentikan dan tidak diperlukan lagi.
+en: You have {0} Java versions installed. Most people only need the newest one.
+id: Anda memiliki {0} versi Java yang terinstal. Kebanyakan orang hanya memerlukan yang terbaru.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+id: Program hanya bisa dihapus dengan mencopot pemasangannya di Pengaturan > Aplikasi. Klik "Hitung ukuran" untuk mencantumkan yang terbesar di sini.
+en: "Open location" opens the Storage settings.
+id: "Buka lokasi" membuka pengaturan Penyimpanan.
+en: After that you can no longer go back to the previous Windows version.
+id: Setelah itu Anda tidak dapat lagi kembali ke versi Windows sebelumnya.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+id: Hapus dengan Windows sendiri: Pengaturan > Sistem > Penyimpanan > File sementara > centang "Penginstalan Windows sebelumnya" > Hapus file.
+en: see details
+id: lihat detail
+en: Settings > Apps > Apps & features
+id: Pengaturan > Aplikasi > Aplikasi & fitur
+en: Uninstall the ones you do not use
+id: Copot pemasangan yang tidak Anda gunakan
+en: Biggest installed programs
+id: Program terinstal terbesar
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+id: File shader yang disimpan Windows dan driver kartu grafis agar game dan aplikasi lebih cepat dimulai.
+en: {0} and similar
+id: {0} dan sejenisnya
+en: Games may stutter once while they rebuild
+id: Game mungkin tersendat sekali selama pembuatan ulang
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+id: File ini dibuat ulang secara otomatis. Peluncuran game pertama setelah itu mungkin sedikit tersendat.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+id: File sementara yang ditinggalkan program. Hanya file yang lebih lama dari 1 hari yang dihapus, sehingga penginstalan yang sedang berjalan tidak terganggu.
+en: Files in use are skipped
+id: File yang sedang digunakan dilewati
+en: Your temp files (older than 1 day)
+id: File sementara Anda (lebih lama dari 1 hari)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+id: Cache grafis (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+id: Hanya menghapus folder cache Discord.
+en: Keeps login and messages
+id: Login dan pesan tetap ada
+en: Discord cache
+id: Cache Discord
+en: Close Discord first, including its icon near the clock.
+id: Tutup Discord terlebih dahulu, termasuk ikonnya di dekat jam.
+en: Close Slack first, including its icon near the clock.
+id: Tutup Slack terlebih dahulu, termasuk ikonnya di dekat jam.
+en: Deletes only Slack's cache folders.
+id: Hanya menghapus folder cache Slack.
+en: Slack cache
+id: Cache Slack
+en: Old problem reports
+id: Laporan masalah lama
+en: Windows error reports
+id: Laporan kesalahan Windows
+en: The Windows Update service is stopped for a moment and started again.
+id: Layanan Windows Update dihentikan sebentar lalu dijalankan lagi.
+en: {0} and your own WER folder
+id: {0} dan folder WER Anda sendiri
+en: Recent logs are kept
+id: Log terbaru tetap disimpan
+en: Old Windows log files (older than 14 days)
+id: File log Windows lama (lebih lama dari 14 hari)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+id: Laporan yang disimpan Windows tentang program yang crash. Laporan ini tidak diperlukan setelah dikirim atau setelah masalahnya hilang.
+en: If an update is still waiting to install, Windows downloads it again.
+id: Jika ada pembaruan yang masih menunggu diinstal, Windows mengunduhnya lagi.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+id: File sementara yang ditinggalkan Windows dan penginstal. Hanya file yang lebih lama dari 1 hari yang dihapus.
+en: Windows temp files (older than 1 day)
+id: File sementara Windows (lebih lama dari 1 hari)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+id: Ukuran yang ditampilkan adalah seluruh folder. File terbaru tetap ada, sehingga ruang yang dikosongkan bisa sedikit lebih kecil.
+en: Windows Update downloads
+id: Unduhan Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+id: File pembaruan yang sudah diunduh Windows. Pembaruan yang sudah diinstal tidak terpengaruh.
+en: {0} and the Delivery Optimization cache
+id: {0} dan cache Pengoptimalan Pengiriman
+en: Installed updates are not affected
+id: Pembaruan yang sudah diinstal tidak terpengaruh
+en: Close Teams first, including its icon near the clock.
+id: Tutup Teams terlebih dahulu, termasuk ikonnya di dekat jam.
+en: Keeps passwords, favorites, logins
+id: Kata sandi, favorit, login tetap ada
+en: Microsoft Edge cache
+id: Cache Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+id: Tutup semua jendela Chrome terlebih dahulu. Jika ada ikon Chrome di dekat jam, klik kanan dan pilih Keluar.
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+id: Hanya menghapus folder cache Edge di setiap profil, ditambah cache grafisnya.
+en: Deletes only Brave's cache folders in every profile.
+id: Hanya menghapus folder cache Brave di setiap profil.
+en: Brave cache
+id: Cache Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+id: Edge sering tetap berjalan di latar belakang. Jika alat ini menyatakan Edge masih berjalan: di Edge, Pengaturan > Sistem dan performa > matikan "Peningkatan startup" dan "Lanjutkan menjalankan ekstensi dan aplikasi latar belakang".
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+id: Hanya menghapus folder cache Chrome di setiap profil, ditambah cache grafisnya.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+id: DIPERTAHANKAN: kata sandi, bookmark, riwayat, cookie dan login situs, isi otomatis, ekstensi, pengaturan, aplikasi web yang terinstal.
+en: Could not stop {0}: {1}
+id: Tidak dapat menghentikan {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+id: Halaman dimuat sedikit lebih lambat pada kali pertama. Sangat jarang, situs mungkin meminta Anda masuk lagi, dan browser mengisikan kata sandi tersimpan Anda.
+en: Keeps passwords, bookmarks, logins
+id: Kata sandi, bookmark, login tetap ada
+en: Google Chrome cache
+id: Cache Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+id: DIPERTAHANKAN: login, pesan, pengaturan, dan file Anda. Aplikasi mengunduh lagi apa yang diperlukannya.
+en: Close Opera first.
+id: Tutup Opera terlebih dahulu.
+en: Deletes only Opera's cache folder.
+id: Hanya menghapus folder cache Opera.
+en: {0} (and Opera GX)
+id: {0} (dan Opera GX)
+en: Microsoft Teams cache
+id: Cache Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+id: Hanya menghapus folder cache Teams. Microsoft menyarankan ini saat Teams lambat atau berperilaku aneh.
+en: Teams cache folders (new Teams and classic Teams)
+id: Folder cache Teams (Teams baru dan Teams klasik)
+en: Keeps login, chats, files
+id: Login, obrolan, file tetap ada
+en: Opera cache
+id: Cache Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+id: Hanya menghapus folder cache Vivaldi di setiap profil.
+en: Vivaldi cache
+id: Cache Vivaldi
+en: Close Brave first.
+id: Tutup Brave terlebih dahulu.
+en: Close Vivaldi first.
+id: Tutup Vivaldi terlebih dahulu.
+en: Close Firefox first.
+id: Tutup Firefox terlebih dahulu.
+en: Deletes only Firefox's cache folder in every profile.
+id: Hanya menghapus folder cache Firefox di setiap profil.
+en: Firefox cache
+id: Cache Firefox
+en: {0} and {1}
+id: {0} dan {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+id: Aman dikosongkan. Windows hanya memerlukannya untuk mencopot pemasangan satu pembaruan secara tersendiri.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+id: Salinan cadangan yang disimpan Windows agar satu pembaruan program bisa dihapus nanti tanpa penginstal aslinya.
+en: Low risk
+id: Risiko rendah
+en: when run
+id: saat dijalankan
+en: {0} (Microsoft DISM tool)
+id: {0} (alat DISM Microsoft)
+en: Safe, often frees little
+id: Aman, sering hanya mengosongkan sedikit
+en: Windows components: normal cleanup
+id: Komponen Windows: pembersihan normal
+en: Windows patch backup cache
+id: Cache cadangan patch Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+id: File yang dihapus dicantumkan di deleted-update-files.csv (lihat tab Tentang untuk foldernya).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+id: Ini hanya menghapus file pembaruan yang ditandai Windows sebagai sudah digantikan pembaruan yang lebih baru. Ini menyimpan 3 yang terbaru dari setiap program dan tidak pernah menghapus file yang masih digunakan.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+id: Beberapa program menyimpan setiap pembaruan yang pernah diinstalnya. Adobe Acrobat Reader yang paling sering, dengan 0.1 hingga 0.7 GB per pembaruan.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+id: Risiko kecil: jika pembaruan atau perbaikan program itu di kemudian hari mengeluhkan file yang hilang, copot pemasangan lalu instal ulang program tersebut.
+en: Found on this PC: nothing to remove.
+id: Ditemukan di PC ini: tidak ada yang perlu dihapus.
+en: Found on this PC:
+id: Ditemukan di PC ini:
+en: Never delete files in the Windows Installer folder by hand.
+id: Jangan pernah menghapus file di folder Windows Installer secara manual.
+en: If you tick both Windows components items, only this one runs.
+id: Jika Anda mencentang kedua item Komponen Windows, hanya item ini yang dijalankan.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+id: Setelah itu, pembaruan Windows yang terinstal saat ini tidak dapat lagi dicopot pemasangannya. Gunakan hanya saat Windows berfungsi dengan baik.
+en: Same as the normal cleanup, but also removes every replaced version.
+id: Sama seperti pembersihan normal, tetapi juga menghapus setiap versi yang telah digantikan.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+id: Berjalan di jendelanya sendiri dan memakan waktu 5 hingga 30 menit. Jangan tutup jendela itu atau matikan PC.
+en: {0} (folders unused for 60+ days)
+id: {0} (folder yang tidak dipakai 60+ hari)
+en: Lose old projects' tabs, layout, AI chats
+id: Kehilangan tab, tata letak, obrolan AI proyek lama
+en: VS Code: data of projects not opened in 60 days
+id: VS Code: data proyek yang tidak dibuka dalam 60 hari
+en: {0} (Microsoft DISM tool, /ResetBase)
+id: {0} (alat DISM Microsoft, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+id: Windows sudah melakukan ini sendiri setiap beberapa minggu, jadi sering kali hanya mengosongkan sangat sedikit.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+id: Berjalan di jendelanya sendiri dan memakan waktu 5 hingga 30 menit. Jangan tutup jendela itu atau matikan PC. Pada laptop, colokkan pengisi daya.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+id: Pembersihan milik Microsoft untuk versi lama komponen Windows. Aman.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+id: Jangan pernah menghapus apa pun di WinSxS secara manual. Itu merusak Windows.
+en: Installed updates cannot be uninstalled after
+id: Pembaruan terinstal tidak bisa dicopot setelahnya
+en: Windows components: deep cleanup
+id: Komponen Windows: pembersihan mendalam
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+id: Berjalan di jendelanya sendiri. Ini bisa memakan waktu 5 hingga 30 menit. Jangan tutup jendela itu.
+en: {0} (files picked from Windows' own records)
+id: {0} (file dipilih dari catatan Windows sendiri)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+id: Paket .NET yang diunduh. NuGet mengunduhnya lagi saat diperlukan.
+en: NuGet download cache
+id: Cache unduhan NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+id: Paket Python yang diunduh. pip mengunduhnya lagi saat diperlukan.
+en: Go build cache
+id: Cache build Go
+en: Composer cache
+id: Cache Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+id: File terkompilasi yang disimpan bahasa Go agar build lebih cepat. Go membuatnya ulang pada build berikutnya.
+en: Rebuilt on the next build
+id: Dibuat ulang pada build berikutnya
+en: pip cache
+id: Cache pip
+en: npm cache
+id: Cache npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+id: Hanya file yang lebih lama dari 14 hari yang dihapus. Log terbaru tetap ada jika ada yang perlu diperbaiki.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+id: File log yang ditulis Windows saat menginstal pembaruan. Di beberapa PC ukurannya bisa mencapai beberapa GB.
+en: Packages download again when needed
+id: Paket diunduh lagi saat diperlukan
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+id: Paket Yarn yang diunduh (untuk developer Node.js). Yarn mengunduhnya lagi saat diperlukan.
+en: Yarn cache
+id: Cache Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+id: Paket npm yang diunduh (untuk developer Node.js). npm mengunduhnya lagi saat proyek memerlukannya lagi.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+id: Folder cache dan laporan crash Cursor. Cursor membuatnya ulang.
+en: Keeps settings, chats, login
+id: Pengaturan, obrolan, login tetap ada
+en: Cursor cache and crash reports
+id: Cache dan laporan crash Cursor
+en: KEEPS: settings, chats, login and projects.
+id: DIPERTAHANKAN: pengaturan, obrolan, login, dan proyek.
+en: Programs stay installed. Small risk
+id: Program tetap terinstal. Risiko kecil
+en: Old update files of installed programs (keeps newest 3)
+id: File pembaruan lama dari program terinstal (simpan 3 terbaru)
+en: Close Cursor first.
+id: Tutup Cursor terlebih dahulu.
+en: Close VS Code first.
+id: Tutup VS Code terlebih dahulu.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+id: Paket Rust yang diunduh. Cargo mengunduhnya lagi saat diperlukan.
+en: Cargo download cache
+id: Cache unduhan Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+id: Paket PHP yang diunduh. Composer mengunduhnya lagi saat diperlukan.
+en: VS Code cache and crash reports
+id: Cache dan laporan crash VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+id: DIPERTAHANKAN: pengaturan, ekstensi, proyek, riwayat proyek, dan obrolan.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+id: Folder cache dan laporan crash Visual Studio Code. VS Code membuatnya ulang.
+en: Keeps settings, extensions, projects
+id: Pengaturan, ekstensi, proyek tetap ada
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+id: Ringkasan
+en: Transfer rate MB/s   (blue = read, orange = write)
+id: Kecepatan transfer MB/s   (biru = baca, oranye = tulis)
+en: Disk activity %
+id: Aktivitas disk %
+en: Average transfer rate (since this tab opened)
+id: Kecepatan transfer rata-rata (sejak tab ini dibuka)
+en: Read since Windows started
+id: Dibaca sejak Windows dimulai
+en: Average disk activity
+id: Aktivitas disk rata-rata
+en: Highest transfer rate seen
+id: Kecepatan transfer tertinggi yang tercatat
+en: now
+id: sekarang
+en: READ
+id: BACA
+en: Right now
+id: Saat ini
+en: Saved today's disk health and temperature reading to the history.
+id: Pembacaan kesehatan dan suhu disk hari ini disimpan ke riwayat.
+en: WRITE
+id: TULIS
+en: 2 minutes ago
+id: 2 menit lalu
+en: DISK ACTIVITY
+id: AKTIVITAS DISK
+en: TOTAL TRANSFER
+id: =
+en: Written since Windows started
+id: Ditulis sejak Windows dimulai
+en: This disk has no drive letter, so the speed test cannot write its test file.
+id: Disk ini tidak memiliki huruf drive, sehingga uji kecepatan tidak dapat menulis file ujinya.
+en: Pick a disk first.
+id: Pilih disk terlebih dahulu.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+id: Uji terakhir pada {0}: tulis {1} MB/s, baca {2} MB/s, baca acak 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+id: Drive {0} memerlukan setidaknya 2 GB ruang kosong untuk uji kecepatan.
+en: Speed test started on drive {0}.
+id: Uji kecepatan dimulai pada drive {0}.
+en: Running...
+id: Berjalan...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+id: Uji kecepatan menulis file uji {0} MB ke drive {1}, membacanya kembali, lalu menghapusnya.<br>Prosesnya sekitar 10 hingga 60 detik. Program lain mungkin terasa lebih lambat selama itu.<br><br>Mulai uji kecepatan?
+en: not reported by this disk
+id: tidak dilaporkan oleh disk ini
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+id: Mengukur seberapa cepat disk benar-benar bisa menulis dan membaca: menulis file uji sementara, membacanya kembali, lalu membaca potongan kecil secara acak, dan menghapus file tersebut. Klik "Jalankan uji kecepatan" di bagian atas.
+en: Speed test
+id: Uji kecepatan
+en: Written over the disk's whole life
+id: Ditulis selama masa pakai disk
+en: Not run yet.
+id: Belum dijalankan.
+en: Disk {0}: {1}
+id: =
+en: Windows' disk activity counters are not available on this PC: {0}
+id: Penghitung aktivitas disk Windows tidak tersedia di PC ini: {0}
+en: Getting disk activity ready...
+id: Menyiapkan aktivitas disk...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+id: Pertama kali, Windows bisa memerlukan beberapa detik untuk memulai penghitung aktivitas disk.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+id: Sebagai perbandingan: hard disk laptop mencapai sekitar 80 hingga 140 MB/s, SSD SATA sekitar 500 MB/s, dan SSD NVMe 1,500 hingga 7,000 MB/s.
+en: Raw value
+id: Nilai mentah
+en: Unexpected power losses
+id: Kehilangan daya tak terduga
+en: Spare space left
+id: Sisa ruang cadangan
+en: Rated write life used
+id: Masa pakai tulis terpakai
+en: ✓ No problems found.
+id: ✓ Tidak ditemukan masalah.
+en: From Windows' storage information.
+id: Dari informasi penyimpanan Windows.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+id: Dibaca dari log kesehatan milik SSD (NVMe). Daftar lengkapnya ada di tab Detail SMART.
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+id: Dibaca dari data pemantauan mandiri milik disk (SMART). Daftar lengkapnya ada di tab Detail SMART.
+en: Data read over its life
+id: Data dibaca selama masa pakai
+en: Powered on
+id: Waktu menyala
+en: TEMPERATURE
+id: SUHU
+en: needs admin
+id: perlu admin
+en: {0} hours  (about {1} days)
+id: {0} jam  (sekitar {1} hari)
+en: Data written over its life
+id: Data ditulis selama masa pakai
+en: {0} times
+id: {0} kali
+en: Turned on
+id: Dinyalakan
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+id: Disk ini tidak membagikan data kesehatan terperinci dengan Windows (umum untuk enclosure USB dan RAID).
+en: No.
+id: =
+en: Status
+id: =
+en: Value
+id: Nilai
+en: Attribute
+id: Atribut
+en: Data
+id: =
+en: Worst
+id: Terburuk
+en: Threshold
+id: Ambang
+en: Item
+id: =
+en: Temperature history
+id: Riwayat suhu
+en: Health history
+id: Riwayat kesehatan
+en: Start the tool with admin rights to read health and temperature.
+id: Jalankan alat ini dengan hak admin untuk membaca kesehatan dan suhu.
+en: No readings saved yet.
+id: Belum ada pembacaan yang disimpan.
+en: Offset
+id: =
+en: {0} readings since {1}.
+id: {0} pembacaan sejak {1}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+id: Baru 1 pembacaan, pada {0}. Grafik bertambah seiring makin banyak pembacaan yang disimpan.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+id: Tulis {0:N0} MB/s     Baca {1:N0} MB/s     Baca acak 4K {2:N1} MB/s ({3:N0} per detik)
+en: This item has no folder to open.
+id: Item ini tidak memiliki folder untuk dibuka.
+en: Stopping...
+id: Menghentikan...
+en: Could not open the read me: {0}
+id: Tidak dapat membuka Panduan: {0}
+en: Pick a drive first.
+id: Pilih drive terlebih dahulu.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+id: Ini memerlukan hak admin. Jalankan alat ini lagi dan klik Ya pada permintaan Windows.
+en: Select a file in the list first.
+id: Pilih file di daftar terlebih dahulu.
+en: Scan a drive first.
+id: Pindai drive terlebih dahulu.
+en: No questions match your search.
+id: Tidak ada pertanyaan yang cocok dengan pencarian Anda.
+en: Simple habits that keep your disk from filling up and your PC running well.
+id: Kebiasaan sederhana agar disk Anda tidak cepat penuh dan PC Anda berjalan baik.
+en: Tips
+id: =
+en: SAFETY
+id: KEAMANAN
+en: How Disk Cleanup Helper keeps you safe
+id: Cara Disk Cleanup Helper menjaga Anda tetap aman
+en: Search the questions, for example "temperature"
+id: Cari pertanyaan, misalnya "suhu"
+en: Click a question to see the answer.
+id: Klik pertanyaan untuk melihat jawabannya.
+en: Frequently asked questions
+id: Pertanyaan yang sering diajukan
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+id: Pemindaian kesalahan milik Windows untuk {0} dimulai di jendelanya sendiri. Pemindaian ini hanya membaca drive dan memakan waktu beberapa menit. Baca hasilnya di jendela itu.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+id: Hanya item yang ditemukan di PC ini yang dicantumkan. Klik "Hitung ukuran" untuk melihat berapa banyak ruang yang dipakai masing-masing. Tidak ada yang dihapus sampai Anda mengonfirmasi.
+en: Not running as administrator. Items marked Admin are disabled.
+id: Tidak berjalan sebagai administrator. Item bertanda Admin dinonaktifkan.
+en: Running as administrator. All items are available.
+id: Berjalan sebagai administrator. Semua item tersedia.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+id: Tips: tab Tentang bisa menginstalnya, sehingga muncul di menu Mulai.
+en: Saved a health and temperature reading for {0} disks to the history.
+id: Pembacaan kesehatan dan suhu untuk {0} disk disimpan ke riwayat.
+en: {0} files were in use and were skipped.
+id: {0} file sedang digunakan dan dilewati.
+en: {0} items
+id: {0} item
+en: My user folder only
+id: Folder pengguna saya saja
+en: Install: not installed
+id: Penginstalan: belum diinstal
+en: Install: installed in {0}
+id: Penginstalan: terinstal di {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+id: Belum ada pembacaan yang disimpan.<br><br>Riwayat akan disimpan di:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+id: Belum ada pembersihan yang dijalankan.<br><br>Riwayat akan disimpan di:<br>{0}
+en: Whole drive
+id: Seluruh drive
+en: Could not open System Information: {0}
+id: Tidak dapat membuka Informasi Sistem: {0}
+en: Could not open dxdiag: {0}
+id: Tidak dapat membuka dxdiag: {0}
+en: SPEED
+id: KECEPATAN
+en: Wait until the details have been read.
+id: Tunggu sampai detail selesai dibaca.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+id: Dibaca pada {0}. Data ini tetap di PC ini kecuali Anda menyalin atau menyimpannya.
+en: Could not read the device details: {0}
+id: Tidak dapat membaca detail perangkat: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+id: Detail perangkat telah disalin. Tempelkan di tempat yang Anda perlukan, misalnya di pesan untuk orang yang membantu Anda.
+en: Text file
+id: File teks
+en: Save the device details
+id: Simpan detail perangkat
+en: Could not copy: {0}
+id: Tidak dapat menyalin: {0}
+en: Reading...
+id: Membaca...
+en: Speed test: {0}
+id: Uji kecepatan: {0}
+en: Speed test finished.
+id: Uji kecepatan selesai.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+id: Diuji dengan file {0} MB pada {1}. Hasilnya disimpan, sehingga Anda bisa membandingkannya nanti.
+en: Speed test stopped. The test file was deleted.
+id: Uji kecepatan dihentikan. File uji telah dihapus.
+en: Reading this PC's details...
+id: Membaca detail PC ini...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+id: Mengumpulkan detail tentang Windows, prosesor, memori, grafis, dan lainnya. Ini memerlukan beberapa detik.
+en: The speed test could not finish. See the log below.
+id: Uji kecepatan tidak dapat selesai. Lihat log di bawah.
+en: Stopped.
+id: Dihentikan.
+en: Saved the device details to {0}
+id: Detail perangkat disimpan ke {0}
+en: Philip Droubi | Software Engineer
+id: =
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+id: Software Engineer. Pertanyaan, ide, atau masukan tentang Disk Cleanup Helper sangat diterima.
+en: Made by Philip Droubi
+id: Dibuat oleh Philip Droubi
+en: Philip Droubi is a Software Engineer.
+id: Philip Droubi adalah seorang Software Engineer.
+en: SPACE
+id: RUANG
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+id: Software Engineer. Terhubung dengan Philip Droubi di LinkedIn.
+en: Source code on GitHub
+id: Kode sumber di GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+id: Gratis dan sumber terbuka di bawah GNU GPL v3: Anda bebas menggunakan, mengubah, dan membagikannya. Salinan tetap mencantumkan kredit untuk Philip Droubi.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+id: © {0} Philip Droubi. Perangkat lunak bebas: Anda boleh menggunakan, mengubah, dan membagikannya di bawah GNU General Public License v3 dengan ketentuan tambahan dalam NOTICE. Perangkat lunak ini disediakan tanpa jaminan apa pun.
+en: License and terms
+id: Lisensi dan ketentuan
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+id: Salinan ini ({0}) bukan yang terinstal di PC ini. Perbarui salinan terinstal agar menu Mulai membuka versi ini.
+en: Repair shortcuts
+id: Perbaiki pintasan
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+id: Terinstal di {0}. Buka kapan saja dari menu Mulai atau pintasan desktop. Untuk menghapusnya: klik Copot pemasangan, atau Pengaturan > Aplikasi > Disk Cleanup Helper.
+en: Could not save the file: {0}
+id: Tidak dapat menyimpan file: {0}
+en: Update installed copy
+id: Perbarui salinan terinstal
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+id: Simpan Disk Cleanup Helper di PC ini: instal agar bisa dibuka dari menu Mulai dan desktop. Tidak perlu hak admin.
+en: Install on this PC
+id: Instal di PC ini
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+id: Belum diinstal. Anda menjalankannya dari {0}. Penginstalan menambahkan entri menu Mulai, pintasan desktop, dan entri di Pengaturan > Aplikasi agar bisa dihapus seperti program lainnya. Tidak perlu hak admin.
+en: not reported
+id: tidak dilaporkan
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+id: Alat ini tidak pernah menghapus item ini. Gunakan "Buka lokasi" dan ikuti langkah di atas.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+id: Memerlukan hak admin. Jalankan alat ini lagi dan klik Ya pada permintaan Windows untuk memakai item ini.
+en: Close first: {0}
+id: Tutup dulu: {0}
+en: Measure anyway?
+id: Tetap hitung ukuran?
+en: Measuring stopped.
+id: Penghitungan ukuran dihentikan.
+en: Measuring {0} of {1}: {2}
+id: Menghitung {0} dari {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+id: Menghitung ukuran. Ini bisa memakan waktu satu atau dua menit. Klik Hentikan untuk berhenti.
+en: Where
+id: Lokasi
+en: Problem: {0}
+id: Masalah: {0}
+en: Clean selected ({0})
+id: Bersihkan yang dipilih ({0})
+en: up to {0}
+id: hingga {0}
+en: Close {0} first
+id: Tutup {0} terlebih dahulu
+en: Size: not measured yet
+id: Ukuran: belum dihitung
+en: Size: {0}
+id: Ukuran: {0}
+en: Admin
+id: =
+en: Done. Select what you want to clean.
+id: Selesai. Pilih yang ingin Anda bersihkan.
+en: Cleanup started. Free space on {0}: {1}
+id: Pembersihan dimulai. Ruang kosong di {0}: {1}
+en: Confirm cleanup
+id: Konfirmasi pembersihan
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+id: Item berikut akan dibersihkan. File yang dihapus tidak masuk ke Keranjang Sampah dan tidak dapat dipulihkan:<br><br>{0}<br><br>Lanjutkan?
+en: Stopped. Not cleaned: {0}
+id: Dihentikan. Tidak dibersihkan: {0}
+en: Error: {0}
+id: Kesalahan: {0}
+en: Cleaning: {0}
+id: Membersihkan: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+id: Semua selesai. Ruang kosong di {0} bertambah {1}. Sekarang {2} kosong.
+en: Clean anyway?
+id: Tetap bersihkan?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+id: Tips: beberapa aplikasi tetap berjalan di dekat jam. Klik kanan ikonnya di sana dan pilih Keluar atau Berhenti.
+en: Select at least one item first.
+id: Pilih setidaknya satu item terlebih dahulu.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+id: Selesai. Klik item untuk membaca tentangnya, pilih yang Anda inginkan, lalu klik "Bersihkan yang dipilih".
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+id: Edge sering berjalan di latar belakang: di Edge, Pengaturan > Sistem dan performa > matikan Peningkatan startup dan aplikasi latar belakang.
+en: Nothing left to clean. Close the programs and try again.
+id: Tidak ada lagi yang bisa dibersihkan. Tutup program tersebut lalu coba lagi.
+en: Close programs first
+id: Tutup program terlebih dahulu
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+id: Program berikut masih terbuka:<br><br>{0}<br><br>{1}<br><br>Klik Tidak, tutup program tersebut, lalu klik Bersihkan lagi.<br>Atau klik Ya untuk melewati item yang memerlukannya dan membersihkan sisanya.
+en: Clean selected
+id: Bersihkan yang dipilih
+en: Switches that free space or keep it free.
+id: Sakelar yang mengosongkan ruang atau menjaganya tetap kosong.
+en: Windows settings
+id: Pengaturan Windows
+en: YOUR CALL
+id: KEPUTUSAN ANDA
+en: SETTING
+id: PENGATURAN
+en: INFO ONLY
+id: HANYA INFO
+en: The tool only shows and opens these. It never deletes them.
+id: Alat ini hanya menampilkan dan membukanya. Alat ini tidak pernah menghapusnya.
+en: Do it yourself
+id: Lakukan sendiri
+en: You lose something small. Read each one before you select it.
+id: Anda kehilangan sesuatu yang kecil. Baca masing-masing sebelum memilihnya.
+en: SAFE
+id: AMAN
+en: TOTAL
+id: TOTAL
+en: {0} selected
+id: {0} dipilih
+en: Caches and temp files. Programs rebuild them by themselves.
+id: Cache dan file sementara. Program membuatnya ulang sendiri.
+en: Safe to clean
+id: Aman dibersihkan
+en: Old installer files and Windows cleanup
+id: File penginstal lama dan pembersihan Windows
+en: Your call
+id: Keputusan Anda
+en: ADMIN
+id: =
+en: Needs admin rights. Read each one before you select it.
+id: Memerlukan hak admin. Baca masing-masing sebelum memilihnya.
+en: Language
+id: Bahasa
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+id: Memori PC Anda hampir habis saat ini:<br><br>  Memori tersedia: {0:N1} GB<br>  Sisa ruang termasuk file halaman: {1:N1} GB<br><br>Kehabisan memori dapat membuat program crash dan, di beberapa PC, menyebabkan layar biru.<br>Tutup program yang tidak Anda perlukan (browser, editor, game), lalu coba lagi.
+en: Switched to the light theme.
+id: Beralih ke tema terang.
+en: Switched to the dark theme.
+id: Beralih ke tema gelap.
+en: Low memory
+id: Memori rendah
+en: nothing selected
+id: tidak ada yang dipilih
+en: low: close some programs
+id: rendah: tutup beberapa program
+en: of {0} GB
+id: dari {0} GB
+en: Switch to the dark theme
+id: Beralih ke tema gelap
+en: Please wait until the current task finishes, or click Stop.
+id: Tunggu sampai tugas saat ini selesai, atau klik Hentikan.
+en: Scan {0} for errors
+id: Pindai kesalahan di {0}
+en: {0} FREE (WINDOWS DRIVE)
+id: {0} KOSONG (DRIVE WINDOWS)
+en: Could not restart the app: {0}
+id: Tidak dapat memulai ulang aplikasi: {0}
+en: Switch to the light theme
+id: Beralih ke tema terang
+en: DARK MODE
+id: MODE GELAP
+en: LIGHT MODE
+id: MODE TERANG
+en: Removed {0}. Left: {1}.
+id: {0} dihapus. Tersisa: {1}.
+en: Storage Spaces
+id: Ruang Penyimpanan
+en: Virtual
+id: =
+en: Disk
+id: =
+en: Too hot
+id: Terlalu panas
+en: Could not read disks: {0}
+id: Tidak dapat membaca disk: {0}
+en: Normal
+id: =
+en: Warm
+id: Hangat
+en: Poor
+id: Buruk
+en: Healthy
+id: Sehat
+en: Unknown
+id: Tidak diketahui
+en: Windows: problem
+id: Windows: masalah
+en: Warning
+id: Peringatan
+en: Fair
+id: Cukup
+en: Good
+id: Baik
+en: Problem
+id: Masalah
+en: Checking disks...
+id: Memeriksa disk...
+en: Reading each disk's health and temperature. This takes a few seconds.
+id: Membaca kesehatan dan suhu setiap disk. Ini memerlukan beberapa detik.
+en: Waiting for the current task to finish. The disks are checked right after that.
+id: Menunggu tugas saat ini selesai. Disk diperiksa segera setelahnya.
+en: (health {0}%)
+id: (kesehatan {0}%)
+en: SMART attributes
+id: Atribut SMART
+en: NVMe health log
+id: Log kesehatan NVMe
+en: {0}% used
+id: {0}% terpakai
+en: HEALTH
+id: KESEHATAN
+en: Almost full: Windows and apps slow down when a drive is this full.
+id: Hampir penuh: Windows dan aplikasi melambat saat drive sepenuh ini.
+en: {0} free of {1}
+id: {0} kosong dari {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+id: Jalankan alat ini dengan hak admin untuk membaca data SMART disk.
+en: Windows did not report any disks.
+id: Windows tidak melaporkan disk apa pun.
+en: Disks
+id: Disk
+en: Drives
+id: Drive
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+id: Kesehatan % adalah perkiraan aplikasi ini dari data milik setiap disk. Alat lain memakai rumusnya sendiri, jadi angkanya bisa sedikit berbeda. Satu pembacaan disimpan setiap kali Anda membuka tab ini atau memulai aplikasi (paling sering setiap 30 menit), sehingga Anda bisa memantau kesehatan dan suhu dari waktu ke waktu.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+id: Tidak ada disk yang membagikan data SMART dengan Windows. Ini umum untuk enclosure USB dan RAID.
+en: Disk check finished.
+id: Pemeriksaan disk selesai.
+en: A disk reports a problem. Back up your important files now.
+id: Sebuah disk melaporkan masalah. Cadangkan file penting Anda sekarang.
+en: Windows: warning
+id: Windows: peringatan
+en: Stopped. Results are incomplete.
+id: Dihentikan. Hasilnya tidak lengkap.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+id: Memindai... sejauh ini {0:N0} folder dan {1:N0} file
+en: Scanning {0}. Click Stop to stop.
+id: Memindai {0}. Klik Hentikan untuk berhenti.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+id: Pemindaian dihentikan. File terbesar yang ditemukan sejauh ini dicantumkan. Ukuran folder hanya ditampilkan untuk pemindaian yang selesai.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+id: Catatan: folder Windows bisa terlihat lebih besar dari sebenarnya, karena Windows menyimpan beberapa file di dua tempat sekaligus.
+en: {0:N0} folders could not be read (Windows protects them).
+id: {0:N0} folder tidak dapat dibaca (dilindungi Windows).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+id: Selesai dalam {0:N0} detik: {1:N0} folder, {2:N0} file.
+en: Scanning {0} ...
+id: Memindai {0} ...
+en: (files directly in this folder)
+id: (file langsung di folder ini)
+en: Scan a drive to see its biggest folders.
+id: Pindai drive untuk melihat folder terbesarnya.
+en: Free space on {0} grew by {1}.
+id: Ruang kosong di {0} bertambah {1}.
+en: Biggest files
+id: File terbesar
+en: Scan anyway?
+id: Tetap pindai?
+en: That drive or folder is not available.
+id: Drive atau folder itu tidak tersedia.
+en: Biggest files ({0} found)
+id: File terbesar ({0} ditemukan)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+id: Pilih satu atau beberapa file di daftar terlebih dahulu. Tahan Ctrl untuk memilih beberapa.
+en: Could not remove {0}: {1}
+id: Tidak dapat menghapus {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+id: Dipindahkan ke Keranjang Sampah: {0} ({1})
+en: Deleted file: {0} ({1})
+id: File dihapus: {0} ({1})
+en: Files deleted: {0}.
+id: File dihapus: {0}.
+en: Windows: OK
+id: =
+en: {0} could not be removed (in use or protected).
+id: {0} tidak dapat dihapus (sedang digunakan atau dilindungi).
+en: Files moved to the Recycle Bin: {0}.
+id: File dipindahkan ke Keranjang Sampah: {0}.
+en: Move to Recycle Bin
+id: Pindahkan ke Keranjang Sampah
+en: They will be deleted permanently and cannot be restored.
+id: File ini akan dihapus secara permanen dan tidak dapat dipulihkan.
+en: ... and {0} more
+id: ... dan {0} lainnya
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+id: Ini adalah file Windows, program, atau sistem dan dilindungi:<br><br>{0}<br><br>Copot pemasangan programnya, atau gunakan tab Bersihkan.
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+id: File ini akan masuk ke Keranjang Sampah. Ruang baru dikosongkan setelah Anda mengosongkan Keranjang Sampah.
+en: Delete permanently
+id: Hapus permanen
+en: Make sure you do not need them. Continue?
+id: Pastikan Anda tidak memerlukannya. Lanjutkan?
+en: Files: {0}, {1} in total.
+id: File: {0}, total {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+id: Periksa disk lagi
+en: Disk health
+id: Kesehatan disk
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+id: Tahan Ctrl untuk memilih beberapa file. File Windows dan file program dilindungi dan tidak dapat dihapus di sini.
+en: Scan for errors
+id: Pindai kesalahan
+en: Open history file
+id: Buka file riwayat
+en: Windows storage settings
+id: Pengaturan penyimpanan Windows
+en: Optimize drives
+id: Optimalkan drive
+en: Modified
+id: Diubah
+en: Up
+id: Naik
+en: Biggest folders
+id: Folder terbesar
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+id: Pilih drive dan klik Pindai. Seluruh drive bisa memakan waktu beberapa menit.
+en: Folder
+id: =
+en: File
+id: =
+en: Double-click a folder to look inside.
+id: Klik dua kali folder untuk melihat isinya.
+en: Open in File Explorer
+id: Buka di File Explorer
+en: SMART details
+id: Detail SMART
+en: About
+id: Tentang
+en: Tips & FAQ
+id: =
+en: System Information
+id: Informasi Sistem
+en: Read me
+id: Panduan
+en: Cleanup history
+id: Riwayat pembersihan
+en: Uninstall
+id: Copot pemasangan
+en: DirectX Diagnostic (dxdiag)
+id: Diagnostik DirectX (dxdiag)
+en: Run speed test
+id: Jalankan uji kecepatan
+en: Disk performance
+id: Performa disk
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+id: Data mentah yang dilaporkan setiap disk tentang dirinya. "Pantau" berarti perlu diperhatikan. "Gagal" berarti di bawah batas aman milik disk itu sendiri.
+en: Live activity updates every second while this tab is open.
+id: Aktivitas langsung diperbarui setiap detik selama tab ini terbuka.
+en: Save as text file
+id: Simpan sebagai file teks
+en: Copy all
+id: Salin semua
+en: Read again
+id: Baca ulang
+en: Scan
+id: Pindai
+en: English
+id: =
+en: 0 items
+id: 0 item
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+id: Tidak berjalan sebagai administrator, jadi item bertanda Admin dinonaktifkan. Untuk memakainya, tutup jendela ini, jalankan lagi, dan klik Ya pada permintaan Windows.
+en: Measure sizes
+id: Hitung ukuran
+en: Clean up
+id: Bersihkan
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+id: Lihat apa yang memenuhi disk Anda dan kosongkan ruang dengan aman. Tidak ada yang dihapus sampai Anda mengonfirmasi.
+en: Disk Cleanup Helper
+id: =
+en: C: FREE
+id: C: KOSONG
+en: SELECTED TO CLEAN
+id: DIPILIH UNTUK DIBERSIHKAN
+en: MEMORY AVAILABLE
+id: MEMORI TERSEDIA
+en: Stop
+id: Hentikan
+en: Analyze disk
+id: Analisis disk
+en: Open location
+id: Buka lokasi
+en: Drive
+id: =
+en: List files bigger than
+id: Tampilkan file lebih besar dari
+en: Look in
+id: Cari di
+en: Clear selection
+id: Batalkan pilihan
+en: Select all safe
+id: Pilih semua yang aman
+en: Click Measure sizes to see how much each item uses.
+id: Klik Hitung ukuran untuk melihat berapa banyak ruang yang dipakai setiap item.
+en: to see what it is, where it is, and what you keep or lose.
+id: untuk melihat apa itu, di mana lokasinya, dan apa yang tetap ada atau hilang.
+en: Click an item
+id: Klik item
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+id: Gagal menulis file uji. Apakah drive penuh?
+en: Reading it back...
+id: Membacanya kembali...
+en: Writing a {0} MB test file...
+id: Menulis file uji {0} MB...
+en: Could not create the test file in {0}.
+id: Tidak dapat membuat file uji di {0}.
+en: Could not open the test file.
+id: Tidak dapat membuka file uji.
+en: Not enough memory for the speed test.
+id: Memori tidak cukup untuk uji kecepatan.
+en: Reading small random blocks...
+id: Membaca blok kecil secara acak...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+id: Disk Cleanup Helper memerlukan Windows 10 atau Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+id: Disk Cleanup Helper tidak dapat dimulai:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+id: Terjadi kesalahan:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+id: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+id: Bagaimana cara kerja pembaruan?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+id: Saat versi baru keluar, aplikasi mengunduhnya di latar belakang dan memeriksanya: SHA256 dan nomor versinya harus cocok dengan rilisnya. Setelah itu, sebuah bilah menawarkan "Mulai ulang sekarang". Jika Anda memilih "Nanti", pembaruan diinstal saat Anda menutup aplikasi. Anda dapat menonaktifkan pemeriksaan otomatis di tab Tentang; tombol "Periksa pembaruan" di sana tetap berfungsi.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+id: Tidak. Aplikasi ini tidak mengirim apa pun tentang PC Anda. Satu-satunya koneksi yang dibuatnya adalah menanyakan ke GitHub apakah ada versi baru, paling banyak sekali sehari. Anda dapat menonaktifkannya di tab Tentang.
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+id: Aplikasi ini tidak mengirim apa pun tentang PC Anda. Aplikasi hanya menanyakan ke GitHub apakah ada versi baru, dan Anda dapat menonaktifkannya di tab Tentang. Riwayat apa yang dibersihkan hanya disimpan di PC ini.
+en: Update check: version {0} is the newest.
+id: Pemeriksaan pembaruan: versi {0} adalah yang terbaru.
+en: Downloading version {0}... {1}%
+id: Mengunduh versi {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+id: Versi {0} tersedia. Ini build untuk developer, jadi tidak memperbarui dirinya sendiri.
+en: Update check: version {0} is available.
+id: Pemeriksaan pembaruan: versi {0} tersedia.
+en: Downloading version {0}...
+id: Mengunduh versi {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+id: Pembaruan tidak dapat diinstal di sini, karena folder ini tidak dapat diubah: {0}
+en: The update was not downloaded: {0}
+id: Pembaruan tidak diunduh: {0}
+en: Later
+id: Nanti
+en: This is a developer build, so it does not update itself.
+id: Ini build untuk developer, jadi tidak memperbarui dirinya sendiri.
+en: What's new in version {0}:
+id: Yang baru di versi {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+id: Versi {0} sudah diinstal, tetapi tidak dapat dijalankan: {1}<br><br>Jalankan Disk Cleanup Helper lagi.
+en: No details were given for this version.
+id: Tidak ada detail yang diberikan untuk versi ini.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+id: Versi {0} sudah diunduh dan diperiksa (SHA256 dan nomor versi).
+en: The update could not be downloaded: {0}
+id: Pembaruan tidak dapat diunduh: {0}
+en: Version {0} is ready. Restart to update.
+id: Versi {0} siap. Mulai ulang untuk memperbarui.
+en: This is version {0}. It has not checked for updates yet.
+id: Ini versi {0}. Aplikasi belum memeriksa pembaruan.
+en: You have the latest version ({0}). Last checked: {1}.
+id: Anda memakai versi terbaru ({0}). Terakhir diperiksa: {1}.
+en: Version {0} is installed.
+id: Versi {0} sudah diinstal.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+id: Salinan ini ada di folder yang tidak dapat diubah:<br>{0}<br><br>Halaman rilis akan terbuka, sehingga Anda bisa mengunduh versi {1} dan mengganti salinan ini secara manual.
+en: The update could not be installed: {0}
+id: Pembaruan tidak dapat diinstal: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+id: Versi {0} tersedia. Klik "Periksa pembaruan" untuk mengunduhnya.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+id: Pembaruan tidak dapat diinstal. Salinan ini tetap berfungsi seperti sekarang.<br><br>{0}
+en: Updated to version {0}.
+id: Diperbarui ke versi {0}.
+en: Update check: {0}
+id: Pemeriksaan pembaruan: {0}
+en: Could not check for updates: {0}
+id: Tidak dapat memeriksa pembaruan: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+id: Tidak dapat menghubungi GitHub. Periksa koneksi internet dan coba lagi.
+en: Checking for updates...
+id: Memeriksa pembaruan...
+en: Update check: could not reach GitHub.
+id: Pemeriksaan pembaruan: tidak dapat menghubungi GitHub.
+en: Check for updates
+id: Periksa pembaruan
+en: Check for updates when the app starts
+id: Periksa pembaruan saat aplikasi dimulai
+en: What's new
+id: Yang baru
+en: Restart now
+id: Mulai ulang sekarang
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+id: Alat bantu gratis untuk Windows 10 dan 11 yang menunjukkan apa yang memenuhi disk Anda dan mengosongkan ruang dengan aman. Tidak mengirim apa pun tentang PC Anda. Tidak ada yang dihapus sampai Anda mengonfirmasi.
+en: Updates
+id: Pembaruan
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+id: Pembaruan berasal dari halaman GitHub aplikasi ini. Setiap versi baru diperiksa (SHA256 dan nomor versi) sebelum menggantikan versi ini.
+en: Version {0} has no {1} file.
+id: Versi {0} tidak memiliki file {1}.
+en: Version {0} has a download address that is not on github.com.
+id: Versi {0} memiliki alamat unduhan yang tidak berada di github.com.
+en: Version {0} has no SHA256 line in its release text.
+id: Versi {0} tidak memiliki baris SHA256 di teks rilisnya.
+en: GitHub's answer could not be read.
+id: Jawaban GitHub tidak dapat dibaca.
+en: The newest release has an unreadable version number: {0}
+id: Rilis terbaru memiliki nomor versi yang tidak dapat dibaca: {0}
+en: The download came from an unexpected address: {0}
+id: Unduhan berasal dari alamat yang tidak terduga: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+id: File yang diunduh bukan program Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+id: File yang diunduh adalah versi {0}, bukan {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+id: File yang diunduh tidak cocok dengan SHA256 di teks rilis.
+en: The downloaded file has an unexpected size ({0}).
+id: File yang diunduh memiliki ukuran yang tidak terduga ({0}).
+en: The download took too long.
+id: Unduhan memakan waktu terlalu lama.

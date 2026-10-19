@@ -8,7 +8,7 @@
 See what fills your disks, clean caches and leftovers, and check your disks' health.
 Nothing is deleted until you confirm.
 
-**[Download for Windows](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest/download/DiskCleanupHelper.zip)**
+**[Download for Windows](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest/download/DiskCleanupHelper.zip)** &nbsp;·&nbsp; **[Visit the website](https://philip-droubi.github.io/disk-cleanup-helper/)**
 
 Free · One small file · 18 languages · Light and dark · [What's new](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest)
 
@@ -66,7 +66,8 @@ Arabic, Persian and Urdu are shown right to left.
 2. Double-click `DiskCleanupHelper.exe` and click **Yes** when Windows asks for permission. If you click No, it
    still opens, but the items that need admin rights are grey.
 3. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**. This appears for new
-   programs that Microsoft does not know yet. Each release lists the file's SHA256, so you can check your download.
+   programs that Microsoft does not know yet. Each release lists the SHA256 of `DiskCleanupHelper.exe`, so you can
+   check the program after unzipping.
 4. To keep it, open the **About** tab and click **Install on this PC**. It gets a Start menu entry and a desktop
    shortcut, and you can uninstall it from Settings > Apps. No admin rights are needed to install.
 
@@ -76,11 +77,26 @@ Arabic, Persian and Urdu are shown right to left.
 
 Found a bug or have an idea? [Open an issue](https://github.com/Philip-Droubi/disk-cleanup-helper/issues).
 
-## Source code
+## Build it yourself
 
-The app is free. Its source code will be published here once the app is stable.
+Everything you need is in this repository and in Windows itself: run `build.cmd -Rebuild`. The
+[developer guide](docs/DEVELOPING.md) explains the code, the translations and the test switches, and
+[CONTRIBUTING.md](CONTRIBUTING.md) how to suggest a change.
 
-This program is provided as is, without warranty of any kind. Back up important files before cleaning any computer.
+## License
+
+Copyright (C) 2026 Philip Droubi. Disk Cleanup Helper is free and open source under the
+[GNU General Public License v3](LICENSE) (version 3 only), with two additional terms in [NOTICE](NOTICE) that section 7
+of the license allows:
+
+- **Credit:** the app shows "Disk Cleanup Helper by Philip Droubi - https://github.com/Philip-Droubi" in its About tab
+  and its read-me files, and copies keep it. A changed version shows **"Based on Disk Cleanup Helper by Philip Droubi -
+  https://github.com/Philip-Droubi"** in its place, as a clickable link where links work. Copies and changed versions
+  also keep [NOTICE](NOTICE) and the copyright header of each source file.
+- **Changed versions** must say they are changed and must not present themselves as the original.
+
+You may use, study, change and share it under those terms. It comes with no warranty: back up important files before
+cleaning any computer.
 
 ---
 

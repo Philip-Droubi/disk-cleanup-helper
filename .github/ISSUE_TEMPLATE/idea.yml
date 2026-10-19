@@ -1,0 +1,16 @@
+name: Idea
+description: Suggest a new cleanup item, a feature, or a better way to do something.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Disk Cleanup Helper to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: The problem it solves for you. For a new cleanup item, say which folder it is and what it holds.

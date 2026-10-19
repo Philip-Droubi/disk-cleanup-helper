@@ -1,0 +1,1788 @@
+# Disk Cleanup Helper - ar
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules". Western digits and English units (KB, MB, GB ...) only.
+@name = العربية
+@rtl = yes
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+ar: تعذّر تشغيل {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+ar: وأيضًا {0}
+en: GRAPHICS
+ar: الرسومات
+en: Wireless (Miracast)
+ar: لاسلكي (Miracast)
+en: Built-in screen
+ar: الشاشة المدمجة
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+ar: يعود برنامج التشغيل هذا إلى عام {0}. قد يُصلح برنامج تشغيل أحدث من الشركة المصنّعة للكمبيوتر أو لشريحة الرسومات الأعطالَ والشاشات الزرقاء ومشكلات العرض.
+en: {0} × {1} at {2} Hz
+ar: {0} × {1} بتردد {2} Hz
+en: Showing now
+ar: المعروض الآن
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+ar: يُبلغ Windows عن مشكلة في هذا الجهاز (الرمز {0}). أعد تثبيت برنامج تشغيله من موقع الشركة المصنّعة للكمبيوتر أو للشريحة.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+ar: لم يُثبَّت برنامج تشغيل مناسب للرسومات. ثبّت برنامج التشغيل من الشركة المصنّعة للكمبيوتر أو لشريحة الرسومات لتحصل على صورة أوضح وأسرع.
+en: Screens
+ar: الشاشات
+en: Made in
+ar: سنة الصنع
+en: Connection
+ar: الاتصال
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+ar: الحالة الصحية ودرجة الحرارة وبيانات SMART موجودة في علامتي التبويب "صحة القرص" و"تفاصيل SMART".
+en: Storage
+ar: التخزين
+en: {0} inches
+ar: {0} بوصة
+en: {0}  (main screen)
+ar: {0}  (الشاشة الرئيسية)
+en: Screen {0}
+ar: الشاشة {0}
+en: Refresh rate
+ar: معدل التحديث
+en: Resolution
+ar: الدقة
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+ar: الذاكرة شبه ممتلئة الآن (المستخدم {0}%). أغلق البرامج التي لا تحتاج إليها. الكمبيوتر الذي تنفد ذاكرته يصبح بطيئًا وقد تتعطل برامجه.
+en: Part number
+ar: رقم القطعة
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+ar: يُبلغ هذا الكمبيوتر عن منفذ ذاكرة فارغ. إضافة شريحة ذاكرة من النوع نفسه ({0}) طريقة رخيصة عادةً لجعله أسرع.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+ar: {0} قليلة على Windows 10 و11 اليوم. 8 GB أو أكثر تُحدث فرقًا كبيرًا.
+en: Size
+ar: الحجم
+en: Memory promised to programs
+ar: الذاكرة المحجوزة للبرامج
+en: None. Programs can crash when the memory is full.
+ar: لا يوجد. قد تتعطل البرامج عندما تمتلئ الذاكرة.
+en: Module {0}
+ar: الشريحة {0}
+en: {0} GB of {1} GB  (memory plus page file)
+ar: {0} GB من {1} GB  (الذاكرة مع ملف ترحيل الصفحات)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+ar: يُبلغ هذا الكمبيوتر عن منفذ ذاكرة فارغ. إضافة شريحة ذاكرة من النوع نفسه طريقة رخيصة عادةً لجعله أسرع.
+en: 4 GB or more
+ar: 4 GB أو أكثر
+en: Graphics
+ar: الرسومات
+en: Driver
+ar: برنامج التشغيل
+en: Graphics memory
+ar: ذاكرة الرسومات
+en: {0}% in use now
+ar: {0}% مستخدمة الآن
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+ar: منفذا الذاكرة كلاهما مشغولان. للحصول على ذاكرة أكبر، استبدل الشريحتين بشريحتين أكبر ({0}). إجمالي 16 GB حجم جيد اليوم.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+ar: منفذ الذاكرة الوحيد مشغول. للحصول على ذاكرة أكبر، استبدل الشريحة بشريحة أكبر ({0}). إجمالي 16 GB حجم جيد اليوم.
+en: MEMORY
+ar: الذاكرة
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+ar: جميع منافذ الذاكرة مشغولة (عددها {0}). للحصول على ذاكرة أكبر، استبدل الشرائح بشرائح أكبر ({1}). إجمالي 16 GB حجم جيد اليوم.
+en: Adapter
+ar: المحوّل
+en: Network adapters
+ar: محولات الشبكة
+en: connected at {0}
+ar: متصل بسرعة {0}
+en: turned off
+ar: معطّل
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+ar: لا تحتفظ البطارية إلا بـ {0}% مما كانت تحتفظ به وهي جديدة. البطارية الجديدة تمنحك وقتًا أطول بكثير بعيدًا عن الشاحن.
+en: Lithium-ion
+ar: ليثيوم أيون
+en: Kind
+ar: النوع
+en: Nickel-metal hydride
+ar: نيكل ميتال هيدريد
+en: Lithium-polymer
+ar: ليثيوم بوليمر
+en: connected
+ar: متصل
+en: {0} minutes
+ar: {0} دقيقة | دقيقة واحدة | دقيقتان | {0} دقائق | {0} دقيقة | {0} دقيقة
+en: {0}  ·  Windows reports a problem (code {1})
+ar: {0}  ·  يُبلغ Windows عن مشكلة (الرمز {1})
+en: {0} days
+ar: {0} يوم | يوم واحد | يومان | {0} أيام | {0} يومًا | {0} يوم
+en: {0} hours
+ar: {0} ساعة | ساعة واحدة | ساعتان | {0} ساعات | {0} ساعة | {0} ساعة
+en: Built in
+ar: مدمج
+en: Sound
+ar: الصوت
+en: not connected
+ar: غير متصل
+en: Through the screen (HDMI or DisplayPort)
+ar: عبر الشاشة (HDMI أو DisplayPort)
+en: Added by a program
+ar: أضافه أحد البرامج
+en: Battery
+ar: البطارية
+en: All disks together
+ar: كل الأقراص معًا
+en: plugged in, charging
+ar: موصولة بالكهرباء، قيد الشحن
+en: on battery
+ar: تعمل على البطارية
+en: drive {0}
+ar: محرك الأقراص {0}
+en: Storage class memory
+ar: ذاكرة فئة التخزين
+en: Hard disk
+ar: قرص ثابت
+en: Disk {0}
+ar: القرص {0}
+en: SD card
+ar: بطاقة SD
+en: plugged in, full
+ar: موصولة بالكهرباء، مشحونة بالكامل
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+ar: {0}%  (تتسع لـ {1} Wh، وكانت تتسع لـ {2} Wh وهي جديدة)
+en: Battery health
+ar: صحة البطارية
+en: Charge cycles
+ar: دورات الشحن
+en: Start the tool with admin rights to read it
+ar: شغّل الأداة بصلاحيات المسؤول لقراءتها
+en: {0} h {1} min  (Windows' estimate)
+ar: {0} ساعة و {1} دقيقة  (تقدير Windows)
+en: Charge now
+ar: الشحن الآن
+en: plugged in
+ar: موصولة بالكهرباء
+en: Time left
+ar: الوقت المتبقي
+en: {0}%, {1}
+ar: {0}%، {1}
+en: , size set by hand
+ar: ، حجمه محدد يدويًا
+en: Server
+ar: خادم
+en: Desktop
+ar: كمبيوتر مكتبي
+en: Windows
+ar: =
+en: Workstation
+ar: محطة عمل
+en: All-in-one
+ar: كمبيوتر متكامل (All-in-one)
+en: Laptop that folds into a tablet (2-in-1)
+ar: كمبيوتر محمول يتحول إلى جهاز لوحي (2 في 1)
+en: Laptop
+ar: كمبيوتر محمول
+en: Tablet
+ar: جهاز لوحي
+en: Tablet with a detachable keyboard (2-in-1)
+ar: جهاز لوحي بلوحة مفاتيح قابلة للفصل (2 في 1)
+en: Edition
+ar: النسخة
+en: Last update installed
+ar: آخر تحديث مثبّت
+en: Installed or last big update
+ar: تاريخ التثبيت أو آخر تحديث كبير
+en: Running since
+ar: يعمل منذ
+en: {0}  ({1})
+ar: {0}  ·  {1}
+en: 32-bit
+ar: 32 بت
+en: Build
+ar: البنية
+en: Version
+ar: الإصدار
+en: 64-bit
+ar: 64 بت
+en: 64-bit, for ARM processors
+ar: 64 بت، لمعالجات ARM
+en: Computer name
+ar: اسم الكمبيوتر
+en: Type
+ar: النوع
+en: BIOS
+ar: =
+en: Motherboard
+ar: اللوحة الأم
+en: Model
+ar: الطراز
+en: Read on {0}
+ar: تمت القراءة في {0}
+en: Device details
+ar: تفاصيل الجهاز
+en: Maker
+ar: الشركة المصنّعة
+en: This PC
+ar: هذا الكمبيوتر
+en: Start-up mode
+ar: وضع بدء التشغيل
+en: Not found, or turned off in the BIOS
+ar: غير موجودة، أو متوقفة في BIOS
+en: Security chip (TPM)
+ar: شريحة الأمان (TPM)
+en: TPM {0}, turned off
+ar: TPM {0}، متوقفة
+en: TPM {0}, on
+ar: TPM {0}، تعمل
+en: Not available with Legacy BIOS
+ar: غير متاح مع Legacy BIOS
+en: Secure Boot
+ar: التمهيد الآمن (Secure Boot)
+en: Legacy BIOS
+ar: =
+en: Off
+ar: متوقف
+en: On
+ar: يعمل
+en: Soldered on the board
+ar: ملحومة على اللوحة
+en: SO-DIMM (laptop size)
+ar: SO-DIMM (حجم الكمبيوتر المحمول)
+en: Installed
+ar: المثبّتة
+en: Memory (RAM)
+ar: الذاكرة (RAM)
+en: DIMM (desktop size)
+ar: DIMM (حجم الكمبيوتر المكتبي)
+en: Off in the BIOS
+ar: متوقفة في BIOS
+en: On in the BIOS
+ar: مفعّلة في BIOS
+en: PROCESSOR
+ar: المعالج
+en: Socket
+ar: المقبس
+en: {0}  ({1} GB usable by Windows)
+ar: {0}  ·  {1} GB قابلة للاستخدام في Windows
+en: {0}, {1}  ({2} in use, highest {3})
+ar: {0}، {1}  ·  {2} مستخدمة، الأعلى {3}
+en: {0} of {1} used
+ar: {0} من {1} مستخدمة
+en: , size managed by Windows
+ar: ، يدير Windows حجمه
+en: Page file
+ar: ملف ترحيل الصفحات
+en: Memory slots
+ar: منافذ الذاكرة
+en: {0} GB of {1} GB  ({2}%)
+ar: {0} GB من {1} GB  ·  {2}%
+en: In use now
+ar: المستخدم الآن
+en: Module type
+ar: نوع الشريحة
+en: Type and speed
+ar: النوع والسرعة
+en: WINDOWS
+ar: Windows
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+ar: يعمل Windows منذ {0} يومًا دون إعادة تشغيل. إيقاف التشغيل لا يعيد تشغيل Windows بالكامل عندما تكون ميزة "بدء التشغيل السريع" مفعّلة، لذا استخدم "إعادة التشغيل" من حين لآخر: فهي تُكمل التحديثات وتحرّر الذاكرة.
+en: Processor
+ar: المعالج
+en: build {0}
+ar: البنية {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+ar: لم يثبّت Windows أي تحديث منذ {0}. افتح الإعدادات > Windows Update وابحث عن التحديثات: فهي تسدّ الثغرات الأمنية وتُصلح الأعطال.
+en: Region format
+ar: تنسيق المنطقة
+en: Display language
+ar: لغة العرض
+en: DirectX
+ar: =
+en: Time zone
+ar: المنطقة الزمنية
+en: Name
+ar: الاسم
+en: Busy right now
+ar: نسبة الانشغال الآن
+en: Cache
+ar: ذاكرة التخزين المؤقت
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+ar: قيد الاستخدام (من Hyper-V أو WSL أو Docker أو ميزات أمان Windows)
+en: Virtualization
+ar: المحاكاة الافتراضية
+en: Base speed
+ar: السرعة الأساسية
+en: Cores
+ar: الأنوية
+en: Made by
+ar: الشركة المصنّعة
+en: ({0} processors)
+ar: (عدد المعالجات: {0})
+en: {0} cores, {1} threads
+ar: الأنوية: {0}، المسارات: {1}
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+ar: (برنامج بلا اسم)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+ar: خاص بالشركة المصنّعة
+en: {0} data errors were found on the SSD.
+ar: عدد أخطاء البيانات التي عُثر عليها في قرص SSD: {0}.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+ar: عدد القطاعات التالفة التي استُبدلت بقطاعات احتياطية (Reallocated): {0}.
+en: The disk itself predicts that it will fail soon. Back up your files now.
+ar: القرص نفسه يتوقع أنه سيتعطل قريبًا. انسخ ملفاتك احتياطيًا الآن.
+en: Failing
+ar: حرج
+en: OK (no limit)
+ar: سليم (بلا حدّ)
+en: {0} sector reallocation events.
+ar: عدد أحداث إعادة تخصيص القطاعات: {0}.
+en: The disk needed {0} retries to spin up.
+ar: عدد المحاولات التي احتاجها القرص ليبدأ الدوران: {0}.
+en: {0} internal data path errors.
+ar: عدد أخطاء مسار البيانات الداخلي: {0}.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+ar: عدد أخطاء النقل بين القرص والكمبيوتر: {0}. تنتج عادةً عن كابل مرتخٍ أو تالف ولا تضرّ القرص.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+ar: عدد القطاعات غير المستقرة التي تنتظر الفحص (Pending): {0}. احتفظ بنسخة احتياطية من ملفاتك وراقب ما إذا كان هذا الرقم يزداد.
+en: {0} sectors could not be read or fixed (uncorrectable).
+ar: عدد القطاعات التي تعذّرت قراءتها أو إصلاحها (Uncorrectable): {0}.
+en: {0} read errors the disk could not correct.
+ar: عدد أخطاء القراءة التي لم يستطع القرص تصحيحها: {0}.
+en: Warning flags set
+ar: توجد علامات تحذير
+en: Hot
+ar: ساخن
+en: Below threshold
+ar: أقل من الحد
+en: Windows reports a warning for this disk.
+ar: يُبلغ Windows عن تحذير لهذا القرص.
+en: Windows reports this disk as unhealthy.
+ar: يُبلغ Windows أن هذا القرص غير سليم.
+en: OK
+ar: سليم
+en: Near end of rated life
+ar: قريب من نهاية العمر المقدّر
+en: The SSD has switched to read-only mode to protect your data.
+ar: تحوّل قرص SSD إلى وضع القراءة فقط لحماية بياناتك.
+en: The SSD reports that it has been too hot.
+ar: يُبلغ قرص SSD أنه تعرّض لحرارة زائدة.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+ar: سمة SMART رقم {0} أقل من حدّ الأمان الخاص بها. انسخ ملفاتك احتياطيًا الآن.
+en: Watch
+ar: للمراقبة
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+ar: المساحة الاحتياطية أقل من المستوى الآمن (المتبقي {0}%). انسخ ملفاتك احتياطيًا الآن.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+ar: يُبلغ قرص SSD أن موثوقيته تراجعت. انسخ ملفاتك احتياطيًا الآن.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+ar: ماذا تعني نسبة الصحة؟
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+ar: هي تقدير مبني على بيانات المراقبة الذاتية للقرص (SMART، أو سجل الصحة في أقراص NVMe SSD). تعني 100% أنه لم يُعثر على مشكلات أو اهتراء. ضُبطت لتقترب من أدوات مثل Hard Disk Sentinel، لكن لكل أداة معادلتها الخاصة، لذا قد تختلف الأرقام قليلًا.
+en: Why does the Windows folder look so big in Analyze disk?
+ar: لماذا يبدو مجلد Windows كبيرًا جدًا في "تحليل القرص"؟
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+ar: يحتفظ Windows ببعض الملفات في مكانين في الوقت نفسه، فتُحسب مرتين عند جمع الأحجام. الحجم الحقيقي أصغر. لا تحذف أي شيء من مجلد Windows يدويًا أبدًا.
+en: My SSD shows less than 100% health. Should I worry?
+ar: يُظهر قرص SSD لديّ صحة أقل من 100%. هل يجب أن أقلق؟
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+ar: هي مواضع صغيرة لم يتمكن القرص من قراءتها بشكل موثوق. القطاعات المُعاد تخصيصها (Reallocated) استُبدلت بالفعل بقطاعات احتياطية. القطاعات المعلّقة (Pending) تنتظر الفحص. وجود عدد قليل منها شائع في الأقراص القديمة. إذا استمرت الأرقام في الازدياد، فانسخ ملفاتك احتياطيًا وفكّر في استبدال القرص.
+en: What temperature is normal for a disk?
+ar: ما درجة الحرارة الطبيعية للقرص؟
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+ar: تهترئ أقراص SSD قليلًا مع كل عملية كتابة، وتُظهر الصحة مقدار ما استُهلك من عمر الكتابة المقدّر. يستمر كثير من أقراص SSD في العمل جيدًا بعد تجاوز هذا التقدير. احتفظ بنسخ احتياطية، وخطّط لاستبدال القرص عندما تنخفض صحته أو تظهر مشكلات.
+en: What are pending and reallocated sectors?
+ar: ما القطاعات المعلّقة (Pending) والمُعاد تخصيصها (Reallocated)؟
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+ar: تمتلئ ذاكرات التخزين المؤقت من جديد كلما استخدمت المتصفح والتطبيقات، ويُنزّل Windows تحديثات جديدة، وعندما تقل الذاكرة يكبّر Windows ملف ترحيل الصفحات. التنظيف من جديد كل بضعة أسابيع، وتشغيل "استشعار التخزين"، وإغلاق البرامج غير المستخدمة يُبقي ذلك تحت السيطرة.
+en: Is it safe to clean what this app suggests?
+ar: هل تنظيف ما يقترحه هذا التطبيق آمن؟
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+ar: عناصر مجموعة "آمن للتنظيف" هي ذاكرات تخزين مؤقت وملفات مؤقتة تعيد البرامج إنشاءها بنفسها. عناصر "القرار لك" تحذف شيئًا صغيرًا، لذا اقرأها أولًا. العناصر المعلَّمة بـ "للعرض فقط" لا يحذفها التطبيق أبدًا؛ فهو يعرضها ويفتح موقعها فقط.
+en: It never follows folder links into other folders.
+ar: لا يتبع أبدًا روابط المجلدات إلى مجلدات أخرى.
+en: Will cleaning my browser cache log me out of websites?
+ar: هل سيؤدي تنظيف ذاكرة المتصفح المؤقتة إلى تسجيل خروجي من المواقع؟
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+ar: تُتخطّى الملفات المستخدمة حاليًا. يُبقي تنظيف الملفات المؤقتة على ملفات اليوم الأخير. ولا يمكن قياس تنظيف مكونات Windows إلا أثناء تشغيله. يُظهر السجل في الأسفل بالضبط ما تمت إزالته.
+en: Why does my free space go down again after cleaning?
+ar: لماذا تنخفض المساحة الحرة من جديد بعد التنظيف؟
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+ar: لا. يُبقي تنظيف الذاكرة المؤقتة على ملفات تعريف الارتباط وكلمات المرور المحفوظة والإشارات المرجعية والسجل. ونادرًا جدًا قد يطلب منك موقع تسجيل الدخول من جديد، فيملأ المتصفح كلمة المرور المحفوظة.
+en: Why did I get back less space than the size shown?
+ar: لماذا استعدت مساحة أقل من الحجم المعروض؟
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+ar: افتح علامة التبويب "تفاصيل الجهاز". تعرض ما تعرضه "أداة تشخيص DirectX" في Windows (أداة dxdiag)، وأيضًا منافذ الذاكرة وملف ترحيل الصفحات والشاشات وصحة البطارية. انقر "نسخ الكل" أو "حفظ كملف نصي" لإرسال التفاصيل إلى من يساعدك.
+en: Where are my history files saved?
+ar: أين تُحفظ ملفات السجل؟
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+ar: يحتفظ "الإسبات" بملف بحجم جزء من ذاكرتك ليتمكن الكمبيوتر من المتابعة من حيث توقف. "التخزين المحجوز" نحو 7 GB يحجزها Windows للتحديثات. يخزّن CompactOS ملفات Windows مضغوطة. يمكن لكل منها تحرير عدة GB، ويمكن التراجع عن كل منها لاحقًا.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+ar: أين أرى تفاصيل الكمبيوتر، مثل إصدار Windows والمعالج والذاكرة والرسومات؟
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+ar: في مجلد المستخدم: <ltr>%LOCALAPPDATA%\DiskCleanupHelper</ltr>. يحتوي على سجل التنظيف، وسجل صحة الأقراص ودرجة حرارتها، ونتائج اختبار السرعة. افتحها من علامتي التبويب "حول" و"صحة القرص".
+en: How do I uninstall it?
+ar: كيف أُلغي تثبيته؟
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+ar: الإعدادات > التطبيقات > Disk Cleanup Helper > إلغاء التثبيت، أو زر "إلغاء التثبيت" في علامة التبويب "حول". إذا لم تثبّته قط، فاحذف ملف البرنامج فقط.
+en: Does the app send any of my data anywhere?
+ar: هل يرسل التطبيق أيًّا من بياناتي إلى أي مكان؟
+en: What are hibernation, Reserved Storage and CompactOS?
+ar: ما الإسبات والتخزين المحجوز وCompactOS؟
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+ar: صلاحيات المسؤول مطلوبة لتنظيف ملفات Windows المؤقتة وملفات التحديث، ولقراءة بيانات صحة الأقراص. إذا نقرت "لا"، يظل التطبيق يعمل، وتظهر العناصر التي تحتاج إلى صلاحيات المسؤول باللون الرمادي.
+en: Why does Windows say "Windows protected your PC"?
+ar: لماذا يعرض Windows رسالة "قام Windows بحماية الكمبيوتر الخاص بك"؟
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+ar: تعمل الأقراص الثابتة عادةً بين 25 و45 °C. وتعمل أقراص SSD عادةً بين 30 و60 °C، وقد تصل أقراص NVMe SSD إلى 70 °C تحت الضغط الشديد. درجات الحرارة الأعلى باستمرار تُقصّر عمر القرص.
+en: Why does the app ask for admin rights?
+ar: لماذا يطلب التطبيق صلاحيات المسؤول؟
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+ar: يعرض Windows هذه الرسالة للبرامج الجديدة التي لا يعرفها بعد. انقر "مزيد من المعلومات" ثم "تشغيل على أي حال". يختفي التحذير نهائيًا بعد أن يُوقَّع البرنامج ويصبح معروفًا لدى Microsoft.
+en: Does the speed test harm my disk?
+ar: هل يضرّ اختبار السرعة القرص؟
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+ar: لا. يكتب ملف اختبار مؤقتًا واحدًا بحجم 512 MB إلى 1 GB، ثم يقرؤه ويحذفه. وهذا أقل من يوم استخدام عادي.
+en: Can I undo a cleanup?
+ar: هل يمكنني التراجع عن التنظيف؟
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+ar: الملفات التي تحذفها علامة التبويب "التنظيف" لا تذهب إلى سلة المحذوفات، لذا لا يمكن استعادتها. الملفات التي تنقلها إلى سلة المحذوفات من علامة التبويب "تحليل القرص" يمكن استعادتها حتى تُفرغ سلة المحذوفات. ويمكن إعادة إعدادات Windows كما كانت؛ راجع "اقرأني" في علامة التبويب "حول".
+en: Tidy your Downloads folder
+ar: رتّب مجلد التنزيلات
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+ar: تتراكم ملفات التثبيت والتنزيلات القديمة. رتّب المجلد حسب الحجم واحذف ما لم تعد تحتاج إليه.
+en: Let cloud files stay in the cloud
+ar: اترك ملفات السحابة في السحابة
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+ar: مع OneDrive، انقر بزر الماوس الأيمن فوق مجلد واختر "تحرير مساحة". تبقى الملفات ظاهرة لكنها لا تُنزَّل إلا عند فتحها.
+en: Close programs you are not using
+ar: أغلق البرامج التي لا تستخدمها
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+ar: إعادة التشغيل تُفرغ الذاكرة، وتُكمل التحديثات، وتتيح لـ Windows إعادة ملف ترحيل الصفحات إلى حجمه الطبيعي.
+en: Turn off apps you do not need at startup
+ar: أوقف التطبيقات التي لا تحتاج إليها عند بدء التشغيل
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+ar: عندما تنفد الذاكرة، يكبّر Windows ملف ترحيل الصفحات، فيستهلك مساحة من القرص وقد يتسبب في تعطل البرامج.
+en: Restart your PC now and then
+ar: أعد تشغيل الكمبيوتر من حين لآخر
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+ar: يمكن نقل مقاطع الفيديو والصور والتنزيلات القديمة إلى محرك أقراص آخر أو قرص خارجي أو تخزين سحابي.
+en: Empty the Recycle Bin
+ar: أفرغ سلة المحذوفات
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+ar: الملفات التي تحذفها تظل تشغل مساحة حتى تُفرَغ سلة المحذوفات. تحقق منها من حين لآخر.
+en: Turn on Storage Sense
+ar: شغّل "استشعار التخزين"
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+ar: يستطيع Windows حذف الملفات المؤقتة وعناصر سلة المحذوفات القديمة بنفسه. الإعدادات > النظام > التخزين > استشعار التخزين.
+en: Uninstall what you no longer use
+ar: ألغِ تثبيت ما لم تعد تستخدمه
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+ar: عندما يكاد محرك أقراص Windows يمتلئ، يتباطأ Windows وقد يفشل تثبيت التحديثات.
+en: Move big personal files
+ar: انقل الملفات الشخصية الكبيرة
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+ar: الألعاب والبرامج القديمة غالبًا ما تكون أكثر ما يشغل المساحة. الإعدادات > التطبيقات، ثم رتّب القائمة حسب الحجم.
+en: Keep 10 to 15 percent free
+ar: اترك 10 إلى 15 بالمئة فارغة
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+ar: مجلدات مثل Windows وWinSxS وInstaller تُعطّل Windows إذا نُظّفت يدويًا. استخدم علامة التبويب "التنظيف" بدلًا من ذلك.
+en: Nothing is deleted until you select it and confirm.
+ar: لا يُحذف أي شيء حتى تحدده وتؤكد.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+ar: قد تتعطل الأقراص دون إنذار. احتفظ بنسخة من الملفات المهمة على محرك أقراص آخر أو في السحابة.
+en: Never delete Windows files by hand
+ar: لا تحذف ملفات Windows يدويًا أبدًا
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+ar: لا تمسّ عناصر التنظيف إلا ذاكرات التخزين المؤقت والملفات المؤقتة وملفات التحديث القديمة. مستنداتك وصورك وموسيقاك ومقاطع الفيديو وسطح المكتب والتنزيلات لا تُنظَّف تلقائيًا أبدًا.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+ar: ينبّهك إذا كانت ذاكرة الكمبيوتر منخفضة قبل القياس أو الفحص أو التنظيف.
+en: Windows and program files are protected in the Analyze disk tab.
+ar: ملفات Windows والبرامج محمية في علامة التبويب "تحليل القرص".
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+ar: تنظيف ذاكرات المتصفحات والتطبيقات المؤقتة يُبقي على كلمات المرور والإشارات المرجعية والسجل وتسجيلات الدخول.
+en: It asks you to close a browser or app before cleaning its cache.
+ar: يطلب منك إغلاق المتصفح أو التطبيق قبل تنظيف ذاكرته المؤقتة.
+en: Back up what matters
+ar: انسخ المهم احتياطيًا
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+ar: أقراص SSD لا تحتاج إليه. أداة "تحسين محركات الأقراص" في Windows تعرف الفرق، فاتركها على جدولها التلقائي.
+en: Check disk health once a month
+ar: افحص صحة القرص مرة في الشهر
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+ar: كلما قلّ عدد التطبيقات التي تبدأ مع Windows، كان بدء التشغيل أسرع والذاكرة الحرة أكثر. إدارة المهام > تطبيقات بدء التشغيل.
+en: Do not defragment an SSD
+ar: لا تُلغِ تجزئة قرص SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+ar: افتح علامة التبويب "صحة القرص". تحفظ كل زيارة قراءة، فتُظهر مخططات السجل أي تغيّر.
+en: Keep your PC cool
+ar: حافظ على برودة الكمبيوتر
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+ar: الحرارة تُقصّر عمر القرص. يجب أن تبقى الأقراص الثابتة دون 50 °C تقريبًا وأقراص SSD دون 70 °C تقريبًا. حافظ على نظافة فتحات التهوية.
+en: Watch for growing bad sectors
+ar: راقب ازدياد القطاعات التالفة
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+ar: وجود عدد قليل من القطاعات المُعاد تخصيصها أو المعلّقة أمر شائع. إذا استمر العدد في الازدياد، فانسخ ملفاتك احتياطيًا وخطّط لاستبدال القرص.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+ar: فشل التثبيت:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+ar: هل تريد إزالة Disk Cleanup Helper من هذا الكمبيوتر؟<br><br>يبقى سجل التنظيف في:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+ar: تمت إزالة Disk Cleanup Helper من هذا الكمبيوتر.
+en: Free up disk space safely
+ar: حرّر مساحة القرص بأمان
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+ar: تعذّر نسخ البرنامج. إذا كانت نسخة Disk Cleanup Helper المثبّتة مفتوحة، فأغلقها أولًا وحاول مرة أخرى.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+ar: تم تثبيت Disk Cleanup Helper.<br><br>افتحه من قائمة "ابدأ" أو من اختصار سطح المكتب المسمّى Disk Cleanup Helper.<br><br>لإزالته لاحقًا: الإعدادات > التطبيقات > Disk Cleanup Helper > إلغاء التثبيت.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+ar: الحجم المعروض هو حجم سلة المحذوفات على محرك أقراص Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+ar: يُفرغ سلة المحذوفات على كل محركات الأقراص. لن يمكن استعادة أي شيء كان فيها.
+en: $Recycle.Bin on every drive
+ar: $Recycle.Bin على كل محرك أقراص
+en: Turn off hibernation
+ar: إيقاف الإسبات
+en: Sleep still works normally.
+ar: يظل "السكون" يعمل بشكل طبيعي.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+ar: يزيل ملف الإسبات، وحجمه غالبًا عدة GB. يتوقف "الإسبات" و"بدء التشغيل السريع" عن العمل، فيبدأ الكمبيوتر أبطأ ببضع ثوانٍ.
+en: PC starts a few seconds slower
+ar: يبدأ الكمبيوتر أبطأ ببضع ثوانٍ
+en: Files in it are gone for good
+ar: تُحذف الملفات التي فيها نهائيًا
+en: Crash dump files
+ar: ملفات تفريغ الأعطال
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+ar: تبقى إعداداتك ومشاريعك. تعيد بيئة التطوير فهرسة المشاريع في المرة التالية التي تفتحها فيها. أغلق بيئات JetBrains أولًا.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+ar: ذاكرات التخزين المؤقت لـ IntelliJ IDEA وPyCharm وWebStorm وRider وبيئات JetBrains الأخرى.
+en: Only needed to investigate crashes
+ar: لا حاجة إليها إلا للتحقيق في الأعطال
+en: Recycle Bin (all drives)
+ar: سلة المحذوفات (كل محركات الأقراص)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+ar: احتفظ بها إذا كان أحد يحقق في سبب تعطل الكمبيوتر. وإلا فحذفها آمن.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+ar: ملفات يكتبها Windows بعد شاشة زرقاء أو مشكلة في برنامج تشغيل الرسومات. قد يبلغ حجم MEMORY.DMP وحده عدة GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+ar: للتراجع لاحقًا، شغّل هذا الأمر في موجه الأوامر كمسؤول:  <ltr>DISM /Online /Set-ReservedStorageState /State:Enabled</ltr>
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+ar: إيقافه يعيد إليك تلك المساحة، لكن إذا امتلأ القرص فقد تفشل تحديثات Windows. لا تفعل ذلك إلا إذا كنت تحافظ على مساحة حرة كافية.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+ar: يحجز Windows نحو 7 GB لتجد التحديثات دائمًا مساحة للتثبيت.
+en: already off
+ar: متوقف بالفعل
+en: about 2-4 GB
+ar: نحو 2-4 GB
+en: Windows setting (Reserved Storage)
+ar: إعداد في Windows (التخزين المحجوز)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+ar: للتراجع لاحقًا، شغّل هذا الأمر في موجه الأوامر كمسؤول:  <ltr>powercfg /h on</ltr>
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+ar: hiberfil.sys ملف مخفي من ملفات Windows. لا يوجد ما يُفتح.
+en: Updates may fail when the disk is full
+ar: قد تفشل التحديثات عندما يمتلئ القرص
+en: Turn off Reserved Storage
+ar: إيقاف التخزين المحجوز
+en: about 7 GB
+ar: نحو 7 GB
+en: IDE re-indexes your projects
+ar: تعيد بيئة التطوير فهرسة مشاريعك
+en: Spotify cache and downloads
+ar: ذاكرة Spotify المؤقتة والتنزيلات
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+ar: يحتوي الملف state.vscdb في المجلد نفسه على محادثاتك وتسجيل دخولك وإعداداتك. هذه الأداة لا تمسّه أبدًا.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+ar: بيانات عمل وكيل الذكاء الاصطناعي في Cursor. قد تتضمن سجل محادثات قديمة مع الوكيل.
+en: Downloaded songs must be downloaded again
+ar: يجب تنزيل الأغاني المنزّلة من جديد
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+ar: حسابك وقوائم التشغيل آمنة، لكن الأغاني التي نزّلتها للاستماع دون اتصال يجب تنزيلها من جديد.
+en: Spotify keeps played and downloaded music here.
+ar: يحتفظ Spotify هنا بالموسيقى التي شُغّلت ونُزّلت.
+en: {0} and Data
+ar: {0} وData
+en: May hold old agent chat history
+ar: قد تحتوي على سجل محادثات قديمة مع الوكيل
+en: Cursor: AI agent snapshots
+ar: Cursor: لقطات وكيل الذكاء الاصطناعي
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+ar: لا تُحذف إلا المجلدات التي لم تتغير منذ 60 يومًا. ملفات مشاريعك نفسها لا تُمسّ أبدًا.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+ar: يحتوي كل مجلد على ما يتذكره VS Code عن مشروع واحد: علامات التبويب المفتوحة، والتخطيط، وسجل محادثات الذكاء الاصطناعي لذلك المشروع.
+en: Cannot undo older AI edits
+ar: لا يمكن التراجع عن تعديلات الذكاء الاصطناعي القديمة
+en: Cursor: AI agent data
+ar: Cursor: بيانات وكيل الذكاء الاصطناعي
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+ar: لن تتمكن بعد ذلك من التراجع عن تغييرات الذكاء الاصطناعي القديمة. ينشئ Cursor نسخًا جديدة عندما تستخدم الوكيل من جديد.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+ar: نسخ من مشاريعك يستخدمها وكيل الذكاء الاصطناعي في Cursor للتراجع عن تعديلاته.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+ar: يحتاج البناء التالي إلى الإنترنت ويستغرق وقتًا أطول بينما يُنزّلها Gradle من جديد. أغلق Android Studio وبيئات Java الأخرى أولًا.
+en: Downloaded libraries and build files for Java and Android projects.
+ar: مكتبات وملفات بناء منزّلة لمشاريع Java وAndroid.
+en: Next build downloads everything again
+ar: البناء التالي يُنزّل كل شيء من جديد
+en: Maven repository
+ar: مستودع Maven
+en: JetBrains IDE caches and logs
+ar: ذاكرات بيئات JetBrains المؤقتة وسجلاتها
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+ar: يحتاج البناء التالي إلى الإنترنت ويستغرق وقتًا أطول بينما يُنزّلها Maven من جديد. المكتبات التي ثبّتها بنفسك باستخدام "mvn install" ستحتاج إلى تثبيتها من جديد.
+en: Downloaded Java libraries.
+ar: مكتبات Java منزّلة.
+en: Gradle caches
+ar: ذاكرات Gradle المؤقتة
+en: Adobe media cache (Premiere, After Effects)
+ar: ذاكرة الوسائط المؤقتة (Adobe Premiere وAfter Effects)
+en: Close Spotify first.
+ar: أغلق Spotify أولًا.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+ar: تلميح: في إعدادات Spotify يمكنك أيضًا تعيين حجم أصغر للذاكرة المؤقتة أو نقلها إلى محرك أقراص آخر.
+en: Video previews are rebuilt
+ar: تُعاد إنشاء معاينات الفيديو
+en: Close Adobe apps first.
+ar: أغلق تطبيقات Adobe أولًا.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+ar: لا تُمسّ مشاريعك ومقاطع الفيديو. يكون فتح المشروع لأول مرة بعد ذلك أبطأ بينما تُعاد إنشاء المعاينات.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+ar: ملفات معاينة وصوت تنشئها تطبيقات الفيديو من Adobe. قد يكبر حجمها حتى يبلغ عدة GB.
+en: Compress Windows files (CompactOS)
+ar: ضغط ملفات Windows عبر CompactOS
+en: On a slower hard disk, Docker runs slower.
+ar: على قرص ثابت أبطأ، يعمل Docker بشكل أبطأ.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+ar: لتحرير مساحة على محرك الأقراص هذا، انقله: Docker Desktop > Settings (رمز الترس) > Resources > Advanced > Disk image location > اختر مجلدًا على محرك أقراص آخر > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+ar: احذر من "docker volume prune" و"docker system prune --volumes": فهما يحذفان وحدات التخزين (volumes) التي قد تحتوي على قواعد بيانات.
+en: Linux (WSL) disks
+ar: أقراص Linux في WSL
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+ar: إذا كنت لا تستخدم أحدها: الإعدادات > التطبيقات > ابحث عنه > إلغاء التثبيت. يحذف ذلك كل ما بداخله.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+ar: يحتفظ كل نظام Linux في WSL (مثل Ubuntu) بجميع ملفاته في ملف قرص واحد.
+en: Disk files of your WSL Linux systems
+ar: ملفات أقراص أنظمة Linux في WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+ar: يحتوي على كل حاويات Docker وصورها ووحدات تخزينها. لا تحذف هذا الملف أبدًا.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+ar: لتوفير مساحة: "فتح الموقع" > اختر محرك الأقراص > تكوين > اخفض شريط "الحد الأقصى للاستخدام"، أو انقر "حذف" لإزالتها كلها.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+ar: تتيح لك نقاط الاستعادة التراجع عن تغييرات النظام. قد يستخدم Windows لها عدة GB.
+en: System Properties > System Protection
+ar: خصائص النظام > حماية النظام
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+ar: للإبقاء على أحدثها فقط: تنظيف القرص (cleanmgr) > تنظيف ملفات النظام > خيارات إضافية > استعادة النظام والنسخ الاحتياطية > تنظيف.
+en: Can be moved to another drive
+ar: يمكن نقله إلى محرك أقراص آخر
+en: Docker disk (do not delete)
+ar: قرص Docker (لا تحذفه)
+en: Keep at least one recent restore point if you can.
+ar: احتفظ بنقطة استعادة حديثة واحدة على الأقل إن أمكن.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+ar: - pagefile.sys وswapfile.sys: ذاكرة Windows الإضافية على القرص. من دون قدر كافٍ منها، تتعطل البرامج عندما تنفد الذاكرة.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+ar: pagefile.sys وswapfile.sys ومجلدا Windows Installer وWinSxS
+en: Never delete by hand
+ar: لا تحذفها يدويًا أبدًا
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+ar: - مجلد Windows Installer: لا تُزل الملفات منه إلا عبر عنصر "ملفات التحديث القديمة"، ولا تفعل ذلك يدويًا أبدًا.
+en: ({0} files)
+ar: ({0} ملف) | (ملف واحد) | (ملفان) | ({0} ملفات) | ({0} ملفًا) | ({0} ملف)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+ar: - مجلدات التطبيقات التي تستخدمها، حتى لو كانت كبيرة. قد يؤدي حذفها إلى تعطيل التطبيق أو فقدان بياناتك.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+ar: - مجلد WinSxS: لا تنظّفه إلا عبر عنصري "مكونات Windows"، ولا تفعل ذلك يدويًا أبدًا.
+en: Leave these alone
+ar: اترك هذه وشأنها
+en: Your Downloads folder
+ar: مجلد التنزيلات
+en: If that command is not recognised, run  wsl --update  first.
+ar: إذا لم يُتعرَّف على هذا الأمر، فشغّل  <ltr>wsl --update</ltr>  أولًا.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+ar: لنقل أحدها إلى محرك أقراص آخر، في موجه الأوامر:  <ltr>wsl --shutdown</ltr>   ثم   <ltr>wsl --manage NAME --move D:\WSL\NAME</ltr>
+en: Your own files: you decide
+ar: ملفاتك الخاصة: القرار لك
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+ar: تلميح: تعرض علامة التبويب "تحليل القرص" أكبر ملفاتك في أي مكان.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+ar: افتح المجلد، ورتّبه حسب الحجم (عرض > تفاصيل، ثم انقر عمود "الحجم")، واحذف ما لم تعد تحتاج إليه.
+en: Files you downloaded. This tool never deletes them here.
+ar: ملفات نزّلتها. هذه الأداة لا تحذفها هنا أبدًا.
+en: Keep at least the newest one
+ar: احتفظ بأحدثها على الأقل
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+ar: "استشعار التخزين" مدمج في Windows. يحذف الملفات المؤقتة وعناصر سلة المحذوفات القديمة تلقائيًا، فتبقى المساحة حرة.
+en: Settings > System > Storage
+ar: الإعدادات > النظام > التخزين
+en: Cleans temp files automatically
+ar: ينظّف الملفات المؤقتة تلقائيًا
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+ar: يفتح "فتح الموقع" إعدادات "استشعار التخزين". شغّله من هناك.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+ar: بقايا من ترقية Windows. تتيح لك العودة إلى الإصدار السابق لفترة محدودة، وحجمها غالبًا 10 إلى 30 GB.
+en: Remove with Windows' own tool
+ar: أزلها بأداة Windows نفسها
+en: Previous Windows installation
+ar: تثبيت Windows السابق
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+ar: ميزة من Microsoft نفسها تخزّن ملفات نظام Windows مضغوطة. تحرّر عادةً 2 إلى 4 GB.
+en: Windows system files on {0}
+ar: ملفات نظام Windows على {0}
+en: Built into Windows. Slight CPU cost
+ar: مدمج في Windows. كلفة بسيطة على المعالج
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+ar: على أجهزة الكمبيوتر البطيئة جدًا أو القديمة قد يجعل Windows أبطأ قليلًا. على معظم الأجهزة لن تلاحظ ذلك.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+ar: يعمل في نافذته الخاصة. قد يستغرق ذلك 10 إلى 20 دقيقة. لا تغلق تلك النافذة.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+ar: للتراجع لاحقًا، شغّل هذا الأمر في موجه الأوامر كمسؤول:  <ltr>compact.exe /compactos:never</ltr>
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+ar: يعمل في نافذته الخاصة وقد يستغرق 10 إلى 20 دقيقة. إذا كان Windows مضغوطًا بالفعل، فإنه ينتهي بسرعة.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+ar: أكبر البرامج على {0} (حسب تقدير Windows نفسه للحجم؛ "?" = مجلد التثبيت غير مسجّل):
+en: Programs only come off by uninstalling them in Settings > Apps.
+ar: لا تُزال البرامج إلا بإلغاء تثبيتها من الإعدادات > التطبيقات.
+en: "Open location" opens Apps & features.
+ar: يفتح "فتح الموقع" صفحة "التطبيقات والميزات".
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+ar: البرامج المثبّتة على محركات أقراص أخرى غير مدرجة (عددها {0}): إزالتها لا تحرّر مساحة على {1}.
+en: System Restore points
+ar: نقاط استعادة النظام
+en: "{0}" is discontinued and no longer needed.
+ar: "{0}" متوقف ولم تعد هناك حاجة إليه.
+en: You have {0} Java versions installed. Most people only need the newest one.
+ar: لديك عدة إصدارات مثبّتة من Java (عددها {0}). معظم الناس لا يحتاجون إلا إلى أحدثها.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+ar: لا تُزال البرامج إلا بإلغاء تثبيتها من الإعدادات > التطبيقات. انقر "قياس الأحجام" لعرض أكبرها هنا.
+en: "Open location" opens the Storage settings.
+ar: يفتح "فتح الموقع" إعدادات التخزين.
+en: After that you can no longer go back to the previous Windows version.
+ar: بعد ذلك لن تتمكن من العودة إلى إصدار Windows السابق.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+ar: أزله باستخدام Windows نفسه: الإعدادات > النظام > التخزين > الملفات المؤقتة > حدّد "تثبيتات Windows السابقة" > إزالة الملفات.
+en: see details
+ar: انظر التفاصيل
+en: Settings > Apps > Apps & features
+ar: الإعدادات > التطبيقات > التطبيقات والميزات
+en: Uninstall the ones you do not use
+ar: ألغِ تثبيت ما لا تستخدمه
+en: Biggest installed programs
+ar: أكبر البرامج المثبّتة
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+ar: ملفات Shader يحفظها Windows وبرنامج تشغيل بطاقة الرسومات لتبدأ الألعاب والتطبيقات أسرع.
+en: {0} and similar
+ar: {0} وما شابهها
+en: Games may stutter once while they rebuild
+ar: قد تتقطع الألعاب مرة واحدة أثناء إعادة إنشائها
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+ar: يُعاد إنشاؤها تلقائيًا. قد يتقطع أول تشغيل للعبة بعد ذلك قليلًا.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+ar: ملفات مؤقتة تتركها البرامج. لا تُحذف إلا الملفات الأقدم من يوم واحد، فلا تتأثر عمليات التثبيت الجارية.
+en: Files in use are skipped
+ar: تُتخطّى الملفات المستخدمة
+en: Your temp files (older than 1 day)
+ar: ملفاتك المؤقتة (الأقدم من يوم واحد)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+ar: ذاكرات الرسومات المؤقتة (DirectX وNVIDIA وAMD وIntel)
+en: Deletes only Discord's cache folders.
+ar: يحذف مجلدات ذاكرة Discord المؤقتة فقط.
+en: Keeps login and messages
+ar: يُبقي على تسجيل الدخول والرسائل
+en: Discord cache
+ar: ذاكرة Discord المؤقتة
+en: Close Discord first, including its icon near the clock.
+ar: أغلق Discord أولًا، بما في ذلك أيقونته بجوار الساعة.
+en: Close Slack first, including its icon near the clock.
+ar: أغلق Slack أولًا، بما في ذلك أيقونته بجوار الساعة.
+en: Deletes only Slack's cache folders.
+ar: يحذف مجلدات ذاكرة Slack المؤقتة فقط.
+en: Slack cache
+ar: ذاكرة Slack المؤقتة
+en: Old problem reports
+ar: تقارير مشكلات قديمة
+en: Windows error reports
+ar: تقارير أخطاء Windows
+en: The Windows Update service is stopped for a moment and started again.
+ar: تُوقَف خدمة Windows Update لحظة ثم تُشغَّل من جديد.
+en: {0} and your own WER folder
+ar: {0} ومجلد WER الخاص بك
+en: Recent logs are kept
+ar: تُبقى السجلات الحديثة
+en: Old Windows log files (older than 14 days)
+ar: ملفات سجل Windows القديمة (الأقدم من 14 يومًا)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+ar: تقارير حفظها Windows عن برامج تعطلت. لا حاجة إليها بعد إرسالها أو بعد زوال المشكلة.
+en: If an update is still waiting to install, Windows downloads it again.
+ar: إذا كان تحديث ما لا يزال ينتظر التثبيت، يُنزّله Windows من جديد.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+ar: ملفات مؤقتة يتركها Windows وبرامج التثبيت. لا تُحذف إلا الملفات الأقدم من يوم واحد.
+en: Windows temp files (older than 1 day)
+ar: ملفات Windows المؤقتة (الأقدم من يوم واحد)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+ar: الحجم المعروض هو حجم المجلد كله. تبقى أحدث الملفات، لذا قد تكون المساحة المحرّرة أقل قليلًا.
+en: Windows Update downloads
+ar: تنزيلات Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+ar: ملفات تحديث نزّلها Windows بالفعل. لا تتأثر التحديثات المثبّتة.
+en: {0} and the Delivery Optimization cache
+ar: {0} وذاكرة "تحسين التسليم" المؤقتة
+en: Installed updates are not affected
+ar: لا تتأثر التحديثات المثبّتة
+en: Close Teams first, including its icon near the clock.
+ar: أغلق Teams أولًا، بما في ذلك أيقونته بجوار الساعة.
+en: Keeps passwords, favorites, logins
+ar: يُبقي على كلمات المرور والمفضلة وتسجيلات الدخول
+en: Microsoft Edge cache
+ar: ذاكرة Microsoft Edge المؤقتة
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+ar: أغلق كل نوافذ Chrome أولًا. إذا كانت أيقونة Chrome بجوار الساعة، فانقر عليها بزر الماوس الأيمن واختر "خروج".
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+ar: يحذف مجلدات ذاكرة Edge المؤقتة في كل ملف تعريف فقط، إضافة إلى ذاكرات الرسومات المؤقتة الخاصة به.
+en: Deletes only Brave's cache folders in every profile.
+ar: يحذف مجلدات ذاكرة Brave المؤقتة في كل ملف تعريف فقط.
+en: Brave cache
+ar: ذاكرة Brave المؤقتة
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+ar: غالبًا ما يستمر Edge في العمل في الخلفية. إذا أخبرتك الأداة أنه لا يزال يعمل: في Edge، الإعدادات > النظام والأداء > أوقف "تعزيز بدء التشغيل" و"متابعة تشغيل ملحقات الخلفية والتطبيقات".
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+ar: يحذف مجلدات ذاكرة Chrome المؤقتة في كل ملف تعريف فقط، إضافة إلى ذاكرات الرسومات المؤقتة الخاصة به.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+ar: يُبقي على: كلمات المرور، والإشارات المرجعية، والسجل، وملفات تعريف الارتباط وتسجيلات الدخول إلى المواقع، والتعبئة التلقائية، والملحقات، والإعدادات، وتطبيقات الويب المثبّتة.
+en: Could not stop {0}: {1}
+ar: تعذّر إيقاف {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+ar: تُحمَّل الصفحات أبطأ قليلًا في المرة الأولى. ونادرًا جدًا قد يطلب منك موقع تسجيل الدخول من جديد، فيملأ المتصفح كلمة المرور المحفوظة.
+en: Keeps passwords, bookmarks, logins
+ar: يُبقي على كلمات المرور والإشارات المرجعية وتسجيلات الدخول
+en: Google Chrome cache
+ar: ذاكرة Google Chrome المؤقتة
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+ar: يُبقي على: تسجيل دخولك ورسائلك وإعداداتك وملفاتك. يُنزّل التطبيق ما يحتاج إليه من جديد.
+en: Close Opera first.
+ar: أغلق Opera أولًا.
+en: Deletes only Opera's cache folder.
+ar: يحذف مجلد ذاكرة Opera المؤقتة فقط.
+en: {0} (and Opera GX)
+ar: {0} (وOpera GX)
+en: Microsoft Teams cache
+ar: ذاكرة Microsoft Teams المؤقتة
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+ar: يحذف مجلدات ذاكرة Teams المؤقتة فقط. توصي Microsoft بذلك عندما يكون Teams بطيئًا أو يتصرف بشكل غريب.
+en: Teams cache folders (new Teams and classic Teams)
+ar: مجلدات ذاكرة Teams المؤقتة (Teams الجديد وTeams الكلاسيكي)
+en: Keeps login, chats, files
+ar: يُبقي على تسجيل الدخول والمحادثات والملفات
+en: Opera cache
+ar: ذاكرة Opera المؤقتة
+en: Deletes only Vivaldi's cache folders in every profile.
+ar: يحذف مجلدات ذاكرة Vivaldi المؤقتة في كل ملف تعريف فقط.
+en: Vivaldi cache
+ar: ذاكرة Vivaldi المؤقتة
+en: Close Brave first.
+ar: أغلق Brave أولًا.
+en: Close Vivaldi first.
+ar: أغلق Vivaldi أولًا.
+en: Close Firefox first.
+ar: أغلق Firefox أولًا.
+en: Deletes only Firefox's cache folder in every profile.
+ar: يحذف مجلد ذاكرة Firefox المؤقتة في كل ملف تعريف فقط.
+en: Firefox cache
+ar: ذاكرة Firefox المؤقتة
+en: {0} and {1}
+ar: {0} و{1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+ar: إفراغه آمن. لا يحتاج Windows إليه إلا لإلغاء تثبيت تحديث واحد بمفرده.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+ar: نسخة احتياطية يحتفظ بها Windows لإمكانية إزالة تحديث برنامج واحد لاحقًا دون برنامج التثبيت الأصلي.
+en: Low risk
+ar: خطر منخفض
+en: when run
+ar: عند التشغيل
+en: {0} (Microsoft DISM tool)
+ar: {0} (أداة DISM من Microsoft)
+en: Safe, often frees little
+ar: آمن، وغالبًا يحرّر القليل
+en: Windows components: normal cleanup
+ar: مكونات Windows: تنظيف عادي
+en: Windows patch backup cache
+ar: ذاكرة النسخ الاحتياطي لتصحيحات Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+ar: تُدرج الملفات المحذوفة في deleted-update-files.csv (راجع علامة التبويب "حول" لمعرفة المجلد).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+ar: لا يحذف إلا ملفات التحديث التي يعلّمها Windows على أنها استُبدلت بتحديث أحدث. يُبقي على أحدث 3 لكل برنامج، ولا يحذف أبدًا ملفًا لا يزال قيد الاستخدام.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+ar: تحتفظ بعض البرامج بكل تحديث ثبّتته على الإطلاق. أشهرها Adobe Acrobat Reader، بحجم 0.1 إلى 0.7 GB لكل تحديث.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+ar: خطر بسيط: إذا اشتكى تحديث لاحق لذلك البرنامج أو إصلاحه من ملف مفقود، فألغِ تثبيت البرنامج ثم أعد تثبيته.
+en: Found on this PC: nothing to remove.
+ar: ما عُثر عليه على هذا الكمبيوتر: لا شيء للإزالة.
+en: Found on this PC:
+ar: ما عُثر عليه على هذا الكمبيوتر:
+en: Never delete files in the Windows Installer folder by hand.
+ar: لا تحذف الملفات من مجلد Windows Installer يدويًا أبدًا.
+en: If you tick both Windows components items, only this one runs.
+ar: إذا حددت عنصري "مكونات Windows" كليهما، فلن يعمل إلا هذا العنصر.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+ar: بعد ذلك لن يمكن إلغاء تثبيت تحديثات Windows المثبّتة حاليًا. لا تستخدمه إلا عندما يعمل Windows بشكل جيد.
+en: Same as the normal cleanup, but also removes every replaced version.
+ar: مثل التنظيف العادي، لكنه يزيل أيضًا كل إصدار تم استبداله.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+ar: يعمل في نافذته الخاصة ويستغرق 5 إلى 30 دقيقة. لا تغلق تلك النافذة ولا تُطفئ الكمبيوتر.
+en: {0} (folders unused for 60+ days)
+ar: {0} (مجلدات غير مستخدمة منذ أكثر من 60 يومًا)
+en: Lose old projects' tabs, layout, AI chats
+ar: تفقد علامات التبويب والتخطيط ومحادثات الذكاء الاصطناعي للمشاريع القديمة
+en: VS Code: data of projects not opened in 60 days
+ar: VS Code: بيانات المشاريع التي لم تُفتح منذ 60 يومًا
+en: {0} (Microsoft DISM tool, /ResetBase)
+ar: {0} (أداة DISM من Microsoft، /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+ar: يقوم Windows بذلك بنفسه كل بضعة أسابيع، لذا غالبًا ما يحرّر القليل جدًا.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+ar: يعمل في نافذته الخاصة ويستغرق 5 إلى 30 دقيقة. لا تغلق تلك النافذة ولا تُطفئ الكمبيوتر. صِل الشاحن إذا كان الكمبيوتر محمولًا.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+ar: تنظيف من Microsoft نفسها للإصدارات القديمة من أجزاء Windows. آمن.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+ar: لا تحذف أي شيء من WinSxS يدويًا أبدًا. فذلك يعطّل Windows.
+en: Installed updates cannot be uninstalled after
+ar: لا يمكن إلغاء تثبيت التحديثات المثبّتة بعده
+en: Windows components: deep cleanup
+ar: مكونات Windows: تنظيف عميق
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+ar: يعمل في نافذته الخاصة. قد يستغرق ذلك 5 إلى 30 دقيقة. لا تغلق تلك النافذة.
+en: {0} (files picked from Windows' own records)
+ar: {0} (ملفات مختارة من سجلات Windows نفسها)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+ar: حزم .NET منزّلة. يُنزّلها NuGet من جديد عند الحاجة.
+en: NuGet download cache
+ar: ذاكرة تنزيلات NuGet المؤقتة
+en: Downloaded Python packages. pip downloads them again when needed.
+ar: حزم Python منزّلة. يُنزّلها pip من جديد عند الحاجة.
+en: Go build cache
+ar: ذاكرة بناء Go المؤقتة
+en: Composer cache
+ar: ذاكرة Composer المؤقتة
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+ar: ملفات مُترجمة تحتفظ بها لغة Go لتسريع البناء. يعيد Go إنشاءها في البناء التالي.
+en: Rebuilt on the next build
+ar: يُعاد إنشاؤها في البناء التالي
+en: pip cache
+ar: ذاكرة pip المؤقتة
+en: npm cache
+ar: ذاكرة npm المؤقتة
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+ar: لا تُحذف إلا الملفات الأقدم من 14 يومًا. تبقى السجلات الحديثة تحسّبًا للحاجة إلى إصلاح شيء ما.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+ar: ملفات سجل يكتبها Windows أثناء تثبيت التحديثات. على بعض الأجهزة يكبر حجمها حتى عدة GB.
+en: Packages download again when needed
+ar: تُنزَّل الحزم من جديد عند الحاجة
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+ar: حزم Yarn منزّلة (لمطوري Node.js). يُنزّلها Yarn من جديد عند الحاجة.
+en: Yarn cache
+ar: ذاكرة Yarn المؤقتة
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+ar: حزم npm منزّلة (لمطوري Node.js). يُنزّلها npm من جديد في المرة التالية التي يحتاج إليها مشروع.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+ar: مجلدات ذاكرة Cursor المؤقتة وتقارير الأعطال. يعيد Cursor إنشاءها.
+en: Keeps settings, chats, login
+ar: يُبقي على الإعدادات والمحادثات وتسجيل الدخول
+en: Cursor cache and crash reports
+ar: ذاكرة Cursor المؤقتة وتقارير الأعطال
+en: KEEPS: settings, chats, login and projects.
+ar: يُبقي على: الإعدادات والمحادثات وتسجيل الدخول والمشاريع.
+en: Programs stay installed. Small risk
+ar: تبقى البرامج مثبّتة. خطر بسيط
+en: Old update files of installed programs (keeps newest 3)
+ar: ملفات التحديث القديمة للبرامج المثبّتة (يُبقي أحدث 3)
+en: Close Cursor first.
+ar: أغلق Cursor أولًا.
+en: Close VS Code first.
+ar: أغلق VS Code أولًا.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+ar: حزم Rust منزّلة. يُنزّلها Cargo من جديد عند الحاجة.
+en: Cargo download cache
+ar: ذاكرة تنزيلات Cargo المؤقتة
+en: Downloaded PHP packages. Composer downloads them again when needed.
+ar: حزم PHP منزّلة. يُنزّلها Composer من جديد عند الحاجة.
+en: VS Code cache and crash reports
+ar: ذاكرة VS Code المؤقتة وتقارير الأعطال
+en: KEEPS: settings, extensions, projects, project history and chats.
+ar: يُبقي على: الإعدادات والملحقات والمشاريع وسجل المشاريع والمحادثات.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+ar: مجلدات ذاكرة Visual Studio Code المؤقتة وتقارير الأعطال. يعيد VS Code إنشاءها.
+en: Keeps settings, extensions, projects
+ar: يُبقي على الإعدادات والملحقات والمشاريع
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+ar: الملخص
+en: Transfer rate MB/s   (blue = read, orange = write)
+ar: معدل النقل MB/s   (الأزرق = قراءة، البرتقالي = كتابة)
+en: Disk activity %
+ar: نشاط القرص %
+en: Average transfer rate (since this tab opened)
+ar: متوسط معدل النقل (منذ فتح علامة التبويب هذه)
+en: Read since Windows started
+ar: المقروء منذ بدء تشغيل Windows
+en: Average disk activity
+ar: متوسط نشاط القرص
+en: Highest transfer rate seen
+ar: أعلى معدل نقل مسجّل
+en: now
+ar: الآن
+en: READ
+ar: قراءة
+en: Right now
+ar: الآن
+en: Saved today's disk health and temperature reading to the history.
+ar: حُفظت قراءة اليوم لصحة القرص ودرجة حرارته في السجل.
+en: WRITE
+ar: كتابة
+en: 2 minutes ago
+ar: قبل دقيقتين
+en: DISK ACTIVITY
+ar: نشاط القرص
+en: TOTAL TRANSFER
+ar: إجمالي النقل
+en: Written since Windows started
+ar: المكتوب منذ بدء تشغيل Windows
+en: This disk has no drive letter, so the speed test cannot write its test file.
+ar: لا يملك هذا القرص حرف محرك أقراص، لذا لا يستطيع اختبار السرعة كتابة ملف الاختبار.
+en: Pick a disk first.
+ar: اختر قرصًا أولًا.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+ar: آخر اختبار في {0}: كتابة {1} MB/s، قراءة {2} MB/s، قراءة عشوائية 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+ar: يحتاج محرك الأقراص {0} إلى 2 GB على الأقل من المساحة الحرة لاختبار السرعة.
+en: Speed test started on drive {0}.
+ar: بدأ اختبار السرعة على محرك الأقراص {0}.
+en: Running...
+ar: قيد التشغيل...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+ar: يكتب اختبار السرعة ملف اختبار بحجم {0} MB على محرك الأقراص {1}، ثم يقرؤه ويحذفه.<br>يستغرق ذلك نحو 10 إلى 60 ثانية. قد تبدو البرامج الأخرى أبطأ في أثناء ذلك.<br><br>هل تريد بدء اختبار السرعة؟
+en: not reported by this disk
+ar: لا يُبلغ عنه هذا القرص
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+ar: يقيس السرعة الحقيقية لكتابة القرص وقراءته: يكتب ملف اختبار مؤقتًا، ثم يقرؤه، ثم يقرأ أجزاء صغيرة عشوائية، ثم يحذف الملف. انقر "تشغيل اختبار السرعة" في الأعلى.
+en: Speed test
+ar: اختبار السرعة
+en: Written over the disk's whole life
+ar: المكتوب طوال عمر القرص
+en: Not run yet.
+ar: لم يُشغَّل بعد.
+en: Disk {0}: {1}
+ar: القرص {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+ar: عدادات نشاط القرص في Windows غير متاحة على هذا الكمبيوتر: {0}
+en: Getting disk activity ready...
+ar: جارٍ تجهيز نشاط القرص...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+ar: في المرة الأولى، قد يحتاج Windows إلى بضع ثوانٍ لتشغيل عدادات نشاط القرص.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+ar: للمقارنة: تبلغ الأقراص الثابتة في الأجهزة المحمولة نحو 80 إلى 140 MB/s، وأقراص SATA SSD نحو 500 MB/s، وأقراص NVMe SSD من 1,500 إلى 7,000 MB/s.
+en: Raw value
+ar: القيمة الخام
+en: Unexpected power losses
+ar: انقطاعات الطاقة المفاجئة
+en: Spare space left
+ar: المساحة الاحتياطية المتبقية
+en: Rated write life used
+ar: المستهلك من عمر الكتابة المقدّر
+en: ✓ No problems found.
+ar: ✓ لم يُعثر على مشكلات.
+en: From Windows' storage information.
+ar: من معلومات التخزين في Windows.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+ar: مقروءة من سجل الصحة الخاص بقرص SSD من نوع NVMe. القائمة الكاملة في علامة التبويب "تفاصيل SMART".
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+ar: مقروءة من بيانات المراقبة الذاتية للقرص (SMART). القائمة الكاملة في علامة التبويب "تفاصيل SMART".
+en: Data read over its life
+ar: البيانات المقروءة طوال عمره
+en: Powered on
+ar: مدة التشغيل
+en: TEMPERATURE
+ar: درجة الحرارة
+en: needs admin
+ar: يحتاج إلى صلاحيات المسؤول
+en: {0} hours  (about {1} days)
+ar: {0} ساعة  (نحو {1} يومًا)
+en: Data written over its life
+ar: البيانات المكتوبة طوال عمره
+en: {0} times
+ar: {0} مرة
+en: Turned on
+ar: مرات التشغيل
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+ar: لا يشارك هذا القرص بيانات صحة مفصّلة مع Windows (شائع في حاويات USB وRAID).
+en: No.
+ar: الرقم
+en: Status
+ar: الحالة
+en: Value
+ar: القيمة
+en: Attribute
+ar: السمة
+en: Data
+ar: البيانات
+en: Worst
+ar: الأسوأ
+en: Threshold
+ar: الحد
+en: Item
+ar: البند
+en: Temperature history
+ar: سجل درجة الحرارة
+en: Health history
+ar: سجل الصحة
+en: Start the tool with admin rights to read health and temperature.
+ar: شغّل الأداة بصلاحيات المسؤول لقراءة الصحة ودرجة الحرارة.
+en: No readings saved yet.
+ar: لم تُحفظ أي قراءات بعد.
+en: Offset
+ar: الإزاحة
+en: {0} readings since {1}.
+ar: عدد القراءات منذ {1}: {0}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+ar: قراءة واحدة حتى الآن، في {0}. تكبر المخططات كلما حُفظت قراءات أكثر.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+ar: كتابة {0:N0} MB/s     قراءة {1:N0} MB/s     قراءة عشوائية 4K {2:N1} MB/s  ·  {3:N0} في الثانية
+en: This item has no folder to open.
+ar: لا يوجد مجلد لفتحه لهذا العنصر.
+en: Stopping...
+ar: جارٍ الإيقاف...
+en: Could not open the read me: {0}
+ar: تعذّر فتح ملف "اقرأني": {0}
+en: Pick a drive first.
+ar: اختر محرك أقراص أولًا.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+ar: يحتاج هذا إلى صلاحيات المسؤول. شغّل الأداة من جديد وانقر "نعم" في رسالة Windows.
+en: Select a file in the list first.
+ar: حدد ملفًا في القائمة أولًا.
+en: Scan a drive first.
+ar: افحص محرك أقراص أولًا.
+en: No questions match your search.
+ar: لا توجد أسئلة تطابق بحثك.
+en: Simple habits that keep your disk from filling up and your PC running well.
+ar: عادات بسيطة تمنع امتلاء القرص وتُبقي الكمبيوتر يعمل جيدًا.
+en: Tips
+ar: نصائح
+en: SAFETY
+ar: الأمان
+en: How Disk Cleanup Helper keeps you safe
+ar: كيف يحافظ Disk Cleanup Helper على سلامتك
+en: Search the questions, for example "temperature"
+ar: ابحث في الأسئلة، مثلًا "حرارة"
+en: Click a question to see the answer.
+ar: انقر سؤالًا لترى الإجابة.
+en: Frequently asked questions
+ar: الأسئلة الشائعة
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+ar: بدأ فحص الأخطاء الخاص بـ Windows لمحرك الأقراص {0} في نافذته الخاصة. يقرأ المحرك فقط ويستغرق بضع دقائق. اقرأ النتيجة في تلك النافذة.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+ar: لا تُعرض إلا العناصر الموجودة على هذا الكمبيوتر. انقر "قياس الأحجام" لترى حجم كل منها. لا يُحذف أي شيء حتى تؤكد.
+en: Not running as administrator. Items marked Admin are disabled.
+ar: لا يعمل كمسؤول. العناصر المعلَّمة بـ "مسؤول" معطّلة.
+en: Running as administrator. All items are available.
+ar: يعمل كمسؤول. كل العناصر متاحة.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+ar: تلميح: يمكن تثبيته من علامة التبويب "حول" ليظهر في قائمة "ابدأ".
+en: Saved a health and temperature reading for {0} disks to the history.
+ar: حُفظت قراءة للصحة ودرجة الحرارة لـ {0} قرص في السجل. | حُفظت قراءة للصحة ودرجة الحرارة لقرص واحد في السجل. | حُفظت قراءة للصحة ودرجة الحرارة لقرصين في السجل. | حُفظت قراءة للصحة ودرجة الحرارة لـ {0} أقراص في السجل. | حُفظت قراءة للصحة ودرجة الحرارة لـ {0} قرصًا في السجل. | حُفظت قراءة للصحة ودرجة الحرارة لـ {0} قرص في السجل.
+en: {0} files were in use and were skipped.
+ar: عدد الملفات التي تُخطّيت لأنها قيد الاستخدام: {0}.
+en: {0} items
+ar: {0} عنصر | عنصر واحد | عنصران | {0} عناصر | {0} عنصرًا | {0} عنصر
+en: My user folder only
+ar: مجلد المستخدم فقط
+en: Install: not installed
+ar: التثبيت: غير مثبّت
+en: Install: installed in {0}
+ar: التثبيت: مثبّت في {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+ar: لم تُحفظ أي قراءات بعد.<br><br>سيُحفظ السجل في:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+ar: لم يُجرَ أي تنظيف بعد.<br><br>سيُحفظ السجل في:<br>{0}
+en: Whole drive
+ar: محرك الأقراص بالكامل
+en: Could not open System Information: {0}
+ar: تعذّر فتح "معلومات النظام": {0}
+en: Could not open dxdiag: {0}
+ar: تعذّر فتح dxdiag: {0}
+en: SPEED
+ar: السرعة
+en: Wait until the details have been read.
+ar: انتظر حتى تتم قراءة التفاصيل.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+ar: قُرئت في {0}. تبقى على هذا الكمبيوتر ما لم تنسخها أو تحفظها.
+en: Could not read the device details: {0}
+ar: تعذّرت قراءة تفاصيل الجهاز: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+ar: نُسخت تفاصيل الجهاز. الصقها حيث تحتاج إليها، مثلًا في رسالة إلى من يساعدك.
+en: Text file
+ar: ملف نصي
+en: Save the device details
+ar: حفظ تفاصيل الجهاز
+en: Could not copy: {0}
+ar: تعذّر النسخ: {0}
+en: Reading...
+ar: جارٍ القراءة...
+en: Speed test: {0}
+ar: اختبار السرعة: {0}
+en: Speed test finished.
+ar: انتهى اختبار السرعة.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+ar: اختُبر بملف حجمه {0} MB في {1}. حُفظت النتيجة لتتمكن من المقارنة لاحقًا.
+en: Speed test stopped. The test file was deleted.
+ar: توقف اختبار السرعة. حُذف ملف الاختبار.
+en: Reading this PC's details...
+ar: جارٍ قراءة تفاصيل هذا الكمبيوتر...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+ar: جارٍ جمع تفاصيل Windows والمعالج والذاكرة والرسومات وغيرها. يستغرق ذلك بضع ثوانٍ.
+en: The speed test could not finish. See the log below.
+ar: تعذّر إكمال اختبار السرعة. راجع السجل أدناه.
+en: Stopped.
+ar: توقف.
+en: Saved the device details to {0}
+ar: حُفظت تفاصيل الجهاز في {0}
+en: Philip Droubi | Software Engineer
+ar: Philip Droubi | مهندس برمجيات
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+ar: مهندس برمجيات. الأسئلة والأفكار والملاحظات حول Disk Cleanup Helper مرحَّب بها.
+en: Made by Philip Droubi
+ar: من تطوير Philip Droubi
+en: Philip Droubi is a Software Engineer.
+ar: Philip Droubi مهندس برمجيات.
+en: SPACE
+ar: المساحة
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+ar: مهندس برمجيات. تواصل مع Philip Droubi على LinkedIn.
+en: Source code on GitHub
+ar: الشيفرة المصدرية على GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+ar: مجاني ومفتوح المصدر بموجب رخصة GNU GPL v3: استخدمه وعدّله وشاركه. تحتفظ النسخ بذكر Philip Droubi بصفته المؤلف.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+ar: © {0} Philip Droubi. برنامج حر: يحق لك استخدامه وتعديله ومشاركته بموجب رخصة GNU General Public License v3 مع الشروط الإضافية الواردة في ملف NOTICE. يُقدَّم البرنامج دون أي ضمان.
+en: License and terms
+ar: الترخيص والشروط
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+ar: هذه النسخة ({0}) ليست النسخة المثبّتة على هذا الكمبيوتر. حدّث النسخة المثبّتة لتفتح قائمة "ابدأ" هذا الإصدار.
+en: Repair shortcuts
+ar: إصلاح الاختصارات
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+ar: مثبّت في {0}. افتحه في أي وقت من قائمة "ابدأ" أو من اختصار سطح المكتب. لإزالته: انقر "إلغاء التثبيت"، أو الإعدادات > التطبيقات > Disk Cleanup Helper.
+en: Could not save the file: {0}
+ar: تعذّر حفظ الملف: {0}
+en: Update installed copy
+ar: تحديث النسخة المثبّتة
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+ar: احتفظ بـ Disk Cleanup Helper على هذا الكمبيوتر: ثبّته لتفتحه من قائمة "ابدأ" وسطح المكتب. لا حاجة إلى صلاحيات المسؤول.
+en: Install on this PC
+ar: التثبيت على هذا الكمبيوتر
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+ar: غير مثبّت. أنت تشغّله من {0}. يضيف التثبيت عنصرًا في قائمة "ابدأ" واختصارًا على سطح المكتب وعنصرًا في الإعدادات > التطبيقات لتتمكن من إزالته مثل أي برنامج. لا حاجة إلى صلاحيات المسؤول.
+en: not reported
+ar: غير مُبلَّغ عنه
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+ar: هذه الأداة لا تحذف هذا العنصر أبدًا. استخدم "فتح الموقع" واتبع الخطوات أعلاه.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+ar: يحتاج إلى صلاحيات المسؤول. شغّل الأداة من جديد وانقر "نعم" في رسالة Windows لاستخدام هذا العنصر.
+en: Close first: {0}
+ar: أغلق أولًا: {0}
+en: Measure anyway?
+ar: هل تريد القياس على أي حال؟
+en: Measuring stopped.
+ar: توقف القياس.
+en: Measuring {0} of {1}: {2}
+ar: جارٍ قياس {0} من {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+ar: جارٍ قياس الأحجام. قد يستغرق ذلك دقيقة أو دقيقتين. انقر "إيقاف" للإيقاف.
+en: Where
+ar: الموقع
+en: Problem: {0}
+ar: مشكلة: {0}
+en: Clean selected ({0})
+ar: تنظيف المحدد ({0})
+en: up to {0}
+ar: حتى {0}
+en: Close {0} first
+ar: أغلق {0} أولًا
+en: Size: not measured yet
+ar: الحجم: لم يُقَس بعد
+en: Size: {0}
+ar: الحجم: {0}
+en: Admin
+ar: مسؤول
+en: Done. Select what you want to clean.
+ar: تم. حدد ما تريد تنظيفه.
+en: Cleanup started. Free space on {0}: {1}
+ar: بدأ التنظيف. المساحة الحرة على {0}: {1}
+en: Confirm cleanup
+ar: تأكيد التنظيف
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+ar: سيتم تنظيف ما يلي. الملفات المحذوفة لا تذهب إلى سلة المحذوفات ولا يمكن استعادتها:<br><br>{0}<br><br>هل تريد المتابعة؟
+en: Stopped. Not cleaned: {0}
+ar: توقف. لم يُنظَّف: {0}
+en: Error: {0}
+ar: خطأ: {0}
+en: Cleaning: {0}
+ar: جارٍ التنظيف: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+ar: اكتمل كل شيء. زادت المساحة الحرة على {0} بمقدار {1}. المساحة الحرة الآن {2}.
+en: Clean anyway?
+ar: هل تريد التنظيف على أي حال؟
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+ar: تلميح: تبقى بعض التطبيقات تعمل بجوار الساعة. انقر بزر الماوس الأيمن على أيقونتها هناك واختر "خروج" أو "إنهاء".
+en: Select at least one item first.
+ar: حدد عنصرًا واحدًا على الأقل أولًا.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+ar: تم. انقر عنصرًا لتقرأ عنه، وحدد ما تريد، ثم انقر "تنظيف المحدد".
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+ar: غالبًا ما يعمل Edge في الخلفية: في Edge، الإعدادات > النظام والأداء > أوقف "تعزيز بدء التشغيل" وتطبيقات الخلفية.
+en: Nothing left to clean. Close the programs and try again.
+ar: لم يتبقَّ شيء للتنظيف. أغلق البرامج وحاول مرة أخرى.
+en: Close programs first
+ar: أغلق البرامج أولًا
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+ar: هذه البرامج لا تزال مفتوحة:<br><br>{0}<br><br>{1}<br><br>انقر "لا"، وأغلقها، ثم انقر "تنظيف" من جديد.<br>أو انقر "نعم" لتخطّي العناصر التي تحتاج إليها وتنظيف الباقي.
+en: Clean selected
+ar: تنظيف المحدد
+en: Switches that free space or keep it free.
+ar: مفاتيح تحرّر المساحة أو تُبقيها حرة.
+en: Windows settings
+ar: إعدادات Windows
+en: YOUR CALL
+ar: القرار لك
+en: SETTING
+ar: إعداد
+en: INFO ONLY
+ar: للعرض فقط
+en: The tool only shows and opens these. It never deletes them.
+ar: الأداة تعرض هذه العناصر وتفتحها فقط، ولا تحذفها أبدًا.
+en: Do it yourself
+ar: افعلها بنفسك
+en: You lose something small. Read each one before you select it.
+ar: تفقد شيئًا صغيرًا. اقرأ كل عنصر قبل أن تحدده.
+en: SAFE
+ar: آمن
+en: TOTAL
+ar: الإجمالي
+en: {0} selected
+ar: المحدد: {0}
+en: Caches and temp files. Programs rebuild them by themselves.
+ar: ذاكرات تخزين مؤقت وملفات مؤقتة. تعيد البرامج إنشاءها بنفسها.
+en: Safe to clean
+ar: آمن للتنظيف
+en: Old installer files and Windows cleanup
+ar: ملفات التثبيت القديمة وتنظيف Windows
+en: Your call
+ar: القرار لك
+en: ADMIN
+ar: مسؤول
+en: Needs admin rights. Read each one before you select it.
+ar: تحتاج إلى صلاحيات المسؤول. اقرأ كل عنصر قبل أن تحدده.
+en: Language
+ar: اللغة
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+ar: ذاكرة الكمبيوتر منخفضة الآن:<br><br>  الذاكرة المتاحة: {0:N1} GB<br>  المتبقي مع ملف ترحيل الصفحات: {1:N1} GB<br><br>قد يؤدي نفاد الذاكرة إلى تعطل البرامج، وعلى بعض الأجهزة إلى ظهور شاشة زرقاء.<br>أغلق البرامج التي لا تحتاج إليها (المتصفحات والمحررات والألعاب)، ثم حاول مرة أخرى.
+en: Switched to the light theme.
+ar: تم التبديل إلى المظهر الفاتح.
+en: Switched to the dark theme.
+ar: تم التبديل إلى المظهر الداكن.
+en: Low memory
+ar: ذاكرة منخفضة
+en: nothing selected
+ar: لم يُحدَّد شيء
+en: low: close some programs
+ar: منخفضة: أغلق بعض البرامج
+en: of {0} GB
+ar: من {0} GB
+en: Switch to the dark theme
+ar: التبديل إلى المظهر الداكن
+en: Please wait until the current task finishes, or click Stop.
+ar: يُرجى الانتظار حتى تنتهي المهمة الحالية، أو انقر "إيقاف".
+en: Scan {0} for errors
+ar: فحص {0} بحثًا عن أخطاء
+en: {0} FREE (WINDOWS DRIVE)
+ar: المساحة الحرة في {0} (قرص Windows)
+en: Could not restart the app: {0}
+ar: تعذّرت إعادة تشغيل التطبيق: {0}
+en: Switch to the light theme
+ar: التبديل إلى المظهر الفاتح
+en: DARK MODE
+ar: الوضع الداكن
+en: LIGHT MODE
+ar: الوضع الفاتح
+en: Removed {0}. Left: {1}.
+ar: أُزيل {0}. المتبقي: {1}.
+en: Storage Spaces
+ar: مساحات التخزين
+en: Virtual
+ar: افتراضي
+en: Disk
+ar: قرص
+en: Too hot
+ar: ساخن جدًا
+en: Could not read disks: {0}
+ar: تعذّرت قراءة الأقراص: {0}
+en: Normal
+ar: طبيعية
+en: Warm
+ar: دافئة
+en: Poor
+ar: ضعيفة
+en: Healthy
+ar: سليم
+en: Unknown
+ar: غير معروف
+en: Windows: problem
+ar: Windows: مشكلة
+en: Warning
+ar: تحذير
+en: Fair
+ar: مقبولة
+en: Good
+ar: جيدة
+en: Problem
+ar: مشكلة
+en: Checking disks...
+ar: جارٍ فحص الأقراص...
+en: Reading each disk's health and temperature. This takes a few seconds.
+ar: جارٍ قراءة صحة كل قرص ودرجة حرارته. يستغرق ذلك بضع ثوانٍ.
+en: Waiting for the current task to finish. The disks are checked right after that.
+ar: بانتظار انتهاء المهمة الحالية. تُفحص الأقراص بعدها مباشرةً.
+en: (health {0}%)
+ar: (الصحة {0}%)
+en: SMART attributes
+ar: سمات SMART
+en: NVMe health log
+ar: سجل صحة NVMe
+en: {0}% used
+ar: مستخدم {0}%
+en: HEALTH
+ar: الصحة
+en: Almost full: Windows and apps slow down when a drive is this full.
+ar: شبه ممتلئ: يتباطأ Windows والتطبيقات عندما يمتلئ محرك الأقراص إلى هذا الحد.
+en: {0} free of {1}
+ar: {0} حرة من {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+ar: شغّل الأداة بصلاحيات المسؤول لقراءة بيانات SMART للأقراص.
+en: Windows did not report any disks.
+ar: لم يُبلغ Windows عن أي أقراص.
+en: Disks
+ar: الأقراص
+en: Drives
+ar: محركات الأقراص
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+ar: نسبة الصحة تقدير من هذا التطبيق مبني على بيانات كل قرص. تستخدم الأدوات الأخرى معادلاتها الخاصة، لذا قد تختلف أرقامها قليلًا. تُحفظ قراءة كلما فتحت علامة التبويب هذه أو شغّلت التطبيق (مرة كل 30 دقيقة على الأكثر)، لتتمكن من متابعة الصحة ودرجة الحرارة مع الوقت.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+ar: لا يشارك أي من الأقراص بيانات SMART مع Windows. وهذا شائع في حاويات USB وRAID.
+en: Disk check finished.
+ar: انتهى فحص الأقراص.
+en: A disk reports a problem. Back up your important files now.
+ar: يُبلغ أحد الأقراص عن مشكلة. انسخ ملفاتك المهمة احتياطيًا الآن.
+en: Windows: warning
+ar: Windows: تحذير
+en: Stopped. Results are incomplete.
+ar: توقف. النتائج غير مكتملة.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+ar: جارٍ الفحص... المجلدات: {0:N0}، الملفات: {1:N0} حتى الآن
+en: Scanning {0}. Click Stop to stop.
+ar: جارٍ فحص {0}. انقر "إيقاف" للإيقاف.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+ar: توقف الفحص. تُعرض أكبر الملفات التي عُثر عليها حتى الآن. لا تظهر أحجام المجلدات إلا بعد اكتمال الفحص.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+ar: ملاحظة: قد يبدو مجلد Windows أكبر من حجمه الحقيقي، لأن Windows يحتفظ ببعض الملفات في مكانين في الوقت نفسه.
+en: {0:N0} folders could not be read (Windows protects them).
+ar: تعذّرت قراءة بعض المجلدات (عددها {0:N0})، لأن Windows يحميها.
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+ar: تم خلال {0:N0} ثانية: المجلدات {1:N0}، الملفات {2:N0}.
+en: Scanning {0} ...
+ar: جارٍ فحص {0} ...
+en: (files directly in this folder)
+ar: (الملفات الموجودة مباشرة في هذا المجلد)
+en: Scan a drive to see its biggest folders.
+ar: افحص محرك أقراص لترى أكبر مجلداته.
+en: Free space on {0} grew by {1}.
+ar: زادت المساحة الحرة على {0} بمقدار {1}.
+en: Biggest files
+ar: أكبر الملفات
+en: Scan anyway?
+ar: هل تريد الفحص على أي حال؟
+en: That drive or folder is not available.
+ar: محرك الأقراص أو المجلد هذا غير متاح.
+en: Biggest files ({0} found)
+ar: أكبر الملفات (عُثر على {0})
+en: Select one or more files in the list first. Hold Ctrl to select several.
+ar: حدد ملفًا أو أكثر في القائمة أولًا. اضغط Ctrl مع النقر لتحديد عدة ملفات.
+en: Could not remove {0}: {1}
+ar: تعذّرت إزالة {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+ar: نُقل إلى سلة المحذوفات: {0}  ·  {1}
+en: Deleted file: {0} ({1})
+ar: ملف محذوف: {0}  ·  {1}
+en: Files deleted: {0}.
+ar: الملفات المحذوفة: {0}.
+en: Windows: OK
+ar: Windows: سليم
+en: {0} could not be removed (in use or protected).
+ar: عدد الملفات التي تعذّرت إزالتها (قيد الاستخدام أو محمية): {0}.
+en: Files moved to the Recycle Bin: {0}.
+ar: الملفات المنقولة إلى سلة المحذوفات: {0}.
+en: Move to Recycle Bin
+ar: النقل إلى سلة المحذوفات
+en: They will be deleted permanently and cannot be restored.
+ar: ستُحذف نهائيًا ولا يمكن استعادتها.
+en: ... and {0} more
+ar: ... و{0} غيرها
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+ar: هذه ملفات Windows أو برامج أو نظام، وهي محمية:<br><br>{0}<br><br>ألغِ تثبيت البرنامج بدلًا من ذلك، أو استخدم علامة التبويب "التنظيف".
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+ar: ستذهب إلى سلة المحذوفات. لا تتحرر المساحة إلا بعد أن تُفرغ سلة المحذوفات.
+en: Delete permanently
+ar: الحذف نهائيًا
+en: Make sure you do not need them. Continue?
+ar: تأكد أنك لا تحتاج إليها. هل تريد المتابعة؟
+en: Files: {0}, {1} in total.
+ar: الملفات: {0}، والحجم الإجمالي {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+ar: إعادة فحص الأقراص
+en: Disk health
+ar: صحة القرص
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+ar: اضغط Ctrl مع النقر لتحديد عدة ملفات. ملفات Windows والبرامج محمية ولا يمكن حذفها هنا.
+en: Scan for errors
+ar: فحص بحثًا عن أخطاء
+en: Open history file
+ar: فتح ملف السجل
+en: Windows storage settings
+ar: إعدادات التخزين في Windows
+en: Optimize drives
+ar: تحسين محركات الأقراص
+en: Modified
+ar: تاريخ التعديل
+en: Up
+ar: للأعلى
+en: Biggest folders
+ar: أكبر المجلدات
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+ar: اختر محرك أقراص وانقر "فحص". قد يستغرق محرك أقراص كامل بضع دقائق.
+en: Folder
+ar: المجلد
+en: File
+ar: الملف
+en: Double-click a folder to look inside.
+ar: انقر نقرًا مزدوجًا فوق مجلد لترى محتواه.
+en: Open in File Explorer
+ar: فتح في مستكشف الملفات
+en: SMART details
+ar: تفاصيل SMART
+en: About
+ar: حول
+en: Tips & FAQ
+ar: نصائح وأسئلة شائعة
+en: System Information
+ar: معلومات النظام
+en: Read me
+ar: اقرأني
+en: Cleanup history
+ar: سجل التنظيف
+en: Uninstall
+ar: إلغاء التثبيت
+en: DirectX Diagnostic (dxdiag)
+ar: تشخيص DirectX  ·  dxdiag
+en: Run speed test
+ar: تشغيل اختبار السرعة
+en: Disk performance
+ar: أداء القرص
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+ar: البيانات الخام التي يُبلغ عنها كل قرص عن نفسه. "للمراقبة" تعني أنها تستحق المتابعة. "حرج" تعني أنها أقل من حدّ الأمان الخاص بالقرص.
+en: Live activity updates every second while this tab is open.
+ar: يُحدَّث النشاط المباشر كل ثانية ما دامت علامة التبويب هذه مفتوحة.
+en: Save as text file
+ar: حفظ كملف نصي
+en: Copy all
+ar: نسخ الكل
+en: Read again
+ar: إعادة القراءة
+en: Scan
+ar: فحص
+en: English
+ar: =
+en: 0 items
+ar: 0 عنصر
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+ar: لا يعمل كمسؤول، لذا العناصر المعلَّمة بـ "مسؤول" معطّلة. لاستخدامها، أغلق هذه النافذة، وشغّله من جديد، وانقر "نعم" في رسالة Windows.
+en: Measure sizes
+ar: قياس الأحجام
+en: Clean up
+ar: التنظيف
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+ar: اعرف ما يملأ أقراصك وحرّر المساحة بأمان. لا يُحذف أي شيء حتى تؤكد.
+en: Disk Cleanup Helper
+ar: =
+en: C: FREE
+ar: المساحة الحرة في C:
+en: SELECTED TO CLEAN
+ar: المحدد للتنظيف
+en: MEMORY AVAILABLE
+ar: الذاكرة المتاحة
+en: Stop
+ar: إيقاف
+en: Analyze disk
+ar: تحليل القرص
+en: Open location
+ar: فتح الموقع
+en: Drive
+ar: محرك الأقراص
+en: List files bigger than
+ar: عرض الملفات الأكبر من
+en: Look in
+ar: البحث في
+en: Clear selection
+ar: مسح التحديد
+en: Select all safe
+ar: تحديد كل الآمن
+en: Click Measure sizes to see how much each item uses.
+ar: انقر "قياس الأحجام" لترى حجم كل عنصر.
+en: to see what it is, where it is, and what you keep or lose.
+ar: لترى ما هو، وأين هو، وما الذي تحتفظ به أو تفقده.
+en: Click an item
+ar: انقر عنصرًا
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+ar: فشلت كتابة ملف الاختبار. هل محرك الأقراص ممتلئ؟
+en: Reading it back...
+ar: جارٍ قراءته...
+en: Writing a {0} MB test file...
+ar: جارٍ كتابة ملف اختبار بحجم {0} MB...
+en: Could not create the test file in {0}.
+ar: تعذّر إنشاء ملف الاختبار في {0}.
+en: Could not open the test file.
+ar: تعذّر فتح ملف الاختبار.
+en: Not enough memory for the speed test.
+ar: لا توجد ذاكرة كافية لاختبار السرعة.
+en: Reading small random blocks...
+ar: جارٍ قراءة كتل صغيرة عشوائية...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+ar: يحتاج Disk Cleanup Helper إلى Windows 10 أو Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+ar: تعذّر بدء تشغيل Disk Cleanup Helper:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+ar: حدث خطأ ما:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+ar: (قرص Windows)
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+ar: كيف تعمل التحديثات؟
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+ar: عند صدور إصدار جديد، يُنزّله التطبيق في الخلفية ويتحقق منه: يجب أن تتطابق قيمة SHA256 ورقم الإصدار مع ما هو منشور. ثم يظهر شريط يعرض "إعادة التشغيل الآن". إذا اخترت "لاحقًا"، يُثبَّت التحديث عند إغلاق التطبيق. يمكنك إيقاف التحقق التلقائي في علامة التبويب "حول"؛ ويظل زر "التحقق من التحديثات" هناك يعمل.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+ar: لا. لا يرسل أي شيء عن الكمبيوتر الخاص بك. الاتصال الوحيد الذي يجريه هو سؤال GitHub عمّا إذا كان هناك إصدار جديد، مرة واحدة في اليوم على الأكثر. يمكنك إيقاف ذلك في علامة التبويب "حول".
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+ar: لا يرسل أي شيء عن الكمبيوتر الخاص بك. يسأل GitHub فقط عمّا إذا كان هناك إصدار جديد، ويمكنك إيقاف ذلك في علامة التبويب "حول". يُحفظ سجل ما تم تنظيفه على هذا الكمبيوتر فقط.
+en: Update check: version {0} is the newest.
+ar: التحقق من التحديثات: الإصدار {0} هو الأحدث.
+en: Downloading version {0}... {1}%
+ar: جارٍ تنزيل الإصدار {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+ar: الإصدار {0} متاح. هذه نسخة تطوير، لذا لا تُحدِّث نفسها.
+en: Update check: version {0} is available.
+ar: التحقق من التحديثات: الإصدار {0} متاح.
+en: Downloading version {0}...
+ar: جارٍ تنزيل الإصدار {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+ar: لا يمكن تثبيت التحديث هنا، لأنه لا يمكن تغيير هذا المجلد: {0}
+en: The update was not downloaded: {0}
+ar: لم يُنزَّل التحديث: {0}
+en: Later
+ar: لاحقًا
+en: This is a developer build, so it does not update itself.
+ar: هذه نسخة تطوير، لذا لا تُحدِّث نفسها.
+en: What's new in version {0}:
+ar: ما الجديد في الإصدار {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+ar: تم تثبيت الإصدار {0}، لكن تعذّر تشغيله: {1}<br><br>شغّل Disk Cleanup Helper من جديد.
+en: No details were given for this version.
+ar: لم تُذكر أي تفاصيل لهذا الإصدار.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+ar: تم تنزيل الإصدار {0} والتحقق منه (قيمة SHA256 ورقم الإصدار).
+en: The update could not be downloaded: {0}
+ar: تعذّر تنزيل التحديث: {0}
+en: Version {0} is ready. Restart to update.
+ar: الإصدار {0} جاهز. أعد التشغيل للتحديث.
+en: This is version {0}. It has not checked for updates yet.
+ar: هذا هو الإصدار {0}. لم يتم التحقق من التحديثات بعد.
+en: You have the latest version ({0}). Last checked: {1}.
+ar: لديك أحدث إصدار ({0}). آخر تحقق: {1}.
+en: Version {0} is installed.
+ar: تم تثبيت الإصدار {0}.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+ar: هذه النسخة موجودة في مجلد لا يمكن تغييره:<br>{0}<br><br>تُفتح صفحة الإصدار لتتمكن من تنزيل الإصدار {1} واستبدال هذه النسخة يدويًا.
+en: The update could not be installed: {0}
+ar: تعذّر تثبيت التحديث: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+ar: الإصدار {0} متاح. انقر "التحقق من التحديثات" لتنزيله.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+ar: تعذّر تثبيت التحديث. تستمر هذه النسخة في العمل كما هي.<br><br>{0}
+en: Updated to version {0}.
+ar: تم التحديث إلى الإصدار {0}.
+en: Update check: {0}
+ar: التحقق من التحديثات: {0}
+en: Could not check for updates: {0}
+ar: تعذّر التحقق من التحديثات: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+ar: تعذّر الوصول إلى GitHub. تحقق من الاتصال بالإنترنت وحاول مرة أخرى.
+en: Checking for updates...
+ar: جارٍ التحقق من التحديثات...
+en: Update check: could not reach GitHub.
+ar: التحقق من التحديثات: GitHub غير قابل للوصول.
+en: Check for updates
+ar: التحقق من التحديثات
+en: Check for updates when the app starts
+ar: التحقق من التحديثات عند بدء تشغيل التطبيق
+en: What's new
+ar: ما الجديد
+en: Restart now
+ar: إعادة التشغيل الآن
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+ar: مساعد مجاني لنظامي Windows 10 و11 يُظهر ما يملأ أقراصك ويحرّر المساحة بأمان. لا يرسل أي شيء عن الكمبيوتر الخاص بك. لا يُحذف أي شيء حتى تؤكد.
+en: Updates
+ar: التحديثات
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+ar: تأتي التحديثات من صفحة التطبيق على GitHub. يُتحقَّق من كل إصدار جديد (قيمة SHA256 ورقم الإصدار) قبل أن يحل محل هذا الإصدار.
+en: Version {0} has no {1} file.
+ar: الملف {1} غير موجود في الإصدار {0}.
+en: Version {0} has a download address that is not on github.com.
+ar: لا يستضيف github.com عنوان التنزيل الخاص بالإصدار {0}.
+en: Version {0} has no SHA256 line in its release text.
+ar: لا يوجد سطر SHA256 في نص الإصدار {0}.
+en: GitHub's answer could not be read.
+ar: لم يكن ردّ GitHub قابلًا للقراءة.
+en: The newest release has an unreadable version number: {0}
+ar: رقم الإصدار في أحدث إصدار منشور غير قابل للقراءة: {0}
+en: The download came from an unexpected address: {0}
+ar: جاء التنزيل من عنوان غير متوقع: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+ar: الملف المنزّل ليس برنامج Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+ar: الملف المنزّل هو الإصدار {0}، وليس {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+ar: الملف المنزّل لا يطابق قيمة SHA256 الموجودة في نص الإصدار.
+en: The downloaded file has an unexpected size ({0}).
+ar: حجم الملف المنزّل غير متوقع ({0}).
+en: The download took too long.
+ar: استغرق التنزيل وقتًا أطول من اللازم.

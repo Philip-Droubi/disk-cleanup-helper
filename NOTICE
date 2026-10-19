@@ -1,0 +1,65 @@
+Disk Cleanup Helper
+Copyright (C) 2026 Philip Droubi
+https://github.com/Philip-Droubi/disk-cleanup-helper
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+License, version 3 only (SPDX: GPL-3.0-only), as published by the Free Software Foundation, together with the
+additional terms below, which section 7 of that license allows. The license is the file LICENSE (LICENSE.txt in the
+download); the program also shows it, and this file, under "License and terms" in its About tab.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program. If not, see
+<https://www.gnu.org/licenses/>.
+
+
+Additional terms (GNU GPL version 3, section 7)
+
+1. Attribution (sections 7(b) and 7(c)). This program shows the author attribution
+
+       Disk Cleanup Helper by Philip Droubi - https://github.com/Philip-Droubi
+
+   in its Appropriate Legal Notices (GPL section 0), which are on its About tab, and in its read-me files
+   (README*.txt).
+
+   a. Every copy and every modified version, in source or compiled form, must preserve this NOTICE file (or its full
+      text, viewable from the program) and the copyright notices in the source files.
+   b. A copy that is not modified must preserve that attribution where the program and its read-me files show it.
+   c. A modified version must show, in place of that attribution,
+
+       Based on Disk Cleanup Helper by Philip Droubi - https://github.com/Philip-Droubi
+
+      in the Appropriate Legal Notices it displays (for a program with a window: its About screen or an equivalent
+      screen) and in the read-me files of this program that it includes. Where those notices can hold links, the
+      address must be a clickable link. This keeps the author attribution (section 7(b)) and marks the version as
+      different from the original (section 7(c)).
+
+2. Modified versions (sections 7(c) and 7(d)). A modified version must be marked as changed, for example with another
+   name or a clear "modified version" note, and must not present itself as the original Disk Cleanup Helper or as made
+   or endorsed by Philip Droubi.
+
+
+Third-party material
+
+The GitHub logo in the About tab is the "mark-github" icon from GitHub's Octicons (https://github.com/primer/octicons),
+used under this license:
+
+   MIT License
+
+   Copyright (c) 2026 GitHub Inc.
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+   documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+   rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+   permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+   the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+   WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+   OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+"GitHub", "LinkedIn" and their logos are trademarks of their owners. They are not covered by the GPL or by these
+terms, and the program shows them only to link to the author's pages.

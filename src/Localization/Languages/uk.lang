@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - uk
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Українська
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+uk: Не вдалося запустити {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+uk: також {0}
+en: GRAPHICS
+uk: ГРАФІКА
+en: Wireless (Miracast)
+uk: Бездротове (Miracast)
+en: Built-in screen
+uk: Вбудований екран
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+uk: Дата цього драйвера: {0}. Новіший драйвер від виробника ПК або виробника мікросхеми може усунути збої, сині екрани й проблеми із зображенням.
+en: {0} × {1} at {2} Hz
+uk: {0} × {1}, {2} Hz
+en: Showing now
+uk: Зараз показує
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+uk: Windows повідомляє про проблему з цим пристроєм (код {0}). Перевстановіть його драйвер із сайту виробника ПК або виробника мікросхеми.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+uk: Належний графічний драйвер не інстальовано. Інсталюйте драйвер від виробника ПК або виробника графічної мікросхеми, щоб зображення було чіткішим і швидшим.
+en: Screens
+uk: Екрани
+en: Made in
+uk: Виготовлено
+en: Connection
+uk: Підключення
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+uk: Стан, температура й дані SMART — на вкладках «Стан диска» і «Дані SMART».
+en: Storage
+uk: Накопичувачі
+en: {0} inches
+uk: {0} дюйм.
+en: {0}  (main screen)
+uk: {0}  (основний екран)
+en: Screen {0}
+uk: Екран {0}
+en: Refresh rate
+uk: Частота оновлення
+en: Resolution
+uk: Роздільна здатність
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+uk: Пам'ять зараз майже заповнена (використано {0}%). Закрийте непотрібні програми. Коли ПК бракує пам'яті, він сповільнюється й може дати збій.
+en: Part number
+uk: Артикул
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+uk: Цей ПК повідомляє про вільний слот пам'яті. Додати модуль пам'яті того самого типу ({0}) — зазвичай дешевий спосіб пришвидшити ПК.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+uk: {0} — замало для Windows 10 і 11 на сьогодні. З 8 GB або більше різниця величезна.
+en: Size
+uk: Розмір
+en: Memory promised to programs
+uk: Пам'ять, виділена програмам
+en: None. Programs can crash when the memory is full.
+uk: Немає. Коли пам'ять заповнена, програми можуть давати збій.
+en: Module {0}
+uk: Модуль {0}
+en: {0} GB of {1} GB  (memory plus page file)
+uk: {0} GB з {1} GB  (пам'ять і файл підкачки)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+uk: Цей ПК повідомляє про вільний слот пам'яті. Додати модуль пам'яті того самого типу — зазвичай дешевий спосіб пришвидшити ПК.
+en: 4 GB or more
+uk: 4 GB або більше
+en: Graphics
+uk: Графіка
+en: Driver
+uk: Драйвер
+en: Graphics memory
+uk: Відеопам'ять
+en: {0}% in use now
+uk: Зараз використано {0}%
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+uk: Обидва слоти пам'яті зайняті. Щоб мати більше пам'яті, замініть модулі на більші ({0}). На сьогодні 16 GB загалом — добрий обсяг.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+uk: Єдиний слот пам'яті зайнятий. Щоб мати більше пам'яті, замініть модуль на більший ({0}). На сьогодні 16 GB загалом — добрий обсяг.
+en: MEMORY
+uk: ПАМ'ЯТЬ
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+uk: Усі слоти пам'яті ({0}) зайняті. Щоб мати більше пам'яті, замініть модулі на більші ({1}). На сьогодні 16 GB загалом — добрий обсяг.
+en: Adapter
+uk: Адаптер
+en: Network adapters
+uk: Мережеві адаптери
+en: connected at {0}
+uk: підключено, швидкість {0}
+en: turned off
+uk: вимкнено
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+uk: Акумулятор утримує лише {0}% від початкової ємності. З новим акумулятором ПК працюватиме без зарядного пристрою значно довше.
+en: Lithium-ion
+uk: Літій-іонний
+en: Kind
+uk: Тип
+en: Nickel-metal hydride
+uk: Нікель-метал-гідридний
+en: Lithium-polymer
+uk: Літій-полімерний
+en: connected
+uk: підключено
+en: {0} minutes
+uk: {0} хвилина | {0} хвилини | {0} хвилин
+en: {0}  ·  Windows reports a problem (code {1})
+uk: {0}  ·  Windows повідомляє про проблему (код {1})
+en: {0} days
+uk: {0} день | {0} дні | {0} днів
+en: {0} hours
+uk: {0} година | {0} години | {0} годин
+en: Built in
+uk: Вбудований
+en: Sound
+uk: Звук
+en: not connected
+uk: не підключено
+en: Through the screen (HDMI or DisplayPort)
+uk: Через екран (HDMI або DisplayPort)
+en: Added by a program
+uk: Додано програмою
+en: Battery
+uk: Акумулятор
+en: All disks together
+uk: Усі диски разом
+en: plugged in, charging
+uk: підключено, заряджається
+en: on battery
+uk: від акумулятора
+en: drive {0}
+uk: диск {0}
+en: Storage class memory
+uk: Пам'ять класу сховища
+en: Hard disk
+uk: Жорсткий диск
+en: Disk {0}
+uk: Диск {0}
+en: SD card
+uk: SD-картка
+en: plugged in, full
+uk: підключено, заряджено
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+uk: {0}%  (утримує {1} Wh, новим утримував {2} Wh)
+en: Battery health
+uk: Стан акумулятора
+en: Charge cycles
+uk: Цикли заряджання
+en: Start the tool with admin rights to read it
+uk: Запустіть програму з правами адміністратора, щоб прочитати це
+en: {0} h {1} min  (Windows' estimate)
+uk: {0} год {1} хв  (оцінка Windows)
+en: Charge now
+uk: Поточний заряд
+en: plugged in
+uk: підключено
+en: Time left
+uk: Залишилося часу
+en: {0}%, {1}
+uk: =
+en: , size set by hand
+uk: , розмір задано вручну
+en: Server
+uk: Сервер
+en: Desktop
+uk: Настільний ПК
+en: Windows
+uk: =
+en: Workstation
+uk: Робоча станція
+en: All-in-one
+uk: Моноблок
+en: Laptop that folds into a tablet (2-in-1)
+uk: Ноутбук-трансформер (2-в-1)
+en: Laptop
+uk: Ноутбук
+en: Tablet
+uk: Планшет
+en: Tablet with a detachable keyboard (2-in-1)
+uk: Планшет зі знімною клавіатурою (2-в-1)
+en: Edition
+uk: Випуск
+en: Last update installed
+uk: Останнє інстальоване оновлення
+en: Installed or last big update
+uk: Інстальовано або останнє велике оновлення
+en: Running since
+uk: Працює з
+en: {0}  ({1})
+uk: =
+en: 32-bit
+uk: 32-розрядна
+en: Build
+uk: Збірка
+en: Version
+uk: Версія
+en: 64-bit
+uk: 64-розрядна
+en: 64-bit, for ARM processors
+uk: 64-розрядна, для процесорів ARM
+en: Computer name
+uk: Ім'я комп'ютера
+en: Type
+uk: Тип
+en: BIOS
+uk: =
+en: Motherboard
+uk: Материнська плата
+en: Model
+uk: Модель
+en: Read on {0}
+uk: Зчитано {0}
+en: Device details
+uk: Дані пристрою
+en: Maker
+uk: Виробник
+en: This PC
+uk: Цей ПК
+en: Start-up mode
+uk: Режим запуску
+en: Not found, or turned off in the BIOS
+uk: Не знайдено або вимкнено в BIOS
+en: Security chip (TPM)
+uk: Мікросхема безпеки (TPM)
+en: TPM {0}, turned off
+uk: TPM {0}, вимкнено
+en: TPM {0}, on
+uk: TPM {0}, увімкнено
+en: Not available with Legacy BIOS
+uk: Недоступно з Legacy BIOS
+en: Secure Boot
+uk: Безпечне завантаження
+en: Legacy BIOS
+uk: =
+en: Off
+uk: Вимкнено
+en: On
+uk: Увімкнено
+en: Soldered on the board
+uk: Припаяно до плати
+en: SO-DIMM (laptop size)
+uk: SO-DIMM (для ноутбуків)
+en: Installed
+uk: Інстальовано
+en: Memory (RAM)
+uk: Пам'ять (RAM)
+en: DIMM (desktop size)
+uk: DIMM (для настільних ПК)
+en: Off in the BIOS
+uk: Вимкнено в BIOS
+en: On in the BIOS
+uk: Увімкнено в BIOS
+en: PROCESSOR
+uk: ПРОЦЕСОР
+en: Socket
+uk: Сокет
+en: {0}  ({1} GB usable by Windows)
+uk: {0}  (доступно для Windows: {1} GB)
+en: {0}, {1}  ({2} in use, highest {3})
+uk: {0}, {1}  (використовується {2}, максимум {3})
+en: {0} of {1} used
+uk: Використано {0} з {1}
+en: , size managed by Windows
+uk: , розміром керує Windows
+en: Page file
+uk: Файл підкачки
+en: Memory slots
+uk: Слоти пам'яті
+en: {0} GB of {1} GB  ({2}%)
+uk: {0} GB з {1} GB  ({2}%)
+en: In use now
+uk: Використовується зараз
+en: Module type
+uk: Тип модуля
+en: Type and speed
+uk: Тип і швидкість
+en: WINDOWS
+uk: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+uk: Windows працює без перезавантаження вже {0} дн. Коли ввімкнено швидкий запуск, завершення роботи не перезапускає Windows повністю, тож час від часу використовуйте «Перезавантажити»: це завершує оновлення й звільняє пам'ять.
+en: Processor
+uk: Процесор
+en: build {0}
+uk: збірка {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+uk: Windows не інсталювала оновлень з {0}. Відкрийте «Настройки > Windows Update» і перевірте наявність оновлень: вони усувають вразливості й збої.
+en: Region format
+uk: Формат регіону
+en: Display language
+uk: Мова інтерфейсу
+en: DirectX
+uk: =
+en: Time zone
+uk: Часовий пояс
+en: Name
+uk: Назва
+en: Busy right now
+uk: Навантаження зараз
+en: Cache
+uk: Кеш
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+uk: Використовується (Hyper-V, WSL, Docker або функціями безпеки Windows)
+en: Virtualization
+uk: Віртуалізація
+en: Base speed
+uk: Базова швидкість
+en: Cores
+uk: Ядра
+en: Made by
+uk: Виробник
+en: ({0} processors)
+uk: (процесорів: {0})
+en: {0} cores, {1} threads
+uk: ядер: {0}, потоків: {1}
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+uk: (програма без назви)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+uk: Залежить від виробника
+en: {0} data errors were found on the SSD.
+uk: Помилок даних, знайдених на SSD: {0}.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+uk: Пошкоджених секторів, замінених резервними (перепризначених): {0}.
+en: The disk itself predicts that it will fail soon. Back up your files now.
+uk: Диск сам прогнозує, що незабаром вийде з ладу. Негайно створіть резервну копію файлів.
+en: Failing
+uk: Критично
+en: OK (no limit)
+uk: OK (без порогу)
+en: {0} sector reallocation events.
+uk: Подій перепризначення секторів: {0}.
+en: The disk needed {0} retries to spin up.
+uk: Повторних спроб розкрутити диск: {0}.
+en: {0} internal data path errors.
+uk: Внутрішніх помилок шляху даних: {0}.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+uk: Зафіксовано помилок передачі між диском і ПК: {0}. Зазвичай їх спричиняє погано під'єднаний або пошкоджений кабель, і вони не шкодять диску.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+uk: Нестабільних секторів, що очікують перевірки (pending): {0}. Майте резервну копію файлів і стежте, чи не зростає це число.
+en: {0} sectors could not be read or fixed (uncorrectable).
+uk: Секторів, які не вдалося прочитати чи виправити (uncorrectable): {0}.
+en: {0} read errors the disk could not correct.
+uk: Помилок читання, яких диск не зміг виправити: {0}.
+en: Warning flags set
+uk: Встановлено прапорці попередження
+en: Hot
+uk: Гаряче
+en: Below threshold
+uk: Нижче порогу
+en: Windows reports a warning for this disk.
+uk: Windows повідомляє про попередження для цього диска.
+en: Windows reports this disk as unhealthy.
+uk: Windows повідомляє, що цей диск несправний.
+en: OK
+uk: =
+en: Near end of rated life
+uk: Ресурс майже вичерпано
+en: The SSD has switched to read-only mode to protect your data.
+uk: SSD перейшов у режим лише для читання, щоб захистити ваші дані.
+en: The SSD reports that it has been too hot.
+uk: SSD повідомляє, що перегрівався.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+uk: Атрибут SMART {0} нижче своєї безпечної межі. Негайно створіть резервну копію файлів.
+en: Watch
+uk: Увага
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+uk: Резервний простір нижче безпечного рівня (залишилося {0}%). Негайно створіть резервну копію файлів.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+uk: SSD повідомляє, що його надійність знизилася. Негайно створіть резервну копію файлів.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+uk: Що означає відсоток стану?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+uk: Це оцінка на основі власних даних самоконтролю диска (SMART або журналу стану на NVMe SSD). 100% означає, що проблем чи зносу не виявлено. Оцінку налаштовано так, щоб вона була близькою до програм на зразок Hard Disk Sentinel, але кожна програма має власну формулу, тому числа можуть трохи відрізнятися.
+en: Why does the Windows folder look so big in Analyze disk?
+uk: Чому папка Windows така велика на вкладці «Аналіз диска»?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+uk: Windows зберігає деякі файли одразу у двох місцях, тому під час підсумовування розмірів вони враховуються двічі. Справжній розмір менший. Ніколи нічого не видаляйте в папці Windows вручну.
+en: My SSD shows less than 100% health. Should I worry?
+uk: Стан мого SSD нижче 100%. Чи варто хвилюватися?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+uk: Це невеликі ділянки, які диск не зміг надійно прочитати. Перепризначені сектори вже замінено резервними. Сектори, що очікують, ще чекають на перевірку. Кілька таких секторів — звичайна річ для старих дисків. Якщо їхня кількість зростає, створіть резервну копію файлів і подумайте про заміну диска.
+en: What temperature is normal for a disk?
+uk: Яка температура диска нормальна?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+uk: SSD трохи зношується з кожним записом, а стан показує, яку частину розрахункового ресурсу запису використано. Багато SSD добре працюють ще довго після вичерпання розрахункового ресурсу. Робіть резервні копії й плануйте заміну SSD, коли стан стане низьким або з'являться проблеми.
+en: What are pending and reallocated sectors?
+uk: Що таке перепризначені сектори й сектори, що очікують перевірки?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+uk: Кеші знову наповнюються, коли ви користуєтеся браузером і програмами, Windows завантажує нові оновлення, а коли пам'яті бракує, Windows збільшує файл підкачки. Повторне очищення раз на кілька тижнів, увімкнений контроль пам'яті й закриття непотрібних програм тримають це під контролем.
+en: Is it safe to clean what this app suggests?
+uk: Чи безпечно очищати те, що пропонує ця програма?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+uk: Елементи групи «Безпечно очистити» — це кеші й тимчасові файли, які програми самі створюють знову. Елементи групи «На ваш розсуд» видаляють щось незначне, тож спершу прочитайте про них. Елементи з позначкою «Довідково» програма ніколи не видаляє: вона лише показує їх і відкриває їхнє розташування.
+en: It never follows folder links into other folders.
+uk: Програма ніколи не переходить за посиланнями на папки в інші папки.
+en: Will cleaning my browser cache log me out of websites?
+uk: Чи вийду я з облікових записів на сайтах після очищення кешу браузера?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+uk: Файли, що використовуються, пропускаються. Очищення тимчасових файлів залишає файли за останню добу. А очищення компонентів Windows можна виміряти лише під час його виконання. Журнал унизу показує, що саме було видалено.
+en: Why does my free space go down again after cleaning?
+uk: Чому після очищення вільного місця знову стає менше?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+uk: Ні. Очищення кешу зберігає файли cookie, збережені паролі, закладки й історію. Зрідка сайт може попросити ввійти знову, і браузер підставить збережений пароль.
+en: Why did I get back less space than the size shown?
+uk: Чому звільнилося менше місця, ніж показаний розмір?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+uk: Відкрийте вкладку «Дані пристрою». Вона показує те саме, що й засіб діагностики DirectX у Windows (dxdiag), а також слоти пам'яті, файл підкачки, екрани й стан акумулятора. Натисніть «Копіювати все» або «Зберегти як текст», щоб надіслати ці дані тому, хто вам допомагає.
+en: Where are my history files saved?
+uk: Де зберігаються мої файли історії?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+uk: Глибокий сон займає файл розміром із частину вашої пам'яті, щоб ПК міг продовжити роботу з того місця, де зупинився. Зарезервоване сховище — це близько 7 GB, які Windows відкладає для оновлень. CompactOS зберігає файли Windows у стиснутому вигляді. Кожен із них може звільнити кілька GB, і кожен можна згодом повернути.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+uk: Де переглянути дані мого ПК, як-от версію Windows, процесор, пам'ять і графіку?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+uk: У вашій папці користувача: %LOCALAPPDATA%\DiskCleanupHelper. Там зберігаються історія очищення, історія стану й температури дисків і результати тесту швидкості. Відкрийте їх на вкладках «Про програму» і «Стан диска».
+en: How do I uninstall it?
+uk: Як видалити програму?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+uk: Настройки > Програми > Disk Cleanup Helper > Видалити або кнопка «Видалити» на вкладці «Про програму». Якщо ви не інсталювали програму, просто видаліть її файл.
+en: Does the app send any of my data anywhere?
+uk: Чи надсилає програма кудись мої дані?
+en: What are hibernation, Reserved Storage and CompactOS?
+uk: Що таке глибокий сон, зарезервоване сховище й CompactOS?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+uk: Права адміністратора потрібні, щоб очищати власні тимчасові файли й файли оновлень Windows і читати дані про стан дисків. Якщо натиснути «Ні», програма все одно працює, а елементи, яким потрібні права адміністратора, стають сірими.
+en: Why does Windows say "Windows protected your PC"?
+uk: Чому Windows пише «Windows захистила ваш ПК»?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+uk: Жорсткі диски зазвичай працюють за температури від 25 до 45 °C. SSD зазвичай працюють за температури від 30 до 60 °C, а NVMe SSD під великим навантаженням можуть нагріватися до 70 °C. Постійно вища температура скорочує термін служби диска.
+en: Why does the app ask for admin rights?
+uk: Чому програма просить права адміністратора?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+uk: Windows показує це для нових програм, яких ще не знає. Натисніть «Докладніше», а потім «Усе одно запустити». Попередження зникне назавжди, щойно програму буде підписано і вона стане відомою Microsoft.
+en: Does the speed test harm my disk?
+uk: Чи шкодить тест швидкості диску?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+uk: Ні. Він записує один тимчасовий тестовий файл розміром від 512 MB до 1 GB, зчитує його й видаляє. Це менше, ніж за звичайний день використання.
+en: Can I undo a cleanup?
+uk: Чи можна скасувати очищення?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+uk: Файли, видалені на вкладці «Очищення», не потрапляють до кошика, тому їх не можна відновити. Файли, які ви переміщуєте до кошика з вкладки «Аналіз диска», можна відновити, доки ви не очистите кошик. Параметри Windows можна повернути; див. «Інструкція» на вкладці «Про програму».
+en: Tidy your Downloads folder
+uk: Наведіть лад у папці «Завантаження»
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+uk: Інсталятори й старі завантаження накопичуються. Відсортуйте папку за розміром і видаліть те, що вам більше не потрібно.
+en: Let cloud files stay in the cloud
+uk: Залишайте хмарні файли в хмарі
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+uk: В OneDrive клацніть папку правою кнопкою миші й виберіть «Звільнити місце». Файли залишаються видимими, але завантажуються, лише коли ви їх відкриваєте.
+en: Close programs you are not using
+uk: Закривайте програми, якими не користуєтеся
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+uk: Перезавантаження очищає пам'ять, завершує оновлення й дає Windows змогу зменшити файл підкачки до звичайного розміру.
+en: Turn off apps you do not need at startup
+uk: Вимкніть непотрібні програми в автозавантаженні
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+uk: Коли пам'ять закінчується, Windows збільшує файл підкачки, а це займає місце на диску й може спричиняти збої програм.
+en: Restart your PC now and then
+uk: Час від часу перезавантажуйте ПК
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+uk: Відео, фото й старі завантаження можна зберігати на іншому диску, зовнішньому диску чи в хмарному сховищі.
+en: Empty the Recycle Bin
+uk: Очищуйте кошик
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+uk: Видалені файли займають місце, доки кошик не буде очищено. Перевіряйте його час від часу.
+en: Turn on Storage Sense
+uk: Увімкніть контроль пам'яті
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+uk: Windows може сама видаляти тимчасові файли й старі елементи з кошика. Настройки > Система > Пам'ять > Контроль пам'яті.
+en: Uninstall what you no longer use
+uk: Видаліть те, чим більше не користуєтеся
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+uk: Коли диск Windows майже заповнений, Windows сповільнюється, а оновлення можуть не інсталюватися.
+en: Move big personal files
+uk: Перенесіть великі особисті файли
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+uk: Старі ігри й програми часто займають найбільше місця. Настройки > Програми, потім відсортуйте список за розміром.
+en: Keep 10 to 15 percent free
+uk: Залишайте вільними від 10 до 15 відсотків
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+uk: Ручне очищення таких папок, як Windows, WinSxS та Installer, ламає Windows. Натомість використовуйте вкладку «Очищення».
+en: Nothing is deleted until you select it and confirm.
+uk: Нічого не видаляється, доки ви не виберете це й не підтвердите.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+uk: Диски можуть вийти з ладу без попередження. Зберігайте копію важливих файлів на іншому диску або в хмарі.
+en: Never delete Windows files by hand
+uk: Ніколи не видаляйте файли Windows вручну
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+uk: Елементи очищення стосуються лише кешів, тимчасових файлів і старих файлів оновлень. Ваші документи, фото, музика, відео, робочий стіл і завантаження ніколи не очищаються автоматично.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+uk: Програма попереджає, якщо перед вимірюванням, скануванням чи очищенням ПК бракує пам'яті.
+en: Windows and program files are protected in the Analyze disk tab.
+uk: На вкладці «Аналіз диска» файли Windows і програм захищено.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+uk: Очищення кешу браузерів і програм зберігає ваші паролі, закладки, історію й входи.
+en: It asks you to close a browser or app before cleaning its cache.
+uk: Програма просить закрити браузер чи іншу програму, перш ніж очистити її кеш.
+en: Back up what matters
+uk: Створюйте резервні копії важливого
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+uk: SSD це не потрібно. Засіб Windows «Оптимізація дисків» знає різницю, тож залиште його працювати за автоматичним розкладом.
+en: Check disk health once a month
+uk: Перевіряйте стан диска раз на місяць
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+uk: Що менше програм запускається разом із Windows, то швидший запуск і більше вільної пам'яті. Диспетчер завдань > Автозавантаження.
+en: Do not defragment an SSD
+uk: Не дефрагментуйте SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+uk: Відкривайте вкладку «Стан диска». Кожне відкриття зберігає показники, тож графіки історії покажуть, якщо щось зміниться.
+en: Keep your PC cool
+uk: Не допускайте перегріву ПК
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+uk: Нагрів скорочує термін служби диска. Температура жорстких дисків має бути нижчою приблизно за 50 °C, а SSD — нижчою приблизно за 70 °C. Тримайте вентиляційні отвори чистими.
+en: Watch for growing bad sectors
+uk: Стежте, чи не зростає кількість пошкоджених секторів
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+uk: Кілька перепризначених секторів або секторів, що очікують перевірки, — звичайна річ. Якщо їхня кількість постійно зростає, створіть резервну копію й плануйте заміну диска.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+uk: Не вдалося інсталювати:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+uk: Видалити Disk Cleanup Helper з цього ПК?<br><br>Історія очищення залишиться тут:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+uk: Disk Cleanup Helper видалено з цього ПК.
+en: Free up disk space safely
+uk: Безпечне звільнення місця на диску
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+uk: Не вдалося скопіювати програму. Якщо інстальовану програму Disk Cleanup Helper відкрито, спершу закрийте її й повторіть спробу.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+uk: Програму Disk Cleanup Helper інстальовано.<br><br>Відкривайте її з меню «Пуск» або за допомогою ярлика на робочому столі з назвою Disk Cleanup Helper.<br><br>Щоб видалити її пізніше: Настройки > Програми > Disk Cleanup Helper > Видалити.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+uk: Показано розмір кошика на диску Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+uk: Очищує кошик на всіх дисках. Усе, що в ньому є, більше не можна буде відновити.
+en: $Recycle.Bin on every drive
+uk: $Recycle.Bin на всіх дисках
+en: Turn off hibernation
+uk: Вимкнути глибокий сон
+en: Sleep still works normally.
+uk: Сон і далі працює як зазвичай.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+uk: Видаляє файл глибокого сну, який часто займає кілька GB. Глибокий сон і швидкий запуск перестануть працювати, тож ПК запускатиметься на кілька секунд повільніше.
+en: PC starts a few seconds slower
+uk: ПК запускається на кілька секунд повільніше
+en: Files in it are gone for good
+uk: Файли в ньому зникнуть назавжди
+en: Crash dump files
+uk: Файли аварійних дампів
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+uk: Ваші налаштування й проєкти залишаться. IDE повторно проіндексує проєкти, коли ви наступного разу їх відкриєте. Спершу закрийте IDE від JetBrains.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+uk: Кеші IntelliJ IDEA, PyCharm, WebStorm, Rider та інших IDE від JetBrains.
+en: Only needed to investigate crashes
+uk: Потрібні лише для розслідування збоїв
+en: Recycle Bin (all drives)
+uk: Кошик (усі диски)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+uk: Залиште їх, якщо хтось з'ясовує причину збоїв вашого ПК. Інакше їх можна безпечно видалити.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+uk: Файли, які Windows записує після синього екрана або проблеми з графічним драйвером. Лише MEMORY.DMP може займати кілька GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+uk: Щоб пізніше скасувати, виконайте в командному рядку від імені адміністратора:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+uk: Вимкнення повертає це місце, але якщо диск заповниться, оновлення Windows можуть не інсталюватися. Робіть це, лише якщо у вас завжди достатньо вільного місця.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+uk: Windows відкладає близько 7 GB, щоб для інсталяції оновлень завжди було місце.
+en: already off
+uk: уже вимкнено
+en: about 2-4 GB
+uk: близько 2-4 GB
+en: Windows setting (Reserved Storage)
+uk: Параметр Windows (зарезервоване сховище)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+uk: Щоб пізніше скасувати, виконайте в командному рядку від імені адміністратора:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+uk: hiberfil.sys — прихований файл Windows. Тут нічого відкривати.
+en: Updates may fail when the disk is full
+uk: Оновлення можуть не інсталюватися, коли диск заповнено
+en: Turn off Reserved Storage
+uk: Вимкнути зарезервоване сховище
+en: about 7 GB
+uk: близько 7 GB
+en: IDE re-indexes your projects
+uk: IDE повторно індексує ваші проєкти
+en: Spotify cache and downloads
+uk: Кеш і завантаження Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+uk: Файл state.vscdb у тій самій папці містить ваші чати, вхід і налаштування. Ця програма ніколи його не торкається.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+uk: Робочі дані AI-агента Cursor. Можуть містити стару історію чатів з агентом.
+en: Downloaded songs must be downloaded again
+uk: Завантажені пісні доведеться завантажити знову
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+uk: Ваш обліковий запис і списки відтворення в безпеці, але пісні, завантажені для прослуховування офлайн, доведеться завантажити знову.
+en: Spotify keeps played and downloaded music here.
+uk: Тут Spotify зберігає відтворену й завантажену музику.
+en: {0} and Data
+uk: {0} і Data
+en: May hold old agent chat history
+uk: Може містити стару історію чатів з агентом
+en: Cursor: AI agent snapshots
+uk: Cursor: знімки AI-агента
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+uk: Видаляються лише папки, які не змінювалися 60 днів. Самі файли ваших проєктів ніколи не зачіпаються.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+uk: Кожна папка містить те, що VS Code пам'ятає про один проєкт: відкриті вкладки, макет та історію AI-чатів цього проєкту.
+en: Cannot undo older AI edits
+uk: Не можна скасувати старіші зміни AI
+en: Cursor: AI agent data
+uk: Cursor: дані AI-агента
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+uk: Ви більше не зможете відкотити старіші зміни AI. Cursor створить нові копії, коли ви знову скористаєтеся агентом.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+uk: Копії ваших проєктів, за допомогою яких AI-агент Cursor скасовує свої зміни.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+uk: Наступна збірка потребуватиме інтернету й триватиме довше, поки Gradle знову їх завантажує. Спершу закрийте Android Studio та інші IDE для Java.
+en: Downloaded libraries and build files for Java and Android projects.
+uk: Завантажені бібліотеки й файли збірки для проєктів Java та Android.
+en: Next build downloads everything again
+uk: Наступна збірка завантажить усе знову
+en: Maven repository
+uk: Репозиторій Maven
+en: JetBrains IDE caches and logs
+uk: Кеші й журнали IDE від JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+uk: Наступна збірка потребуватиме інтернету й триватиме довше, поки Maven знову їх завантажує. Бібліотеки, які ви інсталювали самі за допомогою "mvn install", доведеться інсталювати знову.
+en: Downloaded Java libraries.
+uk: Завантажені бібліотеки Java.
+en: Gradle caches
+uk: Кеші Gradle
+en: Adobe media cache (Premiere, After Effects)
+uk: Медіакеш Adobe (Premiere, After Effects)
+en: Close Spotify first.
+uk: Спершу закрийте Spotify.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+uk: Порада: у налаштуваннях Spotify також можна задати менший розмір кешу або перенести його на інший диск.
+en: Video previews are rebuilt
+uk: Попередні перегляди відео буде створено знову
+en: Close Adobe apps first.
+uk: Спершу закрийте програми Adobe.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+uk: Ваші проєкти й відео не зачіпаються. Перше відкриття проєкту після цього буде повільнішим, поки створюються попередні перегляди.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+uk: Файли попереднього перегляду й аудіо, які створюють відеопрограми Adobe. Вони можуть розростатися до багатьох GB.
+en: Compress Windows files (CompactOS)
+uk: Стиснути файли Windows (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+uk: На повільнішому жорсткому диску Docker працює повільніше.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+uk: Щоб звільнити місце на цьому диску, перенесіть його: Docker Desktop > Settings (шестерня) > Resources > Advanced > Disk image location > виберіть папку на іншому диску > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+uk: Обережно з "docker volume prune" і "docker system prune --volumes": вони видаляють томи, у яких можуть бути бази даних.
+en: Linux (WSL) disks
+uk: Диски Linux (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+uk: Якщо ви не користуєтеся якоюсь із них: Настройки > Програми > знайдіть її > Видалити. Це видалить усе, що в ній є.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+uk: Кожна система Linux у WSL (наприклад, Ubuntu) зберігає всі свої файли в одному файлі диска.
+en: Disk files of your WSL Linux systems
+uk: Файли дисків ваших систем Linux у WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+uk: Містить усі контейнери, образи й томи Docker. Ніколи не видаляйте цей файл.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+uk: Щоб звільнити місце: «Відкрити розташування» > виберіть диск > Настроїти > зменште повзунок «Максимальне використання» або натисніть «Видалити», щоб видалити їх усі.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+uk: Точки відновлення дають змогу скасувати зміни в системі. Windows може відводити під них кілька GB.
+en: System Properties > System Protection
+uk: Властивості системи > Захист системи
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+uk: Щоб залишити лише найновішу: Очищення диска (cleanmgr) > Очистити системні файли > Додатково > Відновлення системи й тіньові копії > Очистити.
+en: Can be moved to another drive
+uk: Можна перенести на інший диск
+en: Docker disk (do not delete)
+uk: Диск Docker (не видаляйте)
+en: Keep at least one recent restore point if you can.
+uk: Якщо можете, залиште принаймні одну нещодавню точку відновлення.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+uk: - pagefile.sys і swapfile.sys: додаткова пам'ять Windows на диску. Якщо її замало, програми дають збій, коли пам'ять закінчується.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+uk: pagefile.sys, swapfile.sys, папки Windows Installer і WinSxS
+en: Never delete by hand
+uk: Ніколи не видаляйте вручну
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+uk: - Папка Windows Installer: видаляйте файли лише за допомогою елемента «Старі файли оновлень», ніколи вручну.
+en: ({0} files)
+uk: ({0} файл) | ({0} файли) | ({0} файлів)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+uk: - Папки програм, якими ви користуєтеся, навіть якщо вони великі. Їх видалення може зламати програму або призвести до втрати ваших даних.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+uk: - Папка WinSxS: очищуйте її лише за допомогою елементів «Компоненти Windows», ніколи вручну.
+en: Leave these alone
+uk: Не чіпайте це
+en: Your Downloads folder
+uk: Ваша папка «Завантаження»
+en: If that command is not recognised, run  wsl --update  first.
+uk: Якщо цю команду не розпізнано, спершу виконайте  wsl --update
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+uk: Щоб перенести систему на інший диск, у командному рядку:  wsl --shutdown   потім   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+uk: Ваші власні файли: вирішуєте ви
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+uk: Порада: вкладка «Аналіз диска» показує ваші найбільші файли будь-де.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+uk: Відкрийте папку, відсортуйте за розміром (Вигляд > Таблиця, потім клацніть стовпець «Розмір») і видаліть те, що вам більше не потрібно.
+en: Files you downloaded. This tool never deletes them here.
+uk: Завантажені вами файли. Ця програма ніколи не видаляє їх тут.
+en: Keep at least the newest one
+uk: Залиште принаймні найновішу
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+uk: Контроль пам'яті вбудовано в Windows. Він автоматично видаляє тимчасові файли й старі елементи з кошика, тож місце залишається вільним.
+en: Settings > System > Storage
+uk: Настройки > Система > Пам'ять
+en: Cleans temp files automatically
+uk: Автоматично очищує тимчасові файли
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+uk: «Відкрити розташування» відкриває параметри контролю пам'яті. Увімкніть його там.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+uk: Залишилася після оновлення Windows. Дає змогу протягом обмеженого часу повернутися до попередньої версії й часто займає від 10 до 30 GB.
+en: Remove with Windows' own tool
+uk: Видаляйте вбудованим засобом Windows
+en: Previous Windows installation
+uk: Попередня інсталяція Windows
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+uk: Вбудована функція Microsoft, яка зберігає системні файли Windows у стиснутому вигляді. Зазвичай звільняє від 2 до 4 GB.
+en: Windows system files on {0}
+uk: Системні файли Windows на {0}
+en: Built into Windows. Slight CPU cost
+uk: Вбудовано в Windows. Невелике навантаження на процесор
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+uk: На дуже повільних або старих ПК це може трохи сповільнити Windows. На більшості ПК ви цього не помітите.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+uk: Виконується в окремому вікні. Це може тривати від 10 до 20 хвилин. Не закривайте це вікно.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+uk: Щоб пізніше скасувати, виконайте в командному рядку від імені адміністратора:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+uk: Виконується в окремому вікні й може тривати від 10 до 20 хвилин. Якщо Windows уже стиснуто, процес завершиться швидко.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+uk: Найбільші програми на {0} (оцінка розміру від Windows; "?" = папку інсталяції не записано):
+en: Programs only come off by uninstalling them in Settings > Apps.
+uk: Програми можна прибрати, лише видаливши їх у розділі «Настройки > Програми».
+en: "Open location" opens Apps & features.
+uk: «Відкрити розташування» відкриває «Програми й можливості».
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+uk: Програми, інстальовані на інших дисках ({0}), не показано: їх видалення не звільнить місця на {1}.
+en: System Restore points
+uk: Точки відновлення системи
+en: "{0}" is discontinued and no longer needed.
+uk: «{0}»: підтримку припинено, більше не потрібно.
+en: You have {0} Java versions installed. Most people only need the newest one.
+uk: Інстальовано версій Java: {0}. Більшості людей потрібна лише найновіша.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+uk: Програми можна прибрати, лише видаливши їх у розділі «Настройки > Програми». Натисніть «Виміряти розміри», щоб побачити тут найбільші з них.
+en: "Open location" opens the Storage settings.
+uk: «Відкрити розташування» відкриває параметри пам'яті.
+en: After that you can no longer go back to the previous Windows version.
+uk: Після цього ви більше не зможете повернутися до попередньої версії Windows.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+uk: Видаліть її засобами самої Windows: Настройки > Система > Пам'ять > Тимчасові файли > позначте «Попередні інсталяції Windows» > Видалити файли.
+en: see details
+uk: див. докладно
+en: Settings > Apps > Apps & features
+uk: Настройки > Програми > Програми й можливості
+en: Uninstall the ones you do not use
+uk: Видаліть ті, якими не користуєтеся
+en: Biggest installed programs
+uk: Найбільші інстальовані програми
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+uk: Файли шейдерів, які Windows і драйвер відеокарти зберігають, щоб ігри й програми запускалися швидше.
+en: {0} and similar
+uk: {0} та подібні
+en: Games may stutter once while they rebuild
+uk: Ігри можуть один раз пригальмувати, поки файли створюються знову
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+uk: Вони створюються знову автоматично. Перший запуск гри після цього може трохи пригальмовувати.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+uk: Тимчасові файли, які залишають програми. Видаляються лише файли, старші за 1 день, тож поточні інсталяції не порушуються.
+en: Files in use are skipped
+uk: Файли, що використовуються, пропускаються
+en: Your temp files (older than 1 day)
+uk: Ваші тимчасові файли (старші за 1 день)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+uk: Графічні кеші (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+uk: Видаляє лише папки кешу Discord.
+en: Keeps login and messages
+uk: Зберігає вхід і повідомлення
+en: Discord cache
+uk: Кеш Discord
+en: Close Discord first, including its icon near the clock.
+uk: Спершу закрийте Discord, зокрема його значок біля годинника.
+en: Close Slack first, including its icon near the clock.
+uk: Спершу закрийте Slack, зокрема його значок біля годинника.
+en: Deletes only Slack's cache folders.
+uk: Видаляє лише папки кешу Slack.
+en: Slack cache
+uk: Кеш Slack
+en: Old problem reports
+uk: Старі звіти про проблеми
+en: Windows error reports
+uk: Звіти про помилки Windows
+en: The Windows Update service is stopped for a moment and started again.
+uk: Службу Windows Update буде ненадовго зупинено й запущено знову.
+en: {0} and your own WER folder
+uk: {0} і ваша власна папка WER
+en: Recent logs are kept
+uk: Нещодавні журнали зберігаються
+en: Old Windows log files (older than 14 days)
+uk: Старі файли журналів Windows (старші за 14 днів)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+uk: Звіти, які Windows зберегла про збої програм. Вони не потрібні після надсилання або коли проблему усунуто.
+en: If an update is still waiting to install, Windows downloads it again.
+uk: Якщо оновлення ще чекає на інсталяцію, Windows завантажить його знову.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+uk: Тимчасові файли, які залишають Windows та інсталятори. Видаляються лише файли, старші за 1 день.
+en: Windows temp files (older than 1 day)
+uk: Тимчасові файли Windows (старші за 1 день)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+uk: Показано розмір усієї папки. Найновіші файли залишаються, тож звільнений обсяг може бути трохи меншим.
+en: Windows Update downloads
+uk: Завантаження Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+uk: Файли оновлень, які Windows уже завантажила. Інстальовані оновлення не зачіпаються.
+en: {0} and the Delivery Optimization cache
+uk: {0} і кеш оптимізації доставлення
+en: Installed updates are not affected
+uk: Інстальовані оновлення не зачіпаються
+en: Close Teams first, including its icon near the clock.
+uk: Спершу закрийте Teams, зокрема його значок біля годинника.
+en: Keeps passwords, favorites, logins
+uk: Зберігає паролі, вибране, входи
+en: Microsoft Edge cache
+uk: Кеш Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+uk: Спершу закрийте всі вікна Chrome. Якщо значок Chrome є біля годинника, клацніть його правою кнопкою миші й виберіть «Вийти».
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+uk: Видаляє лише папки кешу Edge в усіх профілях, а також його графічні кеші.
+en: Deletes only Brave's cache folders in every profile.
+uk: Видаляє лише папки кешу Brave в усіх профілях.
+en: Brave cache
+uk: Кеш Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+uk: Edge часто продовжує працювати у фоновому режимі. Якщо програма повідомляє, що він досі працює: в Edge відкрийте «Настройки > Система та продуктивність» і вимкніть «Прискорення запуску» та «Продовжувати роботу фонових розширень і програм».
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+uk: Видаляє лише папки кешу Chrome в усіх профілях, а також його графічні кеші.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+uk: ЗБЕРІГАЄ: паролі, закладки, історію, файли cookie та входи на сайти, автозаповнення, розширення, налаштування, інстальовані вебпрограми.
+en: Could not stop {0}: {1}
+uk: Не вдалося зупинити {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+uk: Першого разу сторінки завантажуватимуться трохи повільніше. Зрідка сайт може попросити ввійти знову, і браузер підставить збережений пароль.
+en: Keeps passwords, bookmarks, logins
+uk: Зберігає паролі, закладки, входи
+en: Google Chrome cache
+uk: Кеш Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+uk: ЗБЕРІГАЄ: ваш вхід, повідомлення, налаштування й файли. Програма знову завантажить те, що їй потрібно.
+en: Close Opera first.
+uk: Спершу закрийте Opera.
+en: Deletes only Opera's cache folder.
+uk: Видаляє лише папку кешу Opera.
+en: {0} (and Opera GX)
+uk: {0} (і Opera GX)
+en: Microsoft Teams cache
+uk: Кеш Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+uk: Видаляє лише папки кешу Teams. Microsoft рекомендує це, коли Teams працює повільно або дивно.
+en: Teams cache folders (new Teams and classic Teams)
+uk: Папки кешу Teams (новий Teams і класичний Teams)
+en: Keeps login, chats, files
+uk: Зберігає вхід, чати, файли
+en: Opera cache
+uk: Кеш Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+uk: Видаляє лише папки кешу Vivaldi в усіх профілях.
+en: Vivaldi cache
+uk: Кеш Vivaldi
+en: Close Brave first.
+uk: Спершу закрийте Brave.
+en: Close Vivaldi first.
+uk: Спершу закрийте Vivaldi.
+en: Close Firefox first.
+uk: Спершу закрийте Firefox.
+en: Deletes only Firefox's cache folder in every profile.
+uk: Видаляє лише папку кешу Firefox в усіх профілях.
+en: Firefox cache
+uk: Кеш Firefox
+en: {0} and {1}
+uk: {0} і {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+uk: Можна безпечно очистити. Windows потрібен цей кеш лише для того, щоб окремо видалити одне оновлення.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+uk: Резервна копія, яку Windows зберігає, щоб пізніше можна було видалити окреме оновлення програми без початкового інсталятора.
+en: Low risk
+uk: Низький ризик
+en: when run
+uk: при запуску
+en: {0} (Microsoft DISM tool)
+uk: {0} (засіб Microsoft DISM)
+en: Safe, often frees little
+uk: Безпечно, часто звільняє небагато
+en: Windows components: normal cleanup
+uk: Компоненти Windows: звичайне очищення
+en: Windows patch backup cache
+uk: Резервний кеш виправлень Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+uk: Видалені файли перелічено в deleted-update-files.csv (папку див. на вкладці «Про програму»).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+uk: Видаляються лише файли оновлень, які Windows позначає як замінені новішим оновленням. Для кожної програми зберігаються 3 найновіші, а файл, що використовується, ніколи не видаляється.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+uk: Деякі програми зберігають кожне оновлення, яке будь-коли інсталювали. Найчастіше це Adobe Acrobat Reader — від 0.1 до 0.7 GB на кожне оновлення.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+uk: Невеликий ризик: якщо майбутнє оновлення чи відновлення цієї програми повідомить про відсутній файл, видаліть і повторно інсталюйте цю програму.
+en: Found on this PC: nothing to remove.
+uk: Знайдено на цьому ПК: нічого видаляти.
+en: Found on this PC:
+uk: Знайдено на цьому ПК:
+en: Never delete files in the Windows Installer folder by hand.
+uk: Ніколи не видаляйте файли в папці Windows Installer вручну.
+en: If you tick both Windows components items, only this one runs.
+uk: Якщо позначити обидва елементи «Компоненти Windows», виконається лише цей.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+uk: Після цього вже інстальовані оновлення Windows більше не можна буде видалити. Використовуйте це, лише коли Windows працює справно.
+en: Same as the normal cleanup, but also removes every replaced version.
+uk: Те саме, що й звичайне очищення, але також видаляє всі замінені версії.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+uk: Виконується в окремому вікні й триває від 5 до 30 хвилин. Не закривайте це вікно й не вимикайте ПК.
+en: {0} (folders unused for 60+ days)
+uk: {0} (папки, не використовувані понад 60 днів)
+en: Lose old projects' tabs, layout, AI chats
+uk: Втрачаються вкладки, макет, AI-чати старих проєктів
+en: VS Code: data of projects not opened in 60 days
+uk: VS Code: дані проєктів, не відкритих 60 днів
+en: {0} (Microsoft DISM tool, /ResetBase)
+uk: {0} (засіб Microsoft DISM, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+uk: Windows уже робить це сама раз на кілька тижнів, тож часто звільняється дуже мало.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+uk: Виконується в окремому вікні й триває від 5 до 30 хвилин. Не закривайте це вікно й не вимикайте ПК. На ноутбуці підключіть зарядний пристрій.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+uk: Вбудоване очищення Microsoft для старих версій компонентів Windows. Безпечно.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+uk: Ніколи нічого не видаляйте в WinSxS вручну. Це ламає Windows.
+en: Installed updates cannot be uninstalled after
+uk: Інстальовані оновлення потім не можна видалити
+en: Windows components: deep cleanup
+uk: Компоненти Windows: глибоке очищення
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+uk: Виконується в окремому вікні. Це може тривати від 5 до 30 хвилин. Не закривайте це вікно.
+en: {0} (files picked from Windows' own records)
+uk: {0} (файли, вибрані за записами самої Windows)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+uk: Завантажені пакети .NET. NuGet завантажить їх знову, коли знадобиться.
+en: NuGet download cache
+uk: Кеш завантажень NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+uk: Завантажені пакети Python. pip завантажить їх знову, коли знадобиться.
+en: Go build cache
+uk: Кеш збірки Go
+en: Composer cache
+uk: Кеш Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+uk: Скомпільовані файли, які мова Go зберігає для швидшої збірки. Go створить їх знову під час наступної збірки.
+en: Rebuilt on the next build
+uk: Створюються знову під час наступної збірки
+en: pip cache
+uk: Кеш pip
+en: npm cache
+uk: Кеш npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+uk: Видаляються лише файли, старші за 14 днів. Нещодавні журнали залишаються на випадок, якщо щось доведеться виправляти.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+uk: Файли журналів, які Windows записує під час інсталяції оновлень. На деяких ПК вони розростаються до кількох GB.
+en: Packages download again when needed
+uk: Пакети завантажуються знову, коли потрібно
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+uk: Завантажені пакети Yarn (для розробників Node.js). Yarn завантажить їх знову, коли знадобиться.
+en: Yarn cache
+uk: Кеш Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+uk: Завантажені пакети npm (для розробників Node.js). npm завантажить їх знову, коли вони наступного разу знадобляться проєкту.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+uk: Папки кешу й звіти про збої Cursor. Cursor створить їх знову.
+en: Keeps settings, chats, login
+uk: Зберігає налаштування, чати, вхід
+en: Cursor cache and crash reports
+uk: Кеш і звіти про збої Cursor
+en: KEEPS: settings, chats, login and projects.
+uk: ЗБЕРІГАЄ: налаштування, чати, вхід і проєкти.
+en: Programs stay installed. Small risk
+uk: Програми залишаються інстальованими. Невеликий ризик
+en: Old update files of installed programs (keeps newest 3)
+uk: Старі файли оновлень інстальованих програм (зберігає 3 найновіші)
+en: Close Cursor first.
+uk: Спершу закрийте Cursor.
+en: Close VS Code first.
+uk: Спершу закрийте VS Code.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+uk: Завантажені пакети Rust. Cargo завантажить їх знову, коли знадобиться.
+en: Cargo download cache
+uk: Кеш завантажень Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+uk: Завантажені пакети PHP. Composer завантажить їх знову, коли знадобиться.
+en: VS Code cache and crash reports
+uk: Кеш і звіти про збої VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+uk: ЗБЕРІГАЄ: налаштування, розширення, проєкти, історію проєктів і чати.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+uk: Папки кешу й звіти про збої Visual Studio Code. VS Code створить їх знову.
+en: Keeps settings, extensions, projects
+uk: Зберігає налаштування, розширення, проєкти
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+uk: Підсумок
+en: Transfer rate MB/s   (blue = read, orange = write)
+uk: Швидкість передачі MB/s   (синій = читання, помаранчевий = запис)
+en: Disk activity %
+uk: Активність диска %
+en: Average transfer rate (since this tab opened)
+uk: Середня швидкість передачі (відколи відкрито вкладку)
+en: Read since Windows started
+uk: Прочитано від запуску Windows
+en: Average disk activity
+uk: Середня активність диска
+en: Highest transfer rate seen
+uk: Найвища зафіксована швидкість передачі
+en: now
+uk: зараз
+en: READ
+uk: ЧИТАННЯ
+en: Right now
+uk: Зараз
+en: Saved today's disk health and temperature reading to the history.
+uk: Сьогоднішні показники стану й температури диска збережено в історії.
+en: WRITE
+uk: ЗАПИС
+en: 2 minutes ago
+uk: 2 хвилини тому
+en: DISK ACTIVITY
+uk: АКТИВНІСТЬ ДИСКА
+en: TOTAL TRANSFER
+uk: УСЬОГО ПЕРЕДАНО
+en: Written since Windows started
+uk: Записано від запуску Windows
+en: This disk has no drive letter, so the speed test cannot write its test file.
+uk: Цей диск не має літери, тож тест швидкості не може записати тестовий файл.
+en: Pick a disk first.
+uk: Спершу виберіть диск.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+uk: Останній тест {0}: запис {1} MB/s, читання {2} MB/s, випадкове читання 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+uk: Для тесту швидкості на диску {0} потрібно щонайменше 2 GB вільного місця.
+en: Speed test started on drive {0}.
+uk: Тест швидкості запущено на диску {0}.
+en: Running...
+uk: Виконується...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+uk: Тест швидкості запише на диск {1} тестовий файл розміром {0} MB, зчитає його й видалить.<br>Це триває приблизно від 10 до 60 секунд. Інші програми тим часом можуть працювати повільніше.<br><br>Запустити тест швидкості?
+en: not reported by this disk
+uk: цей диск не повідомляє
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+uk: Вимірює, наскільки швидко диск насправді записує й читає: записує тимчасовий тестовий файл, зчитує його, потім читає невеликі випадкові фрагменти й видаляє файл. Натисніть «Тест швидкості» вгорі.
+en: Speed test
+uk: Тест швидкості
+en: Written over the disk's whole life
+uk: Записано за весь час роботи диска
+en: Not run yet.
+uk: Ще не запускався.
+en: Disk {0}: {1}
+uk: Диск {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+uk: Лічильники активності дисків Windows недоступні на цьому ПК: {0}
+en: Getting disk activity ready...
+uk: Підготовка даних про активність диска...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+uk: Першого разу Windows може знадобитися кілька секунд, щоб запустити лічильники активності дисків.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+uk: Для порівняння: жорсткі диски ноутбуків досягають приблизно від 80 до 140 MB/s, SATA SSD — приблизно 500 MB/s, а NVMe SSD — від 1500 до 7000 MB/s.
+en: Raw value
+uk: Необроблене значення
+en: Unexpected power losses
+uk: Раптові вимкнення живлення
+en: Spare space left
+uk: Залишок резервного простору
+en: Rated write life used
+uk: Використано ресурсу запису
+en: ✓ No problems found.
+uk: ✓ Проблем не знайдено.
+en: From Windows' storage information.
+uk: З відомостей Windows про накопичувачі.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+uk: Зчитано з власного журналу стану SSD (NVMe). Повний список — на вкладці «Дані SMART».
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+uk: Зчитано з власних даних самоконтролю диска (SMART). Повний список — на вкладці «Дані SMART».
+en: Data read over its life
+uk: Прочитано за весь час роботи
+en: Powered on
+uk: Час роботи
+en: TEMPERATURE
+uk: ТЕМПЕРАТУРА
+en: needs admin
+uk: потрібні права адміна
+en: {0} hours  (about {1} days)
+uk: {0} год  (приблизно {1} дн.)
+en: Data written over its life
+uk: Записано за весь час роботи
+en: {0} times
+uk: разів: {0}
+en: Turned on
+uk: Увімкнень
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+uk: Цей диск не передає Windows докладних даних про стан (це типово для USB-корпусів і RAID).
+en: No.
+uk: №
+en: Status
+uk: Статус
+en: Value
+uk: Значення
+en: Attribute
+uk: Атрибут
+en: Data
+uk: Дані
+en: Worst
+uk: Найгірше
+en: Threshold
+uk: Поріг
+en: Item
+uk: Параметр
+en: Temperature history
+uk: Історія температури
+en: Health history
+uk: Історія стану
+en: Start the tool with admin rights to read health and temperature.
+uk: Запустіть програму з правами адміністратора, щоб прочитати стан і температуру.
+en: No readings saved yet.
+uk: Показників ще не збережено.
+en: Offset
+uk: Зсув
+en: {0} readings since {1}.
+uk: З {1} збережено показників: {0}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+uk: Поки що 1 показник, збережений {0}. Графіки доповнюватимуться, коли зберігатиметься більше показників.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+uk: Запис {0:N0} MB/s     Читання {1:N0} MB/s     Випадкове читання 4K {2:N1} MB/s ({3:N0} за секунду)
+en: This item has no folder to open.
+uk: Цей елемент не має папки, яку можна відкрити.
+en: Stopping...
+uk: Зупинення...
+en: Could not open the read me: {0}
+uk: Не вдалося відкрити інструкцію: {0}
+en: Pick a drive first.
+uk: Спершу виберіть диск.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+uk: Для цього потрібні права адміністратора. Запустіть програму знову й натисніть «Так» у запиті Windows.
+en: Select a file in the list first.
+uk: Спершу виберіть файл у списку.
+en: Scan a drive first.
+uk: Спершу проскануйте диск.
+en: No questions match your search.
+uk: Немає запитань, що відповідають пошуку.
+en: Simple habits that keep your disk from filling up and your PC running well.
+uk: Прості звички, завдяки яким диск не переповнюється, а ПК працює добре.
+en: Tips
+uk: Поради
+en: SAFETY
+uk: БЕЗПЕКА
+en: How Disk Cleanup Helper keeps you safe
+uk: Як Disk Cleanup Helper дбає про вашу безпеку
+en: Search the questions, for example "temperature"
+uk: Пошук у запитаннях, наприклад «температура»
+en: Click a question to see the answer.
+uk: Клацніть запитання, щоб побачити відповідь.
+en: Frequently asked questions
+uk: Часті запитання
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+uk: В окремому вікні запущено вбудовану перевірку Windows на помилки для {0}. Вона лише читає диск і триває кілька хвилин. Результат дивіться в тому вікні.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+uk: Показано лише елементи, знайдені на цьому ПК. Натисніть «Виміряти розміри», щоб побачити, скільки займає кожен. Нічого не видаляється, доки ви не підтвердите.
+en: Not running as administrator. Items marked Admin are disabled.
+uk: Запущено не від імені адміністратора. Елементи з позначкою «Адмін» вимкнено.
+en: Running as administrator. All items are available.
+uk: Запущено від імені адміністратора. Доступні всі елементи.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+uk: Порада: на вкладці «Про програму» її можна інсталювати, щоб вона з'явилася в меню «Пуск».
+en: Saved a health and temperature reading for {0} disks to the history.
+uk: Показники стану й температури для {0} диска збережено в історії. | Показники стану й температури для {0} дисків збережено в історії. | Показники стану й температури для {0} дисків збережено в історії.
+en: {0} files were in use and were skipped.
+uk: Пропущено файлів, що використовувалися: {0}.
+en: {0} items
+uk: {0} елемент | {0} елементи | {0} елементів
+en: My user folder only
+uk: Лише моя папка користувача
+en: Install: not installed
+uk: Інсталяція: не інстальовано
+en: Install: installed in {0}
+uk: Інсталяція: інстальовано в {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+uk: Показників ще не збережено.<br><br>Історія зберігатиметься тут:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+uk: Очищення ще не виконувалося.<br><br>Історія зберігатиметься тут:<br>{0}
+en: Whole drive
+uk: Увесь диск
+en: Could not open System Information: {0}
+uk: Не вдалося відкрити «Відомості про систему»: {0}
+en: Could not open dxdiag: {0}
+uk: Не вдалося відкрити dxdiag: {0}
+en: SPEED
+uk: ШВИДКІСТЬ
+en: Wait until the details have been read.
+uk: Зачекайте, доки дані буде зчитано.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+uk: Зчитано {0}. Дані залишаються на цьому ПК, якщо ви їх не скопіюєте чи не збережете.
+en: Could not read the device details: {0}
+uk: Не вдалося зчитати дані пристрою: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+uk: Дані пристрою скопійовано. Вставте їх, куди потрібно, наприклад у повідомлення тому, хто вам допомагає.
+en: Text file
+uk: Текстовий файл
+en: Save the device details
+uk: Збереження даних пристрою
+en: Could not copy: {0}
+uk: Не вдалося скопіювати: {0}
+en: Reading...
+uk: Зчитування...
+en: Speed test: {0}
+uk: Тест швидкості: {0}
+en: Speed test finished.
+uk: Тест швидкості завершено.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+uk: Перевірено {1} з файлом {0} MB. Результат збережено, тож пізніше можна буде порівняти.
+en: Speed test stopped. The test file was deleted.
+uk: Тест швидкості зупинено. Тестовий файл видалено.
+en: Reading this PC's details...
+uk: Зчитування даних цього ПК...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+uk: Збирання даних про Windows, процесор, пам'ять, графіку тощо. Це займе кілька секунд.
+en: The speed test could not finish. See the log below.
+uk: Не вдалося завершити тест швидкості. Див. журнал нижче.
+en: Stopped.
+uk: Зупинено.
+en: Saved the device details to {0}
+uk: Дані пристрою збережено: {0}
+en: Philip Droubi | Software Engineer
+uk: Philip Droubi | Інженер-програміст
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+uk: Інженер-програміст. Запитання, ідеї та відгуки про Disk Cleanup Helper вітаються.
+en: Made by Philip Droubi
+uk: Автор: Philip Droubi
+en: Philip Droubi is a Software Engineer.
+uk: Philip Droubi — інженер-програміст.
+en: SPACE
+uk: МІСЦЕ
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+uk: Інженер-програміст. Зв'яжіться з Philip Droubi в LinkedIn.
+en: Source code on GitHub
+uk: Вихідний код на GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+uk: Безкоштовно та з відкритим кодом за ліцензією GNU GPL v3: використовуйте, змінюйте, діліться. У копіях зберігається ім'я Philip Droubi.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+uk: © {0} Philip Droubi. Вільна програма: ви можете використовувати, змінювати й поширювати її за ліцензією GNU General Public License v3 з додатковими умовами у файлі NOTICE. Жодних гарантій не надається.
+en: License and terms
+uk: Ліцензія та умови
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+uk: Ця копія ({0}) — не та, що інстальована на цьому ПК. Оновіть інстальовану копію, щоб меню «Пуск» відкривало цю версію.
+en: Repair shortcuts
+uk: Відновити ярлики
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+uk: Інстальовано в {0}. Відкривайте програму будь-коли з меню «Пуск» або за допомогою ярлика на робочому столі. Щоб видалити її: натисніть «Видалити» або відкрийте «Настройки > Програми > Disk Cleanup Helper».
+en: Could not save the file: {0}
+uk: Не вдалося зберегти файл: {0}
+en: Update installed copy
+uk: Оновити інстальовану копію
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+uk: Залиште Disk Cleanup Helper на цьому ПК: інсталюйте програму, щоб відкривати її з меню «Пуск» і з робочого столу. Права адміністратора не потрібні.
+en: Install on this PC
+uk: Інсталювати на цей ПК
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+uk: Не інстальовано. Ви запускаєте програму з {0}. Інсталяція додає пункт у меню «Пуск», ярлик на робочому столі й запис у «Настройки > Програми», тож програму можна буде видалити, як будь-яку іншу. Права адміністратора не потрібні.
+en: not reported
+uk: не повідомляється
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+uk: Ця програма ніколи не видаляє цей елемент. Скористайтеся кнопкою «Відкрити розташування» й виконайте наведені вище кроки.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+uk: Потрібні права адміністратора. Щоб використати цей елемент, запустіть програму знову й натисніть «Так» у запиті Windows.
+en: Close first: {0}
+uk: Спершу закрийте: {0}
+en: Measure anyway?
+uk: Усе одно виміряти?
+en: Measuring stopped.
+uk: Вимірювання зупинено.
+en: Measuring {0} of {1}: {2}
+uk: Вимірювання {0} з {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+uk: Вимірювання розмірів. Це може тривати хвилину-дві. Щоб зупинити, натисніть «Зупинити».
+en: Where
+uk: Де
+en: Problem: {0}
+uk: Проблема: {0}
+en: Clean selected ({0})
+uk: Очистити вибране ({0})
+en: up to {0}
+uk: до {0}
+en: Close {0} first
+uk: Спершу закрийте {0}
+en: Size: not measured yet
+uk: Розмір: ще не виміряно
+en: Size: {0}
+uk: Розмір: {0}
+en: Admin
+uk: Адмін
+en: Done. Select what you want to clean.
+uk: Готово. Виберіть, що потрібно очистити.
+en: Cleanup started. Free space on {0}: {1}
+uk: Очищення розпочато. Вільне місце на {0}: {1}
+en: Confirm cleanup
+uk: Підтвердження очищення
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+uk: Буде очищено наведене нижче. Видалені файли не потрапляють до кошика, і їх не можна відновити:<br><br>{0}<br><br>Продовжити?
+en: Stopped. Not cleaned: {0}
+uk: Зупинено. Не очищено: {0}
+en: Error: {0}
+uk: Помилка: {0}
+en: Cleaning: {0}
+uk: Очищення: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+uk: Готово. Вільне місце на {0} збільшилося на {1}. Зараз вільно {2}.
+en: Clean anyway?
+uk: Усе одно очистити?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+uk: Порада: деякі програми продовжують працювати біля годинника. Клацніть там їхній значок правою кнопкою миші й виберіть «Вийти» або «Завершити».
+en: Select at least one item first.
+uk: Спершу виберіть принаймні один елемент.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+uk: Готово. Клацніть елемент, щоб прочитати про нього, виберіть потрібне, а потім натисніть «Очистити вибране».
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+uk: Edge часто працює у фоновому режимі: в Edge відкрийте «Настройки > Система та продуктивність» і вимкніть «Прискорення запуску» та фонові програми.
+en: Nothing left to clean. Close the programs and try again.
+uk: Нічого не залишилося для очищення. Закрийте програми й повторіть спробу.
+en: Close programs first
+uk: Спершу закрийте програми
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+uk: Ці програми досі відкриті:<br><br>{0}<br><br>{1}<br><br>Натисніть «Ні», закрийте їх, а потім знову натисніть «Очистити».<br>Або натисніть «Так», щоб пропустити елементи, яким вони потрібні, і очистити решту.
+en: Clean selected
+uk: Очистити вибране
+en: Switches that free space or keep it free.
+uk: Перемикачі, які звільняють місце або допомагають зберегти його вільним.
+en: Windows settings
+uk: Параметри Windows
+en: YOUR CALL
+uk: НА ВАШ РОЗСУД
+en: SETTING
+uk: ПАРАМЕТР
+en: INFO ONLY
+uk: ДОВІДКОВО
+en: The tool only shows and opens these. It never deletes them.
+uk: Програма лише показує й відкриває ці елементи. Вона ніколи їх не видаляє.
+en: Do it yourself
+uk: Зробіть самі
+en: You lose something small. Read each one before you select it.
+uk: Ви втрачаєте щось незначне. Прочитайте опис кожного елемента, перш ніж вибрати його.
+en: SAFE
+uk: БЕЗПЕЧНО
+en: TOTAL
+uk: УСЬОГО
+en: {0} selected
+uk: Вибрано: {0}
+en: Caches and temp files. Programs rebuild them by themselves.
+uk: Кеші й тимчасові файли. Програми самі створюють їх знову.
+en: Safe to clean
+uk: Безпечно очистити
+en: Old installer files and Windows cleanup
+uk: Старі файли інсталяторів і очищення Windows
+en: Your call
+uk: На ваш розсуд
+en: ADMIN
+uk: АДМІН
+en: Needs admin rights. Read each one before you select it.
+uk: Потрібні права адміністратора. Прочитайте опис кожного елемента, перш ніж вибрати його.
+en: Language
+uk: Мова
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+uk: На вашому ПК зараз бракує пам'яті:<br><br>  Доступна пам'ять: {0:N1} GB<br>  Залишок разом із файлом підкачки: {1:N1} GB<br><br>Нестача пам'яті може спричинити збої програм, а на деяких ПК — синій екран.<br>Закрийте непотрібні програми (браузери, редактори, ігри) і повторіть спробу.
+en: Switched to the light theme.
+uk: Увімкнено світлу тему.
+en: Switched to the dark theme.
+uk: Увімкнено темну тему.
+en: Low memory
+uk: Мало пам'яті
+en: nothing selected
+uk: нічого не вибрано
+en: low: close some programs
+uk: мало: закрийте деякі програми
+en: of {0} GB
+uk: з {0} GB
+en: Switch to the dark theme
+uk: Перейти на темну тему
+en: Please wait until the current task finishes, or click Stop.
+uk: Зачекайте, доки поточне завдання завершиться, або натисніть «Зупинити».
+en: Scan {0} for errors
+uk: Пошук помилок на {0}
+en: {0} FREE (WINDOWS DRIVE)
+uk: ВІЛЬНО НА {0} (ДИСК WINDOWS)
+en: Could not restart the app: {0}
+uk: Не вдалося перезапустити програму: {0}
+en: Switch to the light theme
+uk: Перейти на світлу тему
+en: DARK MODE
+uk: ТЕМНИЙ РЕЖИМ
+en: LIGHT MODE
+uk: СВІТЛИЙ РЕЖИМ
+en: Removed {0}. Left: {1}.
+uk: Видалено {0}. Залишилося: {1}.
+en: Storage Spaces
+uk: Дискові простори
+en: Virtual
+uk: Віртуальний
+en: Disk
+uk: Диск
+en: Too hot
+uk: Перегрів
+en: Could not read disks: {0}
+uk: Не вдалося зчитати диски: {0}
+en: Normal
+uk: Норма
+en: Warm
+uk: Тепло
+en: Poor
+uk: Поганий
+en: Healthy
+uk: Справний
+en: Unknown
+uk: Невідомо
+en: Windows: problem
+uk: Windows: проблема
+en: Warning
+uk: Попередження
+en: Fair
+uk: Задовільний
+en: Good
+uk: Добрий
+en: Problem
+uk: Проблема
+en: Checking disks...
+uk: Перевірка дисків...
+en: Reading each disk's health and temperature. This takes a few seconds.
+uk: Зчитуються стан і температура кожного диска. Це займе кілька секунд.
+en: Waiting for the current task to finish. The disks are checked right after that.
+uk: Очікування завершення поточного завдання. Одразу після цього диски буде перевірено.
+en: (health {0}%)
+uk: (стан {0}%)
+en: SMART attributes
+uk: Атрибути SMART
+en: NVMe health log
+uk: Журнал стану NVMe
+en: {0}% used
+uk: Використано {0}%
+en: HEALTH
+uk: СТАН
+en: Almost full: Windows and apps slow down when a drive is this full.
+uk: Майже заповнено: коли диск настільки заповнений, Windows і програми сповільнюються.
+en: {0} free of {1}
+uk: Вільно {0} з {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+uk: Запустіть програму з правами адміністратора, щоб прочитати дані SMART дисків.
+en: Windows did not report any disks.
+uk: Windows не повідомила про жодні диски.
+en: Disks
+uk: Диски
+en: Drives
+uk: Розділи
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+uk: Стан у % — це оцінка цієї програми на основі власних даних кожного диска. Інші програми використовують власні формули, тож їхні числа можуть трохи відрізнятися. Показники зберігаються щоразу, коли ви відкриваєте цю вкладку або запускаєте програму (не частіше ніж раз на 30 хвилин), тож ви можете стежити за станом і температурою з часом.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+uk: Жоден із дисків не передає Windows дані SMART. Це типово для USB-корпусів і RAID.
+en: Disk check finished.
+uk: Перевірку дисків завершено.
+en: A disk reports a problem. Back up your important files now.
+uk: Один із дисків повідомляє про проблему. Негайно створіть резервну копію важливих файлів.
+en: Windows: warning
+uk: Windows: попередження
+en: Stopped. Results are incomplete.
+uk: Зупинено. Результати неповні.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+uk: Сканування... Поки що папок: {0:N0}, файлів: {1:N0}
+en: Scanning {0}. Click Stop to stop.
+uk: Сканування {0}. Щоб зупинити, натисніть «Зупинити».
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+uk: Сканування зупинено. Показано найбільші файли, знайдені на цей момент. Розміри папок показуються лише після завершеного сканування.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+uk: Примітка: папка Windows може здаватися більшою, ніж є насправді, бо Windows зберігає деякі файли одразу у двох місцях.
+en: {0:N0} folders could not be read (Windows protects them).
+uk: Не вдалося прочитати папок: {0:N0} (Windows їх захищає).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+uk: Готово за {0:N0} с. Папок: {1:N0}, файлів: {2:N0}.
+en: Scanning {0} ...
+uk: Сканування {0} ...
+en: (files directly in this folder)
+uk: (файли безпосередньо в цій папці)
+en: Scan a drive to see its biggest folders.
+uk: Проскануйте диск, щоб побачити його найбільші папки.
+en: Free space on {0} grew by {1}.
+uk: Вільне місце на {0} збільшилося на {1}.
+en: Biggest files
+uk: Найбільші файли
+en: Scan anyway?
+uk: Усе одно сканувати?
+en: That drive or folder is not available.
+uk: Цей диск або папка недоступні.
+en: Biggest files ({0} found)
+uk: Найбільші файли (знайдено: {0})
+en: Select one or more files in the list first. Hold Ctrl to select several.
+uk: Спершу виберіть у списку один або кілька файлів. Щоб вибрати кілька, утримуйте Ctrl.
+en: Could not remove {0}: {1}
+uk: Не вдалося видалити {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+uk: Переміщено до кошика: {0} ({1})
+en: Deleted file: {0} ({1})
+uk: Видалено файл: {0} ({1})
+en: Files deleted: {0}.
+uk: Видалено файлів: {0}.
+en: Windows: OK
+uk: =
+en: {0} could not be removed (in use or protected).
+uk: Не вдалося видалити: {0} (використовуються або захищені).
+en: Files moved to the Recycle Bin: {0}.
+uk: Переміщено файлів до кошика: {0}.
+en: Move to Recycle Bin
+uk: Перемістити до кошика
+en: They will be deleted permanently and cannot be restored.
+uk: Їх буде видалено остаточно, і їх не можна буде відновити.
+en: ... and {0} more
+uk: ... і ще {0}
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+uk: Це файли Windows, програм або системи, і вони захищені:<br><br>{0}<br><br>Натомість видаліть програму або скористайтеся вкладкою «Очищення».
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+uk: Їх буде переміщено до кошика. Місце звільниться лише після того, як ви очистите кошик.
+en: Delete permanently
+uk: Видалити остаточно
+en: Make sure you do not need them. Continue?
+uk: Переконайтеся, що вони вам не потрібні. Продовжити?
+en: Files: {0}, {1} in total.
+uk: Файлів: {0}, загалом {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+uk: Перевірити знову
+en: Disk health
+uk: Стан диска
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+uk: Щоб вибрати кілька файлів, утримуйте Ctrl. Файли Windows і програм захищено, тут їх не можна видалити.
+en: Scan for errors
+uk: Пошук помилок
+en: Open history file
+uk: Відкрити файл історії
+en: Windows storage settings
+uk: Параметри пам'яті Windows
+en: Optimize drives
+uk: Оптимізація дисків
+en: Modified
+uk: Змінено
+en: Up
+uk: Вгору
+en: Biggest folders
+uk: Найбільші папки
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+uk: Виберіть диск і натисніть «Сканувати». Сканування всього диска може тривати кілька хвилин.
+en: Folder
+uk: Папка
+en: File
+uk: Файл
+en: Double-click a folder to look inside.
+uk: Двічі клацніть папку, щоб переглянути її вміст.
+en: Open in File Explorer
+uk: Відкрити в Провіднику
+en: SMART details
+uk: Дані SMART
+en: About
+uk: Про програму
+en: Tips & FAQ
+uk: Поради й запитання
+en: System Information
+uk: Відомості про систему
+en: Read me
+uk: Інструкція
+en: Cleanup history
+uk: Історія очищення
+en: Uninstall
+uk: Видалити
+en: DirectX Diagnostic (dxdiag)
+uk: Діагностика DirectX (dxdiag)
+en: Run speed test
+uk: Тест швидкості
+en: Disk performance
+uk: Швидкодія диска
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+uk: Необроблені дані, які кожен диск повідомляє про себе. «Увага» означає, що за цим варто стежити. «Критично» означає, що значення нижче власної безпечної межі диска.
+en: Live activity updates every second while this tab is open.
+uk: Поточна активність оновлюється щосекунди, поки ця вкладка відкрита.
+en: Save as text file
+uk: Зберегти як текст
+en: Copy all
+uk: Копіювати все
+en: Read again
+uk: Зчитати знову
+en: Scan
+uk: Сканувати
+en: English
+uk: =
+en: 0 items
+uk: 0 елементів
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+uk: Запущено не від імені адміністратора, тому елементи з позначкою «Адмін» вимкнено. Щоб скористатися ними, закрийте це вікно, запустіть програму знову й натисніть «Так» у запиті Windows.
+en: Measure sizes
+uk: Виміряти розміри
+en: Clean up
+uk: Очищення
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+uk: Дізнайтеся, чим заповнені ваші диски, і безпечно звільніть місце. Нічого не видаляється, доки ви не підтвердите.
+en: Disk Cleanup Helper
+uk: =
+en: C: FREE
+uk: ВІЛЬНО НА C:
+en: SELECTED TO CLEAN
+uk: ВИБРАНО ДЛЯ ОЧИЩЕННЯ
+en: MEMORY AVAILABLE
+uk: ДОСТУПНО ПАМ'ЯТІ
+en: Stop
+uk: Зупинити
+en: Analyze disk
+uk: Аналіз диска
+en: Open location
+uk: Відкрити розташування
+en: Drive
+uk: Диск
+en: List files bigger than
+uk: Показати файли, більші за
+en: Look in
+uk: Де шукати
+en: Clear selection
+uk: Скасувати вибір
+en: Select all safe
+uk: Вибрати безпечні
+en: Click Measure sizes to see how much each item uses.
+uk: Натисніть «Виміряти розміри», щоб побачити, скільки займає кожен елемент.
+en: to see what it is, where it is, and what you keep or lose.
+uk: щоб побачити, що це, де воно і що ви зберігаєте або втрачаєте.
+en: Click an item
+uk: Клацніть елемент
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+uk: Не вдалося записати тестовий файл. Можливо, диск заповнений?
+en: Reading it back...
+uk: Зчитування файлу...
+en: Writing a {0} MB test file...
+uk: Запис тестового файлу {0} MB...
+en: Could not create the test file in {0}.
+uk: Не вдалося створити тестовий файл у {0}.
+en: Could not open the test file.
+uk: Не вдалося відкрити тестовий файл.
+en: Not enough memory for the speed test.
+uk: Недостатньо пам'яті для тесту швидкості.
+en: Reading small random blocks...
+uk: Читання невеликих випадкових блоків...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+uk: Для Disk Cleanup Helper потрібна Windows 10 або Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+uk: Не вдалося запустити Disk Cleanup Helper:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+uk: Щось пішло не так:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+uk: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+uk: Як працюють оновлення?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+uk: Коли виходить нова версія, програма завантажує її у фоновому режимі й перевіряє: її SHA256 і номер версії мають збігатися з даними випуску. Потім з'являється панель із кнопкою «Перезапустити зараз». Якщо вибрати «Пізніше», оновлення буде інстальовано, коли ви закриєте програму. Автоматичну перевірку можна вимкнути на вкладці «Про програму»; кнопка «Перевірити оновлення» там усе одно працює.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+uk: Ні. Вона не надсилає жодних даних про ваш ПК. Єдине підключення — це запит до GitHub, чи є нова версія, не частіше ніж раз на день. Це можна вимкнути на вкладці «Про програму».
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+uk: Програма не надсилає жодних даних про ваш ПК. Вона лише запитує в GitHub, чи є нова версія, і це можна вимкнути на вкладці «Про програму». Історія очищення зберігається лише на цьому ПК.
+en: Update check: version {0} is the newest.
+uk: Перевірка оновлень: версія {0} — найновіша.
+en: Downloading version {0}... {1}%
+uk: Завантаження версії {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+uk: Доступна версія {0}. Це збірка для розробників, тому вона не оновлюється сама.
+en: Update check: version {0} is available.
+uk: Перевірка оновлень: доступна версія {0}.
+en: Downloading version {0}...
+uk: Завантаження версії {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+uk: Оновлення не можна інсталювати тут, бо цю папку не можна змінити: {0}
+en: The update was not downloaded: {0}
+uk: Оновлення не завантажено: {0}
+en: Later
+uk: Пізніше
+en: This is a developer build, so it does not update itself.
+uk: Це збірка для розробників, тому вона не оновлюється сама.
+en: What's new in version {0}:
+uk: Що нового у версії {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+uk: Версію {0} інстальовано, але її не вдалося запустити: {1}<br><br>Запустіть Disk Cleanup Helper ще раз.
+en: No details were given for this version.
+uk: Для цієї версії подробиць не вказано.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+uk: Версію {0} завантажено й перевірено (SHA256 і номер версії).
+en: The update could not be downloaded: {0}
+uk: Не вдалося завантажити оновлення: {0}
+en: Version {0} is ready. Restart to update.
+uk: Версія {0} готова. Перезапустіть програму для оновлення.
+en: This is version {0}. It has not checked for updates yet.
+uk: Це версія {0}. Перевірка оновлень ще не виконувалася.
+en: You have the latest version ({0}). Last checked: {1}.
+uk: У вас найновіша версія ({0}). Остання перевірка: {1}.
+en: Version {0} is installed.
+uk: Версію {0} інстальовано.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+uk: Ця копія розташована в папці, яку не можна змінити:<br>{0}<br><br>Відкриється сторінка випуску, щоб ви могли завантажити версію {1} і замінити цю копію вручну.
+en: The update could not be installed: {0}
+uk: Не вдалося інсталювати оновлення: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+uk: Доступна версія {0}. Натисніть «Перевірити оновлення», щоб завантажити її.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+uk: Не вдалося інсталювати оновлення. Ця копія й далі працює як раніше.<br><br>{0}
+en: Updated to version {0}.
+uk: Програму оновлено до версії {0}.
+en: Update check: {0}
+uk: Перевірка оновлень: {0}
+en: Could not check for updates: {0}
+uk: Не вдалося перевірити оновлення: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+uk: Не вдалося підключитися до GitHub. Перевірте підключення до інтернету й повторіть спробу.
+en: Checking for updates...
+uk: Перевірка оновлень...
+en: Update check: could not reach GitHub.
+uk: Перевірка оновлень: не вдалося підключитися до GitHub.
+en: Check for updates
+uk: Перевірити оновлення
+en: Check for updates when the app starts
+uk: Перевіряти оновлення під час запуску програми
+en: What's new
+uk: Що нового
+en: Restart now
+uk: Перезапустити зараз
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+uk: Безкоштовний помічник для Windows 10 і 11, який показує, чим заповнені ваші диски, і безпечно звільняє місце. Він не надсилає жодних даних про ваш ПК. Нічого не видаляється, доки ви не підтвердите.
+en: Updates
+uk: Оновлення
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+uk: Оновлення надходять зі сторінки програми на GitHub. Кожна нова версія проходить перевірку (SHA256 і номер версії), перш ніж замінити цю.
+en: Version {0} has no {1} file.
+uk: У версії {0} немає файлу {1}.
+en: Version {0} has a download address that is not on github.com.
+uk: Адреса завантаження версії {0} розташована не на github.com.
+en: Version {0} has no SHA256 line in its release text.
+uk: У тексті випуску версії {0} немає рядка SHA256.
+en: GitHub's answer could not be read.
+uk: Не вдалося прочитати відповідь GitHub.
+en: The newest release has an unreadable version number: {0}
+uk: Найновіший випуск має номер версії, який не вдається прочитати: {0}
+en: The download came from an unexpected address: {0}
+uk: Файл завантажено з неочікуваної адреси: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+uk: Завантажений файл не є програмою Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+uk: Завантажений файл має версію {0}, а не {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+uk: Завантажений файл не відповідає SHA256 з тексту випуску.
+en: The downloaded file has an unexpected size ({0}).
+uk: Завантажений файл має неочікуваний розмір ({0}).
+en: The download took too long.
+uk: Завантаження тривало надто довго.

@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - tr
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Türkçe
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+tr: {0} çalıştırılamadı: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+tr: ayrıca {0}
+en: GRAPHICS
+tr: GRAFİK
+en: Wireless (Miracast)
+tr: Kablosuz (Miracast)
+en: Built-in screen
+tr: Yerleşik ekran
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+tr: Bu sürücünün tarihi {0}. Bilgisayar üreticisinden veya yonga üreticisinden alacağınız daha yeni bir sürücü; çökmeleri, mavi ekranları ve görüntü sorunlarını giderebilir.
+en: {0} × {1} at {2} Hz
+tr: {0} × {1}, {2} Hz
+en: Showing now
+tr: Şu anda gösteriliyor
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+tr: Windows bu cihazda bir sorun bildiriyor (kod {0}). Sürücüsünü bilgisayar üreticisinin veya yonga üreticisinin web sitesinden yeniden yükleyin.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+tr: Uygun bir grafik sürücüsü yüklü değil. Daha net ve daha hızlı bir görüntü için sürücüyü bilgisayar üreticisinden veya grafik yongası üreticisinden yükleyin.
+en: Screens
+tr: Ekranlar
+en: Made in
+tr: Üretim tarihi
+en: Connection
+tr: Bağlantı
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+tr: Sağlık, sıcaklık ve SMART verileri Disk sağlığı ve SMART ayrıntıları sekmelerindedir.
+en: Storage
+tr: Depolama
+en: {0} inches
+tr: {0} inç
+en: {0}  (main screen)
+tr: {0}  (ana ekran)
+en: Screen {0}
+tr: Ekran {0}
+en: Refresh rate
+tr: Yenileme hızı
+en: Resolution
+tr: Çözünürlük
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+tr: Bellek şu anda neredeyse dolu ({0}% kullanımda). İhtiyacınız olmayan programları kapatın. Belleği tükenen bir bilgisayar yavaşlar ve çökebilir.
+en: Part number
+tr: Parça numarası
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+tr: Bu bilgisayar boş bir bellek yuvası bildiriyor. Aynı türde ({0}) bir bellek modülü eklemek, bilgisayarı hızlandırmanın genellikle ucuz bir yoludur.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+tr: {0}, bugün Windows 10 ve 11 için azdır. 8 GB veya daha fazlası büyük fark yaratır.
+en: Size
+tr: Boyut
+en: Memory promised to programs
+tr: Programlara ayrılan bellek
+en: None. Programs can crash when the memory is full.
+tr: Yok. Bellek dolduğunda programlar çökebilir.
+en: Module {0}
+tr: Modül {0}
+en: {0} GB of {1} GB  (memory plus page file)
+tr: {0} GB / {1} GB  (bellek ve disk belleği dosyası)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+tr: Bu bilgisayar boş bir bellek yuvası bildiriyor. Aynı türde bir bellek modülü eklemek, bilgisayarı hızlandırmanın genellikle ucuz bir yoludur.
+en: 4 GB or more
+tr: 4 GB veya daha fazla
+en: Graphics
+tr: Grafik
+en: Driver
+tr: Sürücü
+en: Graphics memory
+tr: Grafik belleği
+en: {0}% in use now
+tr: Şu anda {0}% kullanımda
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+tr: İki bellek yuvası da dolu. Daha fazla bellek için modülleri daha büyükleriyle değiştirin ({0}). Bugün toplam 16 GB iyi bir boyuttur.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+tr: Tek bellek yuvası dolu. Daha fazla bellek için modülü daha büyüğüyle değiştirin ({0}). Bugün toplam 16 GB iyi bir boyuttur.
+en: MEMORY
+tr: BELLEK
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+tr: {0} bellek yuvasının tümü dolu. Daha fazla bellek için modülleri daha büyükleriyle değiştirin ({1}). Bugün toplam 16 GB iyi bir boyuttur.
+en: Adapter
+tr: Bağdaştırıcı
+en: Network adapters
+tr: Ağ bağdaştırıcıları
+en: connected at {0}
+tr: {0} hızında bağlı
+en: turned off
+tr: kapalı
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+tr: Pil artık yeniyken tuttuğunun yalnızca {0}% kadarını tutuyor. Yeni bir pil, şarj cihazından uzakta çok daha uzun kullanım süresi sağlar.
+en: Lithium-ion
+tr: Lityum iyon
+en: Kind
+tr: Tür
+en: Nickel-metal hydride
+tr: Nikel metal hidrit
+en: Lithium-polymer
+tr: Lityum polimer
+en: connected
+tr: bağlı
+en: {0} minutes
+tr: {0} dakika
+en: {0}  ·  Windows reports a problem (code {1})
+tr: {0}  ·  Windows bir sorun bildiriyor (kod {1})
+en: {0} days
+tr: {0} gün
+en: {0} hours
+tr: {0} saat
+en: Built in
+tr: Yerleşik
+en: Sound
+tr: Ses
+en: not connected
+tr: bağlı değil
+en: Through the screen (HDMI or DisplayPort)
+tr: Ekran üzerinden (HDMI veya DisplayPort)
+en: Added by a program
+tr: Bir program tarafından eklendi
+en: Battery
+tr: Pil
+en: All disks together
+tr: Tüm diskler toplamı
+en: plugged in, charging
+tr: prize takılı, şarj oluyor
+en: on battery
+tr: pilde
+en: drive {0}
+tr: {0} sürücüsü
+en: Storage class memory
+tr: Depolama sınıfı bellek
+en: Hard disk
+tr: Sabit disk
+en: Disk {0}
+tr: =
+en: SD card
+tr: SD kart
+en: plugged in, full
+tr: prize takılı, dolu
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+tr: {0}%  ({1} Wh tutuyor, yeniyken {2} Wh tutuyordu)
+en: Battery health
+tr: Pil sağlığı
+en: Charge cycles
+tr: Şarj döngüleri
+en: Start the tool with admin rights to read it
+tr: Okumak için aracı yönetici haklarıyla başlatın
+en: {0} h {1} min  (Windows' estimate)
+tr: {0} sa {1} dk  (Windows'un tahmini)
+en: Charge now
+tr: Şu anki şarj
+en: plugged in
+tr: prize takılı
+en: Time left
+tr: Kalan süre
+en: {0}%, {1}
+tr: =
+en: , size set by hand
+tr: , boyut elle ayarlandı
+en: Server
+tr: Sunucu
+en: Desktop
+tr: Masaüstü
+en: Windows
+tr: =
+en: Workstation
+tr: İş istasyonu
+en: All-in-one
+tr: Hepsi bir arada
+en: Laptop that folds into a tablet (2-in-1)
+tr: Tablete dönüşen dizüstü (2'si 1 arada)
+en: Laptop
+tr: Dizüstü
+en: Tablet
+tr: =
+en: Tablet with a detachable keyboard (2-in-1)
+tr: Klavyesi çıkarılabilen tablet (2'si 1 arada)
+en: Edition
+tr: Sürüm
+en: Last update installed
+tr: Son yüklenen güncelleştirme
+en: Installed or last big update
+tr: Yükleme veya son büyük güncelleştirme
+en: Running since
+tr: Son başlatma
+en: {0}  ({1})
+tr: =
+en: 32-bit
+tr: 32 bit
+en: Build
+tr: Derleme
+en: Version
+tr: Sürüm numarası
+en: 64-bit
+tr: 64 bit
+en: 64-bit, for ARM processors
+tr: 64 bit, ARM işlemciler için
+en: Computer name
+tr: Bilgisayar adı
+en: Type
+tr: Tür
+en: BIOS
+tr: =
+en: Motherboard
+tr: Anakart
+en: Model
+tr: =
+en: Read on {0}
+tr: Okunma tarihi: {0}
+en: Device details
+tr: Cihaz ayrıntıları
+en: Maker
+tr: Üretici
+en: This PC
+tr: Bu bilgisayar
+en: Start-up mode
+tr: Başlatma modu
+en: Not found, or turned off in the BIOS
+tr: Bulunamadı veya BIOS'ta kapalı
+en: Security chip (TPM)
+tr: Güvenlik yongası (TPM)
+en: TPM {0}, turned off
+tr: TPM {0}, kapalı
+en: TPM {0}, on
+tr: TPM {0}, açık
+en: Not available with Legacy BIOS
+tr: Legacy BIOS ile kullanılamaz
+en: Secure Boot
+tr: Güvenli Önyükleme
+en: Legacy BIOS
+tr: =
+en: Off
+tr: Kapalı
+en: On
+tr: Açık
+en: Soldered on the board
+tr: Anakarta lehimli
+en: SO-DIMM (laptop size)
+tr: SO-DIMM (dizüstü boyutu)
+en: Installed
+tr: Takılı
+en: Memory (RAM)
+tr: Bellek (RAM)
+en: DIMM (desktop size)
+tr: DIMM (masaüstü boyutu)
+en: Off in the BIOS
+tr: BIOS'ta kapalı
+en: On in the BIOS
+tr: BIOS'ta açık
+en: PROCESSOR
+tr: İŞLEMCİ
+en: Socket
+tr: Yuva
+en: {0}  ({1} GB usable by Windows)
+tr: {0}  (Windows'un kullanabildiği: {1} GB)
+en: {0}, {1}  ({2} in use, highest {3})
+tr: {0}, {1}  ({2} kullanımda, en yüksek {3})
+en: {0} of {1} used
+tr: {0} / {1} kullanılıyor
+en: , size managed by Windows
+tr: , boyutu Windows yönetiyor
+en: Page file
+tr: Disk belleği dosyası
+en: Memory slots
+tr: Bellek yuvaları
+en: {0} GB of {1} GB  ({2}%)
+tr: {0} GB / {1} GB  ({2}%)
+en: In use now
+tr: Şu anda kullanımda
+en: Module type
+tr: Modül türü
+en: Type and speed
+tr: Tür ve hız
+en: WINDOWS
+tr: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+tr: Windows {0} gündür yeniden başlatılmadan çalışıyor. Hızlı başlatma açıkken Kapat, Windows'u tam olarak yeniden başlatmaz; bu yüzden ara sıra Yeniden başlat'ı kullanın: güncelleştirmeleri tamamlar ve belleği boşaltır.
+en: Processor
+tr: İşlemci
+en: build {0}
+tr: derleme {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+tr: Windows {0} tarihinden beri güncelleştirme yüklemedi. Ayarlar > Windows Update'i açın ve güncelleştirmeleri denetleyin: güvenlik açıklarını ve çökmeleri giderirler.
+en: Region format
+tr: Bölgesel biçim
+en: Display language
+tr: Görüntüleme dili
+en: DirectX
+tr: =
+en: Time zone
+tr: Saat dilimi
+en: Name
+tr: Ad
+en: Busy right now
+tr: Şu anki kullanım
+en: Cache
+tr: Önbellek
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+tr: Kullanımda (Hyper-V, WSL, Docker veya Windows güvenlik özellikleri tarafından)
+en: Virtualization
+tr: Sanallaştırma
+en: Base speed
+tr: Temel hız
+en: Cores
+tr: Çekirdekler
+en: Made by
+tr: Üretici
+en: ({0} processors)
+tr: ({0} işlemci)
+en: {0} cores, {1} threads
+tr: {0} çekirdek, {1} iş parçacığı
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+tr: (adsız program)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+tr: Üreticiye özgü
+en: {0} data errors were found on the SSD.
+tr: SSD'de {0} veri hatası bulundu.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+tr: {0} bozuk kesim yedek kesimlerle değiştirildi (yeniden ayrıldı).
+en: The disk itself predicts that it will fail soon. Back up your files now.
+tr: Disk kendisi yakında arızalanacağını öngörüyor. Dosyalarınızı hemen yedekleyin.
+en: Failing
+tr: Arızalanıyor
+en: OK (no limit)
+tr: Tamam (sınır yok)
+en: {0} sector reallocation events.
+tr: {0} kesim yeniden ayırma olayı.
+en: The disk needed {0} retries to spin up.
+tr: Diskin dönmeye başlaması için {0} yeniden deneme gerekti.
+en: {0} internal data path errors.
+tr: {0} iç veri yolu hatası.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+tr: Disk ile bilgisayar arasında {0} aktarım hatası sayıldı. Bunlar genellikle gevşek veya kötü bir kablodan kaynaklanır ve diske zarar vermez.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+tr: {0} kesim kararsız ve denetlenmeyi bekliyor (bekleyen). Dosyalarınızın yedeğini tutun ve bu sayının artıp artmadığını izleyin.
+en: {0} sectors could not be read or fixed (uncorrectable).
+tr: {0} kesim okunamadı veya düzeltilemedi (düzeltilemez).
+en: {0} read errors the disk could not correct.
+tr: Diskin düzeltemediği {0} okuma hatası.
+en: Warning flags set
+tr: Uyarı işaretleri var
+en: Hot
+tr: Sıcak
+en: Below threshold
+tr: Eşiğin altında
+en: Windows reports a warning for this disk.
+tr: Windows bu disk için bir uyarı bildiriyor.
+en: Windows reports this disk as unhealthy.
+tr: Windows bu diski sağlıksız olarak bildiriyor.
+en: OK
+tr: Tamam
+en: Near end of rated life
+tr: Öngörülen ömrünün sonuna yakın
+en: The SSD has switched to read-only mode to protect your data.
+tr: SSD, verilerinizi korumak için salt okunur moda geçti.
+en: The SSD reports that it has been too hot.
+tr: SSD aşırı ısındığını bildiriyor.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+tr: SMART özniteliği {0} güvenlik sınırının altında. Dosyalarınızı hemen yedekleyin.
+en: Watch
+tr: Dikkat
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+tr: Yedek alan güvenli düzeyin altında ({0}% kaldı). Dosyalarınızı hemen yedekleyin.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+tr: SSD güvenilirliğinin azaldığını bildiriyor. Dosyalarınızı hemen yedekleyin.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+tr: Sağlık yüzdesi ne anlama gelir?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+tr: Diskin kendi kendini izleme verilerinden (SMART veya NVMe SSD'lerde sağlık günlüğü) yapılan bir tahmindir. 100% değeri, hiçbir sorun veya aşınma bulunmadığı anlamına gelir. Hard Disk Sentinel gibi araçlara yakın sonuç verecek şekilde ayarlanmıştır, ancak her araç kendi formülünü kullanır; bu yüzden sayılar biraz farklı olabilir.
+en: Why does the Windows folder look so big in Analyze disk?
+tr: Diski çözümle sekmesinde Windows klasörü neden bu kadar büyük görünüyor?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+tr: Windows bazı dosyaları aynı anda iki yerde tutar, bu yüzden boyutlar toplanırken iki kez sayılırlar. Gerçek boyut daha küçüktür. Windows klasöründeki hiçbir şeyi asla elle silmeyin.
+en: My SSD shows less than 100% health. Should I worry?
+tr: SSD'min sağlığı 100% değerinin altında görünüyor. Endişelenmeli miyim?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+tr: Bunlar diskin güvenilir şekilde okuyamadığı küçük alanlardır. Yeniden ayrılan kesimler zaten yedek kesimlerle değiştirilmiştir. Bekleyen kesimler denetlenmeyi bekler. Eski disklerde birkaç tane olması yaygındır. Sayılar artmaya devam ederse dosyalarınızı yedekleyin ve diski değiştirmeyi düşünün.
+en: What temperature is normal for a disk?
+tr: Bir disk için hangi sıcaklık normaldir?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+tr: SSD'ler her yazmada biraz aşınır; sağlık değeri, öngörülen yazma ömrünün ne kadarının kullanıldığını gösterir. Birçok SSD öngörülen değerin çok ötesinde çalışmaya devam eder. Yedek alın ve sağlık düştüğünde veya sorunlar görüldüğünde SSD'yi değiştirmeyi planlayın.
+en: What are pending and reallocated sectors?
+tr: Bekleyen ve yeniden ayrılan kesimler nedir?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+tr: Tarayıcınızı ve uygulamalarınızı kullandıkça önbellekler yeniden dolar, Windows yeni güncelleştirmeler indirir ve bellek azaldığında Windows disk belleği dosyasını büyütür. Birkaç haftada bir yeniden temizlemek, Depolama Algısı'nı açmak ve kullanılmayan programları kapatmak bunu kontrol altında tutar.
+en: Is it safe to clean what this app suggests?
+tr: Bu uygulamanın önerdiklerini temizlemek güvenli mi?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+tr: "Temizlemesi güvenli" grubundaki öğeler, programların kendiliğinden yeniden oluşturduğu önbellekler ve geçici dosyalardır. "Karar sizin" grubundaki öğeler küçük bir şeyi kaldırır, bu yüzden önce onları okuyun. "Yalnızca bilgi" olarak işaretlenen öğeler uygulama tarafından asla silinmez; uygulama yalnızca onları gösterir ve konumlarını açar.
+en: It never follows folder links into other folders.
+tr: Klasör bağlantılarını izleyerek başka klasörlere asla geçmez.
+en: Will cleaning my browser cache log me out of websites?
+tr: Tarayıcı önbelleğimi temizlemek web sitelerindeki oturumlarımı kapatır mı?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+tr: Kullanımdaki dosyalar atlanır. Geçici dosya temizliği son bir güne ait dosyaları tutar. Windows bileşenleri temizliği ise yalnızca çalışırken ölçülebilir. Alttaki günlük tam olarak neyin kaldırıldığını gösterir.
+en: Why does my free space go down again after cleaning?
+tr: Temizlikten sonra boş alanım neden yeniden azalıyor?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+tr: Hayır. Önbellek temizliği tanımlama bilgilerini, kayıtlı parolaları, yer işaretlerini ve geçmişi tutar. Çok nadiren bir site yeniden oturum açmanızı isteyebilir; tarayıcınız kayıtlı parolayı doldurur.
+en: Why did I get back less space than the size shown?
+tr: Neden gösterilen boyuttan daha az alan geri kazandım?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+tr: Cihaz ayrıntıları sekmesini açın. Windows'un DirectX Tanı Aracı'nın (dxdiag) gösterdiklerini, ayrıca bellek yuvalarını, disk belleği dosyasını, ekranları ve pil sağlığını gösterir. Ayrıntıları size yardım eden birine göndermek için "Tümünü kopyala" veya "Metin dosyası olarak kaydet" düğmesine tıklayın.
+en: Where are my history files saved?
+tr: Geçmiş dosyalarım nereye kaydediliyor?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+tr: Hazırda bekletme, bilgisayarın kaldığı yerden devam edebilmesi için belleğinizin bir kısmı kadar büyük bir dosya tutar. Ayrılmış Depolama, Windows'un güncelleştirmeler için ayırdığı yaklaşık 7 GB alandır. CompactOS, Windows dosyalarını sıkıştırılmış olarak depolar. Her biri birkaç GB boşaltabilir ve her biri daha sonra geri açılabilir.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+tr: Windows sürümü, işlemci, bellek ve grafik gibi bilgisayar ayrıntılarını nerede görebilirim?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+tr: Kullanıcı klasörünüzde: %LOCALAPPDATA%\DiskCleanupHelper. Burada temizlik geçmişi, disk sağlığı ve sıcaklık geçmişi ile hız testi sonuçları bulunur. Bunları Hakkında ve Disk sağlığı sekmelerinden açın.
+en: How do I uninstall it?
+tr: Nasıl kaldırırım?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+tr: Ayarlar > Uygulamalar > Disk Cleanup Helper > Kaldır veya Hakkında sekmesindeki Kaldır düğmesi. Hiç yüklemediyseniz program dosyasını silmeniz yeterlidir.
+en: Does the app send any of my data anywhere?
+tr: Uygulama verilerimi herhangi bir yere gönderiyor mu?
+en: What are hibernation, Reserved Storage and CompactOS?
+tr: Hazırda bekletme, Ayrılmış Depolama ve CompactOS nedir?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+tr: Windows'un kendi geçici ve güncelleştirme dosyalarını temizlemek ve disklerin sağlık verilerini okumak için yönetici hakları gerekir. Hayır'a tıklarsanız uygulama yine de çalışır ve yönetici hakları gerektiren öğeler gri görünür.
+en: Why does Windows say "Windows protected your PC"?
+tr: Windows neden "Windows bilgisayarınızı korudu" diyor?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+tr: Sabit diskler genellikle 25 ile 45 °C arasında çalışır. SSD'ler genellikle 30 ile 60 °C arasında çalışır, NVMe SSD'ler yoğun yük altında 70 °C'ye ulaşabilir. Sürekli daha yüksek sıcaklıklar diskin ömrünü kısaltır.
+en: Why does the app ask for admin rights?
+tr: Uygulama neden yönetici hakları istiyor?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+tr: Windows bunu henüz tanımadığı yeni programlar için gösterir. "Ek bilgi" seçeneğine, ardından "Yine de çalıştır" düğmesine tıklayın. Program imzalanıp Microsoft tarafından tanındığında uyarı tamamen kaybolur.
+en: Does the speed test harm my disk?
+tr: Hız testi diskime zarar verir mi?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+tr: Hayır. 512 MB ile 1 GB arasında geçici bir test dosyası yazar, geri okur ve siler. Bu, normal bir günlük kullanımdan daha azdır.
+en: Can I undo a cleanup?
+tr: Bir temizliği geri alabilir miyim?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+tr: Temizle sekmesiyle silinen dosyalar Geri Dönüşüm Kutusu'na gitmez, bu yüzden geri yüklenemez. Diski çözümle sekmesinden Geri Dönüşüm Kutusu'na taşıdığınız dosyalar, Geri Dönüşüm Kutusu'nu boşaltana kadar geri yüklenebilir. Windows ayarları geri alınabilir; Hakkında sekmesindeki Benioku'ya bakın.
+en: Tidy your Downloads folder
+tr: İndirilenler klasörünüzü düzenleyin
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+tr: Yükleyiciler ve eski indirmeler birikir. Klasörü boyuta göre sıralayın ve artık ihtiyacınız olmayanları silin.
+en: Let cloud files stay in the cloud
+tr: Bulut dosyaları bulutta kalsın
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+tr: OneDrive'da bir klasöre sağ tıklayın ve "Yer aç" seçeneğini belirleyin. Dosyalar görünür kalır ama yalnızca açtığınızda indirilir.
+en: Close programs you are not using
+tr: Kullanmadığınız programları kapatın
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+tr: Yeniden başlatma belleği temizler, güncelleştirmeleri tamamlar ve Windows'un disk belleği dosyasını normal boyutuna küçültmesini sağlar.
+en: Turn off apps you do not need at startup
+tr: Başlangıçta gerekmeyen uygulamaları kapatın
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+tr: Bellek tükendiğinde Windows disk belleği dosyasını büyütür; bu da disk alanı kullanır ve programların çökmesine neden olabilir.
+en: Restart your PC now and then
+tr: Bilgisayarınızı ara sıra yeniden başlatın
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+tr: Videolar, fotoğraflar ve eski indirmeler başka bir sürücüde, harici bir diskte veya bulut depolamada durabilir.
+en: Empty the Recycle Bin
+tr: Geri Dönüşüm Kutusu'nu boşaltın
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+tr: Sildiğiniz dosyalar, Geri Dönüşüm Kutusu boşaltılana kadar yer kaplamaya devam eder. Zaman zaman kontrol edin.
+en: Turn on Storage Sense
+tr: Depolama Algısı'nı açın
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+tr: Windows geçici dosyaları ve eski Geri Dönüşüm Kutusu öğelerini kendisi silebilir. Ayarlar > Sistem > Depolama > Depolama Algısı.
+en: Uninstall what you no longer use
+tr: Artık kullanmadıklarınızı kaldırın
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+tr: Windows sürücüsü neredeyse dolduğunda Windows yavaşlar ve güncelleştirmeler yüklenemeyebilir.
+en: Move big personal files
+tr: Büyük kişisel dosyaları taşıyın
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+tr: Eski oyunlar ve programlar çoğu zaman en çok yer kaplayanlardır. Ayarlar > Uygulamalar, ardından listeyi boyuta göre sıralayın.
+en: Keep 10 to 15 percent free
+tr: Yüzde 10 ila 15 boş alan bırakın
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+tr: Windows, WinSxS ve Installer gibi klasörler elle temizlenirse Windows bozulur. Bunun yerine Temizle sekmesini kullanın.
+en: Nothing is deleted until you select it and confirm.
+tr: Siz seçip onaylamadan hiçbir şey silinmez.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+tr: Diskler uyarı vermeden arızalanabilir. Önemli dosyaların bir kopyasını başka bir sürücüde veya bulutta tutun.
+en: Never delete Windows files by hand
+tr: Windows dosyalarını asla elle silmeyin
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+tr: Temizlik öğeleri yalnızca önbelleklere, geçici dosyalara ve eski güncelleştirme dosyalarına dokunur. Belgeleriniz, fotoğraflarınız, müzikleriniz, videolarınız, masaüstünüz ve indirilenleriniz asla otomatik olarak temizlenmez.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+tr: Ölçme, tarama veya temizleme öncesinde bilgisayarın belleği azsa sizi uyarır.
+en: Windows and program files are protected in the Analyze disk tab.
+tr: Diski çözümle sekmesinde Windows ve program dosyaları korunur.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+tr: Tarayıcı ve uygulama önbellek temizliği parolalarınızı, yer işaretlerinizi, geçmişinizi ve oturumlarınızı korur.
+en: It asks you to close a browser or app before cleaning its cache.
+tr: Bir tarayıcının veya uygulamanın önbelleğini temizlemeden önce onu kapatmanızı ister.
+en: Back up what matters
+tr: Önemli olanları yedekleyin
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+tr: SSD'lerin buna ihtiyacı yoktur. Windows'un "Sürücüleri iyileştir" aracı farkı bilir, bu yüzden onu otomatik zamanlamasında bırakın.
+en: Check disk health once a month
+tr: Disk sağlığını ayda bir kontrol edin
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+tr: Windows ile başlayan uygulamalar azaldıkça başlangıç hızlanır ve boş bellek artar. Görev Yöneticisi > Başlangıç uygulamaları.
+en: Do not defragment an SSD
+tr: SSD'yi birleştirmeyin
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+tr: Disk sağlığı sekmesini açın. Her ziyarette bir ölçüm kaydedilir, böylece bir şey değişirse geçmiş grafikleri bunu gösterir.
+en: Keep your PC cool
+tr: Bilgisayarınızı serin tutun
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+tr: Isı diskin ömrünü kısaltır. Sabit diskler yaklaşık 50 °C'nin, SSD'ler yaklaşık 70 °C'nin altında kalmalıdır. Havalandırma deliklerini temiz tutun.
+en: Watch for growing bad sectors
+tr: Artan bozuk kesimleri izleyin
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+tr: Birkaç yeniden ayrılan veya bekleyen kesim yaygındır. Sayı artmaya devam ederse yedek alın ve diski değiştirmeyi planlayın.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+tr: Yükleme başarısız oldu:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+tr: Disk Cleanup Helper bu bilgisayardan kaldırılsın mı?<br><br>Temizlik geçmişiniz şurada kalır:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+tr: Disk Cleanup Helper bu bilgisayardan kaldırıldı.
+en: Free up disk space safely
+tr: Disk alanını güvenle boşaltın
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+tr: Program kopyalanamadı. Yüklü Disk Cleanup Helper açıksa önce onu kapatın ve yeniden deneyin.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+tr: Disk Cleanup Helper yüklendi.<br><br>Başlat menüsünden veya Disk Cleanup Helper adlı masaüstü kısayolundan açın.<br><br>Daha sonra kaldırmak için: Ayarlar > Uygulamalar > Disk Cleanup Helper > Kaldır.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+tr: Gösterilen boyut, Windows sürücüsündeki Geri Dönüşüm Kutusu'na aittir.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+tr: Her sürücüdeki Geri Dönüşüm Kutusu'nu boşaltır. İçindeki hiçbir şey artık geri yüklenemez.
+en: $Recycle.Bin on every drive
+tr: Her sürücüdeki $Recycle.Bin
+en: Turn off hibernation
+tr: Hazırda bekletmeyi kapat
+en: Sleep still works normally.
+tr: Uyku normal çalışmaya devam eder.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+tr: Çoğu zaman birkaç GB olan hazırda bekletme dosyasını kaldırır. Hazırda Beklet ve Hızlı başlatma çalışmaz hâle gelir, bu yüzden bilgisayar birkaç saniye daha yavaş açılır.
+en: PC starts a few seconds slower
+tr: Bilgisayar birkaç saniye daha yavaş açılır
+en: Files in it are gone for good
+tr: İçindeki dosyalar kalıcı olarak silinir
+en: Crash dump files
+tr: Çökme döküm dosyaları
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+tr: Ayarlarınız ve projeleriniz kalır. IDE, projeleri bir sonraki açışınızda yeniden dizinler. Önce JetBrains IDE'lerini kapatın.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+tr: IntelliJ IDEA, PyCharm, WebStorm, Rider ve diğer JetBrains IDE'lerinin önbellekleri.
+en: Only needed to investigate crashes
+tr: Yalnızca çökmeleri incelemek için gerekir
+en: Recycle Bin (all drives)
+tr: Geri Dönüşüm Kutusu (tüm sürücüler)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+tr: Bilgisayarınızın neden çöktüğünü biri inceliyorsa bunları saklayın. Aksi takdirde silinmeleri güvenlidir.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+tr: Windows'un mavi ekrandan veya bir grafik sürücüsü sorunundan sonra yazdığı dosyalar. Yalnızca MEMORY.DMP birkaç GB olabilir.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+tr: Daha sonra geri almak için yönetici olarak açılmış bir Komut İstemi'nde şunu çalıştırın:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+tr: Kapatmak o alanı geri verir, ancak diskiniz dolarsa Windows güncelleştirmeleri başarısız olabilir. Bunu yalnızca yeterli boş alan bırakıyorsanız yapın.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+tr: Windows, güncelleştirmelerin yüklenmek için her zaman yeri olsun diye yaklaşık 7 GB ayırır.
+en: already off
+tr: zaten kapalı
+en: about 2-4 GB
+tr: yaklaşık 2-4 GB
+en: Windows setting (Reserved Storage)
+tr: Windows ayarı (Ayrılmış Depolama)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+tr: Daha sonra geri almak için yönetici olarak açılmış bir Komut İstemi'nde şunu çalıştırın:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+tr: hiberfil.sys gizli bir Windows dosyasıdır. Açılacak bir şey yok.
+en: Updates may fail when the disk is full
+tr: Disk dolduğunda güncelleştirmeler başarısız olabilir
+en: Turn off Reserved Storage
+tr: Ayrılmış Depolama'yı kapat
+en: about 7 GB
+tr: yaklaşık 7 GB
+en: IDE re-indexes your projects
+tr: IDE projelerinizi yeniden dizinler
+en: Spotify cache and downloads
+tr: Spotify önbelleği ve indirmeleri
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+tr: Aynı klasördeki state.vscdb sohbetlerinizi, oturumunuzu ve ayarlarınızı tutar. Bu araç ona asla dokunmaz.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+tr: Cursor'ın yapay zekâ aracısının çalışma verileri. Eski aracı sohbet geçmişini içerebilir.
+en: Downloaded songs must be downloaded again
+tr: İndirilen şarkılar yeniden indirilmeli
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+tr: Hesabınız ve çalma listeleriniz güvendedir, ancak çevrimdışı dinlemek için indirdiğiniz şarkılar yeniden indirilmelidir.
+en: Spotify keeps played and downloaded music here.
+tr: Spotify, çalınan ve indirilen müzikleri burada tutar.
+en: {0} and Data
+tr: {0} ve Data
+en: May hold old agent chat history
+tr: Eski aracı sohbet geçmişini içerebilir
+en: Cursor: AI agent snapshots
+tr: Cursor: Yapay zekâ aracısı anlık görüntüleri
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+tr: Yalnızca 60 gündür değişmeyen klasörler silinir. Proje dosyalarınızın kendisine asla dokunulmaz.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+tr: Her klasör, VS Code'un bir proje hakkında hatırladıklarını tutar: o projeye ait açık sekmeler, düzen ve yapay zekâ sohbet geçmişi.
+en: Cannot undo older AI edits
+tr: Eski yapay zekâ düzenlemeleri geri alınamaz
+en: Cursor: AI agent data
+tr: Cursor: Yapay zekâ aracısı verileri
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+tr: Eski yapay zekâ değişikliklerini artık geri alamazsınız. Aracıyı yeniden kullandığınızda Cursor yeni kopyalar oluşturur.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+tr: Cursor'ın yapay zekâ aracısının düzenlemelerini geri almak için kullandığı proje kopyalarınız.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+tr: Gradle bunları yeniden indirirken sonraki derleme internet gerektirir ve daha uzun sürer. Önce Android Studio'yu ve diğer Java IDE'lerini kapatın.
+en: Downloaded libraries and build files for Java and Android projects.
+tr: Java ve Android projeleri için indirilen kitaplıklar ve derleme dosyaları.
+en: Next build downloads everything again
+tr: Sonraki derleme her şeyi yeniden indirir
+en: Maven repository
+tr: Maven deposu
+en: JetBrains IDE caches and logs
+tr: JetBrains IDE önbellekleri ve günlükleri
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+tr: Maven bunları yeniden indirirken sonraki derleme internet gerektirir ve daha uzun sürer. "mvn install" ile kendiniz yüklediğiniz kitaplıkların yeniden yüklenmesi gerekir.
+en: Downloaded Java libraries.
+tr: İndirilen Java kitaplıkları.
+en: Gradle caches
+tr: Gradle önbellekleri
+en: Adobe media cache (Premiere, After Effects)
+tr: Adobe medya önbelleği (Premiere, After Effects)
+en: Close Spotify first.
+tr: Önce Spotify'ı kapatın.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+tr: İpucu: Spotify ayarlarında daha küçük bir önbellek boyutu da belirleyebilir veya önbelleği başka bir sürücüye taşıyabilirsiniz.
+en: Video previews are rebuilt
+tr: Video önizlemeleri yeniden oluşturulur
+en: Close Adobe apps first.
+tr: Önce Adobe uygulamalarını kapatın.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+tr: Projelerinize ve videolarınıza dokunulmaz. Sonrasında bir projeyi ilk kez açmak, önizlemeler yeniden oluşturulurken daha yavaş olur.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+tr: Adobe video uygulamalarının oluşturduğu önizleme ve ses dosyaları. Birçok GB boyutuna ulaşabilirler.
+en: Compress Windows files (CompactOS)
+tr: Windows dosyalarını sıkıştır (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+tr: Daha yavaş bir sabit diskte Docker daha yavaş çalışır.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+tr: Bu sürücüde yer açmak için onu taşıyın: Docker Desktop > Settings (dişli simgesi) > Resources > Advanced > Disk image location > başka bir sürücüde bir klasör seçin > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+tr: "docker volume prune" ve "docker system prune --volumes" komutlarına dikkat edin: veritabanları içerebilen birimleri silerler.
+en: Linux (WSL) disks
+tr: Linux (WSL) diskleri
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+tr: Birini kullanmıyorsanız: Ayarlar > Uygulamalar > onu bulun > Kaldır. Bu, içindeki her şeyi siler.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+tr: Her WSL Linux sistemi (örneğin Ubuntu) tüm dosyalarını tek bir disk dosyasında tutar.
+en: Disk files of your WSL Linux systems
+tr: WSL Linux sistemlerinizin disk dosyaları
+en: Holds all Docker containers, images and volumes. Never delete this file.
+tr: Tüm Docker kapsayıcılarını, görüntülerini ve birimlerini tutar. Bu dosyayı asla silmeyin.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+tr: Yer açmak için: "Konumu aç" > sürücüyü seçin > Yapılandır > "En Fazla Kullanım" kaydırıcısını düşürün veya tümünü kaldırmak için Sil'e tıklayın.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+tr: Geri yükleme noktaları sistem değişikliklerini geri almanızı sağlar. Windows bunlar için birkaç GB kullanabilir.
+en: System Properties > System Protection
+tr: Sistem Özellikleri > Sistem Koruması
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+tr: Yalnızca en yenisini tutmak için: Disk Temizleme (cleanmgr) > Sistem dosyalarını temizle > Diğer Seçenekler > Sistem Geri Yükleme ve Gölge Kopyalar > Temizle.
+en: Can be moved to another drive
+tr: Başka bir sürücüye taşınabilir
+en: Docker disk (do not delete)
+tr: Docker diski (silmeyin)
+en: Keep at least one recent restore point if you can.
+tr: Mümkünse en az bir yakın tarihli geri yükleme noktası tutun.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+tr: - pagefile.sys ve swapfile.sys: Windows'un diskteki ek belleği. Yeterince yoksa bellek tükendiğinde programlar çöker.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+tr: pagefile.sys, swapfile.sys, Windows Installer ve WinSxS klasörleri
+en: Never delete by hand
+tr: Asla elle silmeyin
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+tr: - Windows Installer klasörü: dosyaları yalnızca "Eski güncelleştirme dosyaları" öğesiyle kaldırın, asla elle silmeyin.
+en: ({0} files)
+tr: ({0} dosya)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+tr: - Kullandığınız uygulamaların klasörleri, büyük olsalar bile. Onları silmek uygulamayı bozabilir veya verilerinizi kaybetmenize neden olabilir.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+tr: - WinSxS klasörü: yalnızca "Windows bileşenleri" öğeleriyle temizleyin, asla elle temizlemeyin.
+en: Leave these alone
+tr: Bunlara dokunmayın
+en: Your Downloads folder
+tr: İndirilenler klasörünüz
+en: If that command is not recognised, run  wsl --update  first.
+tr: Bu komut tanınmazsa önce  wsl --update  komutunu çalıştırın.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+tr: Birini başka bir sürücüye taşımak için Komut İstemi'nde:  wsl --shutdown   ardından   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+tr: Kendi dosyalarınız: siz karar verin
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+tr: İpucu: Diski çözümle sekmesi, nerede olursa olsun en büyük dosyalarınızı listeler.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+tr: Klasörü açın, boyuta göre sıralayın (Görünüm > Ayrıntılar, ardından Boyut sütununa tıklayın) ve artık ihtiyacınız olmayanları silin.
+en: Files you downloaded. This tool never deletes them here.
+tr: İndirdiğiniz dosyalar. Bu araç buradaki dosyaları asla silmez.
+en: Keep at least the newest one
+tr: En azından en yenisini tutun
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+tr: Depolama Algısı Windows'ta yerleşiktir. Geçici dosyaları ve eski Geri Dönüşüm Kutusu öğelerini otomatik olarak siler, böylece alan boş kalır.
+en: Settings > System > Storage
+tr: Ayarlar > Sistem > Depolama
+en: Cleans temp files automatically
+tr: Geçici dosyaları otomatik temizler
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+tr: "Konumu aç", Depolama Algısı ayarlarını açar. Özelliği oradan açın.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+tr: Bir Windows yükseltmesinden kalmıştır. Sınırlı bir süre önceki sürüme dönmenizi sağlar ve çoğu zaman 10 ile 30 GB arasındadır.
+en: Remove with Windows' own tool
+tr: Windows'un kendi aracıyla kaldırın
+en: Previous Windows installation
+tr: Önceki Windows yüklemesi
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+tr: Windows sistem dosyalarını sıkıştırılmış olarak depolayan, Microsoft'un kendi özelliği. Genellikle 2 ile 4 GB boşaltır.
+en: Windows system files on {0}
+tr: {0} üzerindeki Windows sistem dosyaları
+en: Built into Windows. Slight CPU cost
+tr: Windows'ta yerleşik. Hafif işlemci yükü
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+tr: Çok yavaş veya eski bilgisayarlarda Windows'u biraz yavaşlatabilir. Çoğu bilgisayarda fark etmezsiniz.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+tr: Kendi penceresinde çalışıyor. Bu işlem 10 ile 20 dakika sürebilir. O pencereyi kapatmayın.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+tr: Daha sonra geri almak için yönetici olarak açılmış bir Komut İstemi'nde şunu çalıştırın:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+tr: Kendi penceresinde çalışır ve 10 ile 20 dakika sürebilir. Windows zaten sıkıştırılmışsa hızlıca biter.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+tr: {0} üzerindeki en büyük programlar (Windows'un kendi boyut tahmini; "?" = yükleme klasörü kaydedilmemiş):
+en: Programs only come off by uninstalling them in Settings > Apps.
+tr: Programlar yalnızca Ayarlar > Uygulamalar'dan kaldırılarak silinir.
+en: "Open location" opens Apps & features.
+tr: "Konumu aç", Uygulamalar ve özellikler'i açar.
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+tr: Başka sürücülere yüklenmiş {0} program listelenmiyor: bunları kaldırmak {1} üzerinde yer açmaz.
+en: System Restore points
+tr: Sistem Geri Yükleme noktaları
+en: "{0}" is discontinued and no longer needed.
+tr: "{0}" kullanımdan kaldırıldı ve artık gerekli değil.
+en: You have {0} Java versions installed. Most people only need the newest one.
+tr: {0} Java sürümü yüklü. Çoğu kişinin yalnızca en yenisine ihtiyacı vardır.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+tr: Programlar yalnızca Ayarlar > Uygulamalar'dan kaldırılarak silinir. En büyüklerini burada listelemek için "Boyutları ölç" düğmesine tıklayın.
+en: "Open location" opens the Storage settings.
+tr: "Konumu aç", Depolama ayarlarını açar.
+en: After that you can no longer go back to the previous Windows version.
+tr: Bundan sonra önceki Windows sürümüne artık geri dönemezsiniz.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+tr: Windows'un kendisiyle kaldırın: Ayarlar > Sistem > Depolama > Geçici dosyalar > "Önceki Windows yüklemeleri" kutusunu işaretleyin > Dosyaları kaldır.
+en: see details
+tr: ayrıntılara bakın
+en: Settings > Apps > Apps & features
+tr: Ayarlar > Uygulamalar > Uygulamalar ve özellikler
+en: Uninstall the ones you do not use
+tr: Kullanmadıklarınızı kaldırın
+en: Biggest installed programs
+tr: En büyük yüklü programlar
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+tr: Oyunlar ve uygulamalar daha hızlı başlasın diye Windows'un ve ekran kartı sürücüsünün kaydettiği gölgelendirici dosyaları.
+en: {0} and similar
+tr: {0} ve benzerleri
+en: Games may stutter once while they rebuild
+tr: Oyunlar yeniden oluşturma sırasında bir kez takılabilir
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+tr: Otomatik olarak yeniden oluşturulurlar. Sonrasında bir oyunun ilk açılışı biraz takılabilir.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+tr: Programların geride bıraktığı geçici dosyalar. Yalnızca 1 günden eski dosyalar silinir, böylece süren yüklemeler etkilenmez.
+en: Files in use are skipped
+tr: Kullanımdaki dosyalar atlanır
+en: Your temp files (older than 1 day)
+tr: Geçici dosyalarınız (1 günden eski)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+tr: Grafik önbellekleri (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+tr: Yalnızca Discord'un önbellek klasörlerini siler.
+en: Keeps login and messages
+tr: Oturum ve mesajlar korunur
+en: Discord cache
+tr: Discord önbelleği
+en: Close Discord first, including its icon near the clock.
+tr: Saatin yanındaki simgesi dahil, önce Discord'u kapatın.
+en: Close Slack first, including its icon near the clock.
+tr: Saatin yanındaki simgesi dahil, önce Slack'i kapatın.
+en: Deletes only Slack's cache folders.
+tr: Yalnızca Slack'in önbellek klasörlerini siler.
+en: Slack cache
+tr: Slack önbelleği
+en: Old problem reports
+tr: Eski sorun raporları
+en: Windows error reports
+tr: Windows hata raporları
+en: The Windows Update service is stopped for a moment and started again.
+tr: Windows Update hizmeti kısa bir süre durdurulur ve yeniden başlatılır.
+en: {0} and your own WER folder
+tr: {0} ve kendi WER klasörünüz
+en: Recent logs are kept
+tr: Son günlükler korunur
+en: Old Windows log files (older than 14 days)
+tr: Eski Windows günlük dosyaları (14 günden eski)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+tr: Windows'un çöken programlar hakkında kaydettiği raporlar. Gönderildikten veya sorun giderildikten sonra gerekmezler.
+en: If an update is still waiting to install, Windows downloads it again.
+tr: Bir güncelleştirme hâlâ yüklenmeyi bekliyorsa Windows onu yeniden indirir.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+tr: Windows'un ve yükleyicilerin geride bıraktığı geçici dosyalar. Yalnızca 1 günden eski dosyalar silinir.
+en: Windows temp files (older than 1 day)
+tr: Windows geçici dosyaları (1 günden eski)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+tr: Gösterilen boyut klasörün tamamıdır. En yeni dosyalar kalır, bu yüzden boşaltılan miktar biraz daha az olabilir.
+en: Windows Update downloads
+tr: Windows Update indirmeleri
+en: Update files Windows already downloaded. Installed updates are not affected.
+tr: Windows'un önceden indirdiği güncelleştirme dosyaları. Yüklü güncelleştirmeler etkilenmez.
+en: {0} and the Delivery Optimization cache
+tr: {0} ve Teslim İyileştirme önbelleği
+en: Installed updates are not affected
+tr: Yüklü güncelleştirmeler etkilenmez
+en: Close Teams first, including its icon near the clock.
+tr: Saatin yanındaki simgesi dahil, önce Teams'i kapatın.
+en: Keeps passwords, favorites, logins
+tr: Parolalar, sık kullanılanlar, oturumlar korunur
+en: Microsoft Edge cache
+tr: Microsoft Edge önbelleği
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+tr: Önce tüm Chrome pencerelerini kapatın. Saatin yanında bir Chrome simgesi varsa sağ tıklayın ve Çık'ı seçin.
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+tr: Her profilde yalnızca Edge'in önbellek klasörlerini ve grafik önbelleklerini siler.
+en: Deletes only Brave's cache folders in every profile.
+tr: Her profilde yalnızca Brave'in önbellek klasörlerini siler.
+en: Brave cache
+tr: Brave önbelleği
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+tr: Edge çoğu zaman arka planda çalışmaya devam eder. Araç hâlâ çalıştığını söylüyorsa: Edge'de Ayarlar > Sistem ve performans > "Başlangıç artırma" ve "Arka plan uzantılarını ve uygulamalarını çalıştırmaya devam et" seçeneklerini kapatın.
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+tr: Her profilde yalnızca Chrome'un önbellek klasörlerini ve grafik önbelleklerini siler.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+tr: KORUNANLAR: parolalar, yer işaretleri, geçmiş, tanımlama bilgileri ve site oturumları, otomatik doldurma, uzantılar, ayarlar, yüklü web uygulamaları.
+en: Could not stop {0}: {1}
+tr: {0} durdurulamadı: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+tr: Sayfalar ilk seferde biraz daha yavaş yüklenir. Çok nadiren bir site yeniden oturum açmanızı isteyebilir; tarayıcı kayıtlı parolanızı doldurur.
+en: Keeps passwords, bookmarks, logins
+tr: Parolalar, yer işaretleri, oturumlar korunur
+en: Google Chrome cache
+tr: Google Chrome önbelleği
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+tr: KORUNANLAR: oturumunuz, mesajlarınız, ayarlarınız ve dosyalarınız. Uygulama ihtiyaç duyduğunu yeniden indirir.
+en: Close Opera first.
+tr: Önce Opera'yı kapatın.
+en: Deletes only Opera's cache folder.
+tr: Yalnızca Opera'nın önbellek klasörünü siler.
+en: {0} (and Opera GX)
+tr: {0} (ve Opera GX)
+en: Microsoft Teams cache
+tr: Microsoft Teams önbelleği
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+tr: Yalnızca Teams'in önbellek klasörlerini siler. Microsoft, Teams yavaş olduğunda veya garip davrandığında bunu önerir.
+en: Teams cache folders (new Teams and classic Teams)
+tr: Teams önbellek klasörleri (yeni Teams ve klasik Teams)
+en: Keeps login, chats, files
+tr: Oturum, sohbetler, dosyalar korunur
+en: Opera cache
+tr: Opera önbelleği
+en: Deletes only Vivaldi's cache folders in every profile.
+tr: Her profilde yalnızca Vivaldi'nin önbellek klasörlerini siler.
+en: Vivaldi cache
+tr: Vivaldi önbelleği
+en: Close Brave first.
+tr: Önce Brave'i kapatın.
+en: Close Vivaldi first.
+tr: Önce Vivaldi'yi kapatın.
+en: Close Firefox first.
+tr: Önce Firefox'u kapatın.
+en: Deletes only Firefox's cache folder in every profile.
+tr: Her profilde yalnızca Firefox'un önbellek klasörünü siler.
+en: Firefox cache
+tr: Firefox önbelleği
+en: {0} and {1}
+tr: {0} ve {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+tr: Boşaltması güvenlidir. Windows buna yalnızca tek bir güncelleştirmeyi tek başına kaldırmak için ihtiyaç duyar.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+tr: Tek bir program güncelleştirmesinin daha sonra orijinal yükleyici olmadan kaldırılabilmesi için Windows'un tuttuğu yedek kopya.
+en: Low risk
+tr: Düşük risk
+en: when run
+tr: çalıştırıldığında
+en: {0} (Microsoft DISM tool)
+tr: {0} (Microsoft DISM aracı)
+en: Safe, often frees little
+tr: Güvenli, çoğu zaman az yer açar
+en: Windows components: normal cleanup
+tr: Windows bileşenleri: normal temizlik
+en: Windows patch backup cache
+tr: Windows yama yedekleme önbelleği
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+tr: Silinen dosyalar deleted-update-files.csv dosyasında listelenir (klasör için Hakkında sekmesine bakın).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+tr: Bu işlem yalnızca Windows'un daha yeni bir güncelleştirmeyle değiştirilmiş olarak işaretlediği güncelleştirme dosyalarını siler. Her programın en yeni 3 dosyasını tutar ve hâlâ kullanımda olan bir dosyayı asla silmez.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+tr: Bazı programlar yüklediği her güncelleştirmeyi saklar. Bunun en yaygın örneği Adobe Acrobat Reader'dır: güncelleştirme başına 0.1 ile 0.7 GB.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+tr: Küçük risk: o programın gelecekteki bir güncelleştirmesi veya onarımı eksik bir dosya bildirirse, programı kaldırıp yeniden yükleyin.
+en: Found on this PC: nothing to remove.
+tr: Bu bilgisayarda bulunan: kaldırılacak bir şey yok.
+en: Found on this PC:
+tr: Bu bilgisayarda bulunanlar:
+en: Never delete files in the Windows Installer folder by hand.
+tr: Windows Installer klasöründeki dosyaları asla elle silmeyin.
+en: If you tick both Windows components items, only this one runs.
+tr: İki Windows bileşenleri öğesini de işaretlerseniz yalnızca bu çalışır.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+tr: Sonrasında, şu anda yüklü Windows güncelleştirmeleri artık kaldırılamaz. Yalnızca Windows sorunsuz çalışırken kullanın.
+en: Same as the normal cleanup, but also removes every replaced version.
+tr: Normal temizlikle aynıdır, ancak değiştirilmiş tüm sürümleri de kaldırır.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+tr: Kendi penceresinde çalışır ve 5 ile 30 dakika sürer. O pencereyi kapatmayın veya bilgisayarı kapatmayın.
+en: {0} (folders unused for 60+ days)
+tr: {0} (60+ gündür kullanılmayan klasörler)
+en: Lose old projects' tabs, layout, AI chats
+tr: Eski projelerin sekmeleri, düzeni, yapay zekâ sohbetleri kaybolur
+en: VS Code: data of projects not opened in 60 days
+tr: VS Code: 60 gündür açılmayan projelerin verileri
+en: {0} (Microsoft DISM tool, /ResetBase)
+tr: {0} (Microsoft DISM aracı, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+tr: Windows bunu zaten birkaç haftada bir kendisi yapar, bu yüzden çoğu zaman çok az yer açar.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+tr: Kendi penceresinde çalışır ve 5 ile 30 dakika sürer. O pencereyi kapatmayın veya bilgisayarı kapatmayın. Dizüstü bilgisayarda şarj cihazını takın.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+tr: Microsoft'un Windows bileşenlerinin eski sürümleri için kendi temizliği. Güvenli.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+tr: WinSxS içindeki hiçbir şeyi asla elle silmeyin. Windows bozulur.
+en: Installed updates cannot be uninstalled after
+tr: Sonrasında yüklü güncelleştirmeler kaldırılamaz
+en: Windows components: deep cleanup
+tr: Windows bileşenleri: derin temizlik
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+tr: Kendi penceresinde çalışıyor. Bu işlem 5 ile 30 dakika sürebilir. O pencereyi kapatmayın.
+en: {0} (files picked from Windows' own records)
+tr: {0} (Windows'un kendi kayıtlarından seçilen dosyalar)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+tr: İndirilen .NET paketleri. NuGet gerektiğinde bunları yeniden indirir.
+en: NuGet download cache
+tr: NuGet indirme önbelleği
+en: Downloaded Python packages. pip downloads them again when needed.
+tr: İndirilen Python paketleri. pip gerektiğinde bunları yeniden indirir.
+en: Go build cache
+tr: Go derleme önbelleği
+en: Composer cache
+tr: Composer önbelleği
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+tr: Go dilinin daha hızlı derlemek için tuttuğu derlenmiş dosyalar. Go bunları sonraki derlemede yeniden oluşturur.
+en: Rebuilt on the next build
+tr: Sonraki derlemede yeniden oluşturulur
+en: pip cache
+tr: pip önbelleği
+en: npm cache
+tr: npm önbelleği
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+tr: Yalnızca 14 günden eski dosyalar silinir. Bir şeyin düzeltilmesi gerekebilir diye son günlükler kalır.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+tr: Windows'un güncelleştirmeleri yüklerken yazdığı günlük dosyaları. Bazı bilgisayarlarda birkaç GB boyutuna ulaşır.
+en: Packages download again when needed
+tr: Paketler gerektiğinde yeniden indirilir
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+tr: İndirilen Yarn paketleri (Node.js geliştiricileri için). Yarn gerektiğinde bunları yeniden indirir.
+en: Yarn cache
+tr: Yarn önbelleği
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+tr: İndirilen npm paketleri (Node.js geliştiricileri için). Bir proje bir sonraki sefer ihtiyaç duyduğunda npm bunları yeniden indirir.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+tr: Cursor'ın önbellek klasörleri ve çökme raporları. Cursor bunları yeniden oluşturur.
+en: Keeps settings, chats, login
+tr: Ayarlar, sohbetler, oturum korunur
+en: Cursor cache and crash reports
+tr: Cursor önbelleği ve çökme raporları
+en: KEEPS: settings, chats, login and projects.
+tr: KORUNANLAR: ayarlar, sohbetler, oturum ve projeler.
+en: Programs stay installed. Small risk
+tr: Programlar yüklü kalır. Küçük risk
+en: Old update files of installed programs (keeps newest 3)
+tr: Yüklü programların eski güncelleştirme dosyaları (en yeni 3 tutulur)
+en: Close Cursor first.
+tr: Önce Cursor'ı kapatın.
+en: Close VS Code first.
+tr: Önce VS Code'u kapatın.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+tr: İndirilen Rust paketleri. Cargo gerektiğinde bunları yeniden indirir.
+en: Cargo download cache
+tr: Cargo indirme önbelleği
+en: Downloaded PHP packages. Composer downloads them again when needed.
+tr: İndirilen PHP paketleri. Composer gerektiğinde bunları yeniden indirir.
+en: VS Code cache and crash reports
+tr: VS Code önbelleği ve çökme raporları
+en: KEEPS: settings, extensions, projects, project history and chats.
+tr: KORUNANLAR: ayarlar, uzantılar, projeler, proje geçmişi ve sohbetler.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+tr: Visual Studio Code'un önbellek klasörleri ve çökme raporları. VS Code bunları yeniden oluşturur.
+en: Keeps settings, extensions, projects
+tr: Ayarlar, uzantılar, projeler korunur
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+tr: Özet
+en: Transfer rate MB/s   (blue = read, orange = write)
+tr: Aktarım hızı MB/s   (mavi = okuma, turuncu = yazma)
+en: Disk activity %
+tr: Disk etkinliği %
+en: Average transfer rate (since this tab opened)
+tr: Ortalama aktarım hızı (bu sekme açıldığından beri)
+en: Read since Windows started
+tr: Windows başladığından beri okunan
+en: Average disk activity
+tr: Ortalama disk etkinliği
+en: Highest transfer rate seen
+tr: Görülen en yüksek aktarım hızı
+en: now
+tr: şimdi
+en: READ
+tr: OKUMA
+en: Right now
+tr: Şu anda
+en: Saved today's disk health and temperature reading to the history.
+tr: Bugünkü disk sağlığı ve sıcaklık ölçümü geçmişe kaydedildi.
+en: WRITE
+tr: YAZMA
+en: 2 minutes ago
+tr: 2 dakika önce
+en: DISK ACTIVITY
+tr: DİSK ETKİNLİĞİ
+en: TOTAL TRANSFER
+tr: TOPLAM AKTARIM
+en: Written since Windows started
+tr: Windows başladığından beri yazılan
+en: This disk has no drive letter, so the speed test cannot write its test file.
+tr: Bu diskin sürücü harfi yok, bu yüzden hız testi test dosyasını yazamaz.
+en: Pick a disk first.
+tr: Önce bir disk seçin.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+tr: Son test ({0}): yazma {1} MB/s, okuma {2} MB/s, rastgele 4K okuma {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+tr: Hız testi için {0} sürücüsünde en az 2 GB boş alan gerekir.
+en: Speed test started on drive {0}.
+tr: Hız testi {0} sürücüsünde başladı.
+en: Running...
+tr: Çalışıyor...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+tr: Hız testi {1} sürücüsüne {0} MB boyutunda bir test dosyası yazar, geri okur ve siler.<br>Yaklaşık 10 ile 60 saniye sürer. Bu sırada diğer programlar daha yavaş gelebilir.<br><br>Hız testi başlatılsın mı?
+en: not reported by this disk
+tr: bu disk bildirmiyor
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+tr: Diskin gerçekte ne kadar hızlı yazıp okuyabildiğini ölçer: geçici bir test dosyası yazar, geri okur, ardından küçük rastgele parçalar okur ve dosyayı siler. Üstteki "Hız testini çalıştır" düğmesine tıklayın.
+en: Speed test
+tr: Hız testi
+en: Written over the disk's whole life
+tr: Diskin tüm ömrü boyunca yazılan
+en: Not run yet.
+tr: Henüz çalıştırılmadı.
+en: Disk {0}: {1}
+tr: =
+en: Windows' disk activity counters are not available on this PC: {0}
+tr: Windows'un disk etkinliği sayaçları bu bilgisayarda kullanılamıyor: {0}
+en: Getting disk activity ready...
+tr: Disk etkinliği hazırlanıyor...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+tr: İlk seferde Windows'un disk etkinliği sayaçlarını başlatması birkaç saniye sürebilir.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+tr: Karşılaştırma için: dizüstü sabit diskleri yaklaşık 80 ile 140 MB/s, SATA SSD'ler yaklaşık 500 MB/s, NVMe SSD'ler ise 1500 ile 7000 MB/s hıza ulaşır.
+en: Raw value
+tr: Ham değer
+en: Unexpected power losses
+tr: Beklenmeyen güç kesintileri
+en: Spare space left
+tr: Kalan yedek alan
+en: Rated write life used
+tr: Öngörülen yazma ömründen kullanılan
+en: ✓ No problems found.
+tr: ✓ Sorun bulunamadı.
+en: From Windows' storage information.
+tr: Windows'un depolama bilgilerinden.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+tr: SSD'nin kendi sağlık günlüğünden (NVMe) okundu. Tam liste SMART ayrıntıları sekmesindedir.
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+tr: Diskin kendi kendini izleme verilerinden (SMART) okundu. Tam liste SMART ayrıntıları sekmesindedir.
+en: Data read over its life
+tr: Ömrü boyunca okunan veri
+en: Powered on
+tr: Açık kalma süresi
+en: TEMPERATURE
+tr: SICAKLIK
+en: needs admin
+tr: yönetici hakkı gerekir
+en: {0} hours  (about {1} days)
+tr: {0} saat  (yaklaşık {1} gün)
+en: Data written over its life
+tr: Ömrü boyunca yazılan veri
+en: {0} times
+tr: {0} kez
+en: Turned on
+tr: Açılma sayısı
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+tr: Bu disk ayrıntılı sağlık verilerini Windows ile paylaşmıyor (USB kutularında ve RAID'de yaygındır).
+en: No.
+tr: =
+en: Status
+tr: Durum
+en: Value
+tr: Değer
+en: Attribute
+tr: Öznitelik
+en: Data
+tr: Veri
+en: Worst
+tr: En kötü
+en: Threshold
+tr: Eşik
+en: Item
+tr: Öğe
+en: Temperature history
+tr: Sıcaklık geçmişi
+en: Health history
+tr: Sağlık geçmişi
+en: Start the tool with admin rights to read health and temperature.
+tr: Sağlık ve sıcaklığı okumak için aracı yönetici haklarıyla başlatın.
+en: No readings saved yet.
+tr: Henüz kaydedilmiş ölçüm yok.
+en: Offset
+tr: Uzaklık
+en: {0} readings since {1}.
+tr: {1} tarihinden beri {0} ölçüm.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+tr: Şimdiye kadar 1 ölçüm var ({0}). Daha fazla ölçüm kaydedildikçe grafikler büyür.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+tr: Yazma {0:N0} MB/s     Okuma {1:N0} MB/s     Rastgele 4K okuma {2:N1} MB/s (saniyede {3:N0})
+en: This item has no folder to open.
+tr: Bu öğenin açılacak bir klasörü yok.
+en: Stopping...
+tr: Durduruluyor...
+en: Could not open the read me: {0}
+tr: Benioku açılamadı: {0}
+en: Pick a drive first.
+tr: Önce bir sürücü seçin.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+tr: Bunun için yönetici hakları gerekir. Aracı yeniden başlatın ve Windows isteminde Evet'e tıklayın.
+en: Select a file in the list first.
+tr: Önce listeden bir dosya seçin.
+en: Scan a drive first.
+tr: Önce bir sürücüyü tarayın.
+en: No questions match your search.
+tr: Aramanızla eşleşen soru yok.
+en: Simple habits that keep your disk from filling up and your PC running well.
+tr: Diskinizin dolmasını önleyen ve bilgisayarınızın iyi çalışmasını sağlayan basit alışkanlıklar.
+en: Tips
+tr: İpuçları
+en: SAFETY
+tr: GÜVENLİK
+en: How Disk Cleanup Helper keeps you safe
+tr: Disk Cleanup Helper sizi nasıl korur
+en: Search the questions, for example "temperature"
+tr: Sorularda arayın, örneğin "sıcaklık"
+en: Click a question to see the answer.
+tr: Yanıtı görmek için bir soruya tıklayın.
+en: Frequently asked questions
+tr: Sık sorulan sorular
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+tr: Windows'un kendi hata taraması, {0} için kendi penceresinde başlatıldı. Yalnızca sürücüyü okur ve birkaç dakika sürer. Sonucu o pencerede okuyun.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+tr: Yalnızca bu bilgisayarda bulunan öğeler listelenir. Her birinin ne kadar yer kapladığını görmek için "Boyutları ölç" düğmesine tıklayın. Siz onaylamadan hiçbir şey silinmez.
+en: Not running as administrator. Items marked Admin are disabled.
+tr: Yönetici olarak çalışmıyor. Yönetici etiketli öğeler devre dışıdır.
+en: Running as administrator. All items are available.
+tr: Yönetici olarak çalışıyor. Tüm öğeler kullanılabilir.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+tr: İpucu: Hakkında sekmesinden yükleyebilirsiniz; böylece Başlat menüsünde görünür.
+en: Saved a health and temperature reading for {0} disks to the history.
+tr: {0} disk için sağlık ve sıcaklık ölçümü geçmişe kaydedildi.
+en: {0} files were in use and were skipped.
+tr: {0} dosya kullanımda olduğu için atlandı.
+en: {0} items
+tr: {0} öğe
+en: My user folder only
+tr: Yalnızca kullanıcı klasörüm
+en: Install: not installed
+tr: Yükleme: yüklü değil
+en: Install: installed in {0}
+tr: Yükleme: {0} konumunda yüklü
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+tr: Henüz ölçüm kaydedilmedi.<br><br>Geçmiş şuraya kaydedilecek:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+tr: Henüz temizlik yapılmadı.<br><br>Geçmiş şuraya kaydedilecek:<br>{0}
+en: Whole drive
+tr: Tüm sürücü
+en: Could not open System Information: {0}
+tr: Sistem Bilgileri açılamadı: {0}
+en: Could not open dxdiag: {0}
+tr: dxdiag açılamadı: {0}
+en: SPEED
+tr: HIZ
+en: Wait until the details have been read.
+tr: Ayrıntılar okunana kadar bekleyin.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+tr: Okunma zamanı: {0}. Siz kopyalamadıkça veya kaydetmedikçe bu bilgisayarda kalır.
+en: Could not read the device details: {0}
+tr: Cihaz ayrıntıları okunamadı: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+tr: Cihaz ayrıntıları kopyalandı. Bunları gereken yere yapıştırın, örneğin size yardım eden birine göndereceğiniz bir mesaja.
+en: Text file
+tr: Metin dosyası
+en: Save the device details
+tr: Cihaz ayrıntılarını kaydet
+en: Could not copy: {0}
+tr: Kopyalanamadı: {0}
+en: Reading...
+tr: Okunuyor...
+en: Speed test: {0}
+tr: Hız testi: {0}
+en: Speed test finished.
+tr: Hız testi tamamlandı.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+tr: {1} tarihinde {0} MB boyutunda bir dosyayla test edildi. Sonuç kaydedildi, böylece daha sonra karşılaştırabilirsiniz.
+en: Speed test stopped. The test file was deleted.
+tr: Hız testi durduruldu. Test dosyası silindi.
+en: Reading this PC's details...
+tr: Bu bilgisayarın ayrıntıları okunuyor...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+tr: Windows, işlemci, bellek, grafik ve diğer ayrıntılar toplanıyor. Bu birkaç saniye sürer.
+en: The speed test could not finish. See the log below.
+tr: Hız testi tamamlanamadı. Aşağıdaki günlüğe bakın.
+en: Stopped.
+tr: Durduruldu.
+en: Saved the device details to {0}
+tr: Cihaz ayrıntıları şuraya kaydedildi: {0}
+en: Philip Droubi | Software Engineer
+tr: Philip Droubi | Yazılım Mühendisi
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+tr: Yazılım Mühendisi. Disk Cleanup Helper hakkında soru, fikir veya geri bildirimler memnuniyetle karşılanır.
+en: Made by Philip Droubi
+tr: Geliştiren: Philip Droubi
+en: Philip Droubi is a Software Engineer.
+tr: Philip Droubi bir Yazılım Mühendisidir.
+en: SPACE
+tr: ALAN
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+tr: Yazılım Mühendisi. LinkedIn'de Philip Droubi ile bağlantı kurun.
+en: Source code on GitHub
+tr: Kaynak kodu GitHub'da
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+tr: GNU GPL v3 kapsamında ücretsiz ve açık kaynaklı: kullanın, değiştirin ve paylaşın. Kopyalarda Philip Droubi adı korunur.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+tr: © {0} Philip Droubi. Özgür yazılım: NOTICE dosyasındaki ek koşullarla birlikte GNU General Public License v3 kapsamında kullanabilir, değiştirebilir ve paylaşabilirsiniz. Hiçbir garantisi yoktur.
+en: License and terms
+tr: Lisans ve koşullar
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+tr: Bu kopya ({0}) bu bilgisayarda yüklü olan kopya değil. Başlat menüsünün bu sürümü açması için yüklü kopyayı güncelleştirin.
+en: Repair shortcuts
+tr: Kısayolları onar
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+tr: {0} konumunda yüklü. İstediğiniz zaman Başlat menüsünden veya masaüstü kısayolundan açın. Kaldırmak için: Kaldır'a tıklayın veya Ayarlar > Uygulamalar > Disk Cleanup Helper.
+en: Could not save the file: {0}
+tr: Dosya kaydedilemedi: {0}
+en: Update installed copy
+tr: Yüklü kopyayı güncelleştir
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+tr: Disk Cleanup Helper'ı bu bilgisayarda tutun: Başlat menüsünden ve masaüstünden açmak için yükleyin. Yönetici hakları gerekmez.
+en: Install on this PC
+tr: Bu bilgisayara yükle
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+tr: Yüklü değil. {0} konumundan çalıştırıyorsunuz. Yükleme; Başlat menüsü girdisi, masaüstü kısayolu ve Ayarlar > Uygulamalar'da bir girdi ekler, böylece her program gibi kaldırılabilir. Yönetici hakları gerekmez.
+en: not reported
+tr: bildirilmedi
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+tr: Bu araç bu öğeyi asla silmez. "Konumu aç" düğmesini kullanın ve yukarıdaki adımları izleyin.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+tr: Yönetici hakları gerekir. Bu öğeyi kullanmak için aracı yeniden başlatın ve Windows isteminde Evet'e tıklayın.
+en: Close first: {0}
+tr: Önce kapatın: {0}
+en: Measure anyway?
+tr: Yine de ölçülsün mü?
+en: Measuring stopped.
+tr: Ölçüm durduruldu.
+en: Measuring {0} of {1}: {2}
+tr: Ölçülüyor ({0}/{1}): {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+tr: Boyutlar ölçülüyor. Bu bir iki dakika sürebilir. Durdurmak için Durdur'a tıklayın.
+en: Where
+tr: Konum
+en: Problem: {0}
+tr: Sorun: {0}
+en: Clean selected ({0})
+tr: Seçilenleri temizle ({0})
+en: up to {0}
+tr: en fazla {0}
+en: Close {0} first
+tr: Önce {0} kapatılmalı
+en: Size: not measured yet
+tr: Boyut: henüz ölçülmedi
+en: Size: {0}
+tr: Boyut: {0}
+en: Admin
+tr: Yönetici
+en: Done. Select what you want to clean.
+tr: Tamamlandı. Temizlemek istediklerinizi seçin.
+en: Cleanup started. Free space on {0}: {1}
+tr: Temizlik başladı. {0} üzerindeki boş alan: {1}
+en: Confirm cleanup
+tr: Temizliği onaylayın
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+tr: Bunlar temizlenecek. Silinen dosyalar Geri Dönüşüm Kutusu'na gitmez ve geri yüklenemez:<br><br>{0}<br><br>Devam edilsin mi?
+en: Stopped. Not cleaned: {0}
+tr: Durduruldu. Temizlenmeyenler: {0}
+en: Error: {0}
+tr: Hata: {0}
+en: Cleaning: {0}
+tr: Temizleniyor: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+tr: Tümü tamamlandı. {0} üzerindeki boş alan {1} arttı. Şimdi {2} boş.
+en: Clean anyway?
+tr: Yine de temizlensin mi?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+tr: İpucu: bazı uygulamalar saatin yanında çalışmaya devam eder. Oradaki simgelerine sağ tıklayın ve Çık veya Çıkış'ı seçin.
+en: Select at least one item first.
+tr: Önce en az bir öğe seçin.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+tr: Tamamlandı. Hakkında bilgi almak için bir öğeye tıklayın, istediklerinizi seçin, ardından "Seçilenleri temizle" düğmesine tıklayın.
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+tr: Edge çoğu zaman arka planda çalışır: Edge'de Ayarlar > Sistem ve performans > Başlangıç artırma ve arka plan uygulamalarını kapatın.
+en: Nothing left to clean. Close the programs and try again.
+tr: Temizlenecek bir şey kalmadı. Programları kapatın ve yeniden deneyin.
+en: Close programs first
+tr: Önce programları kapatın
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+tr: Bu programlar hâlâ açık:<br><br>{0}<br><br>{1}<br><br>Hayır'a tıklayın, programları kapatın, ardından yeniden "Seçilenleri temizle" düğmesine tıklayın.<br>Ya da onlara bağlı öğeleri atlayıp kalanını temizlemek için Evet'e tıklayın.
+en: Clean selected
+tr: Seçilenleri temizle
+en: Switches that free space or keep it free.
+tr: Yer açan veya alanı boş tutan ayarlar.
+en: Windows settings
+tr: Windows ayarları
+en: YOUR CALL
+tr: KARAR SİZİN
+en: SETTING
+tr: AYAR
+en: INFO ONLY
+tr: YALNIZCA BİLGİ
+en: The tool only shows and opens these. It never deletes them.
+tr: Araç bunları yalnızca gösterir ve açar. Asla silmez.
+en: Do it yourself
+tr: Kendiniz yapın
+en: You lose something small. Read each one before you select it.
+tr: Küçük bir şey kaybedersiniz. Seçmeden önce her birini okuyun.
+en: SAFE
+tr: GÜVENLİ
+en: TOTAL
+tr: TOPLAM
+en: {0} selected
+tr: {0} seçili
+en: Caches and temp files. Programs rebuild them by themselves.
+tr: Önbellekler ve geçici dosyalar. Programlar bunları kendiliğinden yeniden oluşturur.
+en: Safe to clean
+tr: Temizlemesi güvenli
+en: Old installer files and Windows cleanup
+tr: Eski yükleyici dosyaları ve Windows temizliği
+en: Your call
+tr: Karar sizin
+en: ADMIN
+tr: YÖNETİCİ
+en: Needs admin rights. Read each one before you select it.
+tr: Yönetici hakları gerekir. Seçmeden önce her birini okuyun.
+en: Language
+tr: Dil
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+tr: Bilgisayarınızın belleği şu anda az:<br><br>  Kullanılabilir bellek: {0:N1} GB<br>  Disk belleği dosyası dahil kalan alan: {1:N1} GB<br><br>Belleğin tükenmesi programların çökmesine ve bazı bilgisayarlarda mavi ekrana neden olabilir.<br>İhtiyacınız olmayan programları (tarayıcılar, düzenleyiciler, oyunlar) kapatın, ardından yeniden deneyin.
+en: Switched to the light theme.
+tr: Açık temaya geçildi.
+en: Switched to the dark theme.
+tr: Koyu temaya geçildi.
+en: Low memory
+tr: Bellek az
+en: nothing selected
+tr: hiçbir şey seçilmedi
+en: low: close some programs
+tr: az: bazı programları kapatın
+en: of {0} GB
+tr: toplam {0} GB
+en: Switch to the dark theme
+tr: Koyu temaya geç
+en: Please wait until the current task finishes, or click Stop.
+tr: Lütfen geçerli görev bitene kadar bekleyin veya Durdur'a tıklayın.
+en: Scan {0} for errors
+tr: {0} sürücüsünde hataları tara
+en: {0} FREE (WINDOWS DRIVE)
+tr: {0} BOŞ (WINDOWS SÜRÜCÜSÜ)
+en: Could not restart the app: {0}
+tr: Uygulama yeniden başlatılamadı: {0}
+en: Switch to the light theme
+tr: Açık temaya geç
+en: DARK MODE
+tr: KOYU MOD
+en: LIGHT MODE
+tr: AÇIK MOD
+en: Removed {0}. Left: {1}.
+tr: Kaldırıldı: {0}. Kalan: {1}.
+en: Storage Spaces
+tr: Depolama Alanları
+en: Virtual
+tr: Sanal
+en: Disk
+tr: =
+en: Too hot
+tr: Çok sıcak
+en: Could not read disks: {0}
+tr: Diskler okunamadı: {0}
+en: Normal
+tr: =
+en: Warm
+tr: Ilık
+en: Poor
+tr: Kötü
+en: Healthy
+tr: Sağlıklı
+en: Unknown
+tr: Bilinmiyor
+en: Windows: problem
+tr: Windows: sorun
+en: Warning
+tr: Uyarı
+en: Fair
+tr: Orta
+en: Good
+tr: İyi
+en: Problem
+tr: Sorun
+en: Checking disks...
+tr: Diskler denetleniyor...
+en: Reading each disk's health and temperature. This takes a few seconds.
+tr: Her diskin sağlığı ve sıcaklığı okunuyor. Bu birkaç saniye sürer.
+en: Waiting for the current task to finish. The disks are checked right after that.
+tr: Geçerli görevin bitmesi bekleniyor. Diskler hemen ardından denetlenir.
+en: (health {0}%)
+tr: (sağlık {0}%)
+en: SMART attributes
+tr: SMART öznitelikleri
+en: NVMe health log
+tr: NVMe sağlık günlüğü
+en: {0}% used
+tr: {0}% kullanıldı
+en: HEALTH
+tr: SAĞLIK
+en: Almost full: Windows and apps slow down when a drive is this full.
+tr: Neredeyse dolu: Sürücü bu kadar dolu olduğunda Windows ve uygulamalar yavaşlar.
+en: {0} free of {1}
+tr: {0} boş, toplam {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+tr: Disklerin SMART verilerini okumak için aracı yönetici haklarıyla başlatın.
+en: Windows did not report any disks.
+tr: Windows hiçbir disk bildirmedi.
+en: Disks
+tr: Diskler
+en: Drives
+tr: Sürücüler
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+tr: Sağlık %, bu uygulamanın her diskin kendi verilerinden yaptığı tahmindir. Diğer araçlar kendi formüllerini kullanır, bu yüzden sayıları biraz farklı olabilir. Bu sekmeyi her açtığınızda veya uygulamayı her başlattığınızda (en sık 30 dakikada bir) bir ölçüm kaydedilir, böylece sağlığı ve sıcaklığı zaman içinde izleyebilirsiniz.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+tr: Disklerin hiçbiri SMART verilerini Windows ile paylaşmıyor. Bu durum USB kutularında ve RAID'de yaygındır.
+en: Disk check finished.
+tr: Disk denetimi tamamlandı.
+en: A disk reports a problem. Back up your important files now.
+tr: Bir disk sorun bildiriyor. Önemli dosyalarınızı hemen yedekleyin.
+en: Windows: warning
+tr: Windows: uyarı
+en: Stopped. Results are incomplete.
+tr: Durduruldu. Sonuçlar eksik.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+tr: Taranıyor... şu ana kadar {0:N0} klasör ve {1:N0} dosya
+en: Scanning {0}. Click Stop to stop.
+tr: {0} taranıyor. Durdurmak için Durdur'a tıklayın.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+tr: Tarama durduruldu. Şu ana kadar bulunan en büyük dosyalar listelendi. Klasör boyutları yalnızca tamamlanmış bir taramada gösterilir.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+tr: Not: Windows bazı dosyaları aynı anda iki yerde tuttuğu için Windows klasörü gerçekte olduğundan büyük görünebilir.
+en: {0:N0} folders could not be read (Windows protects them).
+tr: {0:N0} klasör okunamadı (Windows bunları korur).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+tr: Tamamlandı ({0:N0} sn): {1:N0} klasör, {2:N0} dosya.
+en: Scanning {0} ...
+tr: {0} taranıyor...
+en: (files directly in this folder)
+tr: (doğrudan bu klasördeki dosyalar)
+en: Scan a drive to see its biggest folders.
+tr: En büyük klasörlerini görmek için bir sürücüyü tarayın.
+en: Free space on {0} grew by {1}.
+tr: {0} üzerindeki boş alan {1} arttı.
+en: Biggest files
+tr: En büyük dosyalar
+en: Scan anyway?
+tr: Yine de taransın mı?
+en: That drive or folder is not available.
+tr: O sürücü veya klasör kullanılamıyor.
+en: Biggest files ({0} found)
+tr: En büyük dosyalar ({0} bulundu)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+tr: Önce listeden bir veya daha fazla dosya seçin. Birkaç tane seçmek için Ctrl tuşunu basılı tutun.
+en: Could not remove {0}: {1}
+tr: {0} kaldırılamadı: {1}
+en: Moved to Recycle Bin: {0} ({1})
+tr: Geri Dönüşüm Kutusu'na taşındı: {0} ({1})
+en: Deleted file: {0} ({1})
+tr: Silinen dosya: {0} ({1})
+en: Files deleted: {0}.
+tr: Silinen dosya sayısı: {0}.
+en: Windows: OK
+tr: Windows: Tamam
+en: {0} could not be removed (in use or protected).
+tr: {0} kaldırılamadı (kullanımda veya korumalı).
+en: Files moved to the Recycle Bin: {0}.
+tr: Geri Dönüşüm Kutusu'na taşınan dosya sayısı: {0}.
+en: Move to Recycle Bin
+tr: Geri Dönüşüm Kutusu'na taşı
+en: They will be deleted permanently and cannot be restored.
+tr: Bunlar kalıcı olarak silinecek ve geri yüklenemeyecek.
+en: ... and {0} more
+tr: ... ve {0} tane daha
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+tr: Bunlar Windows, program veya sistem dosyalarıdır ve korunur:<br><br>{0}<br><br>Bunun yerine programı kaldırın veya Temizle sekmesini kullanın.
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+tr: Bunlar Geri Dönüşüm Kutusu'na gidecek. Alan ancak Geri Dönüşüm Kutusu'nu boşalttıktan sonra açılır.
+en: Delete permanently
+tr: Kalıcı olarak sil
+en: Make sure you do not need them. Continue?
+tr: Bunlara ihtiyacınız olmadığından emin olun. Devam edilsin mi?
+en: Files: {0}, {1} in total.
+tr: Dosya sayısı: {0}, toplam {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+tr: Diskleri yeniden denetle
+en: Disk health
+tr: Disk sağlığı
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+tr: Birkaç dosya seçmek için Ctrl tuşunu basılı tutun. Windows ve program dosyaları korunur ve burada silinemez.
+en: Scan for errors
+tr: Hataları tara
+en: Open history file
+tr: Geçmiş dosyasını aç
+en: Windows storage settings
+tr: Windows depolama ayarları
+en: Optimize drives
+tr: Sürücüleri iyileştir
+en: Modified
+tr: Değişiklik
+en: Up
+tr: Yukarı
+en: Biggest folders
+tr: En büyük klasörler
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+tr: Bir sürücü seçin ve Tara'ya tıklayın. Tüm sürücü birkaç dakika sürebilir.
+en: Folder
+tr: Klasör
+en: File
+tr: Dosya
+en: Double-click a folder to look inside.
+tr: İçine bakmak için bir klasöre çift tıklayın.
+en: Open in File Explorer
+tr: Dosya Gezgini'nde aç
+en: SMART details
+tr: SMART ayrıntıları
+en: About
+tr: Hakkında
+en: Tips & FAQ
+tr: İpuçları ve SSS
+en: System Information
+tr: Sistem Bilgileri
+en: Read me
+tr: Benioku
+en: Cleanup history
+tr: Temizlik geçmişi
+en: Uninstall
+tr: Kaldır
+en: DirectX Diagnostic (dxdiag)
+tr: DirectX Tanı Aracı (dxdiag)
+en: Run speed test
+tr: Hız testini çalıştır
+en: Disk performance
+tr: Disk performansı
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+tr: Her diskin kendisi hakkında bildirdiği ham veriler. "Dikkat", göz kulak olmaya değer demektir. "Arızalanıyor", diskin kendi güvenlik sınırının altında demektir.
+en: Live activity updates every second while this tab is open.
+tr: Bu sekme açıkken canlı etkinlik her saniye güncellenir.
+en: Save as text file
+tr: Metin dosyası olarak kaydet
+en: Copy all
+tr: Tümünü kopyala
+en: Read again
+tr: Yeniden oku
+en: Scan
+tr: Tara
+en: English
+tr: =
+en: 0 items
+tr: 0 öğe
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+tr: Yönetici olarak çalışmıyor, bu yüzden Yönetici etiketli öğeler devre dışı. Bunları kullanmak için bu pencereyi kapatın, yeniden başlatın ve Windows isteminde Evet'e tıklayın.
+en: Measure sizes
+tr: Boyutları ölç
+en: Clean up
+tr: Temizle
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+tr: Disklerinizi neyin doldurduğunu görün ve güvenle yer açın. Siz onaylamadan hiçbir şey silinmez.
+en: Disk Cleanup Helper
+tr: =
+en: C: FREE
+tr: C: BOŞ
+en: SELECTED TO CLEAN
+tr: TEMİZLİK İÇİN SEÇİLEN
+en: MEMORY AVAILABLE
+tr: KULLANILABİLİR BELLEK
+en: Stop
+tr: Durdur
+en: Analyze disk
+tr: Diski çözümle
+en: Open location
+tr: Konumu aç
+en: Drive
+tr: Sürücü
+en: List files bigger than
+tr: Şundan büyük dosyaları listele
+en: Look in
+tr: Bakılacak yer
+en: Clear selection
+tr: Seçimi temizle
+en: Select all safe
+tr: Tüm güvenlileri seç
+en: Click Measure sizes to see how much each item uses.
+tr: Her öğenin ne kadar yer kapladığını görmek için Boyutları ölç'e tıklayın.
+en: to see what it is, where it is, and what you keep or lose.
+tr: ne olduğunu, nerede olduğunu ve neyi koruyup neyi kaybedeceğinizi görün.
+en: Click an item
+tr: Bir öğeye tıklayın
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+tr: Test dosyası yazılamadı. Sürücü dolu mu?
+en: Reading it back...
+tr: Geri okunuyor...
+en: Writing a {0} MB test file...
+tr: {0} MB test dosyası yazılıyor...
+en: Could not create the test file in {0}.
+tr: Test dosyası şurada oluşturulamadı: {0}.
+en: Could not open the test file.
+tr: Test dosyası açılamadı.
+en: Not enough memory for the speed test.
+tr: Hız testi için yeterli bellek yok.
+en: Reading small random blocks...
+tr: Küçük rastgele bloklar okunuyor...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+tr: Disk Cleanup Helper için Windows 10 veya Windows 11 gerekir.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+tr: Disk Cleanup Helper başlatılamadı:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+tr: Bir sorun oluştu:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+tr: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+tr: Güncelleştirmeler nasıl çalışır?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+tr: Yeni bir sürüm çıktığında uygulama onu arka planda indirir ve denetler: SHA256 değeri ve sürüm numarası yayındaki bilgilerle eşleşmelidir. Ardından bir çubuk "Şimdi yeniden başlat" seçeneğini sunar. "Daha sonra" seçeneğini belirlerseniz güncelleştirme, uygulamayı kapattığınızda yüklenir. Otomatik denetimi Hakkında sekmesinden kapatabilirsiniz; oradaki "Güncelleştirmeleri denetle" düğmesi yine de çalışır.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+tr: Hayır. Bilgisayarınız hakkında hiçbir şey göndermez. Kurduğu tek bağlantı, günde en fazla bir kez GitHub'a yeni bir sürüm olup olmadığını sormaktır. Bunu Hakkında sekmesinden kapatabilirsiniz.
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+tr: Bilgisayarınız hakkında hiçbir şey göndermez. Yalnızca GitHub'a yeni bir sürüm olup olmadığını sorar ve bunu Hakkında sekmesinden kapatabilirsiniz. Temizlenenlerin geçmişi yalnızca bu bilgisayara kaydedilir.
+en: Update check: version {0} is the newest.
+tr: Güncelleştirme denetimi: {0} sürümü en yeni sürümdür.
+en: Downloading version {0}... {1}%
+tr: {0} sürümü indiriliyor... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+tr: {0} sürümü kullanılabilir. Bu bir geliştirici derlemesi olduğundan kendini güncelleştirmez.
+en: Update check: version {0} is available.
+tr: Güncelleştirme denetimi: {0} sürümü kullanılabilir.
+en: Downloading version {0}...
+tr: {0} sürümü indiriliyor...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+tr: Güncelleştirme buraya yüklenemez, çünkü bu klasör değiştirilemez: {0}
+en: The update was not downloaded: {0}
+tr: Güncelleştirme indirilmedi: {0}
+en: Later
+tr: Daha sonra
+en: This is a developer build, so it does not update itself.
+tr: Bu bir geliştirici derlemesi olduğundan kendini güncelleştirmez.
+en: What's new in version {0}:
+tr: {0} sürümündeki yenilikler:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+tr: {0} sürümü yüklendi ancak başlatılamadı: {1}<br><br>Disk Cleanup Helper'ı tekrar başlatın.
+en: No details were given for this version.
+tr: Bu sürüm için ayrıntı verilmedi.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+tr: {0} sürümü indirildi ve denetlendi (SHA256 ve sürüm numarası).
+en: The update could not be downloaded: {0}
+tr: Güncelleştirme indirilemedi: {0}
+en: Version {0} is ready. Restart to update.
+tr: {0} sürümü hazır. Güncelleştirmek için yeniden başlatın.
+en: This is version {0}. It has not checked for updates yet.
+tr: Bu sürüm {0}. Güncelleştirmeler henüz denetlenmedi.
+en: You have the latest version ({0}). Last checked: {1}.
+tr: En son sürümü kullanıyorsunuz ({0}). Son denetim: {1}.
+en: Version {0} is installed.
+tr: {0} sürümü yüklendi.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+tr: Bu kopya değiştirilemeyen bir klasörde:<br>{0}<br><br>Yayın sayfası açılır; böylece {1} sürümünü indirip bu kopyayı elle değiştirebilirsiniz.
+en: The update could not be installed: {0}
+tr: Güncelleştirme yüklenemedi: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+tr: {0} sürümü kullanılabilir. İndirmek için "Güncelleştirmeleri denetle" düğmesine tıklayın.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+tr: Güncelleştirme yüklenemedi. Bu kopya olduğu gibi çalışmaya devam ediyor.<br><br>{0}
+en: Updated to version {0}.
+tr: {0} sürümüne güncelleştirildi.
+en: Update check: {0}
+tr: Güncelleştirme denetimi: {0}
+en: Could not check for updates: {0}
+tr: Güncelleştirmeler denetlenemedi: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+tr: GitHub'a ulaşılamadı. İnternet bağlantınızı denetleyin ve yeniden deneyin.
+en: Checking for updates...
+tr: Güncelleştirmeler denetleniyor...
+en: Update check: could not reach GitHub.
+tr: Güncelleştirme denetimi: GitHub'a ulaşılamadı.
+en: Check for updates
+tr: Güncelleştirmeleri denetle
+en: Check for updates when the app starts
+tr: Uygulama başladığında güncelleştirmeleri denetle
+en: What's new
+tr: Yenilikler
+en: Restart now
+tr: Şimdi yeniden başlat
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+tr: Windows 10 ve 11 için disklerinizi neyin doldurduğunu gösteren ve güvenle yer açan ücretsiz bir yardımcı. Bilgisayarınız hakkında hiçbir şey göndermez. Siz onaylamadan hiçbir şey silinmez.
+en: Updates
+tr: Güncelleştirmeler
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+tr: Güncelleştirmeler uygulamanın GitHub sayfasından gelir. Her yeni sürüm, bu sürümün yerini almadan önce denetlenir (SHA256 ve sürüm numarası).
+en: Version {0} has no {1} file.
+tr: {0} sürümünde {1} dosyası yok.
+en: Version {0} has a download address that is not on github.com.
+tr: {0} sürümünün indirme adresi github.com üzerinde değil.
+en: Version {0} has no SHA256 line in its release text.
+tr: {0} sürümünün yayın metninde SHA256 satırı yok.
+en: GitHub's answer could not be read.
+tr: GitHub'ın yanıtı okunamadı.
+en: The newest release has an unreadable version number: {0}
+tr: En yeni yayının sürüm numarası okunamıyor: {0}
+en: The download came from an unexpected address: {0}
+tr: İndirme beklenmeyen bir adresten geldi: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+tr: İndirilen dosya bir Disk Cleanup Helper programı değil.
+en: The downloaded file is version {0}, not {1}.
+tr: İndirilen dosyanın sürümü {0}, {1} değil.
+en: The downloaded file does not match the SHA256 in the release text.
+tr: İndirilen dosya, yayın metnindeki SHA256 ile eşleşmiyor.
+en: The downloaded file has an unexpected size ({0}).
+tr: İndirilen dosyanın boyutu beklenmedik ({0}).
+en: The download took too long.
+tr: İndirme çok uzun sürdü.

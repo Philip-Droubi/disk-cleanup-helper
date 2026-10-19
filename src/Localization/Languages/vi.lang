@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - vi
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Tiếng Việt
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+vi: Không thể chạy {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+vi: ngoài ra còn {0}
+en: GRAPHICS
+vi: ĐỒ HỌA
+en: Wireless (Miracast)
+vi: Không dây (Miracast)
+en: Built-in screen
+vi: Màn hình tích hợp
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+vi: Trình điều khiển này có từ {0}. Bản mới hơn từ nhà sản xuất PC hoặc nhà sản xuất chip có thể khắc phục sự cố treo, màn hình xanh và lỗi hiển thị.
+en: {0} × {1} at {2} Hz
+vi: {0} × {1} ở {2} Hz
+en: Showing now
+vi: Đang hiển thị
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+vi: Windows báo có sự cố với thiết bị này (mã {0}). Hãy cài lại trình điều khiển từ trang web của nhà sản xuất PC hoặc nhà sản xuất chip.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+vi: Chưa cài trình điều khiển đồ họa phù hợp. Hãy cài trình điều khiển từ nhà sản xuất PC hoặc nhà sản xuất chip đồ họa để có hình ảnh sắc nét và nhanh hơn.
+en: Screens
+vi: Màn hình
+en: Made in
+vi: Sản xuất
+en: Connection
+vi: Kết nối
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+vi: Sức khỏe, nhiệt độ và dữ liệu SMART nằm trong thẻ Sức khỏe ổ đĩa và Chi tiết SMART.
+en: Storage
+vi: Lưu trữ
+en: {0} inches
+vi: {0} inch
+en: {0}  (main screen)
+vi: {0}  (màn hình chính)
+en: Screen {0}
+vi: Màn hình {0}
+en: Refresh rate
+vi: Tần số quét
+en: Resolution
+vi: Độ phân giải
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+vi: Bộ nhớ hiện gần đầy (đang dùng {0}%). Hãy đóng các chương trình bạn không cần. PC hết bộ nhớ sẽ chạy chậm và có thể bị treo.
+en: Part number
+vi: Mã linh kiện
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+vi: PC này báo còn một khe bộ nhớ trống. Lắp thêm một thanh RAM cùng loại ({0}) thường là cách rẻ để máy chạy nhanh hơn.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+vi: {0} là ít đối với Windows 10 và 11 hiện nay. Từ 8 GB trở lên sẽ tạo khác biệt lớn.
+en: Size
+vi: Kích thước
+en: Memory promised to programs
+vi: Bộ nhớ đã cam kết cho chương trình
+en: None. Programs can crash when the memory is full.
+vi: Không có. Chương trình có thể bị treo khi bộ nhớ đầy.
+en: Module {0}
+vi: Mô-đun {0}
+en: {0} GB of {1} GB  (memory plus page file)
+vi: {0} GB / {1} GB  (bộ nhớ cộng tệp hoán trang)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+vi: PC này báo còn một khe bộ nhớ trống. Lắp thêm một thanh RAM cùng loại thường là cách rẻ để máy chạy nhanh hơn.
+en: 4 GB or more
+vi: Từ 4 GB trở lên
+en: Graphics
+vi: Đồ họa
+en: Driver
+vi: Trình điều khiển
+en: Graphics memory
+vi: Bộ nhớ đồ họa
+en: {0}% in use now
+vi: Đang dùng {0}%
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+vi: Cả hai khe bộ nhớ đều đã dùng. Để có thêm bộ nhớ, hãy thay các thanh RAM bằng thanh dung lượng lớn hơn ({0}). Tổng 16 GB là mức tốt hiện nay.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+vi: Khe bộ nhớ duy nhất đã được dùng. Để có thêm bộ nhớ, hãy thay thanh RAM bằng thanh dung lượng lớn hơn ({0}). Tổng 16 GB là mức tốt hiện nay.
+en: MEMORY
+vi: BỘ NHỚ
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+vi: Cả {0} khe bộ nhớ đều đã dùng. Để có thêm bộ nhớ, hãy thay các thanh RAM bằng thanh dung lượng lớn hơn ({1}). Tổng 16 GB là mức tốt hiện nay.
+en: Adapter
+vi: Bộ điều hợp
+en: Network adapters
+vi: Bộ điều hợp mạng
+en: connected at {0}
+vi: đã kết nối ở {0}
+en: turned off
+vi: đã tắt
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+vi: Pin chỉ còn giữ được {0}% dung lượng so với khi mới. Pin mới sẽ cho thời gian dùng không cần sạc lâu hơn nhiều.
+en: Lithium-ion
+vi: =
+en: Kind
+vi: Loại
+en: Nickel-metal hydride
+vi: Niken-kim loại hydrua
+en: Lithium-polymer
+vi: =
+en: connected
+vi: đã kết nối
+en: {0} minutes
+vi: {0} phút
+en: {0}  ·  Windows reports a problem (code {1})
+vi: {0}  ·  Windows báo có sự cố (mã {1})
+en: {0} days
+vi: {0} ngày
+en: {0} hours
+vi: {0} giờ
+en: Built in
+vi: Tích hợp
+en: Sound
+vi: Âm thanh
+en: not connected
+vi: chưa kết nối
+en: Through the screen (HDMI or DisplayPort)
+vi: Qua màn hình (HDMI hoặc DisplayPort)
+en: Added by a program
+vi: Do chương trình thêm vào
+en: Battery
+vi: Pin
+en: All disks together
+vi: Tất cả ổ đĩa cộng lại
+en: plugged in, charging
+vi: đã cắm sạc, đang sạc
+en: on battery
+vi: đang dùng pin
+en: drive {0}
+vi: ổ {0}
+en: Storage class memory
+vi: Bộ nhớ lớp lưu trữ
+en: Hard disk
+vi: Ổ cứng
+en: Disk {0}
+vi: Đĩa {0}
+en: SD card
+vi: Thẻ SD
+en: plugged in, full
+vi: đã cắm sạc, đầy
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+vi: {0}%  (giữ được {1} Wh, khi mới giữ được {2} Wh)
+en: Battery health
+vi: Tình trạng pin
+en: Charge cycles
+vi: Số chu kỳ sạc
+en: Start the tool with admin rights to read it
+vi: Khởi động công cụ với quyền quản trị để đọc thông tin này
+en: {0} h {1} min  (Windows' estimate)
+vi: {0} giờ {1} phút  (Windows ước tính)
+en: Charge now
+vi: Mức sạc hiện tại
+en: plugged in
+vi: đã cắm sạc
+en: Time left
+vi: Thời gian còn lại
+en: {0}%, {1}
+vi: =
+en: , size set by hand
+vi: , kích thước đặt thủ công
+en: Server
+vi: Máy chủ
+en: Desktop
+vi: Máy tính để bàn
+en: Windows
+vi: =
+en: Workstation
+vi: Máy trạm
+en: All-in-one
+vi: Máy tính All-in-one
+en: Laptop that folds into a tablet (2-in-1)
+vi: Máy tính xách tay gập thành máy tính bảng (2 trong 1)
+en: Laptop
+vi: Máy tính xách tay
+en: Tablet
+vi: Máy tính bảng
+en: Tablet with a detachable keyboard (2-in-1)
+vi: Máy tính bảng có bàn phím rời (2 trong 1)
+en: Edition
+vi: Ấn bản
+en: Last update installed
+vi: Bản cập nhật cài gần nhất
+en: Installed or last big update
+vi: Cài đặt hoặc cập nhật lớn gần nhất
+en: Running since
+vi: Đang chạy từ
+en: {0}  ({1})
+vi: =
+en: 32-bit
+vi: =
+en: Build
+vi: Bản dựng
+en: Version
+vi: Phiên bản
+en: 64-bit
+vi: =
+en: 64-bit, for ARM processors
+vi: 64-bit, cho bộ xử lý ARM
+en: Computer name
+vi: Tên máy tính
+en: Type
+vi: Loại
+en: BIOS
+vi: =
+en: Motherboard
+vi: Bo mạch chủ
+en: Model
+vi: Kiểu máy
+en: Read on {0}
+vi: Đọc vào {0}
+en: Device details
+vi: Chi tiết thiết bị
+en: Maker
+vi: Nhà sản xuất
+en: This PC
+vi: PC này
+en: Start-up mode
+vi: Chế độ khởi động
+en: Not found, or turned off in the BIOS
+vi: Không tìm thấy hoặc đã tắt trong BIOS
+en: Security chip (TPM)
+vi: Chip bảo mật (TPM)
+en: TPM {0}, turned off
+vi: TPM {0}, đã tắt
+en: TPM {0}, on
+vi: TPM {0}, đang bật
+en: Not available with Legacy BIOS
+vi: Không khả dụng với Legacy BIOS
+en: Secure Boot
+vi: =
+en: Legacy BIOS
+vi: =
+en: Off
+vi: Tắt
+en: On
+vi: Bật
+en: Soldered on the board
+vi: Hàn trên bo mạch
+en: SO-DIMM (laptop size)
+vi: SO-DIMM (cỡ máy tính xách tay)
+en: Installed
+vi: Đã lắp
+en: Memory (RAM)
+vi: Bộ nhớ (RAM)
+en: DIMM (desktop size)
+vi: DIMM (cỡ máy tính để bàn)
+en: Off in the BIOS
+vi: Tắt trong BIOS
+en: On in the BIOS
+vi: Bật trong BIOS
+en: PROCESSOR
+vi: BỘ XỬ LÝ
+en: Socket
+vi: Đế cắm
+en: {0}  ({1} GB usable by Windows)
+vi: {0}  (Windows dùng được {1} GB)
+en: {0}, {1}  ({2} in use, highest {3})
+vi: {0}, {1}  (đang dùng {2}, cao nhất {3})
+en: {0} of {1} used
+vi: Đã dùng {0} / {1}
+en: , size managed by Windows
+vi: , kích thước do Windows quản lý
+en: Page file
+vi: Tệp hoán trang
+en: Memory slots
+vi: Khe bộ nhớ
+en: {0} GB of {1} GB  ({2}%)
+vi: {0} GB / {1} GB  ({2}%)
+en: In use now
+vi: Đang dùng
+en: Module type
+vi: Loại mô-đun
+en: Type and speed
+vi: Loại và tốc độ
+en: WINDOWS
+vi: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+vi: Windows đã chạy {0} ngày mà không khởi động lại. Khi Khởi động nhanh đang bật, Tắt máy không khởi động lại Windows hoàn toàn, vì vậy thỉnh thoảng hãy dùng Khởi động lại: thao tác này hoàn tất cập nhật và giải phóng bộ nhớ.
+en: Processor
+vi: Bộ xử lý
+en: build {0}
+vi: bản dựng {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+vi: Windows chưa cài bản cập nhật nào kể từ {0}. Hãy mở Cài đặt > Windows Update và kiểm tra bản cập nhật: chúng vá lỗ hổng bảo mật và lỗi gây treo.
+en: Region format
+vi: Định dạng vùng
+en: Display language
+vi: Ngôn ngữ hiển thị
+en: DirectX
+vi: =
+en: Time zone
+vi: Múi giờ
+en: Name
+vi: Tên
+en: Busy right now
+vi: Mức bận hiện tại
+en: Cache
+vi: Bộ nhớ đệm
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+vi: Đang dùng (bởi Hyper-V, WSL, Docker hoặc tính năng bảo mật của Windows)
+en: Virtualization
+vi: Ảo hóa
+en: Base speed
+vi: Tốc độ cơ sở
+en: Cores
+vi: Lõi
+en: Made by
+vi: Nhà sản xuất
+en: ({0} processors)
+vi: ({0} bộ xử lý)
+en: {0} cores, {1} threads
+vi: {0} lõi, {1} luồng
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+vi: (chương trình không tên)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+vi: Riêng của nhà sản xuất
+en: {0} data errors were found on the SSD.
+vi: Phát hiện {0} lỗi dữ liệu trên SSD.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+vi: {0} sector hỏng đã được thay bằng sector dự phòng (reallocated).
+en: The disk itself predicts that it will fail soon. Back up your files now.
+vi: Chính ổ đĩa dự báo sẽ sớm bị hỏng. Hãy sao lưu tệp của bạn ngay.
+en: Failing
+vi: Sắp hỏng
+en: OK (no limit)
+vi: OK (không có ngưỡng)
+en: {0} sector reallocation events.
+vi: {0} lần phân bổ lại sector.
+en: The disk needed {0} retries to spin up.
+vi: Ổ đĩa cần {0} lần thử lại để quay lên.
+en: {0} internal data path errors.
+vi: {0} lỗi đường dữ liệu nội bộ.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+vi: Đã ghi nhận {0} lỗi truyền dữ liệu giữa ổ đĩa và PC. Lỗi này thường do cáp lỏng hoặc hỏng và không gây hại cho ổ đĩa.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+vi: {0} sector không ổn định và đang chờ kiểm tra (pending). Hãy giữ bản sao lưu tệp của bạn và theo dõi xem con số này có tăng không.
+en: {0} sectors could not be read or fixed (uncorrectable).
+vi: {0} sector không thể đọc hoặc sửa (uncorrectable).
+en: {0} read errors the disk could not correct.
+vi: {0} lỗi đọc mà ổ đĩa không sửa được.
+en: Warning flags set
+vi: Đã bật cờ cảnh báo
+en: Hot
+vi: Nóng
+en: Below threshold
+vi: Dưới ngưỡng
+en: Windows reports a warning for this disk.
+vi: Windows báo cảnh báo cho ổ đĩa này.
+en: Windows reports this disk as unhealthy.
+vi: Windows báo ổ đĩa này không khỏe.
+en: OK
+vi: =
+en: Near end of rated life
+vi: Gần hết tuổi thọ định mức
+en: The SSD has switched to read-only mode to protect your data.
+vi: SSD đã chuyển sang chế độ chỉ đọc để bảo vệ dữ liệu của bạn.
+en: The SSD reports that it has been too hot.
+vi: SSD báo rằng nó đã bị quá nóng.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+vi: Thuộc tính SMART {0} đang dưới ngưỡng an toàn. Hãy sao lưu tệp của bạn ngay.
+en: Watch
+vi: Cần theo dõi
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+vi: Vùng dự phòng đã dưới mức an toàn (còn {0}%). Hãy sao lưu tệp của bạn ngay.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+vi: SSD báo rằng độ tin cậy đã giảm. Hãy sao lưu tệp của bạn ngay.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+vi: Phần trăm sức khỏe có nghĩa là gì?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+vi: Đây là ước tính dựa trên dữ liệu tự giám sát của chính ổ đĩa (SMART, hoặc nhật ký sức khỏe trên SSD NVMe). 100% nghĩa là không thấy sự cố hay hao mòn nào. Con số được tinh chỉnh để gần với các công cụ như Hard Disk Sentinel, nhưng mỗi công cụ dùng công thức riêng nên con số có thể chênh lệch đôi chút.
+en: Why does the Windows folder look so big in Analyze disk?
+vi: Tại sao thư mục Windows trông lớn như vậy trong Phân tích ổ đĩa?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+vi: Windows giữ một số tệp ở hai nơi cùng lúc, nên chúng bị tính hai lần khi cộng dung lượng. Dung lượng thực nhỏ hơn. Không bao giờ xóa thủ công bất cứ thứ gì trong thư mục Windows.
+en: My SSD shows less than 100% health. Should I worry?
+vi: SSD của tôi hiển thị sức khỏe dưới 100%. Tôi có nên lo không?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+vi: Đó là những vùng nhỏ mà ổ đĩa không đọc được ổn định. Sector đã phân bổ lại (reallocated) đã được thay bằng sector dự phòng. Sector chờ xử lý (pending) đang chờ được kiểm tra. Có vài sector như vậy là bình thường ở ổ đĩa cũ. Nếu con số tiếp tục tăng, hãy sao lưu tệp và cân nhắc thay ổ đĩa.
+en: What temperature is normal for a disk?
+vi: Nhiệt độ bao nhiêu là bình thường đối với ổ đĩa?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+vi: SSD hao mòn một chút sau mỗi lần ghi, và chỉ số sức khỏe cho biết đã dùng bao nhiêu phần tuổi thọ ghi định mức. Nhiều SSD vẫn hoạt động tốt sau khi vượt mức định mức. Hãy giữ bản sao lưu và dự tính thay SSD khi sức khỏe xuống thấp hoặc xuất hiện sự cố.
+en: What are pending and reallocated sectors?
+vi: Sector chờ xử lý (pending) và sector đã phân bổ lại (reallocated) là gì?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+vi: Bộ nhớ đệm đầy lại khi bạn dùng trình duyệt và ứng dụng, Windows tải các bản cập nhật mới, và khi thiếu bộ nhớ Windows sẽ tăng kích thước tệp hoán trang. Dọn lại vài tuần một lần, bật Cảm biến lưu trữ và đóng các chương trình không dùng sẽ giúp kiểm soát việc này.
+en: Is it safe to clean what this app suggests?
+vi: Dọn những gì ứng dụng này đề xuất có an toàn không?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+vi: Các mục trong nhóm "An toàn để dọn" là bộ nhớ đệm và tệp tạm mà chương trình tự tạo lại. Các mục trong "Bạn quyết định" sẽ xóa một thứ nhỏ, vì vậy hãy đọc trước. Các mục có nhãn "Chỉ thông tin" không bao giờ bị ứng dụng xóa; ứng dụng chỉ hiển thị và mở vị trí của chúng.
+en: It never follows folder links into other folders.
+vi: Ứng dụng không bao giờ đi theo liên kết thư mục sang thư mục khác.
+en: Will cleaning my browser cache log me out of websites?
+vi: Dọn bộ nhớ đệm trình duyệt có làm tôi bị đăng xuất khỏi các trang web không?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+vi: Các tệp đang được dùng sẽ bị bỏ qua. Dọn tệp tạm giữ lại các tệp của ngày gần nhất. Và phần dọn thành phần Windows chỉ đo được khi đang chạy. Nhật ký ở phía dưới cho biết chính xác những gì đã bị xóa.
+en: Why does my free space go down again after cleaning?
+vi: Tại sao dung lượng trống lại giảm sau khi dọn?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+vi: Không. Việc dọn bộ nhớ đệm giữ lại cookie, mật khẩu đã lưu, dấu trang và lịch sử. Rất hiếm khi một trang web yêu cầu bạn đăng nhập lại, và trình duyệt sẽ tự điền mật khẩu đã lưu.
+en: Why did I get back less space than the size shown?
+vi: Tại sao dung lượng lấy lại được ít hơn dung lượng hiển thị?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+vi: Mở thẻ Chi tiết thiết bị. Thẻ này hiển thị những gì Công cụ Chẩn đoán DirectX (dxdiag) của Windows hiển thị, cùng với khe bộ nhớ, tệp hoán trang, màn hình và tình trạng pin. Bấm "Sao chép tất cả" hoặc "Lưu thành tệp văn bản" để gửi thông tin cho người đang giúp bạn.
+en: Where are my history files saved?
+vi: Các tệp lịch sử của tôi được lưu ở đâu?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+vi: Ngủ đông giữ một tệp lớn bằng một phần bộ nhớ của bạn để PC có thể tiếp tục từ chỗ đã dừng. Bộ nhớ dành riêng là khoảng 7 GB Windows để dành cho các bản cập nhật. CompactOS lưu tệp Windows ở dạng nén. Mỗi tính năng có thể giải phóng vài GB, và đều có thể hoàn tác sau này.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+vi: Tôi có thể xem thông tin PC như phiên bản Windows, bộ xử lý, bộ nhớ và đồ họa ở đâu?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+vi: Trong thư mục người dùng của bạn: %LOCALAPPDATA%\DiskCleanupHelper. Thư mục này chứa lịch sử dọn dẹp, lịch sử sức khỏe và nhiệt độ ổ đĩa, và kết quả kiểm tra tốc độ. Mở chúng từ thẻ Giới thiệu và Sức khỏe ổ đĩa.
+en: How do I uninstall it?
+vi: Làm thế nào để gỡ cài đặt?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+vi: Cài đặt > Ứng dụng > Disk Cleanup Helper > Gỡ cài đặt, hoặc nút Gỡ cài đặt trong thẻ Giới thiệu. Nếu bạn chưa từng cài đặt, chỉ cần xóa tệp chương trình.
+en: Does the app send any of my data anywhere?
+vi: Ứng dụng có gửi dữ liệu nào của tôi đi đâu không?
+en: What are hibernation, Reserved Storage and CompactOS?
+vi: Ngủ đông, Bộ nhớ dành riêng và CompactOS là gì?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+vi: Cần quyền quản trị để dọn tệp tạm và tệp cập nhật của chính Windows, và để đọc dữ liệu sức khỏe ổ đĩa. Nếu bạn bấm Không, ứng dụng vẫn chạy, và các mục cần quyền quản trị sẽ bị làm mờ.
+en: Why does Windows say "Windows protected your PC"?
+vi: Tại sao Windows báo "Windows đã bảo vệ PC của bạn"?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+vi: Ổ cứng thường chạy ở 25 đến 45 °C. SSD thường chạy ở 30 đến 60 °C, và SSD NVMe có thể lên tới 70 °C khi tải nặng. Nhiệt độ cao hơn kéo dài sẽ làm giảm tuổi thọ ổ đĩa.
+en: Why does the app ask for admin rights?
+vi: Tại sao ứng dụng yêu cầu quyền quản trị?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+vi: Windows hiển thị thông báo này với các chương trình mới mà nó chưa biết. Bấm "Thông tin thêm" rồi bấm "Vẫn chạy". Cảnh báo sẽ biến mất hẳn khi chương trình được ký và được Microsoft biết đến.
+en: Does the speed test harm my disk?
+vi: Kiểm tra tốc độ có gây hại cho ổ đĩa không?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+vi: Không. Công cụ ghi một tệp thử tạm thời từ 512 MB đến 1 GB, đọc lại rồi xóa nó. Lượng đó ít hơn một ngày sử dụng bình thường.
+en: Can I undo a cleanup?
+vi: Tôi có thể hoàn tác việc dọn dẹp không?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+vi: Các tệp bị xóa bằng thẻ Dọn dẹp không vào Thùng rác, nên không thể khôi phục. Các tệp bạn chuyển vào Thùng rác từ thẻ Phân tích ổ đĩa có thể khôi phục cho đến khi bạn dọn sạch Thùng rác. Các thiết lập Windows có thể hoàn tác; xem Hướng dẫn trong thẻ Giới thiệu.
+en: Tidy your Downloads folder
+vi: Dọn gọn thư mục Tải xuống
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+vi: Trình cài đặt và các tệp tải xuống cũ dồn lại. Hãy sắp xếp thư mục theo kích thước và xóa những gì bạn không còn cần.
+en: Let cloud files stay in the cloud
+vi: Để tệp đám mây ở lại trên đám mây
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+vi: Với OneDrive, bấm chuột phải vào một thư mục và chọn "Giải phóng dung lượng". Tệp vẫn hiển thị nhưng chỉ được tải xuống khi bạn mở.
+en: Close programs you are not using
+vi: Đóng các chương trình bạn không dùng
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+vi: Khởi động lại sẽ dọn bộ nhớ, hoàn tất cập nhật, và cho phép Windows thu nhỏ tệp hoán trang về mức bình thường.
+en: Turn off apps you do not need at startup
+vi: Tắt các ứng dụng không cần thiết khi khởi động
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+vi: Khi hết bộ nhớ, Windows tăng kích thước tệp hoán trang, việc này chiếm dung lượng ổ đĩa và có thể khiến chương trình bị treo.
+en: Restart your PC now and then
+vi: Thỉnh thoảng khởi động lại PC
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+vi: Video, ảnh và tệp tải xuống cũ có thể để trên ổ khác, ổ đĩa ngoài hoặc bộ lưu trữ đám mây.
+en: Empty the Recycle Bin
+vi: Dọn sạch Thùng rác
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+vi: Tệp bạn xóa vẫn chiếm dung lượng cho đến khi Thùng rác được dọn sạch. Thỉnh thoảng hãy kiểm tra.
+en: Turn on Storage Sense
+vi: Bật Cảm biến lưu trữ
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+vi: Windows có thể tự xóa tệp tạm và các mục cũ trong Thùng rác. Cài đặt > Hệ thống > Lưu trữ > Cảm biến lưu trữ.
+en: Uninstall what you no longer use
+vi: Gỡ cài đặt những gì bạn không còn dùng
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+vi: Khi ổ Windows gần đầy, Windows chạy chậm lại và bản cập nhật có thể không cài được.
+en: Move big personal files
+vi: Di chuyển tệp cá nhân lớn
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+vi: Trò chơi và chương trình cũ thường chiếm nhiều dung lượng nhất. Cài đặt > Ứng dụng, rồi sắp xếp danh sách theo kích thước.
+en: Keep 10 to 15 percent free
+vi: Giữ trống 10 đến 15 phần trăm
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+vi: Các thư mục như Windows, WinSxS và Installer sẽ làm hỏng Windows nếu dọn thủ công. Hãy dùng thẻ Dọn dẹp thay thế.
+en: Nothing is deleted until you select it and confirm.
+vi: Không có gì bị xóa cho đến khi bạn chọn và xác nhận.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+vi: Ổ đĩa có thể hỏng mà không báo trước. Hãy giữ bản sao các tệp quan trọng trên ổ khác hoặc trên đám mây.
+en: Never delete Windows files by hand
+vi: Không bao giờ xóa thủ công tệp Windows
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+vi: Các mục dọn dẹp chỉ động đến bộ nhớ đệm, tệp tạm và tệp cập nhật cũ. Tài liệu, ảnh, nhạc, video, màn hình nền và tệp tải xuống của bạn không bao giờ bị dọn tự động.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+vi: Ứng dụng cảnh báo nếu PC thiếu bộ nhớ trước khi đo, quét hoặc dọn.
+en: Windows and program files are protected in the Analyze disk tab.
+vi: Tệp Windows và tệp chương trình được bảo vệ trong thẻ Phân tích ổ đĩa.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+vi: Khi dọn bộ nhớ đệm trình duyệt và ứng dụng, mật khẩu, dấu trang, lịch sử và thông tin đăng nhập của bạn vẫn được giữ.
+en: It asks you to close a browser or app before cleaning its cache.
+vi: Ứng dụng yêu cầu bạn đóng trình duyệt hoặc ứng dụng trước khi dọn bộ nhớ đệm của nó.
+en: Back up what matters
+vi: Sao lưu những gì quan trọng
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+vi: SSD không cần việc này. "Tối ưu hóa ổ đĩa" của Windows biết sự khác biệt, vì vậy hãy để nó chạy theo lịch tự động.
+en: Check disk health once a month
+vi: Kiểm tra sức khỏe ổ đĩa mỗi tháng một lần
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+vi: Càng ít ứng dụng khởi động cùng Windows thì máy khởi động càng nhanh và càng còn nhiều bộ nhớ trống. Trình quản lý Tác vụ > Ứng dụng khởi động.
+en: Do not defragment an SSD
+vi: Không chống phân mảnh SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+vi: Mở thẻ Sức khỏe ổ đĩa. Mỗi lần mở sẽ lưu một lần đo, nên biểu đồ lịch sử cho thấy nếu có gì thay đổi.
+en: Keep your PC cool
+vi: Giữ PC mát
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+vi: Nhiệt làm giảm tuổi thọ ổ đĩa. Ổ cứng nên ở dưới khoảng 50 °C và SSD dưới khoảng 70 °C. Hãy giữ khe tản nhiệt sạch sẽ.
+en: Watch for growing bad sectors
+vi: Theo dõi sector hỏng tăng dần
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+vi: Có vài sector đã phân bổ lại hoặc chờ xử lý là bình thường. Nếu con số tiếp tục tăng, hãy sao lưu và dự tính thay ổ đĩa.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+vi: Cài đặt thất bại:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+vi: Gỡ Disk Cleanup Helper khỏi PC này?<br><br>Lịch sử dọn dẹp của bạn vẫn được giữ trong:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+vi: Đã gỡ Disk Cleanup Helper khỏi PC này.
+en: Free up disk space safely
+vi: Giải phóng dung lượng ổ đĩa an toàn
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+vi: Không thể sao chép chương trình. Nếu Disk Cleanup Helper đã cài đang mở, hãy đóng nó trước rồi thử lại.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+vi: Đã cài đặt Disk Cleanup Helper.<br><br>Mở ứng dụng từ menu Bắt đầu hoặc lối tắt trên màn hình nền có tên Disk Cleanup Helper.<br><br>Để gỡ sau này: Cài đặt > Ứng dụng > Disk Cleanup Helper > Gỡ cài đặt.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+vi: Dung lượng hiển thị là của Thùng rác trên ổ Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+vi: Dọn sạch Thùng rác trên mọi ổ. Mọi thứ trong đó sẽ không thể khôi phục được nữa.
+en: $Recycle.Bin on every drive
+vi: $Recycle.Bin trên mọi ổ
+en: Turn off hibernation
+vi: Tắt Ngủ đông
+en: Sleep still works normally.
+vi: Chế độ Ngủ vẫn hoạt động bình thường.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+vi: Xóa tệp ngủ đông, thường có dung lượng vài GB. Ngủ đông và Khởi động nhanh sẽ ngừng hoạt động, nên PC khởi động chậm hơn vài giây.
+en: PC starts a few seconds slower
+vi: PC khởi động chậm hơn vài giây
+en: Files in it are gone for good
+vi: Tệp trong đó bị mất vĩnh viễn
+en: Crash dump files
+vi: Tệp kết xuất sự cố
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+vi: Thiết lập và dự án của bạn được giữ nguyên. IDE sẽ lập chỉ mục lại dự án vào lần mở tiếp theo. Hãy đóng các IDE JetBrains trước.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+vi: Bộ nhớ đệm của IntelliJ IDEA, PyCharm, WebStorm, Rider và các IDE JetBrains khác.
+en: Only needed to investigate crashes
+vi: Chỉ cần khi điều tra sự cố
+en: Recycle Bin (all drives)
+vi: Thùng rác (mọi ổ)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+vi: Hãy giữ lại nếu có người đang điều tra lý do PC của bạn gặp sự cố. Nếu không, có thể xóa an toàn.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+vi: Các tệp Windows ghi sau màn hình xanh hoặc sự cố trình điều khiển đồ họa. Riêng MEMORY.DMP có thể lên tới vài GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+vi: Để hoàn tác sau này, chạy lệnh sau trong Dấu nhắc lệnh với quyền quản trị viên:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+vi: Tắt tính năng này sẽ lấy lại dung lượng đó, nhưng nếu ổ đĩa bị đầy, bản cập nhật Windows có thể thất bại. Chỉ làm vậy nếu bạn luôn giữ đủ dung lượng trống.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+vi: Windows để dành khoảng 7 GB để bản cập nhật luôn có chỗ cài đặt.
+en: already off
+vi: đã tắt sẵn
+en: about 2-4 GB
+vi: khoảng 2-4 GB
+en: Windows setting (Reserved Storage)
+vi: Thiết lập Windows (Bộ nhớ dành riêng)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+vi: Để hoàn tác sau này, chạy lệnh sau trong Dấu nhắc lệnh với quyền quản trị viên:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+vi: hiberfil.sys là tệp ẩn của Windows. Không có gì để mở.
+en: Updates may fail when the disk is full
+vi: Bản cập nhật có thể thất bại khi ổ đĩa đầy
+en: Turn off Reserved Storage
+vi: Tắt Bộ nhớ dành riêng
+en: about 7 GB
+vi: khoảng 7 GB
+en: IDE re-indexes your projects
+vi: IDE lập chỉ mục lại dự án của bạn
+en: Spotify cache and downloads
+vi: Bộ nhớ đệm và nội dung tải xuống của Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+vi: state.vscdb trong cùng thư mục chứa các cuộc trò chuyện, thông tin đăng nhập và thiết lập của bạn. Công cụ này không bao giờ động đến tệp đó.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+vi: Dữ liệu làm việc của agent AI trong Cursor. Có thể bao gồm lịch sử trò chuyện cũ với agent.
+en: Downloaded songs must be downloaded again
+vi: Bài hát đã tải phải tải lại
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+vi: Tài khoản và danh sách phát của bạn được giữ an toàn, nhưng các bài hát bạn đã tải để nghe ngoại tuyến phải tải lại.
+en: Spotify keeps played and downloaded music here.
+vi: Spotify lưu nhạc đã phát và đã tải xuống ở đây.
+en: {0} and Data
+vi: {0} và Data
+en: May hold old agent chat history
+vi: Có thể chứa lịch sử trò chuyện cũ với agent
+en: Cursor: AI agent snapshots
+vi: Cursor: ảnh chụp nhanh của agent AI
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+vi: Chỉ xóa các thư mục không thay đổi trong 60 ngày. Bản thân các tệp dự án của bạn không bao giờ bị động đến.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+vi: Mỗi thư mục chứa những gì VS Code ghi nhớ về một dự án: các thẻ đang mở, bố cục và lịch sử trò chuyện AI của dự án đó.
+en: Cannot undo older AI edits
+vi: Không thể hoàn tác các chỉnh sửa AI cũ hơn
+en: Cursor: AI agent data
+vi: Cursor: dữ liệu agent AI
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+vi: Bạn sẽ không thể quay lại các thay đổi AI cũ hơn. Cursor tạo bản sao mới khi bạn dùng lại agent.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+vi: Các bản sao dự án mà agent AI của Cursor dùng để hoàn tác chỉnh sửa của nó.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+vi: Lần build tiếp theo cần internet và lâu hơn trong lúc Gradle tải lại chúng. Hãy đóng Android Studio và các IDE Java khác trước.
+en: Downloaded libraries and build files for Java and Android projects.
+vi: Thư viện đã tải và tệp build cho dự án Java và Android.
+en: Next build downloads everything again
+vi: Lần build sau tải lại mọi thứ
+en: Maven repository
+vi: Kho Maven
+en: JetBrains IDE caches and logs
+vi: Bộ nhớ đệm và nhật ký của IDE JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+vi: Lần build tiếp theo cần internet và lâu hơn trong lúc Maven tải lại chúng. Các thư viện bạn tự cài bằng "mvn install" sẽ phải cài lại.
+en: Downloaded Java libraries.
+vi: Thư viện Java đã tải.
+en: Gradle caches
+vi: Bộ nhớ đệm Gradle
+en: Adobe media cache (Premiere, After Effects)
+vi: Bộ nhớ đệm media của Adobe (Premiere, After Effects)
+en: Close Spotify first.
+vi: Hãy đóng Spotify trước.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+vi: Mẹo: trong cài đặt Spotify, bạn cũng có thể đặt dung lượng bộ nhớ đệm nhỏ hơn hoặc chuyển nó sang ổ khác.
+en: Video previews are rebuilt
+vi: Bản xem trước video được tạo lại
+en: Close Adobe apps first.
+vi: Hãy đóng các ứng dụng Adobe trước.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+vi: Dự án và video của bạn không bị động đến. Lần đầu mở dự án sau đó sẽ chậm hơn trong lúc bản xem trước được tạo lại.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+vi: Các tệp xem trước và tệp âm thanh do ứng dụng video của Adobe tạo ra. Chúng có thể lên tới nhiều GB.
+en: Compress Windows files (CompactOS)
+vi: Nén tệp Windows (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+vi: Trên ổ cứng chậm hơn, Docker sẽ chạy chậm hơn.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+vi: Để giải phóng dung lượng trên ổ này, hãy di chuyển nó: Docker Desktop > Settings (bánh răng) > Resources > Advanced > Disk image location > chọn một thư mục trên ổ khác > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+vi: Hãy cẩn thận với "docker volume prune" và "docker system prune --volumes": chúng xóa các volume, nơi có thể chứa cơ sở dữ liệu.
+en: Linux (WSL) disks
+vi: Đĩa Linux (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+vi: Nếu bạn không dùng hệ thống nào: Cài đặt > Ứng dụng > tìm hệ thống đó > Gỡ cài đặt. Thao tác này xóa mọi thứ bên trong.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+vi: Mỗi hệ thống Linux WSL (ví dụ Ubuntu) giữ toàn bộ tệp của nó trong một tệp đĩa.
+en: Disk files of your WSL Linux systems
+vi: Tệp đĩa của các hệ thống Linux WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+vi: Chứa toàn bộ container, image và volume của Docker. Không bao giờ xóa tệp này.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+vi: Để có thêm chỗ: "Mở vị trí" > chọn ổ > Cấu hình > giảm thanh trượt "Mức sử dụng tối đa", hoặc bấm Xóa để xóa tất cả.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+vi: Điểm khôi phục cho phép bạn hoàn tác các thay đổi hệ thống. Windows có thể dùng vài GB cho chúng.
+en: System Properties > System Protection
+vi: Thuộc tính Hệ thống > Bảo vệ Hệ thống
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+vi: Để chỉ giữ điểm mới nhất: Dọn đĩa (cleanmgr) > Dọn dẹp tệp hệ thống > Tùy chọn khác > Khôi phục hệ thống và Bản sao bóng > Dọn dẹp.
+en: Can be moved to another drive
+vi: Có thể chuyển sang ổ khác
+en: Docker disk (do not delete)
+vi: Đĩa Docker (không được xóa)
+en: Keep at least one recent restore point if you can.
+vi: Nếu được, hãy giữ ít nhất một điểm khôi phục gần đây.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+vi: - pagefile.sys và swapfile.sys: bộ nhớ bổ sung của Windows trên ổ đĩa. Nếu không đủ, chương trình sẽ bị treo khi hết bộ nhớ.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+vi: pagefile.sys, swapfile.sys, thư mục Windows Installer và WinSxS
+en: Never delete by hand
+vi: Không bao giờ xóa thủ công
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+vi: - Thư mục Windows Installer: chỉ xóa tệp bằng mục "Tệp cập nhật cũ", không bao giờ xóa thủ công.
+en: ({0} files)
+vi: ({0} tệp)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+vi: - Thư mục của các ứng dụng bạn dùng, kể cả khi chúng lớn. Xóa chúng có thể làm hỏng ứng dụng hoặc mất dữ liệu của bạn.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+vi: - Thư mục WinSxS: chỉ dọn bằng các mục "Thành phần Windows", không bao giờ dọn thủ công.
+en: Leave these alone
+vi: Đừng động vào những thứ này
+en: Your Downloads folder
+vi: Thư mục Tải xuống của bạn
+en: If that command is not recognised, run  wsl --update  first.
+vi: Nếu lệnh đó không được nhận dạng, hãy chạy  wsl --update  trước.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+vi: Để chuyển một hệ thống sang ổ khác, trong Dấu nhắc lệnh:  wsl --shutdown   rồi   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+vi: Tệp của riêng bạn: bạn quyết định
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+vi: Mẹo: thẻ Phân tích ổ đĩa liệt kê các tệp lớn nhất của bạn ở bất kỳ đâu.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+vi: Mở thư mục, sắp xếp theo kích thước (Xem > Chi tiết, rồi bấm vào cột Kích thước), và xóa những gì bạn không còn cần.
+en: Files you downloaded. This tool never deletes them here.
+vi: Các tệp bạn đã tải xuống. Công cụ này không bao giờ xóa chúng ở đây.
+en: Keep at least the newest one
+vi: Giữ ít nhất điểm mới nhất
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+vi: Cảm biến lưu trữ (Storage Sense) có sẵn trong Windows. Tính năng này tự động xóa tệp tạm và các mục cũ trong Thùng rác, giúp luôn còn dung lượng trống.
+en: Settings > System > Storage
+vi: Cài đặt > Hệ thống > Lưu trữ
+en: Cleans temp files automatically
+vi: Tự động dọn tệp tạm
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+vi: "Mở vị trí" sẽ mở cài đặt Cảm biến lưu trữ. Hãy bật tính năng ở đó.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+vi: Còn sót lại sau khi nâng cấp Windows. Cho phép bạn quay lại phiên bản trước trong một thời gian giới hạn, và thường chiếm 10 đến 30 GB.
+en: Remove with Windows' own tool
+vi: Xóa bằng công cụ của chính Windows
+en: Previous Windows installation
+vi: Bản cài đặt Windows trước đó
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+vi: Tính năng của chính Microsoft giúp lưu tệp hệ thống Windows ở dạng nén. Thường giải phóng 2 đến 4 GB.
+en: Windows system files on {0}
+vi: Tệp hệ thống Windows trên {0}
+en: Built into Windows. Slight CPU cost
+vi: Có sẵn trong Windows. Tốn CPU một chút
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+vi: Trên PC rất chậm hoặc cũ, Windows có thể chậm đi một chút. Trên hầu hết PC, bạn sẽ không nhận thấy.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+vi: Đang chạy trong cửa sổ riêng. Việc này có thể mất 10 đến 20 phút. Không được đóng cửa sổ đó.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+vi: Để hoàn tác sau này, chạy lệnh sau trong Dấu nhắc lệnh với quyền quản trị viên:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+vi: Chạy trong cửa sổ riêng và có thể mất 10 đến 20 phút. Nếu Windows đã được nén, việc này sẽ xong nhanh.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+vi: Các chương trình lớn nhất trên {0} (ước tính dung lượng của chính Windows; "?" = không ghi nhận thư mục cài đặt):
+en: Programs only come off by uninstalling them in Settings > Apps.
+vi: Chương trình chỉ được xóa bằng cách gỡ cài đặt trong Cài đặt > Ứng dụng.
+en: "Open location" opens Apps & features.
+vi: "Mở vị trí" sẽ mở Ứng dụng & tính năng.
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+vi: {0} chương trình cài trên ổ khác không được liệt kê: gỡ chúng không giải phóng dung lượng trên {1}.
+en: System Restore points
+vi: Điểm Khôi phục hệ thống
+en: "{0}" is discontinued and no longer needed.
+vi: "{0}" đã ngừng phát triển và không còn cần nữa.
+en: You have {0} Java versions installed. Most people only need the newest one.
+vi: Bạn đã cài {0} phiên bản Java. Hầu hết mọi người chỉ cần bản mới nhất.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+vi: Chương trình chỉ được xóa bằng cách gỡ cài đặt trong Cài đặt > Ứng dụng. Bấm "Đo dung lượng" để liệt kê các chương trình lớn nhất ở đây.
+en: "Open location" opens the Storage settings.
+vi: "Mở vị trí" sẽ mở cài đặt Lưu trữ.
+en: After that you can no longer go back to the previous Windows version.
+vi: Sau đó, bạn sẽ không thể quay lại phiên bản Windows trước nữa.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+vi: Hãy xóa bằng chính Windows: Cài đặt > Hệ thống > Lưu trữ > Tệp tạm thời > đánh dấu "(Các) bản cài đặt Windows trước đó" > Loại bỏ tệp.
+en: see details
+vi: xem chi tiết
+en: Settings > Apps > Apps & features
+vi: Cài đặt > Ứng dụng > Ứng dụng & tính năng
+en: Uninstall the ones you do not use
+vi: Gỡ cài đặt những chương trình bạn không dùng
+en: Biggest installed programs
+vi: Các chương trình đã cài lớn nhất
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+vi: Tệp shader mà Windows và trình điều khiển card đồ họa lưu lại để trò chơi và ứng dụng khởi động nhanh hơn.
+en: {0} and similar
+vi: {0} và tương tự
+en: Games may stutter once while they rebuild
+vi: Trò chơi có thể giật một lần trong lúc tạo lại
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+vi: Chúng được tạo lại tự động. Lần đầu chạy trò chơi sau đó có thể hơi giật.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+vi: Các tệp tạm do chương trình để lại. Chỉ xóa tệp cũ hơn 1 ngày, nên các quá trình cài đặt đang chạy không bị ảnh hưởng.
+en: Files in use are skipped
+vi: Bỏ qua tệp đang dùng
+en: Your temp files (older than 1 day)
+vi: Tệp tạm của bạn (cũ hơn 1 ngày)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+vi: Bộ nhớ đệm đồ họa (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Discord.
+en: Keeps login and messages
+vi: Giữ đăng nhập và tin nhắn
+en: Discord cache
+vi: Bộ nhớ đệm Discord
+en: Close Discord first, including its icon near the clock.
+vi: Hãy đóng Discord trước, kể cả biểu tượng của nó gần đồng hồ.
+en: Close Slack first, including its icon near the clock.
+vi: Hãy đóng Slack trước, kể cả biểu tượng của nó gần đồng hồ.
+en: Deletes only Slack's cache folders.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Slack.
+en: Slack cache
+vi: Bộ nhớ đệm Slack
+en: Old problem reports
+vi: Báo cáo sự cố cũ
+en: Windows error reports
+vi: Báo cáo lỗi Windows
+en: The Windows Update service is stopped for a moment and started again.
+vi: Dịch vụ Windows Update sẽ được dừng trong giây lát rồi khởi động lại.
+en: {0} and your own WER folder
+vi: {0} và thư mục WER của riêng bạn
+en: Recent logs are kept
+vi: Giữ lại nhật ký gần đây
+en: Old Windows log files (older than 14 days)
+vi: Tệp nhật ký Windows cũ (cũ hơn 14 ngày)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+vi: Các báo cáo Windows đã lưu về những chương trình bị treo. Chúng không còn cần thiết sau khi đã gửi hoặc khi sự cố đã hết.
+en: If an update is still waiting to install, Windows downloads it again.
+vi: Nếu một bản cập nhật vẫn đang chờ cài, Windows sẽ tải lại nó.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+vi: Các tệp tạm do Windows và trình cài đặt để lại. Chỉ xóa tệp cũ hơn 1 ngày.
+en: Windows temp files (older than 1 day)
+vi: Tệp tạm của Windows (cũ hơn 1 ngày)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+vi: Dung lượng hiển thị là của cả thư mục. Các tệp mới nhất được giữ lại, nên dung lượng giải phóng có thể thấp hơn một chút.
+en: Windows Update downloads
+vi: Tệp tải xuống của Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+vi: Các tệp cập nhật Windows đã tải xuống. Bản cập nhật đã cài không bị ảnh hưởng.
+en: {0} and the Delivery Optimization cache
+vi: {0} và bộ nhớ đệm Tối ưu hóa phân phối
+en: Installed updates are not affected
+vi: Bản cập nhật đã cài không bị ảnh hưởng
+en: Close Teams first, including its icon near the clock.
+vi: Hãy đóng Teams trước, kể cả biểu tượng của nó gần đồng hồ.
+en: Keeps passwords, favorites, logins
+vi: Giữ mật khẩu, mục yêu thích, đăng nhập
+en: Microsoft Edge cache
+vi: Bộ nhớ đệm Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+vi: Hãy đóng mọi cửa sổ Chrome trước. Nếu có biểu tượng Chrome gần đồng hồ, bấm chuột phải vào đó và chọn Thoát.
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Edge trong mọi hồ sơ, cùng bộ nhớ đệm đồ họa của nó.
+en: Deletes only Brave's cache folders in every profile.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Brave trong mọi hồ sơ.
+en: Brave cache
+vi: Bộ nhớ đệm Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+vi: Edge thường tiếp tục chạy ở chế độ nền. Nếu công cụ báo Edge vẫn đang chạy: trong Edge, vào Cài đặt > Hệ thống và hiệu suất > tắt "Tăng tốc khởi động" và "Tiếp tục chạy các tiện ích mở rộng và ứng dụng nền".
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Chrome trong mọi hồ sơ, cùng bộ nhớ đệm đồ họa của nó.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+vi: GIỮ LẠI: mật khẩu, dấu trang, lịch sử, cookie và thông tin đăng nhập trang web, tự động điền, tiện ích mở rộng, cài đặt, ứng dụng web đã cài.
+en: Could not stop {0}: {1}
+vi: Không thể dừng {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+vi: Trang tải chậm hơn một chút ở lần đầu. Rất hiếm khi một trang web yêu cầu bạn đăng nhập lại, và trình duyệt sẽ tự điền mật khẩu đã lưu.
+en: Keeps passwords, bookmarks, logins
+vi: Giữ mật khẩu, dấu trang, đăng nhập
+en: Google Chrome cache
+vi: Bộ nhớ đệm Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+vi: GIỮ LẠI: đăng nhập, tin nhắn, cài đặt và tệp của bạn. Ứng dụng sẽ tải lại những gì nó cần.
+en: Close Opera first.
+vi: Hãy đóng Opera trước.
+en: Deletes only Opera's cache folder.
+vi: Chỉ xóa thư mục bộ nhớ đệm của Opera.
+en: {0} (and Opera GX)
+vi: {0} (và Opera GX)
+en: Microsoft Teams cache
+vi: Bộ nhớ đệm Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Teams. Microsoft khuyên làm vậy khi Teams chạy chậm hoặc hoạt động bất thường.
+en: Teams cache folders (new Teams and classic Teams)
+vi: Thư mục bộ nhớ đệm Teams (Teams mới và Teams cổ điển)
+en: Keeps login, chats, files
+vi: Giữ đăng nhập, trò chuyện, tệp
+en: Opera cache
+vi: Bộ nhớ đệm Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+vi: Chỉ xóa các thư mục bộ nhớ đệm của Vivaldi trong mọi hồ sơ.
+en: Vivaldi cache
+vi: Bộ nhớ đệm Vivaldi
+en: Close Brave first.
+vi: Hãy đóng Brave trước.
+en: Close Vivaldi first.
+vi: Hãy đóng Vivaldi trước.
+en: Close Firefox first.
+vi: Hãy đóng Firefox trước.
+en: Deletes only Firefox's cache folder in every profile.
+vi: Chỉ xóa thư mục bộ nhớ đệm của Firefox trong mọi hồ sơ.
+en: Firefox cache
+vi: Bộ nhớ đệm Firefox
+en: {0} and {1}
+vi: {0} và {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+vi: An toàn để làm trống. Windows chỉ cần nó khi gỡ riêng lẻ một bản cập nhật.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+vi: Bản sao lưu Windows giữ lại để sau này có thể gỡ một bản cập nhật chương trình mà không cần trình cài đặt gốc.
+en: Low risk
+vi: Rủi ro thấp
+en: when run
+vi: khi chạy
+en: {0} (Microsoft DISM tool)
+vi: {0} (công cụ DISM của Microsoft)
+en: Safe, often frees little
+vi: An toàn, thường giải phóng ít
+en: Windows components: normal cleanup
+vi: Thành phần Windows: dọn thường
+en: Windows patch backup cache
+vi: Bộ nhớ đệm sao lưu bản vá Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+vi: Các tệp đã xóa được liệt kê trong deleted-update-files.csv (xem thư mục trong thẻ Giới thiệu).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+vi: Mục này chỉ xóa các tệp cập nhật mà Windows đánh dấu là đã được thay bằng bản cập nhật mới hơn. Mục này giữ 3 bản mới nhất của mỗi chương trình và không bao giờ xóa tệp đang được dùng.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+vi: Một số chương trình giữ mọi bản cập nhật đã từng cài. Thường gặp nhất là Adobe Acrobat Reader, với 0.1 đến 0.7 GB mỗi bản cập nhật.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+vi: Rủi ro nhỏ: nếu sau này một bản cập nhật hoặc thao tác sửa chữa của chương trình đó báo thiếu tệp, hãy gỡ cài đặt rồi cài lại chương trình đó.
+en: Found on this PC: nothing to remove.
+vi: Tìm thấy trên PC này: không có gì để xóa.
+en: Found on this PC:
+vi: Tìm thấy trên PC này:
+en: Never delete files in the Windows Installer folder by hand.
+vi: Không bao giờ xóa thủ công tệp trong thư mục Windows Installer.
+en: If you tick both Windows components items, only this one runs.
+vi: Nếu bạn đánh dấu cả hai mục Thành phần Windows, chỉ mục này được chạy.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+vi: Sau đó, các bản cập nhật Windows hiện đã cài sẽ không thể gỡ cài đặt được nữa. Chỉ dùng khi Windows đang hoạt động tốt.
+en: Same as the normal cleanup, but also removes every replaced version.
+vi: Giống dọn thường, nhưng xóa thêm mọi phiên bản đã bị thay thế.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+vi: Chạy trong cửa sổ riêng và mất 5 đến 30 phút. Không được đóng cửa sổ đó hoặc tắt PC.
+en: {0} (folders unused for 60+ days)
+vi: {0} (thư mục không dùng từ 60 ngày trở lên)
+en: Lose old projects' tabs, layout, AI chats
+vi: Mất thẻ, bố cục, trò chuyện AI của dự án cũ
+en: VS Code: data of projects not opened in 60 days
+vi: VS Code: dữ liệu dự án không mở trong 60 ngày
+en: {0} (Microsoft DISM tool, /ResetBase)
+vi: {0} (công cụ DISM của Microsoft, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+vi: Windows đã tự làm việc này vài tuần một lần, nên thường giải phóng rất ít.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+vi: Chạy trong cửa sổ riêng và mất 5 đến 30 phút. Không được đóng cửa sổ đó hoặc tắt PC. Với máy tính xách tay, hãy cắm sạc.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+vi: Tính năng dọn dẹp của chính Microsoft cho các phiên bản cũ của thành phần Windows. An toàn.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+vi: Không bao giờ xóa thủ công bất cứ thứ gì trong WinSxS. Việc đó làm hỏng Windows.
+en: Installed updates cannot be uninstalled after
+vi: Sau đó không thể gỡ bản cập nhật đã cài
+en: Windows components: deep cleanup
+vi: Thành phần Windows: dọn sâu
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+vi: Đang chạy trong cửa sổ riêng. Việc này có thể mất 5 đến 30 phút. Không được đóng cửa sổ đó.
+en: {0} (files picked from Windows' own records)
+vi: {0} (tệp được chọn theo bản ghi của chính Windows)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+vi: Các gói .NET đã tải. NuGet sẽ tải lại khi cần.
+en: NuGet download cache
+vi: Bộ nhớ đệm tải xuống NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+vi: Các gói Python đã tải. pip sẽ tải lại khi cần.
+en: Go build cache
+vi: Bộ nhớ đệm build của Go
+en: Composer cache
+vi: Bộ nhớ đệm Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+vi: Các tệp đã biên dịch mà ngôn ngữ Go giữ lại để build nhanh hơn. Go sẽ tạo lại chúng ở lần build tiếp theo.
+en: Rebuilt on the next build
+vi: Được tạo lại ở lần build sau
+en: pip cache
+vi: Bộ nhớ đệm pip
+en: npm cache
+vi: Bộ nhớ đệm npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+vi: Chỉ xóa tệp cũ hơn 14 ngày. Nhật ký gần đây được giữ lại phòng khi cần khắc phục sự cố.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+vi: Các tệp nhật ký Windows ghi khi cài bản cập nhật. Trên một số PC, chúng lên tới vài GB.
+en: Packages download again when needed
+vi: Các gói được tải lại khi cần
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+vi: Các gói Yarn đã tải (dành cho nhà phát triển Node.js). Yarn sẽ tải lại khi cần.
+en: Yarn cache
+vi: Bộ nhớ đệm Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+vi: Các gói npm đã tải (dành cho nhà phát triển Node.js). npm sẽ tải lại vào lần tới một dự án cần đến.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+vi: Các thư mục bộ nhớ đệm và báo cáo sự cố của Cursor. Cursor sẽ tạo lại chúng.
+en: Keeps settings, chats, login
+vi: Giữ cài đặt, trò chuyện, đăng nhập
+en: Cursor cache and crash reports
+vi: Bộ nhớ đệm và báo cáo sự cố của Cursor
+en: KEEPS: settings, chats, login and projects.
+vi: GIỮ LẠI: cài đặt, trò chuyện, đăng nhập và dự án.
+en: Programs stay installed. Small risk
+vi: Chương trình vẫn còn cài đặt. Rủi ro nhỏ
+en: Old update files of installed programs (keeps newest 3)
+vi: Tệp cập nhật cũ của chương trình đã cài (giữ 3 bản mới nhất)
+en: Close Cursor first.
+vi: Hãy đóng Cursor trước.
+en: Close VS Code first.
+vi: Hãy đóng VS Code trước.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+vi: Các gói Rust đã tải. Cargo sẽ tải lại khi cần.
+en: Cargo download cache
+vi: Bộ nhớ đệm tải xuống Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+vi: Các gói PHP đã tải. Composer sẽ tải lại khi cần.
+en: VS Code cache and crash reports
+vi: Bộ nhớ đệm và báo cáo sự cố của VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+vi: GIỮ LẠI: cài đặt, tiện ích mở rộng, dự án, lịch sử dự án và trò chuyện.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+vi: Các thư mục bộ nhớ đệm và báo cáo sự cố của Visual Studio Code. VS Code sẽ tạo lại chúng.
+en: Keeps settings, extensions, projects
+vi: Giữ cài đặt, tiện ích mở rộng, dự án
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+vi: Tóm tắt
+en: Transfer rate MB/s   (blue = read, orange = write)
+vi: Tốc độ truyền MB/s   (xanh lam = đọc, cam = ghi)
+en: Disk activity %
+vi: Hoạt động ổ đĩa %
+en: Average transfer rate (since this tab opened)
+vi: Tốc độ truyền trung bình (từ khi mở thẻ này)
+en: Read since Windows started
+vi: Đã đọc từ khi Windows khởi động
+en: Average disk activity
+vi: Hoạt động ổ đĩa trung bình
+en: Highest transfer rate seen
+vi: Tốc độ truyền cao nhất ghi nhận
+en: now
+vi: bây giờ
+en: READ
+vi: ĐỌC
+en: Right now
+vi: Hiện tại
+en: Saved today's disk health and temperature reading to the history.
+vi: Đã lưu số đo sức khỏe và nhiệt độ ổ đĩa hôm nay vào lịch sử.
+en: WRITE
+vi: GHI
+en: 2 minutes ago
+vi: 2 phút trước
+en: DISK ACTIVITY
+vi: HOẠT ĐỘNG Ổ ĐĨA
+en: TOTAL TRANSFER
+vi: TỔNG LƯỢNG TRUYỀN
+en: Written since Windows started
+vi: Đã ghi từ khi Windows khởi động
+en: This disk has no drive letter, so the speed test cannot write its test file.
+vi: Ổ đĩa này không có ký tự ổ, nên kiểm tra tốc độ không thể ghi tệp thử.
+en: Pick a disk first.
+vi: Hãy chọn một ổ đĩa trước.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+vi: Lần kiểm tra trước vào {0}: ghi {1} MB/s, đọc {2} MB/s, đọc ngẫu nhiên 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+vi: Ổ {0} cần ít nhất 2 GB dung lượng trống để kiểm tra tốc độ.
+en: Speed test started on drive {0}.
+vi: Đã bắt đầu kiểm tra tốc độ trên ổ {0}.
+en: Running...
+vi: Đang chạy...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+vi: Kiểm tra tốc độ sẽ ghi một tệp thử {0} MB vào ổ {1}, đọc lại rồi xóa tệp.<br>Mất khoảng 10 đến 60 giây. Trong lúc đó các chương trình khác có thể chậm hơn.<br><br>Bắt đầu kiểm tra tốc độ?
+en: not reported by this disk
+vi: ổ đĩa này không báo cáo
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+vi: Đo tốc độ ghi và đọc thực tế của ổ đĩa: ghi một tệp thử tạm thời, đọc lại, rồi đọc các phần nhỏ ngẫu nhiên, sau đó xóa tệp. Bấm "Chạy kiểm tra tốc độ" ở phía trên.
+en: Speed test
+vi: Kiểm tra tốc độ
+en: Written over the disk's whole life
+vi: Đã ghi trong suốt vòng đời ổ đĩa
+en: Not run yet.
+vi: Chưa chạy.
+en: Disk {0}: {1}
+vi: Đĩa {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+vi: Bộ đếm hoạt động ổ đĩa của Windows không khả dụng trên PC này: {0}
+en: Getting disk activity ready...
+vi: Đang chuẩn bị hoạt động ổ đĩa...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+vi: Lần đầu, Windows có thể mất vài giây để khởi động bộ đếm hoạt động ổ đĩa.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+vi: Để so sánh: ổ cứng máy tính xách tay đạt khoảng 80 đến 140 MB/s, SSD SATA khoảng 500 MB/s, và SSD NVMe 1500 đến 7000 MB/s.
+en: Raw value
+vi: Giá trị thô
+en: Unexpected power losses
+vi: Số lần mất điện đột ngột
+en: Spare space left
+vi: Vùng dự phòng còn lại
+en: Rated write life used
+vi: Tuổi thọ ghi định mức đã dùng
+en: ✓ No problems found.
+vi: ✓ Không phát hiện sự cố.
+en: From Windows' storage information.
+vi: Lấy từ thông tin lưu trữ của Windows.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+vi: Đọc từ nhật ký sức khỏe của chính SSD (NVMe). Danh sách đầy đủ nằm trong thẻ Chi tiết SMART.
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+vi: Đọc từ dữ liệu tự giám sát của chính ổ đĩa (SMART). Danh sách đầy đủ nằm trong thẻ Chi tiết SMART.
+en: Data read over its life
+vi: Dữ liệu đã đọc trong vòng đời
+en: Powered on
+vi: Thời gian bật nguồn
+en: TEMPERATURE
+vi: NHIỆT ĐỘ
+en: needs admin
+vi: cần quyền quản trị
+en: {0} hours  (about {1} days)
+vi: {0} giờ  (khoảng {1} ngày)
+en: Data written over its life
+vi: Dữ liệu đã ghi trong vòng đời
+en: {0} times
+vi: {0} lần
+en: Turned on
+vi: Số lần bật
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+vi: Ổ đĩa này không chia sẻ dữ liệu sức khỏe chi tiết với Windows (thường gặp với hộp ổ cứng USB và RAID).
+en: No.
+vi: Số
+en: Status
+vi: Trạng thái
+en: Value
+vi: Giá trị
+en: Attribute
+vi: Thuộc tính
+en: Data
+vi: Dữ liệu
+en: Worst
+vi: Tệ nhất
+en: Threshold
+vi: Ngưỡng
+en: Item
+vi: Mục
+en: Temperature history
+vi: Lịch sử nhiệt độ
+en: Health history
+vi: Lịch sử sức khỏe
+en: Start the tool with admin rights to read health and temperature.
+vi: Khởi động công cụ với quyền quản trị để đọc sức khỏe và nhiệt độ.
+en: No readings saved yet.
+vi: Chưa lưu số đo nào.
+en: Offset
+vi: =
+en: {0} readings since {1}.
+vi: {0} lần đo kể từ {1}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+vi: Đến nay có 1 lần đo, vào {0}. Biểu đồ sẽ dài thêm khi lưu thêm số đo.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+vi: Ghi {0:N0} MB/s     Đọc {1:N0} MB/s     Đọc ngẫu nhiên 4K {2:N1} MB/s ({3:N0} mỗi giây)
+en: This item has no folder to open.
+vi: Mục này không có thư mục để mở.
+en: Stopping...
+vi: Đang dừng...
+en: Could not open the read me: {0}
+vi: Không thể mở Hướng dẫn: {0}
+en: Pick a drive first.
+vi: Hãy chọn một ổ trước.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+vi: Việc này cần quyền quản trị. Hãy khởi động lại công cụ và bấm Có trong lời nhắc của Windows.
+en: Select a file in the list first.
+vi: Hãy chọn một tệp trong danh sách trước.
+en: Scan a drive first.
+vi: Hãy quét một ổ trước.
+en: No questions match your search.
+vi: Không có câu hỏi nào khớp với tìm kiếm của bạn.
+en: Simple habits that keep your disk from filling up and your PC running well.
+vi: Những thói quen đơn giản giúp ổ đĩa không bị đầy và PC chạy tốt.
+en: Tips
+vi: Mẹo
+en: SAFETY
+vi: BẢO VỆ
+en: How Disk Cleanup Helper keeps you safe
+vi: Cách Disk Cleanup Helper giữ an toàn cho bạn
+en: Search the questions, for example "temperature"
+vi: Tìm trong các câu hỏi, ví dụ "nhiệt độ"
+en: Click a question to see the answer.
+vi: Bấm vào một câu hỏi để xem câu trả lời.
+en: Frequently asked questions
+vi: Câu hỏi thường gặp
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+vi: Đã bắt đầu quét lỗi {0} bằng công cụ của chính Windows trong cửa sổ riêng. Công cụ chỉ đọc ổ và mất vài phút. Xem kết quả trong cửa sổ đó.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+vi: Chỉ liệt kê các mục tìm thấy trên PC này. Bấm "Đo dung lượng" để xem mỗi mục chiếm bao nhiêu. Không có gì bị xóa cho đến khi bạn xác nhận.
+en: Not running as administrator. Items marked Admin are disabled.
+vi: Không chạy với quyền quản trị viên. Các mục có nhãn Quản trị bị vô hiệu hóa.
+en: Running as administrator. All items are available.
+vi: Đang chạy với quyền quản trị viên. Tất cả các mục đều dùng được.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+vi: Mẹo: thẻ Giới thiệu có thể cài đặt ứng dụng để ứng dụng xuất hiện trong menu Bắt đầu.
+en: Saved a health and temperature reading for {0} disks to the history.
+vi: Đã lưu số đo sức khỏe và nhiệt độ của {0} ổ đĩa vào lịch sử.
+en: {0} files were in use and were skipped.
+vi: {0} tệp đang được dùng nên đã bị bỏ qua.
+en: {0} items
+vi: {0} mục
+en: My user folder only
+vi: Chỉ thư mục người dùng của tôi
+en: Install: not installed
+vi: Cài đặt: chưa cài
+en: Install: installed in {0}
+vi: Cài đặt: đã cài trong {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+vi: Chưa có số đo nào được lưu.<br><br>Lịch sử sẽ được lưu trong:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+vi: Chưa chạy lần dọn dẹp nào.<br><br>Lịch sử sẽ được lưu trong:<br>{0}
+en: Whole drive
+vi: Toàn bộ ổ
+en: Could not open System Information: {0}
+vi: Không thể mở Thông tin Hệ thống: {0}
+en: Could not open dxdiag: {0}
+vi: Không thể mở dxdiag: {0}
+en: SPEED
+vi: TỐC ĐỘ
+en: Wait until the details have been read.
+vi: Hãy đợi đến khi đọc xong thông tin.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+vi: Đọc lúc {0}. Thông tin chỉ nằm trên PC này trừ khi bạn sao chép hoặc lưu lại.
+en: Could not read the device details: {0}
+vi: Không thể đọc chi tiết thiết bị: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+vi: Đã sao chép chi tiết thiết bị. Hãy dán vào nơi bạn cần, ví dụ trong tin nhắn gửi người đang giúp bạn.
+en: Text file
+vi: Tệp văn bản
+en: Save the device details
+vi: Lưu chi tiết thiết bị
+en: Could not copy: {0}
+vi: Không thể sao chép: {0}
+en: Reading...
+vi: Đang đọc...
+en: Speed test: {0}
+vi: Kiểm tra tốc độ: {0}
+en: Speed test finished.
+vi: Đã hoàn tất kiểm tra tốc độ.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+vi: Đã kiểm tra lúc {1} bằng tệp {0} MB. Kết quả đã được lưu để bạn so sánh sau.
+en: Speed test stopped. The test file was deleted.
+vi: Đã dừng kiểm tra tốc độ. Tệp thử đã bị xóa.
+en: Reading this PC's details...
+vi: Đang đọc thông tin PC này...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+vi: Đang thu thập thông tin về Windows, bộ xử lý, bộ nhớ, đồ họa và các mục khác. Việc này mất vài giây.
+en: The speed test could not finish. See the log below.
+vi: Không thể hoàn tất kiểm tra tốc độ. Xem nhật ký bên dưới.
+en: Stopped.
+vi: Đã dừng.
+en: Saved the device details to {0}
+vi: Đã lưu chi tiết thiết bị vào {0}
+en: Philip Droubi | Software Engineer
+vi: Philip Droubi | Kỹ sư phần mềm
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+vi: Kỹ sư phần mềm. Rất hoan nghênh câu hỏi, ý tưởng hoặc góp ý về Disk Cleanup Helper.
+en: Made by Philip Droubi
+vi: Do Philip Droubi tạo ra
+en: Philip Droubi is a Software Engineer.
+vi: Philip Droubi là một Kỹ sư phần mềm.
+en: SPACE
+vi: DUNG LƯỢNG
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+vi: Kỹ sư phần mềm. Kết nối với Philip Droubi trên LinkedIn.
+en: Source code on GitHub
+vi: Mã nguồn trên GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+vi: Miễn phí và mã nguồn mở theo GNU GPL v3: bạn có thể dùng, sửa đổi và chia sẻ. Các bản sao vẫn giữ phần ghi công cho Philip Droubi.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+vi: © {0} Philip Droubi. Phần mềm tự do: bạn có thể dùng, sửa đổi và chia sẻ theo GNU General Public License v3 kèm các điều khoản bổ sung trong NOTICE. Phần mềm này không có bất kỳ bảo đảm nào.
+en: License and terms
+vi: Giấy phép và điều khoản
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+vi: Bản này ({0}) không phải bản đã cài trên PC này. Hãy cập nhật bản đã cài để menu Bắt đầu mở phiên bản này.
+en: Repair shortcuts
+vi: Sửa lối tắt
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+vi: Đã cài trong {0}. Mở bất kỳ lúc nào từ menu Bắt đầu hoặc lối tắt trên màn hình nền. Để gỡ: bấm Gỡ cài đặt, hoặc Cài đặt > Ứng dụng > Disk Cleanup Helper.
+en: Could not save the file: {0}
+vi: Không thể lưu tệp: {0}
+en: Update installed copy
+vi: Cập nhật bản đã cài
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+vi: Giữ Disk Cleanup Helper trên PC này: cài đặt để mở từ menu Bắt đầu và màn hình nền. Không cần quyền quản trị.
+en: Install on this PC
+vi: Cài đặt trên PC này
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+vi: Chưa cài đặt. Bạn đang chạy từ {0}. Cài đặt sẽ thêm một mục vào menu Bắt đầu, một lối tắt trên màn hình nền và một mục trong Cài đặt > Ứng dụng để có thể gỡ như mọi chương trình khác. Không cần quyền quản trị.
+en: not reported
+vi: không được báo cáo
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+vi: Công cụ này không bao giờ xóa mục này. Hãy dùng "Mở vị trí" và làm theo các bước ở trên.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+vi: Cần quyền quản trị. Hãy khởi động lại công cụ và bấm Có trong lời nhắc của Windows để dùng mục này.
+en: Close first: {0}
+vi: Đóng trước: {0}
+en: Measure anyway?
+vi: Vẫn đo?
+en: Measuring stopped.
+vi: Đã dừng đo.
+en: Measuring {0} of {1}: {2}
+vi: Đang đo {0}/{1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+vi: Đang đo dung lượng. Việc này có thể mất một hai phút. Bấm Dừng để dừng.
+en: Where
+vi: Vị trí
+en: Problem: {0}
+vi: Sự cố: {0}
+en: Clean selected ({0})
+vi: Dọn mục đã chọn ({0})
+en: up to {0}
+vi: tối đa {0}
+en: Close {0} first
+vi: Hãy đóng {0} trước
+en: Size: not measured yet
+vi: Dung lượng: chưa đo
+en: Size: {0}
+vi: Dung lượng: {0}
+en: Admin
+vi: Quản trị
+en: Done. Select what you want to clean.
+vi: Xong. Hãy chọn những gì bạn muốn dọn.
+en: Cleanup started. Free space on {0}: {1}
+vi: Đã bắt đầu dọn dẹp. Dung lượng trống trên {0}: {1}
+en: Confirm cleanup
+vi: Xác nhận dọn dẹp
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+vi: Các mục sau sẽ được dọn. Tệp đã xóa không vào Thùng rác và không thể khôi phục:<br><br>{0}<br><br>Tiếp tục?
+en: Stopped. Not cleaned: {0}
+vi: Đã dừng. Chưa dọn: {0}
+en: Error: {0}
+vi: Lỗi: {0}
+en: Cleaning: {0}
+vi: Đang dọn: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+vi: Đã xong. Dung lượng trống trên {0} tăng thêm {1}. Hiện còn trống {2}.
+en: Clean anyway?
+vi: Vẫn dọn?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+vi: Mẹo: một số ứng dụng vẫn chạy gần đồng hồ. Bấm chuột phải vào biểu tượng của chúng ở đó và chọn Thoát (Exit hoặc Quit).
+en: Select at least one item first.
+vi: Hãy chọn ít nhất một mục trước.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+vi: Xong. Bấm vào một mục để đọc thông tin, chọn những gì bạn muốn, rồi bấm "Dọn mục đã chọn".
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+vi: Edge thường chạy ở chế độ nền: trong Edge, vào Cài đặt > Hệ thống và hiệu suất > tắt Tăng tốc khởi động và ứng dụng nền.
+en: Nothing left to clean. Close the programs and try again.
+vi: Không còn gì để dọn. Hãy đóng các chương trình và thử lại.
+en: Close programs first
+vi: Hãy đóng chương trình trước
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+vi: Các chương trình sau vẫn đang mở:<br><br>{0}<br><br>{1}<br><br>Bấm Không, đóng chúng, rồi bấm Dọn mục đã chọn lần nữa.<br>Hoặc bấm Có để bỏ qua các mục cần đến chúng và dọn phần còn lại.
+en: Clean selected
+vi: Dọn mục đã chọn
+en: Switches that free space or keep it free.
+vi: Các công tắc giúp giải phóng dung lượng hoặc giữ dung lượng trống.
+en: Windows settings
+vi: Thiết lập Windows
+en: YOUR CALL
+vi: BẠN QUYẾT ĐỊNH
+en: SETTING
+vi: THIẾT LẬP
+en: INFO ONLY
+vi: CHỈ THÔNG TIN
+en: The tool only shows and opens these. It never deletes them.
+vi: Công cụ chỉ hiển thị và mở các mục này. Công cụ không bao giờ xóa chúng.
+en: Do it yourself
+vi: Tự thực hiện
+en: You lose something small. Read each one before you select it.
+vi: Bạn sẽ mất một thứ nhỏ. Hãy đọc từng mục trước khi chọn.
+en: SAFE
+vi: AN TOÀN
+en: TOTAL
+vi: TỔNG
+en: {0} selected
+vi: Đã chọn {0}
+en: Caches and temp files. Programs rebuild them by themselves.
+vi: Bộ nhớ đệm và tệp tạm. Chương trình tự tạo lại chúng.
+en: Safe to clean
+vi: An toàn để dọn
+en: Old installer files and Windows cleanup
+vi: Tệp cài đặt cũ và dọn dẹp Windows
+en: Your call
+vi: Bạn quyết định
+en: ADMIN
+vi: QUẢN TRỊ
+en: Needs admin rights. Read each one before you select it.
+vi: Cần quyền quản trị. Hãy đọc từng mục trước khi chọn.
+en: Language
+vi: Ngôn ngữ
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+vi: PC của bạn hiện đang thiếu bộ nhớ:<br><br>  Bộ nhớ khả dụng: {0:N1} GB<br>  Còn trống kể cả tệp hoán trang: {1:N1} GB<br><br>Hết bộ nhớ có thể khiến chương trình bị treo và, trên một số PC, gây màn hình xanh.<br>Hãy đóng các chương trình bạn không cần (trình duyệt, trình soạn thảo, trò chơi), rồi thử lại.
+en: Switched to the light theme.
+vi: Đã chuyển sang chủ đề sáng.
+en: Switched to the dark theme.
+vi: Đã chuyển sang chủ đề tối.
+en: Low memory
+vi: Thiếu bộ nhớ
+en: nothing selected
+vi: chưa chọn gì
+en: low: close some programs
+vi: thấp: hãy đóng bớt chương trình
+en: of {0} GB
+vi: trên {0} GB
+en: Switch to the dark theme
+vi: Chuyển sang chủ đề tối
+en: Please wait until the current task finishes, or click Stop.
+vi: Vui lòng đợi tác vụ hiện tại hoàn tất, hoặc bấm Dừng.
+en: Scan {0} for errors
+vi: Quét lỗi {0}
+en: {0} FREE (WINDOWS DRIVE)
+vi: {0} CÒN TRỐNG (Ổ WINDOWS)
+en: Could not restart the app: {0}
+vi: Không thể khởi động lại ứng dụng: {0}
+en: Switch to the light theme
+vi: Chuyển sang chủ đề sáng
+en: DARK MODE
+vi: CHẾ ĐỘ TỐI
+en: LIGHT MODE
+vi: CHẾ ĐỘ SÁNG
+en: Removed {0}. Left: {1}.
+vi: Đã xóa {0}. Còn lại: {1}.
+en: Storage Spaces
+vi: Không gian Lưu trữ
+en: Virtual
+vi: Ảo
+en: Disk
+vi: Đĩa
+en: Too hot
+vi: Quá nóng
+en: Could not read disks: {0}
+vi: Không thể đọc ổ đĩa: {0}
+en: Normal
+vi: Bình thường
+en: Warm
+vi: Ấm
+en: Poor
+vi: Kém
+en: Healthy
+vi: Khỏe mạnh
+en: Unknown
+vi: Không rõ
+en: Windows: problem
+vi: Windows: có sự cố
+en: Warning
+vi: Cảnh báo
+en: Fair
+vi: Khá
+en: Good
+vi: Tốt
+en: Problem
+vi: Sự cố
+en: Checking disks...
+vi: Đang kiểm tra ổ đĩa...
+en: Reading each disk's health and temperature. This takes a few seconds.
+vi: Đang đọc sức khỏe và nhiệt độ của từng ổ đĩa. Việc này mất vài giây.
+en: Waiting for the current task to finish. The disks are checked right after that.
+vi: Đang chờ tác vụ hiện tại hoàn tất. Ổ đĩa sẽ được kiểm tra ngay sau đó.
+en: (health {0}%)
+vi: (sức khỏe {0}%)
+en: SMART attributes
+vi: Thuộc tính SMART
+en: NVMe health log
+vi: Nhật ký sức khỏe NVMe
+en: {0}% used
+vi: Đã dùng {0}%
+en: HEALTH
+vi: SỨC KHỎE
+en: Almost full: Windows and apps slow down when a drive is this full.
+vi: Gần đầy: Windows và ứng dụng chạy chậm khi ổ đầy đến mức này.
+en: {0} free of {1}
+vi: Trống {0} / {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+vi: Khởi động công cụ với quyền quản trị để đọc dữ liệu SMART của ổ đĩa.
+en: Windows did not report any disks.
+vi: Windows không báo cáo ổ đĩa nào.
+en: Disks
+vi: Đĩa vật lý
+en: Drives
+vi: Ổ đĩa
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+vi: % sức khỏe là ước tính của ứng dụng này dựa trên dữ liệu của chính từng ổ đĩa. Các công cụ khác dùng công thức riêng, nên con số có thể chênh lệch đôi chút. Mỗi lần bạn mở thẻ này hoặc khởi động ứng dụng sẽ lưu một lần đo (tối đa 30 phút một lần), nhờ vậy bạn có thể theo dõi sức khỏe và nhiệt độ theo thời gian.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+vi: Không ổ đĩa nào chia sẻ dữ liệu SMART với Windows. Điều này thường gặp với hộp ổ cứng USB và RAID.
+en: Disk check finished.
+vi: Đã kiểm tra xong ổ đĩa.
+en: A disk reports a problem. Back up your important files now.
+vi: Một ổ đĩa báo có sự cố. Hãy sao lưu các tệp quan trọng ngay.
+en: Windows: warning
+vi: Windows: cảnh báo
+en: Stopped. Results are incomplete.
+vi: Đã dừng. Kết quả chưa đầy đủ.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+vi: Đang quét... đến nay có {0:N0} thư mục và {1:N0} tệp
+en: Scanning {0}. Click Stop to stop.
+vi: Đang quét {0}. Bấm Dừng để dừng.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+vi: Đã dừng quét. Danh sách hiển thị các tệp lớn nhất tìm thấy đến lúc này. Dung lượng thư mục chỉ hiển thị khi quét xong.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+vi: Lưu ý: thư mục Windows có thể trông lớn hơn thực tế, vì Windows giữ một số tệp ở hai nơi cùng lúc.
+en: {0:N0} folders could not be read (Windows protects them).
+vi: Không thể đọc {0:N0} thư mục (Windows bảo vệ chúng).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+vi: Xong trong {0:N0} giây: {1:N0} thư mục, {2:N0} tệp.
+en: Scanning {0} ...
+vi: Đang quét {0} ...
+en: (files directly in this folder)
+vi: (tệp nằm trực tiếp trong thư mục này)
+en: Scan a drive to see its biggest folders.
+vi: Hãy quét một ổ để xem các thư mục lớn nhất.
+en: Free space on {0} grew by {1}.
+vi: Dung lượng trống trên {0} tăng thêm {1}.
+en: Biggest files
+vi: Tệp lớn nhất
+en: Scan anyway?
+vi: Vẫn quét?
+en: That drive or folder is not available.
+vi: Ổ hoặc thư mục đó không khả dụng.
+en: Biggest files ({0} found)
+vi: Tệp lớn nhất (tìm thấy {0})
+en: Select one or more files in the list first. Hold Ctrl to select several.
+vi: Hãy chọn một hoặc nhiều tệp trong danh sách trước. Giữ Ctrl để chọn nhiều tệp.
+en: Could not remove {0}: {1}
+vi: Không thể xóa {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+vi: Đã chuyển vào Thùng rác: {0} ({1})
+en: Deleted file: {0} ({1})
+vi: Đã xóa tệp: {0} ({1})
+en: Files deleted: {0}.
+vi: Số tệp đã xóa: {0}.
+en: Windows: OK
+vi: =
+en: {0} could not be removed (in use or protected).
+vi: Không thể xóa {0} (đang dùng hoặc được bảo vệ).
+en: Files moved to the Recycle Bin: {0}.
+vi: Số tệp đã chuyển vào Thùng rác: {0}.
+en: Move to Recycle Bin
+vi: Chuyển vào Thùng rác
+en: They will be deleted permanently and cannot be restored.
+vi: Các tệp sẽ bị xóa vĩnh viễn và không thể khôi phục.
+en: ... and {0} more
+vi: ... và {0} mục khác
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+vi: Đây là tệp Windows, tệp chương trình hoặc tệp hệ thống và được bảo vệ:<br><br>{0}<br><br>Hãy gỡ cài đặt chương trình, hoặc dùng thẻ Dọn dẹp.
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+vi: Các tệp sẽ vào Thùng rác. Dung lượng chỉ được giải phóng sau khi bạn dọn sạch Thùng rác.
+en: Delete permanently
+vi: Xóa vĩnh viễn
+en: Make sure you do not need them. Continue?
+vi: Hãy chắc chắn bạn không cần chúng. Tiếp tục?
+en: Files: {0}, {1} in total.
+vi: Tệp: {0}, tổng cộng {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+vi: Kiểm tra lại ổ đĩa
+en: Disk health
+vi: Sức khỏe ổ đĩa
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+vi: Giữ Ctrl để chọn nhiều tệp. Tệp Windows và tệp chương trình được bảo vệ và không thể xóa ở đây.
+en: Scan for errors
+vi: Quét lỗi
+en: Open history file
+vi: Mở tệp lịch sử
+en: Windows storage settings
+vi: Cài đặt lưu trữ của Windows
+en: Optimize drives
+vi: Tối ưu hóa ổ đĩa
+en: Modified
+vi: Ngày sửa đổi
+en: Up
+vi: Lên
+en: Biggest folders
+vi: Thư mục lớn nhất
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+vi: Chọn một ổ và bấm Quét. Quét toàn bộ ổ có thể mất vài phút.
+en: Folder
+vi: Thư mục
+en: File
+vi: Tệp
+en: Double-click a folder to look inside.
+vi: Bấm đúp vào thư mục để xem bên trong.
+en: Open in File Explorer
+vi: Mở trong File Explorer
+en: SMART details
+vi: Chi tiết SMART
+en: About
+vi: Giới thiệu
+en: Tips & FAQ
+vi: Mẹo & Hỏi đáp
+en: System Information
+vi: Thông tin Hệ thống
+en: Read me
+vi: Hướng dẫn
+en: Cleanup history
+vi: Lịch sử dọn dẹp
+en: Uninstall
+vi: Gỡ cài đặt
+en: DirectX Diagnostic (dxdiag)
+vi: Chẩn đoán DirectX (dxdiag)
+en: Run speed test
+vi: Chạy kiểm tra tốc độ
+en: Disk performance
+vi: Hiệu năng ổ đĩa
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+vi: Dữ liệu thô mà mỗi ổ đĩa tự báo cáo. "Cần theo dõi" nghĩa là nên để mắt tới. "Sắp hỏng" nghĩa là dưới ngưỡng an toàn của chính ổ đĩa.
+en: Live activity updates every second while this tab is open.
+vi: Hoạt động trực tiếp cập nhật mỗi giây khi thẻ này đang mở.
+en: Save as text file
+vi: Lưu thành tệp văn bản
+en: Copy all
+vi: Sao chép tất cả
+en: Read again
+vi: Đọc lại
+en: Scan
+vi: Quét
+en: English
+vi: =
+en: 0 items
+vi: 0 mục
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+vi: Không chạy với quyền quản trị viên, nên các mục có nhãn Quản trị bị vô hiệu hóa. Để dùng các mục đó, hãy đóng cửa sổ này, khởi động lại và bấm Có trong lời nhắc của Windows.
+en: Measure sizes
+vi: Đo dung lượng
+en: Clean up
+vi: Dọn dẹp
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+vi: Xem những gì đang chiếm ổ đĩa và giải phóng dung lượng an toàn. Không có gì bị xóa cho đến khi bạn xác nhận.
+en: Disk Cleanup Helper
+vi: =
+en: C: FREE
+vi: C: CÒN TRỐNG
+en: SELECTED TO CLEAN
+vi: ĐÃ CHỌN ĐỂ DỌN
+en: MEMORY AVAILABLE
+vi: BỘ NHỚ KHẢ DỤNG
+en: Stop
+vi: Dừng
+en: Analyze disk
+vi: Phân tích ổ đĩa
+en: Open location
+vi: Mở vị trí
+en: Drive
+vi: Ổ đĩa
+en: List files bigger than
+vi: Liệt kê tệp lớn hơn
+en: Look in
+vi: Tìm trong
+en: Clear selection
+vi: Bỏ chọn
+en: Select all safe
+vi: Chọn tất cả mục an toàn
+en: Click Measure sizes to see how much each item uses.
+vi: Bấm Đo dung lượng để xem mỗi mục chiếm bao nhiêu.
+en: to see what it is, where it is, and what you keep or lose.
+vi: để xem mục đó là gì, nằm ở đâu, và bạn giữ lại hoặc mất gì.
+en: Click an item
+vi: Bấm vào một mục
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+vi: Ghi tệp thử thất bại. Ổ có bị đầy không?
+en: Reading it back...
+vi: Đang đọc lại...
+en: Writing a {0} MB test file...
+vi: Đang ghi tệp thử {0} MB...
+en: Could not create the test file in {0}.
+vi: Không thể tạo tệp thử trong {0}.
+en: Could not open the test file.
+vi: Không thể mở tệp thử.
+en: Not enough memory for the speed test.
+vi: Không đủ bộ nhớ để kiểm tra tốc độ.
+en: Reading small random blocks...
+vi: Đang đọc các khối nhỏ ngẫu nhiên...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+vi: Disk Cleanup Helper cần Windows 10 hoặc Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+vi: Disk Cleanup Helper không thể khởi động:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+vi: Đã xảy ra lỗi:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+vi: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+vi: Cập nhật hoạt động như thế nào?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+vi: Khi có phiên bản mới, ứng dụng tải phiên bản đó xuống trong nền và kiểm tra: SHA256 và số phiên bản phải khớp với bản phát hành. Sau đó, một thanh thông báo hiện "Khởi động lại ngay". Nếu bạn chọn "Để sau", bản cập nhật sẽ được cài khi bạn đóng ứng dụng. Bạn có thể tắt tính năng tự động kiểm tra trong thẻ Giới thiệu; nút "Kiểm tra bản cập nhật" ở đó vẫn hoạt động.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+vi: Không. Ứng dụng không gửi gì về PC của bạn. Kết nối duy nhất của ứng dụng là hỏi GitHub xem có phiên bản mới hay không, tối đa một lần mỗi ngày. Bạn có thể tắt việc này trong thẻ Giới thiệu.
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+vi: Ứng dụng không gửi gì về PC của bạn. Ứng dụng chỉ hỏi GitHub xem có phiên bản mới hay không, và bạn có thể tắt việc này trong thẻ Giới thiệu. Lịch sử những gì đã dọn chỉ được lưu trên PC này.
+en: Update check: version {0} is the newest.
+vi: Kiểm tra cập nhật: phiên bản {0} là mới nhất.
+en: Downloading version {0}... {1}%
+vi: Đang tải xuống phiên bản {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+vi: Đã có phiên bản {0}. Đây là bản dành cho nhà phát triển, nên không tự cập nhật.
+en: Update check: version {0} is available.
+vi: Kiểm tra cập nhật: đã có phiên bản {0}.
+en: Downloading version {0}...
+vi: Đang tải xuống phiên bản {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+vi: Không thể cài bản cập nhật ở đây vì thư mục này không thể thay đổi: {0}
+en: The update was not downloaded: {0}
+vi: Bản cập nhật không được tải xuống: {0}
+en: Later
+vi: Để sau
+en: This is a developer build, so it does not update itself.
+vi: Đây là bản dành cho nhà phát triển, nên không tự cập nhật.
+en: What's new in version {0}:
+vi: Có gì mới trong phiên bản {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+vi: Đã cài phiên bản {0}, nhưng không thể khởi động: {1}<br><br>Hãy khởi động lại Disk Cleanup Helper.
+en: No details were given for this version.
+vi: Không có thông tin chi tiết nào cho phiên bản này.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+vi: Phiên bản {0} đã được tải xuống và kiểm tra (SHA256 và số phiên bản).
+en: The update could not be downloaded: {0}
+vi: Không thể tải xuống bản cập nhật: {0}
+en: Version {0} is ready. Restart to update.
+vi: Phiên bản {0} đã sẵn sàng. Khởi động lại để cập nhật.
+en: This is version {0}. It has not checked for updates yet.
+vi: Đây là phiên bản {0}. Ứng dụng chưa kiểm tra bản cập nhật lần nào.
+en: You have the latest version ({0}). Last checked: {1}.
+vi: Bạn đang dùng phiên bản mới nhất ({0}). Lần kiểm tra gần nhất: {1}.
+en: Version {0} is installed.
+vi: Đã cài phiên bản {0}.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+vi: Bản này nằm trong một thư mục không thể thay đổi:<br>{0}<br><br>Trang phát hành sẽ mở ra để bạn tải phiên bản {1} và tự tay thay thế bản này.
+en: The update could not be installed: {0}
+vi: Không thể cài bản cập nhật: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+vi: Đã có phiên bản {0}. Bấm "Kiểm tra bản cập nhật" để tải xuống.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+vi: Không thể cài bản cập nhật. Bản này vẫn tiếp tục hoạt động như hiện tại.<br><br>{0}
+en: Updated to version {0}.
+vi: Đã cập nhật lên phiên bản {0}.
+en: Update check: {0}
+vi: Kiểm tra cập nhật: {0}
+en: Could not check for updates: {0}
+vi: Không thể kiểm tra bản cập nhật: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+vi: Không thể kết nối với GitHub. Hãy kiểm tra kết nối internet rồi thử lại.
+en: Checking for updates...
+vi: Đang kiểm tra bản cập nhật...
+en: Update check: could not reach GitHub.
+vi: Kiểm tra cập nhật: không thể kết nối với GitHub.
+en: Check for updates
+vi: Kiểm tra bản cập nhật
+en: Check for updates when the app starts
+vi: Kiểm tra bản cập nhật khi ứng dụng khởi động
+en: What's new
+vi: Có gì mới
+en: Restart now
+vi: Khởi động lại ngay
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+vi: Công cụ miễn phí cho Windows 10 và 11, cho bạn thấy những gì đang chiếm ổ đĩa và giải phóng dung lượng an toàn. Công cụ không gửi gì về PC của bạn. Không có gì bị xóa cho đến khi bạn xác nhận.
+en: Updates
+vi: Cập nhật
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+vi: Bản cập nhật được lấy từ trang GitHub của ứng dụng. Mỗi phiên bản mới đều được kiểm tra (SHA256 và số phiên bản) trước khi thay thế phiên bản này.
+en: Version {0} has no {1} file.
+vi: Phiên bản {0} không có tệp {1}.
+en: Version {0} has a download address that is not on github.com.
+vi: Phiên bản {0} có địa chỉ tải xuống không nằm trên github.com.
+en: Version {0} has no SHA256 line in its release text.
+vi: Phiên bản {0} không có dòng SHA256 trong nội dung bản phát hành.
+en: GitHub's answer could not be read.
+vi: Không thể đọc phản hồi của GitHub.
+en: The newest release has an unreadable version number: {0}
+vi: Bản phát hành mới nhất có số phiên bản không đọc được: {0}
+en: The download came from an unexpected address: {0}
+vi: Bản tải xuống đến từ một địa chỉ không mong đợi: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+vi: Tệp đã tải xuống không phải là chương trình Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+vi: Tệp đã tải xuống là phiên bản {0}, không phải {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+vi: Tệp đã tải xuống không khớp với SHA256 trong nội dung bản phát hành.
+en: The downloaded file has an unexpected size ({0}).
+vi: Tệp đã tải xuống có kích thước không mong đợi ({0}).
+en: The download took too long.
+vi: Quá trình tải xuống mất quá nhiều thời gian.

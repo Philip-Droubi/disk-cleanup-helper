@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - pt-BR
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Português (Brasil)
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+pt-BR: Não foi possível executar {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+pt-BR: também {0}
+en: GRAPHICS
+pt-BR: GRÁFICOS
+en: Wireless (Miracast)
+pt-BR: Sem fio (Miracast)
+en: Built-in screen
+pt-BR: Tela integrada
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+pt-BR: Este driver é de {0}. Um mais novo do fabricante do PC ou do chip pode corrigir travamentos, telas azuis e problemas de imagem.
+en: {0} × {1} at {2} Hz
+pt-BR: {0} × {1} a {2} Hz
+en: Showing now
+pt-BR: Exibindo agora
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+pt-BR: O Windows informa um problema com este dispositivo (código {0}). Reinstale o driver pelo site do fabricante do PC ou do chip.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+pt-BR: Nenhum driver de vídeo adequado está instalado. Instale o driver do fabricante do PC ou do chip gráfico para uma imagem mais nítida e rápida.
+en: Screens
+pt-BR: Telas
+en: Made in
+pt-BR: Fabricado em
+en: Connection
+pt-BR: Conexão
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+pt-BR: Saúde, temperatura e dados SMART estão nas guias Saúde do disco e Detalhes SMART.
+en: Storage
+pt-BR: Armazenamento
+en: {0} inches
+pt-BR: {0} polegadas
+en: {0}  (main screen)
+pt-BR: {0}  (tela principal)
+en: Screen {0}
+pt-BR: Tela {0}
+en: Refresh rate
+pt-BR: Taxa de atualização
+en: Resolution
+pt-BR: Resolução
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+pt-BR: A memória está quase cheia agora ({0}% em uso). Feche os programas de que você não precisa. Um PC sem memória fica lento e pode travar.
+en: Part number
+pt-BR: Número da peça
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+pt-BR: Este PC informa um slot de memória livre. Adicionar um pente de memória do mesmo tipo ({0}) costuma ser um jeito barato de deixá-lo mais rápido.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+pt-BR: {0} é pouco para o Windows 10 e 11 hoje em dia. 8 GB ou mais fazem uma grande diferença.
+en: Size
+pt-BR: Tamanho
+en: Memory promised to programs
+pt-BR: Memória prometida aos programas
+en: None. Programs can crash when the memory is full.
+pt-BR: Nenhum. Os programas podem travar quando a memória estiver cheia.
+en: Module {0}
+pt-BR: Módulo {0}
+en: {0} GB of {1} GB  (memory plus page file)
+pt-BR: {0} GB de {1} GB  (memória mais arquivo de paginação)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+pt-BR: Este PC informa um slot de memória livre. Adicionar um pente de memória do mesmo tipo costuma ser um jeito barato de deixá-lo mais rápido.
+en: 4 GB or more
+pt-BR: 4 GB ou mais
+en: Graphics
+pt-BR: Gráficos
+en: Driver
+pt-BR: =
+en: Graphics memory
+pt-BR: Memória de vídeo
+en: {0}% in use now
+pt-BR: {0}% em uso agora
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+pt-BR: Os dois slots de memória estão em uso. Para ter mais memória, troque os pentes por outros maiores ({0}). 16 GB no total é um bom tamanho hoje.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+pt-BR: O único slot de memória está em uso. Para ter mais memória, troque o pente por um maior ({0}). 16 GB no total é um bom tamanho hoje.
+en: MEMORY
+pt-BR: MEMÓRIA
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+pt-BR: Todos os {0} slots de memória estão em uso. Para ter mais memória, troque os pentes por outros maiores ({1}). 16 GB no total é um bom tamanho hoje.
+en: Adapter
+pt-BR: Adaptador
+en: Network adapters
+pt-BR: Adaptadores de rede
+en: connected at {0}
+pt-BR: conectado a {0}
+en: turned off
+pt-BR: desativado
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+pt-BR: A bateria guarda só {0}% do que guardava quando nova. Uma bateria nova dá muito mais tempo longe do carregador.
+en: Lithium-ion
+pt-BR: Íon de lítio
+en: Kind
+pt-BR: Tipo
+en: Nickel-metal hydride
+pt-BR: Níquel-hidreto metálico
+en: Lithium-polymer
+pt-BR: Polímero de lítio
+en: connected
+pt-BR: conectado
+en: {0} minutes
+pt-BR: {0} minuto | {0} minutos
+en: {0}  ·  Windows reports a problem (code {1})
+pt-BR: {0}  ·  O Windows informa um problema (código {1})
+en: {0} days
+pt-BR: {0} dia | {0} dias
+en: {0} hours
+pt-BR: {0} hora | {0} horas
+en: Built in
+pt-BR: Integrado
+en: Sound
+pt-BR: Som
+en: not connected
+pt-BR: não conectado
+en: Through the screen (HDMI or DisplayPort)
+pt-BR: Pela tela (HDMI ou DisplayPort)
+en: Added by a program
+pt-BR: Adicionado por um programa
+en: Battery
+pt-BR: Bateria
+en: All disks together
+pt-BR: Todos os discos juntos
+en: plugged in, charging
+pt-BR: na tomada, carregando
+en: on battery
+pt-BR: na bateria
+en: drive {0}
+pt-BR: unidade {0}
+en: Storage class memory
+pt-BR: Memória de classe de armazenamento
+en: Hard disk
+pt-BR: Disco rígido
+en: Disk {0}
+pt-BR: Disco {0}
+en: SD card
+pt-BR: Cartão SD
+en: plugged in, full
+pt-BR: na tomada, carga completa
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+pt-BR: {0}%  (guarda {1} Wh, guardava {2} Wh quando nova)
+en: Battery health
+pt-BR: Saúde da bateria
+en: Charge cycles
+pt-BR: Ciclos de carga
+en: Start the tool with admin rights to read it
+pt-BR: Inicie a ferramenta com direitos de administrador para ler isto
+en: {0} h {1} min  (Windows' estimate)
+pt-BR: {0} h {1} min  (estimativa do Windows)
+en: Charge now
+pt-BR: Carga atual
+en: plugged in
+pt-BR: na tomada
+en: Time left
+pt-BR: Tempo restante
+en: {0}%, {1}
+pt-BR: =
+en: , size set by hand
+pt-BR: , tamanho definido manualmente
+en: Server
+pt-BR: Servidor
+en: Desktop
+pt-BR: =
+en: Windows
+pt-BR: =
+en: Workstation
+pt-BR: Estação de trabalho
+en: All-in-one
+pt-BR: Tudo em um
+en: Laptop that folds into a tablet (2-in-1)
+pt-BR: Notebook que vira tablet (2 em 1)
+en: Laptop
+pt-BR: Notebook
+en: Tablet
+pt-BR: =
+en: Tablet with a detachable keyboard (2-in-1)
+pt-BR: Tablet com teclado destacável (2 em 1)
+en: Edition
+pt-BR: Edição
+en: Last update installed
+pt-BR: Última atualização instalada
+en: Installed or last big update
+pt-BR: Instalação ou última grande atualização
+en: Running since
+pt-BR: Em execução desde
+en: {0}  ({1})
+pt-BR: =
+en: 32-bit
+pt-BR: 32 bits
+en: Build
+pt-BR: Compilação
+en: Version
+pt-BR: Versão
+en: 64-bit
+pt-BR: 64 bits
+en: 64-bit, for ARM processors
+pt-BR: 64 bits, para processadores ARM
+en: Computer name
+pt-BR: Nome do computador
+en: Type
+pt-BR: Tipo
+en: BIOS
+pt-BR: =
+en: Motherboard
+pt-BR: Placa-mãe
+en: Model
+pt-BR: Modelo
+en: Read on {0}
+pt-BR: Lido em {0}
+en: Device details
+pt-BR: Detalhes do dispositivo
+en: Maker
+pt-BR: Fabricante
+en: This PC
+pt-BR: Este PC
+en: Start-up mode
+pt-BR: Modo de inicialização
+en: Not found, or turned off in the BIOS
+pt-BR: Não encontrado ou desativado no BIOS
+en: Security chip (TPM)
+pt-BR: Chip de segurança (TPM)
+en: TPM {0}, turned off
+pt-BR: TPM {0}, desativado
+en: TPM {0}, on
+pt-BR: TPM {0}, ativado
+en: Not available with Legacy BIOS
+pt-BR: Indisponível com Legacy BIOS
+en: Secure Boot
+pt-BR: Inicialização Segura
+en: Legacy BIOS
+pt-BR: =
+en: Off
+pt-BR: Desativado
+en: On
+pt-BR: Ativado
+en: Soldered on the board
+pt-BR: Soldada na placa
+en: SO-DIMM (laptop size)
+pt-BR: SO-DIMM (tamanho de notebook)
+en: Installed
+pt-BR: Instalada
+en: Memory (RAM)
+pt-BR: Memória (RAM)
+en: DIMM (desktop size)
+pt-BR: DIMM (tamanho de desktop)
+en: Off in the BIOS
+pt-BR: Desativada no BIOS
+en: On in the BIOS
+pt-BR: Ativada no BIOS
+en: PROCESSOR
+pt-BR: PROCESSADOR
+en: Socket
+pt-BR: Soquete
+en: {0}  ({1} GB usable by Windows)
+pt-BR: {0}  ({1} GB utilizáveis pelo Windows)
+en: {0}, {1}  ({2} in use, highest {3})
+pt-BR: {0}, {1}  ({2} em uso, máximo {3})
+en: {0} of {1} used
+pt-BR: {0} de {1} usados
+en: , size managed by Windows
+pt-BR: , tamanho gerenciado pelo Windows
+en: Page file
+pt-BR: Arquivo de paginação
+en: Memory slots
+pt-BR: Slots de memória
+en: {0} GB of {1} GB  ({2}%)
+pt-BR: {0} GB de {1} GB  ({2}%)
+en: In use now
+pt-BR: Em uso agora
+en: Module type
+pt-BR: Tipo de módulo
+en: Type and speed
+pt-BR: Tipo e velocidade
+en: WINDOWS
+pt-BR: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+pt-BR: O Windows está em execução há {0} dias sem reiniciar. Desligar não reinicia o Windows por completo quando a Inicialização rápida está ativada, então use Reiniciar de vez em quando: isso conclui as atualizações e libera memória.
+en: Processor
+pt-BR: Processador
+en: build {0}
+pt-BR: compilação {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+pt-BR: O Windows não instala uma atualização desde {0}. Abra Configurações > Windows Update e verifique se há atualizações: elas corrigem falhas de segurança e travamentos.
+en: Region format
+pt-BR: Formato regional
+en: Display language
+pt-BR: Idioma de exibição
+en: DirectX
+pt-BR: =
+en: Time zone
+pt-BR: Fuso horário
+en: Name
+pt-BR: Nome
+en: Busy right now
+pt-BR: Ocupado agora
+en: Cache
+pt-BR: =
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+pt-BR: Em uso (pelo Hyper-V, WSL, Docker ou recursos de segurança do Windows)
+en: Virtualization
+pt-BR: Virtualização
+en: Base speed
+pt-BR: Velocidade base
+en: Cores
+pt-BR: Núcleos
+en: Made by
+pt-BR: Fabricante
+en: ({0} processors)
+pt-BR: ({0} processadores)
+en: {0} cores, {1} threads
+pt-BR: {0} núcleos, {1} threads
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+pt-BR: (programa sem nome)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+pt-BR: Específico do fabricante
+en: {0} data errors were found on the SSD.
+pt-BR: {0} erro de dados foi encontrado no SSD. | {0} erros de dados foram encontrados no SSD.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+pt-BR: {0} setor defeituoso foi substituído por um setor reserva (realocado). | {0} setores defeituosos foram substituídos por setores reserva (realocados).
+en: The disk itself predicts that it will fail soon. Back up your files now.
+pt-BR: O próprio disco prevê que vai falhar em breve. Faça backup dos seus arquivos agora.
+en: Failing
+pt-BR: Falhando
+en: OK (no limit)
+pt-BR: OK (sem limite)
+en: {0} sector reallocation events.
+pt-BR: {0} evento de realocação de setor. | {0} eventos de realocação de setor.
+en: The disk needed {0} retries to spin up.
+pt-BR: O disco precisou de {0} nova tentativa para começar a girar. | O disco precisou de {0} novas tentativas para começar a girar.
+en: {0} internal data path errors.
+pt-BR: {0} erro no caminho interno de dados. | {0} erros no caminho interno de dados.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+pt-BR: {0} erro de transferência entre o disco e o PC foi contado. Isso costuma vir de um cabo solto ou ruim e não danifica o disco. | {0} erros de transferência entre o disco e o PC foram contados. Isso costuma vir de um cabo solto ou ruim e não danifica o disco.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+pt-BR: {0} setor está instável e aguardando verificação (pendente). Mantenha um backup dos seus arquivos e veja se esse número aumenta. | {0} setores estão instáveis e aguardando verificação (pendentes). Mantenha um backup dos seus arquivos e veja se esse número aumenta.
+en: {0} sectors could not be read or fixed (uncorrectable).
+pt-BR: {0} setor não pôde ser lido nem corrigido (incorrigível). | {0} setores não puderam ser lidos nem corrigidos (incorrigíveis).
+en: {0} read errors the disk could not correct.
+pt-BR: {0} erro de leitura que o disco não conseguiu corrigir. | {0} erros de leitura que o disco não conseguiu corrigir.
+en: Warning flags set
+pt-BR: Alertas ativados
+en: Hot
+pt-BR: Quente
+en: Below threshold
+pt-BR: Abaixo do limite
+en: Windows reports a warning for this disk.
+pt-BR: O Windows informa um aviso para este disco.
+en: Windows reports this disk as unhealthy.
+pt-BR: O Windows informa que este disco não está saudável.
+en: OK
+pt-BR: =
+en: Near end of rated life
+pt-BR: Perto do fim da vida útil
+en: The SSD has switched to read-only mode to protect your data.
+pt-BR: O SSD mudou para o modo somente leitura para proteger seus dados.
+en: The SSD reports that it has been too hot.
+pt-BR: O SSD informa que esquentou demais.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+pt-BR: O atributo SMART {0} está abaixo do limite de segurança. Faça backup dos seus arquivos agora.
+en: Watch
+pt-BR: Atenção
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+pt-BR: O espaço reserva está abaixo do nível seguro (restam {0}%). Faça backup dos seus arquivos agora.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+pt-BR: O SSD informa que sua confiabilidade está reduzida. Faça backup dos seus arquivos agora.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+pt-BR: O que significa a porcentagem de saúde?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+pt-BR: É uma estimativa feita com os dados de automonitoramento do próprio disco (SMART, ou o registro de saúde nos SSDs NVMe). 100% significa que nenhum problema ou desgaste foi encontrado. Ela é ajustada para ficar próxima de ferramentas como o Hard Disk Sentinel, mas cada ferramenta usa sua própria fórmula, então os números podem variar um pouco.
+en: Why does the Windows folder look so big in Analyze disk?
+pt-BR: Por que a pasta Windows parece tão grande em Analisar disco?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+pt-BR: O Windows mantém alguns arquivos em dois lugares ao mesmo tempo, então eles são contados duas vezes quando os tamanhos são somados. O tamanho real é menor. Nunca exclua nada na pasta Windows manualmente.
+en: My SSD shows less than 100% health. Should I worry?
+pt-BR: Meu SSD mostra menos de 100% de saúde. Devo me preocupar?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+pt-BR: São pequenos pontos que o disco não conseguiu ler com segurança. Os setores realocados já foram substituídos por setores reserva. Os setores pendentes estão aguardando verificação. Alguns são comuns em discos mais antigos. Se os números continuarem aumentando, faça backup dos seus arquivos e considere trocar o disco.
+en: What temperature is normal for a disk?
+pt-BR: Qual temperatura é normal para um disco?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+pt-BR: Os SSDs se desgastam um pouco a cada gravação, e a saúde mostra quanto da vida útil de gravação prevista já foi usada. Muitos SSDs continuam funcionando bem além do previsto. Mantenha backups e planeje trocar o SSD quando a saúde ficar baixa ou surgirem problemas.
+en: What are pending and reallocated sectors?
+pt-BR: O que são setores pendentes e realocados?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+pt-BR: Os caches voltam a encher conforme você usa o navegador e os aplicativos, o Windows baixa novas atualizações e, quando a memória fica baixa, o Windows aumenta o arquivo de paginação. Limpar de novo a cada poucas semanas, ativar o Sensor de Armazenamento e fechar programas sem uso mantém isso sob controle.
+en: Is it safe to clean what this app suggests?
+pt-BR: É seguro limpar o que este aplicativo sugere?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+pt-BR: Os itens do grupo "Seguro para limpar" são caches e arquivos temporários que os programas recriam sozinhos. Os itens de "Você decide" removem algo pequeno, então leia-os antes. Os itens marcados como "Só informação" nunca são excluídos pelo aplicativo; ele só os mostra e abre o local deles.
+en: It never follows folder links into other folders.
+pt-BR: Ele nunca segue links de pastas para outras pastas.
+en: Will cleaning my browser cache log me out of websites?
+pt-BR: Limpar o cache do navegador vai me desconectar dos sites?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+pt-BR: Arquivos em uso são ignorados. A limpeza de temporários mantém os arquivos do último dia. E a limpeza de componentes do Windows só pode ser medida enquanto é executada. O log na parte de baixo mostra exatamente o que foi removido.
+en: Why does my free space go down again after cleaning?
+pt-BR: Por que meu espaço livre diminui de novo depois da limpeza?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+pt-BR: Não. A limpeza do cache mantém cookies, senhas salvas, favoritos e histórico. Muito raramente um site pode pedir que você faça login de novo, e o navegador preenche a senha salva.
+en: Why did I get back less space than the size shown?
+pt-BR: Por que recuperei menos espaço do que o tamanho mostrado?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+pt-BR: Abra a guia Detalhes do dispositivo. Ela mostra o que a Ferramenta de Diagnóstico do DirectX (dxdiag) do Windows mostra, além dos slots de memória, do arquivo de paginação, das telas e da saúde da bateria. Clique em "Copiar tudo" ou "Salvar como arquivo de texto" para enviar os detalhes a alguém que ajuda você.
+en: Where are my history files saved?
+pt-BR: Onde meus arquivos de histórico são salvos?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+pt-BR: A hibernação mantém um arquivo do tamanho de parte da sua memória para que o PC possa continuar de onde parou. O Armazenamento reservado são cerca de 7 GB que o Windows separa para atualizações. O CompactOS guarda os arquivos do Windows compactados. Cada um pode liberar vários GB, e cada um pode ser revertido depois.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+pt-BR: Onde posso ver os detalhes do meu PC, como a versão do Windows, processador, memória e gráficos?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+pt-BR: Na sua pasta de usuário: %LOCALAPPDATA%\DiskCleanupHelper. Ela guarda o histórico de limpeza, o histórico de saúde e temperatura dos discos e os resultados do teste de velocidade. Abra-os pelas guias Sobre e Saúde do disco.
+en: How do I uninstall it?
+pt-BR: Como desinstalo o aplicativo?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+pt-BR: Configurações > Aplicativos > Disk Cleanup Helper > Desinstalar, ou o botão Desinstalar na guia Sobre. Se você nunca o instalou, basta excluir o arquivo do programa.
+en: Does the app send any of my data anywhere?
+pt-BR: O aplicativo envia algum dado meu para algum lugar?
+en: What are hibernation, Reserved Storage and CompactOS?
+pt-BR: O que são hibernação, Armazenamento reservado e CompactOS?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+pt-BR: Direitos de administrador são necessários para limpar os arquivos temporários e de atualização do próprio Windows e para ler os dados de saúde dos discos. Se você clicar em Não, o aplicativo ainda funciona, e os itens que precisam de direitos de administrador ficam acinzentados.
+en: Why does Windows say "Windows protected your PC"?
+pt-BR: Por que o Windows diz "O Windows protegeu o computador"?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+pt-BR: Discos rígidos costumam funcionar entre 25 e 45 °C. SSDs costumam funcionar entre 30 e 60 °C, e SSDs NVMe podem chegar a 70 °C sob carga pesada. Temperaturas mais altas o tempo todo encurtam a vida do disco.
+en: Why does the app ask for admin rights?
+pt-BR: Por que o aplicativo pede direitos de administrador?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+pt-BR: O Windows mostra isso para programas novos que ele ainda não conhece. Clique em "Mais informações" e depois em "Executar assim mesmo". O aviso some de vez quando o programa estiver assinado e for conhecido pela Microsoft.
+en: Does the speed test harm my disk?
+pt-BR: O teste de velocidade danifica meu disco?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+pt-BR: Não. Ele grava um arquivo de teste temporário de 512 MB a 1 GB, lê de volta e o exclui. Isso é menos que um dia normal de uso.
+en: Can I undo a cleanup?
+pt-BR: Posso desfazer uma limpeza?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+pt-BR: Os arquivos excluídos pela guia Limpeza não vão para a Lixeira, então não podem ser restaurados. Os arquivos que você move para a Lixeira pela guia Analisar disco podem ser restaurados até você esvaziar a Lixeira. As configurações do Windows podem ser revertidas; veja o Leia-me na guia Sobre.
+en: Tidy your Downloads folder
+pt-BR: Organize sua pasta Downloads
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+pt-BR: Instaladores e downloads antigos se acumulam. Classifique a pasta por tamanho e exclua o que você não precisa mais.
+en: Let cloud files stay in the cloud
+pt-BR: Deixe os arquivos da nuvem na nuvem
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+pt-BR: Com o OneDrive, clique com o botão direito em uma pasta e escolha "Liberar espaço". Os arquivos continuam visíveis, mas só são baixados quando você os abre.
+en: Close programs you are not using
+pt-BR: Feche os programas que você não está usando
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+pt-BR: Reiniciar limpa a memória, conclui as atualizações e permite que o Windows reduza o arquivo de paginação ao normal.
+en: Turn off apps you do not need at startup
+pt-BR: Desative os aplicativos de inicialização de que você não precisa
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+pt-BR: Quando a memória acaba, o Windows aumenta o arquivo de paginação, o que usa espaço em disco e pode fazer os programas travarem.
+en: Restart your PC now and then
+pt-BR: Reinicie o PC de vez em quando
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+pt-BR: Vídeos, fotos e downloads antigos podem ficar em outra unidade, em um disco externo ou no armazenamento em nuvem.
+en: Empty the Recycle Bin
+pt-BR: Esvazie a Lixeira
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+pt-BR: Os arquivos que você exclui continuam ocupando espaço até a Lixeira ser esvaziada. Confira de vez em quando.
+en: Turn on Storage Sense
+pt-BR: Ative o Sensor de Armazenamento
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+pt-BR: O Windows pode excluir sozinho arquivos temporários e itens antigos da Lixeira. Configurações > Sistema > Armazenamento > Sensor de Armazenamento.
+en: Uninstall what you no longer use
+pt-BR: Desinstale o que você não usa mais
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+pt-BR: Quando a unidade do Windows está quase cheia, o Windows fica lento e as atualizações podem não ser instaladas.
+en: Move big personal files
+pt-BR: Mova arquivos pessoais grandes
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+pt-BR: Jogos e programas antigos costumam ser os que mais ocupam espaço. Configurações > Aplicativos e depois classifique a lista por tamanho.
+en: Keep 10 to 15 percent free
+pt-BR: Mantenha de 10 a 15 por cento livres
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+pt-BR: Pastas como Windows, WinSxS e Installer quebram o Windows se forem limpas manualmente. Use a guia Limpeza no lugar.
+en: Nothing is deleted until you select it and confirm.
+pt-BR: Nada é excluído até você selecionar e confirmar.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+pt-BR: Discos podem falhar sem aviso. Mantenha uma cópia dos arquivos importantes em outra unidade ou na nuvem.
+en: Never delete Windows files by hand
+pt-BR: Nunca exclua arquivos do Windows manualmente
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+pt-BR: Os itens de limpeza só mexem em caches, arquivos temporários e arquivos de atualização antigos. Seus documentos, fotos, músicas, vídeos, área de trabalho e downloads nunca são limpos automaticamente.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+pt-BR: Ele avisa você se o PC estiver com pouca memória antes de medir, verificar ou limpar.
+en: Windows and program files are protected in the Analyze disk tab.
+pt-BR: Os arquivos do Windows e de programas ficam protegidos na guia Analisar disco.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+pt-BR: A limpeza de caches de navegadores e aplicativos mantém suas senhas, favoritos, histórico e logins.
+en: It asks you to close a browser or app before cleaning its cache.
+pt-BR: Ele pede que você feche o navegador ou aplicativo antes de limpar o cache dele.
+en: Back up what matters
+pt-BR: Faça backup do que importa
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+pt-BR: SSDs não precisam disso. O "Otimizar unidades" do Windows sabe a diferença, então deixe-o no agendamento automático.
+en: Check disk health once a month
+pt-BR: Verifique a saúde do disco uma vez por mês
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+pt-BR: Menos aplicativos iniciando com o Windows significa uma inicialização mais rápida e mais memória livre. Gerenciador de Tarefas > Aplicativos de inicialização.
+en: Do not defragment an SSD
+pt-BR: Não desfragmente um SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+pt-BR: Abra a guia Saúde do disco. Cada visita salva uma leitura, assim os gráficos de histórico mostram se algo muda.
+en: Keep your PC cool
+pt-BR: Mantenha o PC fresco
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+pt-BR: O calor encurta a vida do disco. Discos rígidos devem ficar abaixo de cerca de 50 °C e SSDs abaixo de cerca de 70 °C. Mantenha as saídas de ar limpas.
+en: Watch for growing bad sectors
+pt-BR: Fique de olho no aumento de setores defeituosos
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+pt-BR: Alguns setores realocados ou pendentes são comuns. Se o número continuar aumentando, faça backup e planeje trocar o disco.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+pt-BR: A instalação falhou:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+pt-BR: Remover o Disk Cleanup Helper deste PC?<br><br>Seu histórico de limpeza fica em:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+pt-BR: O Disk Cleanup Helper foi removido deste PC.
+en: Free up disk space safely
+pt-BR: Libere espaço em disco com segurança
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+pt-BR: Não foi possível copiar o programa. Se o Disk Cleanup Helper instalado estiver aberto, feche-o primeiro e tente de novo.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+pt-BR: O Disk Cleanup Helper está instalado.<br><br>Abra-o pelo menu Iniciar ou pelo atalho da área de trabalho chamado Disk Cleanup Helper.<br><br>Para removê-lo depois: Configurações > Aplicativos > Disk Cleanup Helper > Desinstalar.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+pt-BR: O tamanho mostrado é o da Lixeira na unidade do Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+pt-BR: Esvazia a Lixeira em todas as unidades. Nada do que estiver nela poderá mais ser restaurado.
+en: $Recycle.Bin on every drive
+pt-BR: $Recycle.Bin em todas as unidades
+en: Turn off hibernation
+pt-BR: Desativar a hibernação
+en: Sleep still works normally.
+pt-BR: Suspender continua funcionando normalmente.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+pt-BR: Remove o arquivo de hibernação, que costuma ter vários GB. Hibernar e a Inicialização rápida deixam de funcionar, então o PC inicia alguns segundos mais devagar.
+en: PC starts a few seconds slower
+pt-BR: O PC inicia alguns segundos mais devagar
+en: Files in it are gone for good
+pt-BR: Os arquivos nela somem para sempre
+en: Crash dump files
+pt-BR: Arquivos de despejo de falhas
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+pt-BR: Suas configurações e projetos ficam. O IDE reindexa os projetos na próxima vez que você os abrir. Feche os IDEs da JetBrains primeiro.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+pt-BR: Caches do IntelliJ IDEA, PyCharm, WebStorm, Rider e outros IDEs da JetBrains.
+en: Only needed to investigate crashes
+pt-BR: Só servem para investigar falhas
+en: Recycle Bin (all drives)
+pt-BR: Lixeira (todas as unidades)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+pt-BR: Mantenha-os se alguém estiver investigando por que o PC trava. Caso contrário, podem ser excluídos com segurança.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+pt-BR: Arquivos que o Windows grava após uma tela azul ou um problema no driver de vídeo. Só o MEMORY.DMP pode ter vários GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+pt-BR: Para desfazer depois, execute isto em um Prompt de Comando como administrador:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+pt-BR: Desativar devolve esse espaço, mas se o disco ficar cheio, as atualizações do Windows podem falhar. Só faça isso se você mantiver espaço livre suficiente.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+pt-BR: O Windows separa cerca de 7 GB para que as atualizações sempre tenham espaço para serem instaladas.
+en: already off
+pt-BR: já desativado
+en: about 2-4 GB
+pt-BR: cerca de 2-4 GB
+en: Windows setting (Reserved Storage)
+pt-BR: Configuração do Windows (Armazenamento reservado)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+pt-BR: Para desfazer depois, execute isto em um Prompt de Comando como administrador:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+pt-BR: hiberfil.sys é um arquivo oculto do Windows. Não há nada para abrir.
+en: Updates may fail when the disk is full
+pt-BR: Atualizações podem falhar com o disco cheio
+en: Turn off Reserved Storage
+pt-BR: Desativar o Armazenamento reservado
+en: about 7 GB
+pt-BR: cerca de 7 GB
+en: IDE re-indexes your projects
+pt-BR: O IDE reindexa seus projetos
+en: Spotify cache and downloads
+pt-BR: Cache e downloads do Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+pt-BR: O state.vscdb na mesma pasta guarda seus chats, login e configurações. Esta ferramenta nunca mexe nele.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+pt-BR: Dados de trabalho do agente de IA do Cursor. Podem incluir histórico antigo de chats do agente.
+en: Downloaded songs must be downloaded again
+pt-BR: Músicas baixadas terão de ser baixadas de novo
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+pt-BR: Sua conta e playlists estão seguras, mas as músicas que você baixou para ouvir offline terão de ser baixadas de novo.
+en: Spotify keeps played and downloaded music here.
+pt-BR: O Spotify guarda aqui as músicas tocadas e baixadas.
+en: {0} and Data
+pt-BR: {0} e Data
+en: May hold old agent chat history
+pt-BR: Pode conter histórico antigo de chats do agente
+en: Cursor: AI agent snapshots
+pt-BR: Cursor: snapshots do agente de IA
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+pt-BR: Só são excluídas as pastas sem alteração há 60 dias. Os arquivos dos seus projetos nunca são tocados.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+pt-BR: Cada pasta guarda o que o VS Code lembra sobre um projeto: guias abertas, layout e histórico de chats de IA desse projeto.
+en: Cannot undo older AI edits
+pt-BR: Não dá para desfazer edições antigas da IA
+en: Cursor: AI agent data
+pt-BR: Cursor: dados do agente de IA
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+pt-BR: Você não poderá mais reverter alterações antigas da IA. O Cursor cria novas cópias quando você usar o agente de novo.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+pt-BR: Cópias dos seus projetos que o agente de IA do Cursor usa para desfazer suas edições.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+pt-BR: O próximo build precisa de internet e demora mais enquanto o Gradle os baixa de novo. Feche o Android Studio e outros IDEs Java primeiro.
+en: Downloaded libraries and build files for Java and Android projects.
+pt-BR: Bibliotecas baixadas e arquivos de build de projetos Java e Android.
+en: Next build downloads everything again
+pt-BR: O próximo build baixa tudo de novo
+en: Maven repository
+pt-BR: Repositório do Maven
+en: JetBrains IDE caches and logs
+pt-BR: Caches e logs dos IDEs da JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+pt-BR: O próximo build precisa de internet e demora mais enquanto o Maven os baixa de novo. Bibliotecas que você mesmo instalou com "mvn install" precisariam ser instaladas de novo.
+en: Downloaded Java libraries.
+pt-BR: Bibliotecas Java baixadas.
+en: Gradle caches
+pt-BR: Caches do Gradle
+en: Adobe media cache (Premiere, After Effects)
+pt-BR: Cache de mídia da Adobe (Premiere, After Effects)
+en: Close Spotify first.
+pt-BR: Feche o Spotify primeiro.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+pt-BR: Dica: nas configurações do Spotify você também pode definir um cache menor ou movê-lo para outra unidade.
+en: Video previews are rebuilt
+pt-BR: As prévias de vídeo são recriadas
+en: Close Adobe apps first.
+pt-BR: Feche os aplicativos da Adobe primeiro.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+pt-BR: Seus projetos e vídeos não são tocados. Abrir um projeto pela primeira vez depois disso é mais lento enquanto as prévias são recriadas.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+pt-BR: Arquivos de prévia e de áudio que os aplicativos de vídeo da Adobe criam. Eles podem chegar a muitos GB.
+en: Compress Windows files (CompactOS)
+pt-BR: Compactar arquivos do Windows (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+pt-BR: Em um disco rígido mais lento, o Docker roda mais devagar.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+pt-BR: Para liberar espaço nesta unidade, mova-o: Docker Desktop > Settings (engrenagem) > Resources > Advanced > Disk image location > escolha uma pasta em outra unidade > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+pt-BR: Cuidado com "docker volume prune" e "docker system prune --volumes": eles excluem volumes, que podem conter bancos de dados.
+en: Linux (WSL) disks
+pt-BR: Discos do Linux (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+pt-BR: Se você não usa algum: Configurações > Aplicativos > encontre-o > Desinstalar. Isso exclui tudo o que há dentro dele.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+pt-BR: Cada sistema Linux do WSL (por exemplo, Ubuntu) guarda todos os seus arquivos em um único arquivo de disco.
+en: Disk files of your WSL Linux systems
+pt-BR: Arquivos de disco dos seus sistemas Linux do WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+pt-BR: Guarda todos os contêineres, imagens e volumes do Docker. Nunca exclua este arquivo.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+pt-BR: Para liberar espaço: "Abrir local" > escolha a unidade > Configurar > diminua o controle "Uso Máximo" ou clique em Excluir para remover todos eles.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+pt-BR: Os pontos de restauração permitem desfazer alterações no sistema. O Windows pode usar vários GB para eles.
+en: System Properties > System Protection
+pt-BR: Propriedades do Sistema > Proteção do Sistema
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+pt-BR: Para manter só o mais recente: Limpeza de Disco (cleanmgr) > Limpar arquivos do sistema > Mais Opções > Restauração do Sistema e Cópias de Sombra > Limpar.
+en: Can be moved to another drive
+pt-BR: Pode ser movido para outra unidade
+en: Docker disk (do not delete)
+pt-BR: Disco do Docker (não excluir)
+en: Keep at least one recent restore point if you can.
+pt-BR: Mantenha pelo menos um ponto de restauração recente, se puder.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+pt-BR: - pagefile.sys e swapfile.sys: a memória extra do Windows no disco. Sem ela em quantidade suficiente, os programas travam quando a memória acaba.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+pt-BR: pagefile.sys, swapfile.sys, as pastas do Windows Installer e WinSxS
+en: Never delete by hand
+pt-BR: Nunca exclua manualmente
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+pt-BR: - A pasta do Windows Installer: só remova arquivos com o item "Arquivos de atualização antigos", nunca manualmente.
+en: ({0} files)
+pt-BR: ({0} arquivo) | ({0} arquivos)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+pt-BR: - Pastas de aplicativos que você usa, mesmo que sejam grandes. Excluí-las pode quebrar o aplicativo ou fazer você perder seus dados.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+pt-BR: - A pasta WinSxS: só limpe-a com os itens "Componentes do Windows", nunca manualmente.
+en: Leave these alone
+pt-BR: Não mexa nestes
+en: Your Downloads folder
+pt-BR: Sua pasta Downloads
+en: If that command is not recognised, run  wsl --update  first.
+pt-BR: Se esse comando não for reconhecido, execute  wsl --update  primeiro.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+pt-BR: Para mover um para outra unidade, em um Prompt de Comando:  wsl --shutdown   depois   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+pt-BR: Seus próprios arquivos: você decide
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+pt-BR: Dica: a guia Analisar disco lista seus maiores arquivos em qualquer lugar.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+pt-BR: Abra a pasta, classifique por tamanho (Exibir > Detalhes e clique na coluna Tamanho) e exclua o que você não precisa mais.
+en: Files you downloaded. This tool never deletes them here.
+pt-BR: Arquivos que você baixou. Esta ferramenta nunca os exclui aqui.
+en: Keep at least the newest one
+pt-BR: Mantenha pelo menos o mais recente
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+pt-BR: O Sensor de Armazenamento faz parte do Windows. Ele exclui arquivos temporários e itens antigos da Lixeira automaticamente, para manter o espaço livre.
+en: Settings > System > Storage
+pt-BR: Configurações > Sistema > Armazenamento
+en: Cleans temp files automatically
+pt-BR: Limpa arquivos temporários automaticamente
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+pt-BR: "Abrir local" abre as configurações do Sensor de Armazenamento. Ative-o lá.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+pt-BR: Sobra de uma atualização do Windows. Ela permite voltar à versão anterior por tempo limitado e costuma ter de 10 a 30 GB.
+en: Remove with Windows' own tool
+pt-BR: Remova com a ferramenta do próprio Windows
+en: Previous Windows installation
+pt-BR: Instalação anterior do Windows
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+pt-BR: Recurso da própria Microsoft que guarda os arquivos de sistema do Windows compactados. Costuma liberar de 2 a 4 GB.
+en: Windows system files on {0}
+pt-BR: Arquivos de sistema do Windows em {0}
+en: Built into Windows. Slight CPU cost
+pt-BR: Faz parte do Windows. Pequeno custo de CPU
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+pt-BR: Em PCs muito lentos ou antigos, pode deixar o Windows um pouco mais lento. Na maioria dos PCs você não vai notar.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+pt-BR: Em execução em uma janela própria. Isso pode levar de 10 a 20 minutos. Não feche essa janela.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+pt-BR: Para desfazer depois, execute isto em um Prompt de Comando como administrador:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+pt-BR: É executado em uma janela própria e pode levar de 10 a 20 minutos. Se o Windows já estiver compactado, termina rápido.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+pt-BR: Maiores programas em {0} (estimativa de tamanho do próprio Windows; "?" = pasta de instalação não registrada):
+en: Programs only come off by uninstalling them in Settings > Apps.
+pt-BR: Programas só saem se forem desinstalados em Configurações > Aplicativos.
+en: "Open location" opens Apps & features.
+pt-BR: "Abrir local" abre Aplicativos e recursos.
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+pt-BR: {0} programas instalados em outras unidades não aparecem na lista: removê-los não libera espaço em {1}.
+en: System Restore points
+pt-BR: Pontos de Restauração do Sistema
+en: "{0}" is discontinued and no longer needed.
+pt-BR: "{0}" foi descontinuado e não é mais necessário.
+en: You have {0} Java versions installed. Most people only need the newest one.
+pt-BR: Você tem {0} versões do Java instaladas. A maioria das pessoas só precisa da mais recente.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+pt-BR: Programas só saem se forem desinstalados em Configurações > Aplicativos. Clique em "Medir tamanhos" para listar os maiores aqui.
+en: "Open location" opens the Storage settings.
+pt-BR: "Abrir local" abre as configurações de Armazenamento.
+en: After that you can no longer go back to the previous Windows version.
+pt-BR: Depois disso, você não poderá mais voltar à versão anterior do Windows.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+pt-BR: Remova-a pelo próprio Windows: Configurações > Sistema > Armazenamento > Arquivos temporários > marque "Instalações anteriores do Windows" > Remover arquivos.
+en: see details
+pt-BR: veja os detalhes
+en: Settings > Apps > Apps & features
+pt-BR: Configurações > Aplicativos > Aplicativos e recursos
+en: Uninstall the ones you do not use
+pt-BR: Desinstale os que você não usa
+en: Biggest installed programs
+pt-BR: Maiores programas instalados
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+pt-BR: Arquivos de shader que o Windows e o driver da placa de vídeo salvam para que jogos e aplicativos iniciem mais rápido.
+en: {0} and similar
+pt-BR: {0} e semelhantes
+en: Games may stutter once while they rebuild
+pt-BR: Jogos podem engasgar uma vez durante a recriação
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+pt-BR: Eles são recriados automaticamente. A primeira vez que um jogo abrir depois disso pode engasgar um pouco.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+pt-BR: Arquivos temporários que os programas deixam para trás. Só arquivos com mais de 1 dia são excluídos, para não atrapalhar instalações em andamento.
+en: Files in use are skipped
+pt-BR: Arquivos em uso são ignorados
+en: Your temp files (older than 1 day)
+pt-BR: Seus arquivos temporários (mais de 1 dia)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+pt-BR: Caches gráficos (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+pt-BR: Exclui só as pastas de cache do Discord.
+en: Keeps login and messages
+pt-BR: Mantém login e mensagens
+en: Discord cache
+pt-BR: Cache do Discord
+en: Close Discord first, including its icon near the clock.
+pt-BR: Feche o Discord primeiro, inclusive o ícone perto do relógio.
+en: Close Slack first, including its icon near the clock.
+pt-BR: Feche o Slack primeiro, inclusive o ícone perto do relógio.
+en: Deletes only Slack's cache folders.
+pt-BR: Exclui só as pastas de cache do Slack.
+en: Slack cache
+pt-BR: Cache do Slack
+en: Old problem reports
+pt-BR: Relatórios de problemas antigos
+en: Windows error reports
+pt-BR: Relatórios de erros do Windows
+en: The Windows Update service is stopped for a moment and started again.
+pt-BR: O serviço Windows Update é parado por um momento e iniciado de novo.
+en: {0} and your own WER folder
+pt-BR: {0} e sua própria pasta WER
+en: Recent logs are kept
+pt-BR: Logs recentes são mantidos
+en: Old Windows log files (older than 14 days)
+pt-BR: Arquivos de log antigos do Windows (mais de 14 dias)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+pt-BR: Relatórios que o Windows salvou sobre programas que travaram. Não são necessários depois de enviados ou quando o problema já foi resolvido.
+en: If an update is still waiting to install, Windows downloads it again.
+pt-BR: Se uma atualização ainda estiver esperando para ser instalada, o Windows a baixa de novo.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+pt-BR: Arquivos temporários que o Windows e os instaladores deixam para trás. Só arquivos com mais de 1 dia são excluídos.
+en: Windows temp files (older than 1 day)
+pt-BR: Arquivos temporários do Windows (mais de 1 dia)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+pt-BR: O tamanho mostrado é o da pasta inteira. Os arquivos mais novos ficam, então o espaço liberado pode ser um pouco menor.
+en: Windows Update downloads
+pt-BR: Downloads do Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+pt-BR: Arquivos de atualização que o Windows já baixou. As atualizações instaladas não são afetadas.
+en: {0} and the Delivery Optimization cache
+pt-BR: {0} e o cache da Otimização de Entrega
+en: Installed updates are not affected
+pt-BR: As atualizações instaladas não são afetadas
+en: Close Teams first, including its icon near the clock.
+pt-BR: Feche o Teams primeiro, inclusive o ícone perto do relógio.
+en: Keeps passwords, favorites, logins
+pt-BR: Mantém senhas, favoritos, logins
+en: Microsoft Edge cache
+pt-BR: Cache do Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+pt-BR: Feche todas as janelas do Chrome primeiro. Se houver um ícone do Chrome perto do relógio, clique com o botão direito nele e escolha Sair.
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+pt-BR: Exclui só as pastas de cache do Edge em todos os perfis, além dos caches gráficos dele.
+en: Deletes only Brave's cache folders in every profile.
+pt-BR: Exclui só as pastas de cache do Brave em todos os perfis.
+en: Brave cache
+pt-BR: Cache do Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+pt-BR: O Edge costuma continuar em execução em segundo plano. Se a ferramenta disser que ele ainda está em execução: no Edge, Configurações > Sistema e desempenho > desative "Aumento de inicialização" e "Continuar executando extensões e aplicativos em segundo plano".
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+pt-BR: Exclui só as pastas de cache do Chrome em todos os perfis, além dos caches gráficos dele.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+pt-BR: MANTÉM: senhas, favoritos, histórico, cookies e logins de sites, preenchimento automático, extensões, configurações, aplicativos web instalados.
+en: Could not stop {0}: {1}
+pt-BR: Não foi possível parar {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+pt-BR: As páginas carregam um pouco mais devagar na primeira vez. Muito raramente um site pode pedir que você faça login de novo, e o navegador preenche sua senha salva.
+en: Keeps passwords, bookmarks, logins
+pt-BR: Mantém senhas, favoritos, logins
+en: Google Chrome cache
+pt-BR: Cache do Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+pt-BR: MANTÉM: seu login, mensagens, configurações e arquivos. O aplicativo baixa de novo o que precisar.
+en: Close Opera first.
+pt-BR: Feche o Opera primeiro.
+en: Deletes only Opera's cache folder.
+pt-BR: Exclui só a pasta de cache do Opera.
+en: {0} (and Opera GX)
+pt-BR: {0} (e Opera GX)
+en: Microsoft Teams cache
+pt-BR: Cache do Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+pt-BR: Exclui só as pastas de cache do Teams. A Microsoft recomenda isso quando o Teams está lento ou se comporta de forma estranha.
+en: Teams cache folders (new Teams and classic Teams)
+pt-BR: Pastas de cache do Teams (novo Teams e Teams clássico)
+en: Keeps login, chats, files
+pt-BR: Mantém login, chats, arquivos
+en: Opera cache
+pt-BR: Cache do Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+pt-BR: Exclui só as pastas de cache do Vivaldi em todos os perfis.
+en: Vivaldi cache
+pt-BR: Cache do Vivaldi
+en: Close Brave first.
+pt-BR: Feche o Brave primeiro.
+en: Close Vivaldi first.
+pt-BR: Feche o Vivaldi primeiro.
+en: Close Firefox first.
+pt-BR: Feche o Firefox primeiro.
+en: Deletes only Firefox's cache folder in every profile.
+pt-BR: Exclui só a pasta de cache do Firefox em todos os perfis.
+en: Firefox cache
+pt-BR: Cache do Firefox
+en: {0} and {1}
+pt-BR: {0} e {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+pt-BR: Seguro para esvaziar. O Windows só precisa dele para desinstalar uma atualização avulsa.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+pt-BR: Uma cópia de backup que o Windows mantém para que uma única atualização de programa possa ser removida depois sem o instalador original.
+en: Low risk
+pt-BR: Risco baixo
+en: when run
+pt-BR: ao executar
+en: {0} (Microsoft DISM tool)
+pt-BR: {0} (ferramenta DISM da Microsoft)
+en: Safe, often frees little
+pt-BR: Seguro, muitas vezes libera pouco
+en: Windows components: normal cleanup
+pt-BR: Componentes do Windows: limpeza normal
+en: Windows patch backup cache
+pt-BR: Cache de backup de patches do Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+pt-BR: Os arquivos excluídos ficam listados em deleted-update-files.csv (veja a pasta na guia Sobre).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+pt-BR: Isto exclui só arquivos de atualização que o Windows marca como substituídos por uma atualização mais nova. Mantém os 3 mais novos de cada programa e nunca exclui um arquivo ainda em uso.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+pt-BR: Alguns programas guardam todas as atualizações que já instalaram. O Adobe Acrobat Reader é o caso mais comum, com 0.1 a 0.7 GB por atualização.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+pt-BR: Pequeno risco: se uma futura atualização ou reparo desse programa reclamar de um arquivo ausente, desinstale e reinstale esse programa.
+en: Found on this PC: nothing to remove.
+pt-BR: Encontrado neste PC: nada para remover.
+en: Found on this PC:
+pt-BR: Encontrado neste PC:
+en: Never delete files in the Windows Installer folder by hand.
+pt-BR: Nunca exclua arquivos da pasta do Windows Installer manualmente.
+en: If you tick both Windows components items, only this one runs.
+pt-BR: Se você marcar os dois itens de Componentes do Windows, só este é executado.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+pt-BR: Depois disso, as atualizações do Windows instaladas agora não poderão mais ser desinstaladas. Use só quando o Windows estiver funcionando bem.
+en: Same as the normal cleanup, but also removes every replaced version.
+pt-BR: Igual à limpeza normal, mas também remove todas as versões substituídas.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+pt-BR: É executado em uma janela própria e leva de 5 a 30 minutos. Não feche essa janela nem desligue o PC.
+en: {0} (folders unused for 60+ days)
+pt-BR: {0} (pastas sem uso há 60+ dias)
+en: Lose old projects' tabs, layout, AI chats
+pt-BR: Perde guias, layout e chats de IA de projetos antigos
+en: VS Code: data of projects not opened in 60 days
+pt-BR: VS Code: dados de projetos não abertos há 60 dias
+en: {0} (Microsoft DISM tool, /ResetBase)
+pt-BR: {0} (ferramenta DISM da Microsoft, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+pt-BR: O Windows já faz isso sozinho a cada poucas semanas, então muitas vezes libera muito pouco.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+pt-BR: É executado em uma janela própria e leva de 5 a 30 minutos. Não feche essa janela nem desligue o PC. Em um notebook, conecte o carregador.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+pt-BR: Limpeza da própria Microsoft de versões antigas de partes do Windows. Segura.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+pt-BR: Nunca exclua nada na WinSxS manualmente. Isso quebra o Windows.
+en: Installed updates cannot be uninstalled after
+pt-BR: As atualizações instaladas não podem ser desinstaladas depois
+en: Windows components: deep cleanup
+pt-BR: Componentes do Windows: limpeza profunda
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+pt-BR: Em execução em uma janela própria. Isso pode levar de 5 a 30 minutos. Não feche essa janela.
+en: {0} (files picked from Windows' own records)
+pt-BR: {0} (arquivos escolhidos a partir dos registros do próprio Windows)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+pt-BR: Pacotes .NET baixados. O NuGet os baixa de novo quando necessário.
+en: NuGet download cache
+pt-BR: Cache de downloads do NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+pt-BR: Pacotes Python baixados. O pip os baixa de novo quando necessário.
+en: Go build cache
+pt-BR: Cache de build do Go
+en: Composer cache
+pt-BR: Cache do Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+pt-BR: Arquivos compilados que a linguagem Go guarda para compilar mais rápido. O Go os recria no próximo build.
+en: Rebuilt on the next build
+pt-BR: Recriado no próximo build
+en: pip cache
+pt-BR: Cache do pip
+en: npm cache
+pt-BR: Cache do npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+pt-BR: Só arquivos com mais de 14 dias são excluídos. Os logs recentes ficam, caso algo precise ser corrigido.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+pt-BR: Arquivos de log que o Windows grava ao instalar atualizações. Em alguns PCs eles chegam a vários GB.
+en: Packages download again when needed
+pt-BR: Os pacotes são baixados de novo quando necessário
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+pt-BR: Pacotes Yarn baixados (para desenvolvedores Node.js). O Yarn os baixa de novo quando necessário.
+en: Yarn cache
+pt-BR: Cache do Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+pt-BR: Pacotes npm baixados (para desenvolvedores Node.js). O npm os baixa de novo na próxima vez que um projeto precisar deles.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+pt-BR: Pastas de cache e relatórios de falhas do Cursor. O Cursor os recria.
+en: Keeps settings, chats, login
+pt-BR: Mantém configurações, chats, login
+en: Cursor cache and crash reports
+pt-BR: Cache e relatórios de falhas do Cursor
+en: KEEPS: settings, chats, login and projects.
+pt-BR: MANTÉM: configurações, chats, login e projetos.
+en: Programs stay installed. Small risk
+pt-BR: Os programas continuam instalados. Pequeno risco
+en: Old update files of installed programs (keeps newest 3)
+pt-BR: Arquivos de atualização antigos de programas instalados (mantém os 3 mais novos)
+en: Close Cursor first.
+pt-BR: Feche o Cursor primeiro.
+en: Close VS Code first.
+pt-BR: Feche o VS Code primeiro.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+pt-BR: Pacotes Rust baixados. O Cargo os baixa de novo quando necessário.
+en: Cargo download cache
+pt-BR: Cache de downloads do Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+pt-BR: Pacotes PHP baixados. O Composer os baixa de novo quando necessário.
+en: VS Code cache and crash reports
+pt-BR: Cache e relatórios de falhas do VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+pt-BR: MANTÉM: configurações, extensões, projetos, histórico de projetos e chats.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+pt-BR: Pastas de cache e relatórios de falhas do Visual Studio Code. O VS Code os recria.
+en: Keeps settings, extensions, projects
+pt-BR: Mantém configurações, extensões, projetos
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+pt-BR: Resumo
+en: Transfer rate MB/s   (blue = read, orange = write)
+pt-BR: Taxa de transferência MB/s   (azul = leitura, laranja = gravação)
+en: Disk activity %
+pt-BR: Atividade do disco %
+en: Average transfer rate (since this tab opened)
+pt-BR: Taxa de transferência média (desde que esta guia foi aberta)
+en: Read since Windows started
+pt-BR: Lido desde que o Windows iniciou
+en: Average disk activity
+pt-BR: Atividade média do disco
+en: Highest transfer rate seen
+pt-BR: Maior taxa de transferência vista
+en: now
+pt-BR: agora
+en: READ
+pt-BR: LEITURA
+en: Right now
+pt-BR: Neste momento
+en: Saved today's disk health and temperature reading to the history.
+pt-BR: Leitura de hoje de saúde e temperatura do disco salva no histórico.
+en: WRITE
+pt-BR: GRAVAÇÃO
+en: 2 minutes ago
+pt-BR: há 2 minutos
+en: DISK ACTIVITY
+pt-BR: ATIVIDADE DO DISCO
+en: TOTAL TRANSFER
+pt-BR: TRANSFERÊNCIA TOTAL
+en: Written since Windows started
+pt-BR: Gravado desde que o Windows iniciou
+en: This disk has no drive letter, so the speed test cannot write its test file.
+pt-BR: Este disco não tem letra de unidade, então o teste de velocidade não consegue gravar o arquivo de teste.
+en: Pick a disk first.
+pt-BR: Escolha um disco primeiro.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+pt-BR: Último teste em {0}: gravação {1} MB/s, leitura {2} MB/s, leitura aleatória 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+pt-BR: A unidade {0} precisa de pelo menos 2 GB de espaço livre para o teste de velocidade.
+en: Speed test started on drive {0}.
+pt-BR: Teste de velocidade iniciado na unidade {0}.
+en: Running...
+pt-BR: Executando...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+pt-BR: O teste de velocidade grava um arquivo de teste de {0} MB na unidade {1}, lê de volta e o exclui.<br>Leva cerca de 10 a 60 segundos. Outros programas podem ficar mais lentos nesse tempo.<br><br>Iniciar o teste de velocidade?
+en: not reported by this disk
+pt-BR: não informado por este disco
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+pt-BR: Mede a velocidade real de gravação e leitura do disco: grava um arquivo de teste temporário, lê de volta, depois lê pequenos pedaços aleatórios e exclui o arquivo. Clique em "Testar velocidade" no topo.
+en: Speed test
+pt-BR: Teste de velocidade
+en: Written over the disk's whole life
+pt-BR: Gravado durante toda a vida do disco
+en: Not run yet.
+pt-BR: Ainda não executado.
+en: Disk {0}: {1}
+pt-BR: Disco {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+pt-BR: Os contadores de atividade de disco do Windows não estão disponíveis neste PC: {0}
+en: Getting disk activity ready...
+pt-BR: Preparando a atividade do disco...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+pt-BR: Na primeira vez, o Windows pode levar alguns segundos para iniciar os contadores de atividade de disco.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+pt-BR: Para comparar: discos rígidos de notebook chegam a cerca de 80 a 140 MB/s, SSDs SATA a cerca de 500 MB/s e SSDs NVMe a 1500 a 7000 MB/s.
+en: Raw value
+pt-BR: Valor bruto
+en: Unexpected power losses
+pt-BR: Quedas de energia inesperadas
+en: Spare space left
+pt-BR: Espaço reserva restante
+en: Rated write life used
+pt-BR: Vida útil de gravação usada
+en: ✓ No problems found.
+pt-BR: ✓ Nenhum problema encontrado.
+en: From Windows' storage information.
+pt-BR: Das informações de armazenamento do Windows.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+pt-BR: Lido do próprio registro de saúde do SSD (NVMe). A lista completa está na guia Detalhes SMART.
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+pt-BR: Lido dos próprios dados de automonitoramento do disco (SMART). A lista completa está na guia Detalhes SMART.
+en: Data read over its life
+pt-BR: Dados lidos durante a vida útil
+en: Powered on
+pt-BR: Tempo ligado
+en: TEMPERATURE
+pt-BR: TEMPERATURA
+en: needs admin
+pt-BR: precisa de admin
+en: {0} hours  (about {1} days)
+pt-BR: {0} horas  (cerca de {1} dias)
+en: Data written over its life
+pt-BR: Dados gravados durante a vida útil
+en: {0} times
+pt-BR: {0} vezes
+en: Turned on
+pt-BR: Ligado
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+pt-BR: Este disco não compartilha dados detalhados de saúde com o Windows (comum em gavetas USB e RAID).
+en: No.
+pt-BR: Nº
+en: Status
+pt-BR: =
+en: Value
+pt-BR: Valor
+en: Attribute
+pt-BR: Atributo
+en: Data
+pt-BR: Dados
+en: Worst
+pt-BR: Pior
+en: Threshold
+pt-BR: Limite
+en: Item
+pt-BR: =
+en: Temperature history
+pt-BR: Histórico de temperatura
+en: Health history
+pt-BR: Histórico de saúde
+en: Start the tool with admin rights to read health and temperature.
+pt-BR: Inicie a ferramenta com direitos de administrador para ler a saúde e a temperatura.
+en: No readings saved yet.
+pt-BR: Nenhuma leitura salva ainda.
+en: Offset
+pt-BR: Posição
+en: {0} readings since {1}.
+pt-BR: {0} leituras desde {1}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+pt-BR: 1 leitura até agora, em {0}. Os gráficos crescem conforme mais leituras são salvas.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+pt-BR: Gravação {0:N0} MB/s     Leitura {1:N0} MB/s     Leitura aleatória 4K {2:N1} MB/s ({3:N0} por segundo)
+en: This item has no folder to open.
+pt-BR: Este item não tem pasta para abrir.
+en: Stopping...
+pt-BR: Parando...
+en: Could not open the read me: {0}
+pt-BR: Não foi possível abrir o Leia-me: {0}
+en: Pick a drive first.
+pt-BR: Escolha uma unidade primeiro.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+pt-BR: Isto precisa de direitos de administrador. Inicie a ferramenta de novo e clique em Sim no aviso do Windows.
+en: Select a file in the list first.
+pt-BR: Selecione um arquivo na lista primeiro.
+en: Scan a drive first.
+pt-BR: Verifique uma unidade primeiro.
+en: No questions match your search.
+pt-BR: Nenhuma pergunta corresponde à sua pesquisa.
+en: Simple habits that keep your disk from filling up and your PC running well.
+pt-BR: Hábitos simples que evitam que o disco encha e mantêm o PC funcionando bem.
+en: Tips
+pt-BR: Dicas
+en: SAFETY
+pt-BR: SEGURANÇA
+en: How Disk Cleanup Helper keeps you safe
+pt-BR: Como o Disk Cleanup Helper protege você
+en: Search the questions, for example "temperature"
+pt-BR: Pesquise nas perguntas, por exemplo "temperatura"
+en: Click a question to see the answer.
+pt-BR: Clique em uma pergunta para ver a resposta.
+en: Frequently asked questions
+pt-BR: Perguntas frequentes
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+pt-BR: A verificação de erros do próprio Windows em {0} foi iniciada em uma janela própria. Ela só lê a unidade e leva alguns minutos. Veja o resultado nessa janela.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+pt-BR: Só os itens encontrados neste PC são listados. Clique em "Medir tamanhos" para ver quanto cada um ocupa. Nada é excluído até você confirmar.
+en: Not running as administrator. Items marked Admin are disabled.
+pt-BR: Não está sendo executado como administrador. Os itens marcados como Admin estão desativados.
+en: Running as administrator. All items are available.
+pt-BR: Executando como administrador. Todos os itens estão disponíveis.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+pt-BR: Dica: a guia Sobre pode instalá-lo, para que ele apareça no menu Iniciar.
+en: Saved a health and temperature reading for {0} disks to the history.
+pt-BR: Leitura de saúde e temperatura de {0} disco salva no histórico. | Leitura de saúde e temperatura de {0} discos salva no histórico.
+en: {0} files were in use and were skipped.
+pt-BR: {0} arquivo estava em uso e foi ignorado. | {0} arquivos estavam em uso e foram ignorados.
+en: {0} items
+pt-BR: {0} item | {0} itens
+en: My user folder only
+pt-BR: Só minha pasta de usuário
+en: Install: not installed
+pt-BR: Instalação: não instalado
+en: Install: installed in {0}
+pt-BR: Instalação: instalado em {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+pt-BR: Nenhuma leitura foi salva ainda.<br><br>O histórico será salvo em:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+pt-BR: Nenhuma limpeza foi executada ainda.<br><br>O histórico será salvo em:<br>{0}
+en: Whole drive
+pt-BR: Unidade inteira
+en: Could not open System Information: {0}
+pt-BR: Não foi possível abrir as Informações do Sistema: {0}
+en: Could not open dxdiag: {0}
+pt-BR: Não foi possível abrir o dxdiag: {0}
+en: SPEED
+pt-BR: VELOCIDADE
+en: Wait until the details have been read.
+pt-BR: Aguarde até que os detalhes sejam lidos.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+pt-BR: Lido em {0}. Fica neste PC, a menos que você copie ou salve.
+en: Could not read the device details: {0}
+pt-BR: Não foi possível ler os detalhes do dispositivo: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+pt-BR: Detalhes do dispositivo copiados. Cole onde precisar, por exemplo em uma mensagem para alguém que ajuda você.
+en: Text file
+pt-BR: Arquivo de texto
+en: Save the device details
+pt-BR: Salvar os detalhes do dispositivo
+en: Could not copy: {0}
+pt-BR: Não foi possível copiar: {0}
+en: Reading...
+pt-BR: Lendo...
+en: Speed test: {0}
+pt-BR: Teste de velocidade: {0}
+en: Speed test finished.
+pt-BR: Teste de velocidade concluído.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+pt-BR: Testado com um arquivo de {0} MB em {1}. O resultado fica salvo para você comparar depois.
+en: Speed test stopped. The test file was deleted.
+pt-BR: Teste de velocidade interrompido. O arquivo de teste foi excluído.
+en: Reading this PC's details...
+pt-BR: Lendo os detalhes deste PC...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+pt-BR: Coletando detalhes do Windows, do processador, da memória, dos gráficos e mais. Isso leva alguns segundos.
+en: The speed test could not finish. See the log below.
+pt-BR: O teste de velocidade não pôde ser concluído. Veja o log abaixo.
+en: Stopped.
+pt-BR: Parado.
+en: Saved the device details to {0}
+pt-BR: Detalhes do dispositivo salvos em {0}
+en: Philip Droubi | Software Engineer
+pt-BR: Philip Droubi | Engenheiro de Software
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+pt-BR: Engenheiro de Software. Perguntas, ideias ou sugestões sobre o Disk Cleanup Helper são bem-vindas.
+en: Made by Philip Droubi
+pt-BR: Feito por Philip Droubi
+en: Philip Droubi is a Software Engineer.
+pt-BR: Philip Droubi é Engenheiro de Software.
+en: SPACE
+pt-BR: ESPAÇO
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+pt-BR: Engenheiro de Software. Conecte-se com Philip Droubi no LinkedIn.
+en: Source code on GitHub
+pt-BR: Código-fonte no GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+pt-BR: Livre e de código aberto sob a GNU GPL v3: use, modifique e compartilhe. As cópias mantêm os créditos a Philip Droubi.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+pt-BR: © {0} Philip Droubi. Software livre: você pode usá-lo, modificá-lo e compartilhá-lo sob a GNU General Public License v3 com os termos adicionais descritos em NOTICE. Ele é fornecido sem nenhuma garantia.
+en: License and terms
+pt-BR: Licença e termos
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+pt-BR: Esta cópia ({0}) não é a que está instalada neste PC. Atualize a cópia instalada para que o menu Iniciar abra esta versão.
+en: Repair shortcuts
+pt-BR: Reparar atalhos
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+pt-BR: Instalado em {0}. Abra-o quando quiser pelo menu Iniciar ou pelo atalho da área de trabalho. Para removê-lo: clique em Desinstalar ou use Configurações > Aplicativos > Disk Cleanup Helper.
+en: Could not save the file: {0}
+pt-BR: Não foi possível salvar o arquivo: {0}
+en: Update installed copy
+pt-BR: Atualizar cópia instalada
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+pt-BR: Mantenha o Disk Cleanup Helper neste PC: instale-o para abri-lo pelo menu Iniciar e pela área de trabalho. Não precisa de direitos de administrador.
+en: Install on this PC
+pt-BR: Instalar neste PC
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+pt-BR: Não instalado. Você está executando a partir de {0}. A instalação adiciona uma entrada no menu Iniciar, um atalho na área de trabalho e uma entrada em Configurações > Aplicativos, para que ele possa ser removido como qualquer programa. Não são necessários direitos de administrador.
+en: not reported
+pt-BR: não informado
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+pt-BR: Esta ferramenta nunca exclui este item. Use "Abrir local" e siga os passos acima.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+pt-BR: Precisa de direitos de administrador. Inicie a ferramenta de novo e clique em Sim no aviso do Windows para usar este item.
+en: Close first: {0}
+pt-BR: Feche primeiro: {0}
+en: Measure anyway?
+pt-BR: Medir assim mesmo?
+en: Measuring stopped.
+pt-BR: Medição interrompida.
+en: Measuring {0} of {1}: {2}
+pt-BR: Medindo {0} de {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+pt-BR: Medindo tamanhos. Isso pode levar um ou dois minutos. Clique em Parar para parar.
+en: Where
+pt-BR: Onde
+en: Problem: {0}
+pt-BR: Problema: {0}
+en: Clean selected ({0})
+pt-BR: Limpar selecionados ({0})
+en: up to {0}
+pt-BR: até {0}
+en: Close {0} first
+pt-BR: Feche {0} primeiro
+en: Size: not measured yet
+pt-BR: Tamanho: ainda não medido
+en: Size: {0}
+pt-BR: Tamanho: {0}
+en: Admin
+pt-BR: =
+en: Done. Select what you want to clean.
+pt-BR: Pronto. Selecione o que você quer limpar.
+en: Cleanup started. Free space on {0}: {1}
+pt-BR: Limpeza iniciada. Espaço livre em {0}: {1}
+en: Confirm cleanup
+pt-BR: Confirmar limpeza
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+pt-BR: Estes itens serão limpos. Os arquivos excluídos não vão para a Lixeira e não podem ser restaurados:<br><br>{0}<br><br>Continuar?
+en: Stopped. Not cleaned: {0}
+pt-BR: Interrompido. Não limpo: {0}
+en: Error: {0}
+pt-BR: Erro: {0}
+en: Cleaning: {0}
+pt-BR: Limpando: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+pt-BR: Tudo pronto. O espaço livre em {0} aumentou {1}. Agora há {2} livres.
+en: Clean anyway?
+pt-BR: Limpar assim mesmo?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+pt-BR: Dica: alguns aplicativos continuam rodando perto do relógio. Clique com o botão direito no ícone deles ali e escolha Sair ou Fechar.
+en: Select at least one item first.
+pt-BR: Selecione pelo menos um item primeiro.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+pt-BR: Pronto. Clique em um item para ler sobre ele, selecione o que quiser e clique em "Limpar selecionados".
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+pt-BR: O Edge costuma rodar em segundo plano: no Edge, Configurações > Sistema e desempenho > desative o Aumento de inicialização e os aplicativos em segundo plano.
+en: Nothing left to clean. Close the programs and try again.
+pt-BR: Não sobrou nada para limpar. Feche os programas e tente de novo.
+en: Close programs first
+pt-BR: Feche os programas primeiro
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+pt-BR: Estes programas ainda estão abertos:<br><br>{0}<br><br>{1}<br><br>Clique em Não, feche-os e clique em Limpar selecionados de novo.<br>Ou clique em Sim para pular os itens que precisam deles e limpar o resto.
+en: Clean selected
+pt-BR: Limpar selecionados
+en: Switches that free space or keep it free.
+pt-BR: Opções que liberam espaço ou o mantêm livre.
+en: Windows settings
+pt-BR: Configurações do Windows
+en: YOUR CALL
+pt-BR: VOCÊ DECIDE
+en: SETTING
+pt-BR: CONFIGURAÇÃO
+en: INFO ONLY
+pt-BR: SÓ INFORMAÇÃO
+en: The tool only shows and opens these. It never deletes them.
+pt-BR: A ferramenta só mostra e abre estes itens. Nunca os exclui.
+en: Do it yourself
+pt-BR: Faça você mesmo
+en: You lose something small. Read each one before you select it.
+pt-BR: Você perde algo pequeno. Leia cada um antes de selecioná-lo.
+en: SAFE
+pt-BR: SEGURO
+en: TOTAL
+pt-BR: TOTAL
+en: {0} selected
+pt-BR: {0} selecionado | {0} selecionados
+en: Caches and temp files. Programs rebuild them by themselves.
+pt-BR: Caches e arquivos temporários. Os programas os recriam sozinhos.
+en: Safe to clean
+pt-BR: Seguro para limpar
+en: Old installer files and Windows cleanup
+pt-BR: Arquivos de instalação antigos e limpeza do Windows
+en: Your call
+pt-BR: Você decide
+en: ADMIN
+pt-BR: =
+en: Needs admin rights. Read each one before you select it.
+pt-BR: Precisa de direitos de administrador. Leia cada um antes de selecioná-lo.
+en: Language
+pt-BR: Idioma
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+pt-BR: Seu PC está com pouca memória agora:<br><br>  Memória disponível: {0:N1} GB<br>  Espaço restante incluindo o arquivo de paginação: {1:N1} GB<br><br>Ficar sem memória pode fazer os programas travarem e, em alguns PCs, causar uma tela azul.<br>Feche os programas de que você não precisa (navegadores, editores, jogos) e tente de novo.
+en: Switched to the light theme.
+pt-BR: Tema claro ativado.
+en: Switched to the dark theme.
+pt-BR: Tema escuro ativado.
+en: Low memory
+pt-BR: Pouca memória
+en: nothing selected
+pt-BR: nada selecionado
+en: low: close some programs
+pt-BR: baixa: feche alguns programas
+en: of {0} GB
+pt-BR: de {0} GB
+en: Switch to the dark theme
+pt-BR: Mudar para o tema escuro
+en: Please wait until the current task finishes, or click Stop.
+pt-BR: Aguarde até a tarefa atual terminar ou clique em Parar.
+en: Scan {0} for errors
+pt-BR: Verificar erros em {0}
+en: {0} FREE (WINDOWS DRIVE)
+pt-BR: {0} LIVRES (UNIDADE DO WINDOWS)
+en: Could not restart the app: {0}
+pt-BR: Não foi possível reiniciar o aplicativo: {0}
+en: Switch to the light theme
+pt-BR: Mudar para o tema claro
+en: DARK MODE
+pt-BR: MODO ESCURO
+en: LIGHT MODE
+pt-BR: MODO CLARO
+en: Removed {0}. Left: {1}.
+pt-BR: Removido: {0}. Restante: {1}.
+en: Storage Spaces
+pt-BR: Espaços de Armazenamento
+en: Virtual
+pt-BR: =
+en: Disk
+pt-BR: Disco
+en: Too hot
+pt-BR: Muito quente
+en: Could not read disks: {0}
+pt-BR: Não foi possível ler os discos: {0}
+en: Normal
+pt-BR: =
+en: Warm
+pt-BR: Morno
+en: Poor
+pt-BR: Ruim
+en: Healthy
+pt-BR: Saudável
+en: Unknown
+pt-BR: Desconhecido
+en: Windows: problem
+pt-BR: Windows: problema
+en: Warning
+pt-BR: Aviso
+en: Fair
+pt-BR: Regular
+en: Good
+pt-BR: Bom
+en: Problem
+pt-BR: Problema
+en: Checking disks...
+pt-BR: Verificando discos...
+en: Reading each disk's health and temperature. This takes a few seconds.
+pt-BR: Lendo a saúde e a temperatura de cada disco. Isso leva alguns segundos.
+en: Waiting for the current task to finish. The disks are checked right after that.
+pt-BR: Aguardando a tarefa atual terminar. Os discos são verificados logo em seguida.
+en: (health {0}%)
+pt-BR: (saúde {0}%)
+en: SMART attributes
+pt-BR: Atributos SMART
+en: NVMe health log
+pt-BR: Registro de saúde NVMe
+en: {0}% used
+pt-BR: {0}% usado
+en: HEALTH
+pt-BR: SAÚDE
+en: Almost full: Windows and apps slow down when a drive is this full.
+pt-BR: Quase cheia: o Windows e os aplicativos ficam lentos quando uma unidade está tão cheia.
+en: {0} free of {1}
+pt-BR: {0} livres de {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+pt-BR: Inicie a ferramenta com direitos de administrador para ler os dados SMART dos discos.
+en: Windows did not report any disks.
+pt-BR: O Windows não informou nenhum disco.
+en: Disks
+pt-BR: Discos
+en: Drives
+pt-BR: Unidades
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+pt-BR: A saúde % é a estimativa deste aplicativo com base nos dados de cada disco. Outras ferramentas usam suas próprias fórmulas, então os números delas podem variar um pouco. Uma leitura é salva cada vez que você abre esta guia ou inicia o aplicativo (no máximo a cada 30 minutos), para você acompanhar a saúde e a temperatura ao longo do tempo.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+pt-BR: Nenhum dos discos compartilha dados SMART com o Windows. Isso é comum em gavetas USB e RAID.
+en: Disk check finished.
+pt-BR: Verificação dos discos concluída.
+en: A disk reports a problem. Back up your important files now.
+pt-BR: Um disco informa um problema. Faça backup dos seus arquivos importantes agora.
+en: Windows: warning
+pt-BR: Windows: aviso
+en: Stopped. Results are incomplete.
+pt-BR: Interrompido. Os resultados estão incompletos.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+pt-BR: Verificando... {0:N0} pastas e {1:N0} arquivos até agora
+en: Scanning {0}. Click Stop to stop.
+pt-BR: Verificando {0}. Clique em Parar para parar.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+pt-BR: Verificação interrompida. Os maiores arquivos encontrados até agora estão listados. Os tamanhos das pastas só aparecem em uma verificação concluída.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+pt-BR: Observação: a pasta Windows pode parecer maior do que realmente é, porque o Windows mantém alguns arquivos em dois lugares ao mesmo tempo.
+en: {0:N0} folders could not be read (Windows protects them).
+pt-BR: {0:N0} pastas não puderam ser lidas (o Windows as protege).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+pt-BR: Concluído em {0:N0} s: {1:N0} pastas, {2:N0} arquivos.
+en: Scanning {0} ...
+pt-BR: Verificando {0} ...
+en: (files directly in this folder)
+pt-BR: (arquivos diretamente nesta pasta)
+en: Scan a drive to see its biggest folders.
+pt-BR: Verifique uma unidade para ver as maiores pastas dela.
+en: Free space on {0} grew by {1}.
+pt-BR: O espaço livre em {0} aumentou {1}.
+en: Biggest files
+pt-BR: Maiores arquivos
+en: Scan anyway?
+pt-BR: Verificar assim mesmo?
+en: That drive or folder is not available.
+pt-BR: Essa unidade ou pasta não está disponível.
+en: Biggest files ({0} found)
+pt-BR: Maiores arquivos ({0} encontrados)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+pt-BR: Selecione um ou mais arquivos na lista primeiro. Segure Ctrl para selecionar vários.
+en: Could not remove {0}: {1}
+pt-BR: Não foi possível remover {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+pt-BR: Movido para a Lixeira: {0} ({1})
+en: Deleted file: {0} ({1})
+pt-BR: Arquivo excluído: {0} ({1})
+en: Files deleted: {0}.
+pt-BR: Arquivos excluídos: {0}.
+en: Windows: OK
+pt-BR: =
+en: {0} could not be removed (in use or protected).
+pt-BR: Não foi possível remover {0} (em uso ou com proteção).
+en: Files moved to the Recycle Bin: {0}.
+pt-BR: Arquivos movidos para a Lixeira: {0}.
+en: Move to Recycle Bin
+pt-BR: Mover para a Lixeira
+en: They will be deleted permanently and cannot be restored.
+pt-BR: Eles serão excluídos permanentemente e não poderão ser restaurados.
+en: ... and {0} more
+pt-BR: ... e mais {0}
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+pt-BR: Estes são arquivos do Windows, de programas ou do sistema e estão protegidos:<br><br>{0}<br><br>Desinstale o programa ou use a guia Limpeza.
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+pt-BR: Eles irão para a Lixeira. O espaço só é liberado depois que você esvaziar a Lixeira.
+en: Delete permanently
+pt-BR: Excluir permanentemente
+en: Make sure you do not need them. Continue?
+pt-BR: Certifique-se de que não precisa deles. Continuar?
+en: Files: {0}, {1} in total.
+pt-BR: Arquivos: {0}, {1} no total.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+pt-BR: Verificar discos de novo
+en: Disk health
+pt-BR: Saúde do disco
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+pt-BR: Segure Ctrl para selecionar vários arquivos. Os arquivos do Windows e de programas estão protegidos e não podem ser excluídos aqui.
+en: Scan for errors
+pt-BR: Verificar erros
+en: Open history file
+pt-BR: Abrir arquivo de histórico
+en: Windows storage settings
+pt-BR: Configurações de armazenamento do Windows
+en: Optimize drives
+pt-BR: Otimizar unidades
+en: Modified
+pt-BR: Modificado
+en: Up
+pt-BR: Subir
+en: Biggest folders
+pt-BR: Maiores pastas
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+pt-BR: Escolha uma unidade e clique em Verificar. Uma unidade inteira pode levar alguns minutos.
+en: Folder
+pt-BR: Pasta
+en: File
+pt-BR: Arquivo
+en: Double-click a folder to look inside.
+pt-BR: Clique duas vezes em uma pasta para ver o conteúdo.
+en: Open in File Explorer
+pt-BR: Abrir no Explorador de Arquivos
+en: SMART details
+pt-BR: Detalhes SMART
+en: About
+pt-BR: Sobre
+en: Tips & FAQ
+pt-BR: Dicas e FAQ
+en: System Information
+pt-BR: Informações do Sistema
+en: Read me
+pt-BR: Leia-me
+en: Cleanup history
+pt-BR: Histórico de limpeza
+en: Uninstall
+pt-BR: Desinstalar
+en: DirectX Diagnostic (dxdiag)
+pt-BR: Diagnóstico do DirectX (dxdiag)
+en: Run speed test
+pt-BR: Testar velocidade
+en: Disk performance
+pt-BR: Desempenho do disco
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+pt-BR: Os dados brutos que cada disco informa sobre si mesmo. "Atenção" significa que vale ficar de olho. "Falhando" significa abaixo do limite de segurança do próprio disco.
+en: Live activity updates every second while this tab is open.
+pt-BR: A atividade ao vivo é atualizada a cada segundo enquanto esta guia está aberta.
+en: Save as text file
+pt-BR: Salvar como arquivo de texto
+en: Copy all
+pt-BR: Copiar tudo
+en: Read again
+pt-BR: Ler novamente
+en: Scan
+pt-BR: Verificar
+en: English
+pt-BR: =
+en: 0 items
+pt-BR: 0 itens
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+pt-BR: Não está sendo executado como administrador, então os itens marcados como Admin estão desativados. Para usá-los, feche esta janela, inicie de novo e clique em Sim no aviso do Windows.
+en: Measure sizes
+pt-BR: Medir tamanhos
+en: Clean up
+pt-BR: Limpeza
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+pt-BR: Veja o que ocupa seus discos e libere espaço com segurança. Nada é excluído até você confirmar.
+en: Disk Cleanup Helper
+pt-BR: =
+en: C: FREE
+pt-BR: C: LIVRE
+en: SELECTED TO CLEAN
+pt-BR: SELECIONADO PARA LIMPAR
+en: MEMORY AVAILABLE
+pt-BR: MEMÓRIA DISPONÍVEL
+en: Stop
+pt-BR: Parar
+en: Analyze disk
+pt-BR: Analisar disco
+en: Open location
+pt-BR: Abrir local
+en: Drive
+pt-BR: Unidade
+en: List files bigger than
+pt-BR: Listar arquivos maiores que
+en: Look in
+pt-BR: Procurar em
+en: Clear selection
+pt-BR: Limpar seleção
+en: Select all safe
+pt-BR: Selecionar seguros
+en: Click Measure sizes to see how much each item uses.
+pt-BR: Clique em Medir tamanhos para ver quanto cada item ocupa.
+en: to see what it is, where it is, and what you keep or lose.
+pt-BR: para ver o que é, onde fica e o que você mantém ou perde.
+en: Click an item
+pt-BR: Clique em um item
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+pt-BR: Falha ao gravar o arquivo de teste. A unidade está cheia?
+en: Reading it back...
+pt-BR: Lendo de volta...
+en: Writing a {0} MB test file...
+pt-BR: Gravando um arquivo de teste de {0} MB...
+en: Could not create the test file in {0}.
+pt-BR: Não foi possível criar o arquivo de teste em {0}.
+en: Could not open the test file.
+pt-BR: Não foi possível abrir o arquivo de teste.
+en: Not enough memory for the speed test.
+pt-BR: Memória insuficiente para o teste de velocidade.
+en: Reading small random blocks...
+pt-BR: Lendo pequenos blocos aleatórios...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+pt-BR: O Disk Cleanup Helper precisa do Windows 10 ou Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+pt-BR: O Disk Cleanup Helper não pôde ser iniciado:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+pt-BR: Algo deu errado:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+pt-BR: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+pt-BR: Como funcionam as atualizações?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+pt-BR: Quando sai uma nova versão, o aplicativo a baixa em segundo plano e a verifica: o SHA256 e o número de versão dela precisam corresponder aos da publicação. Depois, uma barra oferece "Reiniciar agora". Se você escolher "Mais tarde", a atualização é instalada quando você fechar o aplicativo. Você pode desativar a verificação automática na guia Sobre; o botão "Verificar se há atualizações" de lá continua funcionando.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+pt-BR: Não. Ele não envia nada sobre o seu PC. A única conexão que ele faz é para perguntar ao GitHub se existe uma nova versão, no máximo uma vez por dia. Você pode desativar isso na guia Sobre.
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+pt-BR: Ele não envia nada sobre o seu PC. Ele só pergunta ao GitHub se existe uma nova versão, e você pode desativar isso na guia Sobre. Um histórico do que foi limpo é salvo somente neste PC.
+en: Update check: version {0} is the newest.
+pt-BR: Verificação de atualizações: a versão {0} é a mais recente.
+en: Downloading version {0}... {1}%
+pt-BR: Baixando a versão {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+pt-BR: A versão {0} está disponível. Esta é uma versão de desenvolvimento, então ela não se atualiza sozinha.
+en: Update check: version {0} is available.
+pt-BR: Verificação de atualizações: a versão {0} está disponível.
+en: Downloading version {0}...
+pt-BR: Baixando a versão {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+pt-BR: A atualização não pode ser instalada aqui, porque esta pasta não pode ser alterada: {0}
+en: The update was not downloaded: {0}
+pt-BR: A atualização não foi baixada: {0}
+en: Later
+pt-BR: Mais tarde
+en: This is a developer build, so it does not update itself.
+pt-BR: Esta é uma versão de desenvolvimento, então ela não se atualiza sozinha.
+en: What's new in version {0}:
+pt-BR: Novidades da versão {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+pt-BR: A versão {0} está instalada, mas não pôde ser iniciada: {1}<br><br>Inicie o Disk Cleanup Helper de novo.
+en: No details were given for this version.
+pt-BR: Nenhum detalhe foi informado para esta versão.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+pt-BR: A versão {0} foi baixada e verificada (SHA256 e número de versão).
+en: The update could not be downloaded: {0}
+pt-BR: Não foi possível baixar a atualização: {0}
+en: Version {0} is ready. Restart to update.
+pt-BR: A versão {0} está pronta. Reinicie para atualizar.
+en: This is version {0}. It has not checked for updates yet.
+pt-BR: Esta é a versão {0}. O aplicativo ainda não verificou se há atualizações.
+en: You have the latest version ({0}). Last checked: {1}.
+pt-BR: Você tem a versão mais recente ({0}). Última verificação: {1}.
+en: Version {0} is installed.
+pt-BR: A versão {0} está instalada.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+pt-BR: Esta cópia está em uma pasta que não pode ser alterada:<br>{0}<br><br>A página da publicação é aberta para que você possa baixar a versão {1} e substituir esta cópia manualmente.
+en: The update could not be installed: {0}
+pt-BR: Não foi possível instalar a atualização: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+pt-BR: A versão {0} está disponível. Clique em "Verificar se há atualizações" para baixá-la.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+pt-BR: Não foi possível instalar a atualização. Esta cópia continua funcionando como está.<br><br>{0}
+en: Updated to version {0}.
+pt-BR: Atualizado para a versão {0}.
+en: Update check: {0}
+pt-BR: Verificação de atualizações: {0}
+en: Could not check for updates: {0}
+pt-BR: Não foi possível verificar se há atualizações: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+pt-BR: Não foi possível acessar o GitHub. Verifique a conexão com a internet e tente de novo.
+en: Checking for updates...
+pt-BR: Verificando se há atualizações...
+en: Update check: could not reach GitHub.
+pt-BR: Verificação de atualizações: não foi possível acessar o GitHub.
+en: Check for updates
+pt-BR: Verificar se há atualizações
+en: Check for updates when the app starts
+pt-BR: Verificar se há atualizações ao iniciar o aplicativo
+en: What's new
+pt-BR: Novidades
+en: Restart now
+pt-BR: Reiniciar agora
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+pt-BR: Um assistente gratuito para Windows 10 e 11 que mostra o que ocupa seus discos e libera espaço com segurança. Não envia nada sobre o seu PC. Nada é excluído até você confirmar.
+en: Updates
+pt-BR: Atualizações
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+pt-BR: As atualizações vêm da página do aplicativo no GitHub. Cada nova versão é verificada (SHA256 e número de versão) antes de substituir esta.
+en: Version {0} has no {1} file.
+pt-BR: A versão {0} não tem o arquivo {1}.
+en: Version {0} has a download address that is not on github.com.
+pt-BR: A versão {0} tem um endereço de download que não está em github.com.
+en: Version {0} has no SHA256 line in its release text.
+pt-BR: A versão {0} não tem uma linha SHA256 no texto da publicação.
+en: GitHub's answer could not be read.
+pt-BR: Não foi possível ler a resposta do GitHub.
+en: The newest release has an unreadable version number: {0}
+pt-BR: A publicação mais recente tem um número de versão ilegível: {0}
+en: The download came from an unexpected address: {0}
+pt-BR: O download veio de um endereço inesperado: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+pt-BR: O arquivo baixado não é um programa do Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+pt-BR: O arquivo baixado é a versão {0}, não a {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+pt-BR: O arquivo baixado não corresponde ao SHA256 do texto da publicação.
+en: The downloaded file has an unexpected size ({0}).
+pt-BR: O arquivo baixado tem um tamanho inesperado ({0}).
+en: The download took too long.
+pt-BR: O download demorou demais.

@@ -1,0 +1,1790 @@
+# Disk Cleanup Helper - zh-Hans
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = 简体中文
+@rtl = no
+@font = Segoe UI, Microsoft YaHei UI
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+zh-Hans: 无法运行 {0}：{1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+zh-Hans: 另有 {0}
+en: GRAPHICS
+zh-Hans: 显卡
+en: Wireless (Miracast)
+zh-Hans: 无线（Miracast）
+en: Built-in screen
+zh-Hans: 内置屏幕
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+zh-Hans: 此驱动程序发布于 {0}。电脑制造商或芯片制造商提供的较新驱动程序可以修复崩溃、蓝屏和显示问题。
+en: {0} × {1} at {2} Hz
+zh-Hans: {0} × {1}，{2} Hz
+en: Showing now
+zh-Hans: 当前显示
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+zh-Hans: Windows 报告此设备有问题（代码 {0}）。请从电脑制造商或芯片制造商的网站重新安装其驱动程序。
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+zh-Hans: 未安装合适的显卡驱动程序。请安装电脑制造商或显卡芯片制造商提供的驱动程序，画面会更清晰、更流畅。
+en: Screens
+zh-Hans: 屏幕
+en: Made in
+zh-Hans: 生产时间
+en: Connection
+zh-Hans: 连接方式
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+zh-Hans: 健康状况、温度和 SMART 数据在“磁盘健康”和“SMART 详细信息”选项卡中。
+en: Storage
+zh-Hans: 存储
+en: {0} inches
+zh-Hans: {0} 英寸
+en: {0}  (main screen)
+zh-Hans: {0}（主屏幕）
+en: Screen {0}
+zh-Hans: 屏幕 {0}
+en: Refresh rate
+zh-Hans: 刷新率
+en: Resolution
+zh-Hans: 分辨率
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+zh-Hans: 内存现在快满了（已使用 {0}%）。请关闭不需要的程序。内存不足的电脑会变慢，还可能崩溃。
+en: Part number
+zh-Hans: 部件号
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+zh-Hans: 这台电脑报告有一个空闲的内存插槽。加装一根同类型（{0}）的内存条，通常是让电脑变快的便宜方法。
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+zh-Hans: 对如今的 Windows 10 和 11 来说，{0} 偏少。8 GB 或更多会有明显改善。
+en: Size
+zh-Hans: 大小
+en: Memory promised to programs
+zh-Hans: 已提交给程序的内存
+en: None. Programs can crash when the memory is full.
+zh-Hans: 无。内存满时程序可能崩溃。
+en: Module {0}
+zh-Hans: 内存条 {0}
+en: {0} GB of {1} GB  (memory plus page file)
+zh-Hans: {0} GB / {1} GB（内存加页面文件）
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+zh-Hans: 这台电脑报告有一个空闲的内存插槽。加装一根同类型的内存条，通常是让电脑变快的便宜方法。
+en: 4 GB or more
+zh-Hans: 4 GB 或更多
+en: Graphics
+zh-Hans: 显卡
+en: Driver
+zh-Hans: 驱动程序
+en: Graphics memory
+zh-Hans: 显存
+en: {0}% in use now
+zh-Hans: 当前已使用 {0}%
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+zh-Hans: 两个内存插槽都已占用。要增加内存，请换成容量更大的内存条（{0}）。如今总共 16 GB 是合适的容量。
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+zh-Hans: 唯一的内存插槽已占用。要增加内存，请换成容量更大的内存条（{0}）。如今总共 16 GB 是合适的容量。
+en: MEMORY
+zh-Hans: 内存
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+zh-Hans: 全部 {0} 个内存插槽都已占用。要增加内存，请换成容量更大的内存条（{1}）。如今总共 16 GB 是合适的容量。
+en: Adapter
+zh-Hans: 适配器
+en: Network adapters
+zh-Hans: 网络适配器
+en: connected at {0}
+zh-Hans: 已连接，速率 {0}
+en: turned off
+zh-Hans: 已关闭
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+zh-Hans: 电池现在只能容纳新电池时 {0}% 的电量。换一块新电池，离开充电器后可以使用更长时间。
+en: Lithium-ion
+zh-Hans: 锂离子
+en: Kind
+zh-Hans: 种类
+en: Nickel-metal hydride
+zh-Hans: 镍氢
+en: Lithium-polymer
+zh-Hans: 锂聚合物
+en: connected
+zh-Hans: 已连接
+en: {0} minutes
+zh-Hans: {0} 分钟
+en: {0}  ·  Windows reports a problem (code {1})
+zh-Hans: {0}  ·  Windows 报告有问题（代码 {1}）
+en: {0} days
+zh-Hans: {0} 天
+en: {0} hours
+zh-Hans: {0} 小时
+en: Built in
+zh-Hans: 内置
+en: Sound
+zh-Hans: 声音
+en: not connected
+zh-Hans: 未连接
+en: Through the screen (HDMI or DisplayPort)
+zh-Hans: 通过屏幕（HDMI 或 DisplayPort）
+en: Added by a program
+zh-Hans: 由程序添加
+en: Battery
+zh-Hans: 电池
+en: All disks together
+zh-Hans: 所有磁盘合计
+en: plugged in, charging
+zh-Hans: 已接通电源，正在充电
+en: on battery
+zh-Hans: 使用电池
+en: drive {0}
+zh-Hans: 驱动器 {0}
+en: Storage class memory
+zh-Hans: 存储级内存
+en: Hard disk
+zh-Hans: 硬盘
+en: Disk {0}
+zh-Hans: 磁盘 {0}
+en: SD card
+zh-Hans: SD 卡
+en: plugged in, full
+zh-Hans: 已接通电源，已充满
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+zh-Hans: {0}%（现可容纳 {1} Wh，新电池时为 {2} Wh）
+en: Battery health
+zh-Hans: 电池健康状况
+en: Charge cycles
+zh-Hans: 充电周期
+en: Start the tool with admin rights to read it
+zh-Hans: 以管理员权限启动本工具才能读取
+en: {0} h {1} min  (Windows' estimate)
+zh-Hans: {0} 小时 {1} 分钟（Windows 估计）
+en: Charge now
+zh-Hans: 当前电量
+en: plugged in
+zh-Hans: 已接通电源
+en: Time left
+zh-Hans: 剩余时间
+en: {0}%, {1}
+zh-Hans: {0}%，{1}
+en: , size set by hand
+zh-Hans: ，大小为手动设置
+en: Server
+zh-Hans: 服务器
+en: Desktop
+zh-Hans: 台式机
+en: Windows
+zh-Hans: =
+en: Workstation
+zh-Hans: 工作站
+en: All-in-one
+zh-Hans: 一体机
+en: Laptop that folds into a tablet (2-in-1)
+zh-Hans: 可折叠成平板的笔记本电脑（2 合 1）
+en: Laptop
+zh-Hans: 笔记本电脑
+en: Tablet
+zh-Hans: 平板电脑
+en: Tablet with a detachable keyboard (2-in-1)
+zh-Hans: 带可拆卸键盘的平板电脑（2 合 1）
+en: Edition
+zh-Hans: 版本
+en: Last update installed
+zh-Hans: 最近安装的更新
+en: Installed or last big update
+zh-Hans: 安装或最近一次大更新
+en: Running since
+zh-Hans: 启动时间
+en: {0}  ({1})
+zh-Hans: =
+en: 32-bit
+zh-Hans: 32 位
+en: Build
+zh-Hans: 内部版本
+en: Version
+zh-Hans: 版本号
+en: 64-bit
+zh-Hans: 64 位
+en: 64-bit, for ARM processors
+zh-Hans: 64 位，适用于 ARM 处理器
+en: Computer name
+zh-Hans: 计算机名
+en: Type
+zh-Hans: 类型
+en: BIOS
+zh-Hans: =
+en: Motherboard
+zh-Hans: 主板
+en: Model
+zh-Hans: 型号
+en: Read on {0}
+zh-Hans: 读取于 {0}
+en: Device details
+zh-Hans: 设备详细信息
+en: Maker
+zh-Hans: 制造商
+en: This PC
+zh-Hans: 这台电脑
+en: Start-up mode
+zh-Hans: 启动模式
+en: Not found, or turned off in the BIOS
+zh-Hans: 未找到，或已在 BIOS 中关闭
+en: Security chip (TPM)
+zh-Hans: 安全芯片（TPM）
+en: TPM {0}, turned off
+zh-Hans: TPM {0}，已关闭
+en: TPM {0}, on
+zh-Hans: TPM {0}，已开启
+en: Not available with Legacy BIOS
+zh-Hans: Legacy BIOS 模式下不可用
+en: Secure Boot
+zh-Hans: 安全启动
+en: Legacy BIOS
+zh-Hans: =
+en: Off
+zh-Hans: 关
+en: On
+zh-Hans: 开
+en: Soldered on the board
+zh-Hans: 焊接在主板上
+en: SO-DIMM (laptop size)
+zh-Hans: SO-DIMM（笔记本尺寸）
+en: Installed
+zh-Hans: 已安装
+en: Memory (RAM)
+zh-Hans: 内存（RAM）
+en: DIMM (desktop size)
+zh-Hans: DIMM（台式机尺寸）
+en: Off in the BIOS
+zh-Hans: 在 BIOS 中已关闭
+en: On in the BIOS
+zh-Hans: 在 BIOS 中已开启
+en: PROCESSOR
+zh-Hans: 处理器
+en: Socket
+zh-Hans: 插槽
+en: {0}  ({1} GB usable by Windows)
+zh-Hans: {0}（Windows 可用 {1} GB）
+en: {0}, {1}  ({2} in use, highest {3})
+zh-Hans: {0}，{1}（已用 {2}，最高 {3}）
+en: {0} of {1} used
+zh-Hans: 已用 {0}，共 {1}
+en: , size managed by Windows
+zh-Hans: ，大小由 Windows 管理
+en: Page file
+zh-Hans: 页面文件
+en: Memory slots
+zh-Hans: 内存插槽
+en: {0} GB of {1} GB  ({2}%)
+zh-Hans: {0} GB / {1} GB（{2}%）
+en: In use now
+zh-Hans: 当前已用
+en: Module type
+zh-Hans: 内存条类型
+en: Type and speed
+zh-Hans: 类型和速度
+en: WINDOWS
+zh-Hans: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+zh-Hans: Windows 已经连续运行 {0} 天没有重启。开启“快速启动”时，关机并不会完全重启 Windows，所以请时常使用“重启”：它会完成更新并释放内存。
+en: Processor
+zh-Hans: 处理器
+en: build {0}
+zh-Hans: 内部版本 {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+zh-Hans: 自 {0} 以来，Windows 没有安装过更新。请打开“设置 > Windows 更新”并检查更新：更新可以修复安全漏洞和崩溃问题。
+en: Region format
+zh-Hans: 区域格式
+en: Display language
+zh-Hans: 显示语言
+en: DirectX
+zh-Hans: =
+en: Time zone
+zh-Hans: 时区
+en: Name
+zh-Hans: 名称
+en: Busy right now
+zh-Hans: 当前利用率
+en: Cache
+zh-Hans: 缓存
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+zh-Hans: 使用中（由 Hyper-V、WSL、Docker 或 Windows 安全功能使用）
+en: Virtualization
+zh-Hans: 虚拟化
+en: Base speed
+zh-Hans: 基准速度
+en: Cores
+zh-Hans: 内核
+en: Made by
+zh-Hans: 制造商
+en: ({0} processors)
+zh-Hans: （{0} 个处理器）
+en: {0} cores, {1} threads
+zh-Hans: {0} 个内核，{1} 个线程
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+zh-Hans: （未命名程序）
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+zh-Hans: 厂商自定义
+en: {0} data errors were found on the SSD.
+zh-Hans: 在 SSD 上发现 {0} 个数据错误。
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+zh-Hans: {0} 个坏扇区已被备用扇区替换（重新分配）。
+en: The disk itself predicts that it will fail soon. Back up your files now.
+zh-Hans: 磁盘自身预测它即将发生故障。请立即备份你的文件。
+en: Failing
+zh-Hans: 故障
+en: OK (no limit)
+zh-Hans: 正常（无限值）
+en: {0} sector reallocation events.
+zh-Hans: {0} 次扇区重新分配事件。
+en: The disk needed {0} retries to spin up.
+zh-Hans: 磁盘启动旋转时重试了 {0} 次。
+en: {0} internal data path errors.
+zh-Hans: {0} 个内部数据路径错误。
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+zh-Hans: 统计到磁盘与电脑之间有 {0} 次传输错误。这通常是数据线松动或损坏造成的，不会损害磁盘。
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+zh-Hans: {0} 个扇区不稳定，正在等待检查（待处理）。请备份你的文件，并留意这个数字是否增长。
+en: {0} sectors could not be read or fixed (uncorrectable).
+zh-Hans: {0} 个扇区无法读取或修复（无法纠正）。
+en: {0} read errors the disk could not correct.
+zh-Hans: 磁盘有 {0} 个无法纠正的读取错误。
+en: Warning flags set
+zh-Hans: 已设置警告标志
+en: Hot
+zh-Hans: 高温
+en: Below threshold
+zh-Hans: 低于阈值
+en: Windows reports a warning for this disk.
+zh-Hans: Windows 报告此磁盘有警告。
+en: Windows reports this disk as unhealthy.
+zh-Hans: Windows 报告此磁盘运行状况不佳。
+en: OK
+zh-Hans: 正常
+en: Near end of rated life
+zh-Hans: 接近额定寿命
+en: The SSD has switched to read-only mode to protect your data.
+zh-Hans: 为了保护你的数据，SSD 已切换到只读模式。
+en: The SSD reports that it has been too hot.
+zh-Hans: SSD 报告它曾经过热。
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+zh-Hans: SMART 属性 {0} 低于其安全限值。请立即备份你的文件。
+en: Watch
+zh-Hans: 留意
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+zh-Hans: 备用空间低于安全水平（剩余 {0}%）。请立即备份你的文件。
+en: The SSD reports that its reliability is degraded. Back up your files now.
+zh-Hans: SSD 报告其可靠性已下降。请立即备份你的文件。
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+zh-Hans: 健康百分比是什么意思？
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+zh-Hans: 它是根据磁盘自身的自我监测数据（SMART，或 NVMe SSD 的健康日志）得出的估计值。100% 表示没有发现问题或磨损。它经过调整，结果接近 Hard Disk Sentinel 等工具，但每个工具都使用自己的公式，所以数字可能略有不同。
+en: Why does the Windows folder look so big in Analyze disk?
+zh-Hans: 为什么 Windows 文件夹在“分析磁盘”中看起来这么大？
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+zh-Hans: Windows 会把一些文件同时放在两个位置，所以累加大小时它们会被计算两次。实际大小更小。切勿手动删除 Windows 文件夹中的任何内容。
+en: My SSD shows less than 100% health. Should I worry?
+zh-Hans: 我的 SSD 健康度低于 100%。需要担心吗？
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+zh-Hans: 它们是磁盘无法可靠读取的小区域。重新分配的扇区已经被备用扇区替换。待处理的扇区正在等待检查。在较旧的磁盘上，出现几个很常见。如果数字持续增长，请备份你的文件，并考虑更换磁盘。
+en: What temperature is normal for a disk?
+zh-Hans: 磁盘温度多少算正常？
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+zh-Hans: SSD 每次写入都会有一点磨损，健康度显示已用掉多少额定写入寿命。许多 SSD 在超过额定值后仍能正常工作很久。请做好备份，并在健康度变低或出现问题时计划更换 SSD。
+en: What are pending and reallocated sectors?
+zh-Hans: 什么是待处理扇区和重新分配的扇区？
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+zh-Hans: 你使用浏览器和应用时，缓存会重新填满；Windows 会下载新的更新；内存不足时，Windows 会扩大页面文件。每隔几周再清理一次、打开存储感知并关闭不用的程序，就能控制住它。
+en: Is it safe to clean what this app suggests?
+zh-Hans: 清理本应用建议的项目安全吗？
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+zh-Hans: “可安全清理”组中的项目是程序会自行重建的缓存和临时文件。“由你决定”中的项目会删除一些小东西，所以请先阅读说明。标记为“仅供参考”的项目，本应用永远不会删除；它只显示这些项目并打开其位置。
+en: It never follows folder links into other folders.
+zh-Hans: 它从不跟随文件夹链接进入其他文件夹。
+en: Will cleaning my browser cache log me out of websites?
+zh-Hans: 清理浏览器缓存会让我退出网站登录吗？
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+zh-Hans: 正在使用的文件会被跳过。临时文件清理会保留最近一天的文件。而 Windows 组件清理只能在运行时测量。底部的日志会准确显示删除了哪些内容。
+en: Why does my free space go down again after cleaning?
+zh-Hans: 为什么清理后可用空间又变少了？
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+zh-Hans: 不会。缓存清理会保留 Cookie、已保存的密码、书签和历史记录。极少数情况下，某个网站可能会要求你重新登录，浏览器会自动填入已保存的密码。
+en: Why did I get back less space than the size shown?
+zh-Hans: 为什么释放的空间比显示的大小少？
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+zh-Hans: 打开“设备详细信息”选项卡。它会显示 Windows 的 DirectX 诊断工具 (dxdiag) 所显示的内容，还包括内存插槽、页面文件、屏幕和电池健康状况。单击“全部复制”或“另存为文本文件”，即可把这些详细信息发给帮助你的人。
+en: Where are my history files saved?
+zh-Hans: 我的历史记录文件保存在哪里？
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+zh-Hans: 休眠会保留一个相当于部分内存大小的文件，让电脑可以从停下的地方继续。保留的存储是 Windows 为更新预留的约 7 GB 空间。CompactOS 以压缩方式存储 Windows 文件。每一项都可以释放几 GB，之后也都可以改回来。
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+zh-Hans: 在哪里可以查看电脑的详细信息，比如 Windows 版本、处理器、内存和显卡？
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+zh-Hans: 在你的用户文件夹中：%LOCALAPPDATA%\DiskCleanupHelper。其中保存着清理历史记录、磁盘健康和温度历史记录，以及速度测试结果。可以从“关于”和“磁盘健康”选项卡中打开它们。
+en: How do I uninstall it?
+zh-Hans: 如何卸载？
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+zh-Hans: “设置 > 应用 > Disk Cleanup Helper > 卸载”，或者使用“关于”选项卡中的“卸载”按钮。如果你从未安装过它，直接删除程序文件即可。
+en: Does the app send any of my data anywhere?
+zh-Hans: 本应用会把我的数据发送到任何地方吗？
+en: What are hibernation, Reserved Storage and CompactOS?
+zh-Hans: 休眠、保留的存储和 CompactOS 是什么？
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+zh-Hans: 清理 Windows 自身的临时文件和更新文件，以及读取磁盘的健康数据，都需要管理员权限。如果你单击“否”，本应用仍然可以使用，需要管理员权限的项目会显示为灰色。
+en: Why does Windows say "Windows protected your PC"?
+zh-Hans: 为什么 Windows 显示“Windows 已保护你的电脑”？
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+zh-Hans: 硬盘通常在 25 到 45 °C 下运行。SSD 通常在 30 到 60 °C 下运行，NVMe SSD 在高负载下可达到 70 °C。长期处于更高的温度会缩短磁盘寿命。
+en: Why does the app ask for admin rights?
+zh-Hans: 为什么本应用需要管理员权限？
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+zh-Hans: Windows 会对它还不认识的新程序显示此提示。单击“更多信息”，然后单击“仍要运行”。一旦程序经过签名并被 Microsoft 认识，这个警告就会永久消失。
+en: Does the speed test harm my disk?
+zh-Hans: 速度测试会损害我的磁盘吗？
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+zh-Hans: 不会。它会写入一个 512 MB 到 1 GB 的临时测试文件，读回后将其删除。这比正常使用一天的写入量还少。
+en: Can I undo a cleanup?
+zh-Hans: 可以撤销清理吗？
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+zh-Hans: 通过“清理”选项卡删除的文件不会进入回收站，因此无法恢复。从“分析磁盘”选项卡移到回收站的文件，在你清空回收站之前都可以还原。Windows 设置可以改回来；请参阅“关于”选项卡中的“自述文件”。
+en: Tidy your Downloads folder
+zh-Hans: 整理“下载”文件夹
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+zh-Hans: 安装程序和旧的下载文件会越积越多。按大小对文件夹排序，删除不再需要的内容。
+en: Let cloud files stay in the cloud
+zh-Hans: 让云文件留在云端
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+zh-Hans: 使用 OneDrive 时，右键单击文件夹并选择“释放空间”。文件仍然可见，但只在你打开时才下载。
+en: Close programs you are not using
+zh-Hans: 关闭不在使用的程序
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+zh-Hans: 重启可以清空内存、完成更新，并让 Windows 把页面文件缩回正常大小。
+en: Turn off apps you do not need at startup
+zh-Hans: 关闭不需要的启动应用
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+zh-Hans: 内存不足时，Windows 会扩大页面文件，这会占用磁盘空间，还可能导致程序崩溃。
+en: Restart your PC now and then
+zh-Hans: 时常重启电脑
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+zh-Hans: 视频、照片和旧的下载文件可以放在其他驱动器、外部磁盘或云存储中。
+en: Empty the Recycle Bin
+zh-Hans: 清空回收站
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+zh-Hans: 你删除的文件在清空回收站之前仍会占用空间。请不时检查一下。
+en: Turn on Storage Sense
+zh-Hans: 打开存储感知
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+zh-Hans: Windows 可以自行删除临时文件和回收站中的旧项目。设置 > 系统 > 存储 > 存储感知。
+en: Uninstall what you no longer use
+zh-Hans: 卸载不再使用的程序
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+zh-Hans: 当 Windows 驱动器快满时，Windows 会变慢，更新也可能安装失败。
+en: Move big personal files
+zh-Hans: 移走大型个人文件
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+zh-Hans: 旧游戏和旧程序往往最占空间。打开“设置 > 应用”，然后按大小对列表排序。
+en: Keep 10 to 15 percent free
+zh-Hans: 保留 10% 到 15% 的可用空间
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+zh-Hans: 手动清理 Windows、WinSxS 和 Installer 等文件夹会损坏 Windows。请改用“清理”选项卡。
+en: Nothing is deleted until you select it and confirm.
+zh-Hans: 在你选择并确认之前，不会删除任何内容。
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+zh-Hans: 磁盘可能毫无预警地损坏。请在其他驱动器或云端保留重要文件的副本。
+en: Never delete Windows files by hand
+zh-Hans: 切勿手动删除 Windows 文件
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+zh-Hans: 清理项目只处理缓存、临时文件和旧的更新文件。你的文档、照片、音乐、视频、桌面和下载内容永远不会被自动清理。
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+zh-Hans: 在计算大小、扫描或清理之前，如果电脑内存不足，它会提醒你。
+en: Windows and program files are protected in the Analyze disk tab.
+zh-Hans: 在“分析磁盘”选项卡中，Windows 和程序文件受到保护。
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+zh-Hans: 清理浏览器和应用缓存时，会保留你的密码、书签、历史记录和登录状态。
+en: It asks you to close a browser or app before cleaning its cache.
+zh-Hans: 在清理浏览器或应用的缓存之前，它会请你先关闭该浏览器或应用。
+en: Back up what matters
+zh-Hans: 备份重要内容
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+zh-Hans: SSD 不需要碎片整理。Windows 的“优化驱动器”能区分两者，所以让它按自动计划运行即可。
+en: Check disk health once a month
+zh-Hans: 每月检查一次磁盘健康
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+zh-Hans: 随 Windows 启动的应用越少，启动越快，可用内存也越多。任务管理器 > 启动应用。
+en: Do not defragment an SSD
+zh-Hans: 不要对 SSD 进行碎片整理
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+zh-Hans: 打开“磁盘健康”选项卡。每次打开都会保存一次读数，这样历史图表就能显示是否有变化。
+en: Keep your PC cool
+zh-Hans: 让电脑保持凉爽
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+zh-Hans: 高温会缩短磁盘寿命。硬盘应保持在约 50 °C 以下，SSD 应保持在约 70 °C 以下。请保持通风口清洁。
+en: Watch for growing bad sectors
+zh-Hans: 留意坏扇区是否增加
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+zh-Hans: 少量重新分配或待处理的扇区很常见。如果数量持续增长，请备份并计划更换磁盘。
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+zh-Hans: 安装失败：<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+zh-Hans: 要从这台电脑中删除 Disk Cleanup Helper 吗？<br><br>你的清理历史记录会保留在：<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+zh-Hans: Disk Cleanup Helper 已从这台电脑中删除。
+en: Free up disk space safely
+zh-Hans: 安全释放磁盘空间
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+zh-Hans: 无法复制程序。如果已安装的 Disk Cleanup Helper 正在运行，请先将其关闭，然后重试。<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+zh-Hans: Disk Cleanup Helper 已安装。<br><br>可以从“开始”菜单或名为 Disk Cleanup Helper 的桌面快捷方式打开它。<br><br>以后要删除它：设置 > 应用 > Disk Cleanup Helper > 卸载。
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+zh-Hans: 显示的大小是 Windows 驱动器上回收站的大小。
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+zh-Hans: 清空每个驱动器上的回收站。其中的所有内容都将无法再还原。
+en: $Recycle.Bin on every drive
+zh-Hans: 每个驱动器上的 $Recycle.Bin
+en: Turn off hibernation
+zh-Hans: 关闭休眠
+en: Sleep still works normally.
+zh-Hans: 睡眠仍可正常使用。
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+zh-Hans: 删除休眠文件，它通常有几 GB。“休眠”和“快速启动”将无法使用，因此电脑启动会慢几秒。
+en: PC starts a few seconds slower
+zh-Hans: 电脑启动会慢几秒
+en: Files in it are gone for good
+zh-Hans: 其中的文件将永久消失
+en: Crash dump files
+zh-Hans: 崩溃转储文件
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+zh-Hans: 你的设置和项目会保留。下次打开项目时，IDE 会重新建立索引。请先关闭 JetBrains IDE。
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+zh-Hans: IntelliJ IDEA、PyCharm、WebStorm、Rider 和其他 JetBrains IDE 的缓存。
+en: Only needed to investigate crashes
+zh-Hans: 仅在调查崩溃时需要
+en: Recycle Bin (all drives)
+zh-Hans: 回收站（所有驱动器）
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+zh-Hans: 如果有人正在调查你的电脑崩溃的原因，请保留它们。否则可以安全删除。
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+zh-Hans: Windows 在蓝屏或显卡驱动程序出问题后写入的文件。仅 MEMORY.DMP 就可能有几 GB。
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+zh-Hans: 以后要撤销，请在管理员命令提示符中运行：  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+zh-Hans: 关闭它可以收回这部分空间，但如果磁盘满了，Windows 更新可能会失败。只有在你能保留足够可用空间时才这样做。
+en: Windows keeps about 7 GB aside so updates always have room to install.
+zh-Hans: Windows 会预留约 7 GB 空间，让更新始终有空间安装。
+en: already off
+zh-Hans: 已关闭
+en: about 2-4 GB
+zh-Hans: 约 2-4 GB
+en: Windows setting (Reserved Storage)
+zh-Hans: Windows 设置（保留的存储）
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+zh-Hans: 以后要撤销，请在管理员命令提示符中运行：  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+zh-Hans: hiberfil.sys 是一个隐藏的 Windows 文件。没有可以打开的内容。
+en: Updates may fail when the disk is full
+zh-Hans: 磁盘满时更新可能失败
+en: Turn off Reserved Storage
+zh-Hans: 关闭保留的存储
+en: about 7 GB
+zh-Hans: 约 7 GB
+en: IDE re-indexes your projects
+zh-Hans: IDE 会重新为你的项目建立索引
+en: Spotify cache and downloads
+zh-Hans: Spotify 缓存和下载内容
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+zh-Hans: 同一文件夹中的 state.vscdb 保存着你的聊天、登录信息和设置。本工具从不触碰它。
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+zh-Hans: Cursor AI 代理的工作数据。其中可能包含旧的代理聊天记录。
+en: Downloaded songs must be downloaded again
+zh-Hans: 已下载的歌曲需要重新下载
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+zh-Hans: 你的帐户和播放列表是安全的，但为离线收听而下载的歌曲需要重新下载。
+en: Spotify keeps played and downloaded music here.
+zh-Hans: Spotify 在这里保存播放过和下载的音乐。
+en: {0} and Data
+zh-Hans: {0} 和 Data
+en: May hold old agent chat history
+zh-Hans: 可能包含旧的代理聊天记录
+en: Cursor: AI agent snapshots
+zh-Hans: Cursor：AI 代理快照
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+zh-Hans: 只删除 60 天内未更改过的文件夹。你的项目文件本身绝不会被触碰。
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+zh-Hans: 每个文件夹保存 VS Code 对一个项目的记忆：该项目打开的标签页、布局和 AI 聊天记录。
+en: Cannot undo older AI edits
+zh-Hans: 无法撤销较早的 AI 编辑
+en: Cursor: AI agent data
+zh-Hans: Cursor：AI 代理数据
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+zh-Hans: 你将无法再回滚较早的 AI 更改。再次使用代理时，Cursor 会创建新的副本。
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+zh-Hans: Cursor AI 代理用于撤销其编辑的项目副本。
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+zh-Hans: 下次构建需要联网，并且因为 Gradle 要重新下载它们而耗时更长。请先关闭 Android Studio 和其他 Java IDE。
+en: Downloaded libraries and build files for Java and Android projects.
+zh-Hans: 为 Java 和 Android 项目下载的库和构建文件。
+en: Next build downloads everything again
+zh-Hans: 下次构建会重新下载所有内容
+en: Maven repository
+zh-Hans: Maven 仓库
+en: JetBrains IDE caches and logs
+zh-Hans: JetBrains IDE 缓存和日志
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+zh-Hans: 下次构建需要联网，并且因为 Maven 要重新下载它们而耗时更长。你自己用“mvn install”安装的库需要重新安装。
+en: Downloaded Java libraries.
+zh-Hans: 下载的 Java 库。
+en: Gradle caches
+zh-Hans: Gradle 缓存
+en: Adobe media cache (Premiere, After Effects)
+zh-Hans: Adobe 媒体缓存（Premiere、After Effects）
+en: Close Spotify first.
+zh-Hans: 请先关闭 Spotify。
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+zh-Hans: 提示：在 Spotify 设置中，你也可以设置更小的缓存大小，或将缓存移到其他驱动器。
+en: Video previews are rebuilt
+zh-Hans: 视频预览会重新生成
+en: Close Adobe apps first.
+zh-Hans: 请先关闭 Adobe 应用。
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+zh-Hans: 你的项目和视频不会受影响。之后第一次打开项目时，因为要重新生成预览，速度会较慢。
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+zh-Hans: Adobe 视频应用创建的预览和音频文件。它们可能增长到很多 GB。
+en: Compress Windows files (CompactOS)
+zh-Hans: 压缩 Windows 文件（CompactOS）
+en: On a slower hard disk, Docker runs slower.
+zh-Hans: 在较慢的硬盘上，Docker 会运行得更慢。
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+zh-Hans: 要释放此驱动器上的空间，请移动它：Docker Desktop > Settings（齿轮图标）> Resources > Advanced > Disk image location > 选择其他驱动器上的文件夹 > Apply & restart。
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+zh-Hans: 请谨慎使用“docker volume prune”和“docker system prune --volumes”：它们会删除卷，而卷中可能存有数据库。
+en: Linux (WSL) disks
+zh-Hans: Linux（WSL）磁盘
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+zh-Hans: 如果你不再使用某个系统：设置 > 应用 > 找到它 > 卸载。这会删除其中的所有内容。
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+zh-Hans: 每个 WSL Linux 系统（例如 Ubuntu）都把它的所有文件保存在一个磁盘文件中。
+en: Disk files of your WSL Linux systems
+zh-Hans: 你的 WSL Linux 系统的磁盘文件
+en: Holds all Docker containers, images and volumes. Never delete this file.
+zh-Hans: 保存所有 Docker 容器、镜像和卷。切勿删除此文件。
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+zh-Hans: 要腾出空间：“打开位置”> 选择驱动器 > 配置 > 调低“最大使用量”滑块，或单击“删除”将它们全部删除。
+en: Restore points let you undo system changes. Windows can use several GB for them.
+zh-Hans: 还原点可以让你撤销系统更改。Windows 可能会为它们占用几 GB 空间。
+en: System Properties > System Protection
+zh-Hans: 系统属性 > 系统保护
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+zh-Hans: 只保留最新的一个：磁盘清理 (cleanmgr) > 清理系统文件 > 其他选项 > 系统还原和卷影复制 > 清理。
+en: Can be moved to another drive
+zh-Hans: 可以移到其他驱动器
+en: Docker disk (do not delete)
+zh-Hans: Docker 磁盘（请勿删除）
+en: Keep at least one recent restore point if you can.
+zh-Hans: 如果可以，请至少保留一个最近的还原点。
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+zh-Hans: - pagefile.sys 和 swapfile.sys：Windows 在磁盘上的额外内存。如果它们不够，内存耗尽时程序会崩溃。
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+zh-Hans: pagefile.sys、swapfile.sys、Windows Installer 和 WinSxS 文件夹
+en: Never delete by hand
+zh-Hans: 切勿手动删除
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+zh-Hans: - Windows Installer 文件夹：只能用“旧更新文件”项目删除其中的文件，切勿手动删除。
+en: ({0} files)
+zh-Hans: （{0} 个文件）
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+zh-Hans: - 你正在使用的应用的文件夹，即使它们很大。删除它们可能会损坏应用或丢失你的数据。
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+zh-Hans: - WinSxS 文件夹：只能用“Windows 组件”项目清理，切勿手动清理。
+en: Leave these alone
+zh-Hans: 不要动这些
+en: Your Downloads folder
+zh-Hans: 你的“下载”文件夹
+en: If that command is not recognised, run  wsl --update  first.
+zh-Hans: 如果无法识别该命令，请先运行  wsl --update  。
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+zh-Hans: 要将其中一个移到其他驱动器，请在命令提示符中运行：  wsl --shutdown   然后运行   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+zh-Hans: 你自己的文件：由你决定
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+zh-Hans: 提示：“分析磁盘”选项卡会列出你在任何位置的最大文件。
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+zh-Hans: 打开文件夹，按大小排序（查看 > 详细信息，然后单击“大小”列），删除不再需要的内容。
+en: Files you downloaded. This tool never deletes them here.
+zh-Hans: 你下载的文件。本工具从不在这里删除它们。
+en: Keep at least the newest one
+zh-Hans: 至少保留最新的一个
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+zh-Hans: 存储感知是 Windows 的内置功能。它会自动删除临时文件和回收站中的旧项目，让空间保持充足。
+en: Settings > System > Storage
+zh-Hans: 设置 > 系统 > 存储
+en: Cleans temp files automatically
+zh-Hans: 自动清理临时文件
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+zh-Hans: “打开位置”会打开存储感知设置。请在那里将其打开。
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+zh-Hans: Windows 升级后留下的文件。它让你可以在有限时间内回退到以前的版本，通常有 10 到 30 GB。
+en: Remove with Windows' own tool
+zh-Hans: 用 Windows 自带的工具删除
+en: Previous Windows installation
+zh-Hans: 以前的 Windows 安装
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+zh-Hans: Microsoft 自己的功能，以压缩方式存储 Windows 系统文件。通常可以释放 2 到 4 GB。
+en: Windows system files on {0}
+zh-Hans: {0} 上的 Windows 系统文件
+en: Built into Windows. Slight CPU cost
+zh-Hans: Windows 内置。略微占用 CPU
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+zh-Hans: 在非常慢或很旧的电脑上，它可能会让 Windows 稍微变慢。在大多数电脑上你不会察觉。
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+zh-Hans: 正在单独的窗口中运行。这可能需要 10 到 20 分钟。请勿关闭该窗口。
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+zh-Hans: 以后要撤销，请在管理员命令提示符中运行：  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+zh-Hans: 在单独的窗口中运行，可能需要 10 到 20 分钟。如果 Windows 已经压缩，会很快完成。
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+zh-Hans: {0} 上最大的程序（Windows 自己估计的大小；“?” = 未记录安装文件夹）：
+en: Programs only come off by uninstalling them in Settings > Apps.
+zh-Hans: 程序只能在“设置 > 应用”中卸载才能删除。
+en: "Open location" opens Apps & features.
+zh-Hans: “打开位置”会打开“应用和功能”。
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+zh-Hans: 未列出安装在其他驱动器上的 {0} 个程序：删除它们不会释放 {1} 上的空间。
+en: System Restore points
+zh-Hans: 系统还原点
+en: "{0}" is discontinued and no longer needed.
+zh-Hans: “{0}”已停止支持，不再需要。
+en: You have {0} Java versions installed. Most people only need the newest one.
+zh-Hans: 你安装了 {0} 个 Java 版本。大多数人只需要最新的版本。
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+zh-Hans: 程序只能在“设置 > 应用”中卸载才能删除。单击“计算大小”可在这里列出最大的程序。
+en: "Open location" opens the Storage settings.
+zh-Hans: “打开位置”会打开存储设置。
+en: After that you can no longer go back to the previous Windows version.
+zh-Hans: 之后你将无法再回退到以前的 Windows 版本。
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+zh-Hans: 请用 Windows 自身来删除它：设置 > 系统 > 存储 > 临时文件 > 勾选“以前的 Windows 安装”> 删除文件。
+en: see details
+zh-Hans: 查看详细信息
+en: Settings > Apps > Apps & features
+zh-Hans: 设置 > 应用 > 应用和功能
+en: Uninstall the ones you do not use
+zh-Hans: 卸载你不用的程序
+en: Biggest installed programs
+zh-Hans: 最大的已安装程序
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+zh-Hans: Windows 和显卡驱动程序保存的着色器文件，用来让游戏和应用启动更快。
+en: {0} and similar
+zh-Hans: {0} 等
+en: Games may stutter once while they rebuild
+zh-Hans: 重建期间游戏可能会卡顿一次
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+zh-Hans: 它们会自动重建。之后第一次启动游戏时可能会有点卡顿。
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+zh-Hans: 程序留下的临时文件。只删除超过 1 天的文件，因此不会干扰正在进行的安装。
+en: Files in use are skipped
+zh-Hans: 跳过正在使用的文件
+en: Your temp files (older than 1 day)
+zh-Hans: 你的临时文件（超过 1 天）
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+zh-Hans: 图形缓存（DirectX、NVIDIA、AMD、Intel）
+en: Deletes only Discord's cache folders.
+zh-Hans: 只删除 Discord 的缓存文件夹。
+en: Keeps login and messages
+zh-Hans: 保留登录状态和消息
+en: Discord cache
+zh-Hans: Discord 缓存
+en: Close Discord first, including its icon near the clock.
+zh-Hans: 请先关闭 Discord，包括时钟旁边的图标。
+en: Close Slack first, including its icon near the clock.
+zh-Hans: 请先关闭 Slack，包括时钟旁边的图标。
+en: Deletes only Slack's cache folders.
+zh-Hans: 只删除 Slack 的缓存文件夹。
+en: Slack cache
+zh-Hans: Slack 缓存
+en: Old problem reports
+zh-Hans: 旧的问题报告
+en: Windows error reports
+zh-Hans: Windows 错误报告
+en: The Windows Update service is stopped for a moment and started again.
+zh-Hans: Windows 更新服务会短暂停止，然后重新启动。
+en: {0} and your own WER folder
+zh-Hans: {0} 和你自己的 WER 文件夹
+en: Recent logs are kept
+zh-Hans: 保留最近的日志
+en: Old Windows log files (older than 14 days)
+zh-Hans: 旧的 Windows 日志文件（超过 14 天）
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+zh-Hans: Windows 保存的有关程序崩溃的报告。报告发送后或问题消失后就不再需要。
+en: If an update is still waiting to install, Windows downloads it again.
+zh-Hans: 如果某个更新仍在等待安装，Windows 会重新下载它。
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+zh-Hans: Windows 和安装程序留下的临时文件。只删除超过 1 天的文件。
+en: Windows temp files (older than 1 day)
+zh-Hans: Windows 临时文件（超过 1 天）
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+zh-Hans: 显示的是整个文件夹的大小。最新的文件会保留，因此释放的空间可能会稍少一些。
+en: Windows Update downloads
+zh-Hans: Windows 更新下载内容
+en: Update files Windows already downloaded. Installed updates are not affected.
+zh-Hans: Windows 已下载的更新文件。已安装的更新不受影响。
+en: {0} and the Delivery Optimization cache
+zh-Hans: {0} 和传递优化缓存
+en: Installed updates are not affected
+zh-Hans: 已安装的更新不受影响
+en: Close Teams first, including its icon near the clock.
+zh-Hans: 请先关闭 Teams，包括时钟旁边的图标。
+en: Keeps passwords, favorites, logins
+zh-Hans: 保留密码、收藏夹和登录状态
+en: Microsoft Edge cache
+zh-Hans: Microsoft Edge 缓存
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+zh-Hans: 请先关闭所有 Chrome 窗口。如果时钟旁边有 Chrome 图标，请右键单击它并选择“退出”。
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+zh-Hans: 只删除每个配置文件中 Edge 的缓存文件夹，以及它的图形缓存。
+en: Deletes only Brave's cache folders in every profile.
+zh-Hans: 只删除每个配置文件中 Brave 的缓存文件夹。
+en: Brave cache
+zh-Hans: Brave 缓存
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+zh-Hans: Edge 经常在后台持续运行。如果本工具提示它仍在运行：在 Edge 中，打开“设置 > 系统和性能”，关闭“启动增强”和“继续运行后台扩展和应用”。
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+zh-Hans: 只删除每个配置文件中 Chrome 的缓存文件夹，以及它的图形缓存。
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+zh-Hans: 保留：密码、书签、历史记录、Cookie 和网站登录状态、自动填充、扩展、设置、已安装的 Web 应用。
+en: Could not stop {0}: {1}
+zh-Hans: 无法停止 {0}：{1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+zh-Hans: 页面第一次加载会稍慢一些。极少数情况下，某个网站可能会要求你重新登录，浏览器会自动填入你已保存的密码。
+en: Keeps passwords, bookmarks, logins
+zh-Hans: 保留密码、书签和登录状态
+en: Google Chrome cache
+zh-Hans: Google Chrome 缓存
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+zh-Hans: 保留：你的登录状态、消息、设置和文件。应用会重新下载所需的内容。
+en: Close Opera first.
+zh-Hans: 请先关闭 Opera。
+en: Deletes only Opera's cache folder.
+zh-Hans: 只删除 Opera 的缓存文件夹。
+en: {0} (and Opera GX)
+zh-Hans: {0}（以及 Opera GX）
+en: Microsoft Teams cache
+zh-Hans: Microsoft Teams 缓存
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+zh-Hans: 只删除 Teams 的缓存文件夹。当 Teams 运行缓慢或表现异常时，Microsoft 建议这样做。
+en: Teams cache folders (new Teams and classic Teams)
+zh-Hans: Teams 缓存文件夹（新版 Teams 和经典 Teams）
+en: Keeps login, chats, files
+zh-Hans: 保留登录状态、聊天和文件
+en: Opera cache
+zh-Hans: Opera 缓存
+en: Deletes only Vivaldi's cache folders in every profile.
+zh-Hans: 只删除每个配置文件中 Vivaldi 的缓存文件夹。
+en: Vivaldi cache
+zh-Hans: Vivaldi 缓存
+en: Close Brave first.
+zh-Hans: 请先关闭 Brave。
+en: Close Vivaldi first.
+zh-Hans: 请先关闭 Vivaldi。
+en: Close Firefox first.
+zh-Hans: 请先关闭 Firefox。
+en: Deletes only Firefox's cache folder in every profile.
+zh-Hans: 只删除每个配置文件中 Firefox 的缓存文件夹。
+en: Firefox cache
+zh-Hans: Firefox 缓存
+en: {0} and {1}
+zh-Hans: {0} 和 {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+zh-Hans: 可以安全清空。Windows 只在单独卸载某个更新时才需要它。
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+zh-Hans: Windows 保留的备份副本，以便以后无需原始安装程序即可删除单个程序更新。
+en: Low risk
+zh-Hans: 风险低
+en: when run
+zh-Hans: 运行时
+en: {0} (Microsoft DISM tool)
+zh-Hans: {0}（Microsoft DISM 工具）
+en: Safe, often frees little
+zh-Hans: 安全，通常释放得很少
+en: Windows components: normal cleanup
+zh-Hans: Windows 组件：常规清理
+en: Windows patch backup cache
+zh-Hans: Windows 补丁备份缓存
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+zh-Hans: 已删除的文件会列在 deleted-update-files.csv 中（文件夹位置见“关于”选项卡）。
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+zh-Hans: 这只会删除 Windows 标记为已被更新版本取代的更新文件。每个程序保留最新的 3 个，并且绝不删除仍在使用的文件。
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+zh-Hans: 有些程序会保留它们安装过的每一个更新。最常见的是 Adobe Acrobat Reader，每个更新 0.1 到 0.7 GB。
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+zh-Hans: 小风险：如果以后更新或修复该程序时提示缺少文件，请卸载并重新安装该程序。
+en: Found on this PC: nothing to remove.
+zh-Hans: 在这台电脑上发现：没有可删除的内容。
+en: Found on this PC:
+zh-Hans: 在这台电脑上发现：
+en: Never delete files in the Windows Installer folder by hand.
+zh-Hans: 切勿手动删除 Windows Installer 文件夹中的文件。
+en: If you tick both Windows components items, only this one runs.
+zh-Hans: 如果同时勾选两个“Windows 组件”项目，只会运行这一项。
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+zh-Hans: 之后，现在已安装的 Windows 更新将无法再卸载。请仅在 Windows 运行正常时使用。
+en: Same as the normal cleanup, but also removes every replaced version.
+zh-Hans: 与常规清理相同，但还会删除所有已被取代的版本。
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+zh-Hans: 在单独的窗口中运行，需要 5 到 30 分钟。请勿关闭该窗口或关闭电脑。
+en: {0} (folders unused for 60+ days)
+zh-Hans: {0}（60 天以上未使用的文件夹）
+en: Lose old projects' tabs, layout, AI chats
+zh-Hans: 丢失旧项目的标签页、布局和 AI 聊天记录
+en: VS Code: data of projects not opened in 60 days
+zh-Hans: VS Code：60 天内未打开的项目的数据
+en: {0} (Microsoft DISM tool, /ResetBase)
+zh-Hans: {0}（Microsoft DISM 工具，/ResetBase）
+en: Windows already does this by itself every few weeks, so it often frees very little.
+zh-Hans: Windows 每隔几周就会自动执行此操作，因此通常释放的空间很少。
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+zh-Hans: 在单独的窗口中运行，需要 5 到 30 分钟。请勿关闭该窗口或关闭电脑。笔记本电脑请接上充电器。
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+zh-Hans: Microsoft 自己的 Windows 组件旧版本清理。安全。
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+zh-Hans: 切勿手动删除 WinSxS 中的任何内容。这会损坏 Windows。
+en: Installed updates cannot be uninstalled after
+zh-Hans: 之后无法卸载已安装的更新
+en: Windows components: deep cleanup
+zh-Hans: Windows 组件：深度清理
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+zh-Hans: 正在单独的窗口中运行。这可能需要 5 到 30 分钟。请勿关闭该窗口。
+en: {0} (files picked from Windows' own records)
+zh-Hans: {0}（根据 Windows 自身记录挑选的文件）
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+zh-Hans: 下载的 .NET 包。需要时 NuGet 会重新下载。
+en: NuGet download cache
+zh-Hans: NuGet 下载缓存
+en: Downloaded Python packages. pip downloads them again when needed.
+zh-Hans: 下载的 Python 包。需要时 pip 会重新下载。
+en: Go build cache
+zh-Hans: Go 构建缓存
+en: Composer cache
+zh-Hans: Composer 缓存
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+zh-Hans: Go 语言为加快构建而保留的编译文件。Go 会在下次构建时重新生成它们。
+en: Rebuilt on the next build
+zh-Hans: 下次构建时重新生成
+en: pip cache
+zh-Hans: pip 缓存
+en: npm cache
+zh-Hans: npm 缓存
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+zh-Hans: 只删除超过 14 天的文件。最近的日志会保留，以防需要排查问题。
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+zh-Hans: Windows 在安装更新时写入的日志文件。在某些电脑上，它们会增长到几 GB。
+en: Packages download again when needed
+zh-Hans: 需要时会重新下载包
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+zh-Hans: 下载的 Yarn 包（适用于 Node.js 开发人员）。需要时 Yarn 会重新下载。
+en: Yarn cache
+zh-Hans: Yarn 缓存
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+zh-Hans: 下载的 npm 包（适用于 Node.js 开发人员）。下次项目需要时，npm 会重新下载。
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+zh-Hans: Cursor 的缓存文件夹和崩溃报告。Cursor 会重新生成它们。
+en: Keeps settings, chats, login
+zh-Hans: 保留设置、聊天和登录状态
+en: Cursor cache and crash reports
+zh-Hans: Cursor 缓存和崩溃报告
+en: KEEPS: settings, chats, login and projects.
+zh-Hans: 保留：设置、聊天、登录状态和项目。
+en: Programs stay installed. Small risk
+zh-Hans: 程序仍保留安装。小风险
+en: Old update files of installed programs (keeps newest 3)
+zh-Hans: 已安装程序的旧更新文件（保留最新 3 个）
+en: Close Cursor first.
+zh-Hans: 请先关闭 Cursor。
+en: Close VS Code first.
+zh-Hans: 请先关闭 VS Code。
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+zh-Hans: 下载的 Rust 包。需要时 Cargo 会重新下载。
+en: Cargo download cache
+zh-Hans: Cargo 下载缓存
+en: Downloaded PHP packages. Composer downloads them again when needed.
+zh-Hans: 下载的 PHP 包。需要时 Composer 会重新下载。
+en: VS Code cache and crash reports
+zh-Hans: VS Code 缓存和崩溃报告
+en: KEEPS: settings, extensions, projects, project history and chats.
+zh-Hans: 保留：设置、扩展、项目、项目历史记录和聊天。
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+zh-Hans: Visual Studio Code 的缓存文件夹和崩溃报告。VS Code 会重新生成它们。
+en: Keeps settings, extensions, projects
+zh-Hans: 保留设置、扩展和项目
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+zh-Hans: 摘要
+en: Transfer rate MB/s   (blue = read, orange = write)
+zh-Hans: 传输速率 MB/s   （蓝色 = 读取，橙色 = 写入）
+en: Disk activity %
+zh-Hans: 磁盘活动 %
+en: Average transfer rate (since this tab opened)
+zh-Hans: 平均传输速率（自打开此选项卡以来）
+en: Read since Windows started
+zh-Hans: 自 Windows 启动以来读取
+en: Average disk activity
+zh-Hans: 平均磁盘活动
+en: Highest transfer rate seen
+zh-Hans: 观测到的最高传输速率
+en: now
+zh-Hans: 现在
+en: READ
+zh-Hans: 读取
+en: Right now
+zh-Hans: 当前
+en: Saved today's disk health and temperature reading to the history.
+zh-Hans: 已将今天的磁盘健康和温度读数保存到历史记录。
+en: WRITE
+zh-Hans: 写入
+en: 2 minutes ago
+zh-Hans: 2 分钟前
+en: DISK ACTIVITY
+zh-Hans: 磁盘活动
+en: TOTAL TRANSFER
+zh-Hans: 总传输量
+en: Written since Windows started
+zh-Hans: 自 Windows 启动以来写入
+en: This disk has no drive letter, so the speed test cannot write its test file.
+zh-Hans: 此磁盘没有驱动器号，因此速度测试无法写入测试文件。
+en: Pick a disk first.
+zh-Hans: 请先选择一个磁盘。
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+zh-Hans: 上次测试于 {0}：写入 {1} MB/s，读取 {2} MB/s，随机 4K 读取 {3} MB/s。
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+zh-Hans: 驱动器 {0} 至少需要 2 GB 可用空间才能进行速度测试。
+en: Speed test started on drive {0}.
+zh-Hans: 已在驱动器 {0} 上开始速度测试。
+en: Running...
+zh-Hans: 正在运行...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+zh-Hans: 速度测试会向驱动器 {1} 写入一个 {0} MB 的测试文件，读回后将其删除。<br>大约需要 10 到 60 秒。在此期间其他程序可能会变慢。<br><br>要开始速度测试吗？
+en: not reported by this disk
+zh-Hans: 此磁盘未报告
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+zh-Hans: 测量磁盘真实的写入和读取速度：先写入一个临时测试文件，读回，再随机读取小块数据，然后删除该文件。请单击顶部的“运行速度测试”。
+en: Speed test
+zh-Hans: 速度测试
+en: Written over the disk's whole life
+zh-Hans: 磁盘整个寿命期间的写入量
+en: Not run yet.
+zh-Hans: 尚未运行。
+en: Disk {0}: {1}
+zh-Hans: 磁盘 {0}：{1}
+en: Windows' disk activity counters are not available on this PC: {0}
+zh-Hans: 这台电脑上无法使用 Windows 的磁盘活动计数器：{0}
+en: Getting disk activity ready...
+zh-Hans: 正在准备磁盘活动数据...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+zh-Hans: 首次使用时，Windows 可能需要几秒钟来启动磁盘活动计数器。
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+zh-Hans: 作为参考：笔记本电脑硬盘约为 80 到 140 MB/s，SATA SSD 约为 500 MB/s，NVMe SSD 为 1,500 到 7,000 MB/s。
+en: Raw value
+zh-Hans: 原始值
+en: Unexpected power losses
+zh-Hans: 意外断电次数
+en: Spare space left
+zh-Hans: 剩余备用空间
+en: Rated write life used
+zh-Hans: 已用额定写入寿命
+en: ✓ No problems found.
+zh-Hans: ✓ 未发现问题。
+en: From Windows' storage information.
+zh-Hans: 来自 Windows 的存储信息。
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+zh-Hans: 读取自 SSD 自身的健康日志 (NVMe)。完整列表见“SMART 详细信息”选项卡。
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+zh-Hans: 读取自磁盘自身的自我监测数据 (SMART)。完整列表见“SMART 详细信息”选项卡。
+en: Data read over its life
+zh-Hans: 寿命期间读取的数据
+en: Powered on
+zh-Hans: 通电时间
+en: TEMPERATURE
+zh-Hans: 温度
+en: needs admin
+zh-Hans: 需要管理员权限
+en: {0} hours  (about {1} days)
+zh-Hans: {0} 小时（约 {1} 天）
+en: Data written over its life
+zh-Hans: 寿命期间写入的数据
+en: {0} times
+zh-Hans: {0} 次
+en: Turned on
+zh-Hans: 通电次数
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+zh-Hans: 此磁盘不与 Windows 共享详细的健康数据（USB 硬盘盒和 RAID 常有这种情况）。
+en: No.
+zh-Hans: 编号
+en: Status
+zh-Hans: 状态
+en: Value
+zh-Hans: 值
+en: Attribute
+zh-Hans: 属性
+en: Data
+zh-Hans: 数据
+en: Worst
+zh-Hans: 最差值
+en: Threshold
+zh-Hans: 阈值
+en: Item
+zh-Hans: 项目
+en: Temperature history
+zh-Hans: 温度历史记录
+en: Health history
+zh-Hans: 健康历史记录
+en: Start the tool with admin rights to read health and temperature.
+zh-Hans: 以管理员权限启动本工具，才能读取健康状况和温度。
+en: No readings saved yet.
+zh-Hans: 尚未保存任何读数。
+en: Offset
+zh-Hans: 偏移
+en: {0} readings since {1}.
+zh-Hans: 自 {1} 以来共 {0} 次读数。
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+zh-Hans: 目前只有 1 次读数，时间为 {0}。随着保存的读数增多，图表会逐渐变长。
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+zh-Hans: 写入 {0:N0} MB/s     读取 {1:N0} MB/s     随机 4K 读取 {2:N1} MB/s（每秒 {3:N0} 次）
+en: This item has no folder to open.
+zh-Hans: 此项目没有可打开的文件夹。
+en: Stopping...
+zh-Hans: 正在停止...
+en: Could not open the read me: {0}
+zh-Hans: 无法打开自述文件：{0}
+en: Pick a drive first.
+zh-Hans: 请先选择一个驱动器。
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+zh-Hans: 这需要管理员权限。请重新启动本工具，并在 Windows 提示中单击“是”。
+en: Select a file in the list first.
+zh-Hans: 请先在列表中选择一个文件。
+en: Scan a drive first.
+zh-Hans: 请先扫描一个驱动器。
+en: No questions match your search.
+zh-Hans: 没有与你的搜索匹配的问题。
+en: Simple habits that keep your disk from filling up and your PC running well.
+zh-Hans: 一些简单的习惯，让磁盘不被填满，让电脑运行良好。
+en: Tips
+zh-Hans: 提示
+en: SAFETY
+zh-Hans: 安全保障
+en: How Disk Cleanup Helper keeps you safe
+zh-Hans: Disk Cleanup Helper 如何保障你的安全
+en: Search the questions, for example "temperature"
+zh-Hans: 搜索问题，例如“温度”
+en: Click a question to see the answer.
+zh-Hans: 单击问题查看答案。
+en: Frequently asked questions
+zh-Hans: 常见问题
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+zh-Hans: 已在单独的窗口中启动 Windows 自带的 {0} 错误扫描。它只读取驱动器，需要几分钟。请在该窗口中查看结果。
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+zh-Hans: 只列出在这台电脑上找到的项目。单击“计算大小”查看每一项占用多少空间。在你确认之前，不会删除任何内容。
+en: Not running as administrator. Items marked Admin are disabled.
+zh-Hans: 未以管理员身份运行。标记为“管理员”的项目已禁用。
+en: Running as administrator. All items are available.
+zh-Hans: 正在以管理员身份运行。所有项目均可用。
+en: Tip: the About tab can install it, so it appears in the Start menu.
+zh-Hans: 提示：可以在“关于”选项卡中安装它，这样它会出现在“开始”菜单中。
+en: Saved a health and temperature reading for {0} disks to the history.
+zh-Hans: 已将 {0} 个磁盘的健康和温度读数保存到历史记录。
+en: {0} files were in use and were skipped.
+zh-Hans: {0} 个文件正在使用，已跳过。
+en: {0} items
+zh-Hans: {0} 个项目
+en: My user folder only
+zh-Hans: 仅我的用户文件夹
+en: Install: not installed
+zh-Hans: 安装：未安装
+en: Install: installed in {0}
+zh-Hans: 安装：已安装在 {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+zh-Hans: 尚未保存任何读数。<br><br>历史记录将保存在：<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+zh-Hans: 尚未运行过任何清理。<br><br>历史记录将保存在：<br>{0}
+en: Whole drive
+zh-Hans: 整个驱动器
+en: Could not open System Information: {0}
+zh-Hans: 无法打开系统信息：{0}
+en: Could not open dxdiag: {0}
+zh-Hans: 无法打开 dxdiag：{0}
+en: SPEED
+zh-Hans: 速度
+en: Wait until the details have been read.
+zh-Hans: 请等待详细信息读取完成。
+en: Read at {0}. It stays on this PC unless you copy or save it.
+zh-Hans: 读取于 {0}。除非你复制或保存，否则它只保留在这台电脑上。
+en: Could not read the device details: {0}
+zh-Hans: 无法读取设备详细信息：{0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+zh-Hans: 已复制设备详细信息。请粘贴到需要的地方，例如发给帮助你的人的消息中。
+en: Text file
+zh-Hans: 文本文件
+en: Save the device details
+zh-Hans: 保存设备详细信息
+en: Could not copy: {0}
+zh-Hans: 无法复制：{0}
+en: Reading...
+zh-Hans: 正在读取...
+en: Speed test: {0}
+zh-Hans: 速度测试：{0}
+en: Speed test finished.
+zh-Hans: 速度测试已完成。
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+zh-Hans: 已于 {1} 使用 {0} MB 文件进行测试。结果已保存，方便你以后比较。
+en: Speed test stopped. The test file was deleted.
+zh-Hans: 速度测试已停止。测试文件已删除。
+en: Reading this PC's details...
+zh-Hans: 正在读取这台电脑的详细信息...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+zh-Hans: 正在收集 Windows、处理器、内存、显卡等详细信息，需要几秒钟。
+en: The speed test could not finish. See the log below.
+zh-Hans: 速度测试无法完成。请查看下方的日志。
+en: Stopped.
+zh-Hans: 已停止。
+en: Saved the device details to {0}
+zh-Hans: 已将设备详细信息保存到 {0}
+en: Philip Droubi | Software Engineer
+zh-Hans: Philip Droubi | 软件工程师
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+zh-Hans: 软件工程师。欢迎提出有关 Disk Cleanup Helper 的问题、想法或反馈。
+en: Made by Philip Droubi
+zh-Hans: 作者：Philip Droubi
+en: Philip Droubi is a Software Engineer.
+zh-Hans: Philip Droubi 是一名软件工程师。
+en: SPACE
+zh-Hans: 空间
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+zh-Hans: 软件工程师。在 LinkedIn 上与 Philip Droubi 联系。
+en: Source code on GitHub
+zh-Hans: GitHub 上的源代码
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+zh-Hans: 依据 GNU GPL v3 免费开源：你可以使用、修改和分享它。副本会保留 Philip Droubi 的署名。
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+zh-Hans: © {0} Philip Droubi。自由软件：你可以依据 GNU General Public License v3 及 NOTICE 中的附加条款使用、修改和分享它。本软件不提供任何担保。
+en: License and terms
+zh-Hans: 许可证和条款
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+zh-Hans: 此副本（{0}）不是这台电脑上已安装的副本。请更新已安装的副本，以便“开始”菜单打开此版本。
+en: Repair shortcuts
+zh-Hans: 修复快捷方式
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+zh-Hans: 已安装在 {0}。随时可以从“开始”菜单或桌面快捷方式打开它。要删除它：单击“卸载”，或打开“设置 > 应用 > Disk Cleanup Helper”。
+en: Could not save the file: {0}
+zh-Hans: 无法保存文件：{0}
+en: Update installed copy
+zh-Hans: 更新已安装的副本
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+zh-Hans: 把 Disk Cleanup Helper 留在这台电脑上：安装后即可从“开始”菜单和桌面打开它。无需管理员权限。
+en: Install on this PC
+zh-Hans: 安装到这台电脑
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+zh-Hans: 未安装。你正在从 {0} 运行它。安装会添加一个“开始”菜单项、一个桌面快捷方式，以及“设置 > 应用”中的一个条目，这样就能像其他程序一样删除它。无需管理员权限。
+en: not reported
+zh-Hans: 未报告
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+zh-Hans: 本工具从不删除此项目。请使用“打开位置”，并按照上面的步骤操作。
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+zh-Hans: 需要管理员权限。请重新启动本工具，并在 Windows 提示中单击“是”，才能使用此项目。
+en: Close first: {0}
+zh-Hans: 请先关闭：{0}
+en: Measure anyway?
+zh-Hans: 仍要计算吗？
+en: Measuring stopped.
+zh-Hans: 已停止计算。
+en: Measuring {0} of {1}: {2}
+zh-Hans: 正在计算第 {0} 项，共 {1} 项：{2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+zh-Hans: 正在计算大小。这可能需要一两分钟。单击“停止”可停止。
+en: Where
+zh-Hans: 位置
+en: Problem: {0}
+zh-Hans: 问题：{0}
+en: Clean selected ({0})
+zh-Hans: 清理所选项（{0}）
+en: up to {0}
+zh-Hans: 最多 {0}
+en: Close {0} first
+zh-Hans: 请先关闭 {0}
+en: Size: not measured yet
+zh-Hans: 大小：尚未计算
+en: Size: {0}
+zh-Hans: 大小：{0}
+en: Admin
+zh-Hans: 管理员
+en: Done. Select what you want to clean.
+zh-Hans: 完成。请选择要清理的内容。
+en: Cleanup started. Free space on {0}: {1}
+zh-Hans: 清理已开始。{0} 上的可用空间：{1}
+en: Confirm cleanup
+zh-Hans: 确认清理
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+zh-Hans: 将清理以下内容。删除的文件不会进入回收站，并且无法恢复：<br><br>{0}<br><br>要继续吗？
+en: Stopped. Not cleaned: {0}
+zh-Hans: 已停止。未清理：{0}
+en: Error: {0}
+zh-Hans: 错误：{0}
+en: Cleaning: {0}
+zh-Hans: 正在清理：{0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+zh-Hans: 全部完成。{0} 上的可用空间增加了 {1}。现在可用 {2}。
+en: Clean anyway?
+zh-Hans: 仍要清理吗？
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+zh-Hans: 提示：有些应用会在时钟旁边继续运行。请右键单击那里的图标，然后选择“退出”。
+en: Select at least one item first.
+zh-Hans: 请先至少选择一个项目。
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+zh-Hans: 完成。单击项目查看说明，选择你需要的项目，然后单击“清理所选项”。
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+zh-Hans: Edge 经常在后台运行：在 Edge 中，打开“设置 > 系统和性能”，关闭“启动增强”和后台应用。
+en: Nothing left to clean. Close the programs and try again.
+zh-Hans: 没有可清理的内容了。请关闭这些程序后重试。
+en: Close programs first
+zh-Hans: 请先关闭程序
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+zh-Hans: 这些程序仍在运行：<br><br>{0}<br><br>{1}<br><br>请单击“否”，关闭它们，然后再次单击“清理所选项”。<br>或者单击“是”，跳过需要它们的项目并清理其余项目。
+en: Clean selected
+zh-Hans: 清理所选项
+en: Switches that free space or keep it free.
+zh-Hans: 可以释放空间或保持空间充足的开关。
+en: Windows settings
+zh-Hans: Windows 设置
+en: YOUR CALL
+zh-Hans: 由你决定
+en: SETTING
+zh-Hans: 设置
+en: INFO ONLY
+zh-Hans: 仅供参考
+en: The tool only shows and opens these. It never deletes them.
+zh-Hans: 本工具只显示并打开这些项目，从不删除它们。
+en: Do it yourself
+zh-Hans: 自行处理
+en: You lose something small. Read each one before you select it.
+zh-Hans: 你会失去一些小东西。选择前请先阅读每一项。
+en: SAFE
+zh-Hans: 安全
+en: TOTAL
+zh-Hans: 合计
+en: {0} selected
+zh-Hans: 已选 {0} 项
+en: Caches and temp files. Programs rebuild them by themselves.
+zh-Hans: 缓存和临时文件。程序会自行重建它们。
+en: Safe to clean
+zh-Hans: 可安全清理
+en: Old installer files and Windows cleanup
+zh-Hans: 旧安装程序文件和 Windows 清理
+en: Your call
+zh-Hans: 由你决定
+en: ADMIN
+zh-Hans: 管理员
+en: Needs admin rights. Read each one before you select it.
+zh-Hans: 需要管理员权限。选择前请先阅读每一项。
+en: Language
+zh-Hans: 语言
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+zh-Hans: 你的电脑现在内存不足：<br><br>  可用内存：{0:N1} GB<br>  包括页面文件在内的剩余空间：{1:N1} GB<br><br>内存耗尽可能导致程序崩溃，在某些电脑上还会导致蓝屏。<br>请关闭不需要的程序（浏览器、编辑器、游戏），然后重试。
+en: Switched to the light theme.
+zh-Hans: 已切换到浅色主题。
+en: Switched to the dark theme.
+zh-Hans: 已切换到深色主题。
+en: Low memory
+zh-Hans: 内存不足
+en: nothing selected
+zh-Hans: 未选择任何项目
+en: low: close some programs
+zh-Hans: 偏低：请关闭一些程序
+en: of {0} GB
+zh-Hans: 共 {0} GB
+en: Switch to the dark theme
+zh-Hans: 切换到深色主题
+en: Please wait until the current task finishes, or click Stop.
+zh-Hans: 请等待当前任务完成，或单击“停止”。
+en: Scan {0} for errors
+zh-Hans: 扫描 {0} 中的错误
+en: {0} FREE (WINDOWS DRIVE)
+zh-Hans: {0} 可用（Windows 驱动器）
+en: Could not restart the app: {0}
+zh-Hans: 无法重新启动应用：{0}
+en: Switch to the light theme
+zh-Hans: 切换到浅色主题
+en: DARK MODE
+zh-Hans: 深色模式
+en: LIGHT MODE
+zh-Hans: 浅色模式
+en: Removed {0}. Left: {1}.
+zh-Hans: 已删除 {0}。剩余：{1}。
+en: Storage Spaces
+zh-Hans: 存储空间
+en: Virtual
+zh-Hans: 虚拟
+en: Disk
+zh-Hans: 磁盘
+en: Too hot
+zh-Hans: 过热
+en: Could not read disks: {0}
+zh-Hans: 无法读取磁盘：{0}
+en: Normal
+zh-Hans: 正常
+en: Warm
+zh-Hans: 偏热
+en: Poor
+zh-Hans: 较差
+en: Healthy
+zh-Hans: 健康
+en: Unknown
+zh-Hans: 未知
+en: Windows: problem
+zh-Hans: Windows：有问题
+en: Warning
+zh-Hans: 警告
+en: Fair
+zh-Hans: 一般
+en: Good
+zh-Hans: 良好
+en: Problem
+zh-Hans: 问题
+en: Checking disks...
+zh-Hans: 正在检查磁盘...
+en: Reading each disk's health and temperature. This takes a few seconds.
+zh-Hans: 正在读取每个磁盘的健康状况和温度，需要几秒钟。
+en: Waiting for the current task to finish. The disks are checked right after that.
+zh-Hans: 正在等待当前任务完成，完成后立即检查磁盘。
+en: (health {0}%)
+zh-Hans: （健康度 {0}%）
+en: SMART attributes
+zh-Hans: SMART 属性
+en: NVMe health log
+zh-Hans: NVMe 健康日志
+en: {0}% used
+zh-Hans: 已用 {0}%
+en: HEALTH
+zh-Hans: 健康
+en: Almost full: Windows and apps slow down when a drive is this full.
+zh-Hans: 快满了：驱动器这么满时，Windows 和应用会变慢。
+en: {0} free of {1}
+zh-Hans: {0} 可用，共 {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+zh-Hans: 以管理员权限启动本工具，才能读取磁盘的 SMART 数据。
+en: Windows did not report any disks.
+zh-Hans: Windows 没有报告任何磁盘。
+en: Disks
+zh-Hans: 磁盘
+en: Drives
+zh-Hans: 驱动器
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+zh-Hans: 健康度 % 是本应用根据每个磁盘自身数据得出的估计值。其他工具使用自己的公式，因此数字可能略有不同。每次打开此选项卡或启动应用时都会保存一次读数（最多每 30 分钟一次），方便你长期跟踪健康状况和温度。
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+zh-Hans: 没有任何磁盘与 Windows 共享 SMART 数据。USB 硬盘盒和 RAID 常有这种情况。
+en: Disk check finished.
+zh-Hans: 磁盘检查已完成。
+en: A disk reports a problem. Back up your important files now.
+zh-Hans: 有磁盘报告了问题。请立即备份你的重要文件。
+en: Windows: warning
+zh-Hans: Windows：警告
+en: Stopped. Results are incomplete.
+zh-Hans: 已停止。结果不完整。
+en: Scanning... {0:N0} folders and {1:N0} files so far
+zh-Hans: 正在扫描... 目前已扫描 {0:N0} 个文件夹和 {1:N0} 个文件
+en: Scanning {0}. Click Stop to stop.
+zh-Hans: 正在扫描 {0}。单击“停止”可停止。
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+zh-Hans: 扫描已停止。已列出目前找到的最大文件。只有扫描完成后才会显示文件夹大小。
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+zh-Hans: 注意：Windows 文件夹看起来可能比实际更大，因为 Windows 会把一些文件同时放在两个位置。
+en: {0:N0} folders could not be read (Windows protects them).
+zh-Hans: 有 {0:N0} 个文件夹无法读取（受 Windows 保护）。
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+zh-Hans: 用时 {0:N0} 秒完成：{1:N0} 个文件夹，{2:N0} 个文件。
+en: Scanning {0} ...
+zh-Hans: 正在扫描 {0}...
+en: (files directly in this folder)
+zh-Hans: （直接位于此文件夹中的文件）
+en: Scan a drive to see its biggest folders.
+zh-Hans: 扫描驱动器以查看其中最大的文件夹。
+en: Free space on {0} grew by {1}.
+zh-Hans: {0} 上的可用空间增加了 {1}。
+en: Biggest files
+zh-Hans: 最大的文件
+en: Scan anyway?
+zh-Hans: 仍要扫描吗？
+en: That drive or folder is not available.
+zh-Hans: 该驱动器或文件夹不可用。
+en: Biggest files ({0} found)
+zh-Hans: 最大的文件（找到 {0} 个）
+en: Select one or more files in the list first. Hold Ctrl to select several.
+zh-Hans: 请先在列表中选择一个或多个文件。按住 Ctrl 可选择多个。
+en: Could not remove {0}: {1}
+zh-Hans: 无法删除 {0}：{1}
+en: Moved to Recycle Bin: {0} ({1})
+zh-Hans: 已移到回收站：{0}（{1}）
+en: Deleted file: {0} ({1})
+zh-Hans: 已删除文件：{0}（{1}）
+en: Files deleted: {0}.
+zh-Hans: 已删除的文件：{0}。
+en: Windows: OK
+zh-Hans: Windows：正常
+en: {0} could not be removed (in use or protected).
+zh-Hans: {0} 无法删除（正在使用或受保护）。
+en: Files moved to the Recycle Bin: {0}.
+zh-Hans: 已移到回收站的文件：{0}。
+en: Move to Recycle Bin
+zh-Hans: 移到回收站
+en: They will be deleted permanently and cannot be restored.
+zh-Hans: 它们将被永久删除，并且无法恢复。
+en: ... and {0} more
+zh-Hans: ... 以及另外 {0} 个
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+zh-Hans: 这些是 Windows、程序或系统文件，受到保护：<br><br>{0}<br><br>请改为卸载该程序，或使用“清理”选项卡。
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+zh-Hans: 它们将进入回收站。只有在你清空回收站后，空间才会释放。
+en: Delete permanently
+zh-Hans: 永久删除
+en: Make sure you do not need them. Continue?
+zh-Hans: 请确保你不再需要它们。要继续吗？
+en: Files: {0}, {1} in total.
+zh-Hans: 文件：{0} 个，共 {1}。
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+zh-Hans: 重新检查磁盘
+en: Disk health
+zh-Hans: 磁盘健康
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+zh-Hans: 按住 Ctrl 可选择多个文件。Windows 和程序文件受到保护，无法在这里删除。
+en: Scan for errors
+zh-Hans: 扫描错误
+en: Open history file
+zh-Hans: 打开历史记录文件
+en: Windows storage settings
+zh-Hans: Windows 存储设置
+en: Optimize drives
+zh-Hans: 优化驱动器
+en: Modified
+zh-Hans: 修改日期
+en: Up
+zh-Hans: 向上
+en: Biggest folders
+zh-Hans: 最大的文件夹
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+zh-Hans: 选择一个驱动器，然后单击“扫描”。扫描整个驱动器可能需要几分钟。
+en: Folder
+zh-Hans: 文件夹
+en: File
+zh-Hans: 文件
+en: Double-click a folder to look inside.
+zh-Hans: 双击文件夹可查看其中的内容。
+en: Open in File Explorer
+zh-Hans: 在文件资源管理器中打开
+en: SMART details
+zh-Hans: SMART 详细信息
+en: About
+zh-Hans: 关于
+en: Tips & FAQ
+zh-Hans: 提示和常见问题
+en: System Information
+zh-Hans: 系统信息
+en: Read me
+zh-Hans: 自述文件
+en: Cleanup history
+zh-Hans: 清理历史记录
+en: Uninstall
+zh-Hans: 卸载
+en: DirectX Diagnostic (dxdiag)
+zh-Hans: DirectX 诊断 (dxdiag)
+en: Run speed test
+zh-Hans: 运行速度测试
+en: Disk performance
+zh-Hans: 磁盘性能
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+zh-Hans: 每个磁盘报告的自身原始数据。“留意”表示值得关注。“故障”表示低于磁盘自身的安全限值。
+en: Live activity updates every second while this tab is open.
+zh-Hans: 打开此选项卡时，实时活动每秒更新一次。
+en: Save as text file
+zh-Hans: 另存为文本文件
+en: Copy all
+zh-Hans: 全部复制
+en: Read again
+zh-Hans: 重新读取
+en: Scan
+zh-Hans: 扫描
+en: English
+zh-Hans: =
+en: 0 items
+zh-Hans: 0 个项目
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+zh-Hans: 未以管理员身份运行，因此标记为“管理员”的项目已禁用。要使用它们，请关闭此窗口，重新启动，并在 Windows 提示中单击“是”。
+en: Measure sizes
+zh-Hans: 计算大小
+en: Clean up
+zh-Hans: 清理
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+zh-Hans: 查看是什么占满了你的磁盘，并安全地释放空间。在你确认之前，不会删除任何内容。
+en: Disk Cleanup Helper
+zh-Hans: =
+en: C: FREE
+zh-Hans: C: 可用
+en: SELECTED TO CLEAN
+zh-Hans: 已选待清理
+en: MEMORY AVAILABLE
+zh-Hans: 可用内存
+en: Stop
+zh-Hans: 停止
+en: Analyze disk
+zh-Hans: 分析磁盘
+en: Open location
+zh-Hans: 打开位置
+en: Drive
+zh-Hans: 驱动器
+en: List files bigger than
+zh-Hans: 列出大于以下大小的文件
+en: Look in
+zh-Hans: 查找范围
+en: Clear selection
+zh-Hans: 清除选择
+en: Select all safe
+zh-Hans: 全选安全项
+en: Click Measure sizes to see how much each item uses.
+zh-Hans: 单击“计算大小”查看每个项目占用多少空间。
+en: to see what it is, where it is, and what you keep or lose.
+zh-Hans: 查看它是什么、在哪里，以及你会保留或失去什么。
+en: Click an item
+zh-Hans: 单击一个项目
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+zh-Hans: 写入测试文件失败。驱动器是否已满？
+en: Reading it back...
+zh-Hans: 正在读回...
+en: Writing a {0} MB test file...
+zh-Hans: 正在写入 {0} MB 测试文件...
+en: Could not create the test file in {0}.
+zh-Hans: 无法在 {0} 中创建测试文件。
+en: Could not open the test file.
+zh-Hans: 无法打开测试文件。
+en: Not enough memory for the speed test.
+zh-Hans: 内存不足，无法进行速度测试。
+en: Reading small random blocks...
+zh-Hans: 正在读取随机小块...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+zh-Hans: Disk Cleanup Helper 需要 Windows 10 或 Windows 11。
+en: Disk Cleanup Helper could not start:<br><br>{0}
+zh-Hans: Disk Cleanup Helper 无法启动：<br><br>{0}
+en: Something went wrong:<br><br>{0}
+zh-Hans: 出现问题：<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+zh-Hans: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+zh-Hans: 更新是如何进行的？
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+zh-Hans: 有新版本发布时，应用会在后台下载并检查它：其 SHA256 和版本号必须与发布版本一致。随后会出现一个提示栏，提供“立即重新启动”。如果你选择“稍后”，更新会在你关闭应用时安装。你可以在“关于”选项卡中关闭自动检查；那里的“检查更新”按钮仍然可用。
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+zh-Hans: 不会。它不会发送任何有关你电脑的信息。它唯一的联网操作是询问 GitHub 是否有新版本，每天最多一次。你可以在“关于”选项卡中关闭此功能。
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+zh-Hans: 它不会发送任何有关你电脑的信息。它只会询问 GitHub 是否有新版本，你可以在“关于”选项卡中关闭此功能。清理记录仅保存在这台电脑上。
+en: Update check: version {0} is the newest.
+zh-Hans: 更新检查：版本 {0} 是最新版本。
+en: Downloading version {0}... {1}%
+zh-Hans: 正在下载版本 {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+zh-Hans: 版本 {0} 已可用。这是开发版本，因此不会自行更新。
+en: Update check: version {0} is available.
+zh-Hans: 更新检查：版本 {0} 已可用。
+en: Downloading version {0}...
+zh-Hans: 正在下载版本 {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+zh-Hans: 无法在此处安装更新，因为此文件夹无法更改：{0}
+en: The update was not downloaded: {0}
+zh-Hans: 未下载更新：{0}
+en: Later
+zh-Hans: 稍后
+en: This is a developer build, so it does not update itself.
+zh-Hans: 这是开发版本，因此不会自行更新。
+en: What's new in version {0}:
+zh-Hans: 版本 {0} 的新增功能：
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+zh-Hans: 版本 {0} 已安装，但无法启动：{1}<br><br>请再次启动 Disk Cleanup Helper。
+en: No details were given for this version.
+zh-Hans: 此版本未提供任何详细信息。
+en: Version {0} is downloaded and checked (SHA256 and version number).
+zh-Hans: 版本 {0} 已下载并完成检查（SHA256 和版本号）。
+en: The update could not be downloaded: {0}
+zh-Hans: 无法下载更新：{0}
+en: Version {0} is ready. Restart to update.
+zh-Hans: 版本 {0} 已准备就绪。重新启动即可更新。
+en: This is version {0}. It has not checked for updates yet.
+zh-Hans: 当前版本为 {0}。尚未检查过更新。
+en: You have the latest version ({0}). Last checked: {1}.
+zh-Hans: 你使用的是最新版本（{0}）。上次检查时间：{1}。
+en: Version {0} is installed.
+zh-Hans: 版本 {0} 已安装。
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+zh-Hans: 此副本位于无法更改的文件夹中：<br>{0}<br><br>将打开发布页面，你可以下载版本 {1} 并手动替换此副本。
+en: The update could not be installed: {0}
+zh-Hans: 无法安装更新：{0}
+en: Version {0} is available. Click "Check for updates" to download it.
+zh-Hans: 版本 {0} 已可用。单击“检查更新”即可下载。
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+zh-Hans: 无法安装更新。此副本将保持原样，继续工作。<br><br>{0}
+en: Updated to version {0}.
+zh-Hans: 已更新到版本 {0}。
+en: Update check: {0}
+zh-Hans: 更新检查：{0}
+en: Could not check for updates: {0}
+zh-Hans: 无法检查更新：{0}
+en: Could not reach GitHub. Check the internet connection and try again.
+zh-Hans: 无法连接到 GitHub。请检查互联网连接，然后重试。
+en: Checking for updates...
+zh-Hans: 正在检查更新...
+en: Update check: could not reach GitHub.
+zh-Hans: 更新检查：无法连接到 GitHub。
+en: Check for updates
+zh-Hans: 检查更新
+en: Check for updates when the app starts
+zh-Hans: 应用启动时检查更新
+en: What's new
+zh-Hans: 新增功能
+en: Restart now
+zh-Hans: 立即重新启动
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+zh-Hans: 一款适用于 Windows 10 和 11 的免费助手，可以显示是什么占满了你的磁盘，并安全地释放空间。它不会发送任何有关你电脑的信息。在你确认之前，不会删除任何内容。
+en: Updates
+zh-Hans: 更新
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+zh-Hans: 更新来自本应用的 GitHub 页面。每个新版本在替换当前版本之前都会经过检查（SHA256 和版本号）。
+en: Version {0} has no {1} file.
+zh-Hans: 版本 {0} 没有 {1} 文件。
+en: Version {0} has a download address that is not on github.com.
+zh-Hans: 版本 {0} 的下载地址不在 github.com 上。
+en: Version {0} has no SHA256 line in its release text.
+zh-Hans: 版本 {0} 的发布说明中没有 SHA256 行。
+en: GitHub's answer could not be read.
+zh-Hans: 无法读取 GitHub 的响应。
+en: The newest release has an unreadable version number: {0}
+zh-Hans: 最新发布版本的版本号无法读取：{0}
+en: The download came from an unexpected address: {0}
+zh-Hans: 下载来自意外的地址：{0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+zh-Hans: 下载的文件不是 Disk Cleanup Helper 程序。
+en: The downloaded file is version {0}, not {1}.
+zh-Hans: 下载的文件是版本 {0}，而不是 {1}。
+en: The downloaded file does not match the SHA256 in the release text.
+zh-Hans: 下载的文件与发布说明中的 SHA256 不匹配。
+en: The downloaded file has an unexpected size ({0}).
+zh-Hans: 下载的文件大小与预期不符（{0}）。
+en: The download took too long.
+zh-Hans: 下载耗时过长。

@@ -1,0 +1,14 @@
+# Copy this file to signing.txt and fill in ONE of the two options to sign every build.
+# You also need signtool.exe from the Windows SDK.
+#
+# Option 1: a certificate installed in your Windows certificate store
+# thumbprint=0123456789ABCDEF0123456789ABCDEF01234567
+#
+# Option 2: a .pfx certificate file
+# pfx=C:\path\to\certificate.pfx
+# password=your-password
+#
+# Optional: timestamp server
+# timestamp=http://timestamp.digicert.com
+
+# signing.txt holds a password: it is in .gitignore, never commit it.

@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - fa
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = فارسی
+@rtl = yes
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+fa: اجرای {0} ممکن نشد: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+fa: همچنین {0}
+en: GRAPHICS
+fa: گرافیک
+en: Wireless (Miracast)
+fa: بی‌سیم (Miracast)
+en: Built-in screen
+fa: صفحه‌نمایش داخلی
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+fa: این درایور مربوط به سال {0} است. درایور جدیدتر از سازنده رایانه یا سازنده تراشه می‌تواند خرابی‌ها، صفحه‌های آبی و مشکلات نمایش را برطرف کند.
+en: {0} × {1} at {2} Hz
+fa: {0} × {1} با {2} Hz
+en: Showing now
+fa: در حال نمایش
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+fa: Windows مشکلی را در این دستگاه گزارش می‌کند (کد {0}). درایور آن را از وب‌سایت سازنده رایانه یا سازنده تراشه دوباره نصب کنید.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+fa: درایور گرافیک مناسبی نصب نیست. برای تصویری واضح‌تر و سریع‌تر، درایور را از سازنده رایانه یا سازنده تراشه گرافیک نصب کنید.
+en: Screens
+fa: صفحه‌نمایش‌ها
+en: Made in
+fa: سال ساخت
+en: Connection
+fa: اتصال
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+fa: سلامت، دما و داده‌های SMART در زبانه‌های «سلامت دیسک» و «جزئیات SMART» هستند.
+en: Storage
+fa: فضای ذخیره‌سازی
+en: {0} inches
+fa: {0} اینچ
+en: {0}  (main screen)
+fa: {0}  (صفحه‌نمایش اصلی)
+en: Screen {0}
+fa: صفحه‌نمایش {0}
+en: Refresh rate
+fa: سرعت تازه‌سازی
+en: Resolution
+fa: وضوح
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+fa: حافظه اکنون تقریباً پر است ({0}% در حال استفاده). برنامه‌هایی را که لازم ندارید ببندید. رایانه‌ای که حافظه‌اش تمام شود کند می‌شود و ممکن است از کار بیفتد.
+en: Part number
+fa: شماره قطعه
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+fa: این رایانه یک شکاف حافظه خالی گزارش می‌کند. افزودن یک ماژول حافظه از همان نوع ({0}) معمولاً راهی ارزان برای سریع‌تر کردن آن است.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+fa: {0} برای Windows 10 و 11 امروز کم است. 8 GB یا بیشتر تفاوت بزرگی ایجاد می‌کند.
+en: Size
+fa: اندازه
+en: Memory promised to programs
+fa: حافظه تعهدشده به برنامه‌ها
+en: None. Programs can crash when the memory is full.
+fa: ندارد. وقتی حافظه پر شود، برنامه‌ها ممکن است از کار بیفتند.
+en: Module {0}
+fa: ماژول {0}
+en: {0} GB of {1} GB  (memory plus page file)
+fa: {0} GB از {1} GB  (حافظه به‌همراه فایل صفحه‌بندی)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+fa: این رایانه یک شکاف حافظه خالی گزارش می‌کند. افزودن یک ماژول حافظه از همان نوع معمولاً راهی ارزان برای سریع‌تر کردن آن است.
+en: 4 GB or more
+fa: 4 GB یا بیشتر
+en: Graphics
+fa: گرافیک
+en: Driver
+fa: درایور
+en: Graphics memory
+fa: حافظه گرافیک
+en: {0}% in use now
+fa: اکنون {0}% در حال استفاده
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+fa: هر دو شکاف حافظه پر هستند. برای حافظه بیشتر، ماژول‌ها را با ماژول‌های بزرگ‌تر عوض کنید ({0}). مجموع 16 GB امروز اندازه خوبی است.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+fa: تنها شکاف حافظه پر است. برای حافظه بیشتر، ماژول را با ماژولی بزرگ‌تر عوض کنید ({0}). مجموع 16 GB امروز اندازه خوبی است.
+en: MEMORY
+fa: حافظه
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+fa: هر {0} شکاف حافظه پر هستند. برای حافظه بیشتر، ماژول‌ها را با ماژول‌های بزرگ‌تر عوض کنید ({1}). مجموع 16 GB امروز اندازه خوبی است.
+en: Adapter
+fa: آداپتور
+en: Network adapters
+fa: آداپتورهای شبکه
+en: connected at {0}
+fa: متصل با سرعت {0}
+en: turned off
+fa: خاموش
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+fa: باتری فقط {0}% از ظرفیت زمان نو بودنش را نگه می‌دارد. باتری نو زمان بسیار بیشتری دور از شارژر به شما می‌دهد.
+en: Lithium-ion
+fa: لیتیوم-یون
+en: Kind
+fa: نوع
+en: Nickel-metal hydride
+fa: نیکل-متال هیدرید
+en: Lithium-polymer
+fa: لیتیوم-پلیمر
+en: connected
+fa: متصل
+en: {0} minutes
+fa: {0} دقیقه
+en: {0}  ·  Windows reports a problem (code {1})
+fa: {0}  ·  Windows مشکلی گزارش می‌کند (کد {1})
+en: {0} days
+fa: {0} روز
+en: {0} hours
+fa: {0} ساعت
+en: Built in
+fa: داخلی
+en: Sound
+fa: صدا
+en: not connected
+fa: متصل نیست
+en: Through the screen (HDMI or DisplayPort)
+fa: از طریق صفحه‌نمایش (HDMI یا DisplayPort)
+en: Added by a program
+fa: افزوده‌شده توسط یک برنامه
+en: Battery
+fa: باتری
+en: All disks together
+fa: همه دیسک‌ها با هم
+en: plugged in, charging
+fa: متصل به برق، در حال شارژ
+en: on battery
+fa: با باتری
+en: drive {0}
+fa: درایو {0}
+en: Storage class memory
+fa: حافظه کلاس ذخیره‌سازی
+en: Hard disk
+fa: دیسک سخت
+en: Disk {0}
+fa: دیسک {0}
+en: SD card
+fa: کارت SD
+en: plugged in, full
+fa: متصل به برق، کاملاً شارژ
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+fa: {0}%  (ظرفیت {1} Wh، در زمان نو بودن {2} Wh)
+en: Battery health
+fa: سلامت باتری
+en: Charge cycles
+fa: چرخه‌های شارژ
+en: Start the tool with admin rights to read it
+fa: برای خواندن آن، ابزار را با دسترسی سرپرست اجرا کنید
+en: {0} h {1} min  (Windows' estimate)
+fa: {0} ساعت و {1} دقیقه  (برآورد Windows)
+en: Charge now
+fa: شارژ فعلی
+en: plugged in
+fa: متصل به برق
+en: Time left
+fa: زمان باقی‌مانده
+en: {0}%, {1}
+fa: {0}%، {1}
+en: , size set by hand
+fa: ، اندازه دستی
+en: Server
+fa: سرور
+en: Desktop
+fa: رایانه رومیزی
+en: Windows
+fa: =
+en: Workstation
+fa: ایستگاه کاری
+en: All-in-one
+fa: رایانه همه‌کاره (All-in-one)
+en: Laptop that folds into a tablet (2-in-1)
+fa: لپ‌تاپی که به تبلت تبدیل می‌شود (2 در 1)
+en: Laptop
+fa: لپ‌تاپ
+en: Tablet
+fa: تبلت
+en: Tablet with a detachable keyboard (2-in-1)
+fa: تبلت با صفحه‌کلید جداشدنی (2 در 1)
+en: Edition
+fa: ویرایش
+en: Last update installed
+fa: آخرین به‌روزرسانی نصب‌شده
+en: Installed or last big update
+fa: تاریخ نصب یا آخرین به‌روزرسانی بزرگ
+en: Running since
+fa: در حال اجرا از
+en: {0}  ({1})
+fa: {0}  ·  {1}
+en: 32-bit
+fa: 32 بیتی
+en: Build
+fa: ساخت
+en: Version
+fa: نسخه
+en: 64-bit
+fa: 64 بیتی
+en: 64-bit, for ARM processors
+fa: 64 بیتی، برای پردازنده‌های ARM
+en: Computer name
+fa: نام رایانه
+en: Type
+fa: نوع
+en: BIOS
+fa: =
+en: Motherboard
+fa: مادربورد
+en: Model
+fa: مدل
+en: Read on {0}
+fa: خوانده‌شده در {0}
+en: Device details
+fa: جزئیات دستگاه
+en: Maker
+fa: سازنده
+en: This PC
+fa: این رایانه
+en: Start-up mode
+fa: حالت راه‌اندازی
+en: Not found, or turned off in the BIOS
+fa: پیدا نشد، یا در BIOS خاموش است
+en: Security chip (TPM)
+fa: تراشه امنیتی (TPM)
+en: TPM {0}, turned off
+fa: TPM {0}، خاموش
+en: TPM {0}, on
+fa: TPM {0}، روشن
+en: Not available with Legacy BIOS
+fa: با Legacy BIOS در دسترس نیست
+en: Secure Boot
+fa: راه‌اندازی امن (Secure Boot)
+en: Legacy BIOS
+fa: =
+en: Off
+fa: خاموش
+en: On
+fa: روشن
+en: Soldered on the board
+fa: لحیم‌شده روی برد
+en: SO-DIMM (laptop size)
+fa: SO-DIMM (اندازه لپ‌تاپ)
+en: Installed
+fa: نصب‌شده
+en: Memory (RAM)
+fa: حافظه (RAM)
+en: DIMM (desktop size)
+fa: DIMM (اندازه رایانه رومیزی)
+en: Off in the BIOS
+fa: در BIOS خاموش
+en: On in the BIOS
+fa: در BIOS روشن
+en: PROCESSOR
+fa: پردازنده
+en: Socket
+fa: سوکت
+en: {0}  ({1} GB usable by Windows)
+fa: {0}  ·  {1} GB قابل استفاده برای Windows
+en: {0}, {1}  ({2} in use, highest {3})
+fa: {0}، {1}  ·  {2} در حال استفاده، بیشترین {3}
+en: {0} of {1} used
+fa: {0} از {1} استفاده‌شده
+en: , size managed by Windows
+fa: ، اندازه را Windows مدیریت می‌کند
+en: Page file
+fa: فایل صفحه‌بندی
+en: Memory slots
+fa: شکاف‌های حافظه
+en: {0} GB of {1} GB  ({2}%)
+fa: {0} GB از {1} GB  ·  {2}%
+en: In use now
+fa: اکنون در حال استفاده
+en: Module type
+fa: نوع ماژول
+en: Type and speed
+fa: نوع و سرعت
+en: WINDOWS
+fa: Windows
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+fa: Windows {0} روز است که بدون راه‌اندازی مجدد کار می‌کند. وقتی «راه‌اندازی سریع» روشن است، خاموش کردن، Windows را کاملاً از نو راه‌اندازی نمی‌کند، پس هر از گاهی از «راه‌اندازی مجدد» استفاده کنید: به‌روزرسانی‌ها را کامل می‌کند و حافظه را آزاد می‌کند.
+en: Processor
+fa: پردازنده
+en: build {0}
+fa: ساخت {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+fa: Windows از {0} تاکنون هیچ به‌روزرسانی‌ای نصب نکرده است. تنظیمات > Windows Update را باز کنید و به‌روزرسانی‌ها را بررسی کنید: آن‌ها حفره‌های امنیتی و خرابی‌ها را برطرف می‌کنند.
+en: Region format
+fa: قالب منطقه
+en: Display language
+fa: زبان نمایش
+en: DirectX
+fa: =
+en: Time zone
+fa: منطقه زمانی
+en: Name
+fa: نام
+en: Busy right now
+fa: میزان استفاده فعلی
+en: Cache
+fa: حافظه پنهان
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+fa: در حال استفاده (توسط Hyper-V، WSL، Docker یا ویژگی‌های امنیتی Windows)
+en: Virtualization
+fa: مجازی‌سازی
+en: Base speed
+fa: سرعت پایه
+en: Cores
+fa: هسته‌ها
+en: Made by
+fa: سازنده
+en: ({0} processors)
+fa: (تعداد پردازنده: {0})
+en: {0} cores, {1} threads
+fa: {0} هسته، {1} رشته
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+fa: (برنامه بی‌نام)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+fa: مخصوص سازنده
+en: {0} data errors were found on the SSD.
+fa: {0} خطای داده روی SSD پیدا شد.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+fa: {0} سکتور خراب (Reallocated) با سکتورهای یدکی جایگزین شد.
+en: The disk itself predicts that it will fail soon. Back up your files now.
+fa: خود دیسک پیش‌بینی می‌کند که به‌زودی از کار می‌افتد. همین حالا از فایل‌های خود نسخه پشتیبان تهیه کنید.
+en: Failing
+fa: رو به خرابی
+en: OK (no limit)
+fa: سالم (بدون حد)
+en: {0} sector reallocation events.
+fa: {0} رویداد جابه‌جایی سکتور.
+en: The disk needed {0} retries to spin up.
+fa: دیسک برای شروع چرخش به {0} بار تلاش دوباره نیاز داشت.
+en: {0} internal data path errors.
+fa: {0} خطای مسیر داده داخلی.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+fa: {0} خطای انتقال بین دیسک و رایانه شمرده شد. این خطاها معمولاً ناشی از یک کابل شل یا خراب هستند و به دیسک آسیب نمی‌زنند.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+fa: {0} سکتور ناپایدار است و منتظر بررسی (Pending) است. از فایل‌های خود نسخه پشتیبان داشته باشید و ببینید آیا این عدد بیشتر می‌شود.
+en: {0} sectors could not be read or fixed (uncorrectable).
+fa: {0} سکتور (Uncorrectable) قابل خواندن یا اصلاح نبود.
+en: {0} read errors the disk could not correct.
+fa: {0} خطای خواندن که دیسک نتوانست اصلاح کند.
+en: Warning flags set
+fa: پرچم‌های هشدار فعال است
+en: Hot
+fa: داغ
+en: Below threshold
+fa: زیر آستانه
+en: Windows reports a warning for this disk.
+fa: Windows برای این دیسک هشدار گزارش می‌کند.
+en: Windows reports this disk as unhealthy.
+fa: Windows این دیسک را ناسالم گزارش می‌کند.
+en: OK
+fa: سالم
+en: Near end of rated life
+fa: نزدیک به پایان عمر اسمی
+en: The SSD has switched to read-only mode to protect your data.
+fa: SSD برای محافظت از داده‌های شما به حالت فقط‌خواندنی رفته است.
+en: The SSD reports that it has been too hot.
+fa: SSD گزارش می‌دهد که بیش از حد داغ شده است.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+fa: ویژگی SMART شماره {0} زیر حد ایمنی خود است. همین حالا از فایل‌های خود نسخه پشتیبان تهیه کنید.
+en: Watch
+fa: زیر نظر
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+fa: فضای یدکی زیر سطح ایمن است ({0}% باقی مانده). همین حالا از فایل‌های خود نسخه پشتیبان تهیه کنید.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+fa: SSD گزارش می‌دهد که قابلیت اطمینان آن کاهش یافته است. همین حالا از فایل‌های خود نسخه پشتیبان تهیه کنید.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+fa: درصد سلامت چه معنایی دارد؟
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+fa: برآوردی است بر اساس داده‌های خودپایشی خود دیسک (SMART، یا گزارش سلامت در SSDهای NVMe). 100% یعنی هیچ مشکل یا فرسودگی‌ای پیدا نشده است. طوری تنظیم شده که به ابزارهایی مانند Hard Disk Sentinel نزدیک باشد، اما هر ابزار فرمول خودش را دارد، پس اعداد ممکن است کمی فرق کنند.
+en: Why does the Windows folder look so big in Analyze disk?
+fa: چرا پوشه Windows در «تحلیل دیسک» این‌قدر بزرگ به نظر می‌رسد؟
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+fa: Windows برخی فایل‌ها را هم‌زمان در دو جا نگه می‌دارد، پس هنگام جمع زدن اندازه‌ها دو بار شمرده می‌شوند. اندازه واقعی کمتر است. هرگز چیزی را در پوشه Windows به‌صورت دستی حذف نکنید.
+en: My SSD shows less than 100% health. Should I worry?
+fa: SSD من سلامت کمتر از 100% نشان می‌دهد. آیا باید نگران باشم؟
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+fa: این‌ها نقاط کوچکی هستند که دیسک نتوانسته به‌طور مطمئن بخواند. سکتورهای جابه‌جاشده (Reallocated) قبلاً با سکتورهای یدکی جایگزین شده‌اند. سکتورهای معلق (Pending) منتظر بررسی هستند. تعداد کمی از آن‌ها در دیسک‌های قدیمی‌تر رایج است. اگر این اعداد مدام بیشتر شوند، از فایل‌های خود نسخه پشتیبان تهیه کنید و تعویض دیسک را در نظر بگیرید.
+en: What temperature is normal for a disk?
+fa: چه دمایی برای دیسک عادی است؟
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+fa: SSDها با هر بار نوشتن کمی فرسوده می‌شوند، و سلامت نشان می‌دهد چه مقدار از عمر نوشتن اسمی مصرف شده است. بسیاری از SSDها مدت‌ها پس از گذشتن از این مقدار اسمی هم به‌خوبی کار می‌کنند. نسخه پشتیبان داشته باشید، و وقتی سلامت پایین آمد یا مشکلی پیدا شد، برای تعویض SSD برنامه‌ریزی کنید.
+en: What are pending and reallocated sectors?
+fa: سکتورهای معلق (Pending) و جابه‌جاشده (Reallocated) چه هستند؟
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+fa: حافظه‌های پنهان با استفاده از مرورگر و برنامه‌ها دوباره پر می‌شوند، Windows به‌روزرسانی‌های جدید را دانلود می‌کند، و وقتی حافظه کم می‌شود Windows فایل صفحه‌بندی خود را بزرگ‌تر می‌کند. پاک‌سازی دوباره هر چند هفته یک بار، روشن کردن «حسگر ذخیره‌سازی» و بستن برنامه‌های بلااستفاده آن را تحت کنترل نگه می‌دارد.
+en: Is it safe to clean what this app suggests?
+fa: آیا پاک‌سازی چیزهایی که این برنامه پیشنهاد می‌کند امن است؟
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+fa: موارد گروه «امن برای پاک‌سازی» حافظه‌های پنهان و فایل‌های موقتی هستند که برنامه‌ها خودشان دوباره می‌سازند. موارد «به انتخاب شما» چیز کوچکی را حذف می‌کنند، پس اول آن‌ها را بخوانید. مواردی که با «فقط اطلاعات» مشخص شده‌اند هرگز توسط برنامه حذف نمی‌شوند؛ برنامه فقط آن‌ها را نشان می‌دهد و محلشان را باز می‌کند.
+en: It never follows folder links into other folders.
+fa: هرگز پیوندهای پوشه را به پوشه‌های دیگر دنبال نمی‌کند.
+en: Will cleaning my browser cache log me out of websites?
+fa: آیا پاک کردن حافظه پنهان مرورگر باعث خروج من از وب‌سایت‌ها می‌شود؟
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+fa: فایل‌هایی که در حال استفاده هستند نادیده گرفته می‌شوند. پاک‌سازی فایل‌های موقت، فایل‌های یک روز گذشته را نگه می‌دارد. و پاک‌سازی اجزای Windows فقط هنگام اجرا قابل اندازه‌گیری است. گزارش پایین صفحه دقیقاً نشان می‌دهد چه چیزی حذف شده است.
+en: Why does my free space go down again after cleaning?
+fa: چرا فضای خالی من پس از پاک‌سازی دوباره کم می‌شود؟
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+fa: خیر. پاک‌سازی حافظه پنهان، کوکی‌ها، گذرواژه‌های ذخیره‌شده، نشانک‌ها و سابقه مرور را نگه می‌دارد. به‌ندرت ممکن است سایتی از شما بخواهد دوباره وارد شوید، و مرورگر گذرواژه ذخیره‌شده را پر می‌کند.
+en: Why did I get back less space than the size shown?
+fa: چرا فضایی که آزاد شد کمتر از اندازه نشان‌داده‌شده است؟
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+fa: زبانه «جزئیات دستگاه» را باز کنید. این زبانه همان چیزی را نشان می‌دهد که «ابزار عیب‌یابی DirectX» در Windows (همان dxdiag) نشان می‌دهد، به‌علاوه شکاف‌های حافظه، فایل صفحه‌بندی، صفحه‌نمایش‌ها و سلامت باتری. برای فرستادن جزئیات به کسی که به شما کمک می‌کند، روی «کپی همه» یا «ذخیره به‌صورت فایل متنی» کلیک کنید.
+en: Where are my history files saved?
+fa: فایل‌های سابقه من کجا ذخیره می‌شوند؟
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+fa: خواب زمستانی فایلی به اندازه بخشی از حافظه شما نگه می‌دارد تا رایانه بتواند از همان جایی که متوقف شده ادامه دهد. «فضای ذخیره‌سازی رزروشده» حدود 7 GB است که Windows برای به‌روزرسانی‌ها کنار می‌گذارد. CompactOS فایل‌های Windows را فشرده ذخیره می‌کند. هر کدام می‌تواند چند GB آزاد کند، و هر کدام را بعداً می‌توان به حالت قبل برگرداند.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+fa: جزئیات رایانه‌ام، مانند نسخه Windows، پردازنده، حافظه و گرافیک را کجا می‌توانم ببینم؟
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+fa: در پوشه کاربری شما: <ltr>%LOCALAPPDATA%\DiskCleanupHelper</ltr>. سابقه پاک‌سازی، سابقه سلامت و دمای دیسک‌ها، و نتایج آزمون سرعت در آن است. آن‌ها را از زبانه‌های «درباره» و «سلامت دیسک» باز کنید.
+en: How do I uninstall it?
+fa: چگونه آن را حذف نصب کنم؟
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+fa: تنظیمات > برنامه‌ها > Disk Cleanup Helper > حذف نصب، یا دکمه «حذف نصب» در زبانه «درباره». اگر آن را هرگز نصب نکرده‌اید، فقط فایل برنامه را حذف کنید.
+en: Does the app send any of my data anywhere?
+fa: آیا برنامه داده‌های من را به جایی می‌فرستد؟
+en: What are hibernation, Reserved Storage and CompactOS?
+fa: خواب زمستانی، فضای ذخیره‌سازی رزروشده و CompactOS چیست؟
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+fa: برای پاک‌سازی فایل‌های موقت و به‌روزرسانی خود Windows و برای خواندن داده‌های سلامت دیسک‌ها، دسترسی سرپرست لازم است. اگر روی «خیر» کلیک کنید، برنامه باز هم کار می‌کند و مواردی که به دسترسی سرپرست نیاز دارند خاکستری می‌شوند.
+en: Why does Windows say "Windows protected your PC"?
+fa: چرا Windows می‌گوید «Windows از رایانه شما محافظت کرد»؟
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+fa: دیسک‌های سخت معمولاً در 25 تا 45 °C کار می‌کنند. SSDها معمولاً در 30 تا 60 °C کار می‌کنند، و SSDهای NVMe زیر بار سنگین می‌توانند به 70 °C برسند. دمای بالاتر به‌طور مداوم عمر دیسک را کوتاه می‌کند.
+en: Why does the app ask for admin rights?
+fa: چرا برنامه دسترسی سرپرست می‌خواهد؟
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+fa: Windows این پیام را برای برنامه‌های جدیدی نشان می‌دهد که هنوز آن‌ها را نمی‌شناسد. روی «اطلاعات بیشتر» و سپس «به هر حال اجرا شود» کلیک کنید. وقتی برنامه امضا شود و Microsoft آن را بشناسد، این هشدار برای همیشه برطرف می‌شود.
+en: Does the speed test harm my disk?
+fa: آیا آزمون سرعت به دیسک من آسیب می‌زند؟
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+fa: خیر. یک فایل آزمایشی موقت 512 MB تا 1 GB می‌نویسد، آن را دوباره می‌خواند و حذفش می‌کند. این کمتر از یک روز استفاده عادی است.
+en: Can I undo a cleanup?
+fa: آیا می‌توانم پاک‌سازی را برگردانم؟
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+fa: فایل‌هایی که زبانه «پاک‌سازی» حذف می‌کند به سطل بازیافت نمی‌روند، پس قابل بازیابی نیستند. فایل‌هایی که از زبانه «تحلیل دیسک» به سطل بازیافت منتقل می‌کنید تا زمانی که سطل بازیافت را خالی نکرده‌اید قابل بازیابی‌اند. تنظیمات Windows را می‌توان برگرداند؛ «راهنما» را در زبانه «درباره» ببینید.
+en: Tidy your Downloads folder
+fa: پوشه بارگیری‌ها را مرتب کنید
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+fa: فایل‌های نصب و دانلودهای قدیمی روی هم انباشته می‌شوند. پوشه را بر اساس اندازه مرتب کنید و چیزهایی را که دیگر لازم ندارید حذف کنید.
+en: Let cloud files stay in the cloud
+fa: بگذارید فایل‌های ابری در فضای ابری بمانند
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+fa: در OneDrive، روی یک پوشه راست‌کلیک کنید و «آزاد کردن فضا» را انتخاب کنید. فایل‌ها دیده می‌شوند اما فقط وقتی بازشان کنید دانلود می‌شوند.
+en: Close programs you are not using
+fa: برنامه‌هایی را که استفاده نمی‌کنید ببندید
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+fa: راه‌اندازی مجدد حافظه را پاک می‌کند، به‌روزرسانی‌ها را کامل می‌کند، و به Windows اجازه می‌دهد فایل صفحه‌بندی را به اندازه عادی برگرداند.
+en: Turn off apps you do not need at startup
+fa: برنامه‌هایی را که هنگام راه‌اندازی لازم ندارید خاموش کنید
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+fa: وقتی حافظه تمام می‌شود، Windows فایل صفحه‌بندی را بزرگ‌تر می‌کند که فضای دیسک را مصرف می‌کند و ممکن است باعث از کار افتادن برنامه‌ها شود.
+en: Restart your PC now and then
+fa: هر از گاهی رایانه را راه‌اندازی مجدد کنید
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+fa: ویدیوها، عکس‌ها و دانلودهای قدیمی می‌توانند روی درایوی دیگر، یک دیسک خارجی یا فضای ابری نگه داشته شوند.
+en: Empty the Recycle Bin
+fa: سطل بازیافت را خالی کنید
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+fa: فایل‌هایی که حذف می‌کنید تا زمانی که سطل بازیافت خالی نشود همچنان فضا اشغال می‌کنند. هر از گاهی آن را بررسی کنید.
+en: Turn on Storage Sense
+fa: «حسگر ذخیره‌سازی» را روشن کنید
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+fa: Windows می‌تواند فایل‌های موقت و موارد قدیمی سطل بازیافت را خودش حذف کند. تنظیمات > سیستم > فضای ذخیره‌سازی > حسگر ذخیره‌سازی.
+en: Uninstall what you no longer use
+fa: برنامه‌هایی را که دیگر استفاده نمی‌کنید حذف نصب کنید
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+fa: وقتی درایو Windows تقریباً پر است، Windows کند می‌شود و ممکن است به‌روزرسانی‌ها نصب نشوند.
+en: Move big personal files
+fa: فایل‌های شخصی بزرگ را منتقل کنید
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+fa: بازی‌ها و برنامه‌های قدیمی اغلب بیشترین فضا را اشغال می‌کنند. تنظیمات > برنامه‌ها، سپس فهرست را بر اساس اندازه مرتب کنید.
+en: Keep 10 to 15 percent free
+fa: 10 تا 15 درصد را خالی نگه دارید
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+fa: پاک کردن دستی پوشه‌هایی مانند Windows، WinSxS و Installer باعث خرابی Windows می‌شود. به‌جای آن از زبانه «پاک‌سازی» استفاده کنید.
+en: Nothing is deleted until you select it and confirm.
+fa: تا وقتی چیزی را انتخاب و تأیید نکنید، حذف نمی‌شود.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+fa: دیسک‌ها ممکن است بدون هشدار از کار بیفتند. یک نسخه از فایل‌های مهم را روی درایوی دیگر یا در فضای ابری نگه دارید.
+en: Never delete Windows files by hand
+fa: هرگز فایل‌های Windows را به‌صورت دستی حذف نکنید
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+fa: موارد پاک‌سازی فقط به حافظه‌های پنهان، فایل‌های موقت و فایل‌های به‌روزرسانی قدیمی دست می‌زنند. اسناد، عکس‌ها، موسیقی، ویدیوها، میز کار و بارگیری‌های شما هرگز به‌طور خودکار پاک نمی‌شوند.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+fa: اگر حافظه رایانه کم باشد، پیش از اندازه‌گیری، اسکن یا پاک‌سازی به شما هشدار می‌دهد.
+en: Windows and program files are protected in the Analyze disk tab.
+fa: فایل‌های Windows و برنامه‌ها در زبانه «تحلیل دیسک» محافظت می‌شوند.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+fa: پاک‌سازی حافظه پنهان مرورگرها و برنامه‌ها، گذرواژه‌ها، نشانک‌ها، سابقه مرور و اطلاعات ورود شما را حفظ می‌کند.
+en: It asks you to close a browser or app before cleaning its cache.
+fa: پیش از پاک کردن حافظه پنهان یک مرورگر یا برنامه، از شما می‌خواهد آن را ببندید.
+en: Back up what matters
+fa: از چیزهای مهم نسخه پشتیبان بگیرید
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+fa: SSDها به آن نیازی ندارند. «بهینه‌سازی درایوها» در Windows این تفاوت را می‌شناسد، پس آن را روی زمان‌بندی خودکارش بگذارید.
+en: Check disk health once a month
+fa: ماهی یک بار سلامت دیسک را بررسی کنید
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+fa: برنامه‌های کمتری که با Windows شروع می‌شوند یعنی راه‌اندازی سریع‌تر و حافظه آزاد بیشتر. مدیر وظیفه (Task Manager) > برنامه‌های راه‌اندازی.
+en: Do not defragment an SSD
+fa: SSD را یکپارچه‌سازی نکنید
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+fa: زبانه «سلامت دیسک» را باز کنید. هر بار باز کردن آن یک خوانش ذخیره می‌کند، پس نمودارهای سابقه نشان می‌دهند که آیا چیزی تغییر می‌کند.
+en: Keep your PC cool
+fa: رایانه را خنک نگه دارید
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+fa: گرما عمر دیسک را کوتاه می‌کند. دیسک‌های سخت باید زیر حدود 50 °C و SSDها زیر حدود 70 °C بمانند. دریچه‌های هوا را تمیز نگه دارید.
+en: Watch for growing bad sectors
+fa: مراقب افزایش سکتورهای خراب باشید
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+fa: تعداد کمی سکتور جابه‌جاشده یا معلق رایج است. اگر این تعداد مدام بیشتر شود، نسخه پشتیبان بگیرید و برای تعویض دیسک برنامه‌ریزی کنید.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+fa: نصب ناموفق بود:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+fa: Disk Cleanup Helper از این رایانه حذف شود؟<br><br>سابقه پاک‌سازی شما در این محل می‌ماند:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+fa: Disk Cleanup Helper از این رایانه حذف شد.
+en: Free up disk space safely
+fa: آزادسازی ایمن فضای دیسک
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+fa: کپی کردن برنامه ممکن نشد. اگر Disk Cleanup Helper نصب‌شده باز است، اول آن را ببندید و دوباره امتحان کنید.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+fa: Disk Cleanup Helper نصب شد.<br><br>آن را از منوی شروع یا میان‌بر میز کار با نام Disk Cleanup Helper باز کنید.<br><br>برای حذف آن در آینده: تنظیمات > برنامه‌ها > Disk Cleanup Helper > حذف نصب.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+fa: اندازه نشان‌داده‌شده مربوط به سطل بازیافت روی درایو Windows است.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+fa: سطل بازیافت را در همه درایوها خالی می‌کند. هر چیزی که در آن باشد دیگر قابل بازیابی نیست.
+en: $Recycle.Bin on every drive
+fa: <ltr>$Recycle.Bin</ltr> در همه درایوها
+en: Turn off hibernation
+fa: خاموش کردن خواب زمستانی
+en: Sleep still works normally.
+fa: حالت خواب همچنان عادی کار می‌کند.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+fa: فایل خواب زمستانی را که اغلب چند GB است حذف می‌کند. خواب زمستانی و راه‌اندازی سریع دیگر کار نمی‌کنند، پس رایانه چند ثانیه کندتر روشن می‌شود.
+en: PC starts a few seconds slower
+fa: رایانه چند ثانیه کندتر روشن می‌شود
+en: Files in it are gone for good
+fa: فایل‌های داخل آن برای همیشه از بین می‌روند
+en: Crash dump files
+fa: فایل‌های تخلیه حافظه (Crash dump)
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+fa: تنظیمات و پروژه‌های شما می‌مانند. IDE دفعه بعد که پروژه‌ها را باز کنید آن‌ها را دوباره نمایه‌سازی می‌کند. اول IDEهای JetBrains را ببندید.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+fa: حافظه‌های پنهان IntelliJ IDEA، PyCharm، WebStorm، Rider و دیگر IDEهای JetBrains.
+en: Only needed to investigate crashes
+fa: فقط برای بررسی علت خرابی‌ها لازم است
+en: Recycle Bin (all drives)
+fa: سطل بازیافت (همه درایوها)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+fa: اگر کسی در حال بررسی علت خرابی رایانه شماست، آن‌ها را نگه دارید. در غیر این صورت حذفشان امن است.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+fa: فایل‌هایی که Windows پس از صفحه آبی یا مشکل درایور گرافیک می‌نویسد. فقط MEMORY.DMP می‌تواند چند GB باشد.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+fa: برای برگرداندن در آینده، این دستور را در خط فرمان با دسترسی سرپرست اجرا کنید:  <ltr>DISM /Online /Set-ReservedStorageState /State:Enabled</ltr>
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+fa: خاموش کردن آن این فضا را برمی‌گرداند، اما اگر دیسک شما پر شود، ممکن است به‌روزرسانی‌های Windows ناموفق شوند. فقط در صورتی این کار را انجام دهید که فضای خالی کافی نگه می‌دارید.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+fa: Windows حدود 7 GB را کنار می‌گذارد تا به‌روزرسانی‌ها همیشه جا برای نصب داشته باشند.
+en: already off
+fa: از قبل خاموش است
+en: about 2-4 GB
+fa: حدود 2-4 GB
+en: Windows setting (Reserved Storage)
+fa: تنظیم Windows (فضای ذخیره‌سازی رزروشده)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+fa: برای برگرداندن در آینده، این دستور را در خط فرمان با دسترسی سرپرست اجرا کنید:  <ltr>powercfg /h on</ltr>
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+fa: hiberfil.sys یک فایل پنهان Windows است. چیزی برای باز کردن وجود ندارد.
+en: Updates may fail when the disk is full
+fa: وقتی دیسک پر باشد ممکن است به‌روزرسانی‌ها ناموفق شوند
+en: Turn off Reserved Storage
+fa: خاموش کردن فضای ذخیره‌سازی رزروشده
+en: about 7 GB
+fa: حدود 7 GB
+en: IDE re-indexes your projects
+fa: IDE پروژه‌های شما را دوباره نمایه‌سازی می‌کند
+en: Spotify cache and downloads
+fa: حافظه پنهان و دانلودهای Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+fa: state.vscdb در همان پوشه، گفتگوها، اطلاعات ورود و تنظیمات شما را نگه می‌دارد. این ابزار هرگز به آن دست نمی‌زند.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+fa: داده‌های کاری عامل هوش مصنوعی Cursor. ممکن است شامل سابقه قدیمی گفتگو با عامل باشد.
+en: Downloaded songs must be downloaded again
+fa: آهنگ‌های دانلودشده باید دوباره دانلود شوند
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+fa: حساب و فهرست‌های پخش شما امن هستند، اما آهنگ‌هایی که برای گوش دادن آفلاین دانلود کرده‌اید باید دوباره دانلود شوند.
+en: Spotify keeps played and downloaded music here.
+fa: Spotify موسیقی پخش‌شده و دانلودشده را اینجا نگه می‌دارد.
+en: {0} and Data
+fa: {0} و Data
+en: May hold old agent chat history
+fa: ممکن است سابقه قدیمی گفتگو با عامل را داشته باشد
+en: Cursor: AI agent snapshots
+fa: Cursor: نسخه‌های لحظه‌ای عامل هوش مصنوعی
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+fa: فقط پوشه‌هایی حذف می‌شوند که 60 روز تغییر نکرده‌اند. به خود فایل‌های پروژه شما هرگز دست زده نمی‌شود.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+fa: هر پوشه چیزهایی را که VS Code درباره یک پروژه به خاطر می‌سپارد نگه می‌دارد: زبانه‌های باز، چیدمان، و سابقه گفتگوی هوش مصنوعی برای همان پروژه.
+en: Cannot undo older AI edits
+fa: برگرداندن ویرایش‌های قدیمی‌تر هوش مصنوعی ممکن نیست
+en: Cursor: AI agent data
+fa: Cursor: داده‌های عامل هوش مصنوعی
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+fa: دیگر نمی‌توانید تغییرات قدیمی‌تر هوش مصنوعی را برگردانید. وقتی دوباره از عامل استفاده کنید، Cursor نسخه‌های جدید می‌سازد.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+fa: نسخه‌هایی از پروژه‌های شما که عامل هوش مصنوعی Cursor برای برگرداندن ویرایش‌هایش از آن‌ها استفاده می‌کند.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+fa: ساخت بعدی به اینترنت نیاز دارد و طولانی‌تر می‌شود، چون Gradle آن‌ها را دوباره دانلود می‌کند. اول Android Studio و دیگر IDEهای Java را ببندید.
+en: Downloaded libraries and build files for Java and Android projects.
+fa: کتابخانه‌های دانلودشده و فایل‌های ساخت برای پروژه‌های Java و Android.
+en: Next build downloads everything again
+fa: ساخت بعدی همه‌چیز را دوباره دانلود می‌کند
+en: Maven repository
+fa: مخزن Maven
+en: JetBrains IDE caches and logs
+fa: حافظه‌های پنهان و گزارش‌های IDEهای JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+fa: ساخت بعدی به اینترنت نیاز دارد و طولانی‌تر می‌شود، چون Maven آن‌ها را دوباره دانلود می‌کند. کتابخانه‌هایی که خودتان با <ltr>mvn install</ltr> نصب کرده‌اید باید دوباره نصب شوند.
+en: Downloaded Java libraries.
+fa: کتابخانه‌های Java دانلودشده.
+en: Gradle caches
+fa: حافظه‌های پنهان Gradle
+en: Adobe media cache (Premiere, After Effects)
+fa: حافظه پنهان رسانه (Adobe Premiere و After Effects)
+en: Close Spotify first.
+fa: اول Spotify را ببندید.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+fa: نکته: در تنظیمات Spotify می‌توانید اندازه حافظه پنهان را کوچک‌تر کنید یا آن را به درایو دیگری منتقل کنید.
+en: Video previews are rebuilt
+fa: پیش‌نمایش‌های ویدیو دوباره ساخته می‌شوند
+en: Close Adobe apps first.
+fa: اول برنامه‌های Adobe را ببندید.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+fa: به پروژه‌ها و ویدیوهای شما دست زده نمی‌شود. پس از آن، اولین بار باز کردن هر پروژه کندتر است، چون پیش‌نمایش‌ها دوباره ساخته می‌شوند.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+fa: فایل‌های پیش‌نمایش و صوتی که برنامه‌های ویدیویی Adobe می‌سازند. ممکن است به چندین GB برسند.
+en: Compress Windows files (CompactOS)
+fa: فشرده‌سازی فایل‌های Windows با CompactOS
+en: On a slower hard disk, Docker runs slower.
+fa: روی دیسک سخت کندتر، Docker کندتر اجرا می‌شود.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+fa: برای آزاد کردن فضا روی این درایو، آن را منتقل کنید: Docker Desktop > Settings (نماد چرخ‌دنده) > Resources > Advanced > Disk image location > یک پوشه روی درایوی دیگر انتخاب کنید > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+fa: مراقب <ltr>docker volume prune</ltr> و <ltr>docker system prune --volumes</ltr> باشید: این دستورها حجم‌ها (volumes) را حذف می‌کنند که ممکن است پایگاه داده داشته باشند.
+en: Linux (WSL) disks
+fa: دیسک‌های Linux در WSL
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+fa: اگر از یکی استفاده نمی‌کنید: تنظیمات > برنامه‌ها > آن را پیدا کنید > حذف نصب. این کار همه‌چیز داخل آن را حذف می‌کند.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+fa: هر سیستم Linux در WSL (برای مثال Ubuntu) همه فایل‌هایش را در یک فایل دیسک نگه می‌دارد.
+en: Disk files of your WSL Linux systems
+fa: فایل‌های دیسک سیستم‌های Linux شما در WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+fa: همه کانتینرها، ایمیج‌ها و حجم‌های Docker را نگه می‌دارد. هرگز این فایل را حذف نکنید.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+fa: برای باز کردن جا: «باز کردن محل» > درایو را انتخاب کنید > پیکربندی > لغزنده «حداکثر استفاده» را پایین بیاورید، یا برای حذف همه آن‌ها روی «حذف» کلیک کنید.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+fa: نقطه‌های بازیابی به شما امکان می‌دهند تغییرات سیستم را برگردانید. Windows ممکن است چند GB برای آن‌ها استفاده کند.
+en: System Properties > System Protection
+fa: ویژگی‌های سیستم > محافظت از سیستم
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+fa: برای نگه داشتن فقط جدیدترین آن‌ها: پاک‌سازی دیسک (cleanmgr) > پاک‌سازی فایل‌های سیستم > گزینه‌های بیشتر > بازیابی سیستم و کپی‌های سایه > پاک‌سازی.
+en: Can be moved to another drive
+fa: می‌توان آن را به درایو دیگری منتقل کرد
+en: Docker disk (do not delete)
+fa: دیسک Docker (حذف نکنید)
+en: Keep at least one recent restore point if you can.
+fa: در صورت امکان، دست‌کم یک نقطه بازیابی جدید نگه دارید.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+fa: - pagefile.sys و swapfile.sys: حافظه اضافی Windows روی دیسک. اگر به اندازه کافی نباشد، وقتی حافظه تمام شود برنامه‌ها از کار می‌افتند.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+fa: pagefile.sys، swapfile.sys، پوشه‌های Windows Installer و WinSxS
+en: Never delete by hand
+fa: هرگز به‌صورت دستی حذف نکنید
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+fa: - پوشه Windows Installer: فایل‌ها را فقط با مورد «فایل‌های به‌روزرسانی قدیمی» حذف کنید، هرگز به‌صورت دستی.
+en: ({0} files)
+fa: ({0} فایل)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+fa: - پوشه‌های برنامه‌هایی که استفاده می‌کنید، حتی اگر بزرگ باشند. حذف آن‌ها ممکن است برنامه را خراب کند یا داده‌های شما را از بین ببرد.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+fa: - پوشه WinSxS: آن را فقط با موارد «اجزای Windows» پاک‌سازی کنید، هرگز به‌صورت دستی.
+en: Leave these alone
+fa: به این‌ها دست نزنید
+en: Your Downloads folder
+fa: پوشه بارگیری‌های شما
+en: If that command is not recognised, run  wsl --update  first.
+fa: اگر آن دستور شناخته نشد، اول  <ltr>wsl --update</ltr>  را اجرا کنید.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+fa: برای انتقال یکی از آن‌ها به درایوی دیگر، در خط فرمان:  <ltr>wsl --shutdown</ltr>   سپس   <ltr>wsl --manage NAME --move D:\WSL\NAME</ltr>
+en: Your own files: you decide
+fa: فایل‌های خودتان: تصمیم با شماست
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+fa: نکته: زبانه «تحلیل دیسک» بزرگ‌ترین فایل‌های شما را در هر جایی فهرست می‌کند.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+fa: پوشه را باز کنید، بر اساس اندازه مرتب کنید (نما > جزئیات، سپس روی ستون «اندازه» کلیک کنید) و چیزهایی را که دیگر لازم ندارید حذف کنید.
+en: Files you downloaded. This tool never deletes them here.
+fa: فایل‌هایی که دانلود کرده‌اید. این ابزار هرگز آن‌ها را در اینجا حذف نمی‌کند.
+en: Keep at least the newest one
+fa: دست‌کم جدیدترین را نگه دارید
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+fa: «حسگر ذخیره‌سازی» بخشی از Windows است. فایل‌های موقت و موارد قدیمی سطل بازیافت را به‌طور خودکار حذف می‌کند تا فضا خالی بماند.
+en: Settings > System > Storage
+fa: تنظیمات > سیستم > فضای ذخیره‌سازی
+en: Cleans temp files automatically
+fa: فایل‌های موقت را خودکار پاک می‌کند
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+fa: «باز کردن محل» تنظیمات «حسگر ذخیره‌سازی» را باز می‌کند. آن را آنجا روشن کنید.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+fa: باقی‌مانده از ارتقای Windows. به شما امکان می‌دهد برای مدت محدودی به نسخه قبلی برگردید، و اغلب 10 تا 30 GB است.
+en: Remove with Windows' own tool
+fa: با ابزار خود Windows حذف کنید
+en: Previous Windows installation
+fa: نصب قبلی Windows
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+fa: قابلیت خود Microsoft که فایل‌های سیستمی Windows را فشرده ذخیره می‌کند. معمولاً 2 تا 4 GB آزاد می‌کند.
+en: Windows system files on {0}
+fa: فایل‌های سیستمی Windows که روی {0} هستند
+en: Built into Windows. Slight CPU cost
+fa: بخشی از Windows. کمی بار روی پردازنده
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+fa: روی رایانه‌های خیلی کند یا قدیمی ممکن است Windows را کمی کندتر کند. روی بیشتر رایانه‌ها متوجه نمی‌شوید.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+fa: در پنجره خودش در حال اجراست. این کار ممکن است 10 تا 20 دقیقه طول بکشد. آن پنجره را نبندید.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+fa: برای برگرداندن در آینده، این دستور را در خط فرمان با دسترسی سرپرست اجرا کنید:  <ltr>compact.exe /compactos:never</ltr>
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+fa: در پنجره خودش اجرا می‌شود و ممکن است 10 تا 20 دقیقه طول بکشد. اگر Windows از قبل فشرده باشد، زود تمام می‌شود.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+fa: بزرگ‌ترین برنامه‌ها روی {0} (برآورد اندازه خود Windows؛ «?» = پوشه نصب ثبت نشده):
+en: Programs only come off by uninstalling them in Settings > Apps.
+fa: برنامه‌ها فقط با حذف نصب در تنظیمات > برنامه‌ها پاک می‌شوند.
+en: "Open location" opens Apps & features.
+fa: «باز کردن محل» صفحه «برنامه‌ها و ویژگی‌ها» را باز می‌کند.
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+fa: {0} برنامه که روی درایوهای دیگر نصب شده‌اند در فهرست نیستند: حذف آن‌ها فضایی روی {1} آزاد نمی‌کند.
+en: System Restore points
+fa: نقطه‌های بازیابی سیستم
+en: "{0}" is discontinued and no longer needed.
+fa: «{0}» دیگر عرضه نمی‌شود و به آن نیازی نیست.
+en: You have {0} Java versions installed. Most people only need the newest one.
+fa: {0} نسخه Java روی رایانه شما نصب است. بیشتر افراد فقط به جدیدترین نسخه نیاز دارند.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+fa: برنامه‌ها فقط با حذف نصب در تنظیمات > برنامه‌ها پاک می‌شوند. برای فهرست کردن بزرگ‌ترین آن‌ها در اینجا، روی «اندازه‌گیری حجم‌ها» کلیک کنید.
+en: "Open location" opens the Storage settings.
+fa: «باز کردن محل» تنظیمات «فضای ذخیره‌سازی» را باز می‌کند.
+en: After that you can no longer go back to the previous Windows version.
+fa: پس از آن دیگر نمی‌توانید به نسخه قبلی Windows برگردید.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+fa: آن را با خود Windows حذف کنید: تنظیمات > سیستم > فضای ذخیره‌سازی > فایل‌های موقت > «نصب(های) قبلی Windows» را علامت بزنید > حذف فایل‌ها.
+en: see details
+fa: جزئیات را ببینید
+en: Settings > Apps > Apps & features
+fa: تنظیمات > برنامه‌ها > برنامه‌ها و ویژگی‌ها
+en: Uninstall the ones you do not use
+fa: آن‌هایی را که استفاده نمی‌کنید حذف نصب کنید
+en: Biggest installed programs
+fa: بزرگ‌ترین برنامه‌های نصب‌شده
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+fa: فایل‌های Shader که Windows و درایور کارت گرافیک ذخیره می‌کنند تا بازی‌ها و برنامه‌ها سریع‌تر اجرا شوند.
+en: {0} and similar
+fa: {0} و موارد مشابه
+en: Games may stutter once while they rebuild
+fa: ممکن است بازی‌ها هنگام بازسازی یک بار کمی مکث داشته باشند
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+fa: خودکار دوباره ساخته می‌شوند. اولین اجرای هر بازی پس از آن ممکن است کمی مکث داشته باشد.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+fa: فایل‌های موقتی که برنامه‌ها به جا می‌گذارند. فقط فایل‌های قدیمی‌تر از 1 روز حذف می‌شوند تا نصب‌های در حال اجرا مختل نشوند.
+en: Files in use are skipped
+fa: فایل‌های در حال استفاده نادیده گرفته می‌شوند
+en: Your temp files (older than 1 day)
+fa: فایل‌های موقت شما (قدیمی‌تر از 1 روز)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+fa: حافظه‌های پنهان گرافیک (DirectX، NVIDIA، AMD، Intel)
+en: Deletes only Discord's cache folders.
+fa: فقط پوشه‌های حافظه پنهان Discord را حذف می‌کند.
+en: Keeps login and messages
+fa: اطلاعات ورود و پیام‌ها حفظ می‌شود
+en: Discord cache
+fa: حافظه پنهان Discord
+en: Close Discord first, including its icon near the clock.
+fa: اول Discord را ببندید، از جمله نماد آن در کنار ساعت.
+en: Close Slack first, including its icon near the clock.
+fa: اول Slack را ببندید، از جمله نماد آن در کنار ساعت.
+en: Deletes only Slack's cache folders.
+fa: فقط پوشه‌های حافظه پنهان Slack را حذف می‌کند.
+en: Slack cache
+fa: حافظه پنهان Slack
+en: Old problem reports
+fa: گزارش‌های قدیمی مشکلات
+en: Windows error reports
+fa: گزارش‌های خطای Windows
+en: The Windows Update service is stopped for a moment and started again.
+fa: سرویس Windows Update برای لحظه‌ای متوقف و دوباره راه‌اندازی می‌شود.
+en: {0} and your own WER folder
+fa: {0} و پوشه WER خودتان
+en: Recent logs are kept
+fa: گزارش‌های اخیر حفظ می‌شوند
+en: Old Windows log files (older than 14 days)
+fa: فایل‌های گزارش قدیمی Windows (قدیمی‌تر از 14 روز)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+fa: گزارش‌هایی که Windows درباره برنامه‌های از کار افتاده ذخیره کرده است. پس از ارسال یا برطرف شدن مشکل، دیگر لازم نیستند.
+en: If an update is still waiting to install, Windows downloads it again.
+fa: اگر به‌روزرسانی‌ای هنوز منتظر نصب باشد، Windows آن را دوباره دانلود می‌کند.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+fa: فایل‌های موقتی که Windows و برنامه‌های نصب به جا می‌گذارند. فقط فایل‌های قدیمی‌تر از 1 روز حذف می‌شوند.
+en: Windows temp files (older than 1 day)
+fa: فایل‌های موقت Windows (قدیمی‌تر از 1 روز)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+fa: اندازه نشان‌داده‌شده مربوط به کل پوشه است. جدیدترین فایل‌ها می‌مانند، پس مقدار آزادشده ممکن است کمی کمتر باشد.
+en: Windows Update downloads
+fa: دانلودهای Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+fa: فایل‌های به‌روزرسانی که Windows قبلاً دانلود کرده است. به‌روزرسانی‌های نصب‌شده تغییری نمی‌کنند.
+en: {0} and the Delivery Optimization cache
+fa: {0} و حافظه پنهان «بهینه‌سازی تحویل»
+en: Installed updates are not affected
+fa: به‌روزرسانی‌های نصب‌شده تغییری نمی‌کنند
+en: Close Teams first, including its icon near the clock.
+fa: اول Teams را ببندید، از جمله نماد آن در کنار ساعت.
+en: Keeps passwords, favorites, logins
+fa: گذرواژه‌ها، علاقه‌مندی‌ها و اطلاعات ورود حفظ می‌شود
+en: Microsoft Edge cache
+fa: حافظه پنهان Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+fa: اول همه پنجره‌های Chrome را ببندید. اگر نماد Chrome در کنار ساعت است، روی آن راست‌کلیک کنید و «خروج» را انتخاب کنید.
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+fa: فقط پوشه‌های حافظه پنهان Edge را در همه نمایه‌ها حذف می‌کند، به‌علاوه حافظه‌های پنهان گرافیک آن.
+en: Deletes only Brave's cache folders in every profile.
+fa: فقط پوشه‌های حافظه پنهان Brave را در همه نمایه‌ها حذف می‌کند.
+en: Brave cache
+fa: حافظه پنهان Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+fa: Edge اغلب در پس‌زمینه به کار خود ادامه می‌دهد. اگر ابزار می‌گوید هنوز در حال اجراست: در Edge، تنظیمات > سیستم و عملکرد > «تقویت راه‌اندازی» (Startup boost) و «ادامه اجرای برنامه‌ها و افزونه‌های پس‌زمینه» را خاموش کنید.
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+fa: فقط پوشه‌های حافظه پنهان Chrome را در همه نمایه‌ها حذف می‌کند، به‌علاوه حافظه‌های پنهان گرافیک آن.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+fa: حفظ می‌شود: گذرواژه‌ها، نشانک‌ها، سابقه مرور، کوکی‌ها و ورود به سایت‌ها، تکمیل خودکار، افزونه‌ها، تنظیمات، برنامه‌های وب نصب‌شده.
+en: Could not stop {0}: {1}
+fa: متوقف کردن {0} ممکن نشد: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+fa: صفحه‌ها بار اول کمی کندتر باز می‌شوند. به‌ندرت ممکن است سایتی از شما بخواهد دوباره وارد شوید، و مرورگر گذرواژه ذخیره‌شده شما را پر می‌کند.
+en: Keeps passwords, bookmarks, logins
+fa: گذرواژه‌ها، نشانک‌ها و اطلاعات ورود حفظ می‌شود
+en: Google Chrome cache
+fa: حافظه پنهان Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+fa: حفظ می‌شود: اطلاعات ورود، پیام‌ها، تنظیمات و فایل‌های شما. برنامه آنچه را لازم دارد دوباره دانلود می‌کند.
+en: Close Opera first.
+fa: اول Opera را ببندید.
+en: Deletes only Opera's cache folder.
+fa: فقط پوشه حافظه پنهان Opera را حذف می‌کند.
+en: {0} (and Opera GX)
+fa: {0} (و Opera GX)
+en: Microsoft Teams cache
+fa: حافظه پنهان Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+fa: فقط پوشه‌های حافظه پنهان Teams را حذف می‌کند. Microsoft این کار را وقتی Teams کند است یا رفتار عجیبی دارد توصیه می‌کند.
+en: Teams cache folders (new Teams and classic Teams)
+fa: پوشه‌های حافظه پنهان Teams (نسخه‌های جدید و کلاسیک)
+en: Keeps login, chats, files
+fa: اطلاعات ورود، گفتگوها و فایل‌ها حفظ می‌شود
+en: Opera cache
+fa: حافظه پنهان Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+fa: فقط پوشه‌های حافظه پنهان Vivaldi را در همه نمایه‌ها حذف می‌کند.
+en: Vivaldi cache
+fa: حافظه پنهان Vivaldi
+en: Close Brave first.
+fa: اول Brave را ببندید.
+en: Close Vivaldi first.
+fa: اول Vivaldi را ببندید.
+en: Close Firefox first.
+fa: اول Firefox را ببندید.
+en: Deletes only Firefox's cache folder in every profile.
+fa: فقط پوشه حافظه پنهان Firefox را در همه نمایه‌ها حذف می‌کند.
+en: Firefox cache
+fa: حافظه پنهان Firefox
+en: {0} and {1}
+fa: {0} و {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+fa: خالی کردن آن امن است. Windows فقط برای حذف نصب جداگانه یک به‌روزرسانی به آن نیاز دارد.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+fa: نسخه پشتیبانی که Windows نگه می‌دارد تا بتوان بعداً به‌روزرسانی یک برنامه را بدون فایل نصب اصلی حذف کرد.
+en: Low risk
+fa: خطر کم
+en: when run
+fa: هنگام اجرا
+en: {0} (Microsoft DISM tool)
+fa: {0} (ابزار DISM از Microsoft)
+en: Safe, often frees little
+fa: امن، اغلب فضای کمی آزاد می‌کند
+en: Windows components: normal cleanup
+fa: اجزای Windows: پاک‌سازی عادی
+en: Windows patch backup cache
+fa: حافظه پنهان پشتیبان وصله‌های Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+fa: فایل‌های حذف‌شده در deleted-update-files.csv فهرست می‌شوند (برای دیدن پوشه، زبانه «درباره» را ببینید).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+fa: این کار فقط فایل‌های به‌روزرسانی‌ای را حذف می‌کند که Windows آن‌ها را جایگزین‌شده با به‌روزرسانی جدیدتر علامت زده است. 3 مورد جدیدتر هر برنامه را نگه می‌دارد و هرگز فایلی را که هنوز در حال استفاده است حذف نمی‌کند.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+fa: برخی برنامه‌ها هر به‌روزرسانی‌ای را که تا به حال نصب کرده‌اند نگه می‌دارند. نمونه رایج Adobe Acrobat Reader است، با 0.1 تا 0.7 GB برای هر به‌روزرسانی.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+fa: خطر اندک: اگر به‌روزرسانی یا تعمیر بعدی آن برنامه از نبودن فایلی خطا داد، آن برنامه را حذف نصب و دوباره نصب کنید.
+en: Found on this PC: nothing to remove.
+fa: پیداشده روی این رایانه: چیزی برای حذف نیست.
+en: Found on this PC:
+fa: پیداشده روی این رایانه:
+en: Never delete files in the Windows Installer folder by hand.
+fa: هرگز فایل‌های پوشه Windows Installer را به‌صورت دستی حذف نکنید.
+en: If you tick both Windows components items, only this one runs.
+fa: اگر هر دو مورد «اجزای Windows» را علامت بزنید، فقط این یکی اجرا می‌شود.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+fa: پس از آن، به‌روزرسانی‌های Windows که اکنون نصب هستند دیگر قابل حذف نصب نیستند. فقط وقتی از آن استفاده کنید که Windows به‌خوبی کار می‌کند.
+en: Same as the normal cleanup, but also removes every replaced version.
+fa: مانند پاک‌سازی عادی، اما همه نسخه‌های جایگزین‌شده را هم حذف می‌کند.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+fa: در پنجره خودش اجرا می‌شود و 5 تا 30 دقیقه طول می‌کشد. آن پنجره را نبندید و رایانه را خاموش نکنید.
+en: {0} (folders unused for 60+ days)
+fa: {0} (پوشه‌هایی که 60 روز یا بیشتر استفاده نشده‌اند)
+en: Lose old projects' tabs, layout, AI chats
+fa: زبانه‌ها، چیدمان و گفتگوهای هوش مصنوعی پروژه‌های قدیمی از بین می‌رود
+en: VS Code: data of projects not opened in 60 days
+fa: VS Code: داده‌های پروژه‌هایی که 60 روز باز نشده‌اند
+en: {0} (Microsoft DISM tool, /ResetBase)
+fa: {0} (ابزار DISM از Microsoft، <ltr>/ResetBase</ltr>)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+fa: Windows خودش هر چند هفته یک بار این کار را انجام می‌دهد، پس اغلب فضای بسیار کمی آزاد می‌کند.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+fa: در پنجره خودش اجرا می‌شود و 5 تا 30 دقیقه طول می‌کشد. آن پنجره را نبندید و رایانه را خاموش نکنید. در لپ‌تاپ، شارژر را وصل کنید.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+fa: پاک‌سازی نسخه‌های قدیمی اجزای Windows توسط خود Microsoft. امن است.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+fa: هرگز چیزی را در WinSxS به‌صورت دستی حذف نکنید. این کار Windows را خراب می‌کند.
+en: Installed updates cannot be uninstalled after
+fa: پس از آن، به‌روزرسانی‌های نصب‌شده قابل حذف نصب نیستند
+en: Windows components: deep cleanup
+fa: اجزای Windows: پاک‌سازی عمیق
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+fa: در پنجره خودش در حال اجراست. این کار ممکن است 5 تا 30 دقیقه طول بکشد. آن پنجره را نبندید.
+en: {0} (files picked from Windows' own records)
+fa: {0} (فایل‌هایی که از سوابق خود Windows انتخاب شده‌اند)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+fa: بسته‌های .NET دانلودشده. هر وقت لازم باشد NuGet آن‌ها را دوباره دانلود می‌کند.
+en: NuGet download cache
+fa: حافظه پنهان دانلود NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+fa: بسته‌های Python دانلودشده. هر وقت لازم باشد pip آن‌ها را دوباره دانلود می‌کند.
+en: Go build cache
+fa: حافظه پنهان ساخت Go
+en: Composer cache
+fa: حافظه پنهان Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+fa: فایل‌های کامپایل‌شده‌ای که زبان Go برای ساخت سریع‌تر نگه می‌دارد. Go آن‌ها را در ساخت بعدی دوباره می‌سازد.
+en: Rebuilt on the next build
+fa: در ساخت بعدی دوباره ساخته می‌شود
+en: pip cache
+fa: حافظه پنهان pip
+en: npm cache
+fa: حافظه پنهان npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+fa: فقط فایل‌های قدیمی‌تر از 14 روز حذف می‌شوند. گزارش‌های اخیر می‌مانند تا اگر چیزی نیاز به رفع مشکل داشت در دسترس باشند.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+fa: فایل‌های گزارشی که Windows هنگام نصب به‌روزرسانی‌ها می‌نویسد. در برخی رایانه‌ها به چند GB می‌رسند.
+en: Packages download again when needed
+fa: بسته‌ها در صورت نیاز دوباره دانلود می‌شوند
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+fa: بسته‌های Yarn دانلودشده (برای توسعه‌دهندگان Node.js). هر وقت لازم باشد Yarn آن‌ها را دوباره دانلود می‌کند.
+en: Yarn cache
+fa: حافظه پنهان Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+fa: بسته‌های npm دانلودشده (برای توسعه‌دهندگان Node.js). دفعه بعد که پروژه‌ای به آن‌ها نیاز داشته باشد، npm آن‌ها را دوباره دانلود می‌کند.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+fa: پوشه‌های حافظه پنهان و گزارش‌های خرابی Cursor. Cursor آن‌ها را دوباره می‌سازد.
+en: Keeps settings, chats, login
+fa: تنظیمات، گفتگوها و اطلاعات ورود حفظ می‌شود
+en: Cursor cache and crash reports
+fa: حافظه پنهان و گزارش‌های خرابی Cursor
+en: KEEPS: settings, chats, login and projects.
+fa: حفظ می‌شود: تنظیمات، گفتگوها، اطلاعات ورود و پروژه‌ها.
+en: Programs stay installed. Small risk
+fa: برنامه‌ها نصب‌شده می‌مانند. خطر اندک
+en: Old update files of installed programs (keeps newest 3)
+fa: فایل‌های به‌روزرسانی قدیمی برنامه‌های نصب‌شده (3 مورد جدیدتر حفظ می‌شود)
+en: Close Cursor first.
+fa: اول Cursor را ببندید.
+en: Close VS Code first.
+fa: اول VS Code را ببندید.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+fa: بسته‌های Rust دانلودشده. هر وقت لازم باشد Cargo آن‌ها را دوباره دانلود می‌کند.
+en: Cargo download cache
+fa: حافظه پنهان دانلود Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+fa: بسته‌های PHP دانلودشده. هر وقت لازم باشد Composer آن‌ها را دوباره دانلود می‌کند.
+en: VS Code cache and crash reports
+fa: حافظه پنهان و گزارش‌های خرابی VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+fa: حفظ می‌شود: تنظیمات، افزونه‌ها، پروژه‌ها، سابقه پروژه‌ها و گفتگوها.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+fa: پوشه‌های حافظه پنهان و گزارش‌های خرابی Visual Studio Code. VS Code آن‌ها را دوباره می‌سازد.
+en: Keeps settings, extensions, projects
+fa: تنظیمات، افزونه‌ها و پروژه‌ها حفظ می‌شود
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+fa: خلاصه
+en: Transfer rate MB/s   (blue = read, orange = write)
+fa: سرعت انتقال MB/s   (آبی = خواندن، نارنجی = نوشتن)
+en: Disk activity %
+fa: فعالیت دیسک %
+en: Average transfer rate (since this tab opened)
+fa: میانگین سرعت انتقال (از زمان باز شدن این زبانه)
+en: Read since Windows started
+fa: خوانده‌شده از زمان شروع Windows
+en: Average disk activity
+fa: میانگین فعالیت دیسک
+en: Highest transfer rate seen
+fa: بیشترین سرعت انتقال دیده‌شده
+en: now
+fa: اکنون
+en: READ
+fa: خواندن
+en: Right now
+fa: همین حالا
+en: Saved today's disk health and temperature reading to the history.
+fa: خوانش امروز سلامت و دمای دیسک در سابقه ذخیره شد.
+en: WRITE
+fa: نوشتن
+en: 2 minutes ago
+fa: 2 دقیقه پیش
+en: DISK ACTIVITY
+fa: فعالیت دیسک
+en: TOTAL TRANSFER
+fa: کل انتقال
+en: Written since Windows started
+fa: نوشته‌شده از زمان شروع Windows
+en: This disk has no drive letter, so the speed test cannot write its test file.
+fa: این دیسک حرف درایو ندارد، پس آزمون سرعت نمی‌تواند فایل آزمایشی خود را بنویسد.
+en: Pick a disk first.
+fa: اول یک دیسک انتخاب کنید.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+fa: آخرین آزمون در {0}: نوشتن {1} MB/s، خواندن {2} MB/s، خواندن تصادفی 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+fa: درایو {0} برای آزمون سرعت دست‌کم به 2 GB فضای خالی نیاز دارد.
+en: Speed test started on drive {0}.
+fa: آزمون سرعت روی درایو {0} شروع شد.
+en: Running...
+fa: در حال اجرا...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+fa: آزمون سرعت یک فایل آزمایشی {0} MB روی درایو {1} می‌نویسد، آن را دوباره می‌خواند و حذفش می‌کند.<br>حدود 10 تا 60 ثانیه طول می‌کشد. در این مدت ممکن است برنامه‌های دیگر کندتر به نظر برسند.<br><br>آزمون سرعت شروع شود؟
+en: not reported by this disk
+fa: این دیسک گزارش نمی‌کند
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+fa: اندازه می‌گیرد که دیسک واقعاً با چه سرعتی می‌نویسد و می‌خواند: یک فایل آزمایشی موقت می‌نویسد، آن را دوباره می‌خواند، سپس تکه‌های کوچک تصادفی را می‌خواند و فایل را حذف می‌کند. در بالا روی «اجرای آزمون سرعت» کلیک کنید.
+en: Speed test
+fa: آزمون سرعت
+en: Written over the disk's whole life
+fa: نوشته‌شده در کل عمر دیسک
+en: Not run yet.
+fa: هنوز اجرا نشده است.
+en: Disk {0}: {1}
+fa: دیسک {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+fa: شمارنده‌های فعالیت دیسک Windows در این رایانه در دسترس نیستند: {0}
+en: Getting disk activity ready...
+fa: در حال آماده‌سازی فعالیت دیسک...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+fa: بار اول ممکن است Windows چند ثانیه برای راه‌اندازی شمارنده‌های فعالیت دیسک زمان لازم داشته باشد.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+fa: برای مقایسه: دیسک‌های سخت لپ‌تاپ به حدود 80 تا 140 MB/s، SSDهای SATA به حدود 500 MB/s و SSDهای NVMe به 1,500 تا 7,000 MB/s می‌رسند.
+en: Raw value
+fa: مقدار خام
+en: Unexpected power losses
+fa: قطع‌های ناگهانی برق
+en: Spare space left
+fa: فضای یدکی باقی‌مانده
+en: Rated write life used
+fa: عمر نوشتن اسمی مصرف‌شده
+en: ✓ No problems found.
+fa: ✓ مشکلی پیدا نشد.
+en: From Windows' storage information.
+fa: از اطلاعات ذخیره‌سازی Windows.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+fa: از گزارش سلامت خود SSD از نوع NVMe خوانده شد. فهرست کامل در زبانه «جزئیات SMART» است.
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+fa: از داده‌های خودپایشی خود دیسک (SMART) خوانده شد. فهرست کامل در زبانه «جزئیات SMART» است.
+en: Data read over its life
+fa: داده خوانده‌شده در طول عمر
+en: Powered on
+fa: مدت روشن بودن
+en: TEMPERATURE
+fa: دما
+en: needs admin
+fa: نیاز به دسترسی سرپرست
+en: {0} hours  (about {1} days)
+fa: {0} ساعت  (حدود {1} روز)
+en: Data written over its life
+fa: داده نوشته‌شده در طول عمر
+en: {0} times
+fa: {0} بار
+en: Turned on
+fa: دفعات روشن شدن
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+fa: این دیسک داده‌های سلامت دقیق را با Windows به اشتراک نمی‌گذارد (در قاب‌های USB و RAID رایج است).
+en: No.
+fa: شماره
+en: Status
+fa: وضعیت
+en: Value
+fa: مقدار
+en: Attribute
+fa: ویژگی
+en: Data
+fa: داده
+en: Worst
+fa: بدترین
+en: Threshold
+fa: آستانه
+en: Item
+fa: مورد
+en: Temperature history
+fa: سابقه دما
+en: Health history
+fa: سابقه سلامت
+en: Start the tool with admin rights to read health and temperature.
+fa: برای خواندن سلامت و دما، ابزار را با دسترسی سرپرست اجرا کنید.
+en: No readings saved yet.
+fa: هنوز هیچ خوانشی ذخیره نشده است.
+en: Offset
+fa: آفست
+en: {0} readings since {1}.
+fa: {0} خوانش از {1} تاکنون.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+fa: تاکنون 1 خوانش، در {0}. با ذخیره شدن خوانش‌های بیشتر، نمودارها کامل‌تر می‌شوند.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+fa: نوشتن {0:N0} MB/s     خواندن {1:N0} MB/s     خواندن تصادفی 4K {2:N1} MB/s  ·  {3:N0} در ثانیه
+en: This item has no folder to open.
+fa: این مورد پوشه‌ای برای باز کردن ندارد.
+en: Stopping...
+fa: در حال توقف...
+en: Could not open the read me: {0}
+fa: باز کردن راهنما ممکن نشد: {0}
+en: Pick a drive first.
+fa: اول یک درایو انتخاب کنید.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+fa: این کار به دسترسی سرپرست نیاز دارد. ابزار را دوباره اجرا کنید و در پیام Windows روی «بله» کلیک کنید.
+en: Select a file in the list first.
+fa: اول یک فایل را در فهرست انتخاب کنید.
+en: Scan a drive first.
+fa: اول یک درایو را اسکن کنید.
+en: No questions match your search.
+fa: هیچ پرسشی با جست‌وجوی شما مطابقت ندارد.
+en: Simple habits that keep your disk from filling up and your PC running well.
+fa: عادت‌های ساده‌ای که نمی‌گذارند دیسک شما پر شود و رایانه‌تان را خوب نگه می‌دارند.
+en: Tips
+fa: نکته‌ها
+en: SAFETY
+fa: ایمنی
+en: How Disk Cleanup Helper keeps you safe
+fa: Disk Cleanup Helper چگونه از شما محافظت می‌کند
+en: Search the questions, for example "temperature"
+fa: جست‌وجو در پرسش‌ها، برای مثال «دما»
+en: Click a question to see the answer.
+fa: برای دیدن پاسخ، روی یک پرسش کلیک کنید.
+en: Frequently asked questions
+fa: پرسش‌های متداول
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+fa: اسکن خطای خود Windows برای {0} در پنجره‌ای جداگانه شروع شد. این اسکن فقط درایو را می‌خواند و چند دقیقه طول می‌کشد. نتیجه را در همان پنجره بخوانید.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+fa: فقط مواردی که روی این رایانه پیدا شده‌اند فهرست می‌شوند. برای دیدن فضای هر کدام، روی «اندازه‌گیری حجم‌ها» کلیک کنید. تا تأیید نکنید چیزی حذف نمی‌شود.
+en: Not running as administrator. Items marked Admin are disabled.
+fa: با دسترسی سرپرست اجرا نشده است. موارد دارای برچسب «سرپرست» غیرفعال هستند.
+en: Running as administrator. All items are available.
+fa: با دسترسی سرپرست در حال اجراست. همه موارد در دسترس هستند.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+fa: نکته: زبانه «درباره» می‌تواند آن را نصب کند تا در منوی شروع نمایش داده شود.
+en: Saved a health and temperature reading for {0} disks to the history.
+fa: خوانش سلامت و دمای {0} دیسک در سابقه ذخیره شد.
+en: {0} files were in use and were skipped.
+fa: {0} فایل در حال استفاده بود و نادیده گرفته شد.
+en: {0} items
+fa: {0} مورد
+en: My user folder only
+fa: فقط پوشه کاربری من
+en: Install: not installed
+fa: نصب: نصب نشده
+en: Install: installed in {0}
+fa: نصب: در {0} نصب شده است
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+fa: هنوز هیچ خوانشی ذخیره نشده است.<br><br>سابقه در این محل ذخیره خواهد شد:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+fa: هنوز هیچ پاک‌سازی‌ای انجام نشده است.<br><br>سابقه در این محل ذخیره خواهد شد:<br>{0}
+en: Whole drive
+fa: کل درایو
+en: Could not open System Information: {0}
+fa: باز کردن «اطلاعات سیستم» ممکن نشد: {0}
+en: Could not open dxdiag: {0}
+fa: باز کردن dxdiag ممکن نشد: {0}
+en: SPEED
+fa: سرعت
+en: Wait until the details have been read.
+fa: صبر کنید تا جزئیات خوانده شود.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+fa: خوانده‌شده در {0}. تا زمانی که آن را کپی یا ذخیره نکنید، فقط روی همین رایانه می‌ماند.
+en: Could not read the device details: {0}
+fa: خواندن جزئیات دستگاه ممکن نشد: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+fa: جزئیات دستگاه کپی شد. آن را هر جا لازم دارید جای‌گذاری کنید، برای مثال در پیامی به کسی که به شما کمک می‌کند.
+en: Text file
+fa: فایل متنی
+en: Save the device details
+fa: ذخیره جزئیات دستگاه
+en: Could not copy: {0}
+fa: کپی ممکن نشد: {0}
+en: Reading...
+fa: در حال خواندن...
+en: Speed test: {0}
+fa: آزمون سرعت: {0}
+en: Speed test finished.
+fa: آزمون سرعت تمام شد.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+fa: در {1} با یک فایل {0} MB آزمایش شد. نتیجه ذخیره شد تا بتوانید بعداً مقایسه کنید.
+en: Speed test stopped. The test file was deleted.
+fa: آزمون سرعت متوقف شد. فایل آزمایشی حذف شد.
+en: Reading this PC's details...
+fa: در حال خواندن جزئیات این رایانه...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+fa: در حال جمع‌آوری جزئیات Windows، پردازنده، حافظه، گرافیک و موارد دیگر. این کار چند ثانیه طول می‌کشد.
+en: The speed test could not finish. See the log below.
+fa: آزمون سرعت نتوانست تمام شود. گزارش پایین را ببینید.
+en: Stopped.
+fa: متوقف شد.
+en: Saved the device details to {0}
+fa: جزئیات دستگاه در {0} ذخیره شد
+en: Philip Droubi | Software Engineer
+fa: Philip Droubi | مهندس نرم‌افزار
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+fa: مهندس نرم‌افزار. پرسش‌ها، ایده‌ها و نظرات شما درباره Disk Cleanup Helper با کمال میل پذیرفته می‌شود.
+en: Made by Philip Droubi
+fa: ساخته‌شده توسط Philip Droubi
+en: Philip Droubi is a Software Engineer.
+fa: Philip Droubi مهندس نرم‌افزار است.
+en: SPACE
+fa: فضا
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+fa: مهندس نرم‌افزار. با Philip Droubi در LinkedIn در ارتباط باشید.
+en: Source code on GitHub
+fa: کد منبع در GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+fa: رایگان و متن‌باز تحت مجوز GNU GPL v3: استفاده کنید، تغییر دهید و به اشتراک بگذارید. نسخه‌ها نام Philip Droubi را حفظ می‌کنند.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+fa: © {0} Philip Droubi. نرم‌افزار آزاد: شما مجازید تحت مجوز GNU General Public License v3 با شرایط اضافی مندرج در فایل NOTICE از آن استفاده کنید، آن را تغییر دهید و به اشتراک بگذارید. این نرم‌افزار بدون هیچ ضمانتی ارائه می‌شود.
+en: License and terms
+fa: مجوز و شرایط
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+fa: این نسخه ({0}) همان نسخه نصب‌شده روی این رایانه نیست. نسخه نصب‌شده را به‌روزرسانی کنید تا منوی شروع این نسخه را باز کند.
+en: Repair shortcuts
+fa: تعمیر میان‌برها
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+fa: در {0} نصب شده است. هر زمان خواستید آن را از منوی شروع یا میان‌بر میز کار باز کنید. برای حذف آن: روی «حذف نصب» کلیک کنید، یا تنظیمات > برنامه‌ها > Disk Cleanup Helper.
+en: Could not save the file: {0}
+fa: ذخیره فایل ممکن نشد: {0}
+en: Update installed copy
+fa: به‌روزرسانی نسخه نصب‌شده
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+fa: Disk Cleanup Helper را روی این رایانه نگه دارید: آن را نصب کنید تا از منوی شروع و میز کار باز شود. دسترسی سرپرست لازم نیست.
+en: Install on this PC
+fa: نصب روی این رایانه
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+fa: نصب نشده است. آن را از {0} اجرا می‌کنید. نصب، یک مورد در منوی شروع، یک میان‌بر روی میز کار و یک مورد در تنظیمات > برنامه‌ها اضافه می‌کند تا بتوان آن را مانند هر برنامه دیگری حذف کرد. دسترسی سرپرست لازم نیست.
+en: not reported
+fa: گزارش نشده
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+fa: این ابزار هرگز این مورد را حذف نمی‌کند. از «باز کردن محل» استفاده کنید و مراحل بالا را دنبال کنید.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+fa: به دسترسی سرپرست نیاز دارد. برای استفاده از این مورد، ابزار را دوباره اجرا کنید و در پیام Windows روی «بله» کلیک کنید.
+en: Close first: {0}
+fa: اول ببندید: {0}
+en: Measure anyway?
+fa: با این حال اندازه‌گیری شود؟
+en: Measuring stopped.
+fa: اندازه‌گیری متوقف شد.
+en: Measuring {0} of {1}: {2}
+fa: در حال اندازه‌گیری {0} از {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+fa: در حال اندازه‌گیری حجم‌ها. این کار ممکن است یکی دو دقیقه طول بکشد. برای توقف روی «توقف» کلیک کنید.
+en: Where
+fa: محل
+en: Problem: {0}
+fa: مشکل: {0}
+en: Clean selected ({0})
+fa: پاک‌سازی انتخاب‌شده‌ها ({0})
+en: up to {0}
+fa: تا {0}
+en: Close {0} first
+fa: اول {0} را ببندید
+en: Size: not measured yet
+fa: اندازه: هنوز اندازه‌گیری نشده
+en: Size: {0}
+fa: اندازه: {0}
+en: Admin
+fa: سرپرست
+en: Done. Select what you want to clean.
+fa: انجام شد. مواردی را که می‌خواهید پاک‌سازی شوند انتخاب کنید.
+en: Cleanup started. Free space on {0}: {1}
+fa: پاک‌سازی شروع شد. فضای خالی روی {0}: {1}
+en: Confirm cleanup
+fa: تأیید پاک‌سازی
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+fa: این موارد پاک‌سازی می‌شوند. فایل‌های حذف‌شده به سطل بازیافت نمی‌روند و قابل بازیابی نیستند:<br><br>{0}<br><br>ادامه می‌دهید؟
+en: Stopped. Not cleaned: {0}
+fa: متوقف شد. پاک‌سازی نشده: {0}
+en: Error: {0}
+fa: خطا: {0}
+en: Cleaning: {0}
+fa: در حال پاک‌سازی: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+fa: همه کارها انجام شد. فضای خالی روی {0} به اندازه {1} بیشتر شد. اکنون {2} خالی است.
+en: Clean anyway?
+fa: با این حال پاک‌سازی شود؟
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+fa: نکته: برخی برنامه‌ها در کنار ساعت به اجرا ادامه می‌دهند. روی نماد آن‌ها در آنجا راست‌کلیک کنید و «خروج» (Exit یا Quit) را انتخاب کنید.
+en: Select at least one item first.
+fa: اول دست‌کم یک مورد را انتخاب کنید.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+fa: انجام شد. روی یک مورد کلیک کنید تا درباره آن بخوانید، موارد دلخواه را انتخاب کنید، سپس روی «پاک‌سازی انتخاب‌شده‌ها» کلیک کنید.
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+fa: Edge اغلب در پس‌زمینه اجرا می‌شود: در Edge، تنظیمات > سیستم و عملکرد > «تقویت راه‌اندازی» و برنامه‌های پس‌زمینه را خاموش کنید.
+en: Nothing left to clean. Close the programs and try again.
+fa: چیزی برای پاک‌سازی باقی نمانده است. برنامه‌ها را ببندید و دوباره امتحان کنید.
+en: Close programs first
+fa: اول برنامه‌ها را ببندید
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+fa: این برنامه‌ها هنوز باز هستند:<br><br>{0}<br><br>{1}<br><br>روی «خیر» کلیک کنید، آن‌ها را ببندید، سپس دوباره روی «پاک‌سازی انتخاب‌شده‌ها» کلیک کنید.<br>یا روی «بله» کلیک کنید تا مواردی که به آن‌ها نیاز دارند رد شوند و بقیه پاک‌سازی شود.
+en: Clean selected
+fa: پاک‌سازی انتخاب‌شده‌ها
+en: Switches that free space or keep it free.
+fa: کلیدهایی که فضا را آزاد می‌کنند یا آزاد نگه می‌دارند.
+en: Windows settings
+fa: تنظیمات Windows
+en: YOUR CALL
+fa: به انتخاب شما
+en: SETTING
+fa: تنظیم
+en: INFO ONLY
+fa: فقط اطلاعات
+en: The tool only shows and opens these. It never deletes them.
+fa: ابزار این موارد را فقط نشان می‌دهد و باز می‌کند. هرگز آن‌ها را حذف نمی‌کند.
+en: Do it yourself
+fa: خودتان انجام دهید
+en: You lose something small. Read each one before you select it.
+fa: چیز کوچکی را از دست می‌دهید. پیش از انتخاب هر مورد، آن را بخوانید.
+en: SAFE
+fa: امن
+en: TOTAL
+fa: مجموع
+en: {0} selected
+fa: {0} انتخاب‌شده
+en: Caches and temp files. Programs rebuild them by themselves.
+fa: حافظه‌های پنهان و فایل‌های موقت. برنامه‌ها خودشان آن‌ها را دوباره می‌سازند.
+en: Safe to clean
+fa: امن برای پاک‌سازی
+en: Old installer files and Windows cleanup
+fa: فایل‌های نصب قدیمی و پاک‌سازی Windows
+en: Your call
+fa: به انتخاب شما
+en: ADMIN
+fa: سرپرست
+en: Needs admin rights. Read each one before you select it.
+fa: به دسترسی سرپرست نیاز دارد. پیش از انتخاب هر مورد، آن را بخوانید.
+en: Language
+fa: زبان
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+fa: حافظه رایانه شما اکنون کم است:<br><br>  حافظه در دسترس: {0:N1} GB<br>  فضای باقی‌مانده با احتساب فایل صفحه‌بندی: {1:N1} GB<br><br>تمام شدن حافظه ممکن است باعث از کار افتادن برنامه‌ها و در برخی رایانه‌ها باعث صفحه آبی شود.<br>برنامه‌هایی را که لازم ندارید (مرورگرها، ویرایشگرها، بازی‌ها) ببندید و دوباره امتحان کنید.
+en: Switched to the light theme.
+fa: به طرح زمینه روشن تغییر کرد.
+en: Switched to the dark theme.
+fa: به طرح زمینه تیره تغییر کرد.
+en: Low memory
+fa: حافظه کم
+en: nothing selected
+fa: چیزی انتخاب نشده
+en: low: close some programs
+fa: کم: چند برنامه را ببندید
+en: of {0} GB
+fa: از {0} GB
+en: Switch to the dark theme
+fa: تغییر به طرح زمینه تیره
+en: Please wait until the current task finishes, or click Stop.
+fa: لطفاً صبر کنید تا کار فعلی تمام شود، یا روی «توقف» کلیک کنید.
+en: Scan {0} for errors
+fa: بررسی {0} برای یافتن خطا
+en: {0} FREE (WINDOWS DRIVE)
+fa: فضای خالی {0} (درایو Windows)
+en: Could not restart the app: {0}
+fa: راه‌اندازی مجدد برنامه ممکن نشد: {0}
+en: Switch to the light theme
+fa: تغییر به طرح زمینه روشن
+en: DARK MODE
+fa: حالت تیره
+en: LIGHT MODE
+fa: حالت روشن
+en: Removed {0}. Left: {1}.
+fa: {0} حذف شد. باقی‌مانده: {1}.
+en: Storage Spaces
+fa: فضاهای ذخیره‌سازی
+en: Virtual
+fa: مجازی
+en: Disk
+fa: دیسک
+en: Too hot
+fa: بیش از حد داغ
+en: Could not read disks: {0}
+fa: خواندن دیسک‌ها ممکن نشد: {0}
+en: Normal
+fa: عادی
+en: Warm
+fa: گرم
+en: Poor
+fa: ضعیف
+en: Healthy
+fa: سالم
+en: Unknown
+fa: نامشخص
+en: Windows: problem
+fa: Windows: مشکل
+en: Warning
+fa: هشدار
+en: Fair
+fa: متوسط
+en: Good
+fa: خوب
+en: Problem
+fa: مشکل
+en: Checking disks...
+fa: در حال بررسی دیسک‌ها...
+en: Reading each disk's health and temperature. This takes a few seconds.
+fa: در حال خواندن سلامت و دمای هر دیسک. این کار چند ثانیه طول می‌کشد.
+en: Waiting for the current task to finish. The disks are checked right after that.
+fa: در انتظار پایان کار فعلی. بلافاصله پس از آن دیسک‌ها بررسی می‌شوند.
+en: (health {0}%)
+fa: (سلامت {0}%)
+en: SMART attributes
+fa: ویژگی‌های SMART
+en: NVMe health log
+fa: گزارش سلامت NVMe
+en: {0}% used
+fa: {0}% استفاده‌شده
+en: HEALTH
+fa: سلامت
+en: Almost full: Windows and apps slow down when a drive is this full.
+fa: تقریباً پر: وقتی درایو تا این حد پر باشد، Windows و برنامه‌ها کند می‌شوند.
+en: {0} free of {1}
+fa: {0} خالی از {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+fa: برای خواندن داده‌های SMART دیسک‌ها، ابزار را با دسترسی سرپرست اجرا کنید.
+en: Windows did not report any disks.
+fa: Windows هیچ دیسکی گزارش نکرد.
+en: Disks
+fa: دیسک‌ها
+en: Drives
+fa: درایوها
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+fa: درصد سلامت برآورد این برنامه از داده‌های خود هر دیسک است. ابزارهای دیگر فرمول‌های خودشان را دارند، پس اعدادشان ممکن است کمی فرق کند. هر بار که این زبانه را باز کنید یا برنامه را اجرا کنید (حداکثر هر 30 دقیقه یک بار) یک خوانش ذخیره می‌شود تا بتوانید سلامت و دما را در طول زمان دنبال کنید.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+fa: هیچ‌کدام از دیسک‌ها داده‌های SMART را با Windows به اشتراک نمی‌گذارند. این در قاب‌های USB و RAID رایج است.
+en: Disk check finished.
+fa: بررسی دیسک تمام شد.
+en: A disk reports a problem. Back up your important files now.
+fa: یک دیسک مشکلی گزارش می‌کند. همین حالا از فایل‌های مهم خود نسخه پشتیبان تهیه کنید.
+en: Windows: warning
+fa: Windows: هشدار
+en: Stopped. Results are incomplete.
+fa: متوقف شد. نتایج کامل نیستند.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+fa: در حال اسکن... تاکنون {0:N0} پوشه و {1:N0} فایل
+en: Scanning {0}. Click Stop to stop.
+fa: در حال اسکن {0}. برای توقف روی «توقف» کلیک کنید.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+fa: اسکن متوقف شد. بزرگ‌ترین فایل‌هایی که تاکنون پیدا شده‌اند فهرست شده‌اند. اندازه پوشه‌ها فقط برای اسکن کامل‌شده نشان داده می‌شود.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+fa: توجه: پوشه Windows ممکن است بزرگ‌تر از اندازه واقعی‌اش به نظر برسد، چون Windows برخی فایل‌ها را هم‌زمان در دو جا نگه می‌دارد.
+en: {0:N0} folders could not be read (Windows protects them).
+fa: {0:N0} پوشه قابل خواندن نبود (Windows از آن‌ها محافظت می‌کند).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+fa: در {0:N0} ثانیه انجام شد: {1:N0} پوشه، {2:N0} فایل.
+en: Scanning {0} ...
+fa: در حال اسکن {0} ...
+en: (files directly in this folder)
+fa: (فایل‌هایی که مستقیماً در این پوشه هستند)
+en: Scan a drive to see its biggest folders.
+fa: برای دیدن بزرگ‌ترین پوشه‌های یک درایو، آن را اسکن کنید.
+en: Free space on {0} grew by {1}.
+fa: فضای خالی روی {0} به اندازه {1} بیشتر شد.
+en: Biggest files
+fa: بزرگ‌ترین فایل‌ها
+en: Scan anyway?
+fa: با این حال اسکن شود؟
+en: That drive or folder is not available.
+fa: آن درایو یا پوشه در دسترس نیست.
+en: Biggest files ({0} found)
+fa: بزرگ‌ترین فایل‌ها ({0} مورد پیدا شد)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+fa: اول یک یا چند فایل را در فهرست انتخاب کنید. برای انتخاب چند فایل، Ctrl را نگه دارید.
+en: Could not remove {0}: {1}
+fa: حذف {0} ممکن نشد: {1}
+en: Moved to Recycle Bin: {0} ({1})
+fa: به سطل بازیافت منتقل شد: {0}  ·  {1}
+en: Deleted file: {0} ({1})
+fa: فایل حذف شد: {0}  ·  {1}
+en: Files deleted: {0}.
+fa: فایل‌های حذف‌شده: {0}.
+en: Windows: OK
+fa: Windows: سالم
+en: {0} could not be removed (in use or protected).
+fa: {0} حذف نشد (در حال استفاده یا محافظت‌شده).
+en: Files moved to the Recycle Bin: {0}.
+fa: فایل‌های منتقل‌شده به سطل بازیافت: {0}.
+en: Move to Recycle Bin
+fa: انتقال به سطل بازیافت
+en: They will be deleted permanently and cannot be restored.
+fa: برای همیشه حذف می‌شوند و قابل بازیابی نیستند.
+en: ... and {0} more
+fa: ... و {0} مورد دیگر
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+fa: این‌ها فایل‌های Windows، برنامه یا سیستم هستند و محافظت می‌شوند:<br><br>{0}<br><br>به‌جای آن برنامه را حذف نصب کنید، یا از زبانه «پاک‌سازی» استفاده کنید.
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+fa: به سطل بازیافت می‌روند. فضا فقط پس از خالی کردن سطل بازیافت آزاد می‌شود.
+en: Delete permanently
+fa: حذف دائمی
+en: Make sure you do not need them. Continue?
+fa: مطمئن شوید به آن‌ها نیاز ندارید. ادامه می‌دهید؟
+en: Files: {0}, {1} in total.
+fa: فایل‌ها: {0}، در مجموع {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+fa: بررسی دوباره دیسک‌ها
+en: Disk health
+fa: سلامت دیسک
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+fa: برای انتخاب چند فایل، Ctrl را نگه دارید. فایل‌های Windows و برنامه‌ها محافظت می‌شوند و اینجا قابل حذف نیستند.
+en: Scan for errors
+fa: بررسی برای یافتن خطا
+en: Open history file
+fa: باز کردن فایل سابقه
+en: Windows storage settings
+fa: تنظیمات فضای ذخیره‌سازی Windows
+en: Optimize drives
+fa: بهینه‌سازی درایوها
+en: Modified
+fa: تاریخ تغییر
+en: Up
+fa: بالا
+en: Biggest folders
+fa: بزرگ‌ترین پوشه‌ها
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+fa: یک درایو انتخاب کنید و روی «اسکن» کلیک کنید. اسکن کل درایو ممکن است چند دقیقه طول بکشد.
+en: Folder
+fa: پوشه
+en: File
+fa: فایل
+en: Double-click a folder to look inside.
+fa: برای دیدن محتوای یک پوشه، روی آن دوبار کلیک کنید.
+en: Open in File Explorer
+fa: باز کردن در کاوشگر فایل
+en: SMART details
+fa: جزئیات SMART
+en: About
+fa: درباره
+en: Tips & FAQ
+fa: نکته‌ها و پرسش‌ها
+en: System Information
+fa: اطلاعات سیستم
+en: Read me
+fa: راهنما
+en: Cleanup history
+fa: سابقه پاک‌سازی
+en: Uninstall
+fa: حذف نصب
+en: DirectX Diagnostic (dxdiag)
+fa: عیب‌یابی DirectX  ·  dxdiag
+en: Run speed test
+fa: اجرای آزمون سرعت
+en: Disk performance
+fa: عملکرد دیسک
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+fa: داده‌های خامی که هر دیسک درباره خودش گزارش می‌کند. «زیر نظر» یعنی بهتر است مراقبش باشید. «رو به خرابی» یعنی زیر حد ایمنی خود دیسک است.
+en: Live activity updates every second while this tab is open.
+fa: تا وقتی این زبانه باز است، فعالیت زنده هر ثانیه به‌روز می‌شود.
+en: Save as text file
+fa: ذخیره به‌صورت فایل متنی
+en: Copy all
+fa: کپی همه
+en: Read again
+fa: خواندن دوباره
+en: Scan
+fa: اسکن
+en: English
+fa: =
+en: 0 items
+fa: 0 مورد
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+fa: با دسترسی سرپرست اجرا نشده است، پس موارد دارای برچسب «سرپرست» غیرفعال هستند. برای استفاده از آن‌ها، این پنجره را ببندید، دوباره اجرا کنید و در پیام Windows روی «بله» کلیک کنید.
+en: Measure sizes
+fa: اندازه‌گیری حجم‌ها
+en: Clean up
+fa: پاک‌سازی
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+fa: ببینید چه چیزی دیسک‌های شما را پر کرده و فضا را به‌طور ایمن آزاد کنید. تا تأیید نکنید چیزی حذف نمی‌شود.
+en: Disk Cleanup Helper
+fa: =
+en: C: FREE
+fa: <ltr>C:</ltr> خالی
+en: SELECTED TO CLEAN
+fa: انتخاب‌شده برای پاک‌سازی
+en: MEMORY AVAILABLE
+fa: حافظه در دسترس
+en: Stop
+fa: توقف
+en: Analyze disk
+fa: تحلیل دیسک
+en: Open location
+fa: باز کردن محل
+en: Drive
+fa: درایو
+en: List files bigger than
+fa: فهرست فایل‌های بزرگ‌تر از
+en: Look in
+fa: جست‌وجو در
+en: Clear selection
+fa: لغو انتخاب
+en: Select all safe
+fa: انتخاب همه موارد امن
+en: Click Measure sizes to see how much each item uses.
+fa: برای دیدن فضای هر مورد، روی «اندازه‌گیری حجم‌ها» کلیک کنید.
+en: to see what it is, where it is, and what you keep or lose.
+fa: تا ببینید چیست، کجاست و چه چیزی را نگه می‌دارید یا از دست می‌دهید.
+en: Click an item
+fa: روی یک مورد کلیک کنید
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+fa: نوشتن فایل آزمایشی ناموفق بود. آیا درایو پر است؟
+en: Reading it back...
+fa: در حال خواندن دوباره...
+en: Writing a {0} MB test file...
+fa: در حال نوشتن فایل آزمایشی {0} MB...
+en: Could not create the test file in {0}.
+fa: ایجاد فایل آزمایشی در {0} ممکن نشد.
+en: Could not open the test file.
+fa: باز کردن فایل آزمایشی ممکن نشد.
+en: Not enough memory for the speed test.
+fa: حافظه کافی برای آزمون سرعت وجود ندارد.
+en: Reading small random blocks...
+fa: در حال خواندن بلوک‌های کوچک تصادفی...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+fa: Disk Cleanup Helper به Windows 10 یا Windows 11 نیاز دارد.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+fa: Disk Cleanup Helper نتوانست اجرا شود:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+fa: مشکلی پیش آمد:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+fa: (درایو Windows)
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+fa: به‌روزرسانی‌ها چگونه کار می‌کنند؟
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+fa: وقتی نسخه جدیدی منتشر شود، برنامه آن را در پس‌زمینه دانلود و بررسی می‌کند: مقدار SHA256 و شماره نسخه آن باید با اطلاعات انتشار مطابقت داشته باشد. سپس نواری گزینه «اکنون راه‌اندازی مجدد شود» را پیشنهاد می‌کند. اگر «بعداً» را انتخاب کنید، به‌روزرسانی هنگام بستن برنامه نصب می‌شود. می‌توانید بررسی خودکار را در زبانه «درباره» خاموش کنید؛ دکمه «بررسی به‌روزرسانی‌ها» در آنجا همچنان کار می‌کند.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+fa: خیر. چیزی درباره رایانه شما نمی‌فرستد. تنها اتصالی که برقرار می‌کند این است که از GitHub بپرسد آیا نسخه جدیدی وجود دارد، حداکثر روزی یک بار. می‌توانید این کار را در زبانه «درباره» خاموش کنید.
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+fa: چیزی درباره رایانه شما نمی‌فرستد. فقط از GitHub می‌پرسد آیا نسخه جدیدی وجود دارد، و می‌توانید این کار را در زبانه «درباره» خاموش کنید. سابقه آنچه پاک شده فقط روی همین رایانه ذخیره می‌شود.
+en: Update check: version {0} is the newest.
+fa: بررسی به‌روزرسانی: نسخه {0} جدیدترین نسخه است.
+en: Downloading version {0}... {1}%
+fa: در حال دانلود نسخه {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+fa: نسخه {0} در دسترس است. این یک نسخه توسعه‌دهنده است، پس خودش را به‌روزرسانی نمی‌کند.
+en: Update check: version {0} is available.
+fa: بررسی به‌روزرسانی: نسخه {0} در دسترس است.
+en: Downloading version {0}...
+fa: در حال دانلود نسخه {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+fa: به‌روزرسانی را نمی‌توان اینجا نصب کرد، زیرا این پوشه قابل تغییر نیست: {0}
+en: The update was not downloaded: {0}
+fa: به‌روزرسانی دانلود نشد: {0}
+en: Later
+fa: بعداً
+en: This is a developer build, so it does not update itself.
+fa: این یک نسخه توسعه‌دهنده است، پس خودش را به‌روزرسانی نمی‌کند.
+en: What's new in version {0}:
+fa: تازه‌های نسخه {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+fa: نسخه {0} نصب شد، اما اجرای آن ممکن نشد: {1}<br><br>Disk Cleanup Helper را دوباره اجرا کنید.
+en: No details were given for this version.
+fa: برای این نسخه هیچ توضیحی ارائه نشده است.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+fa: نسخه {0} دانلود و بررسی شد (مقدار SHA256 و شماره نسخه).
+en: The update could not be downloaded: {0}
+fa: دانلود به‌روزرسانی ممکن نشد: {0}
+en: Version {0} is ready. Restart to update.
+fa: نسخه {0} آماده است. برای به‌روزرسانی، راه‌اندازی مجدد کنید.
+en: This is version {0}. It has not checked for updates yet.
+fa: این نسخه {0} است. هنوز به‌روزرسانی‌ها را بررسی نکرده است.
+en: You have the latest version ({0}). Last checked: {1}.
+fa: شما جدیدترین نسخه ({0}) را دارید. آخرین بررسی: {1}.
+en: Version {0} is installed.
+fa: نسخه {0} نصب شده است.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+fa: این نسخه در پوشه‌ای است که قابل تغییر نیست:<br>{0}<br><br>صفحه انتشار باز می‌شود تا بتوانید نسخه {1} را دانلود کنید و این نسخه را به‌صورت دستی جایگزین کنید.
+en: The update could not be installed: {0}
+fa: نصب به‌روزرسانی ممکن نشد: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+fa: نسخه {0} در دسترس است. برای دانلود آن روی «بررسی به‌روزرسانی‌ها» کلیک کنید.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+fa: نصب به‌روزرسانی ممکن نشد. این نسخه همان‌طور که هست به کار خود ادامه می‌دهد.<br><br>{0}
+en: Updated to version {0}.
+fa: به نسخه {0} به‌روزرسانی شد.
+en: Update check: {0}
+fa: بررسی به‌روزرسانی: {0}
+en: Could not check for updates: {0}
+fa: بررسی به‌روزرسانی‌ها ممکن نشد: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+fa: دسترسی به GitHub ممکن نشد. اتصال اینترنت را بررسی کنید و دوباره تلاش کنید.
+en: Checking for updates...
+fa: در حال بررسی به‌روزرسانی‌ها...
+en: Update check: could not reach GitHub.
+fa: بررسی به‌روزرسانی: دسترسی به GitHub ممکن نشد.
+en: Check for updates
+fa: بررسی به‌روزرسانی‌ها
+en: Check for updates when the app starts
+fa: بررسی به‌روزرسانی‌ها هنگام شروع برنامه
+en: What's new
+fa: تازه‌ها
+en: Restart now
+fa: اکنون راه‌اندازی مجدد شود
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+fa: دستیاری رایگان برای Windows 10 و 11 که نشان می‌دهد چه چیزی دیسک‌های شما را پر کرده و فضا را به‌طور ایمن آزاد می‌کند. چیزی درباره رایانه شما نمی‌فرستد. تا تأیید نکنید چیزی حذف نمی‌شود.
+en: Updates
+fa: به‌روزرسانی‌ها
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+fa: به‌روزرسانی‌ها از صفحه GitHub برنامه می‌آیند. هر نسخه جدید پیش از آنکه جایگزین این نسخه شود، بررسی می‌شود (مقدار SHA256 و شماره نسخه).
+en: Version {0} has no {1} file.
+fa: نسخه {0} فایل {1} را ندارد.
+en: Version {0} has a download address that is not on github.com.
+fa: نسخه {0} یک نشانی دانلود دارد که روی github.com نیست.
+en: Version {0} has no SHA256 line in its release text.
+fa: نسخه {0} در متن انتشار خود خط SHA256 ندارد.
+en: GitHub's answer could not be read.
+fa: خواندن پاسخ GitHub ممکن نشد.
+en: The newest release has an unreadable version number: {0}
+fa: شماره نسخه جدیدترین انتشار قابل خواندن نیست: {0}
+en: The download came from an unexpected address: {0}
+fa: دانلود از نشانی غیرمنتظره‌ای انجام شد: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+fa: فایل دانلودشده برنامه Disk Cleanup Helper نیست.
+en: The downloaded file is version {0}, not {1}.
+fa: فایل دانلودشده نسخه {0} است، نه {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+fa: فایل دانلودشده با مقدار SHA256 در متن انتشار مطابقت ندارد.
+en: The downloaded file has an unexpected size ({0}).
+fa: اندازه فایل دانلودشده غیرمنتظره است ({0}).
+en: The download took too long.
+fa: دانلود بیش از حد طول کشید.

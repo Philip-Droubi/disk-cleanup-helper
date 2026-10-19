@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - es
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Español
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+es: No se pudo ejecutar {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+es: también {0}
+en: GRAPHICS
+es: GRÁFICOS
+en: Wireless (Miracast)
+es: Inalámbrica (Miracast)
+en: Built-in screen
+es: Pantalla integrada
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+es: Este controlador es de {0}. Uno más reciente del fabricante del equipo o del fabricante del chip puede corregir bloqueos, pantallas azules y problemas de imagen.
+en: {0} × {1} at {2} Hz
+es: {0} × {1} a {2} Hz
+en: Showing now
+es: Mostrando ahora
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+es: Windows informa de un problema con este dispositivo (código {0}). Vuelve a instalar su controlador desde el sitio web del fabricante del equipo o del fabricante del chip.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+es: No hay instalado ningún controlador de gráficos adecuado. Instala el controlador del fabricante del equipo o del fabricante del chip gráfico para tener una imagen más nítida y rápida.
+en: Screens
+es: Pantallas
+en: Made in
+es: Fabricado en
+en: Connection
+es: Conexión
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+es: La salud, la temperatura y los datos SMART están en las pestañas Salud del disco y Detalles SMART.
+en: Storage
+es: Almacenamiento
+en: {0} inches
+es: {0} pulgadas
+en: {0}  (main screen)
+es: {0}  (pantalla principal)
+en: Screen {0}
+es: Pantalla {0}
+en: Refresh rate
+es: Frecuencia de actualización
+en: Resolution
+es: Resolución
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+es: La memoria está casi llena ahora mismo ({0}% en uso). Cierra los programas que no necesites. Un equipo que se queda sin memoria se vuelve lento y puede bloquearse.
+en: Part number
+es: Número de pieza
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+es: Este equipo indica que tiene una ranura de memoria libre. Agregar un módulo de memoria del mismo tipo ({0}) suele ser una forma barata de hacerlo más rápido.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+es: {0} es poco para Windows 10 y 11 hoy en día. Con 8 GB o más se nota mucha diferencia.
+en: Size
+es: Tamaño
+en: Memory promised to programs
+es: Memoria prometida a los programas
+en: None. Programs can crash when the memory is full.
+es: Ninguno. Los programas pueden bloquearse cuando la memoria está llena.
+en: Module {0}
+es: Módulo {0}
+en: {0} GB of {1} GB  (memory plus page file)
+es: {0} GB de {1} GB  (memoria más archivo de paginación)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+es: Este equipo indica que tiene una ranura de memoria libre. Agregar un módulo de memoria del mismo tipo suele ser una forma barata de hacerlo más rápido.
+en: 4 GB or more
+es: 4 GB o más
+en: Graphics
+es: Gráficos
+en: Driver
+es: Controlador
+en: Graphics memory
+es: Memoria gráfica
+en: {0}% in use now
+es: {0}% en uso ahora
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+es: Las dos ranuras de memoria están ocupadas. Para tener más memoria, cambia los módulos por otros más grandes ({0}). Hoy en día, 16 GB en total es un buen tamaño.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+es: La única ranura de memoria está ocupada. Para tener más memoria, cambia el módulo por uno más grande ({0}). Hoy en día, 16 GB en total es un buen tamaño.
+en: MEMORY
+es: MEMORIA
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+es: Las {0} ranuras de memoria están ocupadas. Para tener más memoria, cambia los módulos por otros más grandes ({1}). Hoy en día, 16 GB en total es un buen tamaño.
+en: Adapter
+es: Adaptador
+en: Network adapters
+es: Adaptadores de red
+en: connected at {0}
+es: conectado a {0}
+en: turned off
+es: desactivado
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+es: La batería solo guarda el {0}% de la carga que guardaba cuando era nueva. Una batería nueva te da mucho más tiempo lejos del cargador.
+en: Lithium-ion
+es: Iones de litio
+en: Kind
+es: Tipo
+en: Nickel-metal hydride
+es: Níquel-hidruro metálico
+en: Lithium-polymer
+es: Polímero de litio
+en: connected
+es: conectado
+en: {0} minutes
+es: {0} minuto | {0} minutos
+en: {0}  ·  Windows reports a problem (code {1})
+es: {0}  ·  Windows informa de un problema (código {1})
+en: {0} days
+es: {0} día | {0} días
+en: {0} hours
+es: {0} hora | {0} horas
+en: Built in
+es: Integrado
+en: Sound
+es: Sonido
+en: not connected
+es: no conectado
+en: Through the screen (HDMI or DisplayPort)
+es: A través de la pantalla (HDMI o DisplayPort)
+en: Added by a program
+es: Agregado por un programa
+en: Battery
+es: Batería
+en: All disks together
+es: Todos los discos juntos
+en: plugged in, charging
+es: enchufado, cargando
+en: on battery
+es: con batería
+en: drive {0}
+es: unidad {0}
+en: Storage class memory
+es: Memoria de clase de almacenamiento
+en: Hard disk
+es: Disco duro
+en: Disk {0}
+es: Disco {0}
+en: SD card
+es: Tarjeta SD
+en: plugged in, full
+es: enchufado, carga completa
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+es: {0}%  (guarda {1} Wh, guardaba {2} Wh cuando era nueva)
+en: Battery health
+es: Salud de la batería
+en: Charge cycles
+es: Ciclos de carga
+en: Start the tool with admin rights to read it
+es: Inicia la herramienta con derechos de administrador para leerlo
+en: {0} h {1} min  (Windows' estimate)
+es: {0} h {1} min  (estimación de Windows)
+en: Charge now
+es: Carga actual
+en: plugged in
+es: enchufado
+en: Time left
+es: Tiempo restante
+en: {0}%, {1}
+es: =
+en: , size set by hand
+es: , tamaño definido a mano
+en: Server
+es: Servidor
+en: Desktop
+es: Equipo de escritorio
+en: Windows
+es: =
+en: Workstation
+es: Estación de trabajo
+en: All-in-one
+es: Todo en uno
+en: Laptop that folds into a tablet (2-in-1)
+es: Portátil que se pliega como tableta (2 en 1)
+en: Laptop
+es: Portátil
+en: Tablet
+es: Tableta
+en: Tablet with a detachable keyboard (2-in-1)
+es: Tableta con teclado desmontable (2 en 1)
+en: Edition
+es: Edición
+en: Last update installed
+es: Última actualización instalada
+en: Installed or last big update
+es: Instalación o última actualización grande
+en: Running since
+es: En ejecución desde
+en: {0}  ({1})
+es: =
+en: 32-bit
+es: 32 bits
+en: Build
+es: Compilación
+en: Version
+es: Versión
+en: 64-bit
+es: 64 bits
+en: 64-bit, for ARM processors
+es: 64 bits, para procesadores ARM
+en: Computer name
+es: Nombre del equipo
+en: Type
+es: Tipo
+en: BIOS
+es: =
+en: Motherboard
+es: Placa base
+en: Model
+es: Modelo
+en: Read on {0}
+es: Leído el {0}
+en: Device details
+es: Detalles del dispositivo
+en: Maker
+es: Fabricante
+en: This PC
+es: Este equipo
+en: Start-up mode
+es: Modo de arranque
+en: Not found, or turned off in the BIOS
+es: No se encontró o está desactivado en el BIOS
+en: Security chip (TPM)
+es: Chip de seguridad (TPM)
+en: TPM {0}, turned off
+es: TPM {0}, desactivado
+en: TPM {0}, on
+es: TPM {0}, activado
+en: Not available with Legacy BIOS
+es: No disponible con Legacy BIOS
+en: Secure Boot
+es: Arranque seguro
+en: Legacy BIOS
+es: =
+en: Off
+es: Desactivado
+en: On
+es: Activado
+en: Soldered on the board
+es: Soldado en la placa
+en: SO-DIMM (laptop size)
+es: SO-DIMM (tamaño de portátil)
+en: Installed
+es: Instalada
+en: Memory (RAM)
+es: Memoria (RAM)
+en: DIMM (desktop size)
+es: DIMM (tamaño de escritorio)
+en: Off in the BIOS
+es: Desactivada en el BIOS
+en: On in the BIOS
+es: Activada en el BIOS
+en: PROCESSOR
+es: PROCESADOR
+en: Socket
+es: Zócalo
+en: {0}  ({1} GB usable by Windows)
+es: {0}  ({1} GB utilizables por Windows)
+en: {0}, {1}  ({2} in use, highest {3})
+es: {0}, {1}  ({2} en uso, máximo {3})
+en: {0} of {1} used
+es: {0} de {1} en uso
+en: , size managed by Windows
+es: , tamaño administrado por Windows
+en: Page file
+es: Archivo de paginación
+en: Memory slots
+es: Ranuras de memoria
+en: {0} GB of {1} GB  ({2}%)
+es: {0} GB de {1} GB  ({2}%)
+en: In use now
+es: En uso ahora
+en: Module type
+es: Tipo de módulo
+en: Type and speed
+es: Tipo y velocidad
+en: WINDOWS
+es: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+es: Windows lleva {0} días funcionando sin reiniciarse. Apagar no reinicia Windows por completo cuando el Inicio rápido está activado, así que usa Reiniciar de vez en cuando: termina las actualizaciones y libera memoria.
+en: Processor
+es: Procesador
+en: build {0}
+es: compilación {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+es: Windows no ha instalado ninguna actualización desde {0}. Abre Configuración > Windows Update y busca actualizaciones: corrigen fallos de seguridad y bloqueos.
+en: Region format
+es: Formato regional
+en: Display language
+es: Idioma para mostrar
+en: DirectX
+es: =
+en: Time zone
+es: Zona horaria
+en: Name
+es: Nombre
+en: Busy right now
+es: Ocupado ahora mismo
+en: Cache
+es: Caché
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+es: En uso (por Hyper-V, WSL, Docker o funciones de seguridad de Windows)
+en: Virtualization
+es: Virtualización
+en: Base speed
+es: Velocidad base
+en: Cores
+es: Núcleos
+en: Made by
+es: Fabricado por
+en: ({0} processors)
+es: ({0} procesadores)
+en: {0} cores, {1} threads
+es: {0} núcleos, {1} subprocesos
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+es: (programa sin nombre)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+es: Específico del fabricante
+en: {0} data errors were found on the SSD.
+es: Se encontró {0} error de datos en el SSD. | Se encontraron {0} errores de datos en el SSD.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+es: {0} sector defectuoso se reemplazó por un sector de reserva (reasignado). | {0} sectores defectuosos se reemplazaron por sectores de reserva (reasignados).
+en: The disk itself predicts that it will fail soon. Back up your files now.
+es: El propio disco predice que fallará pronto. Haz una copia de seguridad de tus archivos ahora.
+en: Failing
+es: Fallando
+en: OK (no limit)
+es: Correcto (sin límite)
+en: {0} sector reallocation events.
+es: {0} evento de reasignación de sectores. | {0} eventos de reasignación de sectores.
+en: The disk needed {0} retries to spin up.
+es: El disco necesitó {0} reintento para empezar a girar. | El disco necesitó {0} reintentos para empezar a girar.
+en: {0} internal data path errors.
+es: {0} error en la ruta interna de datos. | {0} errores en la ruta interna de datos.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+es: Se contó {0} error de transferencia entre el disco y el equipo. Suele deberse a un cable suelto o defectuoso y no daña el disco. | Se contaron {0} errores de transferencia entre el disco y el equipo. Suelen deberse a un cable suelto o defectuoso y no dañan el disco.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+es: {0} sector es inestable y está esperando a ser comprobado (pendiente). Ten una copia de seguridad de tus archivos y vigila si este número crece. | {0} sectores son inestables y están esperando a ser comprobados (pendientes). Ten una copia de seguridad de tus archivos y vigila si este número crece.
+en: {0} sectors could not be read or fixed (uncorrectable).
+es: {0} sector no se pudo leer ni corregir (incorregible). | {0} sectores no se pudieron leer ni corregir (incorregibles).
+en: {0} read errors the disk could not correct.
+es: {0} error de lectura que el disco no pudo corregir. | {0} errores de lectura que el disco no pudo corregir.
+en: Warning flags set
+es: Indicadores de advertencia activos
+en: Hot
+es: Caliente
+en: Below threshold
+es: Por debajo del umbral
+en: Windows reports a warning for this disk.
+es: Windows informa de una advertencia para este disco.
+en: Windows reports this disk as unhealthy.
+es: Windows informa de que este disco no está en buen estado.
+en: OK
+es: Correcto
+en: Near end of rated life
+es: Cerca del final de su vida útil nominal
+en: The SSD has switched to read-only mode to protect your data.
+es: El SSD ha pasado al modo de solo lectura para proteger tus datos.
+en: The SSD reports that it has been too hot.
+es: El SSD informa de que se ha calentado demasiado.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+es: El atributo SMART {0} está por debajo de su límite de seguridad. Haz una copia de seguridad de tus archivos ahora.
+en: Watch
+es: Vigilar
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+es: El espacio de reserva está por debajo del nivel seguro (queda un {0}%). Haz una copia de seguridad de tus archivos ahora.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+es: El SSD informa de que su fiabilidad ha disminuido. Haz una copia de seguridad de tus archivos ahora.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+es: ¿Qué significa el porcentaje de salud?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+es: Es una estimación basada en los datos de autosupervisión del propio disco (SMART, o el registro de salud en los SSD NVMe). 100% significa que no se encontraron problemas ni desgaste. Está ajustado para acercarse a herramientas como Hard Disk Sentinel, pero cada herramienta usa su propia fórmula, así que los números pueden variar un poco.
+en: Why does the Windows folder look so big in Analyze disk?
+es: ¿Por qué la carpeta Windows parece tan grande en Analizar disco?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+es: Windows guarda algunos archivos en dos lugares a la vez, así que se cuentan dos veces al sumar los tamaños. El tamaño real es menor. Nunca borres nada de la carpeta Windows a mano.
+en: My SSD shows less than 100% health. Should I worry?
+es: Mi SSD muestra menos del 100% de salud. ¿Debo preocuparme?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+es: Son pequeñas zonas que el disco no pudo leer de forma fiable. Los sectores reasignados ya se reemplazaron por otros de reserva. Los sectores pendientes están esperando a ser comprobados. Tener unos pocos es habitual en discos antiguos. Si los números siguen creciendo, haz una copia de seguridad de tus archivos y plantéate cambiar el disco.
+en: What temperature is normal for a disk?
+es: ¿Qué temperatura es normal para un disco?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+es: Los SSD se desgastan un poco con cada escritura, y la salud muestra cuánta de su vida útil de escritura nominal se ha usado. Muchos SSD siguen funcionando bien mucho después de superar su valor nominal. Ten copias de seguridad y planea cambiar el SSD cuando la salud baje o aparezcan problemas.
+en: What are pending and reallocated sectors?
+es: ¿Qué son los sectores pendientes y reasignados?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+es: Las cachés se vuelven a llenar al usar el navegador y las aplicaciones, Windows descarga nuevas actualizaciones y, cuando queda poca memoria, Windows agranda su archivo de paginación. Limpiar de nuevo cada pocas semanas, activar el Sensor de almacenamiento y cerrar los programas que no usas lo mantiene bajo control.
+en: Is it safe to clean what this app suggests?
+es: ¿Es seguro limpiar lo que sugiere esta aplicación?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+es: Los elementos del grupo "Seguro para limpiar" son cachés y archivos temporales que los programas regeneran por sí solos. Los elementos de "Tú decides" quitan algo pequeño, así que léelos primero. Los elementos marcados como "Informativo" nunca los borra la aplicación; solo los muestra y abre su ubicación.
+en: It never follows folder links into other folders.
+es: Nunca sigue los vínculos de carpeta hacia otras carpetas.
+en: Will cleaning my browser cache log me out of websites?
+es: ¿Limpiar la caché del navegador cerrará mi sesión en los sitios web?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+es: Los archivos en uso se omiten. La limpieza de archivos temporales conserva los archivos del último día. Y la limpieza de componentes de Windows solo se puede medir mientras se ejecuta. El registro de la parte inferior muestra exactamente lo que se quitó.
+en: Why does my free space go down again after cleaning?
+es: ¿Por qué el espacio libre vuelve a bajar después de limpiar?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+es: No. La limpieza de la caché conserva las cookies, las contraseñas guardadas, los marcadores y el historial. Muy pocas veces un sitio puede pedirte que vuelvas a iniciar sesión, y el navegador rellena la contraseña guardada.
+en: Why did I get back less space than the size shown?
+es: ¿Por qué recuperé menos espacio que el tamaño mostrado?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+es: Abre la pestaña Detalles del dispositivo. Muestra lo mismo que la Herramienta de diagnóstico de DirectX de Windows (dxdiag), y además las ranuras de memoria, el archivo de paginación, las pantallas y la salud de la batería. Haz clic en "Copiar todo" o "Guardar como archivo de texto" para enviar los detalles a alguien que te ayude.
+en: Where are my history files saved?
+es: ¿Dónde se guardan mis archivos de historial?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+es: La hibernación guarda un archivo tan grande como una parte de tu memoria para que el equipo pueda continuar donde se quedó. El Almacenamiento reservado son unos 7 GB que Windows aparta para las actualizaciones. CompactOS guarda comprimidos los archivos de Windows. Cada uno puede liberar varios GB, y cada uno se puede revertir más tarde.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+es: ¿Dónde puedo ver los detalles de mi equipo, como la versión de Windows, el procesador, la memoria y los gráficos?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+es: En tu carpeta de usuario: %LOCALAPPDATA%\DiskCleanupHelper. Contiene el historial de limpieza, el historial de salud y temperatura de los discos y los resultados de la prueba de velocidad. Ábrelos desde las pestañas Acerca de y Salud del disco.
+en: How do I uninstall it?
+es: ¿Cómo lo desinstalo?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+es: Configuración > Aplicaciones > Disk Cleanup Helper > Desinstalar, o el botón Desinstalar de la pestaña Acerca de. Si nunca lo instalaste, simplemente borra el archivo del programa.
+en: Does the app send any of my data anywhere?
+es: ¿La aplicación envía mis datos a algún sitio?
+en: What are hibernation, Reserved Storage and CompactOS?
+es: ¿Qué son la hibernación, el Almacenamiento reservado y CompactOS?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+es: Se necesitan derechos de administrador para limpiar los archivos temporales y de actualización del propio Windows y para leer los datos de salud de los discos. Si haces clic en No, la aplicación sigue funcionando, y los elementos que necesitan derechos de administrador aparecen en gris.
+en: Why does Windows say "Windows protected your PC"?
+es: ¿Por qué Windows dice "Windows protegió tu PC"?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+es: Los discos duros suelen funcionar entre 25 y 45 °C. Los SSD suelen funcionar entre 30 y 60 °C, y los SSD NVMe pueden llegar a 70 °C con mucha carga. Las temperaturas más altas de forma continua acortan la vida de un disco.
+en: Why does the app ask for admin rights?
+es: ¿Por qué la aplicación pide derechos de administrador?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+es: Windows muestra esto con programas nuevos que aún no conoce. Haz clic en "Más información" y luego en "Ejecutar de todas formas". La advertencia desaparece para siempre cuando el programa esté firmado y Microsoft lo conozca.
+en: Does the speed test harm my disk?
+es: ¿La prueba de velocidad daña mi disco?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+es: No. Escribe un archivo de prueba temporal de 512 MB a 1 GB, lo vuelve a leer y lo borra. Eso es menos que un día normal de uso.
+en: Can I undo a cleanup?
+es: ¿Puedo deshacer una limpieza?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+es: Los archivos borrados desde la pestaña Limpiar no van a la Papelera de reciclaje, así que no se pueden restaurar. Los archivos que mueves a la Papelera de reciclaje desde la pestaña Analizar disco se pueden restaurar hasta que vacíes la Papelera de reciclaje. Los ajustes de Windows se pueden revertir; consulta el Léeme en la pestaña Acerca de.
+en: Tidy your Downloads folder
+es: Pon orden en tu carpeta Descargas
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+es: Los instaladores y las descargas antiguas se acumulan. Ordena la carpeta por tamaño y borra lo que ya no necesites.
+en: Let cloud files stay in the cloud
+es: Deja que los archivos de la nube se queden en la nube
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+es: Con OneDrive, haz clic con el botón derecho en una carpeta y elige "Liberar espacio". Los archivos siguen visibles, pero solo se descargan cuando los abres.
+en: Close programs you are not using
+es: Cierra los programas que no estás usando
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+es: Reiniciar libera la memoria, termina las actualizaciones y permite que Windows devuelva su archivo de paginación al tamaño normal.
+en: Turn off apps you do not need at startup
+es: Desactiva al inicio las aplicaciones que no necesitas
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+es: Cuando se acaba la memoria, Windows agranda su archivo de paginación, lo que ocupa espacio en disco y puede hacer que los programas se bloqueen.
+en: Restart your PC now and then
+es: Reinicia tu equipo de vez en cuando
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+es: Los videos, las fotos y las descargas antiguas pueden estar en otra unidad, en un disco externo o en el almacenamiento en la nube.
+en: Empty the Recycle Bin
+es: Vacía la Papelera de reciclaje
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+es: Los archivos que borras siguen ocupando espacio hasta que se vacía la Papelera de reciclaje. Revísala de vez en cuando.
+en: Turn on Storage Sense
+es: Activa el Sensor de almacenamiento
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+es: Windows puede borrar por sí solo los archivos temporales y los elementos antiguos de la Papelera de reciclaje. Configuración > Sistema > Almacenamiento > Sensor de almacenamiento.
+en: Uninstall what you no longer use
+es: Desinstala lo que ya no usas
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+es: Cuando la unidad de Windows está casi llena, Windows se vuelve lento y las actualizaciones pueden no instalarse.
+en: Move big personal files
+es: Mueve los archivos personales grandes
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+es: Los juegos y programas antiguos suelen ser los que más espacio ocupan. Configuración > Aplicaciones, y luego ordena la lista por tamaño.
+en: Keep 10 to 15 percent free
+es: Deja libre entre un 10 y un 15 por ciento
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+es: Carpetas como Windows, WinSxS e Installer dañan Windows si se limpian a mano. Usa la pestaña Limpiar en su lugar.
+en: Nothing is deleted until you select it and confirm.
+es: No se borra nada hasta que lo seleccionas y lo confirmas.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+es: Los discos pueden fallar sin avisar. Guarda una copia de los archivos importantes en otra unidad o en la nube.
+en: Never delete Windows files by hand
+es: Nunca borres archivos de Windows a mano
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+es: Los elementos de limpieza solo tocan cachés, archivos temporales y archivos de actualización antiguos. Tus documentos, fotos, música, videos, escritorio y descargas nunca se limpian automáticamente.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+es: Te avisa si el equipo tiene poca memoria antes de medir, examinar o limpiar.
+en: Windows and program files are protected in the Analyze disk tab.
+es: Los archivos de Windows y de programas están protegidos en la pestaña Analizar disco.
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+es: Al limpiar las cachés del navegador y de las aplicaciones se conservan tus contraseñas, marcadores, historial y sesiones iniciadas.
+en: It asks you to close a browser or app before cleaning its cache.
+es: Te pide que cierres un navegador o una aplicación antes de limpiar su caché.
+en: Back up what matters
+es: Haz copia de seguridad de lo importante
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+es: Los SSD no lo necesitan. "Optimizar unidades" de Windows sabe la diferencia, así que déjalo con su programación automática.
+en: Check disk health once a month
+es: Revisa la salud del disco una vez al mes
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+es: Menos aplicaciones que se inician con Windows significa un arranque más rápido y más memoria libre. Administrador de tareas > Aplicaciones de arranque.
+en: Do not defragment an SSD
+es: No desfragmentes un SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+es: Abre la pestaña Salud del disco. Cada visita guarda una lectura, así que los gráficos del historial muestran si algo cambia.
+en: Keep your PC cool
+es: Mantén tu equipo fresco
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+es: El calor acorta la vida de un disco. Los discos duros deberían mantenerse por debajo de unos 50 °C y los SSD por debajo de unos 70 °C. Mantén limpias las rejillas de ventilación.
+en: Watch for growing bad sectors
+es: Vigila si aumentan los sectores defectuosos
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+es: Unos pocos sectores reasignados o pendientes son habituales. Si el número sigue creciendo, haz una copia de seguridad y planea cambiar el disco.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+es: Error en la instalación:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+es: ¿Quitar Disk Cleanup Helper de este equipo?<br><br>Tu historial de limpieza se queda en:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+es: Disk Cleanup Helper se quitó de este equipo.
+en: Free up disk space safely
+es: Libera espacio en disco de forma segura
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+es: No se pudo copiar el programa. Si el Disk Cleanup Helper instalado está abierto, ciérralo primero y vuelve a intentarlo.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+es: Disk Cleanup Helper está instalado.<br><br>Ábrelo desde el menú Inicio o desde el acceso directo del escritorio llamado Disk Cleanup Helper.<br><br>Para quitarlo más tarde: Configuración > Aplicaciones > Disk Cleanup Helper > Desinstalar.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+es: El tamaño mostrado es el de la Papelera de reciclaje de la unidad de Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+es: Vacía la Papelera de reciclaje de todas las unidades. Lo que haya en ella ya no se podrá restaurar.
+en: $Recycle.Bin on every drive
+es: $Recycle.Bin en todas las unidades
+en: Turn off hibernation
+es: Desactivar la hibernación
+en: Sleep still works normally.
+es: Suspender sigue funcionando con normalidad.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+es: Quita el archivo de hibernación, que suele ocupar varios GB. Hibernar e Inicio rápido dejan de funcionar, así que el equipo tarda unos segundos más en arrancar.
+en: PC starts a few seconds slower
+es: El equipo arranca unos segundos más lento
+en: Files in it are gone for good
+es: Los archivos que contiene se pierden para siempre
+en: Crash dump files
+es: Archivos de volcado de bloqueo
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+es: Tu configuración y tus proyectos se quedan. El IDE vuelve a indexar los proyectos la próxima vez que los abras. Cierra primero los IDE de JetBrains.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+es: Cachés de IntelliJ IDEA, PyCharm, WebStorm, Rider y otros IDE de JetBrains.
+en: Only needed to investigate crashes
+es: Solo se necesitan para investigar bloqueos
+en: Recycle Bin (all drives)
+es: Papelera de reciclaje (todas las unidades)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+es: Consérvalos si alguien está investigando por qué se bloquea tu equipo. Si no, se pueden borrar sin peligro.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+es: Archivos que Windows escribe tras una pantalla azul o un problema del controlador de gráficos. Solo MEMORY.DMP puede ocupar varios GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+es: Para deshacerlo más tarde, ejecuta esto en un Símbolo del sistema como administrador:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+es: Desactivarlo te devuelve ese espacio, pero si el disco se llena, las actualizaciones de Windows pueden fallar. Hazlo solo si mantienes suficiente espacio libre.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+es: Windows aparta unos 7 GB para que las actualizaciones siempre tengan espacio para instalarse.
+en: already off
+es: ya desactivado
+en: about 2-4 GB
+es: unos 2-4 GB
+en: Windows setting (Reserved Storage)
+es: Ajuste de Windows (Almacenamiento reservado)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+es: Para deshacerlo más tarde, ejecuta esto en un Símbolo del sistema como administrador:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+es: hiberfil.sys es un archivo oculto de Windows. No hay nada que abrir.
+en: Updates may fail when the disk is full
+es: Las actualizaciones pueden fallar si el disco está lleno
+en: Turn off Reserved Storage
+es: Desactivar el Almacenamiento reservado
+en: about 7 GB
+es: unos 7 GB
+en: IDE re-indexes your projects
+es: El IDE vuelve a indexar tus proyectos
+en: Spotify cache and downloads
+es: Caché y descargas de Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+es: state.vscdb, en la misma carpeta, guarda tus chats, tu sesión y tu configuración. Esta herramienta nunca lo toca.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+es: Datos de trabajo del agente de IA de Cursor. Puede incluir historial antiguo de chats con el agente.
+en: Downloaded songs must be downloaded again
+es: Las canciones descargadas deben volver a descargarse
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+es: Tu cuenta y tus listas de reproducción están a salvo, pero las canciones que descargaste para escuchar sin conexión deben volver a descargarse.
+en: Spotify keeps played and downloaded music here.
+es: Spotify guarda aquí la música reproducida y descargada.
+en: {0} and Data
+es: {0} y Data
+en: May hold old agent chat history
+es: Puede contener historial antiguo de chats con el agente
+en: Cursor: AI agent snapshots
+es: Cursor: instantáneas del agente de IA
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+es: Solo se borran las carpetas que no han cambiado en 60 días. Los archivos de tus proyectos nunca se tocan.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+es: Cada carpeta guarda lo que VS Code recuerda de un proyecto: pestañas abiertas, diseño e historial de chats de IA de ese proyecto.
+en: Cannot undo older AI edits
+es: No se pueden deshacer las ediciones antiguas de la IA
+en: Cursor: AI agent data
+es: Cursor: datos del agente de IA
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+es: Ya no podrás revertir los cambios antiguos de la IA. Cursor crea copias nuevas cuando vuelves a usar el agente.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+es: Copias de tus proyectos que el agente de IA de Cursor usa para deshacer sus ediciones.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+es: La próxima compilación necesita internet y tarda más mientras Gradle los vuelve a descargar. Cierra primero Android Studio y otros IDE de Java.
+en: Downloaded libraries and build files for Java and Android projects.
+es: Bibliotecas descargadas y archivos de compilación para proyectos Java y Android.
+en: Next build downloads everything again
+es: La próxima compilación vuelve a descargarlo todo
+en: Maven repository
+es: Repositorio de Maven
+en: JetBrains IDE caches and logs
+es: Cachés y registros de los IDE de JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+es: La próxima compilación necesita internet y tarda más mientras Maven las vuelve a descargar. Las bibliotecas que instalaste tú mismo con "mvn install" tendrían que volver a instalarse.
+en: Downloaded Java libraries.
+es: Bibliotecas de Java descargadas.
+en: Gradle caches
+es: Cachés de Gradle
+en: Adobe media cache (Premiere, After Effects)
+es: Caché de medios de Adobe (Premiere, After Effects)
+en: Close Spotify first.
+es: Cierra Spotify primero.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+es: Consejo: en la configuración de Spotify también puedes poner un tamaño de caché más pequeño o moverla a otra unidad.
+en: Video previews are rebuilt
+es: Las vistas previas de video se regeneran
+en: Close Adobe apps first.
+es: Cierra primero las aplicaciones de Adobe.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+es: Tus proyectos y videos no se tocan. La primera vez que abras un proyecto después será más lento mientras se regeneran las vistas previas.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+es: Archivos de vista previa y de audio que crean las aplicaciones de video de Adobe. Pueden llegar a ocupar muchos GB.
+en: Compress Windows files (CompactOS)
+es: Comprimir archivos de Windows (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+es: En un disco duro más lento, Docker funciona más lento.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+es: Para liberar espacio en esta unidad, muévelo: Docker Desktop > Settings (engranaje) > Resources > Advanced > Disk image location > elige una carpeta en otra unidad > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+es: Ten cuidado con "docker volume prune" y "docker system prune --volumes": borran volúmenes, que pueden contener bases de datos.
+en: Linux (WSL) disks
+es: Discos de Linux (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+es: Si no usas alguno: Configuración > Aplicaciones > búscalo > Desinstalar. Eso borra todo lo que contiene.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+es: Cada sistema Linux de WSL (por ejemplo Ubuntu) guarda todos sus archivos en un único archivo de disco.
+en: Disk files of your WSL Linux systems
+es: Archivos de disco de tus sistemas Linux de WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+es: Contiene todos los contenedores, imágenes y volúmenes de Docker. Nunca borres este archivo.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+es: Para hacer sitio: "Abrir ubicación" > elige la unidad > Configurar > baja el control deslizante "Uso máximo", o haz clic en Eliminar para quitarlos todos.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+es: Los puntos de restauración te permiten deshacer cambios del sistema. Windows puede usar varios GB para ellos.
+en: System Properties > System Protection
+es: Propiedades del sistema > Protección del sistema
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+es: Para conservar solo el más reciente: Liberador de espacio en disco (cleanmgr) > Limpiar archivos del sistema > Más opciones > Restaurar sistema e instantáneas > Limpiar.
+en: Can be moved to another drive
+es: Se puede mover a otra unidad
+en: Docker disk (do not delete)
+es: Disco de Docker (no borrar)
+en: Keep at least one recent restore point if you can.
+es: Conserva al menos un punto de restauración reciente si puedes.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+es: - pagefile.sys y swapfile.sys: la memoria adicional de Windows en el disco. Si no hay suficiente, los programas se bloquean cuando se acaba la memoria.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+es: pagefile.sys, swapfile.sys, las carpetas Windows Installer y WinSxS
+en: Never delete by hand
+es: Nunca borrar a mano
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+es: - La carpeta Windows Installer: quita archivos solo con el elemento "Archivos de actualización antiguos", nunca a mano.
+en: ({0} files)
+es: ({0} archivo) | ({0} archivos)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+es: - Carpetas de aplicaciones que usas, aunque sean grandes. Borrarlas puede dañar la aplicación o hacerte perder tus datos.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+es: - La carpeta WinSxS: límpiala solo con los elementos "Componentes de Windows", nunca a mano.
+en: Leave these alone
+es: No toques esto
+en: Your Downloads folder
+es: Tu carpeta Descargas
+en: If that command is not recognised, run  wsl --update  first.
+es: Si no se reconoce ese comando, ejecuta  wsl --update  primero.
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+es: Para mover uno a otra unidad, en un Símbolo del sistema:  wsl --shutdown   y luego   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+es: Tus propios archivos: tú decides
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+es: Consejo: la pestaña Analizar disco muestra tus archivos más grandes estén donde estén.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+es: Abre la carpeta, ordénala por tamaño (Vista > Detalles, y luego haz clic en la columna Tamaño) y borra lo que ya no necesites.
+en: Files you downloaded. This tool never deletes them here.
+es: Archivos que descargaste. Esta herramienta nunca los borra aquí.
+en: Keep at least the newest one
+es: Conserva al menos el más reciente
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+es: El Sensor de almacenamiento viene integrado en Windows. Borra automáticamente los archivos temporales y los elementos antiguos de la Papelera de reciclaje, para que el espacio siga libre.
+en: Settings > System > Storage
+es: Configuración > Sistema > Almacenamiento
+en: Cleans temp files automatically
+es: Limpia los archivos temporales automáticamente
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+es: "Abrir ubicación" abre la configuración del Sensor de almacenamiento. Actívalo allí.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+es: Quedó tras una actualización de Windows. Te permite volver a la versión anterior durante un tiempo limitado, y suele ocupar entre 10 y 30 GB.
+en: Remove with Windows' own tool
+es: Quitar con la propia herramienta de Windows
+en: Previous Windows installation
+es: Instalación anterior de Windows
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+es: Función propia de Microsoft que guarda comprimidos los archivos del sistema de Windows. Suele liberar entre 2 y 4 GB.
+en: Windows system files on {0}
+es: Archivos del sistema de Windows en {0}
+en: Built into Windows. Slight CPU cost
+es: Integrado en Windows. Leve uso de CPU
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+es: En equipos muy lentos o antiguos puede hacer que Windows vaya un poco más lento. En la mayoría de los equipos no lo notarás.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+es: Se está ejecutando en su propia ventana. Puede tardar entre 10 y 20 minutos. No cierres esa ventana.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+es: Para deshacerlo más tarde, ejecuta esto en un Símbolo del sistema como administrador:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+es: Se ejecuta en su propia ventana y puede tardar entre 10 y 20 minutos. Si Windows ya está comprimido, termina rápido.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+es: Programas más grandes en {0} (tamaño estimado por el propio Windows; "?" = carpeta de instalación no registrada):
+en: Programs only come off by uninstalling them in Settings > Apps.
+es: Los programas solo se quitan desinstalándolos en Configuración > Aplicaciones.
+en: "Open location" opens Apps & features.
+es: "Abrir ubicación" abre Aplicaciones y características.
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+es: No se muestran {0} programas instalados en otras unidades: quitarlos no libera espacio en {1}.
+en: System Restore points
+es: Puntos de restauración del sistema
+en: "{0}" is discontinued and no longer needed.
+es: "{0}" está descontinuado y ya no se necesita.
+en: You have {0} Java versions installed. Most people only need the newest one.
+es: Tienes {0} versiones de Java instaladas. La mayoría de la gente solo necesita la más reciente.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+es: Los programas solo se quitan desinstalándolos en Configuración > Aplicaciones. Haz clic en "Medir tamaños" para ver aquí los más grandes.
+en: "Open location" opens the Storage settings.
+es: "Abrir ubicación" abre la configuración de Almacenamiento.
+en: After that you can no longer go back to the previous Windows version.
+es: Después ya no podrás volver a la versión anterior de Windows.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+es: Quítala con el propio Windows: Configuración > Sistema > Almacenamiento > Archivos temporales > marca "Instalaciones anteriores de Windows" > Quitar archivos.
+en: see details
+es: ver detalles
+en: Settings > Apps > Apps & features
+es: Configuración > Aplicaciones > Aplicaciones y características
+en: Uninstall the ones you do not use
+es: Desinstala los que no uses
+en: Biggest installed programs
+es: Programas instalados más grandes
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+es: Archivos de sombreadores que Windows y el controlador de la tarjeta gráfica guardan para que los juegos y las aplicaciones se inicien más rápido.
+en: {0} and similar
+es: {0} y similares
+en: Games may stutter once while they rebuild
+es: Los juegos pueden dar tirones una vez mientras se regeneran
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+es: Se regeneran automáticamente. La primera vez que abras un juego después puede dar algún tirón.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+es: Archivos temporales que dejan los programas. Solo se borran los archivos de más de 1 día, para no interferir con las instalaciones en curso.
+en: Files in use are skipped
+es: Se omiten los archivos en uso
+en: Your temp files (older than 1 day)
+es: Tus archivos temporales (de más de 1 día)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+es: Cachés de gráficos (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+es: Borra solo las carpetas de caché de Discord.
+en: Keeps login and messages
+es: Conserva la sesión y los mensajes
+en: Discord cache
+es: Caché de Discord
+en: Close Discord first, including its icon near the clock.
+es: Cierra primero Discord, incluido su icono junto al reloj.
+en: Close Slack first, including its icon near the clock.
+es: Cierra primero Slack, incluido su icono junto al reloj.
+en: Deletes only Slack's cache folders.
+es: Borra solo las carpetas de caché de Slack.
+en: Slack cache
+es: Caché de Slack
+en: Old problem reports
+es: Informes de problemas antiguos
+en: Windows error reports
+es: Informes de errores de Windows
+en: The Windows Update service is stopped for a moment and started again.
+es: El servicio Windows Update se detiene un momento y se vuelve a iniciar.
+en: {0} and your own WER folder
+es: {0} y tu propia carpeta WER
+en: Recent logs are kept
+es: Se conservan los registros recientes
+en: Old Windows log files (older than 14 days)
+es: Archivos de registro antiguos de Windows (de más de 14 días)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+es: Informes que Windows guardó sobre programas que se bloquearon. No se necesitan una vez enviados o cuando el problema ya no existe.
+en: If an update is still waiting to install, Windows downloads it again.
+es: Si una actualización aún está esperando para instalarse, Windows la vuelve a descargar.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+es: Archivos temporales que dejan Windows y los instaladores. Solo se borran los archivos de más de 1 día.
+en: Windows temp files (older than 1 day)
+es: Archivos temporales de Windows (de más de 1 día)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+es: El tamaño mostrado es el de toda la carpeta. Los archivos más recientes se quedan, así que el espacio liberado puede ser algo menor.
+en: Windows Update downloads
+es: Descargas de Windows Update
+en: Update files Windows already downloaded. Installed updates are not affected.
+es: Archivos de actualización que Windows ya descargó. Las actualizaciones instaladas no se ven afectadas.
+en: {0} and the Delivery Optimization cache
+es: {0} y la caché de Optimización de distribución
+en: Installed updates are not affected
+es: Las actualizaciones instaladas no se ven afectadas
+en: Close Teams first, including its icon near the clock.
+es: Cierra primero Teams, incluido su icono junto al reloj.
+en: Keeps passwords, favorites, logins
+es: Conserva contraseñas, favoritos, sesiones
+en: Microsoft Edge cache
+es: Caché de Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+es: Cierra primero todas las ventanas de Chrome. Si hay un icono de Chrome junto al reloj, haz clic con el botón derecho en él y elige Salir.
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+es: Borra solo las carpetas de caché de Edge en todos los perfiles, además de sus cachés de gráficos.
+en: Deletes only Brave's cache folders in every profile.
+es: Borra solo las carpetas de caché de Brave en todos los perfiles.
+en: Brave cache
+es: Caché de Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+es: Edge suele seguir ejecutándose en segundo plano. Si la herramienta dice que sigue en ejecución: en Edge, Configuración > Sistema y rendimiento > desactiva "Aumento de inicio" y "Continuar ejecutando extensiones y aplicaciones en segundo plano".
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+es: Borra solo las carpetas de caché de Chrome en todos los perfiles, además de sus cachés de gráficos.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+es: CONSERVA: contraseñas, marcadores, historial, cookies y sesiones iniciadas en sitios, autorrelleno, extensiones, configuración, aplicaciones web instaladas.
+en: Could not stop {0}: {1}
+es: No se pudo detener {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+es: Las páginas cargan un poco más lento la primera vez. Muy pocas veces un sitio puede pedirte que vuelvas a iniciar sesión, y el navegador rellena tu contraseña guardada.
+en: Keeps passwords, bookmarks, logins
+es: Conserva contraseñas, marcadores, sesiones
+en: Google Chrome cache
+es: Caché de Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+es: CONSERVA: tu sesión, mensajes, configuración y archivos. La aplicación vuelve a descargar lo que necesita.
+en: Close Opera first.
+es: Cierra Opera primero.
+en: Deletes only Opera's cache folder.
+es: Borra solo la carpeta de caché de Opera.
+en: {0} (and Opera GX)
+es: {0} (y Opera GX)
+en: Microsoft Teams cache
+es: Caché de Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+es: Borra solo las carpetas de caché de Teams. Microsoft lo recomienda cuando Teams va lento o se comporta de forma extraña.
+en: Teams cache folders (new Teams and classic Teams)
+es: Carpetas de caché de Teams (Teams nuevo y Teams clásico)
+en: Keeps login, chats, files
+es: Conserva la sesión, chats, archivos
+en: Opera cache
+es: Caché de Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+es: Borra solo las carpetas de caché de Vivaldi en todos los perfiles.
+en: Vivaldi cache
+es: Caché de Vivaldi
+en: Close Brave first.
+es: Cierra Brave primero.
+en: Close Vivaldi first.
+es: Cierra Vivaldi primero.
+en: Close Firefox first.
+es: Cierra Firefox primero.
+en: Deletes only Firefox's cache folder in every profile.
+es: Borra solo la carpeta de caché de Firefox en todos los perfiles.
+en: Firefox cache
+es: Caché de Firefox
+en: {0} and {1}
+es: {0} y {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+es: Se puede vaciar sin peligro. Windows solo la necesita para desinstalar una actualización por separado.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+es: Una copia de seguridad que Windows guarda para poder quitar más tarde una sola actualización de un programa sin el instalador original.
+en: Low risk
+es: Riesgo bajo
+en: when run
+es: al ejecutarse
+en: {0} (Microsoft DISM tool)
+es: {0} (herramienta DISM de Microsoft)
+en: Safe, often frees little
+es: Seguro, a menudo libera poco
+en: Windows components: normal cleanup
+es: Componentes de Windows: limpieza normal
+en: Windows patch backup cache
+es: Caché de copias de seguridad de revisiones de Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+es: Los archivos borrados se anotan en deleted-update-files.csv (la carpeta se indica en la pestaña Acerca de).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+es: Esto borra solo los archivos de actualización que Windows marca como reemplazados por una actualización más reciente. Conserva los 3 más recientes de cada programa y nunca borra un archivo que siga en uso.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+es: Algunos programas guardan todas las actualizaciones que han instalado. Adobe Acrobat Reader es el caso habitual, con 0.1 a 0.7 GB por actualización.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+es: Riesgo pequeño: si una futura actualización o reparación de ese programa se queja de que falta un archivo, desinstala y vuelve a instalar ese programa.
+en: Found on this PC: nothing to remove.
+es: Encontrado en este equipo: nada que quitar.
+en: Found on this PC:
+es: Encontrado en este equipo:
+en: Never delete files in the Windows Installer folder by hand.
+es: Nunca borres a mano archivos de la carpeta Windows Installer.
+en: If you tick both Windows components items, only this one runs.
+es: Si marcas los dos elementos de Componentes de Windows, solo se ejecuta este.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+es: Después, las actualizaciones de Windows instaladas ahora ya no se podrán desinstalar. Úsalo solo cuando Windows funcione bien.
+en: Same as the normal cleanup, but also removes every replaced version.
+es: Igual que la limpieza normal, pero además quita todas las versiones reemplazadas.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+es: Se ejecuta en su propia ventana y tarda entre 5 y 30 minutos. No cierres esa ventana ni apagues el equipo.
+en: {0} (folders unused for 60+ days)
+es: {0} (carpetas sin usar durante 60 días o más)
+en: Lose old projects' tabs, layout, AI chats
+es: Pierdes pestañas, diseño y chats de IA de proyectos antiguos
+en: VS Code: data of projects not opened in 60 days
+es: VS Code: datos de proyectos no abiertos en 60 días
+en: {0} (Microsoft DISM tool, /ResetBase)
+es: {0} (herramienta DISM de Microsoft, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+es: Windows ya lo hace por sí solo cada pocas semanas, así que a menudo libera muy poco.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+es: Se ejecuta en su propia ventana y tarda entre 5 y 30 minutos. No cierres esa ventana ni apagues el equipo. En un portátil, conecta el cargador.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+es: Limpieza propia de Microsoft de versiones antiguas de componentes de Windows. Segura.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+es: Nunca borres nada de WinSxS a mano. Daña Windows.
+en: Installed updates cannot be uninstalled after
+es: Después no se pueden desinstalar las actualizaciones instaladas
+en: Windows components: deep cleanup
+es: Componentes de Windows: limpieza profunda
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+es: Se está ejecutando en su propia ventana. Puede tardar entre 5 y 30 minutos. No cierres esa ventana.
+en: {0} (files picked from Windows' own records)
+es: {0} (archivos elegidos a partir de los propios registros de Windows)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+es: Paquetes .NET descargados. NuGet los vuelve a descargar cuando hace falta.
+en: NuGet download cache
+es: Caché de descargas de NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+es: Paquetes de Python descargados. pip los vuelve a descargar cuando hace falta.
+en: Go build cache
+es: Caché de compilación de Go
+en: Composer cache
+es: Caché de Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+es: Archivos compilados que el lenguaje Go guarda para compilar más rápido. Go los regenera en la siguiente compilación.
+en: Rebuilt on the next build
+es: Se regeneran en la siguiente compilación
+en: pip cache
+es: Caché de pip
+en: npm cache
+es: Caché de npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+es: Solo se borran los archivos de más de 14 días. Los registros recientes se quedan por si hay que arreglar algo.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+es: Archivos de registro que Windows escribe al instalar actualizaciones. En algunos equipos llegan a ocupar varios GB.
+en: Packages download again when needed
+es: Los paquetes se vuelven a descargar cuando hace falta
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+es: Paquetes de Yarn descargados (para desarrolladores de Node.js). Yarn los vuelve a descargar cuando hace falta.
+en: Yarn cache
+es: Caché de Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+es: Paquetes de npm descargados (para desarrolladores de Node.js). npm los vuelve a descargar la próxima vez que un proyecto los necesite.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+es: Carpetas de caché e informes de bloqueos de Cursor. Cursor los regenera.
+en: Keeps settings, chats, login
+es: Conserva configuración, chats, sesión
+en: Cursor cache and crash reports
+es: Caché e informes de bloqueos de Cursor
+en: KEEPS: settings, chats, login and projects.
+es: CONSERVA: configuración, chats, sesión y proyectos.
+en: Programs stay installed. Small risk
+es: Los programas siguen instalados. Riesgo pequeño
+en: Old update files of installed programs (keeps newest 3)
+es: Archivos de actualización antiguos de programas instalados (conserva los 3 más recientes)
+en: Close Cursor first.
+es: Cierra Cursor primero.
+en: Close VS Code first.
+es: Cierra VS Code primero.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+es: Paquetes de Rust descargados. Cargo los vuelve a descargar cuando hace falta.
+en: Cargo download cache
+es: Caché de descargas de Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+es: Paquetes de PHP descargados. Composer los vuelve a descargar cuando hace falta.
+en: VS Code cache and crash reports
+es: Caché e informes de bloqueos de VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+es: CONSERVA: configuración, extensiones, proyectos, historial de proyectos y chats.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+es: Carpetas de caché e informes de bloqueos de Visual Studio Code. VS Code los regenera.
+en: Keeps settings, extensions, projects
+es: Conserva configuración, extensiones, proyectos
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+es: Resumen
+en: Transfer rate MB/s   (blue = read, orange = write)
+es: Velocidad de transferencia MB/s   (azul = lectura, naranja = escritura)
+en: Disk activity %
+es: Actividad del disco %
+en: Average transfer rate (since this tab opened)
+es: Velocidad de transferencia media (desde que se abrió esta pestaña)
+en: Read since Windows started
+es: Leído desde el inicio de Windows
+en: Average disk activity
+es: Actividad media del disco
+en: Highest transfer rate seen
+es: Velocidad de transferencia más alta registrada
+en: now
+es: ahora
+en: READ
+es: LECTURA
+en: Right now
+es: Ahora mismo
+en: Saved today's disk health and temperature reading to the history.
+es: Se guardó en el historial la lectura de hoy de salud y temperatura del disco.
+en: WRITE
+es: ESCRITURA
+en: 2 minutes ago
+es: hace 2 minutos
+en: DISK ACTIVITY
+es: ACTIVIDAD DEL DISCO
+en: TOTAL TRANSFER
+es: TRANSFERENCIA TOTAL
+en: Written since Windows started
+es: Escrito desde el inicio de Windows
+en: This disk has no drive letter, so the speed test cannot write its test file.
+es: Este disco no tiene letra de unidad, así que la prueba de velocidad no puede escribir su archivo de prueba.
+en: Pick a disk first.
+es: Elige primero un disco.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+es: Última prueba el {0}: escritura {1} MB/s, lectura {2} MB/s, lectura aleatoria 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+es: La unidad {0} necesita al menos 2 GB de espacio libre para la prueba de velocidad.
+en: Speed test started on drive {0}.
+es: Prueba de velocidad iniciada en la unidad {0}.
+en: Running...
+es: En ejecución...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+es: La prueba de velocidad escribe un archivo de prueba de {0} MB en la unidad {1}, lo vuelve a leer y lo borra.<br>Tarda entre 10 y 60 segundos aproximadamente. Mientras tanto, otros programas pueden ir más lentos.<br><br>¿Iniciar la prueba de velocidad?
+en: not reported by this disk
+es: este disco no lo indica
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+es: Mide la velocidad real a la que el disco puede escribir y leer: escribe un archivo de prueba temporal, lo vuelve a leer, luego lee pequeños fragmentos aleatorios y borra el archivo. Haz clic en "Probar velocidad" arriba.
+en: Speed test
+es: Prueba de velocidad
+en: Written over the disk's whole life
+es: Escrito durante toda la vida del disco
+en: Not run yet.
+es: Aún no se ha ejecutado.
+en: Disk {0}: {1}
+es: Disco {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+es: Los contadores de actividad de disco de Windows no están disponibles en este equipo: {0}
+en: Getting disk activity ready...
+es: Preparando la actividad del disco...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+es: La primera vez, Windows puede tardar unos segundos en iniciar los contadores de actividad de disco.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+es: Para comparar: los discos duros de portátil alcanzan unos 80 a 140 MB/s, los SSD SATA unos 500 MB/s y los SSD NVMe de 1,500 a 7,000 MB/s.
+en: Raw value
+es: Valor sin procesar
+en: Unexpected power losses
+es: Cortes de energía inesperados
+en: Spare space left
+es: Espacio de reserva restante
+en: Rated write life used
+es: Vida útil de escritura consumida
+en: ✓ No problems found.
+es: ✓ No se encontraron problemas.
+en: From Windows' storage information.
+es: Según la información de almacenamiento de Windows.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+es: Leído del propio registro de salud del SSD (NVMe). La lista completa está en la pestaña Detalles SMART.
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+es: Leído de los propios datos de autosupervisión del disco (SMART). La lista completa está en la pestaña Detalles SMART.
+en: Data read over its life
+es: Datos leídos durante su vida útil
+en: Powered on
+es: Tiempo encendido
+en: TEMPERATURE
+es: TEMPERATURA
+en: needs admin
+es: necesita administrador
+en: {0} hours  (about {1} days)
+es: {0} horas  (unos {1} días)
+en: Data written over its life
+es: Datos escritos durante su vida útil
+en: {0} times
+es: {0} veces
+en: Turned on
+es: Encendido
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+es: Este disco no comparte datos de salud detallados con Windows (es habitual en carcasas USB y RAID).
+en: No.
+es: No.
+en: Status
+es: Estado
+en: Value
+es: Valor
+en: Attribute
+es: Atributo
+en: Data
+es: Datos
+en: Worst
+es: Peor
+en: Threshold
+es: Umbral
+en: Item
+es: Elemento
+en: Temperature history
+es: Historial de temperatura
+en: Health history
+es: Historial de salud
+en: Start the tool with admin rights to read health and temperature.
+es: Inicia la herramienta con derechos de administrador para leer la salud y la temperatura.
+en: No readings saved yet.
+es: Aún no hay lecturas guardadas.
+en: Offset
+es: Posición
+en: {0} readings since {1}.
+es: {0} lecturas desde {1}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+es: 1 lectura hasta ahora, el {0}. Los gráficos crecen a medida que se guardan más lecturas.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+es: Escritura {0:N0} MB/s     Lectura {1:N0} MB/s     Lectura aleatoria 4K {2:N1} MB/s ({3:N0} por segundo)
+en: This item has no folder to open.
+es: Este elemento no tiene ninguna carpeta que abrir.
+en: Stopping...
+es: Deteniendo...
+en: Could not open the read me: {0}
+es: No se pudo abrir el Léeme: {0}
+en: Pick a drive first.
+es: Elige primero una unidad.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+es: Esto necesita derechos de administrador. Vuelve a iniciar la herramienta y haz clic en Sí en el aviso de Windows.
+en: Select a file in the list first.
+es: Selecciona primero un archivo de la lista.
+en: Scan a drive first.
+es: Examina primero una unidad.
+en: No questions match your search.
+es: Ninguna pregunta coincide con tu búsqueda.
+en: Simple habits that keep your disk from filling up and your PC running well.
+es: Hábitos sencillos para que tu disco no se llene y tu equipo funcione bien.
+en: Tips
+es: Consejos
+en: SAFETY
+es: SEGURIDAD
+en: How Disk Cleanup Helper keeps you safe
+es: Cómo te protege Disk Cleanup Helper
+en: Search the questions, for example "temperature"
+es: Busca en las preguntas, por ejemplo "temperatura"
+en: Click a question to see the answer.
+es: Haz clic en una pregunta para ver la respuesta.
+en: Frequently asked questions
+es: Preguntas frecuentes
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+es: Se inició en su propia ventana la búsqueda de errores del propio Windows en {0}. Solo lee la unidad y tarda unos minutos. Lee el resultado en esa ventana.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+es: Solo se muestran los elementos encontrados en este equipo. Haz clic en "Medir tamaños" para ver cuánto ocupa cada uno. No se borra nada hasta que lo confirmes.
+en: Not running as administrator. Items marked Admin are disabled.
+es: No se está ejecutando como administrador. Los elementos marcados como Admin están deshabilitados.
+en: Running as administrator. All items are available.
+es: Se está ejecutando como administrador. Todos los elementos están disponibles.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+es: Consejo: desde la pestaña Acerca de puedes instalarlo para que aparezca en el menú Inicio.
+en: Saved a health and temperature reading for {0} disks to the history.
+es: Se guardó en el historial una lectura de salud y temperatura de {0} disco. | Se guardó en el historial una lectura de salud y temperatura de {0} discos.
+en: {0} files were in use and were skipped.
+es: {0} archivo estaba en uso y se omitió. | {0} archivos estaban en uso y se omitieron.
+en: {0} items
+es: {0} elemento | {0} elementos
+en: My user folder only
+es: Solo mi carpeta de usuario
+en: Install: not installed
+es: Instalación: no instalado
+en: Install: installed in {0}
+es: Instalación: instalado en {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+es: Aún no se ha guardado ninguna lectura.<br><br>El historial se guardará en:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+es: Aún no se ha hecho ninguna limpieza.<br><br>El historial se guardará en:<br>{0}
+en: Whole drive
+es: Toda la unidad
+en: Could not open System Information: {0}
+es: No se pudo abrir Información del sistema: {0}
+en: Could not open dxdiag: {0}
+es: No se pudo abrir dxdiag: {0}
+en: SPEED
+es: VELOCIDAD
+en: Wait until the details have been read.
+es: Espera a que se lean los detalles.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+es: Leído: {0}. Se queda en este equipo salvo que lo copies o lo guardes.
+en: Could not read the device details: {0}
+es: No se pudieron leer los detalles del dispositivo: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+es: Se copiaron los detalles del dispositivo. Pégalos donde los necesites, por ejemplo en un mensaje para alguien que te ayude.
+en: Text file
+es: Archivo de texto
+en: Save the device details
+es: Guardar los detalles del dispositivo
+en: Could not copy: {0}
+es: No se pudo copiar: {0}
+en: Reading...
+es: Leyendo...
+en: Speed test: {0}
+es: Prueba de velocidad: {0}
+en: Speed test finished.
+es: Prueba de velocidad terminada.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+es: Probado con un archivo de {0} MB en {1}. El resultado se guarda para que puedas comparar más tarde.
+en: Speed test stopped. The test file was deleted.
+es: Prueba de velocidad detenida. Se borró el archivo de prueba.
+en: Reading this PC's details...
+es: Leyendo los detalles de este equipo...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+es: Recopilando detalles de Windows, el procesador, la memoria, los gráficos y más. Tarda unos segundos.
+en: The speed test could not finish. See the log below.
+es: La prueba de velocidad no pudo terminar. Consulta el registro de abajo.
+en: Stopped.
+es: Detenido.
+en: Saved the device details to {0}
+es: Se guardaron los detalles del dispositivo en {0}
+en: Philip Droubi | Software Engineer
+es: Philip Droubi | Ingeniero de software
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+es: Ingeniero de software. Las preguntas, ideas o comentarios sobre Disk Cleanup Helper son bienvenidos.
+en: Made by Philip Droubi
+es: Creado por Philip Droubi
+en: Philip Droubi is a Software Engineer.
+es: Philip Droubi es ingeniero de software.
+en: SPACE
+es: ESPACIO
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+es: Ingeniero de software. Conecta con Philip Droubi en LinkedIn.
+en: Source code on GitHub
+es: Código fuente en GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+es: Libre y de código abierto bajo la GNU GPL v3: úsalo, modifícalo y compártelo. Las copias conservan la mención de Philip Droubi como autor.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+es: © {0} Philip Droubi. Software libre: puedes usarlo, modificarlo y compartirlo bajo la GNU General Public License v3 con las condiciones adicionales indicadas en NOTICE. Se ofrece sin ninguna garantía.
+en: License and terms
+es: Licencia y condiciones
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+es: Esta copia ({0}) no es la que está instalada en este equipo. Actualiza la copia instalada para que el menú Inicio abra esta versión.
+en: Repair shortcuts
+es: Reparar accesos directos
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+es: Instalado en {0}. Ábrelo cuando quieras desde el menú Inicio o el acceso directo del escritorio. Para quitarlo: haz clic en Desinstalar, o ve a Configuración > Aplicaciones > Disk Cleanup Helper.
+en: Could not save the file: {0}
+es: No se pudo guardar el archivo: {0}
+en: Update installed copy
+es: Actualizar copia instalada
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+es: Conserva Disk Cleanup Helper en este equipo: instálalo para abrirlo desde el menú Inicio y el escritorio. No necesita derechos de administrador.
+en: Install on this PC
+es: Instalar en este equipo
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+es: No instalado. Lo estás ejecutando desde {0}. La instalación agrega una entrada en el menú Inicio, un acceso directo en el escritorio y una entrada en Configuración > Aplicaciones para poder quitarlo como cualquier programa. No se necesitan derechos de administrador.
+en: not reported
+es: no indicado
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+es: Esta herramienta nunca borra este elemento. Usa "Abrir ubicación" y sigue los pasos de arriba.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+es: Necesita derechos de administrador. Vuelve a iniciar la herramienta y haz clic en Sí en el aviso de Windows para usar este elemento.
+en: Close first: {0}
+es: Cierra primero: {0}
+en: Measure anyway?
+es: ¿Medir de todos modos?
+en: Measuring stopped.
+es: Medición detenida.
+en: Measuring {0} of {1}: {2}
+es: Midiendo {0} de {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+es: Midiendo tamaños. Puede tardar uno o dos minutos. Haz clic en Detener para parar.
+en: Where
+es: Dónde
+en: Problem: {0}
+es: Problema: {0}
+en: Clean selected ({0})
+es: Limpiar seleccionados ({0})
+en: up to {0}
+es: hasta {0}
+en: Close {0} first
+es: Cierra {0} primero
+en: Size: not measured yet
+es: Tamaño: aún sin medir
+en: Size: {0}
+es: Tamaño: {0}
+en: Admin
+es: =
+en: Done. Select what you want to clean.
+es: Listo. Selecciona lo que quieres limpiar.
+en: Cleanup started. Free space on {0}: {1}
+es: Limpieza iniciada. Espacio libre en {0}: {1}
+en: Confirm cleanup
+es: Confirmar limpieza
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+es: Se limpiará lo siguiente. Los archivos borrados no van a la Papelera de reciclaje y no se pueden restaurar:<br><br>{0}<br><br>¿Continuar?
+en: Stopped. Not cleaned: {0}
+es: Detenido. Sin limpiar: {0}
+en: Error: {0}
+es: Error: {0}
+en: Cleaning: {0}
+es: Limpiando: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+es: Todo listo. El espacio libre en {0} aumentó en {1}. Ahora hay {2} libres.
+en: Clean anyway?
+es: ¿Limpiar de todos modos?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+es: Consejo: algunas aplicaciones siguen ejecutándose junto al reloj. Haz clic con el botón derecho en su icono y elige Salir o Cerrar.
+en: Select at least one item first.
+es: Selecciona primero al menos un elemento.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+es: Listo. Haz clic en un elemento para leer sobre él, selecciona lo que quieras y luego haz clic en "Limpiar seleccionados".
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+es: Edge suele ejecutarse en segundo plano: en Edge, Configuración > Sistema y rendimiento > desactiva Aumento de inicio y las aplicaciones en segundo plano.
+en: Nothing left to clean. Close the programs and try again.
+es: No queda nada que limpiar. Cierra los programas y vuelve a intentarlo.
+en: Close programs first
+es: Cierra primero los programas
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+es: Estos programas siguen abiertos:<br><br>{0}<br><br>{1}<br><br>Haz clic en No, ciérralos y vuelve a hacer clic en Limpiar.<br>O haz clic en Sí para omitir los elementos que los necesitan y limpiar el resto.
+en: Clean selected
+es: Limpiar seleccionados
+en: Switches that free space or keep it free.
+es: Opciones que liberan espacio o lo mantienen libre.
+en: Windows settings
+es: Ajustes de Windows
+en: YOUR CALL
+es: TÚ DECIDES
+en: SETTING
+es: AJUSTE
+en: INFO ONLY
+es: INFORMATIVO
+en: The tool only shows and opens these. It never deletes them.
+es: La herramienta solo los muestra y los abre. Nunca los borra.
+en: Do it yourself
+es: Hazlo tú mismo
+en: You lose something small. Read each one before you select it.
+es: Pierdes algo pequeño. Lee cada uno antes de seleccionarlo.
+en: SAFE
+es: SEGURO
+en: TOTAL
+es: TOTAL
+en: {0} selected
+es: {0} seleccionado | {0} seleccionados
+en: Caches and temp files. Programs rebuild them by themselves.
+es: Cachés y archivos temporales. Los programas los regeneran por sí solos.
+en: Safe to clean
+es: Seguro para limpiar
+en: Old installer files and Windows cleanup
+es: Archivos de instalación antiguos y limpieza de Windows
+en: Your call
+es: Tú decides
+en: ADMIN
+es: =
+en: Needs admin rights. Read each one before you select it.
+es: Necesita derechos de administrador. Lee cada uno antes de seleccionarlo.
+en: Language
+es: Idioma
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+es: Tu equipo tiene poca memoria ahora mismo:<br><br>  Memoria disponible: {0:N1} GB<br>  Espacio restante incluido el archivo de paginación: {1:N1} GB<br><br>Quedarse sin memoria puede hacer que los programas se bloqueen y, en algunos equipos, provocar una pantalla azul.<br>Cierra los programas que no necesites (navegadores, editores, juegos) y vuelve a intentarlo.
+en: Switched to the light theme.
+es: Se cambió al tema claro.
+en: Switched to the dark theme.
+es: Se cambió al tema oscuro.
+en: Low memory
+es: Poca memoria
+en: nothing selected
+es: nada seleccionado
+en: low: close some programs
+es: poca: cierra algunos programas
+en: of {0} GB
+es: de {0} GB
+en: Switch to the dark theme
+es: Cambiar al tema oscuro
+en: Please wait until the current task finishes, or click Stop.
+es: Espera a que termine la tarea actual o haz clic en Detener.
+en: Scan {0} for errors
+es: Buscar errores en {0}
+en: {0} FREE (WINDOWS DRIVE)
+es: {0} LIBRES (UNIDAD DE WINDOWS)
+en: Could not restart the app: {0}
+es: No se pudo reiniciar la aplicación: {0}
+en: Switch to the light theme
+es: Cambiar al tema claro
+en: DARK MODE
+es: MODO OSCURO
+en: LIGHT MODE
+es: MODO CLARO
+en: Removed {0}. Left: {1}.
+es: Se quitó {0}. Queda: {1}.
+en: Storage Spaces
+es: Espacios de almacenamiento
+en: Virtual
+es: =
+en: Disk
+es: Disco
+en: Too hot
+es: Demasiado caliente
+en: Could not read disks: {0}
+es: No se pudieron leer los discos: {0}
+en: Normal
+es: =
+en: Warm
+es: Templado
+en: Poor
+es: Malo
+en: Healthy
+es: Sano
+en: Unknown
+es: Desconocido
+en: Windows: problem
+es: Windows: problema
+en: Warning
+es: Advertencia
+en: Fair
+es: Regular
+en: Good
+es: Bueno
+en: Problem
+es: Problema
+en: Checking disks...
+es: Revisando discos...
+en: Reading each disk's health and temperature. This takes a few seconds.
+es: Leyendo la salud y la temperatura de cada disco. Tarda unos segundos.
+en: Waiting for the current task to finish. The disks are checked right after that.
+es: Esperando a que termine la tarea actual. Los discos se revisan justo después.
+en: (health {0}%)
+es: (salud {0}%)
+en: SMART attributes
+es: Atributos SMART
+en: NVMe health log
+es: Registro de salud NVMe
+en: {0}% used
+es: {0}% usado
+en: HEALTH
+es: SALUD
+en: Almost full: Windows and apps slow down when a drive is this full.
+es: Casi llena: Windows y las aplicaciones se vuelven lentos cuando una unidad está así de llena.
+en: {0} free of {1}
+es: {0} libres de {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+es: Inicia la herramienta con derechos de administrador para leer los datos SMART de los discos.
+en: Windows did not report any disks.
+es: Windows no indicó ningún disco.
+en: Disks
+es: Discos
+en: Drives
+es: Unidades
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+es: El % de salud es una estimación de esta aplicación a partir de los propios datos de cada disco. Otras herramientas usan sus propias fórmulas, así que sus números pueden variar un poco. Se guarda una lectura cada vez que abres esta pestaña o inicias la aplicación (como máximo cada 30 minutos), para que puedas seguir la salud y la temperatura con el tiempo.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+es: Ninguno de los discos comparte datos SMART con Windows. Es habitual en carcasas USB y RAID.
+en: Disk check finished.
+es: Revisión de discos terminada.
+en: A disk reports a problem. Back up your important files now.
+es: Un disco informa de un problema. Haz ahora una copia de seguridad de tus archivos importantes.
+en: Windows: warning
+es: Windows: advertencia
+en: Stopped. Results are incomplete.
+es: Detenido. Los resultados están incompletos.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+es: Examinando... {0:N0} carpetas y {1:N0} archivos hasta ahora
+en: Scanning {0}. Click Stop to stop.
+es: Examinando {0}. Haz clic en Detener para parar.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+es: Examen detenido. Se muestran los archivos más grandes encontrados hasta ahora. Los tamaños de las carpetas solo se muestran cuando el examen termina.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+es: Nota: la carpeta Windows puede parecer más grande de lo que es, porque Windows guarda algunos archivos en dos lugares a la vez.
+en: {0:N0} folders could not be read (Windows protects them).
+es: No se pudieron leer {0:N0} carpetas (Windows las protege).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+es: Listo en {0:N0} s: {1:N0} carpetas, {2:N0} archivos.
+en: Scanning {0} ...
+es: Examinando {0} ...
+en: (files directly in this folder)
+es: (archivos directamente en esta carpeta)
+en: Scan a drive to see its biggest folders.
+es: Examina una unidad para ver sus carpetas más grandes.
+en: Free space on {0} grew by {1}.
+es: El espacio libre en {0} aumentó en {1}.
+en: Biggest files
+es: Archivos más grandes
+en: Scan anyway?
+es: ¿Examinar de todos modos?
+en: That drive or folder is not available.
+es: Esa unidad o carpeta no está disponible.
+en: Biggest files ({0} found)
+es: Archivos más grandes ({0} encontrados)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+es: Selecciona primero uno o más archivos de la lista. Mantén presionada la tecla Ctrl para seleccionar varios.
+en: Could not remove {0}: {1}
+es: No se pudo quitar {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+es: Movido a la Papelera de reciclaje: {0} ({1})
+en: Deleted file: {0} ({1})
+es: Archivo eliminado: {0} ({1})
+en: Files deleted: {0}.
+es: Archivos eliminados: {0}.
+en: Windows: OK
+es: Windows: correcto
+en: {0} could not be removed (in use or protected).
+es: No se pudo quitar {0} (en uso o protegido).
+en: Files moved to the Recycle Bin: {0}.
+es: Archivos movidos a la Papelera de reciclaje: {0}.
+en: Move to Recycle Bin
+es: Mover a la Papelera de reciclaje
+en: They will be deleted permanently and cannot be restored.
+es: Se eliminarán permanentemente y no se podrán restaurar.
+en: ... and {0} more
+es: ... y {0} más
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+es: Estos son archivos de Windows, de programas o del sistema, y están protegidos:<br><br>{0}<br><br>Desinstala el programa en su lugar, o usa la pestaña Limpiar.
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+es: Irán a la Papelera de reciclaje. El espacio solo se libera después de vaciar la Papelera de reciclaje.
+en: Delete permanently
+es: Eliminar permanentemente
+en: Make sure you do not need them. Continue?
+es: Asegúrate de que no los necesitas. ¿Continuar?
+en: Files: {0}, {1} in total.
+es: Archivos: {0}, {1} en total.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+es: Revisar discos de nuevo
+en: Disk health
+es: Salud del disco
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+es: Mantén presionada la tecla Ctrl para seleccionar varios archivos. Los archivos de Windows y de programas están protegidos y no se pueden eliminar aquí.
+en: Scan for errors
+es: Buscar errores
+en: Open history file
+es: Abrir archivo de historial
+en: Windows storage settings
+es: Configuración de almacenamiento de Windows
+en: Optimize drives
+es: Optimizar unidades
+en: Modified
+es: Modificado
+en: Up
+es: Subir
+en: Biggest folders
+es: Carpetas más grandes
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+es: Elige una unidad y haz clic en Examinar. Una unidad entera puede tardar unos minutos.
+en: Folder
+es: Carpeta
+en: File
+es: Archivo
+en: Double-click a folder to look inside.
+es: Haz doble clic en una carpeta para ver su contenido.
+en: Open in File Explorer
+es: Abrir en el Explorador de archivos
+en: SMART details
+es: Detalles SMART
+en: About
+es: Acerca de
+en: Tips & FAQ
+es: Consejos y preguntas
+en: System Information
+es: Información del sistema
+en: Read me
+es: Léeme
+en: Cleanup history
+es: Historial de limpieza
+en: Uninstall
+es: Desinstalar
+en: DirectX Diagnostic (dxdiag)
+es: Diagnóstico de DirectX (dxdiag)
+en: Run speed test
+es: Probar velocidad
+en: Disk performance
+es: Rendimiento del disco
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+es: Los datos sin procesar que cada disco informa sobre sí mismo. "Vigilar" significa que conviene estar atento. "Fallando" significa por debajo del propio límite de seguridad del disco.
+en: Live activity updates every second while this tab is open.
+es: La actividad en tiempo real se actualiza cada segundo mientras esta pestaña está abierta.
+en: Save as text file
+es: Guardar como archivo de texto
+en: Copy all
+es: Copiar todo
+en: Read again
+es: Volver a leer
+en: Scan
+es: Examinar
+en: English
+es: =
+en: 0 items
+es: 0 elementos
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+es: No se está ejecutando como administrador, así que los elementos marcados como Admin están deshabilitados. Para usarlos, cierra esta ventana, vuelve a iniciar la herramienta y haz clic en Sí en el aviso de Windows.
+en: Measure sizes
+es: Medir tamaños
+en: Clean up
+es: Limpiar
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+es: Mira qué llena tus discos y libera espacio de forma segura. No se borra nada hasta que lo confirmes.
+en: Disk Cleanup Helper
+es: =
+en: C: FREE
+es: LIBRE EN C:
+en: SELECTED TO CLEAN
+es: SELECCIONADO PARA LIMPIAR
+en: MEMORY AVAILABLE
+es: MEMORIA DISPONIBLE
+en: Stop
+es: Detener
+en: Analyze disk
+es: Analizar disco
+en: Open location
+es: Abrir ubicación
+en: Drive
+es: Unidad
+en: List files bigger than
+es: Mostrar archivos de más de
+en: Look in
+es: Buscar en
+en: Clear selection
+es: Quitar selección
+en: Select all safe
+es: Seleccionar lo seguro
+en: Click Measure sizes to see how much each item uses.
+es: Haz clic en Medir tamaños para ver cuánto ocupa cada elemento.
+en: to see what it is, where it is, and what you keep or lose.
+es: para ver qué es, dónde está y qué conservas o pierdes.
+en: Click an item
+es: Haz clic en un elemento
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+es: No se pudo escribir el archivo de prueba. ¿Está llena la unidad?
+en: Reading it back...
+es: Leyéndolo de nuevo...
+en: Writing a {0} MB test file...
+es: Escribiendo un archivo de prueba de {0} MB...
+en: Could not create the test file in {0}.
+es: No se pudo crear el archivo de prueba en {0}.
+en: Could not open the test file.
+es: No se pudo abrir el archivo de prueba.
+en: Not enough memory for the speed test.
+es: No hay suficiente memoria para la prueba de velocidad.
+en: Reading small random blocks...
+es: Leyendo pequeños bloques aleatorios...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+es: Disk Cleanup Helper necesita Windows 10 o Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+es: Disk Cleanup Helper no pudo iniciarse:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+es: Algo salió mal:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+es: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+es: ¿Cómo funcionan las actualizaciones?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+es: Cuando sale una versión nueva, la aplicación la descarga en segundo plano y la comprueba: su SHA256 y su número de versión deben coincidir con la publicación. Luego una barra ofrece "Reiniciar ahora". Si eliges "Más tarde", la actualización se instala cuando cierras la aplicación. Puedes desactivar la comprobación automática en la pestaña Acerca de; el botón "Buscar actualizaciones" de esa pestaña sigue funcionando.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+es: No. No envía nada sobre tu equipo. La única conexión que hace es para preguntar a GitHub si hay una versión nueva, como máximo una vez al día. Puedes desactivarlo en la pestaña Acerca de.
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+es: No envía nada sobre tu equipo. Solo pregunta a GitHub si hay una versión nueva, y puedes desactivarlo en la pestaña Acerca de. El historial de lo que se limpió se guarda solo en este equipo.
+en: Update check: version {0} is the newest.
+es: Búsqueda de actualizaciones: la versión {0} es la más reciente.
+en: Downloading version {0}... {1}%
+es: Descargando la versión {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+es: La versión {0} está disponible. Esta es una versión de desarrollo, así que no se actualiza sola.
+en: Update check: version {0} is available.
+es: Búsqueda de actualizaciones: la versión {0} está disponible.
+en: Downloading version {0}...
+es: Descargando la versión {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+es: La actualización no se puede instalar aquí, porque esta carpeta no se puede modificar: {0}
+en: The update was not downloaded: {0}
+es: La actualización no se descargó: {0}
+en: Later
+es: Más tarde
+en: This is a developer build, so it does not update itself.
+es: Esta es una versión de desarrollo, así que no se actualiza sola.
+en: What's new in version {0}:
+es: Novedades de la versión {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+es: La versión {0} está instalada, pero no se pudo iniciar: {1}<br><br>Vuelve a iniciar Disk Cleanup Helper.
+en: No details were given for this version.
+es: No se dieron detalles para esta versión.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+es: La versión {0} está descargada y comprobada (SHA256 y número de versión).
+en: The update could not be downloaded: {0}
+es: No se pudo descargar la actualización: {0}
+en: Version {0} is ready. Restart to update.
+es: La versión {0} está lista. Reinicia para actualizar.
+en: This is version {0}. It has not checked for updates yet.
+es: Esta es la versión {0}. La aplicación todavía no ha buscado actualizaciones.
+en: You have the latest version ({0}). Last checked: {1}.
+es: Tienes la última versión ({0}). Última comprobación: {1}.
+en: Version {0} is installed.
+es: La versión {0} está instalada.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+es: Esta copia está en una carpeta que no se puede modificar:<br>{0}<br><br>Se abre la página de la publicación para que puedas descargar la versión {1} y reemplazar esta copia a mano.
+en: The update could not be installed: {0}
+es: No se pudo instalar la actualización: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+es: La versión {0} está disponible. Haz clic en "Buscar actualizaciones" para descargarla.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+es: No se pudo instalar la actualización. Esta copia sigue funcionando como está.<br><br>{0}
+en: Updated to version {0}.
+es: Actualizado a la versión {0}.
+en: Update check: {0}
+es: Búsqueda de actualizaciones: {0}
+en: Could not check for updates: {0}
+es: No se pudieron buscar actualizaciones: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+es: No se pudo conectar con GitHub. Comprueba la conexión a internet y vuelve a intentarlo.
+en: Checking for updates...
+es: Buscando actualizaciones...
+en: Update check: could not reach GitHub.
+es: Búsqueda de actualizaciones: no se pudo conectar con GitHub.
+en: Check for updates
+es: Buscar actualizaciones
+en: Check for updates when the app starts
+es: Buscar actualizaciones al iniciar la aplicación
+en: What's new
+es: Novedades
+en: Restart now
+es: Reiniciar ahora
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+es: Un asistente gratuito para Windows 10 y 11 que muestra qué llena tus discos y libera espacio de forma segura. No envía nada sobre tu equipo. No se borra nada hasta que lo confirmes.
+en: Updates
+es: Actualizaciones
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+es: Las actualizaciones vienen de la página de GitHub de la aplicación. Cada versión nueva se comprueba (SHA256 y número de versión) antes de reemplazar a esta.
+en: Version {0} has no {1} file.
+es: La versión {0} no tiene el archivo {1}.
+en: Version {0} has a download address that is not on github.com.
+es: La versión {0} tiene una dirección de descarga que no está en github.com.
+en: Version {0} has no SHA256 line in its release text.
+es: La versión {0} no tiene una línea SHA256 en el texto de su publicación.
+en: GitHub's answer could not be read.
+es: No se pudo leer la respuesta de GitHub.
+en: The newest release has an unreadable version number: {0}
+es: La publicación más reciente tiene un número de versión ilegible: {0}
+en: The download came from an unexpected address: {0}
+es: La descarga vino de una dirección inesperada: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+es: El archivo descargado no es un programa de Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+es: El archivo descargado es la versión {0}, no la {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+es: El archivo descargado no coincide con el SHA256 del texto de la publicación.
+en: The downloaded file has an unexpected size ({0}).
+es: El archivo descargado tiene un tamaño inesperado ({0}).
+en: The download took too long.
+es: La descarga tardó demasiado.

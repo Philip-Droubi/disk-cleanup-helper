@@ -1,0 +1,1790 @@
+# Disk Cleanup Helper - ja
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = 日本語
+@rtl = no
+@font = Segoe UI, Yu Gothic UI
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+ja: {0} を実行できませんでした: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+ja: ほかに {0}
+en: GRAPHICS
+ja: グラフィックス
+en: Wireless (Miracast)
+ja: ワイヤレス (Miracast)
+en: Built-in screen
+ja: 内蔵ディスプレイ
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+ja: このドライバーは {0} のものです。PC メーカーまたはチップ メーカーの新しいドライバーで、クラッシュ、ブルー スクリーン、表示の問題が解決することがあります。
+en: {0} × {1} at {2} Hz
+ja: {0} × {1}、{2} Hz
+en: Showing now
+ja: 現在表示中
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+ja: Windows がこのデバイスの問題を報告しています (コード {0})。PC メーカーまたはチップ メーカーの Web サイトからドライバーを再インストールしてください。
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+ja: 適切なグラフィックス ドライバーがインストールされていません。PC メーカーまたはグラフィックス チップ メーカーのドライバーをインストールすると、表示がより鮮明で速くなります。
+en: Screens
+ja: ディスプレイ
+en: Made in
+ja: 製造時期
+en: Connection
+ja: 接続
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+ja: 状態、温度、SMART データは「ディスクの状態」タブと「SMART の詳細」タブにあります。
+en: Storage
+ja: ストレージ
+en: {0} inches
+ja: {0} インチ
+en: {0}  (main screen)
+ja: {0}  (メイン ディスプレイ)
+en: Screen {0}
+ja: ディスプレイ {0}
+en: Refresh rate
+ja: リフレッシュ レート
+en: Resolution
+ja: 解像度
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+ja: 現在、メモリがほぼいっぱいです ({0}% 使用中)。不要なプログラムを閉じてください。メモリが不足すると PC が遅くなり、クラッシュすることがあります。
+en: Part number
+ja: 部品番号
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+ja: この PC には空きメモリ スロットがあります。同じ種類 ({0}) のメモリ モジュールを追加すると、通常は安く PC を速くできます。
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+ja: {0} は、現在の Windows 10 と 11 には少ない容量です。8 GB 以上あると大きな違いがあります。
+en: Size
+ja: サイズ
+en: Memory promised to programs
+ja: プログラムに割り当て済みのメモリ
+en: None. Programs can crash when the memory is full.
+ja: なし。メモリがいっぱいになるとプログラムがクラッシュすることがあります。
+en: Module {0}
+ja: モジュール {0}
+en: {0} GB of {1} GB  (memory plus page file)
+ja: {0} GB / {1} GB  (メモリとページング ファイルの合計)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+ja: この PC には空きメモリ スロットがあります。同じ種類のメモリ モジュールを追加すると、通常は安く PC を速くできます。
+en: 4 GB or more
+ja: 4 GB 以上
+en: Graphics
+ja: グラフィックス
+en: Driver
+ja: ドライバー
+en: Graphics memory
+ja: グラフィックス メモリ
+en: {0}% in use now
+ja: 現在 {0}% 使用中
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+ja: 両方のメモリ スロットが使用中です。メモリを増やすには、より大容量のモジュール ({0}) に交換してください。現在は合計 16 GB が適切なサイズです。
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+ja: 唯一のメモリ スロットが使用中です。メモリを増やすには、より大容量のモジュール ({0}) に交換してください。現在は合計 16 GB が適切なサイズです。
+en: MEMORY
+ja: メモリ
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+ja: {0} 個のメモリ スロットがすべて使用中です。メモリを増やすには、より大容量のモジュール ({1}) に交換してください。現在は合計 16 GB が適切なサイズです。
+en: Adapter
+ja: アダプター
+en: Network adapters
+ja: ネットワーク アダプター
+en: connected at {0}
+ja: {0} で接続
+en: turned off
+ja: オフ
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+ja: バッテリーの容量は新品時の {0}% しかありません。新しいバッテリーにすると、充電器なしで使える時間がずっと長くなります。
+en: Lithium-ion
+ja: リチウムイオン
+en: Kind
+ja: 種類
+en: Nickel-metal hydride
+ja: ニッケル水素
+en: Lithium-polymer
+ja: リチウムポリマー
+en: connected
+ja: 接続済み
+en: {0} minutes
+ja: {0} 分
+en: {0}  ·  Windows reports a problem (code {1})
+ja: {0}  ·  Windows が問題を報告しています (コード {1})
+en: {0} days
+ja: {0} 日
+en: {0} hours
+ja: {0} 時間
+en: Built in
+ja: 内蔵
+en: Sound
+ja: サウンド
+en: not connected
+ja: 未接続
+en: Through the screen (HDMI or DisplayPort)
+ja: ディスプレイ経由 (HDMI または DisplayPort)
+en: Added by a program
+ja: プログラムが追加
+en: Battery
+ja: バッテリー
+en: All disks together
+ja: すべてのディスクの合計
+en: plugged in, charging
+ja: 電源に接続、充電中
+en: on battery
+ja: バッテリー駆動
+en: drive {0}
+ja: ドライブ {0}
+en: Storage class memory
+ja: ストレージ クラス メモリ
+en: Hard disk
+ja: ハード ディスク
+en: Disk {0}
+ja: ディスク {0}
+en: SD card
+ja: SD カード
+en: plugged in, full
+ja: 電源に接続、満充電
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+ja: {0}%  (現在 {1} Wh、新品時 {2} Wh)
+en: Battery health
+ja: バッテリーの状態
+en: Charge cycles
+ja: 充電サイクル数
+en: Start the tool with admin rights to read it
+ja: 読み取るには管理者権限でツールを起動してください
+en: {0} h {1} min  (Windows' estimate)
+ja: {0} 時間 {1} 分  (Windows の推定)
+en: Charge now
+ja: 現在の充電量
+en: plugged in
+ja: 電源に接続
+en: Time left
+ja: 残り時間
+en: {0}%, {1}
+ja: {0}%、{1}
+en: , size set by hand
+ja: 、サイズは手動設定
+en: Server
+ja: サーバー
+en: Desktop
+ja: デスクトップ
+en: Windows
+ja: =
+en: Workstation
+ja: ワークステーション
+en: All-in-one
+ja: オールインワン
+en: Laptop that folds into a tablet (2-in-1)
+ja: タブレットに変形するノート PC (2-in-1)
+en: Laptop
+ja: ノート PC
+en: Tablet
+ja: タブレット
+en: Tablet with a detachable keyboard (2-in-1)
+ja: キーボード着脱式タブレット (2-in-1)
+en: Edition
+ja: エディション
+en: Last update installed
+ja: 最後にインストールされた更新
+en: Installed or last big update
+ja: インストールまたは最後の大型更新
+en: Running since
+ja: 起動日時
+en: {0}  ({1})
+ja: =
+en: 32-bit
+ja: 32 ビット
+en: Build
+ja: ビルド
+en: Version
+ja: バージョン
+en: 64-bit
+ja: 64 ビット
+en: 64-bit, for ARM processors
+ja: 64 ビット、ARM プロセッサ用
+en: Computer name
+ja: コンピューター名
+en: Type
+ja: 種類
+en: BIOS
+ja: =
+en: Motherboard
+ja: マザーボード
+en: Model
+ja: モデル
+en: Read on {0}
+ja: {0} に読み取り
+en: Device details
+ja: デバイスの詳細
+en: Maker
+ja: メーカー
+en: This PC
+ja: この PC
+en: Start-up mode
+ja: 起動モード
+en: Not found, or turned off in the BIOS
+ja: 見つからないか、BIOS でオフになっています
+en: Security chip (TPM)
+ja: セキュリティ チップ (TPM)
+en: TPM {0}, turned off
+ja: TPM {0}、オフ
+en: TPM {0}, on
+ja: TPM {0}、オン
+en: Not available with Legacy BIOS
+ja: Legacy BIOS では使用できません
+en: Secure Boot
+ja: セキュア ブート
+en: Legacy BIOS
+ja: =
+en: Off
+ja: オフ
+en: On
+ja: オン
+en: Soldered on the board
+ja: 基板にはんだ付け
+en: SO-DIMM (laptop size)
+ja: SO-DIMM (ノート PC サイズ)
+en: Installed
+ja: 搭載
+en: Memory (RAM)
+ja: メモリ (RAM)
+en: DIMM (desktop size)
+ja: DIMM (デスクトップ サイズ)
+en: Off in the BIOS
+ja: BIOS でオフ
+en: On in the BIOS
+ja: BIOS でオン
+en: PROCESSOR
+ja: プロセッサ
+en: Socket
+ja: ソケット
+en: {0}  ({1} GB usable by Windows)
+ja: {0}  (Windows で使用可能: {1} GB)
+en: {0}, {1}  ({2} in use, highest {3})
+ja: {0}、{1}  (使用中 {2}、最大 {3})
+en: {0} of {1} used
+ja: {0} / {1} 使用
+en: , size managed by Windows
+ja: 、サイズは Windows が管理
+en: Page file
+ja: ページング ファイル
+en: Memory slots
+ja: メモリ スロット
+en: {0} GB of {1} GB  ({2}%)
+ja: {0} GB / {1} GB  ({2}%)
+en: In use now
+ja: 現在の使用量
+en: Module type
+ja: モジュールの種類
+en: Type and speed
+ja: 種類と速度
+en: WINDOWS
+ja: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+ja: Windows は {0} 日間再起動されていません。高速スタートアップがオンの場合、シャットダウンでは Windows が完全には再起動されないため、ときどき「再起動」を使ってください。更新が完了し、メモリが解放されます。
+en: Processor
+ja: プロセッサ
+en: build {0}
+ja: ビルド {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+ja: Windows は {0} 以降、更新プログラムをインストールしていません。設定 > Windows Update を開いて更新プログラムを確認してください。更新でセキュリティの問題やクラッシュが修正されます。
+en: Region format
+ja: 地域の形式
+en: Display language
+ja: 表示言語
+en: DirectX
+ja: =
+en: Time zone
+ja: タイム ゾーン
+en: Name
+ja: 名前
+en: Busy right now
+ja: 現在の使用率
+en: Cache
+ja: キャッシュ
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+ja: 使用中 (Hyper-V、WSL、Docker、または Windows のセキュリティ機能)
+en: Virtualization
+ja: 仮想化
+en: Base speed
+ja: 基本速度
+en: Cores
+ja: コア
+en: Made by
+ja: 製造元
+en: ({0} processors)
+ja: (プロセッサ {0} 個)
+en: {0} cores, {1} threads
+ja: {0} コア、{1} スレッド
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+ja: (名前のないプログラム)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+ja: ベンダー固有
+en: {0} data errors were found on the SSD.
+ja: SSD で {0} 件のデータ エラーが見つかりました。
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+ja: {0} 個の不良セクターが予備セクターに置き換えられました (代替処理済み)。
+en: The disk itself predicts that it will fail soon. Back up your files now.
+ja: ディスク自体がまもなく故障すると予測しています。今すぐファイルをバックアップしてください。
+en: Failing
+ja: 異常
+en: OK (no limit)
+ja: 正常 (しきい値なし)
+en: {0} sector reallocation events.
+ja: セクターの代替処理が {0} 回発生しました。
+en: The disk needed {0} retries to spin up.
+ja: ディスクの回転開始に {0} 回の再試行が必要でした。
+en: {0} internal data path errors.
+ja: 内部データ パス エラーが {0} 件発生しました。
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+ja: ディスクと PC 間の転送エラーが {0} 件記録されています。通常はケーブルの緩みや不良が原因で、ディスクに害はありません。
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+ja: {0} 個のセクターが不安定で、確認待ちです (保留中)。ファイルのバックアップを取り、この数が増えるかどうか注意してください。
+en: {0} sectors could not be read or fixed (uncorrectable).
+ja: {0} 個のセクターを読み取りも修復もできませんでした (訂正不能)。
+en: {0} read errors the disk could not correct.
+ja: ディスクが訂正できなかった読み取りエラーが {0} 件あります。
+en: Warning flags set
+ja: 警告フラグあり
+en: Hot
+ja: 高温
+en: Below threshold
+ja: しきい値未満
+en: Windows reports a warning for this disk.
+ja: Windows がこのディスクについて警告を報告しています。
+en: Windows reports this disk as unhealthy.
+ja: Windows はこのディスクを異常と報告しています。
+en: OK
+ja: 正常
+en: Near end of rated life
+ja: 定格寿命に近い
+en: The SSD has switched to read-only mode to protect your data.
+ja: データを保護するため、SSD が読み取り専用モードに切り替わりました。
+en: The SSD reports that it has been too hot.
+ja: SSD が高温になりすぎたことを報告しています。
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+ja: SMART 属性 {0} が安全限界を下回っています。今すぐファイルをバックアップしてください。
+en: Watch
+ja: 注意
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+ja: 予備領域が安全なレベルを下回っています (残り {0}%)。今すぐファイルをバックアップしてください。
+en: The SSD reports that its reliability is degraded. Back up your files now.
+ja: SSD が信頼性の低下を報告しています。今すぐファイルをバックアップしてください。
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+ja: 状態のパーセンテージは何を意味しますか?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+ja: ディスク自身の自己監視データ (SMART、または NVMe SSD の正常性ログ) から推定した値です。100% は問題や消耗が見つからなかったことを意味します。Hard Disk Sentinel などのツールに近い値になるよう調整されていますが、ツールごとに計算方法が異なるため、数値が少し違うことがあります。
+en: Why does the Windows folder look so big in Analyze disk?
+ja: 「ディスク分析」で Windows フォルダーがとても大きく見えるのはなぜですか?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+ja: Windows は一部のファイルを同時に 2 か所に保持しているため、サイズを合計すると 2 回数えられます。実際のサイズはもっと小さくなります。Windows フォルダー内のものは絶対に手動で削除しないでください。
+en: My SSD shows less than 100% health. Should I worry?
+ja: SSD の状態が 100% 未満です。心配する必要がありますか?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+ja: ディスクが確実に読み取れなかった小さな領域です。代替処理済みセクターは、すでに予備のセクターに置き換えられています。保留中セクターは確認待ちです。古いディスクでは少しあるのはよくあることです。数が増え続ける場合は、ファイルをバックアップし、ディスクの交換を検討してください。
+en: What temperature is normal for a disk?
+ja: ディスクの正常な温度はどのくらいですか?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+ja: SSD は書き込みのたびに少しずつ消耗し、状態の値は定格書き込み寿命のどれだけを使ったかを示します。多くの SSD は定格を大きく超えても問題なく動作し続けます。バックアップを取っておき、状態の値が低くなったり問題が出たりしたら SSD の交換を計画してください。
+en: What are pending and reallocated sectors?
+ja: 保留中セクターと代替処理済みセクターとは何ですか?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+ja: ブラウザーやアプリを使うとキャッシュがまたたまり、Windows は新しい更新プログラムをダウンロードし、メモリが不足すると Windows はページング ファイルを大きくします。数週間ごとにもう一度クリーンアップし、ストレージ センサーをオンにして、使っていないプログラムを閉じれば、増えすぎを防げます。
+en: Is it safe to clean what this app suggests?
+ja: このアプリが提案する項目をクリーンアップしても安全ですか?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+ja: 「安全にクリーンアップ可能」グループの項目は、プログラムが自動的に再作成するキャッシュと一時ファイルです。「ご自身で判断」の項目は小さなものを削除するので、先に説明を読んでください。「情報のみ」と表示された項目はアプリが削除することはなく、表示して場所を開くだけです。
+en: It never follows folder links into other folders.
+ja: フォルダーのリンクをたどって他のフォルダーに入ることはありません。
+en: Will cleaning my browser cache log me out of websites?
+ja: ブラウザーのキャッシュをクリーンアップすると、Web サイトからログアウトされますか?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+ja: 使用中のファイルはスキップされます。一時ファイルのクリーンアップでは過去 1 日以内のファイルが残ります。また、Windows コンポーネントのクリーンアップは実行中にしか測定できません。下部のログに、削除された内容が正確に表示されます。
+en: Why does my free space go down again after cleaning?
+ja: クリーンアップ後に空き領域がまた減るのはなぜですか?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+ja: いいえ。キャッシュのクリーンアップでは、Cookie、保存されたパスワード、ブックマーク、履歴は残ります。ごくまれにサイトで再ログインを求められることがありますが、ブラウザーが保存されたパスワードを入力します。
+en: Why did I get back less space than the size shown?
+ja: 表示されたサイズより、増えた空き領域が少ないのはなぜですか?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+ja: 「デバイスの詳細」タブを開いてください。Windows の DirectX 診断ツール (dxdiag) と同じ情報に加え、メモリ スロット、ページング ファイル、ディスプレイ、バッテリーの状態も表示されます。サポートしてくれる人に詳細を送るには、「すべてコピー」または「テキスト ファイルとして保存」をクリックします。
+en: Where are my history files saved?
+ja: 履歴ファイルはどこに保存されますか?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+ja: 休止状態では、PC を中断したところから再開できるよう、メモリの一部と同じ大きさのファイルが保持されます。予約済み記憶域は、Windows が更新プログラム用に確保している約 7 GB の領域です。CompactOS は Windows のファイルを圧縮して保存します。それぞれ数 GB を解放でき、あとで元に戻すこともできます。
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+ja: Windows のバージョン、プロセッサ、メモリ、グラフィックスなど、PC の詳細はどこで確認できますか?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+ja: ユーザー フォルダー内の %LOCALAPPDATA%\DiskCleanupHelper です。クリーンアップの履歴、ディスクの状態と温度の履歴、速度テストの結果が保存されています。「バージョン情報」タブと「ディスクの状態」タブから開けます。
+en: How do I uninstall it?
+ja: アンインストールするにはどうすればよいですか?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+ja: 設定 > アプリ > Disk Cleanup Helper > アンインストール、または「バージョン情報」タブの「アンインストール」ボタンを使います。インストールしていない場合は、プログラム ファイルを削除するだけです。
+en: Does the app send any of my data anywhere?
+ja: このアプリはデータをどこかに送信しますか?
+en: What are hibernation, Reserved Storage and CompactOS?
+ja: 休止状態、予約済み記憶域、CompactOS とは何ですか?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+ja: Windows 自体の一時ファイルや更新ファイルのクリーンアップと、ディスクの状態データの読み取りには管理者権限が必要です。「いいえ」をクリックしてもアプリは動作しますが、管理者権限が必要な項目は灰色で表示されます。
+en: Why does Windows say "Windows protected your PC"?
+ja: Windows に「Windows によって PC が保護されました」と表示されるのはなぜですか?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+ja: ハード ディスクは通常 25 ～ 45 °C で動作します。SSD は通常 30 ～ 60 °C で、NVMe SSD は高負荷時に 70 °C に達することがあります。常にこれより高い温度だと、ディスクの寿命が短くなります。
+en: Why does the app ask for admin rights?
+ja: アプリが管理者権限を求めるのはなぜですか?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+ja: Windows は、まだ認識していない新しいプログラムに対してこれを表示します。「詳細情報」をクリックしてから「実行」をクリックしてください。プログラムが署名され、Microsoft に認識されると、この警告は表示されなくなります。
+en: Does the speed test harm my disk?
+ja: 速度テストでディスクが傷みますか?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+ja: いいえ。512 MB ～ 1 GB の一時テスト ファイルを 1 つ書き込み、読み戻してから削除します。通常の 1 日の使用量より少ない量です。
+en: Can I undo a cleanup?
+ja: クリーンアップを元に戻せますか?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+ja: 「クリーンアップ」タブで削除したファイルはごみ箱に移動しないため、復元できません。「ディスク分析」タブからごみ箱に移動したファイルは、ごみ箱を空にするまで復元できます。Windows の設定は元に戻せます。「バージョン情報」タブの「お読みください」を参照してください。
+en: Tidy your Downloads folder
+ja: ダウンロード フォルダーを整理する
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+ja: インストーラーや古いダウンロードがたまっていきます。フォルダーをサイズで並べ替えて、不要になったものを削除してください。
+en: Let cloud files stay in the cloud
+ja: クラウドのファイルはクラウドに置いておく
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+ja: OneDrive では、フォルダーを右クリックして「空き容量を増やす」を選びます。ファイルは表示されたままで、開いたときだけダウンロードされます。
+en: Close programs you are not using
+ja: 使っていないプログラムを閉じる
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+ja: 再起動するとメモリがクリアされ、更新が完了し、Windows がページング ファイルを通常のサイズに戻せます。
+en: Turn off apps you do not need at startup
+ja: 不要なスタートアップ アプリをオフにする
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+ja: メモリが不足すると、Windows はページング ファイルを大きくします。これによりディスク領域が使われ、プログラムがクラッシュすることもあります。
+en: Restart your PC now and then
+ja: ときどき PC を再起動する
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+ja: ビデオ、写真、古いダウンロードは、別のドライブ、外付けディスク、クラウド ストレージに保存できます。
+en: Empty the Recycle Bin
+ja: ごみ箱を空にする
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+ja: 削除したファイルは、ごみ箱を空にするまで領域を使い続けます。ときどき確認してください。
+en: Turn on Storage Sense
+ja: ストレージ センサーをオンにする
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+ja: Windows は一時ファイルやごみ箱の古い項目を自動的に削除できます。設定 > システム > ストレージ > ストレージ センサー。
+en: Uninstall what you no longer use
+ja: 使わなくなったものをアンインストールする
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+ja: Windows ドライブがほぼいっぱいになると、Windows が遅くなり、更新プログラムのインストールに失敗することがあります。
+en: Move big personal files
+ja: 大きな個人用ファイルを移動する
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+ja: 古いゲームやプログラムが最も多くの領域を使っていることがよくあります。設定 > アプリ を開き、一覧をサイズで並べ替えてください。
+en: Keep 10 to 15 percent free
+ja: 10 ～ 15% の空きを保つ
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+ja: Windows、WinSxS、Installer などのフォルダーを手動でクリーンアップすると、Windows が壊れます。代わりに「クリーンアップ」タブを使ってください。
+en: Nothing is deleted until you select it and confirm.
+ja: 選択して確認するまで、何も削除されません。
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+ja: ディスクは前触れなく故障することがあります。重要なファイルのコピーを別のドライブやクラウドに保存しておいてください。
+en: Never delete Windows files by hand
+ja: Windows のファイルは絶対に手動で削除しない
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+ja: クリーンアップ項目が対象とするのは、キャッシュ、一時ファイル、古い更新ファイルだけです。ドキュメント、写真、音楽、ビデオ、デスクトップ、ダウンロードが自動的にクリーンアップされることはありません。
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+ja: 測定、スキャン、クリーンアップの前に PC のメモリが不足している場合は警告します。
+en: Windows and program files are protected in the Analyze disk tab.
+ja: 「ディスク分析」タブでは、Windows とプログラムのファイルは保護されています。
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+ja: ブラウザーとアプリのキャッシュを削除しても、パスワード、ブックマーク、履歴、ログイン情報は残ります。
+en: It asks you to close a browser or app before cleaning its cache.
+ja: ブラウザーやアプリのキャッシュをクリーンアップする前に、そのブラウザーやアプリを閉じるよう求めます。
+en: Back up what matters
+ja: 大切なものをバックアップする
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+ja: SSD には必要ありません。Windows の「ドライブの最適化」は違いを判別するので、自動スケジュールのままにしておいてください。
+en: Check disk health once a month
+ja: 月に 1 回ディスクの状態を確認する
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+ja: Windows と一緒に起動するアプリが少ないほど、起動が速くなり、空きメモリが増えます。タスク マネージャー > スタートアップ アプリ。
+en: Do not defragment an SSD
+ja: SSD をデフラグしない
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+ja: 「ディスクの状態」タブを開いてください。開くたびに測定値が保存されるので、何か変化があれば履歴グラフでわかります。
+en: Keep your PC cool
+ja: PC を涼しく保つ
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+ja: 熱はディスクの寿命を縮めます。ハード ディスクは約 50 °C 未満、SSD は約 70 °C 未満に保つのが理想です。通気口をきれいにしておいてください。
+en: Watch for growing bad sectors
+ja: 増え続ける不良セクターに注意する
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+ja: 代替処理済みセクターや保留中セクターが少しあるのはよくあることです。数が増え続ける場合は、バックアップを取り、ディスクの交換を計画してください。
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+ja: インストールに失敗しました:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+ja: この PC から Disk Cleanup Helper を削除しますか?<br><br>クリーンアップの履歴は次の場所に残ります:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+ja: Disk Cleanup Helper をこの PC から削除しました。
+en: Free up disk space safely
+ja: ディスク領域を安全に解放します
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+ja: プログラムをコピーできませんでした。インストール済みの Disk Cleanup Helper が開いている場合は、先に閉じてからもう一度お試しください。<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+ja: Disk Cleanup Helper がインストールされました。<br><br>スタート メニュー、または Disk Cleanup Helper という名前のデスクトップ ショートカットから開いてください。<br><br>あとで削除するには: 設定 > アプリ > Disk Cleanup Helper > アンインストール。
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+ja: 表示されているサイズは、Windows ドライブのごみ箱のサイズです。
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+ja: すべてのドライブのごみ箱を空にします。中のものはすべて復元できなくなります。
+en: $Recycle.Bin on every drive
+ja: すべてのドライブの $Recycle.Bin
+en: Turn off hibernation
+ja: 休止状態をオフにする
+en: Sleep still works normally.
+ja: スリープは通常どおり使えます。
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+ja: 休止状態ファイル (多くの場合数 GB) を削除します。休止状態と高速スタートアップが使えなくなるため、PC の起動が数秒遅くなります。
+en: PC starts a few seconds slower
+ja: PC の起動が数秒遅くなる
+en: Files in it are gone for good
+ja: 中のファイルは完全に失われる
+en: Crash dump files
+ja: クラッシュ ダンプ ファイル
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+ja: 設定とプロジェクトは残ります。次にプロジェクトを開いたときに IDE が再インデックスを作成します。先に JetBrains IDE を閉じてください。
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+ja: IntelliJ IDEA、PyCharm、WebStorm、Rider などの JetBrains IDE のキャッシュです。
+en: Only needed to investigate crashes
+ja: クラッシュの調査にのみ必要
+en: Recycle Bin (all drives)
+ja: ごみ箱 (すべてのドライブ)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+ja: PC がクラッシュする原因を誰かが調査している場合は残してください。それ以外の場合は削除しても安全です。
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+ja: ブルー スクリーンやグラフィックス ドライバーの問題の後に Windows が書き込むファイルです。MEMORY.DMP だけでも数 GB になることがあります。
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+ja: あとで元に戻すには、管理者として開いたコマンド プロンプトで次を実行します:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+ja: オフにするとその領域が戻りますが、ディスクがいっぱいになると Windows の更新に失敗することがあります。十分な空き領域を確保できる場合にのみ行ってください。
+en: Windows keeps about 7 GB aside so updates always have room to install.
+ja: Windows は、更新プログラムを常にインストールできるよう、約 7 GB を確保しています。
+en: already off
+ja: すでにオフ
+en: about 2-4 GB
+ja: 約 2-4 GB
+en: Windows setting (Reserved Storage)
+ja: Windows の設定 (予約済み記憶域)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+ja: あとで元に戻すには、管理者として開いたコマンド プロンプトで次を実行します:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+ja: hiberfil.sys は Windows の隠しファイルです。開くものはありません。
+en: Updates may fail when the disk is full
+ja: ディスクがいっぱいだと更新に失敗することがある
+en: Turn off Reserved Storage
+ja: 予約済み記憶域をオフにする
+en: about 7 GB
+ja: 約 7 GB
+en: IDE re-indexes your projects
+ja: IDE がプロジェクトを再インデックスする
+en: Spotify cache and downloads
+ja: Spotify のキャッシュとダウンロード
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+ja: 同じフォルダーにある state.vscdb には、チャット、ログイン情報、設定が保存されています。このツールがこれに触れることはありません。
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+ja: Cursor の AI エージェントの作業データです。古いエージェントのチャット履歴が含まれている場合があります。
+en: Downloaded songs must be downloaded again
+ja: ダウンロードした曲は再ダウンロードが必要
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+ja: アカウントとプレイリストはそのまま残りますが、オフライン再生用にダウンロードした曲は再ダウンロードが必要です。
+en: Spotify keeps played and downloaded music here.
+ja: Spotify は再生した音楽とダウンロードした音楽をここに保存します。
+en: {0} and Data
+ja: {0} と Data
+en: May hold old agent chat history
+ja: 古いエージェントのチャット履歴を含む場合がある
+en: Cursor: AI agent snapshots
+ja: Cursor: AI エージェントのスナップショット
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+ja: 60 日間変更されていないフォルダーだけが削除されます。プロジェクト ファイル自体には一切触れません。
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+ja: 各フォルダーには、VS Code が 1 つのプロジェクトについて記憶している内容 (開いているタブ、レイアウト、そのプロジェクトの AI チャット履歴) が保存されています。
+en: Cannot undo older AI edits
+ja: 古い AI の編集を元に戻せなくなる
+en: Cursor: AI agent data
+ja: Cursor: AI エージェントのデータ
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+ja: 古い AI の変更をロールバックできなくなります。エージェントをもう一度使うと、Cursor が新しいコピーを作成します。
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+ja: Cursor の AI エージェントが編集を元に戻すために使う、プロジェクトのコピーです。
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+ja: 次回のビルドではインターネット接続が必要で、Gradle が再ダウンロードするため時間がかかります。先に Android Studio などの Java IDE を閉じてください。
+en: Downloaded libraries and build files for Java and Android projects.
+ja: Java と Android のプロジェクト用にダウンロードされたライブラリとビルド ファイルです。
+en: Next build downloads everything again
+ja: 次回のビルドですべて再ダウンロード
+en: Maven repository
+ja: Maven リポジトリ
+en: JetBrains IDE caches and logs
+ja: JetBrains IDE のキャッシュとログ
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+ja: 次回のビルドではインターネット接続が必要で、Maven が再ダウンロードするため時間がかかります。「mvn install」で自分でインストールしたライブラリは、再インストールが必要になります。
+en: Downloaded Java libraries.
+ja: ダウンロードされた Java ライブラリです。
+en: Gradle caches
+ja: Gradle のキャッシュ
+en: Adobe media cache (Premiere, After Effects)
+ja: Adobe メディア キャッシュ (Premiere、After Effects)
+en: Close Spotify first.
+ja: 先に Spotify を閉じてください。
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+ja: ヒント: Spotify の設定で、キャッシュ サイズを小さくしたり、別のドライブに移動したりすることもできます。
+en: Video previews are rebuilt
+ja: ビデオのプレビューが再作成される
+en: Close Adobe apps first.
+ja: 先に Adobe アプリを閉じてください。
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+ja: プロジェクトとビデオには触れません。その後初めてプロジェクトを開くときは、プレビューが再作成されるため時間がかかります。
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+ja: Adobe のビデオ アプリが作成するプレビュー ファイルとオーディオ ファイルです。何 GB にもなることがあります。
+en: Compress Windows files (CompactOS)
+ja: Windows のファイルを圧縮する (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+ja: 低速なハード ディスクでは Docker の動作が遅くなります。
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+ja: このドライブの領域を空けるには、移動してください: Docker Desktop > Settings (歯車) > Resources > Advanced > Disk image location > 別のドライブのフォルダーを選択 > Apply & restart。
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+ja: 「docker volume prune」と「docker system prune --volumes」には注意してください。ボリュームが削除されます。ボリュームにはデータベースが含まれている場合があります。
+en: Linux (WSL) disks
+ja: Linux (WSL) ディスク
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+ja: 使っていないものがある場合: 設定 > アプリ > 該当するものを探す > アンインストール。中のものがすべて削除されます。
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+ja: 各 WSL Linux システム (Ubuntu など) は、すべてのファイルを 1 つのディスク ファイルに保存しています。
+en: Disk files of your WSL Linux systems
+ja: WSL Linux システムのディスク ファイル
+en: Holds all Docker containers, images and volumes. Never delete this file.
+ja: Docker のすべてのコンテナー、イメージ、ボリュームが含まれています。このファイルは絶対に削除しないでください。
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+ja: 領域を空けるには: 「場所を開く」> ドライブを選択 > 構成 > 「最大使用量」のスライダーを下げるか、「削除」をクリックしてすべて削除します。
+en: Restore points let you undo system changes. Windows can use several GB for them.
+ja: 復元ポイントを使うと、システムの変更を元に戻せます。Windows はこれに数 GB を使うことがあります。
+en: System Properties > System Protection
+ja: システムのプロパティ > システムの保護
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+ja: 最新のものだけを残すには: ディスク クリーンアップ (cleanmgr) > システム ファイルのクリーンアップ > その他のオプション > システムの復元とシャドウ コピー > クリーンアップ。
+en: Can be moved to another drive
+ja: 別のドライブに移動可能
+en: Docker disk (do not delete)
+ja: Docker ディスク (削除しないでください)
+en: Keep at least one recent restore point if you can.
+ja: できれば、最近の復元ポイントを少なくとも 1 つ残してください。
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+ja: - pagefile.sys と swapfile.sys: ディスク上にある Windows の追加メモリです。これが足りないと、メモリが不足したときにプログラムがクラッシュします。
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+ja: pagefile.sys、swapfile.sys、Windows Installer フォルダーと WinSxS フォルダー
+en: Never delete by hand
+ja: 絶対に手動で削除しない
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+ja: - Windows Installer フォルダー: ファイルは「古い更新ファイル」項目でのみ削除し、絶対に手動で削除しないでください。
+en: ({0} files)
+ja: ({0} 個のファイル)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+ja: - 使っているアプリのフォルダー (大きくても)。削除すると、アプリが壊れたりデータが失われたりすることがあります。
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+ja: - WinSxS フォルダー: 「Windows コンポーネント」の項目でのみクリーンアップし、絶対に手動では行わないでください。
+en: Leave these alone
+ja: これらには触れないでください
+en: Your Downloads folder
+ja: ダウンロード フォルダー
+en: If that command is not recognised, run  wsl --update  first.
+ja: このコマンドが認識されない場合は、先に  wsl --update  を実行してください。
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+ja: 別のドライブに移動するには、コマンド プロンプトで次を実行します:  wsl --shutdown   次に   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+ja: ご自身のファイル: ご自身で判断
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+ja: ヒント: 「ディスク分析」タブには、どこにあるかに関係なく最も大きいファイルが一覧表示されます。
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+ja: フォルダーを開いてサイズで並べ替え (表示 > 詳細 を選び、「サイズ」列をクリック)、不要になったものを削除してください。
+en: Files you downloaded. This tool never deletes them here.
+ja: ダウンロードしたファイルです。このツールがここでファイルを削除することはありません。
+en: Keep at least the newest one
+ja: 少なくとも最新のものは残す
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+ja: ストレージ センサーは Windows に組み込まれている機能です。一時ファイルやごみ箱の古い項目を自動的に削除するので、空き領域が保たれます。
+en: Settings > System > Storage
+ja: 設定 > システム > ストレージ
+en: Cleans temp files automatically
+ja: 一時ファイルを自動的にクリーンアップ
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+ja: 「場所を開く」でストレージ センサーの設定が開きます。そこでオンにしてください。
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+ja: Windows のアップグレード後に残ったものです。一定期間は以前のバージョンに戻すことができ、多くの場合 10 ～ 30 GB あります。
+en: Remove with Windows' own tool
+ja: Windows 自体のツールで削除
+en: Previous Windows installation
+ja: 以前の Windows のインストール
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+ja: Windows のシステム ファイルを圧縮して保存する、Microsoft 自身の機能です。通常 2 ～ 4 GB 解放されます。
+en: Windows system files on {0}
+ja: {0} の Windows システム ファイル
+en: Built into Windows. Slight CPU cost
+ja: Windows に組み込み。CPU の負荷がわずかに増える
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+ja: 非常に遅い PC や古い PC では、Windows が少し遅くなることがあります。ほとんどの PC では気づかない程度です。
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+ja: 専用のウィンドウで実行中です。10 ～ 20 分かかることがあります。そのウィンドウを閉じないでください。
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+ja: あとで元に戻すには、管理者として開いたコマンド プロンプトで次を実行します:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+ja: 専用のウィンドウで実行され、10 ～ 20 分かかることがあります。Windows がすでに圧縮されている場合は、すぐに終わります。
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+ja: {0} の最も大きいプログラム (Windows 自体によるサイズの推定値。「?」= インストール フォルダーが記録されていない):
+en: Programs only come off by uninstalling them in Settings > Apps.
+ja: プログラムは、設定 > アプリ でアンインストールしないと削除できません。
+en: "Open location" opens Apps & features.
+ja: 「場所を開く」で「アプリと機能」が開きます。
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+ja: 他のドライブにインストールされている {0} 個のプログラムは表示されていません。削除しても {1} の領域は空きません。
+en: System Restore points
+ja: システムの復元ポイント
+en: "{0}" is discontinued and no longer needed.
+ja: 「{0}」は提供が終了しており、もう必要ありません。
+en: You have {0} Java versions installed. Most people only need the newest one.
+ja: Java のバージョンが {0} 個インストールされています。ほとんどの人は最新のものだけで十分です。
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+ja: プログラムは、設定 > アプリ でアンインストールしないと削除できません。「サイズを測定」をクリックすると、最も大きいプログラムがここに一覧表示されます。
+en: "Open location" opens the Storage settings.
+ja: 「場所を開く」でストレージの設定が開きます。
+en: After that you can no longer go back to the previous Windows version.
+ja: その後は、以前の Windows のバージョンに戻せなくなります。
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+ja: Windows 自体を使って削除します: 設定 > システム > ストレージ > 一時ファイル > 「以前の Windows のインストール」にチェックを入れる > ファイルの削除。
+en: see details
+ja: 詳細を参照
+en: Settings > Apps > Apps & features
+ja: 設定 > アプリ > アプリと機能
+en: Uninstall the ones you do not use
+ja: 使っていないものをアンインストール
+en: Biggest installed programs
+ja: インストール済みの最も大きいプログラム
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+ja: ゲームやアプリの起動を速くするために、Windows とグラフィックス カードのドライバーが保存するシェーダー ファイルです。
+en: {0} and similar
+ja: {0} など
+en: Games may stutter once while they rebuild
+ja: 再作成中にゲームが 1 回カクつくことがある
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+ja: 自動的に再作成されます。その後初めてゲームを起動するときに、少しカクつくことがあります。
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+ja: プログラムが残した一時ファイルです。1 日以上前のファイルだけが削除されるので、実行中のインストールに影響はありません。
+en: Files in use are skipped
+ja: 使用中のファイルはスキップ
+en: Your temp files (older than 1 day)
+ja: ユーザーの一時ファイル (1 日以上前)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+ja: グラフィックス キャッシュ (DirectX、NVIDIA、AMD、Intel)
+en: Deletes only Discord's cache folders.
+ja: Discord のキャッシュ フォルダーだけを削除します。
+en: Keeps login and messages
+ja: ログイン情報とメッセージは残る
+en: Discord cache
+ja: Discord のキャッシュ
+en: Close Discord first, including its icon near the clock.
+ja: 時計の近くにあるアイコンも含め、先に Discord を閉じてください。
+en: Close Slack first, including its icon near the clock.
+ja: 時計の近くにあるアイコンも含め、先に Slack を閉じてください。
+en: Deletes only Slack's cache folders.
+ja: Slack のキャッシュ フォルダーだけを削除します。
+en: Slack cache
+ja: Slack のキャッシュ
+en: Old problem reports
+ja: 古い問題レポート
+en: Windows error reports
+ja: Windows エラー報告
+en: The Windows Update service is stopped for a moment and started again.
+ja: Windows Update サービスをいったん停止してから、再開します。
+en: {0} and your own WER folder
+ja: {0} とユーザー自身の WER フォルダー
+en: Recent logs are kept
+ja: 最近のログは残る
+en: Old Windows log files (older than 14 days)
+ja: 古い Windows ログ ファイル (14 日以上前)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+ja: クラッシュしたプログラムについて Windows が保存したレポートです。送信後や問題が解決した後は必要ありません。
+en: If an update is still waiting to install, Windows downloads it again.
+ja: インストール待ちの更新プログラムがある場合、Windows はそれを再ダウンロードします。
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+ja: Windows やインストーラーが残した一時ファイルです。1 日以上前のファイルだけが削除されます。
+en: Windows temp files (older than 1 day)
+ja: Windows の一時ファイル (1 日以上前)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+ja: 表示されているサイズはフォルダー全体のサイズです。最新のファイルは残るため、解放される量は少し少なくなることがあります。
+en: Windows Update downloads
+ja: Windows Update のダウンロード
+en: Update files Windows already downloaded. Installed updates are not affected.
+ja: Windows がすでにダウンロードした更新ファイルです。インストール済みの更新プログラムには影響しません。
+en: {0} and the Delivery Optimization cache
+ja: {0} と配信の最適化のキャッシュ
+en: Installed updates are not affected
+ja: インストール済みの更新プログラムに影響なし
+en: Close Teams first, including its icon near the clock.
+ja: 時計の近くにあるアイコンも含め、先に Teams を閉じてください。
+en: Keeps passwords, favorites, logins
+ja: パスワード、お気に入り、ログイン情報は残る
+en: Microsoft Edge cache
+ja: Microsoft Edge のキャッシュ
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+ja: 先に Chrome のウィンドウをすべて閉じてください。時計の近くに Chrome のアイコンがある場合は、右クリックして「終了」を選びます。
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+ja: すべてのプロファイルにある Edge のキャッシュ フォルダーと、そのグラフィックス キャッシュだけを削除します。
+en: Deletes only Brave's cache folders in every profile.
+ja: すべてのプロファイルにある Brave のキャッシュ フォルダーだけを削除します。
+en: Brave cache
+ja: Brave のキャッシュ
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+ja: Edge はバックグラウンドで実行され続けることがよくあります。まだ実行中とツールに表示される場合は、Edge で 設定 > システムとパフォーマンス > 「スタートアップ ブースト」と「バックグラウンドの拡張機能とアプリの実行を続行する」をオフにしてください。
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+ja: すべてのプロファイルにある Chrome のキャッシュ フォルダーと、そのグラフィックス キャッシュだけを削除します。
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+ja: 残るもの: パスワード、ブックマーク、履歴、Cookie とサイトのログイン情報、自動入力、拡張機能、設定、インストール済みの Web アプリ。
+en: Could not stop {0}: {1}
+ja: {0} を停止できませんでした: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+ja: 最初はページの読み込みが少し遅くなります。ごくまれにサイトで再ログインを求められることがありますが、ブラウザーが保存されたパスワードを入力します。
+en: Keeps passwords, bookmarks, logins
+ja: パスワード、ブックマーク、ログイン情報は残る
+en: Google Chrome cache
+ja: Google Chrome のキャッシュ
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+ja: 残るもの: ログイン情報、メッセージ、設定、ファイル。アプリは必要なものを再ダウンロードします。
+en: Close Opera first.
+ja: 先に Opera を閉じてください。
+en: Deletes only Opera's cache folder.
+ja: Opera のキャッシュ フォルダーだけを削除します。
+en: {0} (and Opera GX)
+ja: {0} (および Opera GX)
+en: Microsoft Teams cache
+ja: Microsoft Teams のキャッシュ
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+ja: Teams のキャッシュ フォルダーだけを削除します。Teams の動作が遅いときやおかしいときに、Microsoft が推奨している方法です。
+en: Teams cache folders (new Teams and classic Teams)
+ja: Teams のキャッシュ フォルダー (新しい Teams とクラシック Teams)
+en: Keeps login, chats, files
+ja: ログイン情報、チャット、ファイルは残る
+en: Opera cache
+ja: Opera のキャッシュ
+en: Deletes only Vivaldi's cache folders in every profile.
+ja: すべてのプロファイルにある Vivaldi のキャッシュ フォルダーだけを削除します。
+en: Vivaldi cache
+ja: Vivaldi のキャッシュ
+en: Close Brave first.
+ja: 先に Brave を閉じてください。
+en: Close Vivaldi first.
+ja: 先に Vivaldi を閉じてください。
+en: Close Firefox first.
+ja: 先に Firefox を閉じてください。
+en: Deletes only Firefox's cache folder in every profile.
+ja: すべてのプロファイルにある Firefox のキャッシュ フォルダーだけを削除します。
+en: Firefox cache
+ja: Firefox のキャッシュ
+en: {0} and {1}
+ja: {0} と {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+ja: 空にしても安全です。Windows がこれを必要とするのは、個別の更新プログラムを単独でアンインストールする場合だけです。
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+ja: 元のインストーラーがなくても、あとで個々のプログラムの更新を削除できるように Windows が保持しているバックアップ コピーです。
+en: Low risk
+ja: リスクは低い
+en: when run
+ja: 実行時
+en: {0} (Microsoft DISM tool)
+ja: {0} (Microsoft DISM ツール)
+en: Safe, often frees little
+ja: 安全。解放量は少ないことが多い
+en: Windows components: normal cleanup
+ja: Windows コンポーネント: 通常のクリーンアップ
+en: Windows patch backup cache
+ja: Windows パッチのバックアップ キャッシュ
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+ja: 削除したファイルは deleted-update-files.csv に記録されます (フォルダーは「バージョン情報」タブを参照)。
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+ja: Windows が新しい更新プログラムに置き換えられたと記録している更新ファイルだけを削除します。プログラムごとに最新の 3 個を残し、使用中のファイルは決して削除しません。
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+ja: インストールしたすべての更新を保持し続けるプログラムがあります。代表的なのは Adobe Acrobat Reader で、更新 1 回あたり 0.1 ～ 0.7 GB です。
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+ja: 小さなリスク: 今後そのプログラムの更新や修復でファイルが見つからないというエラーが出た場合は、そのプログラムをアンインストールしてから再インストールしてください。
+en: Found on this PC: nothing to remove.
+ja: この PC で見つかったもの: 削除するものはありません。
+en: Found on this PC:
+ja: この PC で見つかったもの:
+en: Never delete files in the Windows Installer folder by hand.
+ja: Windows Installer フォルダー内のファイルは絶対に手動で削除しないでください。
+en: If you tick both Windows components items, only this one runs.
+ja: 「Windows コンポーネント」の項目を両方チェックした場合は、こちらだけが実行されます。
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+ja: 実行後は、現在インストールされている Windows の更新プログラムをアンインストールできなくなります。Windows が正常に動作しているときにのみ使ってください。
+en: Same as the normal cleanup, but also removes every replaced version.
+ja: 通常のクリーンアップと同じですが、置き換えられたすべてのバージョンも削除します。
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+ja: 専用のウィンドウで実行され、5 ～ 30 分かかります。そのウィンドウを閉じたり、PC の電源を切ったりしないでください。
+en: {0} (folders unused for 60+ days)
+ja: {0} (60 日以上使われていないフォルダー)
+en: Lose old projects' tabs, layout, AI chats
+ja: 古いプロジェクトのタブ、レイアウト、AI チャットが失われる
+en: VS Code: data of projects not opened in 60 days
+ja: VS Code: 60 日間開いていないプロジェクトのデータ
+en: {0} (Microsoft DISM tool, /ResetBase)
+ja: {0} (Microsoft DISM ツール、/ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+ja: Windows が数週間ごとに自動的に行っているため、解放される量はごくわずかなことが多いです。
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+ja: 専用のウィンドウで実行され、5 ～ 30 分かかります。そのウィンドウを閉じたり、PC の電源を切ったりしないでください。ノート PC では充電器を接続してください。
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+ja: Microsoft 自身による、Windows の構成要素の古いバージョンのクリーンアップです。安全です。
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+ja: WinSxS 内のものは絶対に手動で削除しないでください。Windows が壊れます。
+en: Installed updates cannot be uninstalled after
+ja: 実行後はインストール済みの更新をアンインストールできない
+en: Windows components: deep cleanup
+ja: Windows コンポーネント: 徹底クリーンアップ
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+ja: 専用のウィンドウで実行中です。5 ～ 30 分かかることがあります。そのウィンドウを閉じないでください。
+en: {0} (files picked from Windows' own records)
+ja: {0} (Windows 自体の記録から選んだファイル)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+ja: ダウンロードされた .NET パッケージです。必要なときに NuGet が再ダウンロードします。
+en: NuGet download cache
+ja: NuGet のダウンロード キャッシュ
+en: Downloaded Python packages. pip downloads them again when needed.
+ja: ダウンロードされた Python パッケージです。必要なときに pip が再ダウンロードします。
+en: Go build cache
+ja: Go のビルド キャッシュ
+en: Composer cache
+ja: Composer のキャッシュ
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+ja: ビルドを速くするために Go 言語が保持しているコンパイル済みファイルです。次回のビルドで Go が再作成します。
+en: Rebuilt on the next build
+ja: 次回のビルドで再作成
+en: pip cache
+ja: pip のキャッシュ
+en: npm cache
+ja: npm のキャッシュ
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+ja: 14 日以上前のファイルだけが削除されます。何か修正が必要になったときのために、最近のログは残ります。
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+ja: 更新プログラムのインストール中に Windows が書き込むログ ファイルです。PC によっては数 GB になります。
+en: Packages download again when needed
+ja: パッケージは必要なときに再ダウンロード
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+ja: ダウンロードされた Yarn パッケージです (Node.js 開発者向け)。必要なときに Yarn が再ダウンロードします。
+en: Yarn cache
+ja: Yarn のキャッシュ
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+ja: ダウンロードされた npm パッケージです (Node.js 開発者向け)。次にプロジェクトで必要になったときに npm が再ダウンロードします。
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+ja: Cursor のキャッシュ フォルダーとクラッシュ レポートです。Cursor が再作成します。
+en: Keeps settings, chats, login
+ja: 設定、チャット、ログイン情報は残る
+en: Cursor cache and crash reports
+ja: Cursor のキャッシュとクラッシュ レポート
+en: KEEPS: settings, chats, login and projects.
+ja: 残るもの: 設定、チャット、ログイン情報、プロジェクト。
+en: Programs stay installed. Small risk
+ja: プログラムはインストールされたまま。小さなリスクあり
+en: Old update files of installed programs (keeps newest 3)
+ja: インストール済みプログラムの古い更新ファイル (最新 3 個を保持)
+en: Close Cursor first.
+ja: 先に Cursor を閉じてください。
+en: Close VS Code first.
+ja: 先に VS Code を閉じてください。
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+ja: ダウンロードされた Rust パッケージです。必要なときに Cargo が再ダウンロードします。
+en: Cargo download cache
+ja: Cargo のダウンロード キャッシュ
+en: Downloaded PHP packages. Composer downloads them again when needed.
+ja: ダウンロードされた PHP パッケージです。必要なときに Composer が再ダウンロードします。
+en: VS Code cache and crash reports
+ja: VS Code のキャッシュとクラッシュ レポート
+en: KEEPS: settings, extensions, projects, project history and chats.
+ja: 残るもの: 設定、拡張機能、プロジェクト、プロジェクトの履歴、チャット。
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+ja: Visual Studio Code のキャッシュ フォルダーとクラッシュ レポートです。VS Code が再作成します。
+en: Keeps settings, extensions, projects
+ja: 設定、拡張機能、プロジェクトは残る
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+ja: 概要
+en: Transfer rate MB/s   (blue = read, orange = write)
+ja: 転送速度 MB/s   (青 = 読み取り、オレンジ = 書き込み)
+en: Disk activity %
+ja: ディスク アクティビティ %
+en: Average transfer rate (since this tab opened)
+ja: 平均転送速度 (このタブを開いてから)
+en: Read since Windows started
+ja: Windows の起動後の読み取り量
+en: Average disk activity
+ja: 平均ディスク アクティビティ
+en: Highest transfer rate seen
+ja: これまでの最高転送速度
+en: now
+ja: 現在
+en: READ
+ja: 読み取り
+en: Right now
+ja: 現在
+en: Saved today's disk health and temperature reading to the history.
+ja: 今日のディスクの状態と温度の測定値を履歴に保存しました。
+en: WRITE
+ja: 書き込み
+en: 2 minutes ago
+ja: 2 分前
+en: DISK ACTIVITY
+ja: ディスク アクティビティ
+en: TOTAL TRANSFER
+ja: 合計転送量
+en: Written since Windows started
+ja: Windows の起動後の書き込み量
+en: This disk has no drive letter, so the speed test cannot write its test file.
+ja: このディスクにはドライブ文字がないため、速度テストでテスト ファイルを書き込めません。
+en: Pick a disk first.
+ja: 先にディスクを選んでください。
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+ja: 前回のテスト ({0}): 書き込み {1} MB/s、読み取り {2} MB/s、ランダム 4K 読み取り {3} MB/s。
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+ja: 速度テストには、ドライブ {0} に 2 GB 以上の空き領域が必要です。
+en: Speed test started on drive {0}.
+ja: ドライブ {0} で速度テストを開始しました。
+en: Running...
+ja: 実行中...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+ja: 速度テストでは、ドライブ {1} に {0} MB のテスト ファイルを書き込み、読み戻してから削除します。<br>所要時間は約 10 ～ 60 秒です。その間、他のプログラムが遅く感じられることがあります。<br><br>速度テストを開始しますか?
+en: not reported by this disk
+ja: このディスクからは報告されません
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+ja: ディスクの実際の書き込み速度と読み取り速度を測定します。一時テスト ファイルを書き込んで読み戻し、小さなランダムな部分を読み取ってから、ファイルを削除します。上部の「速度テストを実行」をクリックしてください。
+en: Speed test
+ja: 速度テスト
+en: Written over the disk's whole life
+ja: ディスクの使用開始以来の書き込み量
+en: Not run yet.
+ja: まだ実行していません。
+en: Disk {0}: {1}
+ja: ディスク {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+ja: この PC では Windows のディスク アクティビティ カウンターを使用できません: {0}
+en: Getting disk activity ready...
+ja: ディスク アクティビティを準備しています...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+ja: 初回は、Windows がディスク アクティビティ カウンターを開始するまで数秒かかることがあります。
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+ja: 参考: ノート PC のハード ディスクは約 80 ～ 140 MB/s、SATA SSD は約 500 MB/s、NVMe SSD は 1,500 ～ 7,000 MB/s です。
+en: Raw value
+ja: 生の値
+en: Unexpected power losses
+ja: 予期しない電源断
+en: Spare space left
+ja: 残りの予備領域
+en: Rated write life used
+ja: 定格書き込み寿命の使用量
+en: ✓ No problems found.
+ja: ✓ 問題は見つかりませんでした。
+en: From Windows' storage information.
+ja: Windows のストレージ情報から取得。
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+ja: SSD 自身の正常性ログ (NVMe) から読み取りました。全項目は「SMART の詳細」タブにあります。
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+ja: ディスク自身の自己監視データ (SMART) から読み取りました。全項目は「SMART の詳細」タブにあります。
+en: Data read over its life
+ja: 使用開始以来の読み取り量
+en: Powered on
+ja: 電源オン時間
+en: TEMPERATURE
+ja: 温度
+en: needs admin
+ja: 管理者権限が必要
+en: {0} hours  (about {1} days)
+ja: {0} 時間  (約 {1} 日)
+en: Data written over its life
+ja: 使用開始以来の書き込み量
+en: {0} times
+ja: {0} 回
+en: Turned on
+ja: 電源投入回数
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+ja: このディスクは詳しい状態データを Windows に提供していません (USB 外付けケースや RAID ではよくあります)。
+en: No.
+ja: 番号
+en: Status
+ja: 状態
+en: Value
+ja: 現在値
+en: Attribute
+ja: 属性
+en: Data
+ja: データ
+en: Worst
+ja: 最悪値
+en: Threshold
+ja: しきい値
+en: Item
+ja: 項目
+en: Temperature history
+ja: 温度の履歴
+en: Health history
+ja: 状態の履歴
+en: Start the tool with admin rights to read health and temperature.
+ja: 状態と温度を読み取るには、管理者権限でツールを起動してください。
+en: No readings saved yet.
+ja: まだ測定値が保存されていません。
+en: Offset
+ja: オフセット
+en: {0} readings since {1}.
+ja: {1} 以降の測定値は {0} 件です。
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+ja: これまでの測定値は 1 件です ({0})。測定値が保存されるにつれてグラフが伸びていきます。
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+ja: 書き込み {0:N0} MB/s     読み取り {1:N0} MB/s     ランダム 4K 読み取り {2:N1} MB/s (毎秒 {3:N0} 回)
+en: This item has no folder to open.
+ja: この項目には開くフォルダーがありません。
+en: Stopping...
+ja: 停止しています...
+en: Could not open the read me: {0}
+ja: 「お読みください」を開けませんでした: {0}
+en: Pick a drive first.
+ja: 先にドライブを選んでください。
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+ja: これには管理者権限が必要です。ツールをもう一度起動し、Windows の確認画面で「はい」をクリックしてください。
+en: Select a file in the list first.
+ja: 先に一覧でファイルを選んでください。
+en: Scan a drive first.
+ja: 先にドライブをスキャンしてください。
+en: No questions match your search.
+ja: 検索に一致する質問はありません。
+en: Simple habits that keep your disk from filling up and your PC running well.
+ja: ディスクがいっぱいにならず、PC が快適に動き続けるための簡単な習慣です。
+en: Tips
+ja: ヒント
+en: SAFETY
+ja: 安全性
+en: How Disk Cleanup Helper keeps you safe
+ja: Disk Cleanup Helper の安全対策
+en: Search the questions, for example "temperature"
+ja: 質問を検索 (例: 「温度」)
+en: Click a question to see the answer.
+ja: 質問をクリックすると答えが表示されます。
+en: Frequently asked questions
+ja: よく寄せられる質問
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+ja: {0} について、Windows 自体のエラー スキャンを専用のウィンドウで開始しました。ドライブを読み取るだけで、数分かかります。結果はそのウィンドウで確認してください。
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+ja: この PC で見つかった項目だけが表示されます。「サイズを測定」をクリックすると、各項目の使用量が表示されます。確認するまで何も削除されません。
+en: Not running as administrator. Items marked Admin are disabled.
+ja: 管理者として実行されていません。「管理者」と表示された項目は無効です。
+en: Running as administrator. All items are available.
+ja: 管理者として実行中です。すべての項目を使用できます。
+en: Tip: the About tab can install it, so it appears in the Start menu.
+ja: ヒント: 「バージョン情報」タブからインストールすると、スタート メニューに表示されます。
+en: Saved a health and temperature reading for {0} disks to the history.
+ja: {0} 台のディスクの状態と温度の測定値を履歴に保存しました。
+en: {0} files were in use and were skipped.
+ja: {0} 個のファイルが使用中だったため、スキップされました。
+en: {0} items
+ja: {0} 個の項目
+en: My user folder only
+ja: 自分のユーザー フォルダーのみ
+en: Install: not installed
+ja: インストール: 未インストール
+en: Install: installed in {0}
+ja: インストール: {0} にインストール済み
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+ja: まだ測定値が保存されていません。<br><br>履歴は次の場所に保存されます:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+ja: まだクリーンアップを実行していません。<br><br>履歴は次の場所に保存されます:<br>{0}
+en: Whole drive
+ja: ドライブ全体
+en: Could not open System Information: {0}
+ja: システム情報を開けませんでした: {0}
+en: Could not open dxdiag: {0}
+ja: dxdiag を開けませんでした: {0}
+en: SPEED
+ja: 速度
+en: Wait until the details have been read.
+ja: 詳細の読み取りが終わるまでお待ちください。
+en: Read at {0}. It stays on this PC unless you copy or save it.
+ja: {0} に読み取りました。コピーまたは保存しない限り、この情報は PC の外に出ません。
+en: Could not read the device details: {0}
+ja: デバイスの詳細を読み取れませんでした: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+ja: デバイスの詳細をコピーしました。必要な場所に貼り付けてください (サポートしてくれる人へのメッセージなど)。
+en: Text file
+ja: テキスト ファイル
+en: Save the device details
+ja: デバイスの詳細を保存
+en: Could not copy: {0}
+ja: コピーできませんでした: {0}
+en: Reading...
+ja: 読み取り中...
+en: Speed test: {0}
+ja: 速度テスト: {0}
+en: Speed test finished.
+ja: 速度テストが完了しました。
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+ja: {1} に {0} MB のファイルを使ってテストしました。結果は保存されるので、あとで比較できます。
+en: Speed test stopped. The test file was deleted.
+ja: 速度テストを停止しました。テスト ファイルは削除されました。
+en: Reading this PC's details...
+ja: この PC の詳細を読み取っています...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+ja: Windows、プロセッサ、メモリ、グラフィックスなどの詳細を収集しています。数秒かかります。
+en: The speed test could not finish. See the log below.
+ja: 速度テストを完了できませんでした。下のログを確認してください。
+en: Stopped.
+ja: 停止しました。
+en: Saved the device details to {0}
+ja: デバイスの詳細を {0} に保存しました
+en: Philip Droubi | Software Engineer
+ja: Philip Droubi | ソフトウェア エンジニア
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+ja: ソフトウェア エンジニア。Disk Cleanup Helper に関する質問、アイデア、フィードバックを歓迎します。
+en: Made by Philip Droubi
+ja: 作成者: Philip Droubi
+en: Philip Droubi is a Software Engineer.
+ja: Philip Droubi はソフトウェア エンジニアです。
+en: SPACE
+ja: 空き領域
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+ja: ソフトウェア エンジニア。LinkedIn で Philip Droubi とつながりましょう。
+en: Source code on GitHub
+ja: GitHub のソース コード
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+ja: GNU GPL v3 に基づく無料のオープン ソースです。自由に使用、変更、共有できます。コピーにも Philip Droubi のクレジット表示が残ります。
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+ja: © {0} Philip Droubi。フリー ソフトウェア: NOTICE に記載された追加条項を加えた GNU General Public License v3 に基づき、使用、変更、共有できます。保証は一切ありません。
+en: License and terms
+ja: ライセンスと条件
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+ja: このコピー ({0}) は、この PC にインストールされているものではありません。スタート メニューからこのバージョンが開くように、インストール済みのコピーを更新してください。
+en: Repair shortcuts
+ja: ショートカットを修復
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+ja: {0} にインストールされています。スタート メニューまたはデスクトップのショートカットからいつでも開けます。削除するには、「アンインストール」をクリックするか、設定 > アプリ > Disk Cleanup Helper を使います。
+en: Could not save the file: {0}
+ja: ファイルを保存できませんでした: {0}
+en: Update installed copy
+ja: インストール済みのコピーを更新
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+ja: Disk Cleanup Helper をこの PC に残す: インストールすると、スタート メニューとデスクトップから開けます。管理者権限は不要です。
+en: Install on this PC
+ja: この PC にインストール
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+ja: インストールされていません。{0} から実行しています。インストールすると、スタート メニューの項目、デスクトップのショートカット、設定 > アプリ の項目が追加され、ほかのプログラムと同じように削除できます。管理者権限は不要です。
+en: not reported
+ja: 報告なし
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+ja: このツールがこの項目を削除することはありません。「場所を開く」を使い、上の手順に従ってください。
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+ja: 管理者権限が必要です。この項目を使うには、ツールをもう一度起動し、Windows の確認画面で「はい」をクリックしてください。
+en: Close first: {0}
+ja: 先に閉じてください: {0}
+en: Measure anyway?
+ja: それでも測定しますか?
+en: Measuring stopped.
+ja: 測定を停止しました。
+en: Measuring {0} of {1}: {2}
+ja: 測定中 ({0}/{1}): {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+ja: サイズを測定しています。1 ～ 2 分かかることがあります。停止するには「停止」をクリックしてください。
+en: Where
+ja: 場所
+en: Problem: {0}
+ja: 問題: {0}
+en: Clean selected ({0})
+ja: 選択項目をクリーンアップ ({0})
+en: up to {0}
+ja: 最大 {0}
+en: Close {0} first
+ja: 先に {0} を閉じてください
+en: Size: not measured yet
+ja: サイズ: 未測定
+en: Size: {0}
+ja: サイズ: {0}
+en: Admin
+ja: 管理者
+en: Done. Select what you want to clean.
+ja: 完了しました。クリーンアップするものを選んでください。
+en: Cleanup started. Free space on {0}: {1}
+ja: クリーンアップを開始しました。{0} の空き領域: {1}
+en: Confirm cleanup
+ja: クリーンアップの確認
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+ja: 次の項目をクリーンアップします。削除したファイルはごみ箱に移動せず、復元できません:<br><br>{0}<br><br>続行しますか?
+en: Stopped. Not cleaned: {0}
+ja: 停止しました。クリーンアップされていない項目: {0}
+en: Error: {0}
+ja: エラー: {0}
+en: Cleaning: {0}
+ja: クリーンアップ中: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+ja: すべて完了しました。{0} の空き領域が {1} 増えました。現在の空き領域は {2} です。
+en: Clean anyway?
+ja: それでもクリーンアップしますか?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+ja: ヒント: 一部のアプリは時計の近くで実行され続けます。そこにあるアイコンを右クリックし、「終了」を選んでください。
+en: Select at least one item first.
+ja: 先に項目を 1 つ以上選んでください。
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+ja: 完了しました。項目をクリックして説明を読み、必要なものを選んでから「選択項目をクリーンアップ」をクリックしてください。
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+ja: Edge はバックグラウンドで実行されていることがよくあります。Edge で 設定 > システムとパフォーマンス > スタートアップ ブーストとバックグラウンド アプリをオフにしてください。
+en: Nothing left to clean. Close the programs and try again.
+ja: クリーンアップできる項目が残っていません。プログラムを閉じてから、もう一度お試しください。
+en: Close programs first
+ja: 先にプログラムを閉じてください
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+ja: 次のプログラムがまだ開いています:<br><br>{0}<br><br>{1}<br><br>「いいえ」をクリックしてプログラムを閉じ、もう一度「選択項目をクリーンアップ」をクリックしてください。<br>または「はい」をクリックすると、それらが必要な項目をスキップして残りをクリーンアップします。
+en: Clean selected
+ja: 選択項目をクリーンアップ
+en: Switches that free space or keep it free.
+ja: 領域を解放したり、空き領域を保ったりする設定です。
+en: Windows settings
+ja: Windows の設定
+en: YOUR CALL
+ja: ご自身で判断
+en: SETTING
+ja: 設定
+en: INFO ONLY
+ja: 情報のみ
+en: The tool only shows and opens these. It never deletes them.
+ja: このツールはこれらを表示して開くだけです。削除することはありません。
+en: Do it yourself
+ja: ご自身で行う
+en: You lose something small. Read each one before you select it.
+ja: 小さなものが失われます。選択する前に、それぞれの説明を読んでください。
+en: SAFE
+ja: 安全
+en: TOTAL
+ja: 合計
+en: {0} selected
+ja: {0} 個を選択中
+en: Caches and temp files. Programs rebuild them by themselves.
+ja: キャッシュと一時ファイルです。プログラムが自動的に再作成します。
+en: Safe to clean
+ja: 安全にクリーンアップ可能
+en: Old installer files and Windows cleanup
+ja: 古いインストーラー ファイルと Windows のクリーンアップ
+en: Your call
+ja: ご自身で判断
+en: ADMIN
+ja: 管理者
+en: Needs admin rights. Read each one before you select it.
+ja: 管理者権限が必要です。選択する前に、それぞれの説明を読んでください。
+en: Language
+ja: 言語
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+ja: 現在、PC のメモリが不足しています:<br><br>  利用可能なメモリ: {0:N1} GB<br>  ページング ファイルを含む残り容量: {1:N1} GB<br><br>メモリが不足すると、プログラムがクラッシュしたり、PC によってはブルー スクリーンが発生したりすることがあります。<br>不要なプログラム (ブラウザー、エディター、ゲーム) を閉じてから、もう一度お試しください。
+en: Switched to the light theme.
+ja: ライト テーマに切り替えました。
+en: Switched to the dark theme.
+ja: ダーク テーマに切り替えました。
+en: Low memory
+ja: メモリ不足
+en: nothing selected
+ja: 未選択
+en: low: close some programs
+ja: 不足: いくつかのプログラムを閉じてください
+en: of {0} GB
+ja: / {0} GB
+en: Switch to the dark theme
+ja: ダーク テーマに切り替える
+en: Please wait until the current task finishes, or click Stop.
+ja: 現在の処理が終わるまでお待ちいただくか、「停止」をクリックしてください。
+en: Scan {0} for errors
+ja: {0} のエラーをスキャン
+en: {0} FREE (WINDOWS DRIVE)
+ja: {0} の空き (Windows ドライブ)
+en: Could not restart the app: {0}
+ja: アプリを再起動できませんでした: {0}
+en: Switch to the light theme
+ja: ライト テーマに切り替える
+en: DARK MODE
+ja: ダーク モード
+en: LIGHT MODE
+ja: ライト モード
+en: Removed {0}. Left: {1}.
+ja: {0} を削除しました。残り: {1}。
+en: Storage Spaces
+ja: 記憶域スペース
+en: Virtual
+ja: 仮想
+en: Disk
+ja: ディスク
+en: Too hot
+ja: 過熱
+en: Could not read disks: {0}
+ja: ディスクを読み取れませんでした: {0}
+en: Normal
+ja: 正常
+en: Warm
+ja: やや高温
+en: Poor
+ja: 不良
+en: Healthy
+ja: 正常
+en: Unknown
+ja: 不明
+en: Windows: problem
+ja: Windows: 問題あり
+en: Warning
+ja: 警告
+en: Fair
+ja: 普通
+en: Good
+ja: 良好
+en: Problem
+ja: 問題あり
+en: Checking disks...
+ja: ディスクを確認しています...
+en: Reading each disk's health and temperature. This takes a few seconds.
+ja: 各ディスクの状態と温度を読み取っています。数秒かかります。
+en: Waiting for the current task to finish. The disks are checked right after that.
+ja: 現在の処理が終わるのを待っています。終わりしだいディスクを確認します。
+en: (health {0}%)
+ja: (状態 {0}%)
+en: SMART attributes
+ja: SMART 属性
+en: NVMe health log
+ja: NVMe 正常性ログ
+en: {0}% used
+ja: {0}% 使用
+en: HEALTH
+ja: 状態
+en: Almost full: Windows and apps slow down when a drive is this full.
+ja: ほぼいっぱいです: ドライブがここまでいっぱいになると、Windows やアプリが遅くなります。
+en: {0} free of {1}
+ja: 空き {0} / {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+ja: ディスクの SMART データを読み取るには、管理者権限でツールを起動してください。
+en: Windows did not report any disks.
+ja: Windows からディスクが報告されませんでした。
+en: Disks
+ja: ディスク
+en: Drives
+ja: ドライブ
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+ja: 状態の % は、各ディスク自身のデータからこのアプリが推定した値です。他のツールは独自の計算方法を使うため、数値が少し異なることがあります。このタブを開くかアプリを起動するたびに (最大で 30 分に 1 回) 測定値が保存されるので、状態と温度の推移を確認できます。
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+ja: どのディスクも SMART データを Windows に提供していません。USB 外付けケースや RAID ではよくあることです。
+en: Disk check finished.
+ja: ディスクの確認が完了しました。
+en: A disk reports a problem. Back up your important files now.
+ja: ディスクが問題を報告しています。今すぐ重要なファイルをバックアップしてください。
+en: Windows: warning
+ja: Windows: 警告
+en: Stopped. Results are incomplete.
+ja: 停止しました。結果は不完全です。
+en: Scanning... {0:N0} folders and {1:N0} files so far
+ja: スキャン中... これまでにフォルダー {0:N0} 個、ファイル {1:N0} 個
+en: Scanning {0}. Click Stop to stop.
+ja: {0} をスキャンしています。停止するには「停止」をクリックしてください。
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+ja: スキャンを停止しました。これまでに見つかった最も大きいファイルが表示されています。フォルダーのサイズは、スキャンが完了した場合にのみ表示されます。
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+ja: 注: Windows は一部のファイルを同時に 2 か所に保持しているため、Windows フォルダーは実際より大きく見えることがあります。
+en: {0:N0} folders could not be read (Windows protects them).
+ja: {0:N0} 個のフォルダーを読み取れませんでした (Windows によって保護されています)。
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+ja: {0:N0} 秒で完了: フォルダー {1:N0} 個、ファイル {2:N0} 個。
+en: Scanning {0} ...
+ja: {0} をスキャンしています...
+en: (files directly in this folder)
+ja: (このフォルダー直下のファイル)
+en: Scan a drive to see its biggest folders.
+ja: ドライブをスキャンすると、最も大きいフォルダーが表示されます。
+en: Free space on {0} grew by {1}.
+ja: {0} の空き領域が {1} 増えました。
+en: Biggest files
+ja: 最も大きいファイル
+en: Scan anyway?
+ja: それでもスキャンしますか?
+en: That drive or folder is not available.
+ja: そのドライブまたはフォルダーは使用できません。
+en: Biggest files ({0} found)
+ja: 最も大きいファイル ({0} 個検出)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+ja: 先に一覧でファイルを 1 つ以上選んでください。複数選ぶには Ctrl キーを押したままにします。
+en: Could not remove {0}: {1}
+ja: {0} を削除できませんでした: {1}
+en: Moved to Recycle Bin: {0} ({1})
+ja: ごみ箱に移動: {0} ({1})
+en: Deleted file: {0} ({1})
+ja: 削除したファイル: {0} ({1})
+en: Files deleted: {0}.
+ja: 削除したファイル: {0}。
+en: Windows: OK
+ja: Windows: 正常
+en: {0} could not be removed (in use or protected).
+ja: {0} は削除できませんでした (使用中または保護されています)。
+en: Files moved to the Recycle Bin: {0}.
+ja: ごみ箱に移動したファイル: {0}。
+en: Move to Recycle Bin
+ja: ごみ箱に移動
+en: They will be deleted permanently and cannot be restored.
+ja: 完全に削除され、復元できません。
+en: ... and {0} more
+ja: ... ほか {0} 件
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+ja: 次のファイルは Windows、プログラム、またはシステムのファイルで、保護されています:<br><br>{0}<br><br>代わりにプログラムをアンインストールするか、「クリーンアップ」タブを使ってください。
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+ja: ごみ箱に移動されます。領域は、ごみ箱を空にした後にのみ解放されます。
+en: Delete permanently
+ja: 完全に削除
+en: Make sure you do not need them. Continue?
+ja: 不要なファイルであることを確認してください。続行しますか?
+en: Files: {0}, {1} in total.
+ja: ファイル: {0} 個、合計 {1}。
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+ja: ディスクを再確認
+en: Disk health
+ja: ディスクの状態
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+ja: 複数のファイルを選ぶには Ctrl キーを押したままにします。Windows とプログラムのファイルは保護されているため、ここでは削除できません。
+en: Scan for errors
+ja: エラーをスキャン
+en: Open history file
+ja: 履歴ファイルを開く
+en: Windows storage settings
+ja: Windows のストレージ設定
+en: Optimize drives
+ja: ドライブの最適化
+en: Modified
+ja: 更新日時
+en: Up
+ja: 上へ
+en: Biggest folders
+ja: 最も大きいフォルダー
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+ja: ドライブを選んで「スキャン」をクリックしてください。ドライブ全体の場合は数分かかることがあります。
+en: Folder
+ja: フォルダー
+en: File
+ja: ファイル
+en: Double-click a folder to look inside.
+ja: フォルダーをダブルクリックすると中が表示されます。
+en: Open in File Explorer
+ja: エクスプローラーで開く
+en: SMART details
+ja: SMART の詳細
+en: About
+ja: バージョン情報
+en: Tips & FAQ
+ja: ヒントと FAQ
+en: System Information
+ja: システム情報
+en: Read me
+ja: お読みください
+en: Cleanup history
+ja: クリーンアップの履歴
+en: Uninstall
+ja: アンインストール
+en: DirectX Diagnostic (dxdiag)
+ja: DirectX 診断 (dxdiag)
+en: Run speed test
+ja: 速度テストを実行
+en: Disk performance
+ja: ディスクのパフォーマンス
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+ja: 各ディスクが自身について報告する生のデータです。「注意」は経過を見守る価値があることを、「異常」はディスク自身の安全限界を下回っていることを意味します。
+en: Live activity updates every second while this tab is open.
+ja: このタブを開いている間、リアルタイムのアクティビティが毎秒更新されます。
+en: Save as text file
+ja: テキスト ファイルとして保存
+en: Copy all
+ja: すべてコピー
+en: Read again
+ja: 再読み込み
+en: Scan
+ja: スキャン
+en: English
+ja: =
+en: 0 items
+ja: 0 個の項目
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+ja: 管理者として実行されていないため、「管理者」と表示された項目は無効です。使うには、このウィンドウを閉じて再度起動し、Windows の確認画面で「はい」をクリックしてください。
+en: Measure sizes
+ja: サイズを測定
+en: Clean up
+ja: クリーンアップ
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+ja: ディスクを何が占めているかを確認し、安全に領域を解放します。確認するまで何も削除されません。
+en: Disk Cleanup Helper
+ja: =
+en: C: FREE
+ja: C: の空き
+en: SELECTED TO CLEAN
+ja: クリーンアップ対象
+en: MEMORY AVAILABLE
+ja: 利用可能なメモリ
+en: Stop
+ja: 停止
+en: Analyze disk
+ja: ディスク分析
+en: Open location
+ja: 場所を開く
+en: Drive
+ja: ドライブ
+en: List files bigger than
+ja: 次より大きいファイルを表示
+en: Look in
+ja: スキャン対象
+en: Clear selection
+ja: 選択を解除
+en: Select all safe
+ja: 安全な項目をすべて選択
+en: Click Measure sizes to see how much each item uses.
+ja: 「サイズを測定」をクリックすると、各項目の使用量が表示されます。
+en: to see what it is, where it is, and what you keep or lose.
+ja: すると、内容、場所、残るものと失われるものが表示されます。
+en: Click an item
+ja: 項目をクリック
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+ja: テスト ファイルの書き込みに失敗しました。ドライブがいっぱいではありませんか?
+en: Reading it back...
+ja: 読み戻しています...
+en: Writing a {0} MB test file...
+ja: {0} MB のテスト ファイルを書き込んでいます...
+en: Could not create the test file in {0}.
+ja: {0} にテスト ファイルを作成できませんでした。
+en: Could not open the test file.
+ja: テスト ファイルを開けませんでした。
+en: Not enough memory for the speed test.
+ja: 速度テストに必要なメモリが不足しています。
+en: Reading small random blocks...
+ja: 小さなランダム ブロックを読み取っています...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+ja: Disk Cleanup Helper には Windows 10 または Windows 11 が必要です。
+en: Disk Cleanup Helper could not start:<br><br>{0}
+ja: Disk Cleanup Helper を起動できませんでした:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+ja: 問題が発生しました:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+ja: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+ja: 更新はどのように行われますか?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+ja: 新しいバージョンが公開されると、アプリはそれをバックグラウンドでダウンロードして確認します。SHA256 とバージョン番号がリリースと一致している必要があります。その後、バーに「今すぐ再起動」が表示されます。「後で」を選ぶと、アプリを閉じたときに更新がインストールされます。自動確認は「バージョン情報」タブでオフにできます。そこにある「更新を確認」ボタンは引き続き使えます。
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+ja: いいえ。PC に関する情報は何も送信しません。接続するのは、新しいバージョンがあるかどうかを GitHub に確認するときだけで、多くても 1 日 1 回です。これは「バージョン情報」タブでオフにできます。
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+ja: PC に関する情報は何も送信しません。新しいバージョンがあるかどうかを GitHub に確認するだけで、これは「バージョン情報」タブでオフにできます。クリーンアップした内容の履歴はこの PC にのみ保存されます。
+en: Update check: version {0} is the newest.
+ja: 更新の確認: バージョン {0} が最新です。
+en: Downloading version {0}... {1}%
+ja: バージョン {0} をダウンロードしています... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+ja: バージョン {0} を利用できます。これは開発者ビルドのため、自動的には更新されません。
+en: Update check: version {0} is available.
+ja: 更新の確認: バージョン {0} を利用できます。
+en: Downloading version {0}...
+ja: バージョン {0} をダウンロードしています...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+ja: このフォルダーは変更できないため、ここでは更新をインストールできません: {0}
+en: The update was not downloaded: {0}
+ja: 更新はダウンロードされませんでした: {0}
+en: Later
+ja: 後で
+en: This is a developer build, so it does not update itself.
+ja: これは開発者ビルドのため、自動的には更新されません。
+en: What's new in version {0}:
+ja: バージョン {0} の新機能:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+ja: バージョン {0} はインストールされましたが、起動できませんでした: {1}<br><br>Disk Cleanup Helper をもう一度起動してください。
+en: No details were given for this version.
+ja: このバージョンの詳細は提供されていません。
+en: Version {0} is downloaded and checked (SHA256 and version number).
+ja: バージョン {0} のダウンロードと確認が完了しました (SHA256 とバージョン番号)。
+en: The update could not be downloaded: {0}
+ja: 更新をダウンロードできませんでした: {0}
+en: Version {0} is ready. Restart to update.
+ja: バージョン {0} の準備ができました。更新するには再起動してください。
+en: This is version {0}. It has not checked for updates yet.
+ja: これはバージョン {0} です。まだ更新を確認していません。
+en: You have the latest version ({0}). Last checked: {1}.
+ja: 最新バージョン ({0}) を使用しています。最終確認日時: {1}。
+en: Version {0} is installed.
+ja: バージョン {0} がインストールされています。
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+ja: このコピーは変更できないフォルダーにあります:<br>{0}<br><br>リリース ページが開くので、バージョン {1} をダウンロードして、このコピーを手動で置き換えてください。
+en: The update could not be installed: {0}
+ja: 更新をインストールできませんでした: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+ja: バージョン {0} を利用できます。ダウンロードするには「更新を確認」をクリックしてください。
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+ja: 更新をインストールできませんでした。このコピーはそのまま動作し続けます。<br><br>{0}
+en: Updated to version {0}.
+ja: バージョン {0} に更新されました。
+en: Update check: {0}
+ja: 更新の確認: {0}
+en: Could not check for updates: {0}
+ja: 更新を確認できませんでした: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+ja: GitHub に接続できませんでした。インターネット接続を確認して、もう一度お試しください。
+en: Checking for updates...
+ja: 更新を確認しています...
+en: Update check: could not reach GitHub.
+ja: 更新の確認: GitHub に接続できませんでした。
+en: Check for updates
+ja: 更新を確認
+en: Check for updates when the app starts
+ja: アプリの起動時に更新を確認する
+en: What's new
+ja: 新機能
+en: Restart now
+ja: 今すぐ再起動
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+ja: ディスクを何が占めているかを表示し、安全に領域を解放する Windows 10 と 11 用の無料ツールです。PC に関する情報は何も送信しません。確認するまで何も削除されません。
+en: Updates
+ja: 更新
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+ja: 更新はアプリの GitHub ページから提供されます。新しいバージョンはそれぞれ、このバージョンを置き換える前に確認されます (SHA256 とバージョン番号)。
+en: Version {0} has no {1} file.
+ja: バージョン {0} には {1} ファイルがありません。
+en: Version {0} has a download address that is not on github.com.
+ja: バージョン {0} のダウンロード アドレスは github.com のものではありません。
+en: Version {0} has no SHA256 line in its release text.
+ja: バージョン {0} のリリース テキストに SHA256 の行がありません。
+en: GitHub's answer could not be read.
+ja: GitHub の応答を読み取れませんでした。
+en: The newest release has an unreadable version number: {0}
+ja: 最新のリリースのバージョン番号を読み取れません: {0}
+en: The download came from an unexpected address: {0}
+ja: 予期しないアドレスからダウンロードされました: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+ja: ダウンロードしたファイルは Disk Cleanup Helper のプログラムではありません。
+en: The downloaded file is version {0}, not {1}.
+ja: ダウンロードしたファイルはバージョン {0} で、{1} ではありません。
+en: The downloaded file does not match the SHA256 in the release text.
+ja: ダウンロードしたファイルが、リリース テキストの SHA256 と一致しません。
+en: The downloaded file has an unexpected size ({0}).
+ja: ダウンロードしたファイルのサイズが予期しない値です ({0})。
+en: The download took too long.
+ja: ダウンロードに時間がかかりすぎました。

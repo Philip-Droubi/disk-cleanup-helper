@@ -7,10 +7,12 @@
 *.exe
 *.zip
 
-# Private notes: plans and instructions for AI assistants
+# Local notes and scripts (not part of the project)
 /docs/plans/
 /ai/
 /.claude/
+/backup.cmd
+/backup.ps1
 
 # Code signing: certificate files and the file that holds the password
 /signing.txt
@@ -20,19 +22,7 @@
 *.key
 *.pem
 
-# Source code: stays private until the app is open source (PUBLISH-PLAN.md, section 11).
-# Delete this block on that day.
-/src/
-/tools/
-/build.cmd
-/build.ps1
-/version.txt
-/signing.example.txt
-/release-notes.txt
-/docs/DEVELOPING.md
-
-# Website (Next.js, in website/): its code stays on this PC. Only the built pages go to GitHub, on the gh-pages
-# branch ("npm run deploy" in website/, which build.cmd -Publish also runs after a release)
+# Website code (its built pages are on the gh-pages branch)
 /website/
 
 # Windows, editors and scratch files
@@ -47,5 +37,5 @@ desktop.ini
 *.bak
 *.log
 
-# Design mock-ups made while planning (brainstorming companion)
+# Local tool files
 /.superpowers/

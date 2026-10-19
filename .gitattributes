@@ -1,0 +1,11 @@
+# Line endings: text files are stored with LF and checked out with Windows line endings where Windows needs them.
+* text=auto
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.cs text eol=crlf
+*.xaml text eol=crlf
+*.lang text eol=crlf
+*.txt text eol=crlf
+*.png binary
+*.ico binary
+*.jpg binary

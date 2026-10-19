@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - ru
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = Русский
+@rtl = no
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+ru: Не удалось запустить {0}: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+ru: также {0}
+en: GRAPHICS
+ru: ГРАФИКА
+en: Wireless (Miracast)
+ru: Беспроводное (Miracast)
+en: Built-in screen
+ru: Встроенный экран
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+ru: Этот драйвер от {0}. Более новый драйвер от производителя компьютера или чипа может устранить сбои, синие экраны и проблемы с изображением.
+en: {0} × {1} at {2} Hz
+ru: {0} × {1}, {2} Hz
+en: Showing now
+ru: Сейчас отображается
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+ru: Windows сообщает о проблеме с этим устройством (код {0}). Переустановите его драйвер с сайта производителя компьютера или чипа.
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+ru: Подходящий графический драйвер не установлен. Установите драйвер от производителя компьютера или графического чипа, чтобы изображение стало четче и быстрее.
+en: Screens
+ru: Экраны
+en: Made in
+ru: Выпущен
+en: Connection
+ru: Подключение
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+ru: Здоровье, температура и данные SMART находятся на вкладках «Здоровье диска» и «Данные SMART».
+en: Storage
+ru: Накопители
+en: {0} inches
+ru: {0} дюйм.
+en: {0}  (main screen)
+ru: {0}  (основной экран)
+en: Screen {0}
+ru: Экран {0}
+en: Refresh rate
+ru: Частота обновления
+en: Resolution
+ru: Разрешение
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+ru: Память сейчас почти заполнена (используется {0}%). Закройте ненужные программы. Когда памяти не хватает, компьютер замедляется и может дать сбой.
+en: Part number
+ru: Артикул
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+ru: На этом компьютере есть свободный слот памяти. Добавить модуль памяти того же типа ({0}) — обычно недорогой способ ускорить его.
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+ru: Для Windows 10 и 11 сегодня {0} — это мало. С 8 GB или больше разница будет заметной.
+en: Size
+ru: Размер
+en: Memory promised to programs
+ru: Память, выделенная программам
+en: None. Programs can crash when the memory is full.
+ru: Нет. Программы могут аварийно завершаться, когда память заполнена.
+en: Module {0}
+ru: Модуль {0}
+en: {0} GB of {1} GB  (memory plus page file)
+ru: {0} GB из {1} GB  (память и файл подкачки)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+ru: На этом компьютере есть свободный слот памяти. Добавить модуль памяти того же типа — обычно недорогой способ ускорить его.
+en: 4 GB or more
+ru: 4 GB или больше
+en: Graphics
+ru: Графика
+en: Driver
+ru: Драйвер
+en: Graphics memory
+ru: Видеопамять
+en: {0}% in use now
+ru: {0}% используется
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+ru: Оба слота памяти заняты. Чтобы увеличить память, замените модули на более емкие ({0}). Сегодня 16 GB в сумме — хороший объем.
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+ru: Единственный слот памяти занят. Чтобы увеличить память, замените модуль на более емкий ({0}). Сегодня 16 GB в сумме — хороший объем.
+en: MEMORY
+ru: ПАМЯТЬ
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+ru: Заняты все слоты памяти: {0}. Чтобы увеличить память, замените модули на более емкие ({1}). Сегодня 16 GB в сумме — хороший объем.
+en: Adapter
+ru: Адаптер
+en: Network adapters
+ru: Сетевые адаптеры
+en: connected at {0}
+ru: подключен на скорости {0}
+en: turned off
+ru: отключен
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+ru: Батарея держит только {0}% от емкости новой батареи. Новая батарея проработает без зарядки гораздо дольше.
+en: Lithium-ion
+ru: Литий-ионный
+en: Kind
+ru: Вид
+en: Nickel-metal hydride
+ru: Никель-металлгидридный
+en: Lithium-polymer
+ru: Литий-полимерный
+en: connected
+ru: подключен
+en: {0} minutes
+ru: {0} минута | {0} минуты | {0} минут
+en: {0}  ·  Windows reports a problem (code {1})
+ru: {0}  ·  Windows сообщает о проблеме (код {1})
+en: {0} days
+ru: {0} день | {0} дня | {0} дней
+en: {0} hours
+ru: {0} час | {0} часа | {0} часов
+en: Built in
+ru: Встроенный
+en: Sound
+ru: Звук
+en: not connected
+ru: не подключен
+en: Through the screen (HDMI or DisplayPort)
+ru: Через экран (HDMI или DisplayPort)
+en: Added by a program
+ru: Добавлено программой
+en: Battery
+ru: Батарея
+en: All disks together
+ru: Все диски вместе
+en: plugged in, charging
+ru: от сети, заряжается
+en: on battery
+ru: от батареи
+en: drive {0}
+ru: диск {0}
+en: Storage class memory
+ru: Память класса хранилища
+en: Hard disk
+ru: Жесткий диск
+en: Disk {0}
+ru: Диск {0}
+en: SD card
+ru: Карта SD
+en: plugged in, full
+ru: от сети, полностью заряжена
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+ru: {0}%  (емкость {1} Wh, у новой была {2} Wh)
+en: Battery health
+ru: Состояние батареи
+en: Charge cycles
+ru: Циклы зарядки
+en: Start the tool with admin rights to read it
+ru: Запустите программу с правами администратора, чтобы прочитать эти данные
+en: {0} h {1} min  (Windows' estimate)
+ru: {0} ч {1} мин  (оценка Windows)
+en: Charge now
+ru: Текущий заряд
+en: plugged in
+ru: от сети
+en: Time left
+ru: Осталось времени
+en: {0}%, {1}
+ru: =
+en: , size set by hand
+ru: , размер задан вручную
+en: Server
+ru: Сервер
+en: Desktop
+ru: Настольный компьютер
+en: Windows
+ru: =
+en: Workstation
+ru: Рабочая станция
+en: All-in-one
+ru: Моноблок
+en: Laptop that folds into a tablet (2-in-1)
+ru: Ноутбук-трансформер (2-в-1)
+en: Laptop
+ru: Ноутбук
+en: Tablet
+ru: Планшет
+en: Tablet with a detachable keyboard (2-in-1)
+ru: Планшет со съемной клавиатурой (2-в-1)
+en: Edition
+ru: Выпуск
+en: Last update installed
+ru: Последнее установленное обновление
+en: Installed or last big update
+ru: Установка или последнее крупное обновление
+en: Running since
+ru: Работает с
+en: {0}  ({1})
+ru: =
+en: 32-bit
+ru: 32-разрядная
+en: Build
+ru: Сборка
+en: Version
+ru: Версия
+en: 64-bit
+ru: 64-разрядная
+en: 64-bit, for ARM processors
+ru: 64-разрядная, для процессоров ARM
+en: Computer name
+ru: Имя компьютера
+en: Type
+ru: Тип
+en: BIOS
+ru: =
+en: Motherboard
+ru: Материнская плата
+en: Model
+ru: Модель
+en: Read on {0}
+ru: Считано {0}
+en: Device details
+ru: Об устройстве
+en: Maker
+ru: Производитель
+en: This PC
+ru: Этот компьютер
+en: Start-up mode
+ru: Режим загрузки
+en: Not found, or turned off in the BIOS
+ru: Не найден или отключен в BIOS
+en: Security chip (TPM)
+ru: Чип безопасности (TPM)
+en: TPM {0}, turned off
+ru: TPM {0}, отключен
+en: TPM {0}, on
+ru: TPM {0}, включен
+en: Not available with Legacy BIOS
+ru: Недоступно в режиме Legacy BIOS
+en: Secure Boot
+ru: Безопасная загрузка
+en: Legacy BIOS
+ru: =
+en: Off
+ru: Выкл.
+en: On
+ru: Вкл.
+en: Soldered on the board
+ru: Распаяна на плате
+en: SO-DIMM (laptop size)
+ru: SO-DIMM (для ноутбуков)
+en: Installed
+ru: Установлено
+en: Memory (RAM)
+ru: Память (ОЗУ)
+en: DIMM (desktop size)
+ru: DIMM (для настольных ПК)
+en: Off in the BIOS
+ru: Выключено в BIOS
+en: On in the BIOS
+ru: Включено в BIOS
+en: PROCESSOR
+ru: ПРОЦЕССОР
+en: Socket
+ru: Сокет
+en: {0}  ({1} GB usable by Windows)
+ru: {0}  ({1} GB доступно Windows)
+en: {0}, {1}  ({2} in use, highest {3})
+ru: {0}, {1}  (используется {2}, максимум {3})
+en: {0} of {1} used
+ru: использовано {0} из {1}
+en: , size managed by Windows
+ru: , размер выбирает Windows
+en: Page file
+ru: Файл подкачки
+en: Memory slots
+ru: Слоты памяти
+en: {0} GB of {1} GB  ({2}%)
+ru: {0} GB из {1} GB  ({2}%)
+en: In use now
+ru: Используется сейчас
+en: Module type
+ru: Тип модуля
+en: Type and speed
+ru: Тип и скорость
+en: WINDOWS
+ru: =
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+ru: Windows работает без перезагрузки уже {0} дн. Если включен быстрый запуск, завершение работы не перезапускает Windows полностью, поэтому время от времени выбирайте «Перезагрузка»: это завершает установку обновлений и освобождает память.
+en: Processor
+ru: Процессор
+en: build {0}
+ru: сборка {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+ru: Windows не устанавливала обновления с {0}. Откройте Параметры > Центр обновления Windows и проверьте наличие обновлений: они закрывают уязвимости и исправляют сбои.
+en: Region format
+ru: Формат региона
+en: Display language
+ru: Язык интерфейса
+en: DirectX
+ru: =
+en: Time zone
+ru: Часовой пояс
+en: Name
+ru: Название
+en: Busy right now
+ru: Загрузка сейчас
+en: Cache
+ru: Кэш
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+ru: Используется (Hyper-V, WSL, Docker или функциями безопасности Windows)
+en: Virtualization
+ru: Виртуализация
+en: Base speed
+ru: Базовая скорость
+en: Cores
+ru: Ядра
+en: Made by
+ru: Производитель
+en: ({0} processors)
+ru: (процессоров: {0})
+en: {0} cores, {1} threads
+ru: ядер: {0}, потоков: {1}
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+ru: (программа без названия)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+ru: Зависит от производителя
+en: {0} data errors were found on the SSD.
+ru: На SSD найдена {0} ошибка данных. | На SSD найдены {0} ошибки данных. | На SSD найдено {0} ошибок данных.
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+ru: {0} поврежденный сектор заменен резервным (переназначен). | {0} поврежденных сектора заменены резервными (переназначены). | {0} поврежденных секторов заменены резервными (переназначены).
+en: The disk itself predicts that it will fail soon. Back up your files now.
+ru: Диск сам предсказывает, что скоро выйдет из строя. Создайте резервную копию файлов прямо сейчас.
+en: Failing
+ru: Отказ
+en: OK (no limit)
+ru: OK (без порога)
+en: {0} sector reallocation events.
+ru: {0} событие переназначения секторов. | {0} события переназначения секторов. | {0} событий переназначения секторов.
+en: The disk needed {0} retries to spin up.
+ru: Диску потребовалась {0} повторная попытка раскрутки. | Диску потребовались {0} повторные попытки раскрутки. | Диску потребовалось {0} повторных попыток раскрутки.
+en: {0} internal data path errors.
+ru: {0} ошибка внутреннего тракта данных. | {0} ошибки внутреннего тракта данных. | {0} ошибок внутреннего тракта данных.
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+ru: Ошибок передачи между диском и компьютером: {0}. Обычно их причина — плохо подключенный или неисправный кабель, и диску они не вредят.
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+ru: Нестабильных секторов, ожидающих проверки (pending): {0}. Держите резервную копию файлов и следите, растет ли это число.
+en: {0} sectors could not be read or fixed (uncorrectable).
+ru: Секторов, которые не удалось прочитать или исправить (uncorrectable): {0}.
+en: {0} read errors the disk could not correct.
+ru: Ошибок чтения, которые диск не смог исправить: {0}.
+en: Warning flags set
+ru: Установлены флаги предупреждения
+en: Hot
+ru: Горячий
+en: Below threshold
+ru: Ниже порога
+en: Windows reports a warning for this disk.
+ru: Windows выдает предупреждение для этого диска.
+en: Windows reports this disk as unhealthy.
+ru: Windows сообщает, что этот диск неисправен.
+en: OK
+ru: =
+en: Near end of rated life
+ru: Ресурс почти исчерпан
+en: The SSD has switched to read-only mode to protect your data.
+ru: SSD перешел в режим только для чтения, чтобы защитить ваши данные.
+en: The SSD reports that it has been too hot.
+ru: SSD сообщает, что перегревался.
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+ru: Атрибут SMART {0} ниже порога безопасности. Создайте резервную копию файлов прямо сейчас.
+en: Watch
+ru: Внимание
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+ru: Резервное пространство ниже безопасного уровня (осталось {0}%). Создайте резервную копию файлов прямо сейчас.
+en: The SSD reports that its reliability is degraded. Back up your files now.
+ru: SSD сообщает о снижении надежности. Создайте резервную копию файлов прямо сейчас.
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+ru: Что означает процент здоровья?
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+ru: Это оценка по данным самоконтроля диска (SMART или журнал состояния на NVMe SSD). 100% означает, что проблем и износа не найдено. Оценка настроена так, чтобы быть близкой к программам вроде Hard Disk Sentinel, но у каждой программы своя формула, поэтому числа могут немного отличаться.
+en: Why does the Windows folder look so big in Analyze disk?
+ru: Почему папка Windows на вкладке «Анализ диска» выглядит такой большой?
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+ru: Windows хранит некоторые файлы сразу в двух местах, поэтому при сложении размеров они учитываются дважды. На самом деле размер меньше. Никогда не удаляйте ничего в папке Windows вручную.
+en: My SSD shows less than 100% health. Should I worry?
+ru: У моего SSD здоровье меньше 100%. Стоит ли беспокоиться?
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+ru: Это небольшие участки, которые диск не смог надежно прочитать. Переназначенные сектора уже заменены резервными. Ожидающие сектора (pending) ждут проверки. Несколько таких секторов — обычное дело для старых дисков. Если их число продолжает расти, создайте резервную копию файлов и подумайте о замене диска.
+en: What temperature is normal for a disk?
+ru: Какая температура диска считается нормальной?
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+ru: SSD немного изнашивается при каждой записи, а здоровье показывает, какая часть заявленного ресурса записи уже использована. Многие SSD хорошо работают и после исчерпания этого ресурса. Делайте резервные копии и планируйте замену SSD, когда здоровье станет низким или появятся проблемы.
+en: What are pending and reallocated sectors?
+ru: Что такое ожидающие (pending) и переназначенные (reallocated) сектора?
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+ru: Кэши снова заполняются, пока вы пользуетесь браузером и приложениями, Windows скачивает новые обновления, а при нехватке памяти Windows увеличивает файл подкачки. Повторная очистка раз в несколько недель, включение функции «Контроль памяти» и закрытие неиспользуемых программ помогают держать это под контролем.
+en: Is it safe to clean what this app suggests?
+ru: Безопасно ли очищать то, что предлагает эта программа?
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+ru: Элементы группы «Безопасная очистка» — это кэши и временные файлы, которые программы сами создают заново. Элементы группы «Решать вам» удаляют что-то небольшое, поэтому сначала прочитайте их описание. Элементы с пометкой «Только сведения» программа никогда не удаляет: она только показывает их и открывает их расположение.
+en: It never follows folder links into other folders.
+ru: Программа никогда не переходит по ссылкам на папки в другие папки.
+en: Will cleaning my browser cache log me out of websites?
+ru: Выйду ли я из учетных записей на сайтах после очистки кэша браузера?
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+ru: Используемые файлы пропускаются. При очистке временных файлов файлы за последний день сохраняются. А очистку компонентов Windows можно измерить только во время ее выполнения. Журнал внизу показывает, что именно было удалено.
+en: Why does my free space go down again after cleaning?
+ru: Почему после очистки свободного места снова становится меньше?
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+ru: Нет. Очистка кэша сохраняет файлы cookie, сохраненные пароли, закладки и историю. Очень редко сайт может попросить войти снова, и браузер подставит сохраненный пароль.
+en: Why did I get back less space than the size shown?
+ru: Почему освободилось меньше места, чем было показано?
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+ru: Откройте вкладку «Об устройстве». Она показывает то же, что средство диагностики DirectX (dxdiag) в Windows, а также слоты памяти, файл подкачки, экраны и состояние батареи. Нажмите «Копировать все» или «Сохранить как текст», чтобы отправить сведения тому, кто вам помогает.
+en: Where are my history files saved?
+ru: Где сохраняются файлы истории?
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+ru: Гибернация хранит файл размером с часть оперативной памяти, чтобы компьютер мог продолжить работу с того места, где остановился. Зарезервированное хранилище — это около 7 GB, которые Windows откладывает для обновлений. CompactOS хранит файлы Windows в сжатом виде. Каждая из этих функций может освободить несколько GB, и каждую можно потом вернуть обратно.
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+ru: Где посмотреть сведения о компьютере: версию Windows, процессор, память и графику?
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+ru: В папке пользователя: %LOCALAPPDATA%\DiskCleanupHelper. Там хранятся история очистки, история здоровья и температуры дисков и результаты тестов скорости. Открыть их можно на вкладках «О программе» и «Здоровье диска».
+en: How do I uninstall it?
+ru: Как удалить программу?
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+ru: Параметры > Приложения > Disk Cleanup Helper > Удалить или кнопка «Удалить» на вкладке «О программе». Если вы не устанавливали программу, просто удалите ее файл.
+en: Does the app send any of my data anywhere?
+ru: Отправляет ли программа мои данные куда-либо?
+en: What are hibernation, Reserved Storage and CompactOS?
+ru: Что такое гибернация, зарезервированное хранилище и CompactOS?
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+ru: Права администратора нужны, чтобы очищать собственные временные файлы и файлы обновлений Windows и читать данные о здоровье дисков. Если нажать «Нет», программа все равно работает, но элементы, которым нужны права администратора, будут серыми.
+en: Why does Windows say "Windows protected your PC"?
+ru: Почему Windows пишет «Система Windows защитила ваш компьютер»?
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+ru: Жесткие диски обычно работают при температуре от 25 до 45 °C. SSD обычно работают при 30–60 °C, а NVMe SSD под большой нагрузкой могут нагреваться до 70 °C. Постоянно более высокая температура сокращает срок службы диска.
+en: Why does the app ask for admin rights?
+ru: Почему программа запрашивает права администратора?
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+ru: Windows показывает это для новых программ, которые она еще не знает. Нажмите «Подробнее», а затем «Выполнить в любом случае». Предупреждение исчезнет навсегда, когда программа будет подписана и станет известна Microsoft.
+en: Does the speed test harm my disk?
+ru: Вредит ли тест скорости диску?
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+ru: Нет. Тест записывает один временный тестовый файл размером от 512 MB до 1 GB, считывает его и удаляет. Это меньше, чем за обычный день работы.
+en: Can I undo a cleanup?
+ru: Можно ли отменить очистку?
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+ru: Файлы, удаленные на вкладке «Очистка», не попадают в корзину, поэтому их нельзя восстановить. Файлы, перемещенные в корзину с вкладки «Анализ диска», можно восстановить, пока вы не очистите корзину. Параметры Windows можно вернуть обратно: см. «Инструкция» на вкладке «О программе».
+en: Tidy your Downloads folder
+ru: Наведите порядок в папке «Загрузки»
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+ru: Установщики и старые загрузки накапливаются. Отсортируйте папку по размеру и удалите то, что больше не нужно.
+en: Let cloud files stay in the cloud
+ru: Оставьте облачные файлы в облаке
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+ru: В OneDrive щелкните папку правой кнопкой мыши и выберите «Освободить место». Файлы останутся видны, но будут скачиваться, только когда вы их откроете.
+en: Close programs you are not using
+ru: Закрывайте неиспользуемые программы
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+ru: Перезагрузка очищает память, завершает установку обновлений и позволяет Windows вернуть файл подкачки к обычному размеру.
+en: Turn off apps you do not need at startup
+ru: Отключите ненужные приложения в автозагрузке
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+ru: Когда память заканчивается, Windows увеличивает файл подкачки: это занимает место на диске и может приводить к сбоям программ.
+en: Restart your PC now and then
+ru: Время от времени перезагружайте компьютер
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+ru: Видео, фотографии и старые загрузки можно хранить на другом диске, внешнем диске или в облаке.
+en: Empty the Recycle Bin
+ru: Очистите корзину
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+ru: Удаленные файлы продолжают занимать место, пока корзина не будет очищена. Время от времени проверяйте ее.
+en: Turn on Storage Sense
+ru: Включите «Контроль памяти»
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+ru: Windows может сама удалять временные файлы и старые элементы корзины. Параметры > Система > Память > Контроль памяти.
+en: Uninstall what you no longer use
+ru: Удалите то, чем больше не пользуетесь
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+ru: Когда диск с Windows почти заполнен, Windows замедляется, а обновления могут не устанавливаться.
+en: Move big personal files
+ru: Перенесите большие личные файлы
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+ru: Старые игры и программы часто занимают больше всего места. Параметры > Приложения, затем отсортируйте список по размеру.
+en: Keep 10 to 15 percent free
+ru: Оставляйте свободными от 10 до 15 процентов
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+ru: Папки вроде Windows, WinSxS и Installer при ручной очистке ломают Windows. Вместо этого используйте вкладку «Очистка».
+en: Nothing is deleted until you select it and confirm.
+ru: Ничего не удаляется, пока вы не выберете это и не подтвердите.
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+ru: Диски могут выйти из строя без предупреждения. Храните копию важных файлов на другом диске или в облаке.
+en: Never delete Windows files by hand
+ru: Никогда не удаляйте файлы Windows вручную
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+ru: Элементы очистки затрагивают только кэши, временные файлы и старые файлы обновлений. Ваши документы, фотографии, музыка, видео, рабочий стол и загрузки никогда не очищаются автоматически.
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+ru: Перед измерением, сканированием или очисткой программа предупреждает, если на компьютере мало памяти.
+en: Windows and program files are protected in the Analyze disk tab.
+ru: Файлы Windows и программ защищены на вкладке «Анализ диска».
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+ru: Кэши браузеров и приложений очищаются с сохранением паролей, закладок, истории и входов.
+en: It asks you to close a browser or app before cleaning its cache.
+ru: Программа просит закрыть браузер или приложение перед очисткой его кэша.
+en: Back up what matters
+ru: Делайте резервные копии важного
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+ru: SSD это не нужно. «Оптимизация дисков» в Windows знает разницу, поэтому оставьте ее работать по автоматическому расписанию.
+en: Check disk health once a month
+ru: Проверяйте здоровье дисков раз в месяц
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+ru: Чем меньше приложений запускается вместе с Windows, тем быстрее запуск и больше свободной памяти. Диспетчер задач > Автозагрузка.
+en: Do not defragment an SSD
+ru: Не дефрагментируйте SSD
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+ru: Откройте вкладку «Здоровье диска». При каждом открытии сохраняется показание, поэтому графики истории покажут, если что-то изменится.
+en: Keep your PC cool
+ru: Не давайте компьютеру перегреваться
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+ru: Нагрев сокращает срок службы диска. Жесткие диски должны оставаться ниже примерно 50 °C, а SSD — ниже примерно 70 °C. Держите вентиляционные отверстия чистыми.
+en: Watch for growing bad sectors
+ru: Следите за ростом числа поврежденных секторов
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+ru: Несколько переназначенных или ожидающих секторов — обычное дело. Если их число продолжает расти, создайте резервную копию и планируйте замену диска.
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+ru: Не удалось установить:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+ru: Удалить Disk Cleanup Helper с этого компьютера?<br><br>История очистки останется здесь:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+ru: Disk Cleanup Helper удален с этого компьютера.
+en: Free up disk space safely
+ru: Безопасно освобождает место на диске
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+ru: Не удалось скопировать программу. Если установленная копия Disk Cleanup Helper открыта, сначала закройте ее и повторите попытку.<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+ru: Disk Cleanup Helper установлен.<br><br>Открывайте его из меню «Пуск» или с помощью ярлыка Disk Cleanup Helper на рабочем столе.<br><br>Чтобы удалить его позже: Параметры > Приложения > Disk Cleanup Helper > Удалить.
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+ru: Показан размер корзины на диске с Windows.
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+ru: Очищает корзину на всех дисках. Все, что в ней было, больше нельзя будет восстановить.
+en: $Recycle.Bin on every drive
+ru: $Recycle.Bin на всех дисках
+en: Turn off hibernation
+ru: Отключить гибернацию
+en: Sleep still works normally.
+ru: Спящий режим продолжит работать как обычно.
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+ru: Удаляет файл гибернации, который часто занимает несколько GB. Гибернация и быстрый запуск перестанут работать, поэтому компьютер будет запускаться на несколько секунд дольше.
+en: PC starts a few seconds slower
+ru: Компьютер запускается на несколько секунд дольше
+en: Files in it are gone for good
+ru: Файлы в ней удаляются навсегда
+en: Crash dump files
+ru: Файлы аварийных дампов
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+ru: Ваши настройки и проекты сохранятся. IDE заново проиндексирует проекты при следующем открытии. Сначала закройте IDE JetBrains.
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+ru: Кэши IntelliJ IDEA, PyCharm, WebStorm, Rider и других IDE JetBrains.
+en: Only needed to investigate crashes
+ru: Нужны только для анализа сбоев
+en: Recycle Bin (all drives)
+ru: Корзина (все диски)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+ru: Оставьте их, если кто-то выясняет, почему ваш компьютер дает сбои. В остальных случаях их можно безопасно удалить.
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+ru: Файлы, которые Windows записывает после синего экрана или проблемы с графическим драйвером. Один только MEMORY.DMP может занимать несколько GB.
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+ru: Чтобы отменить это позже, выполните в командной строке от имени администратора:  DISM /Online /Set-ReservedStorageState /State:Enabled
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+ru: Отключение возвращает это место, но если диск заполнится, обновления Windows могут не установиться. Делайте это, только если вы следите, чтобы свободного места было достаточно.
+en: Windows keeps about 7 GB aside so updates always have room to install.
+ru: Windows резервирует около 7 GB, чтобы обновлениям всегда хватало места для установки.
+en: already off
+ru: уже отключено
+en: about 2-4 GB
+ru: около 2-4 GB
+en: Windows setting (Reserved Storage)
+ru: Параметр Windows (зарезервированное хранилище)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+ru: Чтобы отменить это позже, выполните в командной строке от имени администратора:  powercfg /h on
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+ru: hiberfil.sys — скрытый файл Windows. Открывать здесь нечего.
+en: Updates may fail when the disk is full
+ru: Обновления могут не установиться, если диск заполнен
+en: Turn off Reserved Storage
+ru: Отключить зарезервированное хранилище
+en: about 7 GB
+ru: около 7 GB
+en: IDE re-indexes your projects
+ru: IDE заново проиндексирует проекты
+en: Spotify cache and downloads
+ru: Кэш и загрузки Spotify
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+ru: state.vscdb в той же папке хранит ваши чаты, вход и настройки. Эта программа никогда его не трогает.
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+ru: Рабочие данные ИИ-агента Cursor. Могут содержать старую историю чатов с агентом.
+en: Downloaded songs must be downloaded again
+ru: Скачанные песни придется скачать заново
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+ru: Ваша учетная запись и плейлисты в безопасности, но песни, скачанные для прослушивания офлайн, придется скачать заново.
+en: Spotify keeps played and downloaded music here.
+ru: Здесь Spotify хранит прослушанную и скачанную музыку.
+en: {0} and Data
+ru: {0} и Data
+en: May hold old agent chat history
+ru: Может содержать старую историю чатов с агентом
+en: Cursor: AI agent snapshots
+ru: Cursor: снимки ИИ-агента
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+ru: Удаляются только папки, которые не менялись 60 дней. Файлы самих проектов никогда не затрагиваются.
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+ru: Каждая папка хранит то, что VS Code помнит об одном проекте: открытые вкладки, макет и историю чатов с ИИ для этого проекта.
+en: Cannot undo older AI edits
+ru: Старые правки ИИ нельзя будет отменить
+en: Cursor: AI agent data
+ru: Cursor: данные ИИ-агента
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+ru: Вы больше не сможете откатить старые изменения ИИ. Cursor создаст новые копии, когда вы снова воспользуетесь агентом.
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+ru: Копии ваших проектов, которые ИИ-агент Cursor использует для отмены своих правок.
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+ru: Следующей сборке понадобится интернет, и она займет больше времени, пока Gradle заново скачивает их. Сначала закройте Android Studio и другие IDE для Java.
+en: Downloaded libraries and build files for Java and Android projects.
+ru: Скачанные библиотеки и файлы сборки для проектов Java и Android.
+en: Next build downloads everything again
+ru: Следующая сборка скачает все заново
+en: Maven repository
+ru: Репозиторий Maven
+en: JetBrains IDE caches and logs
+ru: Кэши и журналы IDE JetBrains
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+ru: Следующей сборке понадобится интернет, и она займет больше времени, пока Maven заново скачивает их. Библиотеки, которые вы установили сами командой «mvn install», придется установить снова.
+en: Downloaded Java libraries.
+ru: Скачанные библиотеки Java.
+en: Gradle caches
+ru: Кэши Gradle
+en: Adobe media cache (Premiere, After Effects)
+ru: Медиакэш Adobe (Premiere, After Effects)
+en: Close Spotify first.
+ru: Сначала закройте Spotify.
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+ru: Совет: в настройках Spotify можно также уменьшить размер кэша или перенести его на другой диск.
+en: Video previews are rebuilt
+ru: Превью видео создаются заново
+en: Close Adobe apps first.
+ru: Сначала закройте приложения Adobe.
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+ru: Ваши проекты и видео не затрагиваются. Первое открытие проекта после этого будет медленнее, пока превью создаются заново.
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+ru: Файлы превью и аудио, которые создают видеоприложения Adobe. Они могут разрастаться до многих GB.
+en: Compress Windows files (CompactOS)
+ru: Сжать файлы Windows (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+ru: На более медленном жестком диске Docker работает медленнее.
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+ru: Чтобы освободить место на этом диске, перенесите его: Docker Desktop > Settings (значок шестеренки) > Resources > Advanced > Disk image location > выберите папку на другом диске > Apply & restart.
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+ru: Осторожно с «docker volume prune» и «docker system prune --volumes»: они удаляют тома, в которых могут быть базы данных.
+en: Linux (WSL) disks
+ru: Диски Linux (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+ru: Если какая-то из них вам не нужна: Параметры > Приложения > найдите ее > Удалить. При этом удаляется все, что в ней хранится.
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+ru: Каждая система Linux в WSL (например, Ubuntu) хранит все свои файлы в одном файле диска.
+en: Disk files of your WSL Linux systems
+ru: Файлы дисков ваших систем Linux в WSL
+en: Holds all Docker containers, images and volumes. Never delete this file.
+ru: Здесь хранятся все контейнеры, образы и тома Docker. Никогда не удаляйте этот файл.
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+ru: Чтобы освободить место: «Открыть расположение» > выберите диск > Настроить > уменьшите ползунок «Макс. использование» или нажмите «Удалить», чтобы удалить их все.
+en: Restore points let you undo system changes. Windows can use several GB for them.
+ru: Точки восстановления позволяют отменить изменения системы. Windows может занимать под них несколько GB.
+en: System Properties > System Protection
+ru: Свойства системы > Защита системы
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+ru: Чтобы оставить только самую новую: Очистка диска (cleanmgr) > Очистить системные файлы > Дополнительно > Восстановление системы и теневое копирование > Очистить.
+en: Can be moved to another drive
+ru: Можно перенести на другой диск
+en: Docker disk (do not delete)
+ru: Диск Docker (не удалять)
+en: Keep at least one recent restore point if you can.
+ru: По возможности оставьте хотя бы одну недавнюю точку восстановления.
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+ru: - pagefile.sys и swapfile.sys: дополнительная память Windows на диске. Если ее недостаточно, программы аварийно завершаются, когда заканчивается память.
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+ru: pagefile.sys, swapfile.sys, папки Windows Installer и WinSxS
+en: Never delete by hand
+ru: Никогда не удаляйте вручную
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+ru: - Папка Windows Installer: удаляйте файлы только с помощью элемента «Старые файлы обновлений», никогда вручную.
+en: ({0} files)
+ru: ({0} файл) | ({0} файла) | ({0} файлов)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+ru: - Папки приложений, которыми вы пользуетесь, даже если они большие. Их удаление может сломать приложение или привести к потере ваших данных.
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+ru: - Папка WinSxS: очищайте ее только с помощью элементов «Компоненты Windows», никогда вручную.
+en: Leave these alone
+ru: Не трогайте это
+en: Your Downloads folder
+ru: Ваша папка «Загрузки»
+en: If that command is not recognised, run  wsl --update  first.
+ru: Если эта команда не распознается, сначала выполните  wsl --update
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+ru: Чтобы перенести систему на другой диск, выполните в командной строке:  wsl --shutdown   затем   wsl --manage NAME --move D:\WSL\NAME
+en: Your own files: you decide
+ru: Ваши собственные файлы: решать вам
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+ru: Совет: на вкладке «Анализ диска» показаны самые большие файлы на любом диске.
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+ru: Откройте папку, отсортируйте по размеру (Вид > Таблица, затем щелкните столбец «Размер») и удалите то, что больше не нужно.
+en: Files you downloaded. This tool never deletes them here.
+ru: Скачанные вами файлы. Эта программа никогда не удаляет их здесь.
+en: Keep at least the newest one
+ru: Оставьте хотя бы самую новую
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+ru: Контроль памяти встроен в Windows. Он автоматически удаляет временные файлы и старые элементы корзины, чтобы место оставалось свободным.
+en: Settings > System > Storage
+ru: Параметры > Система > Память
+en: Cleans temp files automatically
+ru: Автоматически удаляет временные файлы
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+ru: «Открыть расположение» открывает параметры контроля памяти. Включите его там.
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+ru: Остается после обновления Windows до новой версии. Позволяет в течение ограниченного времени вернуться к предыдущей версии и часто занимает от 10 до 30 GB.
+en: Remove with Windows' own tool
+ru: Удаляйте средствами самой Windows
+en: Previous Windows installation
+ru: Предыдущая установка Windows
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+ru: Собственная функция Microsoft, которая хранит системные файлы Windows в сжатом виде. Обычно освобождает от 2 до 4 GB.
+en: Windows system files on {0}
+ru: Системные файлы Windows на {0}
+en: Built into Windows. Slight CPU cost
+ru: Встроено в Windows. Небольшая нагрузка на процессор
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+ru: На очень медленных или старых компьютерах Windows может стать немного медленнее. На большинстве компьютеров вы этого не заметите.
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+ru: Выполняется в отдельном окне. Это может занять от 10 до 20 минут. Не закрывайте это окно.
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+ru: Чтобы отменить это позже, выполните в командной строке от имени администратора:  compact.exe /compactos:never
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+ru: Выполняется в отдельном окне и может занять от 10 до 20 минут. Если Windows уже сжата, это закончится быстро.
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+ru: Самые большие программы на {0} (оценка размера от самой Windows; «?» = папка установки не записана):
+en: Programs only come off by uninstalling them in Settings > Apps.
+ru: Программы можно убрать, только удалив их в разделе Параметры > Приложения.
+en: "Open location" opens Apps & features.
+ru: «Открыть расположение» открывает «Приложения и возможности».
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+ru: Не показаны программы, установленные на других дисках: {0}. Их удаление не освобождает место на {1}.
+en: System Restore points
+ru: Точки восстановления системы
+en: "{0}" is discontinued and no longer needed.
+ru: Программа «{0}» снята с поддержки и больше не нужна.
+en: You have {0} Java versions installed. Most people only need the newest one.
+ru: Установлено версий Java: {0}. Большинству людей нужна только самая новая.
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+ru: Программы можно убрать, только удалив их в разделе Параметры > Приложения. Нажмите «Измерить размеры», чтобы увидеть здесь самые большие.
+en: "Open location" opens the Storage settings.
+ru: «Открыть расположение» открывает раздел «Память» в параметрах.
+en: After that you can no longer go back to the previous Windows version.
+ru: После этого вернуться к предыдущей версии Windows будет нельзя.
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+ru: Удалите ее средствами самой Windows: Параметры > Система > Память > Временные файлы > отметьте «Предыдущие установки Windows» > Удалить файлы.
+en: see details
+ru: см. подробности
+en: Settings > Apps > Apps & features
+ru: Параметры > Приложения > Приложения и возможности
+en: Uninstall the ones you do not use
+ru: Удалите те, которыми не пользуетесь
+en: Biggest installed programs
+ru: Самые большие установленные программы
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+ru: Файлы шейдеров, которые Windows и драйвер видеокарты сохраняют, чтобы игры и приложения запускались быстрее.
+en: {0} and similar
+ru: {0} и подобные
+en: Games may stutter once while they rebuild
+ru: Игры могут один раз подтормаживать, пока кэш создается заново
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+ru: Они создаются заново автоматически. Первый запуск игры после этого может немного подтормаживать.
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+ru: Временные файлы, оставленные программами. Удаляются только файлы старше 1 дня, чтобы не мешать идущим сейчас установкам.
+en: Files in use are skipped
+ru: Используемые файлы пропускаются
+en: Your temp files (older than 1 day)
+ru: Ваши временные файлы (старше 1 дня)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+ru: Графические кэши (DirectX, NVIDIA, AMD, Intel)
+en: Deletes only Discord's cache folders.
+ru: Удаляет только папки кэша Discord.
+en: Keeps login and messages
+ru: Вход и сообщения сохраняются
+en: Discord cache
+ru: Кэш Discord
+en: Close Discord first, including its icon near the clock.
+ru: Сначала закройте Discord, включая его значок возле часов.
+en: Close Slack first, including its icon near the clock.
+ru: Сначала закройте Slack, включая его значок возле часов.
+en: Deletes only Slack's cache folders.
+ru: Удаляет только папки кэша Slack.
+en: Slack cache
+ru: Кэш Slack
+en: Old problem reports
+ru: Старые отчеты о проблемах
+en: Windows error reports
+ru: Отчеты об ошибках Windows
+en: The Windows Update service is stopped for a moment and started again.
+ru: Служба Центра обновления Windows ненадолго останавливается и снова запускается.
+en: {0} and your own WER folder
+ru: {0} и ваша собственная папка WER
+en: Recent logs are kept
+ru: Недавние журналы сохраняются
+en: Old Windows log files (older than 14 days)
+ru: Старые файлы журналов Windows (старше 14 дней)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+ru: Отчеты, которые Windows сохранила о программах, завершившихся сбоем. Они не нужны после отправки или когда проблема устранена.
+en: If an update is still waiting to install, Windows downloads it again.
+ru: Если обновление еще ожидает установки, Windows скачает его снова.
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+ru: Временные файлы, оставленные Windows и установщиками. Удаляются только файлы старше 1 дня.
+en: Windows temp files (older than 1 day)
+ru: Временные файлы Windows (старше 1 дня)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+ru: Показан размер всей папки. Самые новые файлы остаются, поэтому освободится немного меньше.
+en: Windows Update downloads
+ru: Загрузки Центра обновления Windows
+en: Update files Windows already downloaded. Installed updates are not affected.
+ru: Файлы обновлений, которые Windows уже скачала. Установленные обновления не затрагиваются.
+en: {0} and the Delivery Optimization cache
+ru: {0} и кэш оптимизации доставки
+en: Installed updates are not affected
+ru: Установленные обновления не затрагиваются
+en: Close Teams first, including its icon near the clock.
+ru: Сначала закройте Teams, включая его значок возле часов.
+en: Keeps passwords, favorites, logins
+ru: Пароли, избранное и входы сохраняются
+en: Microsoft Edge cache
+ru: Кэш Microsoft Edge
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+ru: Сначала закройте все окна Chrome. Если возле часов есть значок Chrome, щелкните его правой кнопкой мыши и выберите «Выход».
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+ru: Удаляет только папки кэша Edge во всех профилях, а также его графические кэши.
+en: Deletes only Brave's cache folders in every profile.
+ru: Удаляет только папки кэша Brave во всех профилях.
+en: Brave cache
+ru: Кэш Brave
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+ru: Edge часто продолжает работать в фоне. Если программа сообщает, что он все еще запущен: в Edge откройте Настройки > Система и производительность > отключите «Ускорение запуска» и «Продолжить работу фоновых расширений и приложений».
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+ru: Удаляет только папки кэша Chrome во всех профилях, а также его графические кэши.
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+ru: СОХРАНЯЕТ: пароли, закладки, историю, файлы cookie и входы на сайты, автозаполнение, расширения, настройки, установленные веб-приложения.
+en: Could not stop {0}: {1}
+ru: Не удалось остановить {0}: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+ru: При первом открытии страницы загружаются немного медленнее. Очень редко сайт может попросить войти снова, и браузер подставит сохраненный пароль.
+en: Keeps passwords, bookmarks, logins
+ru: Пароли, закладки и входы сохраняются
+en: Google Chrome cache
+ru: Кэш Google Chrome
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+ru: СОХРАНЯЕТ: ваш вход, сообщения, настройки и файлы. Приложение заново скачает то, что ему нужно.
+en: Close Opera first.
+ru: Сначала закройте Opera.
+en: Deletes only Opera's cache folder.
+ru: Удаляет только папку кэша Opera.
+en: {0} (and Opera GX)
+ru: {0} (и Opera GX)
+en: Microsoft Teams cache
+ru: Кэш Microsoft Teams
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+ru: Удаляет только папки кэша Teams. Microsoft рекомендует это, когда Teams работает медленно или ведет себя странно.
+en: Teams cache folders (new Teams and classic Teams)
+ru: Папки кэша Teams (новый и классический Teams)
+en: Keeps login, chats, files
+ru: Вход, чаты и файлы сохраняются
+en: Opera cache
+ru: Кэш Opera
+en: Deletes only Vivaldi's cache folders in every profile.
+ru: Удаляет только папки кэша Vivaldi во всех профилях.
+en: Vivaldi cache
+ru: Кэш Vivaldi
+en: Close Brave first.
+ru: Сначала закройте Brave.
+en: Close Vivaldi first.
+ru: Сначала закройте Vivaldi.
+en: Close Firefox first.
+ru: Сначала закройте Firefox.
+en: Deletes only Firefox's cache folder in every profile.
+ru: Удаляет только папку кэша Firefox во всех профилях.
+en: Firefox cache
+ru: Кэш Firefox
+en: {0} and {1}
+ru: {0} и {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+ru: Очистка безопасна. Этот кэш нужен Windows только для удаления отдельного обновления.
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+ru: Резервная копия, которую Windows хранит, чтобы обновление отдельной программы можно было удалить позже без исходного установщика.
+en: Low risk
+ru: Низкий риск
+en: when run
+ru: при запуске
+en: {0} (Microsoft DISM tool)
+ru: {0} (средство DISM от Microsoft)
+en: Safe, often frees little
+ru: Безопасно, часто освобождает мало
+en: Windows components: normal cleanup
+ru: Компоненты Windows: обычная очистка
+en: Windows patch backup cache
+ru: Кэш резервных копий исправлений Windows
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+ru: Удаленные файлы перечислены в deleted-update-files.csv (папку см. на вкладке «О программе»).
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+ru: Удаляются только файлы обновлений, которые Windows помечает как замененные более новым обновлением. Для каждой программы сохраняются 3 самых новых, а файлы, которые еще используются, никогда не удаляются.
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+ru: Некоторые программы хранят каждое когда-либо установленное обновление. Обычно это Adobe Acrobat Reader: от 0.1 до 0.7 GB на обновление.
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+ru: Небольшой риск: если будущее обновление или восстановление этой программы сообщит об отсутствующем файле, удалите и заново установите эту программу.
+en: Found on this PC: nothing to remove.
+ru: Найдено на этом компьютере: удалять нечего.
+en: Found on this PC:
+ru: Найдено на этом компьютере:
+en: Never delete files in the Windows Installer folder by hand.
+ru: Никогда не удаляйте файлы в папке Windows Installer вручную.
+en: If you tick both Windows components items, only this one runs.
+ru: Если отметить оба элемента «Компоненты Windows», будет выполнен только этот.
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+ru: После этого установленные сейчас обновления Windows больше нельзя будет удалить. Используйте это, только если Windows работает нормально.
+en: Same as the normal cleanup, but also removes every replaced version.
+ru: То же, что обычная очистка, но также удаляет все замененные версии.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+ru: Выполняется в отдельном окне и занимает от 5 до 30 минут. Не закрывайте это окно и не выключайте компьютер.
+en: {0} (folders unused for 60+ days)
+ru: {0} (папки, не используемые 60+ дней)
+en: Lose old projects' tabs, layout, AI chats
+ru: Теряются вкладки, макет и чаты с ИИ старых проектов
+en: VS Code: data of projects not opened in 60 days
+ru: VS Code: данные проектов, не открывавшихся 60 дней
+en: {0} (Microsoft DISM tool, /ResetBase)
+ru: {0} (средство DISM от Microsoft, /ResetBase)
+en: Windows already does this by itself every few weeks, so it often frees very little.
+ru: Windows и так делает это сама раз в несколько недель, поэтому часто освобождается совсем мало.
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+ru: Выполняется в отдельном окне и занимает от 5 до 30 минут. Не закрывайте это окно и не выключайте компьютер. На ноутбуке подключите зарядное устройство.
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+ru: Собственная очистка Microsoft от старых версий компонентов Windows. Безопасно.
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+ru: Никогда не удаляйте ничего в WinSxS вручную. Это ломает Windows.
+en: Installed updates cannot be uninstalled after
+ru: Установленные обновления потом нельзя удалить
+en: Windows components: deep cleanup
+ru: Компоненты Windows: глубокая очистка
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+ru: Выполняется в отдельном окне. Это может занять от 5 до 30 минут. Не закрывайте это окно.
+en: {0} (files picked from Windows' own records)
+ru: {0} (файлы выбраны по записям самой Windows)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+ru: Скачанные пакеты .NET. NuGet скачает их снова при необходимости.
+en: NuGet download cache
+ru: Кэш загрузок NuGet
+en: Downloaded Python packages. pip downloads them again when needed.
+ru: Скачанные пакеты Python. pip скачает их снова при необходимости.
+en: Go build cache
+ru: Кэш сборки Go
+en: Composer cache
+ru: Кэш Composer
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+ru: Скомпилированные файлы, которые язык Go хранит для ускорения сборки. Go создаст их заново при следующей сборке.
+en: Rebuilt on the next build
+ru: Создаются заново при следующей сборке
+en: pip cache
+ru: Кэш pip
+en: npm cache
+ru: Кэш npm
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+ru: Удаляются только файлы старше 14 дней. Недавние журналы остаются на случай, если что-то понадобится исправить.
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+ru: Файлы журналов, которые Windows записывает при установке обновлений. На некоторых компьютерах они разрастаются до нескольких GB.
+en: Packages download again when needed
+ru: Пакеты скачиваются снова при необходимости
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+ru: Скачанные пакеты Yarn (для разработчиков на Node.js). Yarn скачает их снова при необходимости.
+en: Yarn cache
+ru: Кэш Yarn
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+ru: Скачанные пакеты npm (для разработчиков на Node.js). npm скачает их снова, когда они понадобятся проекту.
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+ru: Папки кэша и отчеты о сбоях Cursor. Cursor создаст их заново.
+en: Keeps settings, chats, login
+ru: Настройки, чаты и вход сохраняются
+en: Cursor cache and crash reports
+ru: Кэш и отчеты о сбоях Cursor
+en: KEEPS: settings, chats, login and projects.
+ru: СОХРАНЯЕТ: настройки, чаты, вход и проекты.
+en: Programs stay installed. Small risk
+ru: Программы остаются установленными. Небольшой риск
+en: Old update files of installed programs (keeps newest 3)
+ru: Старые файлы обновлений установленных программ (3 новейших остаются)
+en: Close Cursor first.
+ru: Сначала закройте Cursor.
+en: Close VS Code first.
+ru: Сначала закройте VS Code.
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+ru: Скачанные пакеты Rust. Cargo скачает их снова при необходимости.
+en: Cargo download cache
+ru: Кэш загрузок Cargo
+en: Downloaded PHP packages. Composer downloads them again when needed.
+ru: Скачанные пакеты PHP. Composer скачает их снова при необходимости.
+en: VS Code cache and crash reports
+ru: Кэш и отчеты о сбоях VS Code
+en: KEEPS: settings, extensions, projects, project history and chats.
+ru: СОХРАНЯЕТ: настройки, расширения, проекты, историю проектов и чаты.
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+ru: Папки кэша и отчеты о сбоях Visual Studio Code. VS Code создаст их заново.
+en: Keeps settings, extensions, projects
+ru: Настройки, расширения и проекты сохраняются
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+ru: Сводка
+en: Transfer rate MB/s   (blue = read, orange = write)
+ru: Скорость передачи, MB/s   (синий = чтение, оранжевый = запись)
+en: Disk activity %
+ru: Активность диска, %
+en: Average transfer rate (since this tab opened)
+ru: Средняя скорость передачи (с открытия вкладки)
+en: Read since Windows started
+ru: Прочитано с запуска Windows
+en: Average disk activity
+ru: Средняя активность диска
+en: Highest transfer rate seen
+ru: Наибольшая замеченная скорость передачи
+en: now
+ru: сейчас
+en: READ
+ru: ЧТЕНИЕ
+en: Right now
+ru: Прямо сейчас
+en: Saved today's disk health and temperature reading to the history.
+ru: Сегодняшние показания здоровья и температуры дисков сохранены в историю.
+en: WRITE
+ru: ЗАПИСЬ
+en: 2 minutes ago
+ru: 2 минуты назад
+en: DISK ACTIVITY
+ru: АКТИВНОСТЬ ДИСКА
+en: TOTAL TRANSFER
+ru: ВСЕГО ПЕРЕДАНО
+en: Written since Windows started
+ru: Записано с запуска Windows
+en: This disk has no drive letter, so the speed test cannot write its test file.
+ru: У этого диска нет буквы, поэтому тест скорости не может записать тестовый файл.
+en: Pick a disk first.
+ru: Сначала выберите диск.
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+ru: Последний тест {0}: запись {1} MB/s, чтение {2} MB/s, случайное чтение 4K {3} MB/s.
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+ru: Для теста скорости на диске {0} нужно не менее 2 GB свободного места.
+en: Speed test started on drive {0}.
+ru: Тест скорости запущен на диске {0}.
+en: Running...
+ru: Выполняется...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+ru: Тест скорости запишет тестовый файл размером {0} MB на диск {1}, считает его и удалит.<br>Это займет от 10 до 60 секунд. Другие программы в это время могут работать медленнее.<br><br>Запустить тест скорости?
+en: not reported by this disk
+ru: этот диск не сообщает
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+ru: Измеряет реальную скорость записи и чтения диска: записывает временный тестовый файл, считывает его, затем читает небольшие случайные фрагменты и удаляет файл. Нажмите «Проверить скорость» вверху.
+en: Speed test
+ru: Тест скорости
+en: Written over the disk's whole life
+ru: Записано за весь срок службы диска
+en: Not run yet.
+ru: Еще не запускался.
+en: Disk {0}: {1}
+ru: Диск {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+ru: Счетчики активности дисков Windows недоступны на этом компьютере: {0}
+en: Getting disk activity ready...
+ru: Подготовка данных об активности диска...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+ru: В первый раз Windows может понадобиться несколько секунд, чтобы запустить счетчики активности дисков.
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+ru: Для сравнения: жесткие диски ноутбуков достигают примерно от 80 до 140 MB/s, SATA SSD — около 500 MB/s, а NVMe SSD — от 1,500 до 7,000 MB/s.
+en: Raw value
+ru: Сырое значение
+en: Unexpected power losses
+ru: Внезапные отключения питания
+en: Spare space left
+ru: Остаток резервного пространства
+en: Rated write life used
+ru: Использовано ресурса записи
+en: ✓ No problems found.
+ru: ✓ Проблем не найдено.
+en: From Windows' storage information.
+ru: По данным Windows о накопителях.
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+ru: Прочитано из журнала состояния самого SSD (NVMe). Полный список — на вкладке «Данные SMART».
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+ru: Прочитано из данных самоконтроля диска (SMART). Полный список — на вкладке «Данные SMART».
+en: Data read over its life
+ru: Прочитано за срок службы
+en: Powered on
+ru: Время работы
+en: TEMPERATURE
+ru: ТЕМПЕРАТУРА
+en: needs admin
+ru: нужны права админа
+en: {0} hours  (about {1} days)
+ru: {0} ч  (около {1} дн.)
+en: Data written over its life
+ru: Записано за срок службы
+en: {0} times
+ru: {0} раз(а)
+en: Turned on
+ru: Включался
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+ru: Этот диск не передает Windows подробные данные о здоровье (обычно так бывает с USB-корпусами и RAID).
+en: No.
+ru: №
+en: Status
+ru: Состояние
+en: Value
+ru: Значение
+en: Attribute
+ru: Атрибут
+en: Data
+ru: Данные
+en: Worst
+ru: Наихудшее
+en: Threshold
+ru: Порог
+en: Item
+ru: Параметр
+en: Temperature history
+ru: История температуры
+en: Health history
+ru: История здоровья
+en: Start the tool with admin rights to read health and temperature.
+ru: Запустите программу с правами администратора, чтобы читать здоровье и температуру.
+en: No readings saved yet.
+ru: Показания еще не сохранялись.
+en: Offset
+ru: Смещение
+en: {0} readings since {1}.
+ru: Показаний с {1}: {0}.
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+ru: Пока 1 показание, от {0}. Графики будут расти по мере сохранения новых показаний.
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+ru: Запись {0:N0} MB/s     Чтение {1:N0} MB/s     Случайное чтение 4K {2:N1} MB/s ({3:N0} в секунду)
+en: This item has no folder to open.
+ru: У этого элемента нет папки, которую можно открыть.
+en: Stopping...
+ru: Остановка...
+en: Could not open the read me: {0}
+ru: Не удалось открыть инструкцию: {0}
+en: Pick a drive first.
+ru: Сначала выберите диск.
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+ru: Нужны права администратора. Запустите программу снова и нажмите «Да» в запросе Windows.
+en: Select a file in the list first.
+ru: Сначала выберите файл в списке.
+en: Scan a drive first.
+ru: Сначала просканируйте диск.
+en: No questions match your search.
+ru: Нет вопросов, соответствующих запросу.
+en: Simple habits that keep your disk from filling up and your PC running well.
+ru: Простые привычки, которые не дают диску переполняться и помогают компьютеру хорошо работать.
+en: Tips
+ru: Советы
+en: SAFETY
+ru: БЕЗОПАСНОСТЬ
+en: How Disk Cleanup Helper keeps you safe
+ru: Как Disk Cleanup Helper обеспечивает вашу безопасность
+en: Search the questions, for example "temperature"
+ru: Поиск по вопросам, например «температура»
+en: Click a question to see the answer.
+ru: Щелкните вопрос, чтобы увидеть ответ.
+en: Frequently asked questions
+ru: Часто задаваемые вопросы
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+ru: Запущена собственная проверка ошибок Windows для {0} в отдельном окне. Она только читает диск и занимает несколько минут. Результат смотрите в этом окне.
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+ru: Показаны только элементы, найденные на этом компьютере. Нажмите «Измерить размеры», чтобы узнать, сколько занимает каждый. Ничего не удаляется без вашего подтверждения.
+en: Not running as administrator. Items marked Admin are disabled.
+ru: Запущено не от имени администратора. Элементы с пометкой «Админ» отключены.
+en: Running as administrator. All items are available.
+ru: Запущено от имени администратора. Доступны все элементы.
+en: Tip: the About tab can install it, so it appears in the Start menu.
+ru: Совет: на вкладке «О программе» ее можно установить, чтобы она появилась в меню «Пуск».
+en: Saved a health and temperature reading for {0} disks to the history.
+ru: Показания здоровья и температуры сохранены в историю. Дисков: {0}.
+en: {0} files were in use and were skipped.
+ru: {0} файл использовался и был пропущен. | {0} файла использовались и были пропущены. | {0} файлов использовались и были пропущены.
+en: {0} items
+ru: {0} элемент | {0} элемента | {0} элементов
+en: My user folder only
+ru: Только моя папка пользователя
+en: Install: not installed
+ru: Установка: не установлено
+en: Install: installed in {0}
+ru: Установка: установлено в {0}
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+ru: Показания еще не сохранялись.<br><br>История будет сохраняться здесь:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+ru: Очистка еще не выполнялась.<br><br>История будет сохраняться здесь:<br>{0}
+en: Whole drive
+ru: Весь диск
+en: Could not open System Information: {0}
+ru: Не удалось открыть «Сведения о системе»: {0}
+en: Could not open dxdiag: {0}
+ru: Не удалось открыть dxdiag: {0}
+en: SPEED
+ru: СКОРОСТЬ
+en: Wait until the details have been read.
+ru: Дождитесь, пока сведения будут считаны.
+en: Read at {0}. It stays on this PC unless you copy or save it.
+ru: Считано {0}. Сведения остаются на этом компьютере, если вы их не скопируете и не сохраните.
+en: Could not read the device details: {0}
+ru: Не удалось считать сведения об устройстве: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+ru: Сведения об устройстве скопированы. Вставьте их, куда нужно, например в сообщение тому, кто вам помогает.
+en: Text file
+ru: Текстовый файл
+en: Save the device details
+ru: Сохранить сведения об устройстве
+en: Could not copy: {0}
+ru: Не удалось скопировать: {0}
+en: Reading...
+ru: Чтение...
+en: Speed test: {0}
+ru: Тест скорости: {0}
+en: Speed test finished.
+ru: Тест скорости завершен.
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+ru: Проверка файлом {0} MB, {1}. Результат сохранен, чтобы можно было сравнить позже.
+en: Speed test stopped. The test file was deleted.
+ru: Тест скорости остановлен. Тестовый файл удален.
+en: Reading this PC's details...
+ru: Чтение сведений об этом компьютере...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+ru: Сбор сведений о Windows, процессоре, памяти, графике и другом. Это займет несколько секунд.
+en: The speed test could not finish. See the log below.
+ru: Тест скорости не удалось завершить. См. журнал ниже.
+en: Stopped.
+ru: Остановлено.
+en: Saved the device details to {0}
+ru: Сведения об устройстве сохранены в {0}
+en: Philip Droubi | Software Engineer
+ru: Philip Droubi | Инженер-программист
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+ru: Инженер-программист. Вопросы, идеи и отзывы о Disk Cleanup Helper приветствуются.
+en: Made by Philip Droubi
+ru: Автор: Philip Droubi
+en: Philip Droubi is a Software Engineer.
+ru: Philip Droubi — инженер-программист.
+en: SPACE
+ru: МЕСТО
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+ru: Инженер-программист. Свяжитесь с Philip Droubi в LinkedIn.
+en: Source code on GitHub
+ru: Исходный код на GitHub
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+ru: Бесплатно и с открытым кодом под лицензией GNU GPL v3: используйте, изменяйте, делитесь. В копиях сохраняется имя Philip Droubi.
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+ru: © {0} Philip Droubi. Свободная программа: вы можете использовать, изменять и распространять ее под лицензией GNU General Public License v3 с дополнительными условиями из файла NOTICE. Никаких гарантий не предоставляется.
+en: License and terms
+ru: Лицензия и условия
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+ru: Эта копия ({0}) — не та, что установлена на этом компьютере. Обновите установленную копию, чтобы меню «Пуск» открывало эту версию.
+en: Repair shortcuts
+ru: Восстановить ярлыки
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+ru: Установлено в {0}. Открывайте в любое время из меню «Пуск» или с помощью ярлыка на рабочем столе. Чтобы удалить: нажмите «Удалить» или Параметры > Приложения > Disk Cleanup Helper.
+en: Could not save the file: {0}
+ru: Не удалось сохранить файл: {0}
+en: Update installed copy
+ru: Обновить установленную копию
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+ru: Оставьте Disk Cleanup Helper на этом компьютере: установите программу, чтобы открывать ее из меню «Пуск» и с рабочего стола. Права администратора не нужны.
+en: Install on this PC
+ru: Установить на компьютер
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+ru: Не установлено. Вы запускаете программу из {0}. Установка добавит пункт в меню «Пуск», ярлык на рабочем столе и запись в разделе Параметры > Приложения, чтобы программу можно было удалить, как любую другую. Права администратора не нужны.
+en: not reported
+ru: не сообщается
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+ru: Эта программа никогда не удаляет этот элемент. Нажмите «Открыть расположение» и выполните шаги выше.
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+ru: Нужны права администратора. Запустите программу снова и нажмите «Да» в запросе Windows, чтобы использовать этот элемент.
+en: Close first: {0}
+ru: Сначала закройте: {0}
+en: Measure anyway?
+ru: Все равно измерить?
+en: Measuring stopped.
+ru: Измерение остановлено.
+en: Measuring {0} of {1}: {2}
+ru: Измерение {0} из {1}: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+ru: Измерение размеров. Это может занять минуту-две. Нажмите «Остановить», чтобы прервать.
+en: Where
+ru: Где
+en: Problem: {0}
+ru: Проблема: {0}
+en: Clean selected ({0})
+ru: Очистить выбранное ({0})
+en: up to {0}
+ru: до {0}
+en: Close {0} first
+ru: Сначала закройте {0}
+en: Size: not measured yet
+ru: Размер: еще не измерен
+en: Size: {0}
+ru: Размер: {0}
+en: Admin
+ru: Админ
+en: Done. Select what you want to clean.
+ru: Готово. Выберите, что нужно очистить.
+en: Cleanup started. Free space on {0}: {1}
+ru: Очистка начата. Свободно на {0}: {1}
+en: Confirm cleanup
+ru: Подтверждение очистки
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+ru: Будет очищено следующее. Удаленные файлы не попадают в корзину, и их нельзя восстановить:<br><br>{0}<br><br>Продолжить?
+en: Stopped. Not cleaned: {0}
+ru: Остановлено. Не очищено: {0}
+en: Error: {0}
+ru: Ошибка: {0}
+en: Cleaning: {0}
+ru: Очистка: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+ru: Готово. Свободное место на {0} увеличилось на {1}. Сейчас свободно {2}.
+en: Clean anyway?
+ru: Все равно очистить?
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+ru: Совет: некоторые приложения продолжают работать возле часов. Щелкните там их значок правой кнопкой мыши и выберите «Выход» или «Выйти».
+en: Select at least one item first.
+ru: Сначала выберите хотя бы один элемент.
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+ru: Готово. Щелкните элемент, чтобы прочитать о нем, выберите нужное и нажмите «Очистить выбранное».
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+ru: Edge часто работает в фоне: в Edge откройте Настройки > Система и производительность > отключите ускорение запуска и фоновые приложения.
+en: Nothing left to clean. Close the programs and try again.
+ru: Очищать больше нечего. Закройте программы и повторите попытку.
+en: Close programs first
+ru: Сначала закройте программы
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+ru: Эти программы еще открыты:<br><br>{0}<br><br>{1}<br><br>Нажмите «Нет», закройте их, затем снова нажмите «Очистить».<br>Или нажмите «Да», чтобы пропустить элементы, которым они нужны, и очистить остальное.
+en: Clean selected
+ru: Очистить выбранное
+en: Switches that free space or keep it free.
+ru: Переключатели, которые освобождают место или помогают держать его свободным.
+en: Windows settings
+ru: Параметры Windows
+en: YOUR CALL
+ru: РЕШАТЬ ВАМ
+en: SETTING
+ru: НАСТРОЙКА
+en: INFO ONLY
+ru: ТОЛЬКО СВЕДЕНИЯ
+en: The tool only shows and opens these. It never deletes them.
+ru: Программа только показывает и открывает эти элементы. Она никогда их не удаляет.
+en: Do it yourself
+ru: Сделайте сами
+en: You lose something small. Read each one before you select it.
+ru: Вы теряете что-то небольшое. Прочитайте описание каждого элемента, прежде чем выбрать его.
+en: SAFE
+ru: БЕЗОПАСНО
+en: TOTAL
+ru: ВСЕГО
+en: {0} selected
+ru: Выбрано: {0}
+en: Caches and temp files. Programs rebuild them by themselves.
+ru: Кэши и временные файлы. Программы сами создают их заново.
+en: Safe to clean
+ru: Безопасная очистка
+en: Old installer files and Windows cleanup
+ru: Старые файлы установщиков и очистка Windows
+en: Your call
+ru: Решать вам
+en: ADMIN
+ru: АДМИН
+en: Needs admin rights. Read each one before you select it.
+ru: Нужны права администратора. Прочитайте описание каждого элемента, прежде чем выбрать его.
+en: Language
+ru: Язык
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+ru: На компьютере сейчас мало памяти:<br><br>  Доступно памяти: {0:N1} GB<br>  Осталось с учетом файла подкачки: {1:N1} GB<br><br>Нехватка памяти может приводить к сбоям программ, а на некоторых компьютерах — к синему экрану.<br>Закройте ненужные программы (браузеры, редакторы, игры) и повторите попытку.
+en: Switched to the light theme.
+ru: Включена светлая тема.
+en: Switched to the dark theme.
+ru: Включена темная тема.
+en: Low memory
+ru: Мало памяти
+en: nothing selected
+ru: ничего не выбрано
+en: low: close some programs
+ru: мало: закройте часть программ
+en: of {0} GB
+ru: из {0} GB
+en: Switch to the dark theme
+ru: Включить темную тему
+en: Please wait until the current task finishes, or click Stop.
+ru: Дождитесь завершения текущей задачи или нажмите «Остановить».
+en: Scan {0} for errors
+ru: Проверить {0} на ошибки
+en: {0} FREE (WINDOWS DRIVE)
+ru: {0} СВОБОДНО (ДИСК WINDOWS)
+en: Could not restart the app: {0}
+ru: Не удалось перезапустить программу: {0}
+en: Switch to the light theme
+ru: Включить светлую тему
+en: DARK MODE
+ru: ТЕМНЫЙ РЕЖИМ
+en: LIGHT MODE
+ru: СВЕТЛЫЙ РЕЖИМ
+en: Removed {0}. Left: {1}.
+ru: Удалено: {0}. Осталось: {1}.
+en: Storage Spaces
+ru: Дисковые пространства
+en: Virtual
+ru: Виртуальный
+en: Disk
+ru: Диск
+en: Too hot
+ru: Перегрев
+en: Could not read disks: {0}
+ru: Не удалось прочитать диски: {0}
+en: Normal
+ru: Норма
+en: Warm
+ru: Теплый
+en: Poor
+ru: Плохо
+en: Healthy
+ru: Исправен
+en: Unknown
+ru: Неизвестно
+en: Windows: problem
+ru: Windows: проблема
+en: Warning
+ru: Предупреждение
+en: Fair
+ru: Средне
+en: Good
+ru: Хорошо
+en: Problem
+ru: Проблема
+en: Checking disks...
+ru: Проверка дисков...
+en: Reading each disk's health and temperature. This takes a few seconds.
+ru: Чтение здоровья и температуры каждого диска. Это займет несколько секунд.
+en: Waiting for the current task to finish. The disks are checked right after that.
+ru: Ожидание завершения текущей задачи. Сразу после этого диски будут проверены.
+en: (health {0}%)
+ru: (здоровье {0}%)
+en: SMART attributes
+ru: Атрибуты SMART
+en: NVMe health log
+ru: Журнал состояния NVMe
+en: {0}% used
+ru: использовано {0}%
+en: HEALTH
+ru: ЗДОРОВЬЕ
+en: Almost full: Windows and apps slow down when a drive is this full.
+ru: Почти заполнен: при такой заполненности диска Windows и приложения работают медленнее.
+en: {0} free of {1}
+ru: свободно {0} из {1}
+en: Start the tool with admin rights to read the disks' SMART data.
+ru: Запустите программу с правами администратора, чтобы читать данные SMART дисков.
+en: Windows did not report any disks.
+ru: Windows не сообщила ни об одном диске.
+en: Disks
+ru: Диски
+en: Drives
+ru: Разделы
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+ru: Здоровье в % — это оценка программы по собственным данным каждого диска. Другие программы используют свои формулы, поэтому их числа могут немного отличаться. Показание сохраняется каждый раз, когда вы открываете эту вкладку или запускаете программу (не чаще чем раз в 30 минут), так что можно следить за здоровьем и температурой со временем.
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+ru: Ни один из дисков не передает Windows данные SMART. Обычно так бывает с USB-корпусами и RAID.
+en: Disk check finished.
+ru: Проверка дисков завершена.
+en: A disk reports a problem. Back up your important files now.
+ru: Один из дисков сообщает о проблеме. Создайте резервную копию важных файлов прямо сейчас.
+en: Windows: warning
+ru: Windows: предупреждение
+en: Stopped. Results are incomplete.
+ru: Остановлено. Результаты неполные.
+en: Scanning... {0:N0} folders and {1:N0} files so far
+ru: Сканирование... Пока папок: {0:N0}, файлов: {1:N0}
+en: Scanning {0}. Click Stop to stop.
+ru: Сканирование {0}. Нажмите «Остановить», чтобы прервать.
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+ru: Сканирование остановлено. Показаны самые большие файлы, найденные на данный момент. Размеры папок показываются только после завершенного сканирования.
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+ru: Примечание: папка Windows может выглядеть больше, чем на самом деле, потому что Windows хранит некоторые файлы сразу в двух местах.
+en: {0:N0} folders could not be read (Windows protects them).
+ru: Не удалось прочитать папок: {0:N0} (их защищает Windows).
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+ru: Готово за {0:N0} с: папок — {1:N0}, файлов — {2:N0}.
+en: Scanning {0} ...
+ru: Сканирование {0} ...
+en: (files directly in this folder)
+ru: (файлы непосредственно в этой папке)
+en: Scan a drive to see its biggest folders.
+ru: Просканируйте диск, чтобы увидеть самые большие папки.
+en: Free space on {0} grew by {1}.
+ru: Свободное место на {0} увеличилось на {1}.
+en: Biggest files
+ru: Самые большие файлы
+en: Scan anyway?
+ru: Все равно сканировать?
+en: That drive or folder is not available.
+ru: Этот диск или папка недоступны.
+en: Biggest files ({0} found)
+ru: Самые большие файлы (найдено: {0})
+en: Select one or more files in the list first. Hold Ctrl to select several.
+ru: Сначала выберите один или несколько файлов в списке. Удерживайте Ctrl, чтобы выбрать несколько.
+en: Could not remove {0}: {1}
+ru: Не удалось удалить {0}: {1}
+en: Moved to Recycle Bin: {0} ({1})
+ru: Перемещено в корзину: {0} ({1})
+en: Deleted file: {0} ({1})
+ru: Удален файл: {0} ({1})
+en: Files deleted: {0}.
+ru: Удалено файлов: {0}.
+en: Windows: OK
+ru: =
+en: {0} could not be removed (in use or protected).
+ru: Не удалось удалить: {0} (используется или защищено).
+en: Files moved to the Recycle Bin: {0}.
+ru: Перемещено в корзину файлов: {0}.
+en: Move to Recycle Bin
+ru: Переместить в корзину
+en: They will be deleted permanently and cannot be restored.
+ru: Они будут удалены безвозвратно, и их нельзя будет восстановить.
+en: ... and {0} more
+ru: ... и еще {0}
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+ru: Это файлы Windows, программ или системы, и они защищены:<br><br>{0}<br><br>Вместо этого удалите программу или воспользуйтесь вкладкой «Очистка».
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+ru: Они будут перемещены в корзину. Место освободится только после очистки корзины.
+en: Delete permanently
+ru: Удалить безвозвратно
+en: Make sure you do not need them. Continue?
+ru: Убедитесь, что они вам не нужны. Продолжить?
+en: Files: {0}, {1} in total.
+ru: Файлов: {0}, всего {1}.
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+ru: Проверить диски снова
+en: Disk health
+ru: Здоровье диска
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+ru: Удерживайте Ctrl, чтобы выбрать несколько файлов. Файлы Windows и программ защищены, и удалить их здесь нельзя.
+en: Scan for errors
+ru: Проверить на ошибки
+en: Open history file
+ru: Открыть файл истории
+en: Windows storage settings
+ru: Параметры памяти Windows
+en: Optimize drives
+ru: Оптимизация дисков
+en: Modified
+ru: Изменен
+en: Up
+ru: Вверх
+en: Biggest folders
+ru: Самые большие папки
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+ru: Выберите диск и нажмите «Сканировать». Весь диск может сканироваться несколько минут.
+en: Folder
+ru: Папка
+en: File
+ru: Файл
+en: Double-click a folder to look inside.
+ru: Дважды щелкните папку, чтобы заглянуть внутрь.
+en: Open in File Explorer
+ru: Открыть в проводнике
+en: SMART details
+ru: Данные SMART
+en: About
+ru: О программе
+en: Tips & FAQ
+ru: Советы и вопросы
+en: System Information
+ru: Сведения о системе
+en: Read me
+ru: Инструкция
+en: Cleanup history
+ru: История очистки
+en: Uninstall
+ru: Удалить
+en: DirectX Diagnostic (dxdiag)
+ru: Диагностика DirectX (dxdiag)
+en: Run speed test
+ru: Проверить скорость
+en: Disk performance
+ru: Скорость диска
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+ru: Необработанные данные, которые каждый диск сообщает о себе. «Внимание» означает, что за значением стоит следить. «Отказ» означает, что значение ниже порога безопасности самого диска.
+en: Live activity updates every second while this tab is open.
+ru: Активность обновляется каждую секунду, пока эта вкладка открыта.
+en: Save as text file
+ru: Сохранить как текст
+en: Copy all
+ru: Копировать все
+en: Read again
+ru: Считать заново
+en: Scan
+ru: Сканировать
+en: English
+ru: =
+en: 0 items
+ru: 0 элементов
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+ru: Запущено не от имени администратора, поэтому элементы с пометкой «Админ» отключены. Чтобы использовать их, закройте это окно, запустите программу снова и нажмите «Да» в запросе Windows.
+en: Measure sizes
+ru: Измерить размеры
+en: Clean up
+ru: Очистка
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+ru: Узнайте, чем заняты ваши диски, и безопасно освободите место. Ничего не удаляется без вашего подтверждения.
+en: Disk Cleanup Helper
+ru: =
+en: C: FREE
+ru: C: СВОБОДНО
+en: SELECTED TO CLEAN
+ru: ВЫБРАНО ДЛЯ ОЧИСТКИ
+en: MEMORY AVAILABLE
+ru: ДОСТУПНО ПАМЯТИ
+en: Stop
+ru: Остановить
+en: Analyze disk
+ru: Анализ диска
+en: Open location
+ru: Открыть расположение
+en: Drive
+ru: Диск
+en: List files bigger than
+ru: Показывать файлы больше
+en: Look in
+ru: Где искать
+en: Clear selection
+ru: Снять выделение
+en: Select all safe
+ru: Выбрать безопасные
+en: Click Measure sizes to see how much each item uses.
+ru: Нажмите «Измерить размеры», чтобы узнать, сколько занимает каждый элемент.
+en: to see what it is, where it is, and what you keep or lose.
+ru: чтобы узнать, что это, где находится и что вы сохраните или потеряете.
+en: Click an item
+ru: Щелкните элемент,
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+ru: Не удалось записать тестовый файл. Диск заполнен?
+en: Reading it back...
+ru: Чтение файла...
+en: Writing a {0} MB test file...
+ru: Запись тестового файла размером {0} MB...
+en: Could not create the test file in {0}.
+ru: Не удалось создать тестовый файл в {0}.
+en: Could not open the test file.
+ru: Не удалось открыть тестовый файл.
+en: Not enough memory for the speed test.
+ru: Недостаточно памяти для теста скорости.
+en: Reading small random blocks...
+ru: Чтение небольших случайных блоков...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+ru: Для Disk Cleanup Helper требуется Windows 10 или Windows 11.
+en: Disk Cleanup Helper could not start:<br><br>{0}
+ru: Не удалось запустить Disk Cleanup Helper:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+ru: Что-то пошло не так:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+ru: =
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+ru: Как работают обновления?
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+ru: Когда выходит новая версия, программа скачивает ее в фоне и проверяет: ее SHA256 и номер версии должны совпадать с данными выпуска. Затем появится панель с кнопкой «Перезапустить сейчас». Если выбрать «Позже», обновление установится, когда вы закроете программу. Автоматическую проверку можно отключить на вкладке «О программе»; кнопка «Проверить обновления» там по-прежнему работает.
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+ru: Нет. Она не отправляет никаких сведений о вашем компьютере. Единственное подключение — это запрос к GitHub, есть ли новая версия, не чаще одного раза в день. Это можно отключить на вкладке «О программе».
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+ru: Программа не отправляет никаких сведений о вашем компьютере. Она только спрашивает у GitHub, есть ли новая версия, и это можно отключить на вкладке «О программе». История очистки сохраняется только на этом компьютере.
+en: Update check: version {0} is the newest.
+ru: Проверка обновлений: версия {0} — самая новая.
+en: Downloading version {0}... {1}%
+ru: Скачивание версии {0}... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+ru: Доступна версия {0}. Это сборка для разработчиков, поэтому она не обновляется сама.
+en: Update check: version {0} is available.
+ru: Проверка обновлений: доступна версия {0}.
+en: Downloading version {0}...
+ru: Скачивание версии {0}...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+ru: Обновление нельзя установить здесь, потому что эту папку нельзя изменить: {0}
+en: The update was not downloaded: {0}
+ru: Обновление не скачано: {0}
+en: Later
+ru: Позже
+en: This is a developer build, so it does not update itself.
+ru: Это сборка для разработчиков, поэтому она не обновляется сама.
+en: What's new in version {0}:
+ru: Что нового в версии {0}:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+ru: Версия {0} установлена, но ее не удалось запустить: {1}<br><br>Запустите Disk Cleanup Helper снова.
+en: No details were given for this version.
+ru: Подробности для этой версии не указаны.
+en: Version {0} is downloaded and checked (SHA256 and version number).
+ru: Версия {0} скачана и проверена (SHA256 и номер версии).
+en: The update could not be downloaded: {0}
+ru: Не удалось скачать обновление: {0}
+en: Version {0} is ready. Restart to update.
+ru: Версия {0} готова. Перезапустите программу для обновления.
+en: This is version {0}. It has not checked for updates yet.
+ru: Это версия {0}. Проверка обновлений еще не выполнялась.
+en: You have the latest version ({0}). Last checked: {1}.
+ru: У вас самая новая версия ({0}). Последняя проверка: {1}.
+en: Version {0} is installed.
+ru: Версия {0} установлена.
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+ru: Эта копия находится в папке, которую нельзя изменить:<br>{0}<br><br>Откроется страница выпуска, чтобы вы могли скачать версию {1} и заменить эту копию вручную.
+en: The update could not be installed: {0}
+ru: Не удалось установить обновление: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+ru: Доступна версия {0}. Нажмите «Проверить обновления», чтобы скачать ее.
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+ru: Не удалось установить обновление. Эта копия продолжает работать как прежде.<br><br>{0}
+en: Updated to version {0}.
+ru: Программа обновлена до версии {0}.
+en: Update check: {0}
+ru: Проверка обновлений: {0}
+en: Could not check for updates: {0}
+ru: Не удалось проверить обновления: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+ru: Не удалось подключиться к GitHub. Проверьте подключение к интернету и повторите попытку.
+en: Checking for updates...
+ru: Проверка обновлений...
+en: Update check: could not reach GitHub.
+ru: Проверка обновлений: не удалось подключиться к GitHub.
+en: Check for updates
+ru: Проверить обновления
+en: Check for updates when the app starts
+ru: Проверять обновления при запуске программы
+en: What's new
+ru: Что нового
+en: Restart now
+ru: Перезапустить сейчас
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+ru: Бесплатный помощник для Windows 10 и 11, который показывает, чем заняты ваши диски, и безопасно освобождает место. Не отправляет никаких сведений о вашем компьютере. Ничего не удаляется без вашего подтверждения.
+en: Updates
+ru: Обновления
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+ru: Обновления поступают со страницы программы на GitHub. Каждая новая версия проверяется (SHA256 и номер версии), прежде чем заменить эту.
+en: Version {0} has no {1} file.
+ru: В версии {0} нет файла {1}.
+en: Version {0} has a download address that is not on github.com.
+ru: Адрес скачивания версии {0} находится не на github.com.
+en: Version {0} has no SHA256 line in its release text.
+ru: В тексте выпуска версии {0} нет строки SHA256.
+en: GitHub's answer could not be read.
+ru: Не удалось прочитать ответ GitHub.
+en: The newest release has an unreadable version number: {0}
+ru: У самого нового выпуска нечитаемый номер версии: {0}
+en: The download came from an unexpected address: {0}
+ru: Файл скачан с неожиданного адреса: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+ru: Скачанный файл не является программой Disk Cleanup Helper.
+en: The downloaded file is version {0}, not {1}.
+ru: Скачанный файл имеет версию {0}, а не {1}.
+en: The downloaded file does not match the SHA256 in the release text.
+ru: Скачанный файл не совпадает с SHA256 из текста выпуска.
+en: The downloaded file has an unexpected size ({0}).
+ru: У скачанного файла неожиданный размер ({0}).
+en: The download took too long.
+ru: Скачивание заняло слишком много времени.

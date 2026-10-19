@@ -1,0 +1,1789 @@
+# Disk Cleanup Helper - ur
+# Copyright (C) 2026 Philip Droubi - GNU GPL v3 with additional terms (section 7): see LICENSE and NOTICE.
+# Rules: see docs/DEVELOPING.md, section "Translation rules".
+@name = اردو
+@rtl = yes
+
+# ---- Common/*.cs
+en: Could not run {0}: {1}
+ur: {0} نہیں چلایا جا سکا: {1}
+
+# ---- Device/DeviceInfoReader.cs, Device/DeviceReport.cs
+en: also {0}
+ur: نیز {0}
+en: GRAPHICS
+ur: گرافکس
+en: Wireless (Miracast)
+ur: وائرلیس (Miracast)
+en: Built-in screen
+ur: بلٹ ان اسکرین
+en: This driver is from {0}. A newer one from the PC maker or the chip maker can fix crashes, blue screens and display problems.
+ur: یہ ڈرائیور {0} کا ہے۔ PC بنانے والی کمپنی یا چپ بنانے والی کمپنی کا نیا ڈرائیور کریش، بلیو اسکرین اور ڈسپلے کے مسائل ٹھیک کر سکتا ہے۔
+en: {0} × {1} at {2} Hz
+ur: {0} × {1}، {2} Hz
+en: Showing now
+ur: ابھی دکھائی جا رہی ہے
+en: Windows reports a problem with this device (code {0}). Reinstall its driver from the PC maker's or the chip maker's website.
+ur: Windows اس ڈیوائس میں مسئلہ بتاتا ہے (کوڈ {0})۔ PC بنانے والی کمپنی یا چپ بنانے والی کمپنی کی ویب سائٹ سے اس کا ڈرائیور دوبارہ انسٹال کریں۔
+en: No proper graphics driver is installed. Install the driver from the PC maker or the graphics chip maker for a sharper, faster picture.
+ur: کوئی مناسب گرافکس ڈرائیور انسٹال نہیں ہے۔ زیادہ صاف اور تیز تصویر کے لیے PC بنانے والی کمپنی یا گرافکس چپ بنانے والی کمپنی کا ڈرائیور انسٹال کریں۔
+en: Screens
+ur: اسکرینیں
+en: Made in
+ur: تیاری کا سال
+en: Connection
+ur: کنکشن
+en: Health, temperature and SMART data are in the Disk health and SMART details tabs.
+ur: صحت، درجہ حرارت اور SMART ڈیٹا "ڈسک کی صحت" اور "SMART تفصیلات" ٹیبز میں ہیں۔
+en: Storage
+ur: اسٹوریج
+en: {0} inches
+ur: {0} انچ
+en: {0}  (main screen)
+ur: {0}  (مرکزی اسکرین)
+en: Screen {0}
+ur: اسکرین {0}
+en: Refresh rate
+ur: ریفریش ریٹ
+en: Resolution
+ur: ریزولوشن
+en: The memory is almost full right now ({0}% in use). Close programs you do not need. A PC that runs out of memory gets slow and can crash.
+ur: میموری اس وقت تقریباً بھری ہوئی ہے ({0}% استعمال میں)۔ جن پروگراموں کی ضرورت نہیں انہیں بند کریں۔ جس PC کی میموری ختم ہو جائے وہ سست ہو جاتا ہے اور کریش ہو سکتا ہے۔
+en: Part number
+ur: پارٹ نمبر
+en: This PC reports a free memory slot. Adding a memory stick of the same type ({0}) is usually a cheap way to make it faster.
+ur: یہ PC ایک خالی میموری سلاٹ بتاتا ہے۔ اسی قسم ({0}) کی میموری اسٹک لگانا عام طور پر اسے تیز کرنے کا سستا طریقہ ہے۔
+en: {0} is little for Windows 10 and 11 today. 8 GB or more makes a big difference.
+ur: آج کل Windows 10 اور 11 کے لیے {0} کم ہے۔ <ltr>8 GB</ltr> یا اس سے زیادہ سے بڑا فرق پڑتا ہے۔
+en: Size
+ur: سائز
+en: Memory promised to programs
+ur: پروگراموں کے لیے مختص میموری
+en: None. Programs can crash when the memory is full.
+ur: کوئی نہیں۔ میموری بھر جانے پر پروگرام کریش ہو سکتے ہیں۔
+en: Module {0}
+ur: ماڈیول {0}
+en: {0} GB of {1} GB  (memory plus page file)
+ur: {1} GB میں سے {0} GB  (میموری اور پیج فائل)
+en: This PC reports a free memory slot. Adding a memory stick of the same type is usually a cheap way to make it faster.
+ur: یہ PC ایک خالی میموری سلاٹ بتاتا ہے۔ اسی قسم کی میموری اسٹک لگانا عام طور پر اسے تیز کرنے کا سستا طریقہ ہے۔
+en: 4 GB or more
+ur: <ltr>4 GB</ltr> یا زیادہ
+en: Graphics
+ur: گرافکس
+en: Driver
+ur: ڈرائیور
+en: Graphics memory
+ur: گرافکس میموری
+en: {0}% in use now
+ur: ابھی {0}% استعمال میں
+en: Both memory slots are in use. To get more memory, swap the sticks for bigger ones ({0}). 16 GB in total is a good size today.
+ur: دونوں میموری سلاٹ استعمال میں ہیں۔ زیادہ میموری کے لیے اسٹکس کو بڑی اسٹکس ({0}) سے بدلیں۔ آج کل مجموعی طور پر <ltr>16 GB</ltr> اچھا سائز ہے۔
+en: The only memory slot is in use. To get more memory, swap the stick for a bigger one ({0}). 16 GB in total is a good size today.
+ur: واحد میموری سلاٹ استعمال میں ہے۔ زیادہ میموری کے لیے اسٹک کو بڑی اسٹک ({0}) سے بدلیں۔ آج کل مجموعی طور پر <ltr>16 GB</ltr> اچھا سائز ہے۔
+en: MEMORY
+ur: میموری
+en: All {0} memory slots are in use. To get more memory, swap the sticks for bigger ones ({1}). 16 GB in total is a good size today.
+ur: تمام {0} میموری سلاٹ استعمال میں ہیں۔ زیادہ میموری کے لیے اسٹکس کو بڑی اسٹکس ({1}) سے بدلیں۔ آج کل مجموعی طور پر <ltr>16 GB</ltr> اچھا سائز ہے۔
+en: Adapter
+ur: اڈاپٹر
+en: Network adapters
+ur: نیٹ ورک اڈاپٹرز
+en: connected at {0}
+ur: {0} کی رفتار سے منسلک
+en: turned off
+ur: بند
+en: The battery holds only {0}% of what it held when new. A new battery gives much longer time away from the charger.
+ur: بیٹری اب نئی بیٹری کی گنجائش کا صرف {0}% رکھتی ہے۔ نئی بیٹری چارجر سے دور کہیں زیادہ وقت دیتی ہے۔
+en: Lithium-ion
+ur: لیتھیم آئن
+en: Kind
+ur: قسم
+en: Nickel-metal hydride
+ur: نکل میٹل ہائیڈرائیڈ
+en: Lithium-polymer
+ur: لیتھیم پولیمر
+en: connected
+ur: منسلک
+en: {0} minutes
+ur: {0} منٹ | {0} منٹ
+en: {0}  ·  Windows reports a problem (code {1})
+ur: {0}  ·  Windows مسئلہ بتاتا ہے (کوڈ {1})
+en: {0} days
+ur: {0} دن | {0} دن
+en: {0} hours
+ur: {0} گھنٹہ | {0} گھنٹے
+en: Built in
+ur: بلٹ ان
+en: Sound
+ur: آواز
+en: not connected
+ur: منسلک نہیں
+en: Through the screen (HDMI or DisplayPort)
+ur: اسکرین کے ذریعے (HDMI یا DisplayPort)
+en: Added by a program
+ur: کسی پروگرام نے شامل کیا
+en: Battery
+ur: بیٹری
+en: All disks together
+ur: تمام ڈسکیں ملا کر
+en: plugged in, charging
+ur: پلگ لگا ہے، چارج ہو رہی ہے
+en: on battery
+ur: بیٹری پر
+en: drive {0}
+ur: ڈرائیو {0}
+en: Storage class memory
+ur: اسٹوریج کلاس میموری
+en: Hard disk
+ur: ہارڈ ڈسک
+en: Disk {0}
+ur: ڈسک {0}
+en: SD card
+ur: SD کارڈ
+en: plugged in, full
+ur: پلگ لگا ہے، پوری چارج
+en: {0}%  (holds {1} Wh, it held {2} Wh when new)
+ur: {0}%  (اب {1} Wh رکھتی ہے، نئی حالت میں {2} Wh رکھتی تھی)
+en: Battery health
+ur: بیٹری کی صحت
+en: Charge cycles
+ur: چارج سائیکل
+en: Start the tool with admin rights to read it
+ur: اسے پڑھنے کے لیے ٹول کو ایڈمن حقوق کے ساتھ شروع کریں
+en: {0} h {1} min  (Windows' estimate)
+ur: {0} گھنٹے {1} منٹ  (Windows کا اندازہ)
+en: Charge now
+ur: موجودہ چارج
+en: plugged in
+ur: پلگ لگا ہے
+en: Time left
+ur: باقی وقت
+en: {0}%, {1}
+ur: {0}%، {1}
+en: , size set by hand
+ur: ، سائز دستی
+en: Server
+ur: سرور
+en: Desktop
+ur: ڈیسک ٹاپ
+en: Windows
+ur: =
+en: Workstation
+ur: ورک اسٹیشن
+en: All-in-one
+ur: آل ان ون
+en: Laptop that folds into a tablet (2-in-1)
+ur: ٹیبلیٹ میں بدلنے والا لیپ ٹاپ (2 ان 1)
+en: Laptop
+ur: لیپ ٹاپ
+en: Tablet
+ur: ٹیبلیٹ
+en: Tablet with a detachable keyboard (2-in-1)
+ur: الگ ہونے والے کی بورڈ کے ساتھ ٹیبلیٹ (2 ان 1)
+en: Edition
+ur: ایڈیشن
+en: Last update installed
+ur: آخری انسٹال شدہ اپ ڈیٹ
+en: Installed or last big update
+ur: انسٹالیشن یا آخری بڑی اپ ڈیٹ
+en: Running since
+ur: چلنا شروع ہوا
+en: {0}  ({1})
+ur: {0}  ·  {1}
+en: 32-bit
+ur: 32 بٹ
+en: Build
+ur: بلڈ
+en: Version
+ur: ورژن
+en: 64-bit
+ur: 64 بٹ
+en: 64-bit, for ARM processors
+ur: 64 بٹ، ARM پروسیسرز کے لیے
+en: Computer name
+ur: کمپیوٹر کا نام
+en: Type
+ur: قسم
+en: BIOS
+ur: =
+en: Motherboard
+ur: مدر بورڈ
+en: Model
+ur: ماڈل
+en: Read on {0}
+ur: {0} کو پڑھا گیا
+en: Device details
+ur: ڈیوائس کی تفصیلات
+en: Maker
+ur: بنانے والا
+en: This PC
+ur: یہ PC
+en: Start-up mode
+ur: اسٹارٹ اپ موڈ
+en: Not found, or turned off in the BIOS
+ur: نہیں ملا، یا BIOS میں بند ہے
+en: Security chip (TPM)
+ur: سیکیورٹی چپ (TPM)
+en: TPM {0}, turned off
+ur: TPM {0}، بند
+en: TPM {0}, on
+ur: TPM {0}، آن
+en: Not available with Legacy BIOS
+ur: Legacy BIOS کے ساتھ دستیاب نہیں
+en: Secure Boot
+ur: =
+en: Legacy BIOS
+ur: =
+en: Off
+ur: بند
+en: On
+ur: آن
+en: Soldered on the board
+ur: بورڈ پر سولڈر شدہ
+en: SO-DIMM (laptop size)
+ur: SO-DIMM (لیپ ٹاپ سائز)
+en: Installed
+ur: نصب شدہ
+en: Memory (RAM)
+ur: میموری (RAM)
+en: DIMM (desktop size)
+ur: DIMM (ڈیسک ٹاپ سائز)
+en: Off in the BIOS
+ur: BIOS میں بند
+en: On in the BIOS
+ur: BIOS میں آن
+en: PROCESSOR
+ur: پروسیسر
+en: Socket
+ur: ساکٹ
+en: {0}  ({1} GB usable by Windows)
+ur: {0}  ·  {1} GB Windows کے لیے قابل استعمال
+en: {0}, {1}  ({2} in use, highest {3})
+ur: {0}، {1}  ·  {2} استعمال میں، سب سے زیادہ {3}
+en: {0} of {1} used
+ur: {1} میں سے {0} استعمال شدہ
+en: , size managed by Windows
+ur: ، سائز Windows کے زیر انتظام
+en: Page file
+ur: پیج فائل
+en: Memory slots
+ur: میموری سلاٹس
+en: {0} GB of {1} GB  ({2}%)
+ur: {1} GB میں سے {0} GB  ·  {2}%
+en: In use now
+ur: ابھی استعمال میں
+en: Module type
+ur: ماڈیول کی قسم
+en: Type and speed
+ur: قسم اور رفتار
+en: WINDOWS
+ur: Windows
+en: Windows has been running for {0} days without a restart. Shutting down does not fully restart Windows when Fast Startup is on, so use Restart now and then: it finishes updates and frees memory.
+ur: Windows {0} دن سے ری اسٹارٹ کیے بغیر چل رہا ہے۔ جب فاسٹ اسٹارٹ اپ (Fast Startup) آن ہو تو بند کرنے سے Windows پوری طرح دوبارہ شروع نہیں ہوتا، اس لیے کبھی کبھار "دوبارہ شروع کریں" استعمال کریں: اس سے اپ ڈیٹس مکمل ہوتی ہیں اور میموری خالی ہوتی ہے۔
+en: Processor
+ur: پروسیسر
+en: build {0}
+ur: بلڈ {0}
+en: Windows has not installed an update since {0}. Open Settings > Windows Update and check for updates: they fix security holes and crashes.
+ur: Windows نے {0} سے کوئی اپ ڈیٹ انسٹال نہیں کی۔ ترتیبات > Windows Update کھولیں اور اپ ڈیٹس چیک کریں: یہ سیکیورٹی کی خامیاں اور کریش ٹھیک کرتی ہیں۔
+en: Region format
+ur: علاقائی فارمیٹ
+en: Display language
+ur: ڈسپلے کی زبان
+en: DirectX
+ur: =
+en: Time zone
+ur: ٹائم زون
+en: Name
+ur: نام
+en: Busy right now
+ur: ابھی مصروف
+en: Cache
+ur: کیشے
+en: In use (by Hyper-V, WSL, Docker or Windows security features)
+ur: استعمال میں (Hyper-V، WSL، Docker یا Windows کی سیکیورٹی خصوصیات کے ذریعے)
+en: Virtualization
+ur: ورچوئلائزیشن
+en: Base speed
+ur: بنیادی رفتار
+en: Cores
+ur: کورز
+en: Made by
+ur: بنانے والا
+en: ({0} processors)
+ur: (پروسیسرز: {0})
+en: {0} cores, {1} threads
+ur: {0} کورز، {1} تھریڈز
+
+# ---- Cleanup/Finders.cs
+en: (unnamed program)
+ur: (بے نام پروگرام)
+
+# ---- Disks/DiskHealth.cs, Disks/DiskHealthReader.cs
+en: Vendor specific
+ur: بنانے والے کے لیے مخصوص
+en: {0} data errors were found on the SSD.
+ur: SSD پر {0} ڈیٹا خرابی ملی۔ | SSD پر {0} ڈیٹا خرابیاں ملیں۔
+en: {0} bad sectors were replaced by spare sectors (reallocated).
+ur: {0} خراب سیکٹر کو اضافی سیکٹر سے بدل دیا گیا (reallocated)۔ | {0} خراب سیکٹرز کو اضافی سیکٹرز سے بدل دیا گیا (reallocated)۔
+en: The disk itself predicts that it will fail soon. Back up your files now.
+ur: ڈسک خود پیش گوئی کر رہی ہے کہ وہ جلد خراب ہو جائے گی۔ ابھی اپنی فائلوں کا بیک اپ لیں۔
+en: Failing
+ur: ناکام
+en: OK (no limit)
+ur: ٹھیک (کوئی حد نہیں)
+en: {0} sector reallocation events.
+ur: سیکٹر ری ایلوکیشن کا {0} واقعہ۔ | سیکٹر ری ایلوکیشن کے {0} واقعات۔
+en: The disk needed {0} retries to spin up.
+ur: گھومنا شروع کرنے کے لیے ڈسک کو {0} بار دوبارہ کوشش کرنی پڑی۔
+en: {0} internal data path errors.
+ur: اندرونی ڈیٹا پاتھ کی {0} خرابی۔ | اندرونی ڈیٹا پاتھ کی {0} خرابیاں۔
+en: {0} transfer errors between the disk and the PC were counted. These usually come from a loose or bad cable and do not harm the disk.
+ur: ڈسک اور PC کے درمیان منتقلی کی خرابیاں: {0}۔ یہ عام طور پر ڈھیلی یا خراب کیبل سے ہوتی ہیں اور ڈسک کو نقصان نہیں پہنچاتیں۔
+en: {0} sectors are unstable and waiting to be checked (pending). Keep a backup of your files and watch whether this number grows.
+ur: جانچ کے منتظر غیر مستحکم (pending) سیکٹرز: {0}۔ اپنی فائلوں کا بیک اپ رکھیں اور دیکھتے رہیں کہ یہ تعداد بڑھتی ہے یا نہیں۔
+en: {0} sectors could not be read or fixed (uncorrectable).
+ur: ناقابل اصلاح (uncorrectable) سیکٹرز جو نہ پڑھے جا سکے نہ ٹھیک ہو سکے: {0}۔
+en: {0} read errors the disk could not correct.
+ur: پڑھنے کی وہ خرابیاں جنہیں ڈسک درست نہیں کر سکی: {0}۔
+en: Warning flags set
+ur: انتباہی نشان موجود
+en: Hot
+ur: گرم
+en: Below threshold
+ur: حد سے نیچے
+en: Windows reports a warning for this disk.
+ur: Windows اس ڈسک کے لیے انتباہ بتاتا ہے۔
+en: Windows reports this disk as unhealthy.
+ur: Windows اس ڈسک کو غیر صحت مند بتاتا ہے۔
+en: OK
+ur: ٹھیک
+en: Near end of rated life
+ur: مقررہ عمر کے اختتام کے قریب
+en: The SSD has switched to read-only mode to protect your data.
+ur: آپ کے ڈیٹا کو بچانے کے لیے SSD صرف پڑھنے کے موڈ (read-only) میں چلی گئی ہے۔
+en: The SSD reports that it has been too hot.
+ur: SSD بتاتی ہے کہ وہ بہت زیادہ گرم ہو چکی ہے۔
+en: SMART attribute {0} is below its safety limit. Back up your files now.
+ur: SMART خصوصیت {0} اپنی حفاظتی حد سے نیچے ہے۔ ابھی اپنی فائلوں کا بیک اپ لیں۔
+en: Watch
+ur: توجہ طلب
+en: Spare space is below the safe level ({0}% left). Back up your files now.
+ur: اضافی جگہ محفوظ سطح سے نیچے ہے ({0}% باقی)۔ ابھی اپنی فائلوں کا بیک اپ لیں۔
+en: The SSD reports that its reliability is degraded. Back up your files now.
+ur: SSD بتاتی ہے کہ اس کی قابل اعتمادی کم ہو گئی ہے۔ ابھی اپنی فائلوں کا بیک اپ لیں۔
+
+# ---- UI/HelpContent.cs
+en: What does the health percentage mean?
+ur: صحت کے فیصد کا کیا مطلب ہے؟
+en: It is an estimate from the disk's own self-monitoring data (SMART, or the health log on NVMe SSDs). 100% means no problems or wear were found. It is tuned to land close to tools like Hard Disk Sentinel, but every tool uses its own formula, so numbers can differ slightly.
+ur: یہ ڈسک کے اپنے خود نگرانی کے ڈیٹا (SMART، یا NVMe SSD میں صحت لاگ) سے لگایا گیا اندازہ ہے۔ 100% کا مطلب ہے کہ کوئی مسئلہ یا گھساؤ نہیں ملا۔ اسے Hard Disk Sentinel جیسے ٹولز کے قریب رکھنے کے لیے ترتیب دیا گیا ہے، لیکن ہر ٹول اپنا فارمولا استعمال کرتا ہے، اس لیے نمبروں میں تھوڑا فرق ہو سکتا ہے۔
+en: Why does the Windows folder look so big in Analyze disk?
+ur: Windows فولڈر "ڈسک کا تجزیہ" میں اتنا بڑا کیوں نظر آتا ہے؟
+en: Windows keeps some files in two places at once, so they are counted twice when sizes are added up. The real size is smaller. Never delete anything in the Windows folder by hand.
+ur: Windows کچھ فائلیں ایک ہی وقت میں دو جگہ رکھتا ہے، اس لیے سائز جوڑتے وقت وہ دو بار گنی جاتی ہیں۔ اصل سائز کم ہے۔ Windows فولڈر میں کبھی بھی ہاتھ سے کچھ حذف نہ کریں۔
+en: My SSD shows less than 100% health. Should I worry?
+ur: میری SSD کی صحت 100% سے کم دکھائی دیتی ہے۔ کیا مجھے فکر کرنی چاہیے؟
+en: They are small spots the disk could not read reliably. Reallocated sectors have already been replaced by spare ones. Pending sectors are waiting to be checked. A few are common on older disks. If the numbers keep growing, back up your files and consider replacing the disk.
+ur: یہ ڈسک کے چھوٹے حصے ہیں جنہیں وہ قابل اعتماد طریقے سے نہیں پڑھ سکی۔ دوبارہ مختص (Reallocated) سیکٹرز پہلے ہی اضافی سیکٹرز سے بدل دیے گئے ہیں۔ زیر التوا (Pending) سیکٹرز جانچ کے منتظر ہیں۔ پرانی ڈسکوں میں چند ایسے سیکٹرز عام ہیں۔ اگر تعداد بڑھتی رہے تو اپنی فائلوں کا بیک اپ لیں اور ڈسک بدلنے پر غور کریں۔
+en: What temperature is normal for a disk?
+ur: ڈسک کے لیے کون سا درجہ حرارت نارمل ہے؟
+en: SSDs wear a little with every write, and the health shows how much of the rated write life is used. Many SSDs keep working well past their rating. Keep backups, and plan to replace the SSD when health gets low or problems appear.
+ur: SSD ہر بار لکھنے پر تھوڑی گھستی ہے، اور صحت بتاتی ہے کہ لکھنے کی مقررہ عمر کا کتنا حصہ استعمال ہو چکا ہے۔ بہت سی SSD اپنی مقررہ حد کے بعد بھی اچھی طرح کام کرتی رہتی ہیں۔ بیک اپ رکھیں، اور جب صحت کم ہو جائے یا مسائل ظاہر ہوں تو SSD بدلنے کا منصوبہ بنائیں۔
+en: What are pending and reallocated sectors?
+ur: زیر التوا (Pending) اور دوبارہ مختص (Reallocated) سیکٹرز کیا ہیں؟
+en: Caches refill as you use your browser and apps, Windows downloads new updates, and when memory runs low Windows grows its page file. Cleaning again every few weeks, turning on Storage Sense and closing unused programs keeps it under control.
+ur: براؤزر اور ایپس استعمال کرتے ہوئے کیشے دوبارہ بھر جاتے ہیں، Windows نئی اپ ڈیٹس ڈاؤن لوڈ کرتا ہے، اور میموری کم ہونے پر Windows اپنی پیج فائل بڑی کر دیتا ہے۔ ہر چند ہفتوں بعد دوبارہ صفائی کرنا، اسٹوریج سینس آن کرنا اور غیر استعمال شدہ پروگرام بند کرنا اسے قابو میں رکھتا ہے۔
+en: Is it safe to clean what this app suggests?
+ur: کیا اس ایپ کی تجویز کردہ چیزیں صاف کرنا محفوظ ہے؟
+en: Items in the "Safe to clean" group are caches and temporary files that programs rebuild by themselves. Items in "Your call" remove something small, so read them first. Items marked "Info only" are never deleted by the app; it only shows them and opens their location.
+ur: "صاف کرنے کے لیے محفوظ" گروپ کے آئٹمز کیشے اور عارضی فائلیں ہیں جنہیں پروگرام خود دوبارہ بنا لیتے ہیں۔ "آپ کا فیصلہ" کے آئٹمز کوئی چھوٹی چیز ہٹاتے ہیں، اس لیے پہلے انہیں پڑھیں۔ "صرف معلومات" والے آئٹمز ایپ کبھی حذف نہیں کرتی؛ وہ صرف انہیں دکھاتی ہے اور ان کا مقام کھولتی ہے۔
+en: It never follows folder links into other folders.
+ur: یہ کبھی فولڈر لنکس کے ذریعے دوسرے فولڈرز میں نہیں جاتا۔
+en: Will cleaning my browser cache log me out of websites?
+ur: کیا براؤزر کیشے صاف کرنے سے میں ویب سائٹس سے لاگ آؤٹ ہو جاؤں گا؟
+en: Files that are in use are skipped. Temp cleanup keeps files from the last day. And the Windows component cleanup can only be measured while it runs. The log at the bottom shows exactly what was removed.
+ur: استعمال میں موجود فائلیں چھوڑ دی جاتی ہیں۔ عارضی فائلوں کی صفائی پچھلے ایک دن کی فائلیں رکھتی ہے۔ اور Windows اجزاء کی صفائی کا سائز صرف اس کے چلتے وقت ناپا جا سکتا ہے۔ نیچے والا لاگ ٹھیک ٹھیک دکھاتا ہے کہ کیا ہٹایا گیا۔
+en: Why does my free space go down again after cleaning?
+ur: صفائی کے بعد میری خالی جگہ دوبارہ کم کیوں ہو جاتی ہے؟
+en: No. The cache cleanup keeps cookies, saved passwords, bookmarks and history. Very rarely a site may ask you to log in again, and your browser fills in the saved password.
+ur: نہیں۔ کیشے کی صفائی کوکیز، محفوظ کردہ پاس ورڈز، بک مارکس اور سرگزشت برقرار رکھتی ہے۔ بہت کم ایسا ہوتا ہے کہ کوئی سائٹ دوبارہ لاگ ان کرنے کو کہے، اور آپ کا براؤزر محفوظ کردہ پاس ورڈ خود بھر دیتا ہے۔
+en: Why did I get back less space than the size shown?
+ur: مجھے دکھائے گئے سائز سے کم جگہ واپس کیوں ملی؟
+en: Open the Device details tab. It shows what Windows' DirectX Diagnostic Tool (dxdiag) shows, and also the memory slots, the page file, the screens and the battery health. Click "Copy all" or "Save as text file" to send the details to someone who helps you.
+ur: "ڈیوائس کی تفصیلات" ٹیب کھولیں۔ یہ وہی دکھاتا ہے جو Windows کا DirectX تشخیصی ٹول (dxdiag) دکھاتا ہے، اور ساتھ میں میموری سلاٹس، پیج فائل، اسکرینیں اور بیٹری کی صحت بھی۔ تفصیلات اپنی مدد کرنے والے کسی شخص کو بھیجنے کے لیے "سب کاپی کریں" یا "ٹیکسٹ فائل کے طور پر محفوظ کریں" پر کلک کریں۔
+en: Where are my history files saved?
+ur: میری سرگزشت کی فائلیں کہاں محفوظ ہوتی ہیں؟
+en: Hibernation keeps a file as big as part of your memory so the PC can resume where it stopped. Reserved Storage is about 7 GB Windows keeps aside for updates. CompactOS stores Windows files compressed. Each one can free several GB, and each can be switched back later.
+ur: ہائبرنیشن آپ کی میموری کے ایک حصے جتنی بڑی فائل رکھتا ہے تاکہ PC وہیں سے دوبارہ شروع ہو سکے جہاں رکا تھا۔ مخصوص اسٹوریج (Reserved Storage) تقریباً <ltr>7 GB</ltr> ہے جو Windows اپ ڈیٹس کے لیے الگ رکھتا ہے۔ CompactOS Windows فائلوں کو کمپریس کر کے رکھتا ہے۔ ہر ایک کئی GB خالی کر سکتا ہے، اور ہر ایک کو بعد میں واپس بدلا جا سکتا ہے۔
+en: Where can I see my PC's details, like the Windows version, processor, memory and graphics?
+ur: میں اپنے PC کی تفصیلات، جیسے Windows کا ورژن، پروسیسر، میموری اور گرافکس، کہاں دیکھ سکتا ہوں؟
+en: In your user folder: %LOCALAPPDATA%\DiskCleanupHelper. It holds the cleanup history, the disk health and temperature history, and the speed test results. Open them from the About and Disk health tabs.
+ur: آپ کے یوزر فولڈر میں: <ltr>%LOCALAPPDATA%\DiskCleanupHelper</ltr>۔ اس میں صفائی کی سرگزشت، ڈسک کی صحت اور درجہ حرارت کی سرگزشت، اور رفتار ٹیسٹ کے نتائج ہوتے ہیں۔ انہیں "تعارف" اور "ڈسک کی صحت" ٹیبز سے کھولیں۔
+en: How do I uninstall it?
+ur: میں اسے ان انسٹال کیسے کروں؟
+en: Settings > Apps > Disk Cleanup Helper > Uninstall, or the Uninstall button in the About tab. If you never installed it, just delete the program file.
+ur: ترتیبات > ایپس > Disk Cleanup Helper > ان انسٹال کریں، یا "تعارف" ٹیب میں "ان انسٹال کریں" بٹن۔ اگر آپ نے اسے کبھی انسٹال نہیں کیا تو بس پروگرام کی فائل حذف کر دیں۔
+en: Does the app send any of my data anywhere?
+ur: کیا ایپ میرا کوئی ڈیٹا کہیں بھیجتی ہے؟
+en: What are hibernation, Reserved Storage and CompactOS?
+ur: ہائبرنیشن، مخصوص اسٹوریج اور CompactOS کیا ہیں؟
+en: Admin rights are needed to clean Windows' own temp and update files and to read the disks' health data. If you click No, the app still works, and the items that need admin rights are greyed out.
+ur: Windows کی اپنی عارضی اور اپ ڈیٹ فائلیں صاف کرنے اور ڈسکوں کی صحت کا ڈیٹا پڑھنے کے لیے ایڈمن حقوق درکار ہیں۔ اگر آپ "نہیں" پر کلک کریں تو ایپ پھر بھی کام کرتی ہے، اور جن آئٹمز کو ایڈمن حقوق درکار ہیں وہ گرے نظر آتے ہیں۔
+en: Why does Windows say "Windows protected your PC"?
+ur: Windows یہ کیوں کہتا ہے: "Windows نے آپ کے PC کا تحفظ کیا"؟
+en: Hard disks usually run at 25 to 45 °C. SSDs usually run at 30 to 60 °C, and NVMe SSDs can reach 70 °C under heavy load. Consistently higher temperatures shorten a disk's life.
+ur: ہارڈ ڈسکیں عام طور پر 25 سے <ltr>45 °C</ltr> پر چلتی ہیں۔ SSD عام طور پر 30 سے <ltr>60 °C</ltr> پر چلتی ہیں، اور NVMe SSD زیادہ بوجھ میں <ltr>70 °C</ltr> تک پہنچ سکتی ہیں۔ مسلسل زیادہ درجہ حرارت ڈسک کی عمر کم کر دیتا ہے۔
+en: Why does the app ask for admin rights?
+ur: ایپ ایڈمن حقوق کیوں مانگتی ہے؟
+en: Windows shows this for new programs it does not know yet. Click "More info" and then "Run anyway". The warning goes away for good once the program is signed and known to Microsoft.
+ur: Windows یہ پیغام ان نئے پروگراموں کے لیے دکھاتا ہے جنہیں وہ ابھی نہیں جانتا۔ "مزید معلومات" اور پھر "بہرحال چلائیں" پر کلک کریں۔ جب پروگرام پر دستخط ہو جائیں اور Microsoft اسے جان لے تو یہ انتباہ ہمیشہ کے لیے ختم ہو جاتا ہے۔
+en: Does the speed test harm my disk?
+ur: کیا رفتار ٹیسٹ میری ڈسک کو نقصان پہنچاتا ہے؟
+en: No. It writes one temporary test file of 512 MB to 1 GB, reads it back, and deletes it. That is less than a normal day of use.
+ur: نہیں۔ یہ <ltr>512 MB</ltr> سے <ltr>1 GB</ltr> کی ایک عارضی ٹیسٹ فائل لکھتا ہے، اسے واپس پڑھتا ہے، اور حذف کر دیتا ہے۔ یہ ایک عام دن کے استعمال سے بھی کم ہے۔
+en: Can I undo a cleanup?
+ur: کیا میں صفائی واپس کر سکتا ہوں؟
+en: Files deleted by the Clean up tab do not go to the Recycle Bin, so they cannot be restored. Files you move to the Recycle Bin from the Analyze disk tab can be restored until you empty the Recycle Bin. Windows settings can be switched back; see the Read me in the About tab.
+ur: "صفائی" ٹیب سے حذف کی گئی فائلیں ری سائیکل بن میں نہیں جاتیں، اس لیے انہیں بحال نہیں کیا جا سکتا۔ "ڈسک کا تجزیہ" ٹیب سے ری سائیکل بن میں منتقل کی گئی فائلیں ری سائیکل بن خالی کرنے تک بحال کی جا سکتی ہیں۔ Windows ترتیبات واپس بدلی جا سکتی ہیں؛ "تعارف" ٹیب میں "مجھے پڑھیں" دیکھیں۔
+en: Tidy your Downloads folder
+ur: اپنا ڈاؤن لوڈز فولڈر صاف ستھرا رکھیں
+en: Installers and old downloads pile up. Sort the folder by size and delete what you no longer need.
+ur: انسٹالرز اور پرانے ڈاؤن لوڈز جمع ہوتے رہتے ہیں۔ فولڈر کو سائز کے لحاظ سے ترتیب دیں اور جس کی اب ضرورت نہیں اسے حذف کریں۔
+en: Let cloud files stay in the cloud
+ur: کلاؤڈ فائلوں کو کلاؤڈ میں رہنے دیں
+en: With OneDrive, right-click a folder and choose "Free up space". Files stay visible but only download when you open them.
+ur: OneDrive میں کسی فولڈر پر دائیں کلک کریں اور "جگہ خالی کریں" منتخب کریں۔ فائلیں نظر آتی رہتی ہیں لیکن صرف کھولنے پر ڈاؤن لوڈ ہوتی ہیں۔
+en: Close programs you are not using
+ur: جو پروگرام استعمال نہیں کر رہے انہیں بند کریں
+en: A restart clears memory, finishes updates, and lets Windows shrink its page file back to normal.
+ur: دوبارہ شروع کرنے سے میموری صاف ہوتی ہے، اپ ڈیٹس مکمل ہوتی ہیں، اور Windows اپنی پیج فائل کو واپس معمول کے سائز پر لے آتا ہے۔
+en: Turn off apps you do not need at startup
+ur: اسٹارٹ اپ پر غیر ضروری ایپس بند کریں
+en: When memory runs out, Windows makes its page file bigger, which uses disk space and can make programs crash.
+ur: جب میموری ختم ہو جاتی ہے تو Windows اپنی پیج فائل بڑی کر دیتا ہے، جو ڈسک کی جگہ استعمال کرتی ہے اور پروگراموں کو کریش کر سکتی ہے۔
+en: Restart your PC now and then
+ur: کبھی کبھار اپنا PC دوبارہ شروع کریں
+en: Videos, photos and old downloads can live on another drive, an external disk or cloud storage.
+ur: ویڈیوز، تصاویر اور پرانے ڈاؤن لوڈز کسی دوسری ڈرائیو، بیرونی ڈسک یا کلاؤڈ اسٹوریج پر رکھے جا سکتے ہیں۔
+en: Empty the Recycle Bin
+ur: ری سائیکل بن خالی کریں
+en: Files you delete still use space until the Recycle Bin is emptied. Check it from time to time.
+ur: آپ کی حذف کردہ فائلیں ری سائیکل بن خالی ہونے تک جگہ لیتی رہتی ہیں۔ وقتاً فوقتاً اسے دیکھتے رہیں۔
+en: Turn on Storage Sense
+ur: اسٹوریج سینس آن کریں
+en: Windows can delete temporary files and old Recycle Bin items by itself. Settings > System > Storage > Storage Sense.
+ur: Windows عارضی فائلیں اور ری سائیکل بن کے پرانے آئٹمز خود حذف کر سکتا ہے۔ ترتیبات > سسٹم > اسٹوریج > اسٹوریج سینس۔
+en: Uninstall what you no longer use
+ur: جو اب استعمال نہیں کرتے اسے ان انسٹال کریں
+en: When the Windows drive is almost full, Windows slows down and updates can fail to install.
+ur: جب Windows ڈرائیو تقریباً بھر جائے تو Windows سست ہو جاتا ہے اور اپ ڈیٹس انسٹال ہونے میں ناکام ہو سکتی ہیں۔
+en: Move big personal files
+ur: بڑی ذاتی فائلیں منتقل کریں
+en: Old games and programs are often the biggest space users. Settings > Apps, then sort the list by size.
+ur: پرانے گیمز اور پروگرام اکثر سب سے زیادہ جگہ لیتے ہیں۔ ترتیبات > ایپس، پھر فہرست کو سائز کے لحاظ سے ترتیب دیں۔
+en: Keep 10 to 15 percent free
+ur: 10 سے 15 فیصد جگہ خالی رکھیں
+en: Folders like Windows, WinSxS and Installer break Windows if cleaned by hand. Use the Clean up tab instead.
+ur: Windows، WinSxS اور Installer جیسے فولڈرز ہاتھ سے صاف کرنے پر Windows خراب ہو جاتا ہے۔ اس کے بجائے "صفائی" ٹیب استعمال کریں۔
+en: Nothing is deleted until you select it and confirm.
+ur: جب تک آپ منتخب کر کے تصدیق نہ کریں، کچھ بھی حذف نہیں ہوتا۔
+en: Disks can fail without warning. Keep a copy of important files on another drive or in the cloud.
+ur: ڈسکیں بغیر کسی انتباہ کے خراب ہو سکتی ہیں۔ اہم فائلوں کی ایک کاپی دوسری ڈرائیو یا کلاؤڈ میں رکھیں۔
+en: Never delete Windows files by hand
+ur: Windows فائلیں کبھی ہاتھ سے حذف نہ کریں
+en: Cleanup items only touch caches, temp files and old update files. Your documents, photos, music, videos, desktop and downloads are never cleaned automatically.
+ur: صفائی کے آئٹمز صرف کیشے، عارضی فائلوں اور پرانی اپ ڈیٹ فائلوں کو چھوتے ہیں۔ آپ کی دستاویزات، تصاویر، موسیقی، ویڈیوز، ڈیسک ٹاپ اور ڈاؤن لوڈز کبھی خود بخود صاف نہیں ہوتے۔
+en: It warns you if the PC is low on memory before measuring, scanning or cleaning.
+ur: اگر PC کی میموری کم ہو تو یہ ناپنے، اسکین کرنے یا صفائی سے پہلے آپ کو خبردار کرتا ہے۔
+en: Windows and program files are protected in the Analyze disk tab.
+ur: "ڈسک کا تجزیہ" ٹیب میں Windows اور پروگرام فائلیں محفوظ ہیں۔
+en: Browser and app caches keep your passwords, bookmarks, history and logins.
+ur: براؤزر اور ایپ کیشے کی صفائی آپ کے پاس ورڈز، بک مارکس، سرگزشت اور لاگ انز برقرار رکھتی ہے۔
+en: It asks you to close a browser or app before cleaning its cache.
+ur: یہ کسی براؤزر یا ایپ کا کیشے صاف کرنے سے پہلے آپ سے اسے بند کرنے کو کہتا ہے۔
+en: Back up what matters
+ur: اہم چیزوں کا بیک اپ لیں
+en: SSDs do not need it. Windows' "Optimize drives" knows the difference, so leave it on its automatic schedule.
+ur: SSD کو اس کی ضرورت نہیں۔ Windows کا "ڈرائیوز بہتر بنائیں" یہ فرق جانتا ہے، اس لیے اسے اس کے خودکار شیڈول پر رہنے دیں۔
+en: Check disk health once a month
+ur: مہینے میں ایک بار ڈسک کی صحت چیک کریں
+en: Fewer apps starting with Windows means a faster start and more free memory. Task Manager > Startup apps.
+ur: Windows کے ساتھ کم ایپس شروع ہوں تو PC جلدی شروع ہوتا ہے اور زیادہ میموری خالی رہتی ہے۔ Task Manager > اسٹارٹ اپ ایپس۔
+en: Do not defragment an SSD
+ur: SSD کو ڈیفریگمنٹ نہ کریں
+en: Open the Disk health tab. Each visit saves a reading, so the history charts show if something changes.
+ur: "ڈسک کی صحت" ٹیب کھولیں۔ ہر بار کھولنے پر ایک ریڈنگ محفوظ ہوتی ہے، اس لیے سرگزشت کے چارٹ دکھاتے ہیں کہ کچھ بدلا یا نہیں۔
+en: Keep your PC cool
+ur: اپنا PC ٹھنڈا رکھیں
+en: Heat shortens a disk's life. Hard disks should stay under about 50 °C and SSDs under about 70 °C. Keep vents clean.
+ur: گرمی ڈسک کی عمر کم کرتی ہے۔ ہارڈ ڈسکیں تقریباً <ltr>50 °C</ltr> سے کم اور SSD تقریباً <ltr>70 °C</ltr> سے کم رہنی چاہئیں۔ ہوا کے سوراخ صاف رکھیں۔
+en: Watch for growing bad sectors
+ur: بڑھتے ہوئے خراب سیکٹرز پر نظر رکھیں
+en: A few reallocated or pending sectors are common. If the number keeps growing, back up and plan to replace the disk.
+ur: چند دوبارہ مختص یا زیر التوا سیکٹرز عام ہیں۔ اگر تعداد بڑھتی رہے تو بیک اپ لیں اور ڈسک بدلنے کا منصوبہ بنائیں۔
+
+# ---- Install/Installer.cs
+en: Install failed:<br><br>{0}
+ur: انسٹال ناکام ہو گیا:<br><br>{0}
+en: Remove Disk Cleanup Helper from this PC?<br><br>Your cleanup history stays in:<br>{0}
+ur: کیا Disk Cleanup Helper کو اس PC سے ہٹا دیں؟<br><br>آپ کی صفائی کی سرگزشت یہاں رہے گی:<br>{0}
+en: Disk Cleanup Helper was removed from this PC.
+ur: Disk Cleanup Helper اس PC سے ہٹا دیا گیا۔
+en: Free up disk space safely
+ur: ڈسک کی جگہ محفوظ طریقے سے خالی کریں
+en: Could not copy the program. If the installed Disk Cleanup Helper is open, close it first and try again.<br><br>{0}
+ur: پروگرام کاپی نہیں ہو سکا۔ اگر انسٹال شدہ Disk Cleanup Helper کھلا ہے تو پہلے اسے بند کریں اور دوبارہ کوشش کریں۔<br><br>{0}
+en: Disk Cleanup Helper is installed.<br><br>Open it from the Start menu or the desktop shortcut called Disk Cleanup Helper.<br><br>To remove it later: Settings > Apps > Disk Cleanup Helper > Uninstall.
+ur: Disk Cleanup Helper انسٹال ہو گیا ہے۔<br><br>اسے اسٹارٹ مینیو سے یا Disk Cleanup Helper نامی ڈیسک ٹاپ شارٹ کٹ سے کھولیں۔<br><br>بعد میں ہٹانے کے لیے: ترتیبات > ایپس > Disk Cleanup Helper > ان انسٹال کریں۔
+
+# ---- Cleanup/Catalog.cs
+en: The size shown is the Recycle Bin on the Windows drive.
+ur: دکھایا گیا سائز Windows ڈرائیو کے ری سائیکل بن کا ہے۔
+en: Empties the Recycle Bin on every drive. Anything in it can no longer be restored.
+ur: ہر ڈرائیو پر ری سائیکل بن خالی کرتا ہے۔ اس میں موجود کوئی بھی چیز پھر بحال نہیں کی جا سکے گی۔
+en: $Recycle.Bin on every drive
+ur: ہر ڈرائیو پر <ltr>$Recycle.Bin</ltr>
+en: Turn off hibernation
+ur: ہائبرنیشن بند کریں
+en: Sleep still works normally.
+ur: سلیپ پہلے کی طرح کام کرتا رہتا ہے۔
+en: Removes the hibernation file, which is often several GB. Hibernate and Fast Startup stop working, so the PC starts a few seconds slower.
+ur: ہائبرنیشن فائل ہٹاتا ہے، جو اکثر کئی GB کی ہوتی ہے۔ ہائبرنیٹ اور فاسٹ اسٹارٹ اپ کام کرنا بند کر دیتے ہیں، اس لیے PC چند سیکنڈ دیر سے شروع ہوتا ہے۔
+en: PC starts a few seconds slower
+ur: PC چند سیکنڈ دیر سے شروع ہوتا ہے
+en: Files in it are gone for good
+ur: اس میں موجود فائلیں ہمیشہ کے لیے ختم ہو جاتی ہیں
+en: Crash dump files
+ur: کریش ڈمپ فائلیں
+en: Your settings and projects stay. The IDE re-indexes projects the next time you open them. Close JetBrains IDEs first.
+ur: آپ کی ترتیبات اور پروجیکٹس برقرار رہتے ہیں۔ اگلی بار کھولنے پر IDE پروجیکٹس کو دوبارہ انڈیکس کرتا ہے۔ پہلے JetBrains IDEs بند کریں۔
+en: Caches of IntelliJ IDEA, PyCharm, WebStorm, Rider and other JetBrains IDEs.
+ur: IntelliJ IDEA، PyCharm، WebStorm، Rider اور دیگر JetBrains IDEs کے کیشے۔
+en: Only needed to investigate crashes
+ur: صرف کریش کی تحقیق کے لیے درکار
+en: Recycle Bin (all drives)
+ur: ری سائیکل بن (تمام ڈرائیوز)
+en: Keep them if someone is investigating why your PC crashes. Otherwise they are safe to delete.
+ur: اگر کوئی آپ کے PC کے کریش ہونے کی وجہ کی تحقیق کر رہا ہے تو انہیں رکھیں۔ ورنہ انہیں حذف کرنا محفوظ ہے۔
+en: Files Windows writes after a blue screen or a graphics driver problem. MEMORY.DMP alone can be several GB.
+ur: وہ فائلیں جو Windows بلیو اسکرین یا گرافکس ڈرائیور کے مسئلے کے بعد لکھتا ہے۔ صرف MEMORY.DMP ہی کئی GB کی ہو سکتی ہے۔
+en: To undo later, run this in an administrator Command Prompt:  DISM /Online /Set-ReservedStorageState /State:Enabled
+ur: بعد میں اسے واپس کرنے کے لیے، ایڈمنسٹریٹر کے طور پر کھلے Command Prompt میں یہ چلائیں:  <ltr>DISM /Online /Set-ReservedStorageState /State:Enabled</ltr>
+en: Turning it off gives that space back, but if your disk gets full, Windows updates can fail. Only do this if you keep enough free space.
+ur: اسے بند کرنے سے وہ جگہ واپس مل جاتی ہے، لیکن اگر آپ کی ڈسک بھر جائے تو Windows اپ ڈیٹس ناکام ہو سکتی ہیں۔ یہ صرف تب کریں جب آپ کافی خالی جگہ رکھتے ہوں۔
+en: Windows keeps about 7 GB aside so updates always have room to install.
+ur: Windows تقریباً <ltr>7 GB</ltr> الگ رکھتا ہے تاکہ اپ ڈیٹس کو انسٹال ہونے کے لیے ہمیشہ جگہ ملے۔
+en: already off
+ur: پہلے سے بند
+en: about 2-4 GB
+ur: تقریباً <ltr>2-4 GB</ltr>
+en: Windows setting (Reserved Storage)
+ur: Windows ترتیب (مخصوص اسٹوریج)
+en: To undo later, run this in an administrator Command Prompt:  powercfg /h on
+ur: بعد میں اسے واپس کرنے کے لیے، ایڈمنسٹریٹر کے طور پر کھلے Command Prompt میں یہ چلائیں:  <ltr>powercfg /h on</ltr>
+en: hiberfil.sys is a hidden Windows file. There is nothing to open.
+ur: hiberfil.sys Windows کی ایک چھپی ہوئی فائل ہے۔ کھولنے کے لیے کچھ نہیں ہے۔
+en: Updates may fail when the disk is full
+ur: ڈسک بھر جانے پر اپ ڈیٹس ناکام ہو سکتی ہیں
+en: Turn off Reserved Storage
+ur: مخصوص اسٹوریج (Reserved Storage) بند کریں
+en: about 7 GB
+ur: تقریباً <ltr>7 GB</ltr>
+en: IDE re-indexes your projects
+ur: IDE آپ کے پروجیکٹس دوبارہ انڈیکس کرتا ہے
+en: Spotify cache and downloads
+ur: Spotify کیشے اور ڈاؤن لوڈز
+en: state.vscdb in the same folder holds your chats, login and settings. This tool never touches it.
+ur: اسی فولڈر میں موجود state.vscdb آپ کی چیٹس، لاگ ان اور ترتیبات رکھتی ہے۔ یہ ٹول اسے کبھی نہیں چھوتا۔
+en: Working data of Cursor's AI agent. It may include old agent chat history.
+ur: Cursor کے AI ایجنٹ کا ورکنگ ڈیٹا۔ اس میں ایجنٹ کی پرانی چیٹس کی سرگزشت شامل ہو سکتی ہے۔
+en: Downloaded songs must be downloaded again
+ur: ڈاؤن لوڈ کیے گئے گانے دوبارہ ڈاؤن لوڈ کرنے ہوں گے
+en: Your account and playlists are safe, but songs you downloaded for offline listening must be downloaded again.
+ur: آپ کا اکاؤنٹ اور پلے لسٹس محفوظ ہیں، لیکن آف لائن سننے کے لیے ڈاؤن لوڈ کیے گئے گانے دوبارہ ڈاؤن لوڈ کرنے ہوں گے۔
+en: Spotify keeps played and downloaded music here.
+ur: Spotify چلائی گئی اور ڈاؤن لوڈ کی گئی موسیقی یہاں رکھتا ہے۔
+en: {0} and Data
+ur: {0} اور Data
+en: May hold old agent chat history
+ur: ایجنٹ کی پرانی چیٹس کی سرگزشت ہو سکتی ہے
+en: Cursor: AI agent snapshots
+ur: Cursor: AI ایجنٹ اسنیپ شاٹس
+en: Only folders unchanged for 60 days are deleted. Your project files themselves are never touched.
+ur: صرف وہ فولڈرز حذف ہوتے ہیں جو 60 دن سے نہیں بدلے۔ آپ کی پروجیکٹ فائلوں کو کبھی نہیں چھوا جاتا۔
+en: Each folder holds what VS Code remembers about one project: open tabs, layout, and AI chat history for that project.
+ur: ہر فولڈر میں وہ ہوتا ہے جو VS Code کسی ایک پروجیکٹ کے بارے میں یاد رکھتا ہے: کھلے ٹیبز، لے آؤٹ، اور اس پروجیکٹ کی AI چیٹس کی سرگزشت۔
+en: Cannot undo older AI edits
+ur: AI کی پرانی تبدیلیاں واپس نہیں ہو سکتیں
+en: Cursor: AI agent data
+ur: Cursor: AI ایجنٹ کا ڈیٹا
+en: You can no longer roll back older AI changes. Cursor makes new copies when you use the agent again.
+ur: آپ AI کی پرانی تبدیلیاں مزید واپس نہیں کر سکیں گے۔ جب آپ ایجنٹ دوبارہ استعمال کریں گے تو Cursor نئی کاپیاں بنا لے گا۔
+en: Copies of your projects that Cursor's AI agent uses to undo its edits.
+ur: آپ کے پروجیکٹس کی کاپیاں جنہیں Cursor کا AI ایجنٹ اپنی تبدیلیاں واپس کرنے کے لیے استعمال کرتا ہے۔
+en: The next build needs internet and takes longer while Gradle downloads them again. Close Android Studio and other Java IDEs first.
+ur: اگلی بلڈ کو انٹرنیٹ درکار ہوگا اور Gradle کے انہیں دوبارہ ڈاؤن لوڈ کرنے تک زیادہ وقت لگے گا۔ پہلے Android Studio اور دیگر Java IDEs بند کریں۔
+en: Downloaded libraries and build files for Java and Android projects.
+ur: Java اور Android پروجیکٹس کے لیے ڈاؤن لوڈ کی گئی لائبریریاں اور بلڈ فائلیں۔
+en: Next build downloads everything again
+ur: اگلی بلڈ سب کچھ دوبارہ ڈاؤن لوڈ کرے گی
+en: Maven repository
+ur: Maven ریپوزیٹری
+en: JetBrains IDE caches and logs
+ur: JetBrains IDE کیشے اور لاگز
+en: The next build needs internet and takes longer while Maven downloads them again. Libraries you installed yourself with "mvn install" would need installing again.
+ur: اگلی بلڈ کو انٹرنیٹ درکار ہوگا اور Maven کے انہیں دوبارہ ڈاؤن لوڈ کرنے تک زیادہ وقت لگے گا۔ جو لائبریریاں آپ نے خود "<ltr>mvn install</ltr>" سے انسٹال کی تھیں انہیں دوبارہ انسٹال کرنا ہوگا۔
+en: Downloaded Java libraries.
+ur: ڈاؤن لوڈ کی گئی Java لائبریریاں۔
+en: Gradle caches
+ur: Gradle کیشے
+en: Adobe media cache (Premiere, After Effects)
+ur: Adobe میڈیا کیشے (Premiere، After Effects)
+en: Close Spotify first.
+ur: پہلے Spotify بند کریں۔
+en: Tip: in Spotify settings you can also set a smaller cache size or move it to another drive.
+ur: مشورہ: Spotify کی ترتیبات میں آپ کیشے کا سائز کم بھی کر سکتے ہیں یا اسے دوسری ڈرائیو پر منتقل کر سکتے ہیں۔
+en: Video previews are rebuilt
+ur: ویڈیو پری ویوز دوبارہ بنتے ہیں
+en: Close Adobe apps first.
+ur: پہلے Adobe ایپس بند کریں۔
+en: Your projects and videos are not touched. Opening a project the first time afterwards is slower while previews are rebuilt.
+ur: آپ کے پروجیکٹس اور ویڈیوز کو نہیں چھوا جاتا۔ اس کے بعد کوئی پروجیکٹ پہلی بار کھولنے میں پری ویوز دوبارہ بننے تک زیادہ وقت لگتا ہے۔
+en: Preview and audio files Adobe video apps create. They can grow to many GB.
+ur: پری ویو اور آڈیو فائلیں جو Adobe کی ویڈیو ایپس بناتی ہیں۔ یہ بڑھ کر کئی GB تک پہنچ سکتی ہیں۔
+en: Compress Windows files (CompactOS)
+ur: Windows فائلیں کمپریس کریں (CompactOS)
+en: On a slower hard disk, Docker runs slower.
+ur: سست ہارڈ ڈسک پر Docker بھی سست چلتا ہے۔
+en: To free space on this drive, move it: Docker Desktop > Settings (gear) > Resources > Advanced > Disk image location > pick a folder on another drive > Apply & restart.
+ur: اس ڈرائیو پر جگہ خالی کرنے کے لیے اسے منتقل کریں: Docker Desktop > Settings (گیئر) > Resources > Advanced > Disk image location > دوسری ڈرائیو پر کوئی فولڈر منتخب کریں > Apply & restart۔
+en: Be careful with "docker volume prune" and "docker system prune --volumes": they delete volumes, which may hold databases.
+ur: "<ltr>docker volume prune</ltr>" اور "<ltr>docker system prune --volumes</ltr>" کے ساتھ محتاط رہیں: یہ والیومز حذف کرتے ہیں، جن میں ڈیٹا بیس ہو سکتے ہیں۔
+en: Linux (WSL) disks
+ur: Linux ڈسکیں (WSL)
+en: If you do not use one: Settings > Apps > find it > Uninstall. That deletes everything inside it.
+ur: اگر آپ کوئی سسٹم استعمال نہیں کرتے: ترتیبات > ایپس > اسے تلاش کریں > ان انسٹال کریں۔ اس سے اس کے اندر کی ہر چیز حذف ہو جاتی ہے۔
+en: Each WSL Linux system (for example Ubuntu) keeps all its files in one disk file.
+ur: ہر WSL Linux سسٹم (مثلاً Ubuntu) اپنی تمام فائلیں ایک ڈسک فائل میں رکھتا ہے۔
+en: Disk files of your WSL Linux systems
+ur: آپ کے WSL Linux سسٹمز کی ڈسک فائلیں
+en: Holds all Docker containers, images and volumes. Never delete this file.
+ur: اس میں Docker کے تمام کنٹینرز، امیجز اور والیومز ہیں۔ یہ فائل کبھی حذف نہ کریں۔
+en: To make room: "Open location" > pick the drive > Configure > lower the "Max Usage" slider, or click Delete to remove all of them.
+ur: جگہ بنانے کے لیے: "مقام کھولیں" > ڈرائیو منتخب کریں > کنفیگر کریں > "زیادہ سے زیادہ استعمال" (Max Usage) کا سلائیڈر کم کریں، یا سب کو ہٹانے کے لیے "حذف کریں" پر کلک کریں۔
+en: Restore points let you undo system changes. Windows can use several GB for them.
+ur: ریسٹور پوائنٹس سے آپ سسٹم کی تبدیلیاں واپس کر سکتے ہیں۔ Windows ان کے لیے کئی GB استعمال کر سکتا ہے۔
+en: System Properties > System Protection
+ur: سسٹم کی خصوصیات > سسٹم کا تحفظ
+en: To keep only the newest one: Disk Cleanup (cleanmgr) > Clean up system files > More Options > System Restore and Shadow Copies > Clean up.
+ur: صرف سب سے نیا رکھنے کے لیے: ڈسک کلین اپ (cleanmgr) > سسٹم فائلیں صاف کریں > مزید اختیارات > سسٹم ریسٹور اور شیڈو کاپیز > صاف کریں۔
+en: Can be moved to another drive
+ur: دوسری ڈرائیو پر منتقل ہو سکتی ہے
+en: Docker disk (do not delete)
+ur: Docker ڈسک (حذف نہ کریں)
+en: Keep at least one recent restore point if you can.
+ur: اگر ممکن ہو تو کم از کم ایک حالیہ ریسٹور پوائنٹ رکھیں۔
+en: - pagefile.sys and swapfile.sys: Windows' extra memory on disk. Without enough of it, programs crash when memory runs out.
+ur: - pagefile.sys اور swapfile.sys: ڈسک پر Windows کی اضافی میموری۔ یہ کافی نہ ہو تو میموری ختم ہونے پر پروگرام کریش ہو جاتے ہیں۔
+en: pagefile.sys, swapfile.sys, the Windows Installer and WinSxS folders
+ur: pagefile.sys، swapfile.sys، Windows Installer اور WinSxS فولڈرز
+en: Never delete by hand
+ur: کبھی ہاتھ سے حذف نہ کریں
+en: - The Windows Installer folder: only remove files with the "Old update files" item, never by hand.
+ur: - Windows Installer فولڈر: فائلیں صرف "پرانی اپ ڈیٹ فائلیں" آئٹم سے ہٹائیں، کبھی ہاتھ سے نہیں۔
+en: ({0} files)
+ur: ({0} فائل) | ({0} فائلیں)
+en: - Folders of apps you use, even if they are big. Deleting them can break the app or lose your data.
+ur: - آپ کے زیر استعمال ایپس کے فولڈرز، چاہے وہ بڑے ہوں۔ انہیں حذف کرنے سے ایپ خراب ہو سکتی ہے یا آپ کا ڈیٹا ضائع ہو سکتا ہے۔
+en: - The WinSxS folder: only clean it with the "Windows components" items, never by hand.
+ur: - WinSxS فولڈر: اسے صرف "Windows اجزاء" والے آئٹمز سے صاف کریں، کبھی ہاتھ سے نہیں۔
+en: Leave these alone
+ur: انہیں نہ چھیڑیں
+en: Your Downloads folder
+ur: آپ کا ڈاؤن لوڈز فولڈر
+en: If that command is not recognised, run  wsl --update  first.
+ur: اگر یہ کمانڈ پہچانی نہ جائے تو پہلے  <ltr>wsl --update</ltr>  چلائیں۔
+en: To move one to another drive, in a Command Prompt:  wsl --shutdown   then   wsl --manage NAME --move D:\WSL\NAME
+ur: کسی ایک کو دوسری ڈرائیو پر منتقل کرنے کے لیے، Command Prompt میں:  <ltr>wsl --shutdown</ltr>   پھر   <ltr>wsl --manage NAME --move D:\WSL\NAME</ltr>
+en: Your own files: you decide
+ur: آپ کی اپنی فائلیں: فیصلہ آپ کا
+en: Tip: the Analyze disk tab lists your biggest files anywhere.
+ur: مشورہ: "ڈسک کا تجزیہ" ٹیب کہیں بھی موجود آپ کی سب سے بڑی فائلیں دکھاتا ہے۔
+en: Open the folder, sort by size (View > Details, then click the Size column), and delete what you no longer need.
+ur: فولڈر کھولیں، سائز کے لحاظ سے ترتیب دیں (منظر > تفصیلات، پھر "سائز" کالم پر کلک کریں)، اور جس کی اب ضرورت نہیں اسے حذف کریں۔
+en: Files you downloaded. This tool never deletes them here.
+ur: آپ کی ڈاؤن لوڈ کی ہوئی فائلیں۔ یہ ٹول یہاں انہیں کبھی حذف نہیں کرتا۔
+en: Keep at least the newest one
+ur: کم از کم سب سے نیا رکھیں
+en: Storage Sense is built into Windows. It deletes temporary files and old Recycle Bin items automatically, so space stays free.
+ur: Windows میں اسٹوریج سینس (Storage Sense) شامل ہے۔ یہ عارضی فائلیں اور ری سائیکل بن کے پرانے آئٹمز خود بخود حذف کرتا ہے، تاکہ جگہ خالی رہے۔
+en: Settings > System > Storage
+ur: ترتیبات > سسٹم > اسٹوریج
+en: Cleans temp files automatically
+ur: عارضی فائلیں خود بخود صاف کرتا ہے
+en: "Open location" opens the Storage Sense settings. Turn it on there.
+ur: "مقام کھولیں" اسٹوریج سینس کی ترتیبات کھولتا ہے۔ اسے وہاں آن کریں۔
+en: Left over from a Windows upgrade. It lets you go back to the previous version for a limited time, and is often 10 to 30 GB.
+ur: Windows اپ گریڈ سے بچی ہوئی فائلیں۔ ان سے آپ محدود وقت تک پچھلے ورژن پر واپس جا سکتے ہیں، اور یہ اکثر 10 سے <ltr>30 GB</ltr> ہوتی ہیں۔
+en: Remove with Windows' own tool
+ur: Windows کے اپنے ٹول سے ہٹائیں
+en: Previous Windows installation
+ur: پچھلی Windows انسٹالیشن
+en: Microsoft's own feature that stores Windows system files compressed. It usually frees 2 to 4 GB.
+ur: Microsoft کی اپنی خصوصیت جو Windows کی سسٹم فائلوں کو کمپریس کر کے رکھتی ہے۔ یہ عام طور پر 2 سے <ltr>4 GB</ltr> خالی کرتی ہے۔
+en: Windows system files on {0}
+ur: {0} پر Windows سسٹم فائلیں
+en: Built into Windows. Slight CPU cost
+ur: Windows میں شامل۔ CPU پر معمولی بوجھ
+en: On very slow or old PCs it can make Windows a little slower. On most PCs you will not notice.
+ur: بہت سست یا پرانے PCs پر یہ Windows کو تھوڑا سست کر سکتا ہے۔ زیادہ تر PCs پر آپ کو فرق محسوس نہیں ہوگا۔
+en: Running in its own window. This can take 10 to 20 minutes. Do not close that window.
+ur: اپنی الگ ونڈو میں چل رہا ہے۔ اس میں 10 سے 20 منٹ لگ سکتے ہیں۔ وہ ونڈو بند نہ کریں۔
+en: To undo later, run this in an administrator Command Prompt:  compact.exe /compactos:never
+ur: بعد میں اسے واپس کرنے کے لیے، ایڈمنسٹریٹر کے طور پر کھلے Command Prompt میں یہ چلائیں:  <ltr>compact.exe /compactos:never</ltr>
+en: Runs in its own window and can take 10 to 20 minutes. If Windows is already compressed, it finishes quickly.
+ur: اپنی الگ ونڈو میں چلتا ہے اور 10 سے 20 منٹ لے سکتا ہے۔ اگر Windows پہلے سے کمپریس ہے تو یہ جلدی ختم ہو جاتا ہے۔
+en: Biggest programs on {0} (Windows' own size estimate; "?" = install folder not recorded):
+ur: {0} پر سب سے بڑے پروگرام (سائز Windows کے اپنے اندازے کے مطابق؛ "?" = انسٹال فولڈر درج نہیں):
+en: Programs only come off by uninstalling them in Settings > Apps.
+ur: پروگرام صرف ترتیبات > ایپس میں ان انسٹال کرنے سے ہی ہٹتے ہیں۔
+en: "Open location" opens Apps & features.
+ur: "مقام کھولیں" ایپس اور خصوصیات کھولتا ہے۔
+en: {0} programs installed on other drives are not listed: removing them does not free space on {1}.
+ur: دوسری ڈرائیوز پر انسٹال {0} پروگرام فہرست میں نہیں ہیں: انہیں ہٹانے سے {1} پر جگہ خالی نہیں ہوتی۔
+en: System Restore points
+ur: سسٹم ریسٹور پوائنٹس
+en: "{0}" is discontinued and no longer needed.
+ur: "{0}" بند ہو چکا ہے اور اب اس کی ضرورت نہیں۔
+en: You have {0} Java versions installed. Most people only need the newest one.
+ur: آپ کے پاس Java کے {0} ورژن انسٹال ہیں۔ زیادہ تر لوگوں کو صرف سب سے نئے کی ضرورت ہوتی ہے۔
+en: Programs only come off by uninstalling them in Settings > Apps. Click "Measure sizes" to list the biggest ones here.
+ur: پروگرام صرف ترتیبات > ایپس میں ان انسٹال کرنے سے ہی ہٹتے ہیں۔ سب سے بڑے پروگرام یہاں دیکھنے کے لیے "سائز ناپیں" پر کلک کریں۔
+en: "Open location" opens the Storage settings.
+ur: "مقام کھولیں" اسٹوریج کی ترتیبات کھولتا ہے۔
+en: After that you can no longer go back to the previous Windows version.
+ur: اس کے بعد آپ پچھلے Windows ورژن پر واپس نہیں جا سکیں گے۔
+en: Remove it with Windows itself: Settings > System > Storage > Temporary files > tick "Previous Windows installation(s)" > Remove files.
+ur: اسے خود Windows سے ہٹائیں: ترتیبات > سسٹم > اسٹوریج > عارضی فائلیں > "پچھلی Windows انسٹالیشنز" پر نشان لگائیں > فائلیں ہٹائیں۔
+en: see details
+ur: تفصیلات دیکھیں
+en: Settings > Apps > Apps & features
+ur: ترتیبات > ایپس > ایپس اور خصوصیات
+en: Uninstall the ones you do not use
+ur: جو استعمال نہیں کرتے انہیں ان انسٹال کریں
+en: Biggest installed programs
+ur: سب سے بڑے انسٹال شدہ پروگرام
+en: Shader files that Windows and the graphics card driver save so games and apps start faster.
+ur: شیڈر فائلیں جو Windows اور گرافکس کارڈ ڈرائیور محفوظ کرتے ہیں تاکہ گیمز اور ایپس تیزی سے شروع ہوں۔
+en: {0} and similar
+ur: {0} اور اس جیسے
+en: Games may stutter once while they rebuild
+ur: دوبارہ بننے کے دوران گیمز ایک بار اٹک سکتی ہیں
+en: They are rebuilt automatically. The first launch of a game afterwards may stutter a little.
+ur: یہ خود بخود دوبارہ بن جاتی ہیں۔ اس کے بعد کسی گیم کو پہلی بار چلانے پر وہ تھوڑی اٹک سکتی ہے۔
+en: Temporary files programs leave behind. Only files older than 1 day are deleted, so running installs are not disturbed.
+ur: عارضی فائلیں جو پروگرام پیچھے چھوڑ جاتے ہیں۔ صرف 1 دن سے پرانی فائلیں حذف ہوتی ہیں، اس لیے جاری انسٹالیشنز متاثر نہیں ہوتیں۔
+en: Files in use are skipped
+ur: استعمال میں موجود فائلیں چھوڑ دی جاتی ہیں
+en: Your temp files (older than 1 day)
+ur: آپ کی عارضی فائلیں (1 دن سے پرانی)
+en: Graphics caches (DirectX, NVIDIA, AMD, Intel)
+ur: گرافکس کیشے (DirectX، NVIDIA، AMD، Intel)
+en: Deletes only Discord's cache folders.
+ur: صرف Discord کے کیشے فولڈرز حذف کرتا ہے۔
+en: Keeps login and messages
+ur: لاگ ان اور پیغامات برقرار رکھتا ہے
+en: Discord cache
+ur: Discord کیشے
+en: Close Discord first, including its icon near the clock.
+ur: پہلے Discord بند کریں، گھڑی کے پاس اس کے آئیکن سمیت۔
+en: Close Slack first, including its icon near the clock.
+ur: پہلے Slack بند کریں، گھڑی کے پاس اس کے آئیکن سمیت۔
+en: Deletes only Slack's cache folders.
+ur: صرف Slack کے کیشے فولڈرز حذف کرتا ہے۔
+en: Slack cache
+ur: Slack کیشے
+en: Old problem reports
+ur: پرانی مسئلہ رپورٹس
+en: Windows error reports
+ur: Windows کی خرابی کی رپورٹس
+en: The Windows Update service is stopped for a moment and started again.
+ur: Windows Update سروس ایک لمحے کے لیے روکی جاتی ہے اور پھر دوبارہ شروع کی جاتی ہے۔
+en: {0} and your own WER folder
+ur: {0} اور آپ کا اپنا WER فولڈر
+en: Recent logs are kept
+ur: حالیہ لاگز رکھے جاتے ہیں
+en: Old Windows log files (older than 14 days)
+ur: Windows کی پرانی لاگ فائلیں (14 دن سے پرانی)
+en: Reports Windows saved about programs that crashed. They are not needed once sent or once the problem is gone.
+ur: کریش ہونے والے پروگراموں کے بارے میں Windows کی محفوظ کردہ رپورٹس۔ بھیجے جانے کے بعد یا مسئلہ ختم ہونے کے بعد ان کی ضرورت نہیں رہتی۔
+en: If an update is still waiting to install, Windows downloads it again.
+ur: اگر کوئی اپ ڈیٹ ابھی انسٹال ہونے کی منتظر ہے تو Windows اسے دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: Temporary files Windows and installers leave behind. Only files older than 1 day are deleted.
+ur: عارضی فائلیں جو Windows اور انسٹالرز پیچھے چھوڑ جاتے ہیں۔ صرف 1 دن سے پرانی فائلیں حذف ہوتی ہیں۔
+en: Windows temp files (older than 1 day)
+ur: Windows کی عارضی فائلیں (1 دن سے پرانی)
+en: The size shown is the whole folder. The newest files stay, so the amount freed can be a bit lower.
+ur: دکھایا گیا سائز پورے فولڈر کا ہے۔ سب سے نئی فائلیں رہتی ہیں، اس لیے خالی ہونے والی جگہ کچھ کم ہو سکتی ہے۔
+en: Windows Update downloads
+ur: Windows Update ڈاؤن لوڈز
+en: Update files Windows already downloaded. Installed updates are not affected.
+ur: اپ ڈیٹ فائلیں جو Windows پہلے ہی ڈاؤن لوڈ کر چکا ہے۔ انسٹال شدہ اپ ڈیٹس متاثر نہیں ہوتیں۔
+en: {0} and the Delivery Optimization cache
+ur: {0} اور Delivery Optimization کیشے
+en: Installed updates are not affected
+ur: انسٹال شدہ اپ ڈیٹس متاثر نہیں ہوتیں
+en: Close Teams first, including its icon near the clock.
+ur: پہلے Teams بند کریں، گھڑی کے پاس اس کے آئیکن سمیت۔
+en: Keeps passwords, favorites, logins
+ur: پاس ورڈز، پسندیدہ، لاگ انز برقرار رکھتا ہے
+en: Microsoft Edge cache
+ur: Microsoft Edge کیشے
+en: Close every Chrome window first. If a Chrome icon is near the clock, right-click it and choose Exit.
+ur: پہلے Chrome کی ہر ونڈو بند کریں۔ اگر گھڑی کے پاس Chrome کا آئیکن ہو تو اس پر دائیں کلک کر کے "باہر نکلیں" (Exit) منتخب کریں۔
+en: Deletes only Edge's cache folders in every profile, plus its graphics caches.
+ur: ہر پروفائل میں صرف Edge کے کیشے فولڈرز حذف کرتا ہے، اور اس کے گرافکس کیشے بھی۔
+en: Deletes only Brave's cache folders in every profile.
+ur: ہر پروفائل میں صرف Brave کے کیشے فولڈرز حذف کرتا ہے۔
+en: Brave cache
+ur: Brave کیشے
+en: Edge often keeps running in the background. If the tool says it is still running: in Edge, Settings > System and performance > turn off "Startup boost" and "Continue running background extensions and apps".
+ur: Edge اکثر پس منظر میں چلتا رہتا ہے۔ اگر ٹول بتائے کہ یہ ابھی بھی چل رہا ہے: Edge میں، ترتیبات > سسٹم اور کارکردگی > "اسٹارٹ اپ بوسٹ" (Startup boost) اور "پس منظر کی ایکسٹینشنز اور ایپس چلاتے رہیں" (Continue running background extensions and apps) بند کریں۔
+en: Deletes only Chrome's cache folders in every profile, plus its graphics caches.
+ur: ہر پروفائل میں صرف Chrome کے کیشے فولڈرز حذف کرتا ہے، اور اس کے گرافکس کیشے بھی۔
+en: KEEPS: passwords, bookmarks, history, cookies and site logins, autofill, extensions, settings, installed web apps.
+ur: برقرار رکھتا ہے: پاس ورڈز، بک مارکس، سرگزشت، کوکیز اور سائٹ لاگ انز، آٹو فل، ایکسٹینشنز، ترتیبات، انسٹال شدہ ویب ایپس۔
+en: Could not stop {0}: {1}
+ur: {0} کو روکا نہیں جا سکا: {1}
+en: Pages load a little slower the first time. Very rarely a site may ask you to log in again, and the browser fills in your saved password.
+ur: پہلی بار صفحات تھوڑا آہستہ کھلتے ہیں۔ بہت کم ایسا ہوتا ہے کہ کوئی سائٹ دوبارہ لاگ ان کرنے کو کہے، اور براؤزر آپ کا محفوظ کردہ پاس ورڈ خود بھر دیتا ہے۔
+en: Keeps passwords, bookmarks, logins
+ur: پاس ورڈز، بک مارکس، لاگ انز برقرار رکھتا ہے
+en: Google Chrome cache
+ur: Google Chrome کیشے
+en: KEEPS: your login, messages, settings and files. The app downloads what it needs again.
+ur: برقرار رکھتا ہے: آپ کا لاگ ان، پیغامات، ترتیبات اور فائلیں۔ ایپ جو کچھ درکار ہو دوبارہ ڈاؤن لوڈ کر لیتی ہے۔
+en: Close Opera first.
+ur: پہلے Opera بند کریں۔
+en: Deletes only Opera's cache folder.
+ur: صرف Opera کا کیشے فولڈر حذف کرتا ہے۔
+en: {0} (and Opera GX)
+ur: {0} (اور Opera GX)
+en: Microsoft Teams cache
+ur: Microsoft Teams کیشے
+en: Deletes only Teams' cache folders. Microsoft recommends this when Teams is slow or acts strangely.
+ur: صرف Teams کے کیشے فولڈرز حذف کرتا ہے۔ جب Teams سست ہو یا عجیب برتاؤ کرے تو Microsoft یہی تجویز کرتا ہے۔
+en: Teams cache folders (new Teams and classic Teams)
+ur: Teams کیشے فولڈرز (نیا Teams اور کلاسک Teams)
+en: Keeps login, chats, files
+ur: لاگ ان، چیٹس، فائلیں برقرار رکھتا ہے
+en: Opera cache
+ur: Opera کیشے
+en: Deletes only Vivaldi's cache folders in every profile.
+ur: ہر پروفائل میں صرف Vivaldi کے کیشے فولڈرز حذف کرتا ہے۔
+en: Vivaldi cache
+ur: Vivaldi کیشے
+en: Close Brave first.
+ur: پہلے Brave بند کریں۔
+en: Close Vivaldi first.
+ur: پہلے Vivaldi بند کریں۔
+en: Close Firefox first.
+ur: پہلے Firefox بند کریں۔
+en: Deletes only Firefox's cache folder in every profile.
+ur: ہر پروفائل میں صرف Firefox کا کیشے فولڈر حذف کرتا ہے۔
+en: Firefox cache
+ur: Firefox کیشے
+en: {0} and {1}
+ur: {0} اور {1}
+en: Safe to empty. Windows only needs it to uninstall one update on its own.
+ur: خالی کرنا محفوظ ہے۔ Windows کو اس کی ضرورت صرف کسی ایک اپ ڈیٹ کو الگ سے ان انسٹال کرنے کے لیے ہوتی ہے۔
+en: A backup copy Windows keeps so a single program update can be removed later without the original installer.
+ur: ایک بیک اپ کاپی جو Windows رکھتا ہے تاکہ کسی پروگرام کی ایک اپ ڈیٹ بعد میں اصل انسٹالر کے بغیر ہٹائی جا سکے۔
+en: Low risk
+ur: کم خطرہ
+en: when run
+ur: چلنے پر
+en: {0} (Microsoft DISM tool)
+ur: {0}  ·  Microsoft کا DISM ٹول
+en: Safe, often frees little
+ur: محفوظ، اکثر کم جگہ خالی کرتا ہے
+en: Windows components: normal cleanup
+ur: Windows اجزاء: عام صفائی
+en: Windows patch backup cache
+ur: Windows پیچ بیک اپ کیشے
+en: Deleted files are listed in deleted-update-files.csv (see the About tab for the folder).
+ur: حذف شدہ فائلوں کی فہرست deleted-update-files.csv میں ہے (فولڈر کے لیے "تعارف" ٹیب دیکھیں)۔
+en: This deletes only update files that Windows marks as replaced by a newer update. It keeps the newest 3 of each program and never a file still in use.
+ur: یہ صرف وہ اپ ڈیٹ فائلیں حذف کرتا ہے جنہیں Windows نئی اپ ڈیٹ سے تبدیل شدہ قرار دیتا ہے۔ یہ ہر پروگرام کی تازہ ترین 3 رکھتا ہے اور استعمال میں موجود کوئی فائل کبھی حذف نہیں کرتا۔
+en: Some programs keep every update they ever installed. Adobe Acrobat Reader is the usual one, at 0.1 to 0.7 GB per update.
+ur: کچھ پروگرام اپنی ہر انسٹال کی گئی اپ ڈیٹ رکھتے ہیں۔ عام طور پر یہ Adobe Acrobat Reader ہوتا ہے، فی اپ ڈیٹ 0.1 سے <ltr>0.7 GB</ltr>۔
+en: Small risk: if a future update or repair of that program complains about a missing file, uninstall and reinstall that program.
+ur: معمولی خطرہ: اگر اس پروگرام کی آئندہ اپ ڈیٹ یا مرمت کسی گمشدہ فائل کی شکایت کرے تو اس پروگرام کو ان انسٹال کر کے دوبارہ انسٹال کریں۔
+en: Found on this PC: nothing to remove.
+ur: اس PC پر ملا: ہٹانے کے لیے کچھ نہیں۔
+en: Found on this PC:
+ur: اس PC پر ملا:
+en: Never delete files in the Windows Installer folder by hand.
+ur: Windows Installer فولڈر میں فائلیں کبھی ہاتھ سے حذف نہ کریں۔
+en: If you tick both Windows components items, only this one runs.
+ur: اگر آپ "Windows اجزاء" کے دونوں آئٹمز پر نشان لگائیں تو صرف یہی چلے گا۔
+en: Afterwards, the Windows updates installed now can no longer be uninstalled. Only use it when Windows works fine.
+ur: اس کے بعد ابھی انسٹال شدہ Windows اپ ڈیٹس ان انسٹال نہیں کی جا سکیں گی۔ اسے صرف تب استعمال کریں جب Windows ٹھیک کام کر رہا ہو۔
+en: Same as the normal cleanup, but also removes every replaced version.
+ur: عام صفائی جیسا، لیکن ہر تبدیل شدہ ورژن بھی ہٹا دیتا ہے۔
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC.
+ur: اپنی الگ ونڈو میں چلتا ہے اور 5 سے 30 منٹ لیتا ہے۔ وہ ونڈو بند نہ کریں اور نہ PC بند کریں۔
+en: {0} (folders unused for 60+ days)
+ur: {0} (ایسے فولڈرز جو 60 سے زیادہ دن سے استعمال نہیں ہوئے)
+en: Lose old projects' tabs, layout, AI chats
+ur: پرانے پروجیکٹس کے ٹیبز، لے آؤٹ، AI چیٹس کھو جاتی ہیں
+en: VS Code: data of projects not opened in 60 days
+ur: VS Code: ان پروجیکٹس کا ڈیٹا جو 60 دن سے نہیں کھلے
+en: {0} (Microsoft DISM tool, /ResetBase)
+ur: {0}  ·  Microsoft کا DISM ٹول، <ltr>/ResetBase</ltr>
+en: Windows already does this by itself every few weeks, so it often frees very little.
+ur: Windows یہ کام ہر چند ہفتوں بعد خود کر لیتا ہے، اس لیے یہ اکثر بہت کم جگہ خالی کرتا ہے۔
+en: Runs in its own window and takes 5 to 30 minutes. Do not close that window or turn off the PC. Plug in the charger on a laptop.
+ur: اپنی الگ ونڈو میں چلتا ہے اور 5 سے 30 منٹ لیتا ہے۔ وہ ونڈو بند نہ کریں اور نہ PC بند کریں۔ لیپ ٹاپ ہو تو چارجر لگا دیں۔
+en: Microsoft's own cleanup of old versions of Windows parts. Safe.
+ur: Windows کے حصوں کے پرانے ورژنز کی Microsoft کی اپنی صفائی۔ محفوظ۔
+en: Never delete anything in WinSxS by hand. It breaks Windows.
+ur: WinSxS میں کبھی بھی ہاتھ سے کچھ حذف نہ کریں۔ اس سے Windows خراب ہو جاتا ہے۔
+en: Installed updates cannot be uninstalled after
+ur: اس کے بعد انسٹال شدہ اپ ڈیٹس ان انسٹال نہیں ہو سکتیں
+en: Windows components: deep cleanup
+ur: Windows اجزاء: گہری صفائی
+en: Running in its own window. This can take 5 to 30 minutes. Do not close that window.
+ur: اپنی الگ ونڈو میں چل رہا ہے۔ اس میں 5 سے 30 منٹ لگ سکتے ہیں۔ وہ ونڈو بند نہ کریں۔
+en: {0} (files picked from Windows' own records)
+ur: {0} (فائلیں Windows کے اپنے ریکارڈ سے چنی گئیں)
+en: Downloaded .NET packages. NuGet downloads them again when needed.
+ur: ڈاؤن لوڈ کیے گئے <ltr>.NET</ltr> پیکیجز۔ ضرورت پڑنے پر NuGet انہیں دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: NuGet download cache
+ur: NuGet ڈاؤن لوڈ کیشے
+en: Downloaded Python packages. pip downloads them again when needed.
+ur: ڈاؤن لوڈ کیے گئے Python پیکیجز۔ ضرورت پڑنے پر pip انہیں دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: Go build cache
+ur: Go بلڈ کیشے
+en: Composer cache
+ur: Composer کیشے
+en: Compiled files the Go language keeps to build faster. Go rebuilds them on the next build.
+ur: کمپائل شدہ فائلیں جو Go زبان تیز بلڈ کے لیے رکھتی ہے۔ Go اگلی بلڈ میں انہیں دوبارہ بنا لیتی ہے۔
+en: Rebuilt on the next build
+ur: اگلی بلڈ میں دوبارہ بن جاتی ہیں
+en: pip cache
+ur: pip کیشے
+en: npm cache
+ur: npm کیشے
+en: Only files older than 14 days are deleted. Recent logs stay in case something needs fixing.
+ur: صرف 14 دن سے پرانی فائلیں حذف ہوتی ہیں۔ حالیہ لاگز رہتے ہیں تاکہ کچھ ٹھیک کرنا پڑے تو کام آئیں۔
+en: Log files Windows writes while installing updates. On some PCs they grow to several GB.
+ur: لاگ فائلیں جو Windows اپ ڈیٹس انسٹال کرتے وقت لکھتا ہے۔ کچھ PCs پر یہ بڑھ کر کئی GB ہو جاتی ہیں۔
+en: Packages download again when needed
+ur: ضرورت پڑنے پر پیکیجز دوبارہ ڈاؤن لوڈ ہو جاتے ہیں
+en: Downloaded Yarn packages (for Node.js developers). Yarn downloads them again when needed.
+ur: ڈاؤن لوڈ کیے گئے Yarn پیکیجز (Node.js ڈویلپرز کے لیے)۔ ضرورت پڑنے پر Yarn انہیں دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: Yarn cache
+ur: Yarn کیشے
+en: Downloaded npm packages (for Node.js developers). npm downloads them again the next time a project needs them.
+ur: ڈاؤن لوڈ کیے گئے npm پیکیجز (Node.js ڈویلپرز کے لیے)۔ اگلی بار جب کسی پروجیکٹ کو ان کی ضرورت ہو تو npm انہیں دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: Cursor's cache folders and crash reports. Cursor rebuilds them.
+ur: Cursor کے کیشے فولڈرز اور کریش رپورٹس۔ Cursor انہیں دوبارہ بنا لیتا ہے۔
+en: Keeps settings, chats, login
+ur: ترتیبات، چیٹس، لاگ ان برقرار رکھتا ہے
+en: Cursor cache and crash reports
+ur: Cursor کیشے اور کریش رپورٹس
+en: KEEPS: settings, chats, login and projects.
+ur: برقرار رکھتا ہے: ترتیبات، چیٹس، لاگ ان اور پروجیکٹس۔
+en: Programs stay installed. Small risk
+ur: پروگرام انسٹال رہتے ہیں۔ معمولی خطرہ
+en: Old update files of installed programs (keeps newest 3)
+ur: انسٹال شدہ پروگراموں کی پرانی اپ ڈیٹ فائلیں (تازہ ترین 3 رکھتا ہے)
+en: Close Cursor first.
+ur: پہلے Cursor بند کریں۔
+en: Close VS Code first.
+ur: پہلے VS Code بند کریں۔
+en: Downloaded Rust packages. Cargo downloads them again when needed.
+ur: ڈاؤن لوڈ کیے گئے Rust پیکیجز۔ ضرورت پڑنے پر Cargo انہیں دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: Cargo download cache
+ur: Cargo ڈاؤن لوڈ کیشے
+en: Downloaded PHP packages. Composer downloads them again when needed.
+ur: ڈاؤن لوڈ کیے گئے PHP پیکیجز۔ ضرورت پڑنے پر Composer انہیں دوبارہ ڈاؤن لوڈ کر لیتا ہے۔
+en: VS Code cache and crash reports
+ur: VS Code کیشے اور کریش رپورٹس
+en: KEEPS: settings, extensions, projects, project history and chats.
+ur: برقرار رکھتا ہے: ترتیبات، ایکسٹینشنز، پروجیکٹس، پروجیکٹ کی سرگزشت اور چیٹس۔
+en: Visual Studio Code's cache folders and crash reports. VS Code rebuilds them.
+ur: Visual Studio Code کے کیشے فولڈرز اور کریش رپورٹس۔ VS Code انہیں دوبارہ بنا لیتا ہے۔
+en: Keeps settings, extensions, projects
+ur: ترتیبات، ایکسٹینشنز، پروجیکٹس برقرار رکھتا ہے
+
+# ---- UI/MainWindow.*.cs
+en: Summary
+ur: خلاصہ
+en: Transfer rate MB/s   (blue = read, orange = write)
+ur: منتقلی کی رفتار MB/s   (نیلا = پڑھنا، نارنجی = لکھنا)
+en: Disk activity %
+ur: ڈسک کی سرگرمی %
+en: Average transfer rate (since this tab opened)
+ur: منتقلی کی اوسط رفتار (اس ٹیب کے کھلنے سے اب تک)
+en: Read since Windows started
+ur: Windows شروع ہونے کے بعد سے پڑھا گیا
+en: Average disk activity
+ur: ڈسک کی اوسط سرگرمی
+en: Highest transfer rate seen
+ur: منتقلی کی سب سے زیادہ دیکھی گئی رفتار
+en: now
+ur: ابھی
+en: READ
+ur: پڑھنا
+en: Right now
+ur: اس وقت
+en: Saved today's disk health and temperature reading to the history.
+ur: آج کی ڈسک کی صحت اور درجہ حرارت کی ریڈنگ سرگزشت میں محفوظ کر دی گئی۔
+en: WRITE
+ur: لکھنا
+en: 2 minutes ago
+ur: 2 منٹ پہلے
+en: DISK ACTIVITY
+ur: ڈسک کی سرگرمی
+en: TOTAL TRANSFER
+ur: کل منتقلی
+en: Written since Windows started
+ur: Windows شروع ہونے کے بعد سے لکھا گیا
+en: This disk has no drive letter, so the speed test cannot write its test file.
+ur: اس ڈسک کا کوئی ڈرائیو لیٹر نہیں، اس لیے رفتار ٹیسٹ اپنی ٹیسٹ فائل نہیں لکھ سکتا۔
+en: Pick a disk first.
+ur: پہلے کوئی ڈسک منتخب کریں۔
+en: Last test on {0}: write {1} MB/s, read {2} MB/s, random 4K read {3} MB/s.
+ur: آخری ٹیسٹ {0} کو: لکھنا {1} MB/s، پڑھنا {2} MB/s، بے ترتیب 4K پڑھنا {3} MB/s۔
+en: Drive {0} needs at least 2 GB of free space for the speed test.
+ur: رفتار ٹیسٹ کے لیے ڈرائیو {0} پر کم از کم <ltr>2 GB</ltr> خالی جگہ درکار ہے۔
+en: Speed test started on drive {0}.
+ur: ڈرائیو {0} پر رفتار ٹیسٹ شروع ہو گیا۔
+en: Running...
+ur: چل رہا ہے...
+en: The speed test writes a {0} MB test file to drive {1}, reads it back, and deletes it.<br>It takes about 10 to 60 seconds. Other programs may feel slower meanwhile.<br><br>Start the speed test?
+ur: رفتار ٹیسٹ ڈرائیو {1} پر {0} MB کی ٹیسٹ فائل لکھتا ہے، اسے واپس پڑھتا ہے، اور پھر حذف کر دیتا ہے۔<br>اس میں تقریباً 10 سے 60 سیکنڈ لگتے ہیں۔ اس دوران دوسرے پروگرام سست محسوس ہو سکتے ہیں۔<br><br>کیا رفتار ٹیسٹ شروع کریں؟
+en: not reported by this disk
+ur: یہ ڈسک نہیں بتاتی
+en: Measures how fast the disk can really write and read: it writes a temporary test file, reads it back, then reads small random pieces, and deletes the file. Click "Run speed test" at the top.
+ur: ناپتا ہے کہ ڈسک اصل میں کتنی تیزی سے لکھ اور پڑھ سکتی ہے: یہ ایک عارضی ٹیسٹ فائل لکھتا ہے، اسے واپس پڑھتا ہے، پھر چھوٹے بے ترتیب حصے پڑھتا ہے، اور فائل حذف کر دیتا ہے۔ اوپر "رفتار ٹیسٹ چلائیں" پر کلک کریں۔
+en: Speed test
+ur: رفتار ٹیسٹ
+en: Written over the disk's whole life
+ur: ڈسک کی پوری عمر میں لکھا گیا
+en: Not run yet.
+ur: ابھی تک نہیں چلایا گیا۔
+en: Disk {0}: {1}
+ur: ڈسک {0}: {1}
+en: Windows' disk activity counters are not available on this PC: {0}
+ur: اس PC پر Windows کے ڈسک سرگرمی کاؤنٹرز دستیاب نہیں: {0}
+en: Getting disk activity ready...
+ur: ڈسک کی سرگرمی تیار کی جا رہی ہے...
+en: The first time, Windows can take a few seconds to start its disk activity counters.
+ur: پہلی بار Windows کو ڈسک سرگرمی کاؤنٹرز شروع کرنے میں چند سیکنڈ لگ سکتے ہیں۔
+en: For comparison: laptop hard disks reach about 80 to 140 MB/s, SATA SSDs about 500 MB/s, and NVMe SSDs 1,500 to 7,000 MB/s.
+ur: موازنے کے لیے: لیپ ٹاپ کی ہارڈ ڈسکیں تقریباً 80 سے <ltr>140 MB/s</ltr>، SATA SSD تقریباً <ltr>500 MB/s</ltr>، اور NVMe SSD 1,500 سے <ltr>7,000 MB/s</ltr> تک پہنچتی ہیں۔
+en: Raw value
+ur: خام قدر
+en: Unexpected power losses
+ur: بجلی کے غیر متوقع انقطاع
+en: Spare space left
+ur: باقی اضافی جگہ
+en: Rated write life used
+ur: لکھنے کی مقررہ عمر کا استعمال
+en: ✓ No problems found.
+ur: ✓ کوئی مسئلہ نہیں ملا۔
+en: From Windows' storage information.
+ur: Windows کی اسٹوریج معلومات سے۔
+en: Read from the SSD's own health log (NVMe). The full list is in the SMART details tab.
+ur: SSD کے اپنے صحت لاگ (NVMe) سے پڑھا گیا۔ پوری فہرست "SMART تفصیلات" ٹیب میں ہے۔
+en: Read from the disk's own self-monitoring data (SMART). The full list is in the SMART details tab.
+ur: ڈسک کے اپنے خود نگرانی کے ڈیٹا (SMART) سے پڑھا گیا۔ پوری فہرست "SMART تفصیلات" ٹیب میں ہے۔
+en: Data read over its life
+ur: اس کی عمر بھر میں پڑھا گیا ڈیٹا
+en: Powered on
+ur: آن رہنے کا وقت
+en: TEMPERATURE
+ur: درجہ حرارت
+en: needs admin
+ur: ایڈمن درکار
+en: {0} hours  (about {1} days)
+ur: {0} گھنٹے  (تقریباً {1} دن)
+en: Data written over its life
+ur: اس کی عمر بھر میں لکھا گیا ڈیٹا
+en: {0} times
+ur: {0} بار
+en: Turned on
+ur: آن کیا گیا
+en: This disk does not share detailed health data with Windows (common for USB enclosures and RAID).
+ur: یہ ڈسک Windows کے ساتھ صحت کا تفصیلی ڈیٹا شیئر نہیں کرتی (USB انکلوژرز اور RAID میں عام ہے)۔
+en: No.
+ur: نمبر
+en: Status
+ur: حالت
+en: Value
+ur: قدر
+en: Attribute
+ur: خصوصیت
+en: Data
+ur: ڈیٹا
+en: Worst
+ur: بدترین
+en: Threshold
+ur: حد
+en: Item
+ur: آئٹم
+en: Temperature history
+ur: درجہ حرارت کی سرگزشت
+en: Health history
+ur: صحت کی سرگزشت
+en: Start the tool with admin rights to read health and temperature.
+ur: صحت اور درجہ حرارت پڑھنے کے لیے ٹول کو ایڈمن حقوق کے ساتھ شروع کریں۔
+en: No readings saved yet.
+ur: ابھی تک کوئی ریڈنگ محفوظ نہیں ہوئی۔
+en: Offset
+ur: آفسیٹ
+en: {0} readings since {1}.
+ur: {1} سے اب تک {0} ریڈنگز۔
+en: 1 reading so far, on {0}. The charts grow as more readings are saved.
+ur: اب تک 1 ریڈنگ، {0} کو۔ جیسے جیسے مزید ریڈنگز محفوظ ہوں گی، چارٹ بڑھتے جائیں گے۔
+en: Write {0:N0} MB/s     Read {1:N0} MB/s     Random 4K read {2:N1} MB/s ({3:N0} per second)
+ur: لکھنا {0:N0} MB/s     پڑھنا {1:N0} MB/s     بے ترتیب 4K پڑھنا {2:N1} MB/s  ·  {3:N0} فی سیکنڈ
+en: This item has no folder to open.
+ur: اس آئٹم کا کھولنے کے لیے کوئی فولڈر نہیں۔
+en: Stopping...
+ur: روکا جا رہا ہے...
+en: Could not open the read me: {0}
+ur: "مجھے پڑھیں" فائل نہیں کھل سکی: {0}
+en: Pick a drive first.
+ur: پہلے کوئی ڈرائیو منتخب کریں۔
+en: This needs admin rights. Start the tool again and click Yes on the Windows prompt.
+ur: اس کے لیے ایڈمن حقوق درکار ہیں۔ ٹول دوبارہ شروع کریں اور Windows کے پیغام میں "ہاں" پر کلک کریں۔
+en: Select a file in the list first.
+ur: پہلے فہرست میں کوئی فائل منتخب کریں۔
+en: Scan a drive first.
+ur: پہلے کسی ڈرائیو کو اسکین کریں۔
+en: No questions match your search.
+ur: کوئی سوال آپ کی تلاش سے میل نہیں کھاتا۔
+en: Simple habits that keep your disk from filling up and your PC running well.
+ur: آسان عادتیں جو آپ کی ڈسک کو بھرنے سے بچاتی ہیں اور آپ کے PC کو اچھی طرح چلاتی رہتی ہیں۔
+en: Tips
+ur: تجاویز
+en: SAFETY
+ur: حفاظت
+en: How Disk Cleanup Helper keeps you safe
+ur: Disk Cleanup Helper آپ کو کیسے محفوظ رکھتا ہے
+en: Search the questions, for example "temperature"
+ur: سوالات میں تلاش کریں، مثلاً "درجہ حرارت"
+en: Click a question to see the answer.
+ur: جواب دیکھنے کے لیے کسی سوال پر کلک کریں۔
+en: Frequently asked questions
+ur: اکثر پوچھے جانے والے سوالات
+en: Started Windows' own error scan of {0} in its own window. It only reads the drive and takes a few minutes. Read the result in that window.
+ur: {0} کا Windows کا اپنا خرابی اسکین اس کی الگ ونڈو میں شروع کر دیا گیا۔ یہ صرف ڈرائیو کو پڑھتا ہے اور چند منٹ لیتا ہے۔ نتیجہ اسی ونڈو میں پڑھیں۔
+en: Only items found on this PC are listed. Click "Measure sizes" to see how much each one uses. Nothing is deleted until you confirm.
+ur: صرف اس PC پر ملنے والے آئٹمز دکھائے گئے ہیں۔ ہر ایک کتنی جگہ لیتا ہے یہ دیکھنے کے لیے "سائز ناپیں" پر کلک کریں۔ جب تک آپ تصدیق نہ کریں، کچھ بھی حذف نہیں ہوتا۔
+en: Not running as administrator. Items marked Admin are disabled.
+ur: ایڈمنسٹریٹر کے طور پر نہیں چل رہا۔ "ایڈمن" نشان والے آئٹمز غیر فعال ہیں۔
+en: Running as administrator. All items are available.
+ur: ایڈمنسٹریٹر کے طور پر چل رہا ہے۔ تمام آئٹمز دستیاب ہیں۔
+en: Tip: the About tab can install it, so it appears in the Start menu.
+ur: مشورہ: "تعارف" ٹیب سے اسے انسٹال کیا جا سکتا ہے، تاکہ یہ اسٹارٹ مینیو میں نظر آئے۔
+en: Saved a health and temperature reading for {0} disks to the history.
+ur: {0} ڈسک کی صحت اور درجہ حرارت کی ریڈنگ سرگزشت میں محفوظ کر دی گئی۔ | {0} ڈسکوں کی صحت اور درجہ حرارت کی ریڈنگ سرگزشت میں محفوظ کر دی گئی۔
+en: {0} files were in use and were skipped.
+ur: {0} فائل استعمال میں تھی اور چھوڑ دی گئی۔ | {0} فائلیں استعمال میں تھیں اور چھوڑ دی گئیں۔
+en: {0} items
+ur: {0} آئٹم | {0} آئٹمز
+en: My user folder only
+ur: صرف میرا یوزر فولڈر
+en: Install: not installed
+ur: انسٹالیشن: انسٹال نہیں
+en: Install: installed in {0}
+ur: انسٹالیشن: {0} میں انسٹال
+en: No readings have been saved yet.<br><br>The history will be saved in:<br>{0}
+ur: ابھی تک کوئی ریڈنگ محفوظ نہیں ہوئی۔<br><br>سرگزشت یہاں محفوظ ہوگی:<br>{0}
+en: No cleanups have been run yet.<br><br>The history will be saved in:<br>{0}
+ur: ابھی تک کوئی صفائی نہیں چلائی گئی۔<br><br>سرگزشت یہاں محفوظ ہوگی:<br>{0}
+en: Whole drive
+ur: پوری ڈرائیو
+en: Could not open System Information: {0}
+ur: "سسٹم کی معلومات" نہیں کھل سکی: {0}
+en: Could not open dxdiag: {0}
+ur: dxdiag نہیں کھل سکا: {0}
+en: SPEED
+ur: رفتار
+en: Wait until the details have been read.
+ur: تفصیلات پڑھے جانے تک انتظار کریں۔
+en: Read at {0}. It stays on this PC unless you copy or save it.
+ur: {0} کو پڑھا گیا۔ جب تک آپ اسے کاپی یا محفوظ نہ کریں، یہ اسی PC پر رہتا ہے۔
+en: Could not read the device details: {0}
+ur: ڈیوائس کی تفصیلات نہیں پڑھی جا سکیں: {0}
+en: Copied the device details. Paste them where you need them, for example in a message to someone who helps you.
+ur: ڈیوائس کی تفصیلات کاپی ہو گئیں۔ انہیں جہاں ضرورت ہو پیسٹ کریں، مثلاً آپ کی مدد کرنے والے کسی شخص کو پیغام میں۔
+en: Text file
+ur: ٹیکسٹ فائل
+en: Save the device details
+ur: ڈیوائس کی تفصیلات محفوظ کریں
+en: Could not copy: {0}
+ur: کاپی نہیں ہو سکا: {0}
+en: Reading...
+ur: پڑھا جا رہا ہے...
+en: Speed test: {0}
+ur: رفتار ٹیسٹ: {0}
+en: Speed test finished.
+ur: رفتار ٹیسٹ مکمل ہو گیا۔
+en: Tested with a {0} MB file on {1}. The result is saved, so you can compare later.
+ur: {1} کو {0} MB کی فائل سے ٹیسٹ کیا گیا۔ نتیجہ محفوظ ہے، تاکہ آپ بعد میں موازنہ کر سکیں۔
+en: Speed test stopped. The test file was deleted.
+ur: رفتار ٹیسٹ روک دیا گیا۔ ٹیسٹ فائل حذف کر دی گئی۔
+en: Reading this PC's details...
+ur: اس PC کی تفصیلات پڑھی جا رہی ہیں...
+en: Collecting details about Windows, the processor, memory, graphics and more. This takes a few seconds.
+ur: Windows، پروسیسر، میموری، گرافکس اور دیگر تفصیلات جمع کی جا رہی ہیں۔ اس میں چند سیکنڈ لگتے ہیں۔
+en: The speed test could not finish. See the log below.
+ur: رفتار ٹیسٹ مکمل نہیں ہو سکا۔ نیچے لاگ دیکھیں۔
+en: Stopped.
+ur: روک دیا گیا۔
+en: Saved the device details to {0}
+ur: ڈیوائس کی تفصیلات {0} میں محفوظ کر دی گئیں
+en: Philip Droubi | Software Engineer
+ur: Philip Droubi | سافٹ ویئر انجینئر
+en: Software Engineer. Questions, ideas or feedback about Disk Cleanup Helper are welcome.
+ur: سافٹ ویئر انجینئر۔ Disk Cleanup Helper کے بارے میں سوالات، خیالات یا رائے کا خیر مقدم ہے۔
+en: Made by Philip Droubi
+ur: Philip Droubi کا تیار کردہ
+en: Philip Droubi is a Software Engineer.
+ur: Philip Droubi ایک سافٹ ویئر انجینئر ہیں۔
+en: SPACE
+ur: جگہ
+en: Software Engineer. Connect with Philip Droubi on LinkedIn.
+ur: سافٹ ویئر انجینئر۔ LinkedIn پر Philip Droubi سے رابطہ کریں۔
+en: Source code on GitHub
+ur: GitHub پر سورس کوڈ
+en: Free and open source under the GNU GPL v3: use it, change it and share it. Copies keep the credit to Philip Droubi.
+ur: GNU GPL v3 کے تحت مفت اور اوپن سورس: استعمال کریں، تبدیل کریں اور شیئر کریں۔ کاپیوں میں Philip Droubi کا کریڈٹ برقرار رہتا ہے۔
+en: © {0} Philip Droubi. Free software: you may use, change and share it under the GNU General Public License v3 with the additional terms in NOTICE. It comes with no warranty.
+ur: کاپی رائٹ © {0} Philip Droubi کے پاس ہے۔ آزاد سافٹ ویئر: آپ اسے NOTICE فائل میں دی گئی اضافی شرائط کے ساتھ GNU General Public License v3 کے تحت استعمال، تبدیل اور شیئر کر سکتے ہیں۔ اس کی کوئی ضمانت نہیں دی جاتی۔
+en: License and terms
+ur: لائسنس اور شرائط
+en: This copy ({0}) is not the one installed on this PC. Update the installed copy so the Start menu opens this version.
+ur: یہ کاپی ({0}) اس PC پر انسٹال شدہ کاپی نہیں ہے۔ انسٹال شدہ کاپی اپ ڈیٹ کریں تاکہ اسٹارٹ مینیو یہ ورژن کھولے۔
+en: Repair shortcuts
+ur: شارٹ کٹس ٹھیک کریں
+en: Installed in {0}. Open it any time from the Start menu or the desktop shortcut. To remove it: click Uninstall, or Settings > Apps > Disk Cleanup Helper.
+ur: {0} میں انسٹال ہے۔ اسے کسی بھی وقت اسٹارٹ مینیو یا ڈیسک ٹاپ شارٹ کٹ سے کھولیں۔ ہٹانے کے لیے: "ان انسٹال کریں" پر کلک کریں، یا ترتیبات > ایپس > Disk Cleanup Helper۔
+en: Could not save the file: {0}
+ur: فائل محفوظ نہیں ہو سکی: {0}
+en: Update installed copy
+ur: انسٹال شدہ کاپی اپ ڈیٹ کریں
+en: Keep Disk Cleanup Helper on this PC: install it to open it from the Start menu and the desktop. No admin rights needed.
+ur: Disk Cleanup Helper کو اس PC پر رکھیں: اسے انسٹال کریں تاکہ اسٹارٹ مینیو اور ڈیسک ٹاپ سے کھول سکیں۔ ایڈمن حقوق درکار نہیں۔
+en: Install on this PC
+ur: اس PC پر انسٹال کریں
+en: Not installed. You are running it from {0}. Install adds a Start menu entry, a desktop shortcut and an entry in Settings > Apps so it can be removed like any program. No admin rights are needed.
+ur: انسٹال نہیں ہے۔ آپ اسے {0} سے چلا رہے ہیں۔ انسٹال کرنے سے اسٹارٹ مینیو میں ایک اندراج، ڈیسک ٹاپ شارٹ کٹ اور ترتیبات > ایپس میں ایک اندراج شامل ہوتا ہے تاکہ اسے کسی بھی پروگرام کی طرح ہٹایا جا سکے۔ ایڈمن حقوق درکار نہیں ہیں۔
+en: not reported
+ur: نہیں بتایا گیا
+en: This tool never deletes this item. Use "Open location" and follow the steps above.
+ur: یہ ٹول اس آئٹم کو کبھی حذف نہیں کرتا۔ "مقام کھولیں" استعمال کریں اور اوپر دیے گئے مراحل پر عمل کریں۔
+en: Needs admin rights. Start the tool again and click Yes on the Windows prompt to use this item.
+ur: ایڈمن حقوق درکار ہیں۔ یہ آئٹم استعمال کرنے کے لیے ٹول دوبارہ شروع کریں اور Windows کے پیغام میں "ہاں" پر کلک کریں۔
+en: Close first: {0}
+ur: پہلے بند کریں: {0}
+en: Measure anyway?
+ur: پھر بھی ناپیں؟
+en: Measuring stopped.
+ur: ناپنا روک دیا گیا۔
+en: Measuring {0} of {1}: {2}
+ur: {1} میں سے {0} ناپا جا رہا ہے: {2}
+en: Measuring sizes. This can take a minute or two. Click Stop to stop.
+ur: سائز ناپے جا رہے ہیں۔ اس میں ایک دو منٹ لگ سکتے ہیں۔ روکنے کے لیے "روکیں" پر کلک کریں۔
+en: Where
+ur: مقام
+en: Problem: {0}
+ur: مسئلہ: {0}
+en: Clean selected ({0})
+ur: منتخب کردہ صاف کریں ({0})
+en: up to {0}
+ur: {0} تک
+en: Close {0} first
+ur: پہلے {0} بند کریں
+en: Size: not measured yet
+ur: سائز: ابھی نہیں ناپا گیا
+en: Size: {0}
+ur: سائز: {0}
+en: Admin
+ur: ایڈمن
+en: Done. Select what you want to clean.
+ur: ہو گیا۔ جو صاف کرنا چاہتے ہیں اسے منتخب کریں۔
+en: Cleanup started. Free space on {0}: {1}
+ur: صفائی شروع ہو گئی۔ {0} پر خالی جگہ: {1}
+en: Confirm cleanup
+ur: صفائی کی تصدیق کریں
+en: These will be cleaned. Deleted files do not go to the Recycle Bin and cannot be restored:<br><br>{0}<br><br>Continue?
+ur: یہ صاف کیے جائیں گے۔ حذف شدہ فائلیں ری سائیکل بن میں نہیں جاتیں اور بحال نہیں کی جا سکتیں:<br><br>{0}<br><br>جاری رکھیں؟
+en: Stopped. Not cleaned: {0}
+ur: روک دیا گیا۔ صاف نہیں ہوئے: {0}
+en: Error: {0}
+ur: خرابی: {0}
+en: Cleaning: {0}
+ur: صفائی جاری ہے: {0}
+en: All done. Free space on {0} grew by {1}. Now {2} free.
+ur: سب مکمل۔ {0} پر خالی جگہ {1} بڑھ گئی۔ اب {2} خالی ہے۔
+en: Clean anyway?
+ur: پھر بھی صاف کریں؟
+en: Tip: some apps keep running near the clock. Right-click their icon there and choose Exit or Quit.
+ur: مشورہ: کچھ ایپس گھڑی کے پاس چلتی رہتی ہیں۔ وہاں ان کے آئیکن پر دائیں کلک کریں اور "باہر نکلیں" (Exit) یا "بند کریں" (Quit) منتخب کریں۔
+en: Select at least one item first.
+ur: پہلے کم از کم ایک آئٹم منتخب کریں۔
+en: Done. Click an item to read about it, select what you want, then click "Clean selected".
+ur: ہو گیا۔ کسی آئٹم کے بارے میں پڑھنے کے لیے اس پر کلک کریں، جو چاہیں منتخب کریں، پھر "منتخب کردہ صاف کریں" پر کلک کریں۔
+en: Edge often runs in the background: in Edge, Settings > System and performance > turn off Startup boost and background apps.
+ur: Edge اکثر پس منظر میں چلتا ہے: Edge میں، ترتیبات > سسٹم اور کارکردگی > "اسٹارٹ اپ بوسٹ" اور پس منظر کی ایپس بند کریں۔
+en: Nothing left to clean. Close the programs and try again.
+ur: صاف کرنے کے لیے کچھ نہیں بچا۔ پروگرام بند کریں اور دوبارہ کوشش کریں۔
+en: Close programs first
+ur: پہلے پروگرام بند کریں
+en: These programs are still open:<br><br>{0}<br><br>{1}<br><br>Click No, close them, then click Clean again.<br>Or click Yes to skip the items that need them and clean the rest.
+ur: یہ پروگرام ابھی کھلے ہیں:<br><br>{0}<br><br>{1}<br><br>"نہیں" پر کلک کریں، انہیں بند کریں، پھر دوبارہ "صاف کریں" پر کلک کریں۔<br>یا "ہاں" پر کلک کریں تاکہ ان کی ضرورت والے آئٹمز چھوڑ کر باقی صاف ہو جائیں۔
+en: Clean selected
+ur: منتخب کردہ صاف کریں
+en: Switches that free space or keep it free.
+ur: سوئچ جو جگہ خالی کرتے ہیں یا اسے خالی رکھتے ہیں۔
+en: Windows settings
+ur: Windows ترتیبات
+en: YOUR CALL
+ur: آپ کا فیصلہ
+en: SETTING
+ur: ترتیب
+en: INFO ONLY
+ur: صرف معلومات
+en: The tool only shows and opens these. It never deletes them.
+ur: ٹول انہیں صرف دکھاتا اور کھولتا ہے۔ یہ انہیں کبھی حذف نہیں کرتا۔
+en: Do it yourself
+ur: خود کریں
+en: You lose something small. Read each one before you select it.
+ur: آپ کوئی چھوٹی چیز کھو دیتے ہیں۔ ہر ایک کو منتخب کرنے سے پہلے پڑھیں۔
+en: SAFE
+ur: محفوظ
+en: TOTAL
+ur: کل
+en: {0} selected
+ur: {0} منتخب
+en: Caches and temp files. Programs rebuild them by themselves.
+ur: کیشے اور عارضی فائلیں۔ پروگرام انہیں خود دوبارہ بنا لیتے ہیں۔
+en: Safe to clean
+ur: صاف کرنے کے لیے محفوظ
+en: Old installer files and Windows cleanup
+ur: پرانی انسٹالر فائلیں اور Windows کی صفائی
+en: Your call
+ur: آپ کا فیصلہ
+en: ADMIN
+ur: ایڈمن
+en: Needs admin rights. Read each one before you select it.
+ur: ایڈمن حقوق درکار ہیں۔ ہر ایک کو منتخب کرنے سے پہلے پڑھیں۔
+en: Language
+ur: زبان
+en: Your PC is low on memory right now:<br><br>  Available memory: {0:N1} GB<br>  Room left including the page file: {1:N1} GB<br><br>Running out of memory can make programs crash and, on some PCs, cause a blue screen.<br>Close programs you do not need (browsers, editors, games), then try again.
+ur: آپ کے PC کی میموری اس وقت کم ہے:<br><br>  دستیاب میموری: {0:N1} GB<br>  پیج فائل سمیت باقی جگہ: {1:N1} GB<br><br>میموری ختم ہونے سے پروگرام کریش ہو سکتے ہیں اور کچھ PCs پر بلیو اسکرین آ سکتی ہے۔<br>جن پروگراموں کی ضرورت نہیں (براؤزرز، ایڈیٹرز، گیمز) انہیں بند کریں، پھر دوبارہ کوشش کریں۔
+en: Switched to the light theme.
+ur: ہلکی تھیم پر منتقل ہو گیا۔
+en: Switched to the dark theme.
+ur: گہری تھیم پر منتقل ہو گیا۔
+en: Low memory
+ur: کم میموری
+en: nothing selected
+ur: کچھ منتخب نہیں
+en: low: close some programs
+ur: کم: کچھ پروگرام بند کریں
+en: of {0} GB
+ur: {0} GB میں سے
+en: Switch to the dark theme
+ur: گہری تھیم پر جائیں
+en: Please wait until the current task finishes, or click Stop.
+ur: براہ کرم موجودہ کام ختم ہونے تک انتظار کریں، یا "روکیں" پر کلک کریں۔
+en: Scan {0} for errors
+ur: {0} کو خرابیوں کے لیے اسکین کریں
+en: {0} FREE (WINDOWS DRIVE)
+ur: {0} پر خالی جگہ (Windows ڈرائیو)
+en: Could not restart the app: {0}
+ur: ایپ دوبارہ شروع نہیں ہو سکی: {0}
+en: Switch to the light theme
+ur: ہلکی تھیم پر جائیں
+en: DARK MODE
+ur: گہرا موڈ
+en: LIGHT MODE
+ur: ہلکا موڈ
+en: Removed {0}. Left: {1}.
+ur: {0} ہٹا دیا گیا۔ باقی: {1}۔
+en: Storage Spaces
+ur: اسٹوریج اسپیسز
+en: Virtual
+ur: ورچوئل
+en: Disk
+ur: ڈسک
+en: Too hot
+ur: بہت گرم
+en: Could not read disks: {0}
+ur: ڈسکیں نہیں پڑھی جا سکیں: {0}
+en: Normal
+ur: نارمل
+en: Warm
+ur: نیم گرم
+en: Poor
+ur: کمزور
+en: Healthy
+ur: صحت مند
+en: Unknown
+ur: نامعلوم
+en: Windows: problem
+ur: Windows: مسئلہ
+en: Warning
+ur: انتباہ
+en: Fair
+ur: مناسب
+en: Good
+ur: اچھی
+en: Problem
+ur: مسئلہ
+en: Checking disks...
+ur: ڈسکیں چیک کی جا رہی ہیں...
+en: Reading each disk's health and temperature. This takes a few seconds.
+ur: ہر ڈسک کی صحت اور درجہ حرارت پڑھا جا رہا ہے۔ اس میں چند سیکنڈ لگتے ہیں۔
+en: Waiting for the current task to finish. The disks are checked right after that.
+ur: موجودہ کام ختم ہونے کا انتظار ہے۔ اس کے فوراً بعد ڈسکیں چیک کی جائیں گی۔
+en: (health {0}%)
+ur: (صحت {0}%)
+en: SMART attributes
+ur: SMART خصوصیات
+en: NVMe health log
+ur: NVMe صحت لاگ
+en: {0}% used
+ur: {0}% استعمال شدہ
+en: HEALTH
+ur: صحت
+en: Almost full: Windows and apps slow down when a drive is this full.
+ur: تقریباً بھری ہوئی: جب ڈرائیو اتنی بھری ہو تو Windows اور ایپس سست ہو جاتے ہیں۔
+en: {0} free of {1}
+ur: {1} میں سے {0} خالی
+en: Start the tool with admin rights to read the disks' SMART data.
+ur: ڈسکوں کا SMART ڈیٹا پڑھنے کے لیے ٹول کو ایڈمن حقوق کے ساتھ شروع کریں۔
+en: Windows did not report any disks.
+ur: Windows نے کوئی ڈسک نہیں بتائی۔
+en: Disks
+ur: ڈسکیں
+en: Drives
+ur: ڈرائیوز
+en: Health % is this app's estimate from each disk's own data. Other tools use their own formulas, so their numbers can differ a little. A reading is saved each time you open this tab or start the app (at most every 30 minutes), so you can follow health and temperature over time.
+ur: صحت % اس ایپ کا اندازہ ہے جو ہر ڈسک کے اپنے ڈیٹا سے لگایا جاتا ہے۔ دوسرے ٹولز اپنے فارمولے استعمال کرتے ہیں، اس لیے ان کے نمبر تھوڑے مختلف ہو سکتے ہیں۔ جب بھی آپ یہ ٹیب کھولتے ہیں یا ایپ شروع کرتے ہیں (زیادہ سے زیادہ ہر 30 منٹ میں ایک بار) ایک ریڈنگ محفوظ ہوتی ہے، تاکہ آپ وقت کے ساتھ صحت اور درجہ حرارت پر نظر رکھ سکیں۔
+en: None of the disks shares SMART data with Windows. This is common for USB enclosures and RAID.
+ur: کوئی بھی ڈسک Windows کے ساتھ SMART ڈیٹا شیئر نہیں کرتی۔ USB انکلوژرز اور RAID میں ایسا عام ہے۔
+en: Disk check finished.
+ur: ڈسک چیک مکمل ہو گیا۔
+en: A disk reports a problem. Back up your important files now.
+ur: ایک ڈسک مسئلہ بتا رہی ہے۔ ابھی اپنی اہم فائلوں کا بیک اپ لیں۔
+en: Windows: warning
+ur: Windows: انتباہ
+en: Stopped. Results are incomplete.
+ur: روک دیا گیا۔ نتائج نامکمل ہیں۔
+en: Scanning... {0:N0} folders and {1:N0} files so far
+ur: اسکین جاری ہے... اب تک {0:N0} فولڈرز اور {1:N0} فائلیں
+en: Scanning {0}. Click Stop to stop.
+ur: {0} کو اسکین کیا جا رہا ہے۔ روکنے کے لیے "روکیں" پر کلک کریں۔
+en: Scan stopped. The biggest files found so far are listed. Folder sizes are only shown for a finished scan.
+ur: اسکین روک دیا گیا۔ اب تک ملنے والی سب سے بڑی فائلیں دکھائی گئی ہیں۔ فولڈرز کے سائز صرف مکمل اسکین کے بعد دکھائے جاتے ہیں۔
+en: Note: the Windows folder can look bigger than it really is, because Windows keeps some files in two places at once.
+ur: نوٹ: Windows فولڈر اپنے اصل سائز سے بڑا نظر آ سکتا ہے، کیونکہ Windows کچھ فائلیں ایک ہی وقت میں دو جگہ رکھتا ہے۔
+en: {0:N0} folders could not be read (Windows protects them).
+ur: {0:N0} فولڈرز پڑھے نہیں جا سکے (Windows ان کی حفاظت کرتا ہے)۔
+en: Done in {0:N0} s: {1:N0} folders, {2:N0} files.
+ur: {0:N0} سیکنڈ میں مکمل: {1:N0} فولڈرز، {2:N0} فائلیں۔
+en: Scanning {0} ...
+ur: {0} کو اسکین کیا جا رہا ہے ...
+en: (files directly in this folder)
+ur: (براہ راست اس فولڈر میں موجود فائلیں)
+en: Scan a drive to see its biggest folders.
+ur: کسی ڈرائیو کے سب سے بڑے فولڈرز دیکھنے کے لیے اسے اسکین کریں۔
+en: Free space on {0} grew by {1}.
+ur: {0} پر خالی جگہ {1} بڑھ گئی۔
+en: Biggest files
+ur: سب سے بڑی فائلیں
+en: Scan anyway?
+ur: پھر بھی اسکین کریں؟
+en: That drive or folder is not available.
+ur: وہ ڈرائیو یا فولڈر دستیاب نہیں۔
+en: Biggest files ({0} found)
+ur: سب سے بڑی فائلیں ({0} ملیں)
+en: Select one or more files in the list first. Hold Ctrl to select several.
+ur: پہلے فہرست میں ایک یا زیادہ فائلیں منتخب کریں۔ کئی منتخب کرنے کے لیے Ctrl دبائے رکھیں۔
+en: Could not remove {0}: {1}
+ur: {0} ہٹایا نہیں جا سکا: {1}
+en: Moved to Recycle Bin: {0} ({1})
+ur: ری سائیکل بن میں منتقل: {0}  ·  {1}
+en: Deleted file: {0} ({1})
+ur: حذف شدہ فائل: {0}  ·  {1}
+en: Files deleted: {0}.
+ur: حذف شدہ فائلیں: {0}۔
+en: Windows: OK
+ur: Windows: ٹھیک
+en: {0} could not be removed (in use or protected).
+ur: ہٹائی نہ جا سکنے والی فائلیں (استعمال میں یا محفوظ): {0}۔
+en: Files moved to the Recycle Bin: {0}.
+ur: ری سائیکل بن میں منتقل کی گئی فائلیں: {0}۔
+en: Move to Recycle Bin
+ur: ری سائیکل بن میں منتقل کریں
+en: They will be deleted permanently and cannot be restored.
+ur: یہ مستقل طور پر حذف ہو جائیں گی اور بحال نہیں کی جا سکیں گی۔
+en: ... and {0} more
+ur: ... اور {0} مزید
+en: These are Windows, program or system files and are protected:<br><br>{0}<br><br>Uninstall the program instead, or use the Clean up tab.
+ur: یہ Windows، پروگرام یا سسٹم کی فائلیں ہیں اور محفوظ ہیں:<br><br>{0}<br><br>اس کے بجائے پروگرام ان انسٹال کریں، یا "صفائی" ٹیب استعمال کریں۔
+en: They will go to the Recycle Bin. The space is only freed after you empty the Recycle Bin.
+ur: یہ ری سائیکل بن میں جائیں گی۔ جگہ صرف ری سائیکل بن خالی کرنے کے بعد خالی ہوگی۔
+en: Delete permanently
+ur: مستقل طور پر حذف کریں
+en: Make sure you do not need them. Continue?
+ur: یقین کر لیں کہ آپ کو ان کی ضرورت نہیں۔ جاری رکھیں؟
+en: Files: {0}, {1} in total.
+ur: فائلیں: {0}، کل {1}۔
+
+# ---- UI/MainWindow.xaml
+en: Check disks again
+ur: ڈسکیں دوبارہ چیک کریں
+en: Disk health
+ur: ڈسک کی صحت
+en: Hold Ctrl to select several files. Windows and program files are protected and cannot be deleted here.
+ur: کئی فائلیں منتخب کرنے کے لیے Ctrl دبائے رکھیں۔ Windows اور پروگرام فائلیں محفوظ ہیں اور یہاں حذف نہیں کی جا سکتیں۔
+en: Scan for errors
+ur: خرابیوں کے لیے اسکین کریں
+en: Open history file
+ur: سرگزشت کی فائل کھولیں
+en: Windows storage settings
+ur: Windows اسٹوریج ترتیبات
+en: Optimize drives
+ur: ڈرائیوز بہتر بنائیں
+en: Modified
+ur: تبدیلی
+en: Up
+ur: اوپر
+en: Biggest folders
+ur: سب سے بڑے فولڈرز
+en: Pick a drive and click Scan. A whole drive can take a few minutes.
+ur: کوئی ڈرائیو منتخب کریں اور "اسکین کریں" پر کلک کریں۔ پوری ڈرائیو میں چند منٹ لگ سکتے ہیں۔
+en: Folder
+ur: فولڈر
+en: File
+ur: فائل
+en: Double-click a folder to look inside.
+ur: اندر دیکھنے کے لیے فولڈر پر ڈبل کلک کریں۔
+en: Open in File Explorer
+ur: File Explorer میں کھولیں
+en: SMART details
+ur: SMART تفصیلات
+en: About
+ur: تعارف
+en: Tips & FAQ
+ur: تجاویز اور سوالات
+en: System Information
+ur: سسٹم کی معلومات
+en: Read me
+ur: مجھے پڑھیں
+en: Cleanup history
+ur: صفائی کی سرگزشت
+en: Uninstall
+ur: ان انسٹال کریں
+en: DirectX Diagnostic (dxdiag)
+ur: DirectX تشخیص (dxdiag)
+en: Run speed test
+ur: رفتار ٹیسٹ چلائیں
+en: Disk performance
+ur: ڈسک کی کارکردگی
+en: The raw data each disk reports about itself. "Watch" means worth keeping an eye on. "Failing" means below the disk's own safety limit.
+ur: خام ڈیٹا جو ہر ڈسک اپنے بارے میں بتاتی ہے۔ "توجہ طلب" کا مطلب ہے کہ اس پر نظر رکھنا بہتر ہے۔ "ناکام" کا مطلب ہے کہ یہ ڈسک کی اپنی حفاظتی حد سے نیچے ہے۔
+en: Live activity updates every second while this tab is open.
+ur: جب تک یہ ٹیب کھلا ہے، براہ راست سرگرمی ہر سیکنڈ اپ ڈیٹ ہوتی ہے۔
+en: Save as text file
+ur: ٹیکسٹ فائل کے طور پر محفوظ کریں
+en: Copy all
+ur: سب کاپی کریں
+en: Read again
+ur: دوبارہ پڑھیں
+en: Scan
+ur: اسکین کریں
+en: English
+ur: =
+en: 0 items
+ur: 0 آئٹمز
+en: Not running as administrator, so items marked Admin are disabled. To use them, close this window, start it again and click Yes on the Windows prompt.
+ur: ایڈمنسٹریٹر کے طور پر نہیں چل رہا، اس لیے "ایڈمن" نشان والے آئٹمز غیر فعال ہیں۔ انہیں استعمال کرنے کے لیے یہ ونڈو بند کریں، اسے دوبارہ شروع کریں اور Windows کے پیغام میں "ہاں" پر کلک کریں۔
+en: Measure sizes
+ur: سائز ناپیں
+en: Clean up
+ur: صفائی
+en: See what fills your disks and free up space safely. Nothing is deleted until you confirm.
+ur: دیکھیں کہ آپ کی ڈسکیں کس چیز سے بھری ہیں اور محفوظ طریقے سے جگہ خالی کریں۔ جب تک آپ تصدیق نہ کریں، کچھ بھی حذف نہیں ہوتا۔
+en: Disk Cleanup Helper
+ur: =
+en: C: FREE
+ur: <ltr>C:</ltr> پر خالی جگہ
+en: SELECTED TO CLEAN
+ur: صفائی کے لیے منتخب
+en: MEMORY AVAILABLE
+ur: دستیاب میموری
+en: Stop
+ur: روکیں
+en: Analyze disk
+ur: ڈسک کا تجزیہ
+en: Open location
+ur: مقام کھولیں
+en: Drive
+ur: ڈرائیو
+en: List files bigger than
+ur: اس سے بڑی فائلیں دکھائیں
+en: Look in
+ur: کہاں دیکھیں
+en: Clear selection
+ur: انتخاب ختم کریں
+en: Select all safe
+ur: سب محفوظ منتخب کریں
+en: Click Measure sizes to see how much each item uses.
+ur: ہر آئٹم کتنی جگہ لیتا ہے یہ دیکھنے کے لیے "سائز ناپیں" پر کلک کریں۔
+en: to see what it is, where it is, and what you keep or lose.
+ur: تاکہ جان سکیں کہ یہ کیا ہے، کہاں ہے، اور آپ کیا رکھتے یا کھوتے ہیں۔
+en: Click an item
+ur: کسی آئٹم پر کلک کریں
+
+# ---- Disks/DiskActivity.cs, Disks/SpeedTest.cs, UI/MainWindow.PerformanceTab.cs
+en: Writing the test file failed. Is the drive full?
+ur: ٹیسٹ فائل لکھنا ناکام ہو گیا۔ کیا ڈرائیو بھری ہوئی ہے؟
+en: Reading it back...
+ur: اسے واپس پڑھا جا رہا ہے...
+en: Writing a {0} MB test file...
+ur: {0} MB کی ٹیسٹ فائل لکھی جا رہی ہے...
+en: Could not create the test file in {0}.
+ur: {0} میں ٹیسٹ فائل نہیں بن سکی۔
+en: Could not open the test file.
+ur: ٹیسٹ فائل نہیں کھل سکی۔
+en: Not enough memory for the speed test.
+ur: رفتار ٹیسٹ کے لیے کافی میموری نہیں۔
+en: Reading small random blocks...
+ur: چھوٹے بے ترتیب بلاکس پڑھے جا رہے ہیں...
+
+# ---- App/Program.cs, App/AppOptions.cs
+en: Disk Cleanup Helper needs Windows 10 or Windows 11.
+ur: Disk Cleanup Helper کو Windows 10 یا Windows 11 درکار ہے۔
+en: Disk Cleanup Helper could not start:<br><br>{0}
+ur: Disk Cleanup Helper شروع نہیں ہو سکا:<br><br>{0}
+en: Something went wrong:<br><br>{0}
+ur: کچھ غلط ہو گیا:<br><br>{0}
+
+# ---- added by hand
+en: (Windows)
+ur: (Windows ڈرائیو)
+
+# ---- Updates (App/Updater.cs, UI/MainWindow.Updates.cs, UI/HelpContent.cs, UI/MainWindow.xaml)
+en: How do updates work?
+ur: اپ ڈیٹس کیسے کام کرتی ہیں؟
+en: When a new version is out, the app downloads it in the background and checks it: its SHA256 and version number must match the release. A bar then offers "Restart now". If you choose "Later", the update is installed when you close the app. You can turn off the automatic check in the About tab; the "Check for updates" button there still works.
+ur: جب نیا ورژن آتا ہے تو ایپ اسے پس منظر میں ڈاؤن لوڈ کر کے چیک کرتی ہے: اس کا SHA256 اور ورژن نمبر ریلیز سے ملنا ضروری ہے۔ پھر ایک پٹی "ابھی دوبارہ شروع کریں" کی پیشکش کرتی ہے۔ اگر آپ "بعد میں" چنیں تو اپ ڈیٹ ایپ بند کرنے پر انسٹال ہو جاتی ہے۔ آپ "تعارف" ٹیب میں خودکار چیک بند کر سکتے ہیں؛ وہاں "اپ ڈیٹس چیک کریں" بٹن پھر بھی کام کرتا ہے۔
+en: No. It sends nothing about your PC. The only connection it makes is to ask GitHub whether a new version exists, at most once a day. You can turn that off in the About tab.
+ur: نہیں۔ یہ آپ کے PC کے بارے میں کچھ نہیں بھیجتی۔ اس کا واحد کنکشن یہ ہے کہ یہ GitHub سے پوچھتی ہے کہ کیا کوئی نیا ورژن موجود ہے، دن میں زیادہ سے زیادہ ایک بار۔ آپ اسے "تعارف" ٹیب میں بند کر سکتے ہیں۔
+en: It sends nothing about your PC. It only asks GitHub whether a new version exists, and you can turn that off in the About tab. A history of what was cleaned is saved on this PC only.
+ur: یہ آپ کے PC کے بارے میں کچھ نہیں بھیجتا۔ یہ صرف GitHub سے پوچھتا ہے کہ کیا کوئی نیا ورژن موجود ہے، اور آپ اسے "تعارف" ٹیب میں بند کر سکتے ہیں۔ جو کچھ صاف کیا گیا اس کی سرگزشت صرف اسی PC پر محفوظ ہوتی ہے۔
+en: Update check: version {0} is the newest.
+ur: اپ ڈیٹ چیک: ورژن {0} سب سے نیا ہے۔
+en: Downloading version {0}... {1}%
+ur: ورژن {0} ڈاؤن لوڈ ہو رہا ہے... {1}%
+en: Version {0} is available. This is a developer build, so it does not update itself.
+ur: ورژن {0} دستیاب ہے۔ یہ ڈویلپر بلڈ ہے، اس لیے یہ خود کو اپ ڈیٹ نہیں کرتی۔
+en: Update check: version {0} is available.
+ur: اپ ڈیٹ چیک: ورژن {0} دستیاب ہے۔
+en: Downloading version {0}...
+ur: ورژن {0} ڈاؤن لوڈ ہو رہا ہے...
+en: The update cannot be installed here, because this folder cannot be changed: {0}
+ur: اپ ڈیٹ یہاں انسٹال نہیں کی جا سکتی، کیونکہ یہ فولڈر تبدیل نہیں کیا جا سکتا: {0}
+en: The update was not downloaded: {0}
+ur: اپ ڈیٹ ڈاؤن لوڈ نہیں ہوئی: {0}
+en: Later
+ur: بعد میں
+en: This is a developer build, so it does not update itself.
+ur: یہ ڈویلپر بلڈ ہے، اس لیے یہ خود کو اپ ڈیٹ نہیں کرتی۔
+en: What's new in version {0}:
+ur: ورژن {0} میں نیا کیا ہے:
+en: Version {0} is installed, but it could not be started: {1}<br><br>Start Disk Cleanup Helper again.
+ur: ورژن {0} انسٹال ہو گیا ہے، لیکن اسے شروع نہیں کیا جا سکا: {1}<br><br>Disk Cleanup Helper دوبارہ شروع کریں۔
+en: No details were given for this version.
+ur: اس ورژن کے لیے کوئی تفصیلات نہیں دی گئیں۔
+en: Version {0} is downloaded and checked (SHA256 and version number).
+ur: ورژن {0} ڈاؤن لوڈ اور چیک ہو گیا ہے (SHA256 اور ورژن نمبر)۔
+en: The update could not be downloaded: {0}
+ur: اپ ڈیٹ ڈاؤن لوڈ نہیں ہو سکی: {0}
+en: Version {0} is ready. Restart to update.
+ur: ورژن {0} تیار ہے۔ اپ ڈیٹ کرنے کے لیے دوبارہ شروع کریں۔
+en: This is version {0}. It has not checked for updates yet.
+ur: یہ ورژن {0} ہے۔ اس نے ابھی تک اپ ڈیٹس چیک نہیں کیں۔
+en: You have the latest version ({0}). Last checked: {1}.
+ur: آپ کے پاس تازہ ترین ورژن ({0}) ہے۔ آخری چیک: {1}۔
+en: Version {0} is installed.
+ur: ورژن {0} انسٹال ہو گیا ہے۔
+en: This copy is in a folder that cannot be changed:<br>{0}<br><br>The release page opens, so you can download version {1} and replace this copy by hand.
+ur: یہ کاپی ایسے فولڈر میں ہے جسے تبدیل نہیں کیا جا سکتا:<br>{0}<br><br>ریلیز کا صفحہ کھلتا ہے، تاکہ آپ ورژن {1} ڈاؤن لوڈ کر کے اس کاپی کو ہاتھ سے بدل سکیں۔
+en: The update could not be installed: {0}
+ur: اپ ڈیٹ انسٹال نہیں ہو سکی: {0}
+en: Version {0} is available. Click "Check for updates" to download it.
+ur: ورژن {0} دستیاب ہے۔ اسے ڈاؤن لوڈ کرنے کے لیے "اپ ڈیٹس چیک کریں" پر کلک کریں۔
+en: The update could not be installed. This copy keeps working as it is.<br><br>{0}
+ur: اپ ڈیٹ انسٹال نہیں ہو سکی۔ یہ کاپی جیسی ہے ویسی ہی کام کرتی رہے گی۔<br><br>{0}
+en: Updated to version {0}.
+ur: ورژن {0} پر اپ ڈیٹ ہو گیا۔
+en: Update check: {0}
+ur: اپ ڈیٹ چیک: {0}
+en: Could not check for updates: {0}
+ur: اپ ڈیٹس چیک نہیں ہو سکیں: {0}
+en: Could not reach GitHub. Check the internet connection and try again.
+ur: GitHub تک رسائی نہیں ہو سکی۔ انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں۔
+en: Checking for updates...
+ur: اپ ڈیٹس چیک کی جا رہی ہیں...
+en: Update check: could not reach GitHub.
+ur: اپ ڈیٹ چیک: GitHub تک رسائی نہیں ہو سکی۔
+en: Check for updates
+ur: اپ ڈیٹس چیک کریں
+en: Check for updates when the app starts
+ur: ایپ شروع ہونے پر اپ ڈیٹس چیک کریں
+en: What's new
+ur: نیا کیا ہے
+en: Restart now
+ur: ابھی دوبارہ شروع کریں
+en: A free helper for Windows 10 and 11 that shows what fills your disks and frees space safely. It sends nothing about your PC. Nothing is deleted until you confirm.
+ur: Windows 10 اور 11 کے لیے ایک مفت مددگار جو دکھاتا ہے کہ آپ کی ڈسکیں کس چیز سے بھری ہیں اور محفوظ طریقے سے جگہ خالی کرتا ہے۔ یہ آپ کے PC کے بارے میں کچھ نہیں بھیجتا۔ جب تک آپ تصدیق نہ کریں، کچھ بھی حذف نہیں ہوتا۔
+en: Updates
+ur: اپ ڈیٹس
+en: Updates come from the app's GitHub page. Each new version is checked (SHA256 and version number) before it replaces this one.
+ur: اپ ڈیٹس ایپ کے GitHub صفحے سے آتی ہیں۔ ہر نیا ورژن اس ورژن کی جگہ لینے سے پہلے چیک کیا جاتا ہے (SHA256 اور ورژن نمبر)۔
+en: Version {0} has no {1} file.
+ur: ورژن {0} میں {1} فائل نہیں ہے۔
+en: Version {0} has a download address that is not on github.com.
+ur: ورژن {0} کا ڈاؤن لوڈ پتہ github.com پر نہیں ہے۔
+en: Version {0} has no SHA256 line in its release text.
+ur: ورژن {0} کے ریلیز متن میں SHA256 والی لائن نہیں ہے۔
+en: GitHub's answer could not be read.
+ur: GitHub کا جواب پڑھا نہیں جا سکا۔
+en: The newest release has an unreadable version number: {0}
+ur: تازہ ترین ریلیز کا ورژن نمبر پڑھا نہیں جا سکتا: {0}
+en: The download came from an unexpected address: {0}
+ur: ڈاؤن لوڈ ایک غیر متوقع پتے سے آیا: {0}
+en: The downloaded file is not a Disk Cleanup Helper program.
+ur: ڈاؤن لوڈ کی گئی فائل Disk Cleanup Helper کا پروگرام نہیں ہے۔
+en: The downloaded file is version {0}, not {1}.
+ur: ڈاؤن لوڈ کی گئی فائل ورژن {0} ہے، {1} نہیں۔
+en: The downloaded file does not match the SHA256 in the release text.
+ur: ڈاؤن لوڈ کی گئی فائل ریلیز متن میں دیے گئے SHA256 سے میل نہیں کھاتی۔
+en: The downloaded file has an unexpected size ({0}).
+ur: ڈاؤن لوڈ کی گئی فائل کا سائز غیر متوقع ہے ({0})۔
+en: The download took too long.
+ur: ڈاؤن لوڈ میں بہت زیادہ وقت لگا۔
