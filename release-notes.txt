@@ -1,12 +1,7 @@
-Version 1.0
-The first public version of Disk Cleanup Helper, for Windows 10 and 11.
+Version 1.1
+- The About tab now shows the license and author notice: Disk Cleanup Helper is free and open source under the GNU GPL v3. "License and terms" opens the full license text, also without internet.
+- Disk Cleanup Helper is now open source: https://github.com/Philip-Droubi/disk-cleanup-helper
+- Safer updates: the updater's test option now accepts only secure addresses, and it is never carried over into an updated copy.
+- Settings > Apps now shows Philip Droubi as the publisher.
 
-- Clean up: safe cleanup of browser and app caches, temp files, old update files and Windows leftovers. Every item says what you keep and what you lose, and nothing is deleted until you confirm.
-- Analyze disk: the biggest folders and files on any drive.
-- Disk health and SMART details: the health, temperature and history of each disk.
-- Disk performance: live disk activity and a speed test.
-- Device details: Windows, processor, memory, graphics, screens, storage, battery, network and sound.
-- 18 languages, light and dark mode.
-- Updates itself: it checks GitHub for a new version at most once a day. You can turn this off in the About tab.
-
-How to start: download DiskCleanupHelper.zip, unzip it and run DiskCleanupHelper.exe. If Windows shows "Windows protected your PC", click "More info", then "Run anyway".
+How to update: if you use Disk Cleanup Helper 1.0, it updates itself (or click "Check for updates" in the About tab). New here? Download DiskCleanupHelper.zip, unzip it and run DiskCleanupHelper.exe.

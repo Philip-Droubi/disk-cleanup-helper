@@ -39,12 +39,33 @@ namespace DiskCleanupHelper.App
         static readonly TimeSpan DownloadTimeout = TimeSpan.FromMinutes(5);
         static readonly Regex ShaLine = new Regex(@"^[ \t]*SHA256:[ \t]*([0-9A-Fa-f]{64})[ \t]*$", RegexOptions.Multiline);
 
-        // Test switch /updatefeed: a local file (or web address) shaped like GitHub's answer, whose download addresses
-        // may be file://.
+        // Test switch /updatefeed: a feed shaped like GitHub's answer, read instead of GitHub. Only an https address or a
+        // file on this PC is used (see UseTestFeed); only a feed file on this PC may point the download at a local file.
         public static string FeedFile;
         static bool FeedIsWeb
         {
-            get { return FeedFile != null && (FeedFile.StartsWith("http://", StringComparison.OrdinalIgnoreCase) || FeedFile.StartsWith("https://", StringComparison.OrdinalIgnoreCase)); }
+            get { return FeedFile != null && FeedFile.StartsWith("https://", StringComparison.OrdinalIgnoreCase); }
+        }
+        static bool FeedIsLocal { get { return FeedFile != null && !FeedIsWeb; } }
+
+        // Sets FeedFile from the /updatefeed value. Anything else (plain http, other address types, a network share) is
+        // ignored, and the normal GitHub check runs.
+        public static void UseTestFeed(string value)
+        {
+            FeedFile = null;
+            if (string.IsNullOrEmpty(value)) return;
+            if (value.Contains("://"))
+            {
+                Uri u;
+                if (Uri.TryCreate(value, UriKind.Absolute, out u) && u.Scheme == Uri.UriSchemeHttps) FeedFile = value;
+                return;
+            }
+            try
+            {
+                string full = Path.GetFullPath(value);
+                if (!full.StartsWith(@"\\", StringComparison.Ordinal)) FeedFile = full;   // not \\server\share
+            }
+            catch { }
         }
 
         static Updater()
@@ -111,7 +132,7 @@ namespace DiskCleanupHelper.App
                     throw;
                 }
             }
-            return Parse(json, Current, FeedFile != null);
+            return Parse(json, Current, FeedIsLocal);
         }
 
         // Without a login, GitHub's API answers 60 requests an hour per internet address, which people sharing an
@@ -209,12 +230,12 @@ namespace DiskCleanupHelper.App
 
         static bool IsHost(Uri u, string host) { return string.Equals(u.Host, host, StringComparison.OrdinalIgnoreCase); }
 
-        // The download address: https on github.com (a local file only with the /updatefeed test switch).
+        // The download address: https on github.com (a file on this PC only with a /updatefeed feed file on this PC).
         static bool AllowedDownload(string url, bool localFeed)
         {
             Uri u;
             if (!Uri.TryCreate(url, UriKind.Absolute, out u)) return false;
-            if (u.IsFile) return localFeed;
+            if (u.IsFile) return localFeed && !u.IsUnc;
             return u.Scheme == Uri.UriSchemeHttps && IsHost(u, "github.com");
         }
 
@@ -242,7 +263,7 @@ namespace DiskCleanupHelper.App
                     Uri u = new Uri(info.ExeUrl);
                     if (u.IsFile)
                     {
-                        if (FeedFile == null) throw new InvalidDataException(L.F("Version {0} has a download address that is not on github.com.", info.Version));
+                        if (!FeedIsLocal || u.IsUnc) throw new InvalidDataException(L.F("Version {0} has a download address that is not on github.com.", info.Version));
                         File.Copy(u.LocalPath, part, true);
                     }
                     else Fetch(u, part, progress, cancel);
@@ -429,25 +450,30 @@ namespace DiskCleanupHelper.App
             File.Delete(path);
         }
 
-        // Starts the new version with the same rights as this one, so there is no new Windows prompt, and with the
-        // same switches (none in normal use).
+        // Starts the new version with the same rights as this one, so there is no new Windows prompt.
         public static void StartNewVersion()
         {
+            ProcessStartInfo psi = new ProcessStartInfo(AppPaths.ExePath, RestartArguments(Environment.GetCommandLineArgs(), Env.IsAdmin));
+            psi.UseShellExecute = false;
+            psi.WorkingDirectory = AppPaths.ExeDir;
+            Process.Start(psi);
+        }
+
+        // The new version's switches: this one's (none in normal use), without a /updatefeed test feed, which never
+        // carries over into the updated copy.
+        public static string RestartArguments(string[] current, bool isAdmin)
+        {
             List<string> args = new List<string>();
-            string[] current = Environment.GetCommandLineArgs();
             for (int i = 1; i < current.Length; i++)
             {
                 string a = current[i].ToLowerInvariant();
-                if (a == "/updated") { i++; continue; }
+                if (a == "/updated" || a == "/updatefeed") { i++; continue; }
                 if (a == "/noelevate") continue;   // added again below when needed
                 args.Add(Env.QuoteArg(current[i]));
             }
             args.Add("/updated " + Current);
-            if (!Env.IsAdmin) args.Add("/noelevate");
-            ProcessStartInfo psi = new ProcessStartInfo(AppPaths.ExePath, string.Join(" ", args));
-            psi.UseShellExecute = false;
-            psi.WorkingDirectory = AppPaths.ExeDir;
-            Process.Start(psi);
+            if (!isAdmin) args.Add("/noelevate");
+            return string.Join(" ", args);
         }
 
         // At every start: removes a leftover old program file quietly. Returns true on the first start after an update:

@@ -23,8 +23,7 @@ namespace DiskCleanupHelper.App
         {
             AppOptions o = AppOptions.Parse(args);
             AppPaths.Init(o);
-            if (!string.IsNullOrEmpty(o.UpdateFeed))
-                Updater.FeedFile = o.UpdateFeed.Contains("://") ? o.UpdateFeed : System.IO.Path.GetFullPath(o.UpdateFeed);
+            Updater.UseTestFeed(o.UpdateFeed);
             L.Init(o.Lang);
             try
             {

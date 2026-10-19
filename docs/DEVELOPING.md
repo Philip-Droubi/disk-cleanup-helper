@@ -156,7 +156,7 @@ DiskCleanupHelper.exe /noelevate /tab 2 /theme dark /lang ar /snapshot %TEMP%\he
 | `/devicereport <file.txt>`, `/selftest <file.txt>`, `/smartsample <file.txt>`, `/temps <file.txt>` | text reports, no window |
 | `/speedtest <folder> <report.txt>` | runs a small speed test (256 MB) in that folder and writes the result, no window |
 | `/userprofile`, `/userlocal`, `/userroaming <folder>` | use another folder as the user profile, Local or Roaming AppData (to test cleanup items safely) |
-| `/updatefeed <file or address>`, `/updatebar` | updater tests: read a local feed instead of GitHub; show the "restart to update" bar |
+| `/updatefeed <file or https address>`, `/updatebar` | updater tests: read a feed shaped like GitHub's answer instead of GitHub (a file on this PC, or an https address; plain http and network shares are ignored); show the "restart to update" bar |
 
 `src/App/AppOptions.cs` parses them all.
 
@@ -166,8 +166,9 @@ The app asks GitHub for the newest release of `Updater.Repo` (`src/App/Updater.c
 counts only when its tag is a higher version, it has the exe on github.com, and its text has a `SHA256: <hash>` line
 (`build.cmd -Publish` writes it). The download is checked against that hash and the exe's own version before it
 replaces the running copy (the old one is kept as `.old.exe` until the new one starts). Copies inside `builds\` never
-update themselves. The `/updatefeed` test switch reads a local feed instead and is meant for testing only: whoever can
-start the app with it could already run any program as that user.
+update themselves. The `/updatefeed` test switch reads a test feed instead, for testing only: a file on this PC or
+an https address (plain http and network shares are ignored). Only a feed file on this PC may point the download
+at a local file, and the switch is not passed on when the app restarts after an update.
 
 ## Forks and changed versions
 
