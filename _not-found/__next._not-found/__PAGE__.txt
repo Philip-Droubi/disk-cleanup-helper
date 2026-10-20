@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+2:I[97367,["/disk-cleanup-helper/_next/static/chunks/2ak4_xf9nbod2.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+7:I[97367,["/disk-cleanup-helper/_next/static/chunks/2ak4_xf9nbod2.js"],"ViewportBoundary"]
+8:I[97367,["/disk-cleanup-helper/_next/static/chunks/2ak4_xf9nbod2.js"],"MetadataBoundary"]
+9:I[27201,["/disk-cleanup-helper/_next/static/chunks/2ak4_xf9nbod2.js"],"IconMark"]
+b:I[39756,["/disk-cleanup-helper/_next/static/chunks/2ak4_xf9nbod2.js"],"default"]
+c:I[37457,["/disk-cleanup-helper/_next/static/chunks/2ak4_xf9nbod2.js"],"default"]
+6:X
+e:X
+e:C
+0:{"buildId":"-V3-SkKsapIpGbBmyjY8m","data":[{"rsc":["$","$1","c",{"children":[null,null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","link","0",{"rel":"icon","href":"/disk-cleanup-helper/icon.png"}],["$","link","1",{"rel":"apple-touch-icon","href":"/disk-cleanup-helper/apple-icon.png"}],["$","$L9","2",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$6","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$6","varyParams":"$e"}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+4:null
+10:true
+6:300
+6:C
+f:0
+a:"$undefined"
+d:"$undefined"
+5:"$undefined"
