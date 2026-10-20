@@ -12,6 +12,10 @@ Nothing is deleted until you confirm.
 
 Free · One small file · 18 languages · Light and dark · [What's new](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest)
 
+[![License: GPL-3.0](https://img.shields.io/github/license/Philip-Droubi/disk-cleanup-helper)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/Philip-Droubi/disk-cleanup-helper)](https://github.com/Philip-Droubi/disk-cleanup-helper/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Philip-Droubi/disk-cleanup-helper/total)](https://github.com/Philip-Droubi/disk-cleanup-helper/releases)
+
 </div>
 
 <picture>
